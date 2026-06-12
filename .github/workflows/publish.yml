@@ -1,0 +1,32 @@
+# Publishes the routine's output to GitHub Pages.
+# Routines push to claude/* branches by default; this workflow takes the
+# site/ folder from those pushes and deploys it to the gh-pages branch,
+# which GitHub Pages serves.
+
+name: Publish Daily Cactus
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+      - 'main'
+    paths:
+      - 'site/**'
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout routine branch
+        uses: actions/checkout@v4
+
+      - name: Deploy site/ to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
+          commit_message: "Publish edition from ${{ github.ref_name }}"
