@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Cactus — Deep Tech — June 14, 2026</title>
+<title>The Daily Cactus &mdash; 2026-06-15 &mdash; Deep Tech</title>
 <style>
   :root{
     --paper:#faf6ee; --ink:#1d1d1b; --muted:#6b675e;
@@ -35,6 +35,12 @@
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
+  .developing{display:inline-block;background:var(--highlight);color:#fff;
+       font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;
+       border-radius:3px;margin-bottom:6px;letter-spacing:1px}
+  .sub-header{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);
+       text-transform:uppercase;letter-spacing:1px;margin:20px 0 4px;
+       border-bottom:1px dotted var(--rule);padding-bottom:2px}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);
        text-align:center;font-family:'Courier New',monospace;
        font-size:12px;color:var(--muted)}
@@ -42,15 +48,15 @@
 </head>
 <body>
   <header class="masthead">
-    <h1>The Daily Cactus 🌵</h1>
-    <div class="dateline">June 14, 2026 · Edition No. 2 · Jaipur, India</div>
+    <h1>The Daily Cactus &#127797;</h1>
+    <div class="dateline">Sunday, 15 June 2026 &middot; Edition No.&nbsp;2 &middot; Jaipur, India</div>
   </header>
 
   <nav>
     <a href="../index.html">Front Page</a>
     <a href="ai.html">AI</a>
     <a href="deep-tech.html" class="active">Deep Tech</a>
-    <a href="climate-energy.html">Climate &amp; Energy</a>
+    <a href="climate-energy.html">Climate & Energy</a>
     <a href="health-tech.html">Health Tech</a>
     <a href="agritech.html">Agritech</a>
     <a href="indian-startups.html">Indian Startups</a>
@@ -62,26 +68,30 @@
   </nav>
 
   <main>
-    <h2 class="section-title">Deep Tech</h2>
-
+    <section>
+      <h2 class="section-title">Deep Tech</h2>
     <article>
-      <h2><a href="https://thequantuminsider.com/2026/06/11/horizon-quantum-dublin-second-quantum-computer-testbed-ireland/">Europe Gets a 256-Qubit Quantum Processor: Horizon Quantum Deploys IonQ System in Dublin</a></h2>
-      <p class="summary">Horizon Quantum Holdings confirmed on June 11 that an IonQ 6th-generation 256-qubit trapped-ion system has been installed at its European headquarters in Dublin — its second quantum testbed globally. The chip delivers 99.99% gate fidelity via microwave gate operations and is backed by Ireland's National Semiconductor Strategy, which is accelerating deployment of hardware-agnostic quantum software across the EU. The testbed enables Horizon Quantum's software stack to run directly on real quantum hardware, closing the simulation-vs-reality gap for EU-based quantum developers.</p>
-      <p class="why"><b>Why it matters:</b> Sovereign quantum hardware access is the bottleneck for applied quantum research. The Dublin deployment is a concrete step toward Europe's quantum independence — reducing dependence on US or Chinese quantum cloud providers. India's own quantum mission ($1.1B committed through 2031) is still maturing on hardware testbeds; watching Ireland's national strategy may be instructive for Indian policymakers allocating quantum investment in the next budget cycle.</p>
-      <p class="meta">The Quantum Insider · <a href="https://thequantuminsider.com/2026/06/11/horizon-quantum-dublin-second-quantum-computer-testbed-ireland/">Read the original →</a></p>
+        <h2><a href="https://spectrum.ieee.org/ai-chip-design">AI Agent Designs a Full RISC-V CPU from a 219-Word Brief in 12 Hours</a></h2>
+        <p class="summary">Verkor.io's AI agent 'Design Conductor' autonomously designed a complete RISC-V CPU core (VerCore) from a 219-word specification in 12 hours — no human-written RTL code involved. The chip passed functional verification. IEEE Spectrum identifies this as the first published case of an AI agent producing a production-grade CPU core from a plain-language prompt.</p>
+        <p class="why"><b>Why it matters:</b> This closes a loop: AI is now being used to design the chips that run AI. If this pipeline matures, semiconductor design becomes a software problem. India's ambitions in chip design — Vedanta, ISRO, the India Semiconductor Mission — need to reckon with an acceleration in design automation that could both democratise and disrupt the profession.</p>
+        <p class="meta">IEEE Spectrum &middot; <a href="https://spectrum.ieee.org/ai-chip-design">Read the original &rarr;</a></p>
     </article>
-
     <article>
-      <h2><a href="https://londontechweek.com/press-releases/london-tech-week-2026-showcase-global-deep-tech-innovators-space-robotics-sciences-quantum-ai">London Tech Week 2026 (June 8–12) Made Deep Tech Its Centrepiece — Space, Quantum, and Robotics on Stage</a></h2>
-      <p class="summary">London Tech Week (concluded June 12) featured a dedicated Deep Tech Stage highlighting frontier breakthroughs in quantum computing, space technology, advanced robotics, and materials science. Keynotes included Perplexity AI CEO Aravind Srinivas and Isomorphic Labs President Max Jaderberg, alongside European and global deep tech founders scaling hardware and science-based companies. The event's deep tech pivot marks a visible shift in Europe's tech establishment: capital and leadership attention are moving toward physics-based differentiation, not just software.</p>
-      <p class="why"><b>Why it matters:</b> Bharat Innovates 2026 (also this week, in Nice) is India's parallel deep tech push — and the timing is not coincidental. The intersection of India's engineering talent depth and European deep tech capital is where the next generation of India-EU partnerships is forming. For founders or strategists building across that corridor, this week is when the conversations start.</p>
-      <p class="meta">London Tech Week · <a href="https://londontechweek.com/press-releases/london-tech-week-2026-showcase-global-deep-tech-innovators-space-robotics-sciences-quantum-ai">Read the original →</a></p>
+        <h2><a href="https://spectrum.ieee.org/neutral-atom-quantum-computing">Neutral-Atom Quantum Computing Is 2026's Biggest Hardware Leap</a></h2>
+        <p class="summary">Neutral-atom quantum computing systems are hitting commercial milestones in 2026, using optical tweezers to control and entangle large qubit arrays at room temperature — an advantage over superconducting systems requiring dilution refrigerators. Microsoft Quantum has deployed a new progress-tracking framework. IEEE Spectrum's Top Tech 2026 report identifies neutral-atom computing as the year's most significant hardware development.</p>
+        <p class="why"><b>Why it matters:</b> If neutral-atom systems prove commercially scalable in 2026, the quantum timeline for practical applications compresses meaningfully. This matters for India's cryptography infrastructure planning, financial risk modelling, and the materials science research underpinning battery and semiconductor development.</p>
+        <p class="meta">IEEE Spectrum &middot; <a href="https://spectrum.ieee.org/neutral-atom-quantum-computing">Read the original &rarr;</a></p>
     </article>
+    <article>
+        <h2><a href="https://www.carbonbrief.org/debriefed-12-june-2026-el-nino-begins-cop31-hosts-eye-electrification-atlantic-current-monitoring-at-risk/">Atlantic Current (AMOC) Monitoring Capacity Is at Risk as El Niño Intensifies</a></h2>
+        <p class="summary">Carbon Brief's June 12 Debriefed reports that monitoring capacity for the Atlantic Meridional Overturning Circulation (AMOC) — one of the most consequential potential climate tipping points — is at risk due to funding gaps in ocean sensor networks. Simultaneous with El Niño being declared underway, reduced AMOC monitoring means scientists have fewer real-time data points to detect early signs of weakening.</p>
+        <p class="why"><b>Why it matters:</b> AMOC weakening could dramatically alter European and South Asian climate patterns. The intersection of a fast El Niño and degraded ocean monitoring is an infrastructure problem that doesn't get headline attention but matters enormously for climate risk models — which in turn underpin agricultural planning, insurance pricing, and infrastructure investment in India.</p>
+        <p class="meta">Carbon Brief &middot; <a href="https://www.carbonbrief.org/debriefed-12-june-2026-el-nino-begins-cop31-hosts-eye-electrification-atlantic-current-monitoring-at-risk/">Read the original &rarr;</a></p>
+    </article>
+    </section>
 
   </main>
 
-  <footer class="colophon">
-    Edition No. 2 · June 14, 2026 · 22 stories across 10 sections · 30 RSS feeds attempted (all returned HTTP 403 or were blocked); 18 web searches used as fallback · The Daily Cactus is produced for one reader in Jaipur, India.
-  </footer>
+  <footer class="colophon">The Daily Cactus &middot; Edition No.&nbsp;2 &middot; 15&nbsp;June&nbsp;2026 &middot; 38&nbsp;stories across 10&nbsp;sections &middot; 30&nbsp;RSS&nbsp;feeds scanned, 30&nbsp;skipped (network egress policy blocked all feeds; edition sourced entirely via web search) &middot; Developing threads: Iran&ndash;Hormuz, India&nbsp;stagflation, India&ndash;France&nbsp;AI&nbsp;diplomacy, Zepto&nbsp;IPO, US&nbsp;AI&nbsp;governance</footer>
 </body>
 </html>
