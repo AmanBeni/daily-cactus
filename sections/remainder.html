@@ -15,13 +15,24 @@
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
   .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
+  article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
+  article h2 a{color:var(--ink);text-decoration:none}
+  article h2 a:hover{color:var(--accent)}
+  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
+  .summary{margin-bottom:8px}
+  .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
+  .why b{color:var(--accent)}
+  .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  .meta a{color:var(--highlight)}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
 </style>
 </head>
 <body>
   <header class="masthead">
     <h1>The Daily Cactus 🌵</h1>
-    <div class="dateline">June 16, 2026 · Edition No. 2 · Jaipur, India</div>
+    <div class="dateline">June 16, 2026 · Edition No. 5 · Jaipur, India</div>
   </header>
   <nav>
     <a href="../index.html">Front Page</a>
@@ -35,15 +46,29 @@
     <a href="india.html">India</a>
     <a href="world.html">World</a>
     <a href="other-interests.html">Other Interests</a>
+    <a href="remainder.html" class="active">Remainder</a>
   </nav>
   <main>
-    <h2 class="section-title">Remainder</h2>
-    <p style="padding:18px 0;font-family:'Courier New',monospace;font-size:13px;color:var(--muted);">
-      No stories for today's Remainder — all significant items are placed in their home sections. A quiet inbox is good editing.
-    </p>
+    <section>
+      <h2 class="section-title">Remainder</h2>
+      <p style="font-family:'Courier New',monospace;font-size:13px;color:var(--muted);margin:16px 0;font-style:italic;">Stories that matter but fit no single section cleanly.</p>
+
+      <article>
+        <h2><a href="https://www.economist.com/finance-and-economics/2026/06/15/meet-the-worlds-top-ai-pilled-economists">The Economist profiles the world's most AI-optimistic economists — and where they work</a></h2>
+        <p class="summary">The Economist surveys economists who believe AI will fundamentally reshape productivity and growth curves — a cohort it labels "AI-pilled." Most are not in academic positions but in tech companies, hedge funds, and central bank research departments. Their models project productivity growth significantly above mainstream consensus.</p>
+        <p class="why"><b>Why it matters:</b> Understanding the intellectual scaffolding of AI-optimism is useful for anyone in strategy or founder work — especially when engaging with investors or boards operating from very different priors. Knowing who these economists are and what they're projecting is part of navigating the AI discourse credibly.</p>
+        <p class="meta">The Economist · <a href="https://www.economist.com/finance-and-economics/2026/06/15/meet-the-worlds-top-ai-pilled-economists">Read the original →</a></p>
+      </article>
+
+      <article>
+        <h2><a href="https://www.fiercebiotech.com/biotech/japan-south-korea-challenge-wests-place-research-rankings-report">Japan and South Korea are outpacing the West in science output growth — with India watching</a></h2>
+        <p class="summary">The latest Nature Index shows China still leads global scientific output with 22% growth year-over-year, but Japan and South Korea are rising fastest among the top 10, outpacing the US, Germany, and UK in contribution growth rates. The West's research dominance is no longer a given.</p>
+        <p class="why"><b>Why it matters:</b> India's own research output is growing but undercounted in global rankings due to institutional and publication-quality gaps. The East Asia surge is a data point for Indian universities and R&amp;D policymakers making the case for more investment — and a competitive pressure signal for India's tech talent positioning.</p>
+        <p class="meta">Fierce Biotech · <a href="https://www.fiercebiotech.com/biotech/japan-south-korea-challenge-wests-place-research-rankings-report">Read the original →</a></p>
+      </article>
+
+    </section>
   </main>
-  <footer class="colophon">
-    Edition No. 2 · June 16, 2026 · 0 stories · The Daily Cactus is produced for one reader in Jaipur, India.
-  </footer>
+  <footer class="colophon">Edition No. 5 · June 16, 2026 · 51 stories across 11 sections · 33 feeds scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

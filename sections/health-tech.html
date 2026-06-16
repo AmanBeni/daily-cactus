@@ -15,23 +15,24 @@
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
   .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
-  article{padding:18px 0;border-bottom:1px solid var(--rule)}
+  article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
   article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
+  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
   .summary{margin-bottom:8px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
-  .developing{display:inline-block;background:var(--highlight);color:#fff;font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;border-radius:3px;margin-bottom:6px;letter-spacing:1px}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
 </style>
 </head>
 <body>
   <header class="masthead">
     <h1>The Daily Cactus 🌵</h1>
-    <div class="dateline">June 16, 2026 · Edition No. 2 · Jaipur, India</div>
+    <div class="dateline">June 16, 2026 · Edition No. 5 · Jaipur, India</div>
   </header>
   <nav>
     <a href="../index.html">Front Page</a>
@@ -45,27 +46,45 @@
     <a href="india.html">India</a>
     <a href="world.html">World</a>
     <a href="other-interests.html">Other Interests</a>
+    <a href="remainder.html">Remainder</a>
   </nav>
   <main>
-    <h2 class="section-title">Health Tech</h2>
+    <section>
+      <h2 class="section-title">Health Tech</h2>
 
-    <article>
-      <h2><a href="https://www.lqventures.com/ai-in-healthcare-and-digital-health-today-june-15-2026/">Abridge Moves Beyond Ambient Notes — Now Tackling Claims, Coding, and Prior Authorization</a></h2>
-      <p class="summary">Abridge, the clinical documentation AI backed by a strategic Eli Lilly investment, is expanding its platform from ambient note-writing into claims management, medical coding, prior authorization, clinical decision support, and research workflows. The same June 15 roundup highlights Evaxion winning the 2026 Prix Galien UK Award for its AI-enabled vaccine target discovery and design platform, and an emerging academic case for clinical digital twins (pending better EHR data integration and governance frameworks).</p>
-      <p class="why"><b>Why it matters:</b> Abridge's expansion is the clearest signal yet that ambient AI in healthcare is graduating from a documentation efficiency play to a billing-and-operations layer — which is where hospital economics actually live. If this works at scale, it transforms the administrative burden that consumes 30-40% of clinical time in developed-market healthcare. The model is worth watching for Indian health system applications.</p>
-      <p class="meta">LucidQuest Ventures · <a href="https://www.lqventures.com/ai-in-healthcare-and-digital-health-today-june-15-2026/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://www.statnews.com/wp-content/uploads/2024/05/AdobeStock_466014400-645x645.jpeg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.statnews.com/2026/06/16/verge-labs-ai-model-clinical-trials-data-neurology-diseases/">AI startup mines failed trial data to predict which patients will actually respond to treatment</a></h2>
+        <p class="summary">Verge Labs has built an AI model that re-analyses datasets from failed clinical trials to identify patient sub-populations that did respond to treatments which flopped in aggregate. The company targets neurology — the category with the highest trial failure rates — arguing it can revive abandoned drug candidates by enrolling the right patients in future trials.</p>
+        <p class="why"><b>Why it matters:</b> Patient stratification is the highest-leverage AI application in drug development. If this works at scale, it could meaningfully cut the 90%+ failure rate in CNS trials — a category where India's pharma generics sector and CRO industry are increasingly active participants.</p>
+        <p class="meta">STAT News · <a href="https://www.statnews.com/2026/06/16/verge-labs-ai-model-clinical-trials-data-neurology-diseases/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.fiercehealthcare.com/finance/care-navigation-startup-garner-health-banks-100m-series-e-274b-valuation">Garner Health Raises $100M Series E at $2.74B Valuation to Scale AI-Driven Care Navigation</a></h2>
-      <p class="summary">Care navigation startup Garner Health closed a $100M Series E led by Index Ventures (Kleiner Perkins, Sequoia, Founders Fund, Kaiser Permanente Ventures participating) at a $2.74 billion valuation. The company, at roughly $200M gross ARR (doubled for five consecutive years), uses AI analytics to help employers steer employees toward high-performing providers based on outcome data rather than proximity. Almost 800 employer partners as of the raise (late May 2026).</p>
-      <p class="why"><b>Why it matters:</b> Garner is solving a US-specific employer insurance navigation problem, but the underlying model — using AI to rank providers by outcome quality for self-insured employers — is architecturally relevant to Indian corporate health benefits as that market matures. The $2.74B valuation at $200M ARR is also a useful benchmark for health-AI pricing.</p>
-      <p class="meta">Fierce Healthcare · <a href="https://www.fiercehealthcare.com/finance/care-navigation-startup-garner-health-banks-100m-series-e-274b-valuation">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://www.fiercebiotech.com/biotech/merck-inks-510m-biobucks-data-generation-partnership-protillion">Merck bets $510M (biobucks) on AI drug design platform Protillion</a></h2>
+        <p class="summary">Merck has signed a collaboration and license agreement with Protillion, an AI-native drug design company, worth up to $510 million in milestone payments. The deal pairs Protillion's generative design platform with Merck's drug discovery expertise and biology data to drive new candidate generation.</p>
+        <p class="why"><b>Why it matters:</b> Big pharma is doubling down on AI drug design partnerships after early-stage deals proved the model. This is the benchmark deal that India's AI drug discovery startups will be measured against when approaching global pharma partnerships.</p>
+        <p class="meta">Fierce Biotech · <a href="https://www.fiercebiotech.com/biotech/merck-inks-510m-biobucks-data-generation-partnership-protillion">Read the original →</a></p>
+      </article>
 
+      <article>
+        <img class="story-img" src="https://www.statnews.com/wp-content/uploads/2026/06/GettyImages-1354533773-645x645.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.statnews.com/pharmalot/2026/06/15/colorado-drug-imports-canada/">FDA clears Colorado to import prescription drugs from Canada to bring prices down</a></h2>
+        <p class="summary">The FDA has approved Colorado's application to import certain prescription drugs from Canada — the first state-level importation approval. The move is part of a broader push to reduce drug prices through expanded import channels and marks a significant policy shift from the FDA's historically restrictive stance on importation.</p>
+        <p class="why"><b>Why it matters:</b> This is an early real-world case study in how drug pricing reform actually happens at the system level. The state-by-state importation model is one that health policy observers in India — watching drug pricing battles between MNCs and the NPPA — will track for comparative lessons.</p>
+        <p class="meta">STAT News · <a href="https://www.statnews.com/pharmalot/2026/06/15/colorado-drug-imports-canada/">Read the original →</a></p>
+      </article>
+
+      <article>
+        <img class="story-img" src="https://www.statnews.com/wp-content/uploads/2025/04/AdobeStock_879388277-645x645.jpeg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.statnews.com/2026/06/16/biotech-news-arch-launched-neumora-stops-depression-program/">ARCH-backed Neumora scraps its lead depression drug; cuts 35% of workforce</a></h2>
+        <p class="summary">Neumora Therapeutics — one of the more closely watched depression drug programmes, backed by ARCH Venture Partners — has stopped its lead candidate after disappointing trial results and is laying off 35% of its staff. Separately, enGene has halved its workforce, underscoring a broader biotech headcount contraction.</p>
+        <p class="why"><b>Why it matters:</b> Depression drugs have a brutal clinical failure rate, and Neumora was a well-resourced bet by sophisticated investors. The layoffs tracker across biotech this year suggests the sector is in a capital-efficiency phase — relevant context for health tech investors and for CROs serving the space.</p>
+        <p class="meta">STAT News · <a href="https://www.statnews.com/2026/06/16/biotech-news-arch-launched-neumora-stops-depression-program/">Read the original →</a></p>
+      </article>
+
+    </section>
   </main>
-  <footer class="colophon">
-    Edition No. 2 · June 16, 2026 · 2 stories · 33 RSS feeds attempted (all HTTP 403); 16 web searches as fallback · The Daily Cactus is produced for one reader in Jaipur, India.
-  </footer>
+  <footer class="colophon">Edition No. 5 · June 16, 2026 · 51 stories across 11 sections · 33 feeds scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

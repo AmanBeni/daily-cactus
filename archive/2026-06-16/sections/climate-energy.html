@@ -15,23 +15,24 @@
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
   .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
-  article{padding:18px 0;border-bottom:1px solid var(--rule)}
+  article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
   article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
+  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
   .summary{margin-bottom:8px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
-  .developing{display:inline-block;background:var(--highlight);color:#fff;font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;border-radius:3px;margin-bottom:6px;letter-spacing:1px}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
 </style>
 </head>
 <body>
   <header class="masthead">
     <h1>The Daily Cactus 🌵</h1>
-    <div class="dateline">June 16, 2026 · Edition No. 2 · Jaipur, India</div>
+    <div class="dateline">June 16, 2026 · Edition No. 5 · Jaipur, India</div>
   </header>
   <nav>
     <a href="../index.html">Front Page</a>
@@ -45,35 +46,58 @@
     <a href="india.html">India</a>
     <a href="world.html">World</a>
     <a href="other-interests.html">Other Interests</a>
+    <a href="remainder.html">Remainder</a>
   </nav>
   <main>
-    <h2 class="section-title">Climate &amp; Energy</h2>
+    <section>
+      <h2 class="section-title">Climate &amp; Energy</h2>
 
-    <article>
-      <h2><a href="https://about.bnef.com/insights/clean-energy/bloombergnefs-new-energy-outlook-2026-transition-to-newer-technologies-expanded-electrification-to-strengthen-nations-energy-security/">BloombergNEF 2026 Outlook: Solar Becomes the World's Largest Power Source by 2032, Battery Storage Up 17-Fold</a></h2>
-      <p class="summary">BNEF's New Energy Outlook 2026 finds solar will top world electricity generation by 2032, with battery storage growing from 223 GW today to 3.8 TW by 2035 — a 17-fold jump. The Iran energy shock is credited with accelerating electrification by making energy independence economically urgent. By 2035, 11% of all generated megawatt-hours will be time-shifted via storage, up from 3% today. The report makes clear that countries relying on imported fossil fuels can materially cut price-shock exposure through domestic renewables at scale.</p>
-      <p class="why"><b>Why it matters:</b> India's Hormuz exposure is exactly the fossil-fuel import risk BNEF says electrification resolves. This report frames India's aggressive solar and battery targets not as climate virtue but as energy security — a much more durable policy driver. For anyone tracking clean energy or climate-adjacent startups, this is the year's clearest macro reference document.</p>
-      <p class="meta">BloombergNEF · <a href="https://about.bnef.com/insights/clean-energy/bloombergnefs-new-energy-outlook-2026-transition-to-newer-technologies-expanded-electrification-to-strengthen-nations-energy-security/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://www.carbonbrief.org/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-10.40.53-1024x529.png" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Upgrading India's air conditioners could save households ₹69 billion a year — and ease the grid</a></h2>
+        <p class="summary">A Carbon Brief analysis finds that replacing India's existing ACs with the most energy-efficient models currently available would cut aggregate household energy bills by ₹69 billion ($724 million) per year. Cooling is now the fastest-growing load on India's electricity grid, and the study makes simultaneous economic and grid-stability cases for raising minimum efficiency standards.</p>
+        <p class="why"><b>Why it matters:</b> This is direct policy ammunition — the ₹69bn figure is large enough to move utility economics and gives the Bureau of Energy Efficiency a hard number for its standards revision. For founders and investors in energy efficiency, smart home tech, or cooling, this is the demand mandate arriving in quantified form.</p>
+        <p class="meta">Carbon Brief · <a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <span class="developing">📈 DEVELOPING</span>
-      <h2><a href="https://www.bloomberg.com/news/articles/2026-06-15/strait-of-hormuz-what-the-us-iran-interim-peace-deal-means-for-oil-and-shipping">What the Hormuz Reopening Means for Oil Prices and Global Shipping Costs</a></h2>
-      <p class="summary">Bloomberg's analysis of the US-Iran interim deal (signed June 14) finds the Hormuz reopening will gradually reverse the oil price spike that pushed Brent toward $97 — but cautions the path down depends on how quickly tanker rerouting unwinds and whether Iran's 60-day nuclear negotiations succeed. Before the February blockade, roughly 25% of seaborne oil and 20% of LNG transited the strait. A failed nuclear follow-on could see closure again.</p>
-      <p class="why"><b>Why it matters:</b> India's import bill, rupee trajectory, and the RBI's rate-cut calculus all hinge on where crude settles. A sustained Brent correction below $80 would give the RBI room to cut rates — which directly affects startup funding conditions, FMCG input costs, and logistics economics across India.</p>
-      <p class="meta">Bloomberg · <a href="https://www.bloomberg.com/news/articles/2026-06-15/strait-of-hormuz-what-the-us-iran-interim-peace-deal-means-for-oil-and-shipping">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://www.canarymedia.com/articles/solar/solar-wind-trump-obstacles-tax-credits">US clean energy developers face a July 4 hard deadline to lock in federal tax credits</a></h2>
+        <p class="summary">Trump's "One Big Beautiful Bill" Act set July 4, 2026 as the drop-dead date for solar and wind projects to qualify for the existing federal tax incentive structure. After that date, new and more restrictive rules take effect. Developers are racing to reach "safe harbour" thresholds in the next three weeks.</p>
+        <p class="why"><b>Why it matters:</b> The US clean energy tax credit cliff directly affects global renewable investment flows — equipment manufacturers (including Indian exporters) and project developers operating in the US face a hard stop. India's solar module manufacturers should expect a short-term demand surge followed by a drop.</p>
+        <p class="meta">Canary Media · <a href="https://www.canarymedia.com/articles/solar/solar-wind-trump-obstacles-tax-credits">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.bloomberg.com/news/articles/2026-05-19/iran-energy-shock-supports-boom-in-renewables-and-electrification">The Iran Energy Shock Is Accelerating the Renewable Boom, Not Slowing It</a></h2>
-      <p class="summary">Bloomberg reported in May that the Hormuz disruption — far from derailing clean energy investment — reinforced the economic case for domestic renewable generation and electrification. Governments accelerated renewable targets and grid investment citing energy security; the BNEF NEO 2026 formally incorporated this catalyst into its base-case scenario, projecting the clean energy shift receives a structural tailwind from geopolitical energy risk.</p>
-      <p class="why"><b>Why it matters:</b> The Hormuz crisis turned "green energy = good for climate" into "green energy = national security" — the latter is a far more durable policy driver. Even with the strait now reopening, the memory of $97 oil will persist in government capex plans, procurement decisions, and startup funding theses for years.</p>
-      <p class="meta">Bloomberg · <a href="https://www.bloomberg.com/news/articles/2026-05-19/iran-energy-shock-supports-boom-in-renewables-and-electrification">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://www.carbonbrief.org/wp-content/uploads/2026/06/UKs-EV-drivers-are-now-saving-1100-a-year-–-and-3bn-in-total.png" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.carbonbrief.org/analysis-uks-ev-drivers-are-now-saving-1100-each-a-year-and-3bn-in-total/">UK EV owners are saving £1,100 per year in fuel costs — even as the government wavers on targets</a></h2>
+        <p class="summary">Carbon Brief analysis shows UK EV drivers are collectively saving £3 billion a year in fuel compared to petrol equivalents. The timing is awkward for the government, which is reportedly considering relaxing its 2030 ICE ban. The data strengthens the economic case for holding the mandate — EVs have crossed the household-finance tipping point.</p>
+        <p class="why"><b>Why it matters:</b> The economic payback case for EVs is clarifying globally. India's own EV transition is being watched by the same policy community — the UK data provides a template for calculating household-level savings arguments that Indian state governments and OEMs could use.</p>
+        <p class="meta">Carbon Brief · <a href="https://www.carbonbrief.org/analysis-uks-ev-drivers-are-now-saving-1100-each-a-year-and-3bn-in-total/">Read the original →</a></p>
+      </article>
 
+      <article>
+        <h2><a href="https://www.canarymedia.com/articles/clean-energy/clean-energy-us-set-records">US solar and wind set spring records even as policy uncertainty rises</a></h2>
+        <p class="summary">The US "shoulder season" (spring 2026) saw renewable energy generation hit new highs in multiple markets, driven by record solar additions and favourable wind conditions. The records arrived despite Trump's policy headwinds against clean energy, suggesting the build-out has its own deployment momentum now.</p>
+        <p class="why"><b>Why it matters:</b> Context for the global clean energy transition — even with political headwinds, once deployment reaches critical mass it can sustain itself. India's own record solar additions are running on similar logic; the question is whether grid infrastructure can keep pace.</p>
+        <p class="meta">Canary Media · <a href="https://www.canarymedia.com/articles/clean-energy/clean-energy-us-set-records">Read the original →</a></p>
+      </article>
+
+      <article>
+        <h2><a href="https://www.canarymedia.com/articles/solar/new-york-gov-sign-balcony-solar-bill">New York could legalise plug-in balcony solar panels — a policy template worth watching</a></h2>
+        <p class="summary">The New York state legislature has passed the SUNNY Act, which would legalise small solar panels that plug into standard home outlets — enabling apartment dwellers to generate their own electricity for the first time. Governor Hochul has not yet signed the bill. Germany legalised similar "balcony power stations" in 2023 and adoption exceeded all official forecasts.</p>
+        <p class="why"><b>Why it matters:</b> The balcony solar model is directly applicable to India's vast urban apartment stock. If it demonstrates success in New York, it will substantially shorten the policy argument timeline for DDA and municipal authorities in Indian cities where rooftop solar is impractical for most residents.</p>
+        <p class="meta">Canary Media · <a href="https://www.canarymedia.com/articles/solar/new-york-gov-sign-balcony-solar-bill">Read the original →</a></p>
+      </article>
+
+      <article>
+        <h2><a href="https://www.canarymedia.com/articles/transmission/new-england-hydropower-transmission-line">New England's $1bn+ hydropower transmission link is running — but early results are mixed</a></h2>
+        <p class="summary">The New England Clean Energy Connect, which began carrying Canadian hydropower into Maine in January, is producing results that fall below initial projections on some metrics after six months of operation. Supporters maintain the line is net positive; sceptics say it is underdelivering on renewable displacement commitments.</p>
+        <p class="why"><b>Why it matters:</b> A useful reality check on large infrastructure claims — complex transmission projects often have more nuanced value calculations than their advocates acknowledge. Worth noting as India scales its own grid interconnection ambitions.</p>
+        <p class="meta">Canary Media · <a href="https://www.canarymedia.com/articles/transmission/new-england-hydropower-transmission-line">Read the original →</a></p>
+      </article>
+
+    </section>
   </main>
-  <footer class="colophon">
-    Edition No. 2 · June 16, 2026 · 3 stories · 33 RSS feeds attempted (all HTTP 403); 16 web searches as fallback · The Daily Cactus is produced for one reader in Jaipur, India.
-  </footer>
+  <footer class="colophon">Edition No. 5 · June 16, 2026 · 51 stories across 11 sections · 33 feeds scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

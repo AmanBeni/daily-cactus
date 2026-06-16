@@ -15,23 +15,24 @@
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
   .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
-  article{padding:18px 0;border-bottom:1px solid var(--rule)}
+  article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
   article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
+  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
   .summary{margin-bottom:8px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
-  .developing{display:inline-block;background:var(--highlight);color:#fff;font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;border-radius:3px;margin-bottom:6px;letter-spacing:1px}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
 </style>
 </head>
 <body>
   <header class="masthead">
     <h1>The Daily Cactus 🌵</h1>
-    <div class="dateline">June 16, 2026 · Edition No. 2 · Jaipur, India</div>
+    <div class="dateline">June 16, 2026 · Edition No. 5 · Jaipur, India</div>
   </header>
   <nav>
     <a href="../index.html">Front Page</a>
@@ -45,43 +46,54 @@
     <a href="india.html" class="active">India</a>
     <a href="world.html">World</a>
     <a href="other-interests.html">Other Interests</a>
+    <a href="remainder.html">Remainder</a>
   </nav>
   <main>
-    <h2 class="section-title">India</h2>
+    <section>
+      <h2 class="section-title">India</h2>
 
-    <article>
-      <h2><a href="https://www.business-standard.com/economy/news/india-exports-up-18-at-45-2-bn-in-may-trade-deficit-widens-to-28-21-bn-126061500563_1.html">India's May Exports Hit $45.2bn — Up 18% Year-on-Year, Even as Hormuz Was Closed</a></h2>
-      <p class="summary">India's merchandise exports grew 18% year-on-year in May 2026 to $45.2 billion, driven by petroleum products (+54.89% on high prices), engineering goods (+24.48%), and electronics (+11.62%). The trade deficit widened to $28.21 billion as import costs stayed elevated. Combined April-May total exports (merchandise + services) reached $162.7 billion, up 14.66% — outpacing the same period last year by $20.8 billion.</p>
-      <p class="why"><b>Why it matters:</b> Strong export growth while Hormuz was still closed signals genuine diversification and underlying global demand for Indian goods. With the strait now reopening, petroleum export earnings may normalize (high prices lifted that number artificially) — but engineering goods and electronics growth looks structurally sound, a much better signal for long-run competitiveness.</p>
-      <p class="meta">Business Standard · <a href="https://www.business-standard.com/economy/news/india-exports-up-18-at-45-2-bn-in-may-trade-deficit-widens-to-28-21-bn-126061500563_1.html">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://images.indianexpress.com/2026/06/Umesh.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://indianexpress.com/article/india/sikar-neet-aspirant-suicide-umesh-mali-paper-leak-protests-10742776/">Another NEET aspirant dies by suicide in Rajasthan as the paper-leak crisis deepens</a></h2>
+        <p class="summary">A student identified as Umesh Mali has died by suicide in Sikar, Rajasthan, amid ongoing protests over the NEET paper leak controversy. The death adds to a recurring toll that has become a grim marker of the structural failures of India's undergraduate medical admissions system — one that routes 1.8 million aspirants annually through a single high-stakes exam with no credible backup.</p>
+        <p class="why"><b>Why it matters:</b> Each NEET death is a systemic indictment. The exam structure — single-point, opaque in administration, exploitable, and catastrophically high-stakes — has failed repeatedly. This is a human capital pipeline problem at scale, not a sad individual story.</p>
+        <p class="meta">Indian Express · <a href="https://indianexpress.com/article/india/sikar-neet-aspirant-suicide-umesh-mali-paper-leak-protests-10742776/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <span class="developing">📈 DEVELOPING</span>
-      <h2><a href="https://yourstory.com/2026/06/bharat-innovates-2026-modi-macron-indian-deep-tech-startups-france">Bharat Innovates 2026 Closes in Nice: Modi Says India Has Moved from Tech Adopter to Tech Provider</a></h2>
-      <p class="summary">PM Modi and President Macron co-inaugurated Bharat Innovates 2026 on June 14 in Nice, a three-day conclave (closing today) showcasing 120+ Indian deep-tech startups across AI, semiconductors, space, quantum, and climate tech to 500+ global investors. India holds the 'AI Country Partner' designation at VivaTech Paris next week. Modi presented India's MANAV AI governance framework to an international audience; deal-making and MoUs were finalized June 15-16. Earlier: India's AI Country Partner role at VivaTech was confirmed June 12.</p>
-      <p class="why"><b>Why it matters:</b> The Indian government is now actively pitching its startup ecosystem to global capital — not just running domestic schemes. For those in AI or Founder's Office roles, MANAV entering international governance conversations means India's AI policy is becoming a factor in global standards. VivaTech next week will carry this further.</p>
-      <p class="meta">YourStory · <a href="https://yourstory.com/2026/06/bharat-innovates-2026-modi-macron-indian-deep-tech-startups-france">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://images.indianexpress.com/2026/06/K-Muraleedharan-kerala.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://indianexpress.com/article/india/kerala-shigella-deaths-kozhikode-wayanad-water-k-muraleedharan-10742587/">Kerala Shigella outbreak kills 4 in June — water contamination blamed ahead of monsoon</a></h2>
+        <p class="summary">Kerala has reported a spike in Shigella (bacterial dysentery) cases, with four deaths so far this month. Cases are concentrated in Kozhikode and Wayanad districts. The state health minister attributes the outbreak to inadequate pre-monsoon cleaning of water sources in affected areas.</p>
+        <p class="why"><b>Why it matters:</b> A pre-monsoon waterborne disease spike in one of India's best-governed states is a stark reminder of infrastructure gaps that persist despite high human development indicators. Watch for spread if heavy monsoon rains hit already-compromised water sources in the coming weeks.</p>
+        <p class="meta">Indian Express · <a href="https://indianexpress.com/article/india/kerala-shigella-deaths-kozhikode-wayanad-water-k-muraleedharan-10742587/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <span class="developing">📈 DEVELOPING</span>
-      <h2><a href="https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates">Hormuz Reopening Could Be India's Biggest Macro Tailwind of 2026</a></h2>
-      <p class="summary">With the US-Iran interim peace deal signed June 14, India faces the direct inverse of the Hormuz crisis: fuel inflation that hit 30.33% in May could ease significantly by July CPI data, giving the RBI headroom to cut rates. India's FM had cited fuel-cost pressures as a key driver behind the widening trade deficit even as exports grew. The government had also exempted withholding tax on foreign investor G-sec interest to draw capital back. Earlier: RBI held rates at 5.25% and cut FY27 GDP forecast to 6.6%, citing stagflation risk from the energy shock.</p>
-      <p class="why"><b>Why it matters:</b> India's stagflation risk was driven almost entirely by one external shock. If Hormuz stays open through the 60-day nuclear negotiation window, the macro environment for domestic startups, FMCG, logistics, and manufacturing all improve meaningfully. The June-July CPI prints become the key data to watch for an August RBI rate cut.</p>
-      <p class="meta">NPR / PBS NewsHour · <a href="https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be3/live/3aa49d90-6946-11f1-b8da-53bba3cad46c.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.bbc.com/news/articles/c7vyzgl2142o?at_medium=RSS&amp;at_campaign=rss">After public outcry, India restores the uncensored Dancing Girl in a school textbook</a></h2>
+        <p class="summary">A new edition of an Indian school textbook had covered the bare torso of the Mohenjo-daro "Dancing Girl" figurine — a renowned Indus Valley Civilisation artefact — with dark shading. After significant public backlash over the erasure of cultural heritage, the textbook has been revised to restore the original image.</p>
+        <p class="why"><b>Why it matters:</b> A small episode with a pointed lesson: curriculum gatekeeping in India is a live contest, and public pushback can still reverse it quickly. Context for anyone tracking the ongoing tension between cultural heritage and modern textbook politics.</p>
+        <p class="meta">BBC News · <a href="https://www.bbc.com/news/articles/c7vyzgl2142o?at_medium=RSS&amp;at_campaign=rss">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.weforum.org/stories/2026/06/ai-for-public-good-india-ecosystem-approach-innovation/">India's AI Mission: 6,500 Startups, AIKosh Platform, and ₹1,000 Cr for Chips — WEF Maps It</a></h2>
-      <p class="summary">A World Economic Forum piece on India's AI-for-public-good approach documents the IndiaAI Mission (₹10,371 crore, 5 years), the AIKosh open platform (7,541 datasets and 273 AI models across 20 sectors available to developers), India's third-place global ranking in startup ecosystems, and Budget 2026-27's ₹1,000 crore allocation for India Semiconductor Mission 2.0 — targeting chip R&amp;D and workforce development. India's AI governance sandbox allows startups to test AI solutions in healthcare, finance, and public services.</p>
-      <p class="why"><b>Why it matters:</b> This is the clearest single-source map of India's public AI infrastructure for builders and founders. The AIKosh datasets and AI governance sandboxes are underused by private startups; the ISM 2.0 allocation signals sustained chip ambitions even as global semiconductor supply normalizes.</p>
-      <p class="meta">World Economic Forum · <a href="https://www.weforum.org/stories/2026/06/ai-for-public-good-india-ecosystem-approach-innovation/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://images.indianexpress.com/2026/06/hemant-soren-babulal-marandi-composite.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://indianexpress.com/article/india/jharkhand-rajya-sabha-elections-bjp-nda-mlas-ranchi-10742734/">BJP rounds up Jharkhand MLAs at a resort ahead of Rajya Sabha polls — horse-trading season</a></h2>
+        <p class="summary">The BJP has moved its Jharkhand legislators to an undisclosed resort ahead of Rajya Sabha elections to prevent defections. The practice — constitutionally embarrassing but politically standard — highlights the fragility of coalition arithmetic. Jharkhand's Rajya Sabha seats will affect the composition of the upper house through 2030.</p>
+        <p class="why"><b>Why it matters:</b> The Rajya Sabha composition affects legislative priorities on bills touching AI regulation, startup policy, and taxation. Context rather than political entertainment.</p>
+        <p class="meta">Indian Express · <a href="https://indianexpress.com/article/india/jharkhand-rajya-sabha-elections-bjp-nda-mlas-ranchi-10742734/">Read the original →</a></p>
+      </article>
 
+      <article>
+        <img class="story-img" src="https://images.indianexpress.com/2026/06/cracks-Jammu-and-Kashmir.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://indianexpress.com/article/india/mysterious-cracks-wide-2-people-damage-jammu-and-kashmir-houses-farmland-10742733/">Cracks wide enough to stand in are appearing in J&amp;K homes and farmland — causes unclear</a></h2>
+        <p class="summary">Residents in Jammu &amp; Kashmir are reporting large, unexplained ground cracks damaging homes and agricultural land. Some cracks are described as wide enough for two people to stand inside. Officials have not yet confirmed whether the cause is geological subsidence, soil erosion, or seismic activity.</p>
+        <p class="why"><b>Why it matters:</b> Geological instability in J&amp;K is a recurring and under-reported issue. The combination of seismic activity, unique terrain, and infrastructure investment in the region makes this worth monitoring as a potential early signal of larger instability.</p>
+        <p class="meta">Indian Express · <a href="https://indianexpress.com/article/india/mysterious-cracks-wide-2-people-damage-jammu-and-kashmir-houses-farmland-10742733/">Read the original →</a></p>
+      </article>
+
+    </section>
   </main>
-  <footer class="colophon">
-    Edition No. 2 · June 16, 2026 · 4 stories · 33 RSS feeds attempted (all HTTP 403); 16 web searches as fallback · The Daily Cactus is produced for one reader in Jaipur, India.
-  </footer>
+  <footer class="colophon">Edition No. 5 · June 16, 2026 · 51 stories across 11 sections · 33 feeds scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

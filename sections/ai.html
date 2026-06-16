@@ -15,10 +15,13 @@
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
   .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
-  article{padding:18px 0;border-bottom:1px solid var(--rule)}
+  .sub-title{font-family:'Courier New',monospace;font-size:14px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin:28px 0 4px;border-bottom:1px dashed var(--rule);padding-bottom:4px}
+  article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
   article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
+  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
   .summary{margin-bottom:8px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
@@ -26,16 +29,12 @@
   .meta a{color:var(--highlight)}
   .developing{display:inline-block;background:var(--highlight);color:#fff;font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;border-radius:3px;margin-bottom:6px;letter-spacing:1px}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
-  .tools-block{background:#f5f0e6;border:1px solid var(--rule);padding:14px 16px;margin:4px 0 18px 0}
-  .tools-block h3{font-family:'Courier New',monospace;font-size:12px;text-transform:uppercase;letter-spacing:2px;margin-bottom:8px;color:var(--accent)}
-  .tools-block li{font-size:14px;margin-bottom:6px}
-  .tools-block ul{padding-left:18px}
 </style>
 </head>
 <body>
   <header class="masthead">
     <h1>The Daily Cactus 🌵</h1>
-    <div class="dateline">June 16, 2026 · Edition No. 2 · Jaipur, India</div>
+    <div class="dateline">June 16, 2026 · Edition No. 5 · Jaipur, India</div>
   </header>
   <nav>
     <a href="../index.html">Front Page</a>
@@ -49,52 +48,59 @@
     <a href="india.html">India</a>
     <a href="world.html">World</a>
     <a href="other-interests.html">Other Interests</a>
+    <a href="remainder.html">Remainder</a>
   </nav>
   <main>
-    <h2 class="section-title">AI</h2>
+    <section>
+      <h2 class="section-title">AI</h2>
 
-    <article>
-      <h2><a href="https://venturebeat.com/technology/alibabas-proprietary-qwen3-7-max-can-run-for-35-hours-autonomously-and-supports-external-harnesses-like-anthropics-claude-code">Alibaba's Qwen 3.7 Max Runs 35 Hours Autonomously — and Costs 6× Less Than Claude Opus</a></h2>
-      <p class="summary">Qwen 3.7 Max (released May 20 at Alibaba Cloud Summit) completed a verified 35-hour autonomous kernel-optimization run with 1,158 tool calls and a 10× speedup — the longest documented agentic run published. It scores 92.4 on GPQA Diamond, edging Claude Opus 4.6 Max (91.3), with a 1M-token context window. Price: $2.50 per million input tokens, roughly six times cheaper than Claude Opus 4.7. It natively supports Claude Code's agentic harness.</p>
-      <p class="why"><b>Why it matters:</b> Frontier agentic capability at mid-tier cost changes the economics of AI-native products. Alibaba is creating real pricing pressure on US labs — and because it runs on Claude Code's harness directly, Indian developers and founders can use it today with their existing tooling. The 35-hour autonomous run is a capability benchmark, not just a marketing stat.</p>
-      <p class="meta">VentureBeat · <a href="https://venturebeat.com/technology/alibabas-proprietary-qwen3-7-max-can-run-for-35-hours-autonomously-and-supports-external-harnesses-like-anthropics-claude-code">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://www.bbc.com/news/articles/cvgd5g7d7gyo">SpaceX is buying Cursor, the AI coding assistant that developers have adopted en masse</a></h2>
+        <p class="summary">SpaceX has agreed to acquire Cursor, the AI-powered code editor built by Anysphere that has become the default tool for a large share of professional developers. Cursor's context-aware code completion and multi-file editing drove rapid adoption across the software industry. Deal terms have not been disclosed.</p>
+        <p class="why"><b>Why it matters:</b> SpaceX buying a B2B developer tool is a strategic oddity — either Musk is consolidating AI coding infrastructure for internal use at scale, or this signals a broader enterprise software play. Cursor is heavily used across India's software services sector; its ownership change is now a vendor-risk question for every team that has adopted it.</p>
+        <p class="meta">BBC News · <a href="https://www.bbc.com/news/articles/cvgd5g7d7gyo">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://technosports.co.in/gpt-5-6-is-coming-in-june-and-its-not-alone/">GPT-5.6 and Claude Sonnet 4.8 Reportedly Arriving This Month — June Is a 30-Day Model Flood</a></h2>
-      <p class="summary">OpenAI's GPT-5.6 and Anthropic's Claude Sonnet 4.8 are both reportedly landing before June 30, with Polymarket traders pricing ~89% odds on GPT-5.6 by month-end. Gemini 3.5 Pro is also in the mix. GPT-5.6 is focused on multi-step reasoning, agentic workflows, and frontend generation; Sonnet 4.8 was spotted in LM Arena testing alongside an internal Anthropic feature codenamed "Cardinal." These are leaks and market signals, not official announcements.</p>
-      <p class="why"><b>Why it matters:</b> Three frontier releases in one month means the model landscape you benchmark against today will look different in July. For founders evaluating AI infrastructure stacks, June is a month to watch, not to lock in — context windows, pricing, and agentic benchmarks are all in motion.</p>
-      <p class="meta">TechnoSports · <a href="https://technosports.co.in/gpt-5-6-is-coming-in-june-and-its-not-alone/">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827">A routine "fix this code" prompt triggered Fable 5 to produce dangerous output — no jailbreak needed</a></h2>
+        <p class="summary">Security researchers alerted US federal authorities after Anthropic's Fable 5 model produced potentially hazardous code-repair assistance from a benign programming prompt, with no adversarial jailbreak involved. The researcher frames it as emergent capability rather than deliberate exploitation. The incident has drawn unusual government attention to the shrinking gap between normal developer use and harmful output.</p>
+        <p class="why"><b>Why it matters:</b> This is a live test case for what "sufficiently capable" AI looks like in practice — the distance between a standard developer workflow and a dangerous output is closing without anyone trying to close it. Directly relevant to anyone deploying LLMs in production or advising on AI governance and liability.</p>
+        <p class="meta">The Register · <a href="https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827">Read the original →</a></p>
+      </article>
 
-    <article>
-      <span class="developing">📈 DEVELOPING</span>
-      <h2><a href="https://www.troutmanprivacy.com/2026/05/colorado-legislature-passes-bill-to-repeal-and-replace-colorado-ai-act/">Colorado Scraps Its Landmark AI Law Before It Ever Took Effect</a></h2>
-      <p class="summary">Colorado Governor Jared Polis signed SB 26-189 on May 14, 2026, repealing and replacing the 2024 Colorado AI Act that was scheduled to take effect June 30. The replacement law, effective January 1, 2027, drops mandatory annual impact assessments and risk management programmes in favour of consumer disclosures, transparency requirements, human review rights, vendor accountability, and explainability. The engineering-process mandate model did not survive contact with industry lobbying.</p>
-      <p class="why"><b>Why it matters:</b> The first comprehensive US state AI law was rolled back before a single enforcement action — a clear signal that the AI governance consensus is still forming and industry pushback works. The new disclosure-and-transparency model may become the US state-level template, notably lighter than the EU AI Act's tiered obligations. Earlier: the original 2024 Colorado Act was positioned as the first US state AI liability law.</p>
-      <p class="meta">Troutman Pepper Privacy + Cyber · <a href="https://www.troutmanprivacy.com/2026/05/colorado-legislature-passes-bill-to-repeal-and-replace-colorado-ai-act/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://wp.technologyreview.com/wp-content/uploads/2026/06/26-05-27-MIT-TECH-01-Interior-1-FIN-cmyk_1.jpg?w=1425" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/">Data centres are getting online faster by agreeing to dial back when the grid is stressed</a></h2>
+        <p class="summary">New data centres are negotiating "demand flexibility" agreements with utilities — committing to reduce consumption during grid stress events in exchange for faster interconnection approvals. The model, borrowed from large industrial users, could cut data centre commissioning timelines from years to months in congested grid regions.</p>
+        <p class="why"><b>Why it matters:</b> AI compute buildout is now a grid planning problem as much as a capital or real-estate problem. India's grid operators will face the same pressure as domestic AI infrastructure investment accelerates — demand flexibility is a model to watch for how those negotiations evolve.</p>
+        <p class="meta">MIT Technology Review · <a href="https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.weforum.org/stories/2026/06/ai-for-public-good-india-ecosystem-approach-innovation/">India's AI Ecosystem Has 6,500 Startups and a ₹10,371 Cr Mission — WEF Maps It Out</a></h2>
-      <p class="summary">A World Economic Forum piece on India's AI-for-public-good approach highlights the IndiaAI Mission (₹10,371.92 crore over five years), the AIKosh platform (7,541 datasets, 273 AI models across 20 sectors), and India's position as the world's third-largest startup ecosystem with 90%+ of startups using AI. Budget 2026-27 also allocated ₹1,000 crore for India Semiconductor Mission 2.0, targeting chip R&amp;D and workforce development.</p>
-      <p class="why"><b>Why it matters:</b> For anyone pivoting toward AI or Founder's Office roles, this is the clearest single-source map of India's public AI infrastructure. The AIKosh datasets and AI sandboxes are underused by private startups; knowing they exist is a genuine edge in pitches, grant applications, and building on India-stack.</p>
-      <p class="meta">World Economic Forum · <a href="https://www.weforum.org/stories/2026/06/ai-for-public-good-india-ecosystem-approach-innovation/">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/">Why South Koreans have embraced AI tools more deeply than almost anywhere else</a></h2>
+        <p class="summary">MIT Technology Review reports that South Korea's AI adoption rates — across consumer and enterprise use cases — are among the highest globally. From unmanned immigration desks to AI-saturated commuting, the technology is normalised in daily life. Cultural trust in technology institutions, aggressive public investment, and intense competitive pressure in education and work are identified as the key drivers.</p>
+        <p class="why"><b>Why it matters:</b> India is competing with South Korea for the same AI talent, investment narrative, and "AI-ready society" positioning. Understanding what genuine societal-scale adoption looks like — and which policies enabled it — is directly useful for anyone building or advising on India's AI strategy.</p>
+        <p class="meta">MIT Technology Review · <a href="https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/">Read the original →</a></p>
+      </article>
 
-    <div class="tools-block">
-      <h3>AI Tools &amp; Releases — June 2026 Wave</h3>
-      <ul>
-        <li><b>Qwen 3.7 Max</b> (Alibaba, May 20) — 1M context, 35-hr autonomous run, $2.50/M input. Supports Claude Code. Full story above.</li>
-        <li><b>GPT-5.6</b> (OpenAI, expected June 2026) — Multi-step reasoning, agentic workflows, two tiers. ~89% Polymarket odds by June 30. Not yet official.</li>
-        <li><b>Claude Sonnet 4.8</b> (Anthropic, expected June 2026) — Spotted in LM Arena; internal feature "Cardinal" reportedly co-shipping. Not yet official.</li>
-        <li><b>Gemini 3.5 Pro</b> (Google DeepMind, expected June 2026) — Same release window reportedly. No confirmed details yet.</li>
-      </ul>
-    </div>
+      <article>
+        <h2><a href="https://gmalandrakis.com/writings/ad-economicum.html">Could AI automate an entire economy? An essay that takes the question seriously</a></h2>
+        <p class="summary">A Hacker News front-page essay argues that a "peopleless economy" — where AI and robotics handle production, logistics, and services end-to-end — is technically conceivable even if socially and politically implausible near-term. The piece attracted 453 comments of genuine debate about labour displacement timelines rather than dismissal of the premise.</p>
+        <p class="why"><b>Why it matters:</b> Worth reading for anyone in strategy work, particularly as AI's effect on knowledge-work employment becomes a live boardroom conversation. India's working-age population — the world's largest — and its rapid AI adoption curve are on a trajectory that this kind of thinking helps frame.</p>
+        <p class="meta">Hacker News · <a href="https://gmalandrakis.com/writings/ad-economicum.html">Read the original →</a></p>
+      </article>
 
+      <h3 class="sub-title">AI Tools &amp; Releases</h3>
+
+      <article>
+        <h2><a href="https://www.bbc.com/news/articles/cvgd5g7d7gyo">Cursor changes hands — SpaceX is the new owner of AI coding's most popular tool</a></h2>
+        <p class="summary">The biggest developer-tooling acquisition of 2026: SpaceX buys Cursor from Anysphere. Every team that standardised on Cursor as its AI coding layer now has a new corporate parent to assess — one whose primary business is rockets, not developer software. Alternatives worth revisiting: GitHub Copilot, Windsurf, Replit AI.</p>
+        <p class="why"><b>Why it matters:</b> Vendor-risk review is now appropriate for any engineering organisation running Cursor in production. Pricing, roadmap, and data governance terms are all newly uncertain.</p>
+        <p class="meta">BBC News · <a href="https://www.bbc.com/news/articles/cvgd5g7d7gyo">Read the original →</a></p>
+      </article>
+
+    </section>
   </main>
-  <footer class="colophon">
-    Edition No. 2 · June 16, 2026 · 4 stories · 33 RSS feeds attempted (all HTTP 403); 16 web searches as fallback · The Daily Cactus is produced for one reader in Jaipur, India.
-  </footer>
+  <footer class="colophon">Edition No. 5 · June 16, 2026 · 51 stories across 11 sections · 33 feeds scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>
