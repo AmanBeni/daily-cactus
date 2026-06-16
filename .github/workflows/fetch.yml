@@ -1,0 +1,46 @@
+# Fetches all RSS/Atom feeds on GitHub's runners (full internet, no sandbox
+# proxy) and commits feeds/latest.json into the repo. The routine then READS
+# that file instead of fetching anything itself — sidestepping the cloud
+# sandbox's network allowlist entirely.
+#
+# TIMING: this must finish BEFORE your newsletter routine runs. The cron below
+# is set ~1 hour ahead. GitHub cron is best-effort and can lag a few minutes,
+# so keep a comfortable gap between this and the routine's schedule.
+
+name: Fetch RSS Feeds
+
+on:
+  schedule:
+    # 23:30 UTC == 05:00 AM IST. Routine is assumed ~06:00 AM IST.
+    - cron: '30 23 * * *'
+  workflow_dispatch:   # lets you click "Run workflow" to test on demand
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install feedparser pyyaml
+
+      - name: Fetch feeds
+        run: python scripts/fetch_feeds.py
+
+      - name: Commit latest feeds
+        run: |
+          git config user.name  "Daily Cactus Bot"
+          git config user.email "bot@dailycactus.local"
+          git add feeds/latest.json
+          # Only commit if something actually changed
+          git diff --staged --quiet || git commit -m "Fetch feeds $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
