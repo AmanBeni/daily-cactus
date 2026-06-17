@@ -31,8 +31,11 @@ OUT = ROOT / "feeds" / "latest.json"
 UA = ("Mozilla/5.0 (compatible; DailyCactusBot/1.0; "
       "+https://amanbeni.github.io/daily-cactus/)")
 
-MAX_PER_FEED = 8       # generous cap; Claude does the real editorial selection
-SUMMARY_CHARS = 400    # trim long descriptions
+MAX_PER_FEED = 8       # generous cap; Claude does the real editorial selection.
+                       # Deliberately NOT lowered: candidate breadth protects
+                       # against missing a good story buried lower in a feed.
+SUMMARY_CHARS = 200    # lighter candidates -> fewer input tokens, no stories lost
+                       # (the editor only needs the gist to rank; it rewrites anyway)
 HOURS_WINDOW = 36      # keep recent-ish items; routine applies a stricter 24h filter
 
 _IMG_IN_HTML = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.I)
@@ -94,16 +97,46 @@ def outlet_name(parsed, fallback: str) -> str:
     return parsed.get("feed", {}).get("title") or fallback
 
 
+def gnews_fields(entry, title: str):
+    """Google News titles look like 'Headline - Publisher' and carry the real
+    publisher in a <source> tag. Pull the outlet out and clean the headline so
+    the paper attributes the original source, not 'Google News'."""
+    outlet = None
+    src = entry.get("source")
+    if isinstance(src, dict):
+        outlet = src.get("title")
+    # Always strip a trailing ' - Publisher' from the headline when present.
+    if " - " in title:
+        head, tail = title.rsplit(" - ", 1)
+        if 0 < len(tail) <= 45:
+            if not outlet:
+                outlet = tail.strip()
+            title = head.strip()
+    return title, (outlet or "Google News")
+
+
+def best_summary(entry) -> str:
+    """Prefer the entry summary; fall back to content body (some feeds, e.g.
+    Indian Express, ship empty summaries with the text in content)."""
+    raw = entry.get("summary", "")
+    if not raw and entry.get("content"):
+        raw = entry["content"][0].get("value", "")
+    return strip_html(raw)[:SUMMARY_CHARS]
+
+
 def main() -> None:
     cfg = yaml.safe_load(SOURCES.read_text())
     now = datetime.datetime.now(datetime.timezone.utc)
-    cutoff = now - datetime.timedelta(hours=HOURS_WINDOW)
 
     out_sections = []
     feeds_total = feeds_ok = feeds_failed = 0
     failed_feeds = []
 
     for section in cfg.get("sections", []):
+        # Per-section recency window. News defaults to HOURS_WINDOW; sections like
+        # Opportunities (events announced ahead of time) set a wider window_hours.
+        window = section.get("window_hours", HOURS_WINDOW)
+        cutoff = now - datetime.timedelta(hours=window)
         sec_entries, ok, failed = [], 0, 0
         for url in section.get("feeds", []) or []:
             feeds_total += 1
@@ -114,6 +147,7 @@ def main() -> None:
                 if parsed.get("bozo") and not parsed.get("entries"):
                     raise RuntimeError(str(parsed.get("bozo_exception", "parse error")))
                 src = outlet_name(parsed, section["name"])
+                is_gnews = "news.google.com" in url
                 count = 0
                 for e in parsed.entries:
                     if count >= MAX_PER_FEED:
@@ -124,12 +158,19 @@ def main() -> None:
                     link = e.get("link")
                     if not link:
                         continue
+                    title = strip_html(e.get("title", "")) or "(untitled)"
+                    entry_src = src
+                    if is_gnews:
+                        title, entry_src = gnews_fields(e, title)
+                        summary = ""              # gnews summaries are noisy link-lists
+                    else:
+                        summary = best_summary(e)
                     sec_entries.append({
-                        "title": strip_html(e.get("title", "")) or "(untitled)",
+                        "title": title,
                         "link": link,
-                        "source": src,
+                        "source": entry_src,
                         "published": et.isoformat() if et else None,
-                        "summary": strip_html(e.get("summary", ""))[:SUMMARY_CHARS],
+                        "summary": summary,
                         "image_url": extract_image(e),
                     })
                     count += 1
@@ -145,6 +186,7 @@ def main() -> None:
             "slug": section.get("slug"),
             "angle": section.get("angle", ""),
             "max_stories": section.get("max_stories"),
+            "beta": section.get("beta", False),
             "feeds_ok": ok,
             "feeds_failed": failed,
             "entries": sec_entries,
