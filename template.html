@@ -18,7 +18,7 @@
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--paper);color:var(--ink);
        font-family:Georgia,'Times New Roman',serif;line-height:1.55;
-       max-width:1040px;margin:0 auto;padding:24px 24px 64px}
+       max-width:1600px;margin:0 auto;padding:24px 24px 64px}
   /* Masthead */
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
   .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
@@ -37,8 +37,14 @@
        margin:4px 0 12px 22px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .lead h2{font-size:30px;line-height:1.2;margin-bottom:10px}
   .lead .summary{font-size:17px}
+  /* Keep the lead's body text at a readable measure on wide monitors
+     (the big headline still spans full width; only the prose is capped). */
+  .lead .summary,.lead .takeaway,.lead .why{max-width:74ch}
   /* Two-column grid (front page + section pages); collapses on mobile */
-  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
+  /* Auto-fitting columns: fills the available width with as many ~400px columns
+     as fit. ~2 on a laptop, 3-4 on a monitor — no dead space, no over-long lines. */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+        column-gap:40px;margin-top:8px}
   .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);
        border-bottom:1px solid var(--rule);padding-bottom:4px;
        text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
