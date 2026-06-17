@@ -1,105 +1,137 @@
-# The Daily Cactus — Source Registry
-# Edit freely. The routine re-reads this every morning.
-# Feed URLs below are best-known as of June 2026 — on first run, the routine
-# will report any dead feeds in the colophon; swap those out here.
+# The Daily Cactus — Source Registry  (v2)
+# Edit freely. Both the fetcher and the routine read this every run.
+#
+# VERIFICATION STATUS (as of build):
+#   [OK]      confirmed working in a real fetch run
+#   [VERIFIED] feed URL confirmed from the publisher's own RSS page
+#   [TRY]     plausible but unconfirmed — may 403/bot-block; safe to fail
+#   [GNEWS]   Google News RSS query = diversity backstop. Pulls from MANY
+#             outlets so no section is ever stuck on one source. Reliable XML.
+#             (Reuters/AP killed their public RSS; Google News replaces them.)
+#
+# Google News query syntax: q=<terms>+when:<N>d   (when:2d = last 2 days)
+# Region pinned to India (hl=en-IN&gl=IN&ceid=IN:en) so coverage is India-aware.
 
 sections:
 
   - name: "AI"
     slug: ai
     max_stories: 6
-    angle: "Capabilities, research, and industry moves. Separate substance from press releases. Include an 'AI Tools & Releases' sub-block for notable product/tool launches."
+    angle: "Capabilities, research, industry moves. Separate substance from press releases. Keep an 'AI Tools & Releases' eye for notable launches relevant to an AI-generalist."
     feeds:
-      - https://www.anthropic.com/rss.xml
-      - https://openai.com/news/rss.xml
-      - https://deepmind.google/blog/rss.xml
-      - https://www.technologyreview.com/topic/artificial-intelligence/feed
-      - https://hnrss.org/frontpage?points=150   # high-signal HN; AI-filter editorially
-      - https://importai.substack.com/feed
+      - https://www.technologyreview.com/topic/artificial-intelligence/feed   # [OK]
+      - https://techcrunch.com/category/artificial-intelligence/feed/          # [VERIFIED]
+      - https://analyticsindiamag.com/feed/                                    # [TRY] India AI angle
+      - https://importai.substack.com/feed                                     # [TRY] flaky last run
+      - https://news.google.com/rss/search?q=artificial+intelligence+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Deep Tech"
     slug: deep-tech
     max_stories: 5
     angle: "Semiconductors, space, robotics, quantum, materials. Engineering reality over vaporware."
     feeds:
-      - https://spectrum.ieee.org/feeds/feed.rss
-      - https://arstechnica.com/science/feed/
-      - https://www.quantamagazine.org/feed/
+      - https://spectrum.ieee.org/feeds/feed.rss          # [OK]
+      - https://arstechnica.com/science/feed/             # [OK]
+      - https://www.quantamagazine.org/feed/              # [OK]
+      - https://www.theguardian.com/technology/rss        # [VERIFIED]
+      - https://www.scmp.com/rss/36/feed                  # [VERIFIED] Asia tech angle
+      - https://news.google.com/rss/search?q=(semiconductor+OR+robotics+OR+quantum)+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Climate & Energy"
     slug: climate-energy
     max_stories: 6
-    angle: "Climate science, energy transition, grids, policy. Merge climate + sustainability + energy/utilities; use sub-headers if needed. India angle is gold."
+    angle: "Climate science, energy transition, grids, policy. Merge climate + sustainability + energy/utilities. India angle is gold."
     feeds:
-      - https://www.carbonbrief.org/feed/
-      - https://www.canarymedia.com/rss
-      - https://www.downtoearth.org.in/rss/climate-change
-      - https://www.iea.org/api/rss/news.xml
+      - https://www.carbonbrief.org/feed/                 # [OK]
+      - https://www.canarymedia.com/rss                   # [OK]
+      - https://www.theguardian.com/environment/rss       # [VERIFIED]
+      - https://news.google.com/rss/search?q=(energy+transition+OR+renewable+OR+climate)+India+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] replaces dead IEA/DTE feeds
 
   - name: "Health Tech"
     slug: health-tech
     max_stories: 4
     angle: "Digital health, biotech, devices, healthcare systems. Deployment and evidence over lab hype."
     feeds:
-      - https://www.statnews.com/feed/
-      - https://www.fiercebiotech.com/rss/xml
-      - https://www.mobihealthnews.com/feed
+      - https://www.statnews.com/feed/                    # [OK]
+      - https://www.fiercebiotech.com/rss/xml             # [OK]
+      - https://news.google.com/rss/search?q=(digital+health+OR+health+tech+OR+biotech)+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] replaces flaky mobihealthnews
 
   - name: "Agritech"
     slug: agritech
     max_stories: 4
     angle: "India-first. Farm tech, supply chains, climate-resilient agriculture. Deployment over demos."
     feeds:
-      - https://agfundernews.com/feed
-      - https://www.downtoearth.org.in/rss/agriculture
+      - https://agfundernews.com/feed                     # [OK]
+      - https://news.mongabay.com/feed/                   # [VERIFIED] nature/agri/environment
+      - https://news.google.com/rss/search?q=agritech+India+when:3d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] replaces dead DTE feed
 
   - name: "Indian Startups"
     slug: indian-startups
     max_stories: 6
-    angle: "Funding, pivots, policy, shutdowns. Entrackr-style skepticism — numbers over narratives."
+    angle: "Funding, pivots, policy, shutdowns. Numbers over narratives."
     feeds:
-      - https://entrackr.com/feed/
-      - https://inc42.com/feed/
-      - https://yourstory.com/feed
+      - https://inc42.com/feed/                           # [OK]
+      - https://yourstory.com/feed                        # [OK]
+      - https://entrackr.com/feed/                        # [TRY] errored last run
+      - https://the-ken.com/feed/                         # [TRY] likely paywalled, may fail
+      - https://news.google.com/rss/search?q=Indian+startup+funding+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Global Economics"
     slug: global-economics
     max_stories: 5
-    angle: "Macro, trade, markets, central banks. What it means for India and for tech."
+    angle: "Macro, trade, markets, central banks, management thinking. What it means for India and for tech."
     feeds:
-      - https://www.reuters.com/finance/markets/rss   # if dead, swap for Reuters business feed
-      - https://www.economist.com/finance-and-economics/rss.xml
-      - https://feeds.bloomberg.com/economics/news.rss
+      - https://feeds.bloomberg.com/economics/news.rss    # [OK]
+      - https://www.economist.com/finance-and-economics/rss.xml  # [OK]
+      - https://www.theguardian.com/business/rss          # [VERIFIED] diversity beyond Bloomberg
+      - https://feeds.hbr.org/harvardbusiness             # [VERIFIED] strategy/management lens
+      - https://news.google.com/rss/search?q=(global+economy+OR+central+bank+OR+trade)+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "India"
     slug: india
     max_stories: 5
     angle: "Top national news. Policy and economy over politics-as-soap-opera."
     feeds:
-      - https://www.thehindu.com/news/national/feeder/default.rss
-      - https://indianexpress.com/section/india/feed/
+      - https://www.thehindu.com/news/national/feeder/default.rss  # [OK]
+      - https://indianexpress.com/section/india/feed/     # [OK]
+      - https://news.google.com/rss/search?q=India+top+news+when:1d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "World"
     slug: world
     max_stories: 5
-    angle: "Top global headlines only. The 5 things a well-informed person should know today."
+    angle: "Top global headlines only. The handful of things a well-informed person should know today."
     feeds:
-      - https://feeds.bbci.co.uk/news/world/rss.xml
-      - https://www.reuters.com/world/rss
-      - https://feeds.apnews.com/rss/apf-topnews
+      - https://feeds.bbci.co.uk/news/world/rss.xml       # [OK]
+      - https://www.theguardian.com/world/rss             # [VERIFIED]
+      - https://www.scmp.com/rss/5/feed                   # [VERIFIED] Asia angle
+      - https://news.google.com/rss/search?q=world+news+when:1d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] replaces dead Reuters/AP
 
   - name: "Other Interests"
     slug: other-interests
     max_stories: 5
-    angle: "Neuroscience, education, books, music (electronic/production world welcome), live events. One genuinely interesting thing beats three mediocre ones."
+    angle: "Neuroscience, education, books, music (electronic/production welcome), live events, and the natural world. One genuinely interesting thing beats three mediocre ones."
     feeds:
-      - https://www.quantamagazine.org/tag/neuroscience/feed/
-      - https://bookriot.com/feed/
-      - https://ra.co/xml/rss_news.xml
-      - https://www.nature.com/subjects/neuroscience.rss
+      - https://www.quantamagazine.org/tag/neuroscience/feed/  # [OK] neuroscience
+      - https://www.newscientist.com/feed/home/           # [VERIFIED] science
+      - https://bookriot.com/feed/                        # [OK] books
+      - https://pitchfork.com/rss/news/                   # [VERIFIED] music (replaces flaky RA)
+      - https://news.mongabay.com/feed/                   # [VERIFIED] nature
+      - https://www.nature.com/nature.rss                 # [TRY] may bot-block
+      - https://news.google.com/rss/search?q=(neuroscience+OR+music+production+OR+electronic+music)+when:3d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+
+  - name: "Opportunities"
+    slug: opportunities
+    max_stories: 5
+    beta: true
+    window_hours: 336   # 14 days — events/fellowships are announced ahead of time
+    angle: "BETA. Upcoming events, webinars, conferences, fellowships, cohorts, hackathons in AI / tech / strategy, India + online — things worth showing up for or applying to. Event data is imperfect; only list items with a concrete date AND a working link, and label the section clearly as beta."
+    feeds:
+      - https://news.google.com/rss/search?q=(AI+OR+technology)+(webinar+OR+conference+OR+summit)+India+when:10d&hl=en-IN&gl=IN&ceid=IN:en      # [GNEWS]
+      - https://news.google.com/rss/search?q=(fellowship+OR+cohort+OR+accelerator)+India+startup+when:14d&hl=en-IN&gl=IN&ceid=IN:en              # [GNEWS]
+      - https://news.google.com/rss/search?q=hackathon+India+when:14d&hl=en-IN&gl=IN&ceid=IN:en                                                  # [GNEWS]
 
   - name: "Remainder"
     slug: remainder
     max_stories: 4
     angle: "Catch-all for important stories that fit nowhere above. Editor's discretion."
-    feeds: []   # populated editorially from leftovers across all feeds
+    feeds: []
