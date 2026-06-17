@@ -1,92 +1,45 @@
 {
-  "generated_at": "2026-06-17T02:01:42.491959+00:00",
+  "generated_at": "2026-06-17T04:49:38.498724+00:00",
   "stats": {
-    "feeds_total": 33,
-    "feeds_ok": 21,
-    "feeds_failed": 12,
-    "total_entries": 100
+    "feeds_total": 48,
+    "feeds_ok": 44,
+    "feeds_failed": 4,
+    "total_entries": 283
   },
   "failed_feeds": [
     {
-      "url": "https://www.anthropic.com/rss.xml",
-      "error": "text/html; charset=utf-8 is not an XML media type"
+      "url": "https://analyticsindiamag.com/feed/",
+      "error": "<unknown>:2:0: syntax error"
     },
     {
       "url": "https://importai.substack.com/feed",
       "error": "<unknown>:2:1326: not well-formed (invalid token)"
     },
     {
-      "url": "https://www.downtoearth.org.in/rss/climate-change",
-      "error": "<unknown>:6:2504: not well-formed (invalid token)"
-    },
-    {
-      "url": "https://www.iea.org/api/rss/news.xml",
-      "error": "<unknown>:73:158: not well-formed (invalid token)"
-    },
-    {
-      "url": "https://www.mobihealthnews.com/feed",
-      "error": "<unknown>:2:1326: not well-formed (invalid token)"
-    },
-    {
-      "url": "https://www.downtoearth.org.in/rss/agriculture",
-      "error": "<unknown>:6:1955: not well-formed (invalid token)"
-    },
-    {
       "url": "https://entrackr.com/feed/",
       "error": "<unknown>:2:0: syntax error"
     },
     {
-      "url": "https://www.reuters.com/finance/markets/rss",
-      "error": "text/html;charset=utf-8 is not an XML media type"
-    },
-    {
-      "url": "https://www.reuters.com/world/rss",
-      "error": "text/html;charset=utf-8 is not an XML media type"
-    },
-    {
-      "url": "https://feeds.apnews.com/rss/apf-topnews",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>"
-    },
-    {
-      "url": "https://ra.co/xml/rss_news.xml",
-      "error": "<unknown>:27:65: not well-formed (invalid token)"
-    },
-    {
-      "url": "https://www.nature.com/subjects/neuroscience.rss",
-      "error": "<unknown>:15:4: not well-formed (invalid token)"
+      "url": "https://feeds.hbr.org/harvardbusiness",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
     }
   ],
   "sections": [
     {
       "name": "AI",
       "slug": "ai",
-      "angle": "Capabilities, research, and industry moves. Separate substance from press releases. Include an 'AI Tools & Releases' sub-block for notable product/tool launches.",
+      "angle": "Capabilities, research, industry moves. Separate substance from press releases. Keep an 'AI Tools & Releases' eye for notable launches relevant to an AI-generalist.",
       "max_stories": 6,
-      "feeds_ok": 4,
+      "beta": false,
+      "feeds_ok": 3,
       "feeds_failed": 2,
       "entries": [
-        {
-          "title": "Predicting model behavior before release by simulating deployment",
-          "link": "https://openai.com/index/deployment-simulation",
-          "source": "OpenAI News",
-          "published": "2026-06-16T00:00:00+00:00",
-          "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-          "image_url": null
-        },
-        {
-          "title": "Unlocking UK house-building with AI-accelerated planning",
-          "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-          "source": "Google DeepMind News",
-          "published": "2026-06-16T21:29:50+00:00",
-          "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
-          "image_url": "https://lh3.googleusercontent.com/kc7RMwXGDfJAoCsgs6pUuONGMXePGbvF_q_i8i-bWBBakQ91O8VYPk8cyHfpOD1uF-lw8Mk6pd2JpXofi5n4qNoNziPol46lBMmZuxoG9NKl16CW=w528-h297-n-nu-rw-lo"
-        },
         {
           "title": "Want to get a data center online quickly? Give it some flex.",
           "link": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
           "source": "Artificial intelligence – MIT Technology Review",
           "published": "2026-06-16T09:00:00+00:00",
-          "summary": "At the end of a tense and scoreless first half of a soccer match between the English men’s team and rival Germany, millions of Brits let out a collective sigh and did what they so often do in moments of stress: They made tea. That wave of electric kettles clicking on, however, caused a different…",
+          "summary": "At the end of a tense and scoreless first half of a soccer match between the English men’s team and rival Germany, millions of Brits let out a collective sigh and did what they so often do in moments ",
           "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/06/26-05-27-MIT-TECH-01-Interior-1-FIN-cmyk_1.jpg?w=1425"
         },
         {
@@ -94,71 +47,135 @@
           "link": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/",
           "source": "Artificial intelligence – MIT Technology Review",
           "published": "2026-06-15T18:46:08+00:00",
-          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When I landed in Seoul after a grueling 12-hour flight from San Francisco, I walked through an unmanned immigration checkpoint, where a machine scanned my face and passport. On the subway home,…",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When I landed in Seoul after a grueling 12-hour flight from Sa",
           "image_url": null
         },
         {
-          "title": "GrapheneOS has been ported to Android 17",
-          "link": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
-          "source": "Hacker News: Front Page",
-          "published": "2026-06-16T20:34:35+00:00",
-          "summary": "Article URL: https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon Comments URL: https://news.ycombinator.com/item?id=48561654 Points: 389 # Comments: 154",
+          "title": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests",
+          "link": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "published": "2026-06-16T22:34:17+00:00",
+          "summary": "Anthropic's popularity with business users is growing so well that the latest beef with the government might actually boost it, data from Ramp suggests.",
           "image_url": null
         },
         {
-          "title": "Apple is about to make Hide My Email useless",
-          "link": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
-          "source": "Hacker News: Front Page",
-          "published": "2026-06-16T18:37:21+00:00",
-          "summary": "Article URL: https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/ Comments URL: https://news.ycombinator.com/item?id=48559935 Points: 398 # Comments: 240",
+          "title": "SpaceX valuation balloons to $2.6T, briefly passes Amazon",
+          "link": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "published": "2026-06-16T20:11:00+00:00",
+          "summary": "SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday.",
           "image_url": null
         },
         {
-          "title": "Has AI already killed self-help nonfiction books?",
-          "link": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
-          "source": "Hacker News: Front Page",
-          "published": "2026-06-16T17:11:05+00:00",
-          "summary": "Article URL: https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/ Comments URL: https://news.ycombinator.com/item?id=48558489 Points: 163 # Comments: 171",
+          "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+          "link": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "published": "2026-06-16T18:00:00+00:00",
+          "summary": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that bri",
           "image_url": null
         },
         {
-          "title": "Stop Using JWTs",
-          "link": "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
-          "source": "Hacker News: Front Page",
-          "published": "2026-06-16T16:49:46+00:00",
-          "summary": "Article URL: https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452 Comments URL: https://news.ycombinator.com/item?id=48558147 Points: 249 # Comments: 144",
+          "title": "Sixty percent of US consumers say ‘AI’ in brand messaging is a turnoff, survey finds",
+          "link": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "published": "2026-06-16T16:49:44+00:00",
+          "summary": "WordPress VIP’s latest survey suggests consumers are wary of AI-generated answers even as companies increasingly view AI search as an important referral channel.",
           "image_url": null
         },
         {
-          "title": "Is Meta destroying its engineering organization?",
-          "link": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-          "source": "Hacker News: Front Page",
-          "published": "2026-06-16T16:42:32+00:00",
-          "summary": "Article URL: https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering Comments URL: https://news.ycombinator.com/item?id=48558045 Points: 414 # Comments: 383",
+          "title": "SpaceX is public: Everything you need to know post-IPO",
+          "link": "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "published": "2026-06-16T15:53:12+00:00",
+          "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and mayb",
           "image_url": null
         },
         {
-          "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
-          "link": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-          "source": "Hacker News: Front Page",
-          "published": "2026-06-16T16:40:58+00:00",
-          "summary": "Article URL: https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/ Comments URL: https://news.ycombinator.com/item?id=48558018 Points: 268 # Comments: 143",
+          "title": "DOJ claims xAI’s unpermitted gas turbines are a matter of ‘national, economic, and energy security’",
+          "link": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "published": "2026-06-16T15:05:03+00:00",
+          "summary": "The Justice department says the Pentagon needs xAI to keep using its unpermitted gas turbines.",
           "image_url": null
         },
         {
-          "title": "Apple's weird anti-nausea dots cured my car sickness",
-          "link": "https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work",
-          "source": "Hacker News: Front Page",
-          "published": "2026-06-16T16:12:06+00:00",
-          "summary": "Article URL: https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work Comments URL: https://news.ycombinator.com/item?id=48557530 Points: 581 # Comments: 188",
+          "title": "Plaud says its software business topped $100M in ARR after shipping over 2M AI notetakers",
+          "link": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "published": "2026-06-16T15:00:00+00:00",
+          "summary": "Plaud is trying to make a mark in a crowded market full of AI-powered meeting notetakers.",
           "image_url": null
         },
         {
-          "title": "Calvin and Hobbes and the price of integrity",
-          "link": "https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of",
-          "source": "Hacker News: Front Page",
-          "published": "2026-06-16T15:44:44+00:00",
-          "summary": "Article URL: https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of Comments URL: https://news.ycombinator.com/item?id=48557079 Points: 283 # Comments: 129",
+          "title": "Robinhood’s note on 10% layoffs shows blaming AI isn’t cutting it",
+          "link": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "published": "2026-06-16T14:50:09+00:00",
+          "summary": "Unlike many of his tech industry peers who have cut thousands of jobs citing the need to restructure to make the most of AI, Robinhood's CEO Vlad Tenev conspicuously made no mention of AI in his note ",
+          "image_url": null
+        },
+        {
+          "title": "Maharashtra Government Announces Artificial Intelligence Policy 2026 to Boost Investment and Jobs",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSXVLY0ZoSnFndDlLRkxjTFFxX0tKZkNOakVrZmhYdEVkLS02VGdTZ1VsZUtpRE9wQXNmYmFva3NXZG1QOXJnVHJkM29XZDVRMVZyaWdqbUR1d1N5V0JSbUtOb3FweHRBZkNiTzI1TlB1V3FCZERtQ2FOSUdIRk5RNFZuWVh0eWgxOVoxUXgzTEhXY2NjYmxQRlRoUVk1OHUxenJaejNHYTgwOFhmNVl5d3Q5ZVJnOUpTUTBOU3JkX1k?oc=5",
+          "source": "Newsonair",
+          "published": "2026-06-16T22:41:08+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Forbes 2026 AI 50 List | Top Artificial Intelligence Companies",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5uUGIzcFRTdFZwdkxZTnpHdUpfVmhCQ21iczlSQjJrMnlSa19sYzB4S2JuVC1wSWo1UFhRWnlpVWtrb0NIN1RmS2Nn?oc=5",
+          "source": "Forbes",
+          "published": "2026-06-16T12:38:43+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Artificial intelligence raises profound moral questions — for all of humanity to answer",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUc0X2hyZGItczR6RWdqbmhxWjFkVmFCc2RJWHJPRXo4YU1mTTE4QUNiVXJ3aFBwNjBLSkt5U3AxMXBhOW1pcmFWdFg2c0I1c0VhM2sySWFlVjJQQVQ1WXhBb2VfSVFVaTBCVFd6eXoybGF3SW5IZjNZYnRjMFdqeXJ4RUlFWVpDY1J3N3dfMm03VF95eUFHbUNFTXNGY1hSVFJaTWJKSFpVclhfY1pueDdMXzdUQXJxZUlxQQ?oc=5",
+          "source": "The Conversation",
+          "published": "2026-06-16T17:21:24+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "SuperAI 2026: When Intelligence Is Cheap, What Remains Yours?",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaFJRUUdSc01iUXZVN2lubDZUWk90VTZQR0JMbk1QSU1YVi1TQU5IRmVRTDFOTU1mY0F5NWk5RXJ5a3FlZmtCZ2VsQ2QtU1ZLVlFBdENhaFJlUHZNOHdTamxxY0lubHRNdERJUFMzaFFsVFBIQkRnb0tSVGtBbW1ZT09qRVJCVXJKRGd1Y2g3dm1sM1U?oc=5",
+          "source": "Bain & Company",
+          "published": "2026-06-16T23:03:45+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "IBM Study: Limited Control and Rising Dependencies Leave Enterprises Exposed in the Age of AI",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa0s3bHVqTGxrTEowMGNJQXF2SENvNjdZZXVibHl2U1N2aUpqa1ZpY0JXNXBrb2ZNYUlvczJ1X2tIdVlEZFJYVEhENzVJSGkwVWhJR0tvQkJOck5oVEc5QWJjY3ZyVVpSNzdhbk9EajVCT1ducHJEWENtYWxtSUNKVFc0M1Y0MFFFT0c1dmFFNlBmUGZhcEtXRC0zTWVvMlowdzMzbjU0el9fTTh1Q3A0UUFZa1RmdXpJd1IxeFZzUklIOXNscFpF?oc=5",
+          "source": "IBM Newsroom",
+          "published": "2026-06-17T04:01:56+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Merck, Protillion Launch AI Drug Discovery Collaboration with Up-to-$510M in Milestone Payments",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQN2VZWTN4NmtLMUNPcVFxZUdnWGNIRFZUbmRha09QdUlPc0ZrUm9UUzRtWGNjU1Uta0M5TEZ0YmxOelhSRUdEUEE1YVBvdTZfS0I4a2N6VjdMbmpuMnhvUlE0cGtYd19qdkZnWE5hS2dYcTIxTWdIOXNUdGN1dmdGVXpFeGxvZkZkTEc2RGRudEhQWEVwVDhHZE00dHpybEJvUW9NT0NsaGVoSkcteEFMRnA1c2w2RHAwRWRKdVEzZERSRlc1WVZmbW5YaFZ5UldfUU03SjVtTDlWMzg2NERybHNURkxoWjg?oc=5",
+          "source": "Genetic Engineering and Biotechnology News",
+          "published": "2026-06-17T01:23:03+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "How Geo-AI Is Predicting Disasters Before They Happen: The Future of Earth Intelligence",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeWM0M08zaTVsa3AyV3hOSmFDUzduTjBvWGY3M2JWOGptUjVaXzJwUHlpRF9FRWpRdS1sdE1NOUJCelFNVUJVMjRwM0YzcWxIdjlZYzFjZjZKUTlkTkFrMGQyS0ZGWE5ibS1MclJKa0d6N0ZNQml0dmI4eGZiRUhDWmdDQ1JzVEVpTXBXc3NDeW8tRmhDNjgweEFXYTZQM0lUSUxvWHZTN0RJdkNwbXpXNg?oc=5",
+          "source": "LPU",
+          "published": "2026-06-16T10:29:22+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Artificial intelligence creates new digital divide in business world",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWjdObEJLR2V3SDhBVzZ0d0RuUVRCTUFrVmdFczNoUEZqSjZCSlVac3Y4UmZkc3FiZ0xrVE1DMGRObW9sRGNyY3lhVmZLcDRGTU9XWXIxOEZiYmY1Mk8xNFFpb1piMlRybzVkam42a3BZMTdPdDNYeHMwcTM3NmRpcm5kSDhYZlFhejViWVlDNXFCUlAyelVRNHl6RVZZOEw2d3J3YzZkRy1lOFU?oc=5",
+          "source": "Anadolu Ajansı",
+          "published": "2026-06-16T19:55:03+00:00",
+          "summary": "",
           "image_url": null
         }
       ]
@@ -168,7 +185,8 @@
       "slug": "deep-tech",
       "angle": "Semiconductors, space, robotics, quantum, materials. Engineering reality over vaporware.",
       "max_stories": 5,
-      "feeds_ok": 3,
+      "beta": false,
+      "feeds_ok": 6,
       "feeds_failed": 0,
       "entries": [
         {
@@ -176,7 +194,7 @@
           "link": "https://spectrum.ieee.org/engineering-critical-food-security",
           "source": "IEEE Spectrum",
           "published": "2026-06-15T18:00:01+00:00",
-          "summary": "Nearly 750 million people face hunger today, according to the U.N. World Food Program . And by 2050, global demand for food is expected to increase by 50 percent from 2010 levels , the World Resources Institute says. A smart agriculture special-issue report recently released by the IEEE Smart Agri-Food Initiative says meeting the demand will require technology to expand food production. The report",
+          "summary": "Nearly 750 million people face hunger today, according to the U.N. World Food Program . And by 2050, global demand for food is expected to increase by 50 percent from 2010 levels , the World Resources",
           "image_url": "https://spectrum.ieee.org/media-library/illustration-of-a-drone-being-used-to-collect-crop-data-on-a-wheat-farm.jpg?id=66888131&width=980"
         },
         {
@@ -204,53 +222,198 @@
           "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/spectrumroll-500x500.jpg"
         },
         {
-          "title": "Good news—we have extra time before the Sun ends life on Earth",
-          "link": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth/",
-          "source": "Science - Ars Technica",
-          "published": "2026-06-15T16:28:17+00:00",
-          "summary": "Will the Sun roast Earth’s plants or starve them?",
-          "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/sun_nasas_flareF-1920-500x500.jpg"
+          "title": "UK ministers lobby Trump to avert backlash against social media ban",
+          "link": "https://www.theguardian.com/media/2026/jun/15/uk-ministers-lobby-trump-backlash-social-media-ban",
+          "source": "Technology | The Guardian",
+          "published": "2026-06-16T08:05:09+00:00",
+          "summary": "No 10 is worried about retaliation from White House over restrictions on under-16s’ internet use Ministers have embarked on a concerted lobbying operation to prevent a backlash from the Trump administ",
+          "image_url": null
         },
         {
-          "title": "How Many Elementary Particles Are There, Really?",
-          "link": "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/",
-          "source": "Quanta Magazine",
-          "published": "2026-06-15T15:07:59+00:00",
-          "summary": "Plausible answers range from 17 to — in all seriousness — 995.5. The post How Many Elementary Particles Are There, Really? first appeared on Quanta Magazine",
-          "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Qualia-ElementaryParticles-crKristinaArmitage-Default.webp"
+          "title": "AI could help win ‘race against extinction’ of vital plants, say botanists",
+          "link": "https://www.theguardian.com/environment/2026/jun/16/ai-could-help-win-race-against-extinction-of-vital-plants-say-botanists",
+          "source": "Technology | The Guardian",
+          "published": "2026-06-16T06:00:48+00:00",
+          "summary": "Tech is helping to identify and save new specimens and could open ‘genomic goldmine’ of fungi data The rise of AI and digitisation could be a turning point in the “race against extinction” faced by bo",
+          "image_url": null
+        },
+        {
+          "title": "Florida lawsuit accuses TikTok of violating state’s child social media ban",
+          "link": "https://www.theguardian.com/us-news/2026/jun/15/florida-sues-tiktok-teen-social-media-access-law",
+          "source": "Technology | The Guardian",
+          "published": "2026-06-15T21:18:22+00:00",
+          "summary": "State’s attorney general alleges TikTok exposed children to harmful sexual content and addictive features Florida became the latest state to sue TikTok on Monday after the attorney general accused the",
+          "image_url": null
+        },
+        {
+          "title": "‘Streaming gave me a space to be myself’: Twitch creators on what it’s like to grow up on the platform",
+          "link": "https://www.theguardian.com/games/2026/jun/16/twitch-gamer-creators-twitchcon-rotterdam",
+          "source": "Technology | The Guardian",
+          "published": "2026-06-16T08:30:16+00:00",
+          "summary": "The world’s most successful gamer content creators, many of whom have spent their entire adult life on the platform, have met up at TwitchCon in Rotterdam Aimee Davies, better known as Aimsey to their",
+          "image_url": null
+        },
+        {
+          "title": "Toy Story 5 review – Pixar franchise needs new batteries",
+          "link": "https://www.theguardian.com/film/2026/jun/16/toy-story-5-review-pixar-franchise-needs-new-batteries",
+          "source": "Technology | The Guardian",
+          "published": "2026-06-16T16:00:06+00:00",
+          "summary": "A sinister new tablet threatens the honest-to-goodness toys’ existence, but Buzz, Woody and Jessie’s big tech moral battle feels compromised The fifth episode of the Toy Story franchise is as slick an",
+          "image_url": null
+        },
+        {
+          "title": "China’s AI outpaces global rivals but trails in trust, survey shows",
+          "link": "https://www.scmp.com/tech/article/3357330/chinas-ai-outpaces-global-rivals-trails-trust-public-first?utm_source=rss_feed",
+          "source": "Tech - South China Morning Post",
+          "published": "2026-06-16T12:41:45+00:00",
+          "summary": "Many people believe Chinese artificial intelligence models are leading the global tech race – even in countries considered key US allies – according to a new poll by the London-based consultancy Publi",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/17/2f97ce67-a34c-4bde-aa17-1058f04f0062_50593747.jpg?itok=Dk36Rcc_&v=1781640756"
+        },
+        {
+          "title": "Smart-driving chips: the weapon of choice in China’s EV tech war",
+          "link": "https://www.scmp.com/tech/big-tech/article/3357294/smart-driving-chips-weapon-choice-chinas-ev-tech-war?utm_source=rss_feed",
+          "source": "Tech - South China Morning Post",
+          "published": "2026-06-16T11:00:05+00:00",
+          "summary": "A new front has opened in China’s electric-vehicle tech war as carmakers design their own smart-driving chips, turning custom silicon into the industry’s weapon of choice in the world’s largest auto m",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/d1313327-6ae4-46a6-88ba-26b540f634f7_bed04020.jpg?itok=dqai2Xqe&v=1781601384"
+        },
+        {
+          "title": "Motorsport new battleground for Chinese carmakers as Geely and BYD rev up global drive",
+          "link": "https://www.scmp.com/business/china-business/article/3357313/motorsport-new-battleground-chinese-carmakers-geely-and-byd-rev-global-drive?utm_source=rss_feed",
+          "source": "Tech - South China Morning Post",
+          "published": "2026-06-16T10:37:22+00:00",
+          "summary": "Billionaire Li Shufu, owner and chairman of Geely Auto, China’s second-largest carmaker, plans to bring the Superbike World Championship (WSBK) to the country, banking on the success of a home-grown m",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/bf69a59a-35ab-4b18-8ca6-a89f5ea4bbe8_038b3f14.jpg?itok=-nMoNppV&v=1781605905"
+        },
+        {
+          "title": "‘Ni hao, Ah Bao’: China’s Alipay gets AI-agent overhaul to challenge big tech rivals",
+          "link": "https://www.scmp.com/tech/big-tech/article/3357307/ni-hao-ah-bao-chinas-alipay-gets-ai-agent-overhaul-challenge-big-tech-rivals?utm_source=rss_feed",
+          "source": "Tech - South China Morning Post",
+          "published": "2026-06-16T10:05:06+00:00",
+          "summary": "Ant Group has unveiled the biggest overhaul of Alipay in two decades, transforming its ubiquitous mobile-payment app into a native AI platform with autonomous agents, as it strives to dominate China’s",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/9007d564-8867-486a-9c6f-a1db2a85cc25_435200b6.jpg?itok=qEfq-QML&v=1781604303"
+        },
+        {
+          "title": "AI for less: price war in China deepens amid ‘intense’ competition",
+          "link": "https://www.scmp.com/tech/big-tech/article/3357289/ai-less-price-war-china-deepens-amid-intense-competition?utm_source=rss_feed",
+          "source": "Tech - South China Morning Post",
+          "published": "2026-06-16T09:00:11+00:00",
+          "summary": "A price war is unfolding in China’s crowded artificial intelligence sector as companies cut rates or dangle promotions at a pivotal moment when falling costs and converging model capabilities are ratc",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/068e1416-fbf6-400e-8c6b-a677f8594d8e_267cbfd9.jpg?itok=H9TL0OFi&v=1781600407"
+        },
+        {
+          "title": "Alibaba eyes physical world with its first suite of AI models for robots",
+          "link": "https://www.scmp.com/tech/big-tech/article/3357260/alibaba-eyes-physical-world-its-first-suite-ai-models-robots?utm_source=rss_feed",
+          "source": "Tech - South China Morning Post",
+          "published": "2026-06-16T06:16:03+00:00",
+          "summary": "Alibaba Group Holding has launched its first suite of artificial intelligence models for robots, joining a global race to move AI out of chatbot windows and into the physical world. The Hangzhou-based",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/19342403-f42d-46b6-ae22-4d24170d524a_117e3a83.jpg?itok=0i0E6puH&v=1781590232"
+        },
+        {
+          "title": "AI’s next frontier, world models, and why China is ahead of the pack",
+          "link": "https://www.scmp.com/plus/tech/big-tech/article/3357235/ais-next-frontier-world-models-and-why-china-ahead-pack?utm_source=rss_feed",
+          "source": "Tech - South China Morning Post",
+          "published": "2026-06-16T03:32:04+00:00",
+          "summary": "They’ve been described as the “next frontier” of artificial intelligence (AI) – world models that go beyond large language models (LLMs) by simulating the physical environment. And in this emerging fi",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/b2e7e7fa-2093-4a36-bf07-23a4a7f22884_1f1e79df.jpg?itok=J8tRB142&v=1781579361"
+        },
+        {
+          "title": "How to ride out Hong Kong’s US$274 billion lock-up expiry wave hitting stocks this year",
+          "link": "https://www.scmp.com/business/china-business/article/3357165/how-ride-out-hong-kongs-us274-billion-lock-expiry-wave-hitting-stocks-year?utm_source=rss_feed",
+          "source": "Tech - South China Morning Post",
+          "published": "2026-06-15T23:00:06+00:00",
+          "summary": "Investors will soon need to contend with a side effect of Hong Kong’s initial public offering (IPO) boom over the past year, as an unprecedented number of shares are expected to flood the market once ",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/15/1cf706c2-5d26-4e82-8626-ecfa0f80cbcd_d7d8a439.jpg?itok=-EQvPvXG&v=1781514385"
+        },
+        {
+          "title": "High degree of quantum entanglement detected for first time in centimeter-sized crystal of strange metal",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNVZPbEF0d2xxZDBuTFlkSl8yVzBkOThuNXJ3TFNsZVZtV1Z3eml3elcyNHdzVV9lTkxNdGYydm50V3ExOTBXT0dzSmg4MTd6YTVPVndGREZYbG5QbmxsUDFIcDd3SEFBbm1tTkFRYWlib3pPcUJaZFczR0VKM3lkT0YxY2g?oc=5",
+          "source": "Phys.org",
+          "published": "2026-06-16T21:00:04+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "to Release LOFIC-Equipped CMOS Image Sensor for Mobile Applications with 100 dB Dynamic Range and Low Power Consumption｜Information｜Sony Semiconductor Solutions Group",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BbWVyYVFhTWZrYS1qRUUtaE1SWWZEV0ZWYUp2dURpSU00bmtHZ0ZmcDdLY0g1V1IyR3RVSHB3QnQ1YWNaT1YxSkdxcUt5WV9fbWR4M1htbGxmT3hiWi1lZF9xNl9FNVJo?oc=5",
+          "source": "sony-semicon.com",
+          "published": "2026-06-17T02:01:33+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "OVHcloud Expands Quantum Platform and Launches Quantum Networking Collaboration",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVlU2cEJZUVVfcktXVTNkQ0tZajd0STJ2bFdmY0Z3akNSQ3c1THZBVmh1aDFHa1pOQ3VzQnVpRHdGTm5mU1pCd05uOElmMUgyQWhEdGtvRXZsVzg4VXQxeW91c2wyXzdodnVGQ3hGanBJN1ZrRGNOMGltRHlFN280WGxGdlpkcnJYR3NVb1RFNDFFdFRHeXVsR25LSEQzdHNlbGpNa1d6Z1lxRTVKZFhmSkk3QXNodnhneFdPdkZ3?oc=5",
+          "source": "The Quantum Insider",
+          "published": "2026-06-17T03:50:59+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "A quantum state that lasts forever may finally be within our grasp",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObzNOYm5rdE9yekUxQUVtZjFOek95X2lSYzRiX1hCaHl2ZWhyNEtIZVdFRE5YcXhMOWRHZEI5TklBTnlrVG10eEFQRU9pNGdyQXNxWnotRmN6NVY0UGc3Z3NObTVBOVJnUnZ4QXlSSndRbXBHRkhmT1VaWm5tR0V0MGFwaFdMV0pnR25HRFd0N01tcm9aN0R4SnRXN2FMWTFkdkVRLW5UaE9MUmdmeVl5Y1BR?oc=5",
+          "source": "New Scientist",
+          "published": "2026-06-16T13:00:05+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "AI semiconductor plasma-based integrated process KIMM develops intelligent system for 2D semiconductor manufacturing",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jQzdPVjRlb1A5WFJ6WGtlMXhkU21ZRHVKVTFCWVBWdEFCcXZzcHp6ZHUtbXhuMHRpblhGSWxVUFNtemtjZ29Gck1Bekd5cjRzMkNpdE8tZGZWdlFM?oc=5",
+          "source": "EurekAlert!",
+          "published": "2026-06-17T04:13:29+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Andhra Pradesh emerging semiconductor hub, says CM Naidu",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOThxZHNHcm5YT2F6bl9ndkhiQU5JZk16WVZIRS1CQTZXeGRGWVJOUW9maURSajM1TlZJenFJM3Jmd1hyWmJ6MDg4ckR5Y3NIVkRRVi1nU1ZJc2JPRzNHZng1cVNOMmsxaWVOdXByTjA1TXV0dWR4OEtIOGRnd0owc3FXSE1MV0JTUEdTU2dnMlZwRDk0WUVTX3ZROXRFMkRMMTVtYks2V1p2Ynp0dHl2czdZWlJYRXB3QkhSTy05a9IBzAFBVV95cUxOVjRfTGlEUkxyQk1WeS1oemF4WnZUOThoTkZ5TExIbHc1VjZtWEF4XzZFME1DVFRKeXNKTGxPYVlsUE5ja0hTTkc3QmdKU0Z5QUlDZ3hBUkpRWXRJbGRpU2RmbGxIZGNFZTNZd3dEMmFROVhHT1FDOC1MaUo3cTltM3ZjdFhiUGVmSmZRLW9yMjlYTi1HUWVUQ1BMQkZCcWpfT3kwZXhkcEJGUUw2M2kxejdQVzZaeURYYzVKV1p1c1J6aHh4b0FCekxKSng?oc=5",
+          "source": "The New Indian Express",
+          "published": "2026-06-17T03:21:56+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "The Next Semiconductor",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzV0RDdFZGUmZHRVY0bnBsXzVUYzJVRUFoMWpMTUpFc1FUYkNxcWtmOEpwQURuWGp5ZFctbko0NnQ5ZThHRWlLM3lYbmZyMm5CaTNPNXdRSjczd0c1RGJqZW1WWkFGcnV5MEdzbw?oc=5",
+          "source": "Lawfare",
+          "published": "2026-06-16T19:31:30+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Laboratory Robotics Market Size, Share | Growth Forecast [2034]",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5Qjh1QlBoUjhncUJidDhlZTJ4amNFbXY5REJlLWhXNjNkSjJuaVRlclNyam9tNUNkRTRiZFh4TnFBVTVnYV91VXRWMUFfX19PUkRzVm8tX3dFLXVWcDJYdUF3NEJiZ21pVDNQaEVyMTZJRjBfZ1o3dlVmcTMxZw?oc=5",
+          "source": "Fortune Business Insights",
+          "published": "2026-06-17T01:33:00+00:00",
+          "summary": "",
+          "image_url": null
         }
       ]
     },
     {
       "name": "Climate & Energy",
       "slug": "climate-energy",
-      "angle": "Climate science, energy transition, grids, policy. Merge climate + sustainability + energy/utilities; use sub-headers if needed. India angle is gold.",
+      "angle": "Climate science, energy transition, grids, policy. Merge climate + sustainability + energy/utilities. India angle is gold.",
       "max_stories": 6,
-      "feeds_ok": 2,
-      "feeds_failed": 2,
+      "beta": false,
+      "feeds_ok": 4,
+      "feeds_failed": 0,
       "entries": [
         {
           "title": "Analysis: Energy-efficient air conditioning could save Indian homes 69bn rupees a year",
           "link": "https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/",
           "source": "Carbon Brief",
           "published": "2026-06-16T11:09:23+00:00",
-          "summary": "More energy-efficient air-conditioning units could, together, save Indian households ₹69bn ($724m) a year, according to... The post Analysis: Energy-efficient air conditioning could save Indian homes 69bn rupees a year appeared first on Carbon Brief .",
+          "summary": "More energy-efficient air-conditioning units could, together, save Indian households ₹69bn ($724m) a year, according to... The post Analysis: Energy-efficient air conditioning could save Indian homes ",
           "image_url": "https://www.carbonbrief.org/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-10.40.53-1024x529.png"
-        },
-        {
-          "title": "Analysis: UK’s EV drivers are now saving £1,100 each a year – and £3bn in total",
-          "link": "https://www.carbonbrief.org/analysis-uks-ev-drivers-are-now-saving-1100-each-a-year-and-3bn-in-total/",
-          "source": "Carbon Brief",
-          "published": "2026-06-15T15:26:38+00:00",
-          "summary": "Amid reports that the government could weaken the UK’s electric vehicle (EV) targets, Carbon Brief... The post Analysis: UK’s EV drivers are now saving £1,100 each a year – and £3bn in total appeared first on Carbon Brief .",
-          "image_url": "https://www.carbonbrief.org/wp-content/uploads/2026/06/UKs-EV-drivers-are-now-saving-1100-a-year-–-and-3bn-in-total.png"
         },
         {
           "title": "Will New York Gov. Kathy Hochul sign a balcony solar bill?",
           "link": "https://www.canarymedia.com/articles/solar/new-york-gov-sign-balcony-solar-bill",
           "source": "Canary Media",
           "published": "2026-06-16T07:30:00+00:00",
-          "summary": "Apartment and condo dwellers of New York have long been unable to tap solar power at home to lower their energy bills. But that could soon change. Late last month, state legislators passed the Solar Up Now New York (SUNNY) Act to legalize panels that plug into a standard outlet and start producing electricity.…",
+          "summary": "Apartment and condo dwellers of New York have long been unable to tap solar power at home to lower their energy bills. But that could soon change. Late last month, state legislators passed the Solar U",
           "image_url": null
         },
         {
@@ -258,7 +421,135 @@
           "link": "https://www.canarymedia.com/articles/transmission/new-england-hydropower-transmission-line",
           "source": "Canary Media",
           "published": "2026-06-16T07:30:00+00:00",
-          "summary": "When the New England Clean Energy Connect transmission line started carrying electricity from Canada into Maine in January, supporters hailed the project as a triumph for renewable power. Now, after nearly six months of operations, the early numbers raise questions about whether the project will be able to advance…",
+          "summary": "When the New England Clean Energy Connect transmission line started carrying electricity from Canada into Maine in January, supporters hailed the project as a triumph for renewable power. Now, after n",
+          "image_url": null
+        },
+        {
+          "title": "Trump’s DoJ intervenes to back Elon Musk in datacenter pollution lawsuit",
+          "link": "https://www.theguardian.com/technology/2026/jun/16/elon-musk-xai-datacenters-trump-administration",
+          "source": "Environment | The Guardian",
+          "published": "2026-06-16T23:01:13+00:00",
+          "summary": "Justice department urges judge to throw out suit brought by NAACP over xAI’s methane-gas turbines in Mississippi The Trump administration is coming to the defense of Elon Musk in a lawsuit over claims",
+          "image_url": null
+        },
+        {
+          "title": "US lawmakers fight Trump cuts to $386m ocean monitoring program: ‘supreme stupidity’",
+          "link": "https://www.theguardian.com/us-news/2026/jun/16/ocean-monitoring-cuts-trump",
+          "source": "Environment | The Guardian",
+          "published": "2026-06-16T14:48:20+00:00",
+          "summary": "Lisa Murkowski, a Republican senator, joins Democrats in bid to stop dismantling of Ocean Observatories Initiative US politics live – latest updates A group of Democratic senators and one Republican, ",
+          "image_url": null
+        },
+        {
+          "title": "King tides along California coast prompt advisories following two deaths",
+          "link": "https://www.theguardian.com/us-news/2026/jun/15/king-tides-warning-california-coast",
+          "source": "Environment | The Guardian",
+          "published": "2026-06-15T19:38:32+00:00",
+          "summary": "A five-year-old girl was swept away and a woman was pulled into the water, prompting authorities to urge precaution Massive waves, coastal flooding and dangerous rip currents are roiling the Californi",
+          "image_url": null
+        },
+        {
+          "title": "Retail giants join UK government drive to boost ‘plug-in’ balcony solar panels",
+          "link": "https://www.theguardian.com/money/2026/jun/16/retail-giants-join-uk-government-drive-to-boost-plug-in-balcony-solar-panels",
+          "source": "Environment | The Guardian",
+          "published": "2026-06-16T14:01:36+00:00",
+          "summary": "Asda, Amazon and B&Q among retailers in talks to sell devices that feed into household sockets and can cut electricity bills by 30% Spanish homes save €10 a month via renewables expansion Bosses of so",
+          "image_url": null
+        },
+        {
+          "title": "‘At first, the idea does sound crazy’: meet the scientists trying to refreeze the Arctic",
+          "link": "https://www.theguardian.com/environment/2026/jun/16/arctic-sea-ice-rethickening-climate-geoengineering",
+          "source": "Environment | The Guardian",
+          "published": "2026-06-16T14:00:01+00:00",
+          "summary": "Sea ice is melting fast, worsening the climate crisis, but a bold attempt to rethicken it is showing early signs of success ‘This would have been a wild dream a year ago,” says Andrea Ceccolini, stand",
+          "image_url": null
+        },
+        {
+          "title": "Thames Water nationalisation moves closer as government objects to rescue deal",
+          "link": "https://www.theguardian.com/business/2026/jun/16/thames-water-nationalisation-rescue-deal-ofwat",
+          "source": "Environment | The Guardian",
+          "published": "2026-06-16T13:52:28+00:00",
+          "summary": "Environment secretary raises concerns that customers would face ‘undue burden’ from £10bn plan Thames Water should be nationalised, says Burnham Nils Pratley: the tide is turning on Thames Water The U",
+          "image_url": null
+        },
+        {
+          "title": "Dartmoor pony cull proposal prompts urgent call for livestock rule change",
+          "link": "https://www.theguardian.com/uk-news/2026/jun/16/natural-england-and-mps-call-for-rule-change-to-stop-dartmoor-pony-cull",
+          "source": "Environment | The Guardian",
+          "published": "2026-06-16T13:36:55+00:00",
+          "summary": "Exclusive: Sources say Defra’s policy on livestock fails to distinguish between ponies and sheep Natural England and MPs are urging the government to change its livestock rules to stop ponies on Dartm",
+          "image_url": null
+        },
+        {
+          "title": "The bat that weighs the same as a teaspoon of salt – and the biologist who rediscovered it",
+          "link": "https://www.theguardian.com/environment/2026/jun/16/iroro-tanshi-biologist-rediscovered-short-tailed-roundleaf-bat-teaspoon-salt-aoe",
+          "source": "Environment | The Guardian",
+          "published": "2026-06-16T06:00:48+00:00",
+          "summary": "The short-tailed roundleaf bat was feared extinct until scientist Iroro Tanshi found one in Afi sanctuary in Nigeria, and set out to protect the only confirmed roosting colony Just after sunrise, a ca",
+          "image_url": null
+        },
+        {
+          "title": "Union Minister Shripad Yesso Naik virtually addresses India Energy Transition Summit 2026",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRTZjU3NOU0ZfYzVxdXgzTXdLeGlnQTlDcUtPRlJUZC1RbWE5dkN2NXhBQVhVeU41MW9rNndHYklDS3piSjVXcy1VQ2tWbGFhVUNVMFRWcl9lRTkyekxHdHBWdm1TRXpfZmJxcXZKSHB5SlBXYTRoQ2lDbkJoTmVRYUVMLTR0cnU3ek5GZC0teHluTElKcnpUNmJvWmlIZjRVTUI5bDRMemNKVnpsUG5Hb0EtaEVwdw?oc=5",
+          "source": "Newsonair",
+          "published": "2026-06-16T21:35:19+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "82% of Indians Back Coal-to-Clean Energy Transition: Yale-CVoter Survey",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTXdiSUk4WmZTMlFrNWRpZFk5TExyMmItVmxRa3A2X0MzYlFLV0tlMXpwRE13eHJvLXlWTGxPb3pCYkNUT3hoSlRuX3VVTVRCLThrR1ZuYXpwZ1ByOGdPTUw3SEttUXIzTG1YNllGMU1DU2JwRmhNWW1qVXo2bnlxWFdwSzdMeU8zUWZPVG1uM1FlMUxNbGxxcEZRQWp2MHBGU0xZeHBuVXo0REV2R3YxOEZrWk5KOW96WHA2dzZzN0g?oc=5",
+          "source": "Saur Energy",
+          "published": "2026-06-16T10:25:47+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "India's Electricity Reforms Need A State-Level Systems Upgrade",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYndHMTBGNkpjWkVKczhuanpTY2M0bE4tYVQyTG5wb0pmOVZzZG9Ud2NFbGs5UWQtZ1czMmd4MjVzbHhESm5nYk5nTmswWFNtY0tuOHRnYUVJQzRQRmpGbG1xZEthUEt4bFhGeDlBU3lSTlM5NjZCeThTRF90WVNaTG1wWC1LLTYyaFF6VnE1Qk5xam9NX0daTk9IT3JJaDh2eGpSUVI5Z3FleTVSS1RHRm4wTdIBuAFBVV95cUxOVTJaaGFoSlYybkJCMlpYNnRIUTFPYmhtVjZhUUhxa3drV0FoY1VaeVZCa2FGbEZud1JMR0phS253bmZsUzFSakVzMGhKM216Vl82OHBrZnA3X0J0ZnJubThkNW1aSWExb3JOdm1JVFVrTXdVREVqNVN5N2ktQ3NWcEJjWXJUX3l1dmV2Qk00dk5OX3BUYTdXdmI3a1VrV3NSQ1NtemRKVVprUUVMZ0cyM2JrakR6bUph?oc=5",
+          "source": "ETV Bharat",
+          "published": "2026-06-17T01:31:59+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "DHL Targets 5x Increase in Energy Transition-Related Revenues to €3 Billion by 2030",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS0FZYnNNM294ZVdabHVrNmJsdGIwcm1OMUs4cHdhLTBSdmM5dmx3MXhWaGszZk53LUlhc0Y5aktpQlQwOV9xeHZMMVhXMTJYQUVybm5iTjVwbjZhWGJsUEdpU1pkNkZ3OE82YkdXUmdlenEtd3N2aldQc3hhd05meVZKTFRJM1ZBcnFfYzVSSmpBOUZRQmhZT0hxbGVld2EtT2llM3BaRUE2NXdxVXc?oc=5",
+          "source": "ESG Today",
+          "published": "2026-06-16T16:15:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Expert Explains | How solar-integrated rail and road infrastructure can power India’s clean energy transition",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdFN1c21pSTJaVnVlcDluWDlNNDlFWUxUR01lSkZ5TFJlTmdlRURpVjNpMlhrakJ3N3pXWXphSU8yNVRoVGxhOURVU1dOVnloVXZZNHNRZTIwZW5RTmUybXRpR1lpSURSREhJeWdZTWFvQ3lKNUpmbEQ1cW1kcUF2V21VVjY1Mm9SaGlMTEJ0YlJvaTZnTDdnNF9RUTd5VV9ZeXBJZnoxZ0xMeDBSa1ZHaS0weTdoc0ZxU29XcXR2a19IRG1JemJUd0V5TGdpdHfSAdYBQVVfeXFMTk42OV9VWnU2aUt5bERRVkU0NVA1RGpWOFA4QnZTS3RadVFyVHhEWV81Nm1TOEoyaGdqeEdBc3p4bHl0S0hkSExjc18zejBlS1h4dlgxU2h3SW50Z29wdU9xem9JS0c0NC1vdDk3TW1rZG1jRms1NjZNRzduekJvYk1lb1JTVjRPeWhjT3JYSUhyZU5IS3FMVzVQNGtjNGJ5Y0RoTUxFbXVBRGRyX0lPUC1FeGpRZGQ5cjI4NXlWWHhXblc0R3VzcVJ3eENEN2doWE9tMk8xUQ?oc=5",
+          "source": "The Indian Express",
+          "published": "2026-06-16T11:46:56+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Avaada Group: 17.7 GW Renewable Energy Capacity in 2 Years",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQalF2SWNGa2lVU05zdmp2NDBveC1RdE1QaURvbDJoN1FRUTNkWkJnb1FvWmhPcU1jUVhjcldNaDBSY2RmSmtDUS1CeUtSdXlKaEJidmVOTTItVUVHTmtxTmJuU2hBSVBHNVJxVXVEQ1ltUnRPanJJVXFDbUdsYk5MZXNrTTA3SHRzODhQRy1FVHJfS0lfazdRTXcyZzlPY1JaNDkzbXVCT3lPYWE1WDREa0pLWdIBswFBVV95cUxQalF2SWNGa2lVU05zdmp2NDBveC1RdE1QaURvbDJoN1FRUTNkWkJnb1FvWmhPcU1jUVhjcldNaDBSY2RmSmtDUS1CeUtSdXlKaEJidmVOTTItVUVHTmtxTmJuU2hBSVBHNVJxVXVEQ1ltUnRPanJJVXFDbUdsYk5MZXNrTTA3SHRzODhQRy1FVHJfS0lfazdRTXcyZzlPY1JaNDkzbXVCT3lPYWE1WDREa0pLWQ?oc=5",
+          "source": "Rediff MoneyWiz",
+          "published": "2026-06-16T12:07:17+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Avaada Concludes 36-Day Bharat Uday Yatra Across 27 Cities, 10 States",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWw2V0Uyby1zNHY1eGxHRzJQeHNpNE9Pa2lHVmFQcHdJcXV0cTdZZ085Z29lUFNrT3pRQl9vM3MtYnhDVVJPSlltSlY5dk44UXQ2clU0N2Q1YklpcjhIa04zcnJianREaEtMUTlkT0poZFp5YUFGMGN5RkpfN0NiQzdtZThyaXFzS1dJc3g1cERNQzAxTUdta095aEdlTFJ5ZWxxMQ?oc=5",
+          "source": "Energetica India Magazine",
+          "published": "2026-06-17T04:03:55+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "India-Netherlands partnership key to turning net-zero ambition into action: Dutch Ambassador",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbEpIYm5QYlFka3RBaXBQdDNrQXhQdDlwaGJpeFFreUtlUTFBbGYyOFd6RDVqSnM5andNMFlkOGhYWkZoMjE1c2otOGhfMTY0OEMyZ05YXzdMVTZ3QldsZnRUSjEzeUpEeXpkQkZ4YURqZjdRQzcxcXY5NnlXVTVFMXRsb3FfVjc3SjF5b2I2cWxsVjA0aVE3bnFEd2ZGeUpkTnZxTUVPSTctSEdYeUU4UTZyaHlKZnRpcTFDNGNHRkU5R1R4SXJEUU5B0gHPAUFVX3lxTFA0OXhPX3ZTMnJOTVliNkVfQ0JoUEJVWWpvTmFDeUxxblYtX1k0RFJPU2JQVjlOc3pCZzlJRC1WQUVFa3FtNnUweUpqOF90UnVXV0p0WHVNOGNCamJmOFZWWEU2NEhsdi1fMkJvTGxuZklpR1JvX29XWmJiV2FEOUVSS1IxTlhUaUZzeDBxSkxPdC1OcU82aU45U0dZTjlwcTNrck5QMGdidFk0d3o2RXRfaGJqcDNER2wyVWpZN1VDWkRRZTdrNUFVWXZ3NEF0NA?oc=5",
+          "source": "ET EnergyWorld",
+          "published": "2026-06-16T07:32:30+00:00",
+          "summary": "",
           "image_url": null
         }
       ]
@@ -268,8 +559,9 @@
       "slug": "health-tech",
       "angle": "Digital health, biotech, devices, healthcare systems. Deployment and evidence over lab hype.",
       "max_stories": 4,
-      "feeds_ok": 2,
-      "feeds_failed": 1,
+      "beta": false,
+      "feeds_ok": 3,
+      "feeds_failed": 0,
       "entries": [
         {
           "title": "STAT+: How a biotech turned a trial failure into an AI model",
@@ -340,7 +632,7 @@
           "link": "https://www.fiercebiotech.com/biotech/amenable-fda-briefing-docs-bode-well-modernas-mrna-flu-shot-ahead-adcomm-grilling",
           "source": "Fierce Biotech",
           "published": null,
-          "summary": "With a panel of outside experts set to weigh in Thursday—and with a refusal-to-file fiasco with the FDA just barely in the rearview—Moderna and its contender for the United States’ first mRNA-based influenza vaccine are heading into a critical test this week.",
+          "summary": "With a panel of outside experts set to weigh in Thursday—and with a refusal-to-file fiasco with the FDA just barely in the rearview—Moderna and its contender for the United States’ first mRNA-based in",
           "image_url": null
         },
         {
@@ -364,7 +656,7 @@
           "link": "https://www.fiercebiotech.com/biotech/edgewise-data-power-rival-bms-and-cytokinetics-toward-phase-3-despite-investor-doubts",
           "source": "Fierce Biotech",
           "published": null,
-          "summary": "Edgewise Therapeutics has reported phase 2 data on its cardiomyopathy prospect, keeping the biotech on track to start pivotal development of a would-be challenger to Bristol Myers Squibb and Cytokinetics.",
+          "summary": "Edgewise Therapeutics has reported phase 2 data on its cardiomyopathy prospect, keeping the biotech on track to start pivotal development of a would-be challenger to Bristol Myers Squibb and Cytokinet",
           "image_url": null
         },
         {
@@ -372,7 +664,7 @@
           "link": "https://www.fiercebiotech.com/biotech/merck-inks-510m-biobucks-data-generation-partnership-protillion",
           "source": "Fierce Biotech",
           "published": null,
-          "summary": "AI drug design specialist Protillion has inked a $510 million biobucks collaboration and license agreement with Merck & Co. that brings together Protillion’s platform and Merck’s drug discovery expertise.",
+          "summary": "AI drug design specialist Protillion has inked a $510 million biobucks collaboration and license agreement with Merck & Co. that brings together Protillion’s platform and Merck’s drug discovery expert",
           "image_url": null
         },
         {
@@ -388,7 +680,7 @@
           "link": "https://www.fiercebiotech.com/biotech/adaptive-plots-splitting-pfizer-partnered-drug-discovery-unit-diagnostics-business",
           "source": "Fierce Biotech",
           "published": null,
-          "summary": "Adaptive Biotechnologies is planning to separate its drug discovery and diagnostics businesses, outlining its intent to evaluate “strategic and structural alternatives” for the medicine wing of the company",
+          "summary": "Adaptive Biotechnologies is planning to separate its drug discovery and diagnostics businesses, outlining its intent to evaluate “strategic and structural alternatives” for the medicine wing of the co",
           "image_url": null
         },
         {
@@ -398,6 +690,70 @@
           "published": null,
           "summary": "Executives told Fierce how the company is in the middle of a transition to “the new Biogen”—embracing partnerships, investment and entrepreneurship to replenish its pipeline.",
           "image_url": null
+        },
+        {
+          "title": "Google Launches Revamped Health App, Coach & Fitbit Air",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYm84TGpkTDBMaDI4c3NZRUwyTE5TTmlnbDVqeE1qZXhWWEQ5RlJ6NWRyd2JyN3dJcF9HY2NwVlJqYTVLU1ZORDBsYXlqMWFvV245aVRWdkJLSzdwRFFuaVduUTlqa21LX3hrYjRXaG1MZjRLSXpjOXBqblhUNWRLQ0lKd3JObGlmZXM1RzAxTQ?oc=5",
+          "source": "Digital Health News",
+          "published": "2026-06-16T20:34:39+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Digital Health Coffee Time Briefing ☕",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX00wMDU4ZlgxNVRwZWNKNXliQnZzc0dfem55dnVPMkVoNTZZVGQxTUFsMXozT0FhbTNLdGpNOFZqa1FZZUJ3amhRa0pFX3hUT3NEUHNDcWN5ZTZvQXpwWGlmcGphYW5NS3gtc1MtOUdqUTVRSnFwR1R4UEQ0VFpObkxrblRNZVRnX1F1Ny0tajlzUQ?oc=5",
+          "source": "Home | Digital Health",
+          "published": "2026-06-16T10:02:23+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "US telehealth utilization climbs 10.1% in Q1, led by mental health visits: Fair Health",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSHFzODB1dWJyeTkzUzlBS0Jmc0xEMVI4Um14TXRVQ2pENUdLSGpPdTljaGRySWNONUwxUjZwYUJ1MWtXNDJIajJSbmVUZnZUM1lfODM0UUxYYzFQOXp6YW9lTjNfLXpuZU8yOS1kdzB6NUpTYTZ5SnR4RHFtTWlaNUV6anRIZ3dFUTRqNlJYRVlvRjRySDdienNYUjFRNzkyQzI1UTQ4Z2s4SEt0dUZBMjdJNElvYVpLeDFNOVdMYi1LYU1wNjFMNQ?oc=5",
+          "source": "Fierce Healthcare",
+          "published": "2026-06-16T18:00:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "TRAK raises €3.7 million from CRB Health Tech, Decelera, and Angels to accelerate the expansion of its 100% digital physical rehabilitation clinic",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOZ1hGOWp4Wm5oT1lENTRmQS0waVd0OTZYaUl5ckdyNXNiZk5FeXZRWTNpRzVjcjhxem80dGt6QVZIbEZVOTh5Y21vQkx1emc0bGNTeC1wTFpiS3lDcGc5UWszc0lsQlJNNi1CQ0NWb1JnVDJDR29sbXh5ckZCc0VlYmF4RlBIcUc5SWZJTTYzMjc3OHprRzhpZWZ6aTd5MU9yQndOSDhQVDFTU3hWTHY2LVZ6cHYwaXdMZE5hTmdscDlGSEFZR3cwTGM0ckNqemd1ekZqeWl5ZXpSQUpsQ3N0TUFyNDUzb09UVFJrNHhQV0FiTmdqV1hFeWEwXzlqdHVBa3lFWXRIRWtSai1SdFE?oc=5",
+          "source": "Capital-Riesgo.es",
+          "published": "2026-06-16T11:15:29+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Digital medical device for cancer detection certified for smartphone use",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTThxRTB4b2F2NlljVG9PaHRUOTJIUGNUTXB2RHRwdEZxX3R2cF9GMjBsN3JIeGZpUi1hX2RPcFBGYksxQUJZaElVbnZ4M1VkeVlXXzM4T0ZQU3FtZVBER29NclVuby15YnZHQVMtbHQtYWotVHp3YkhaQ3lkaFZyeVFwdjhMQ3ZYSTFkNEZUQWRnSVhHVkhXUHNpbWo2c2RHWXF1VFhWbE9BT2dPWC1FSTk3OA?oc=5",
+          "source": "Med-Tech Insights",
+          "published": "2026-06-16T08:32:13+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Influential Women Distinguish Douaa Mugahid For Advancing Global Health Innovation In Biotech And Digital Health",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNzg2V3dGTThrOUY5YWx3Y3MxNmZtZUZCZDBQVEQ1cUdzTE1vYy1TSUVhcXp6emZRb2Nzbnc4ZmhxOXdYZDdHY3c1OVZlZ1U0UFpFVE85dW1nUDZjcjJ0R2xWMGJDMlBUWVF4VUdyVDROalg1SG5qeUFlR3ZsZGYzWGg5a2VtYXVrVGRheE5VRmVGOFlpV2JNTjdJVDhDN2g0N184WGlLUmJxQjV2azRPbF80RGNFd3c5SUppeldobG9rNmdDbldrTnJTd0prdzlKaDd3dUdRWDBCOTlWZkRBNFFzeE9BSFAyWFJmekE0bTA?oc=5",
+          "source": "EIN Presswire",
+          "published": "2026-06-16T12:38:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "WPS Announces Acquisition of Mavida Health, Expanding Digital Mental Health Capabilities for Women and Families",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FelV3RWhueUtyUWJ5N1JuY3hlZEhHTWdmOEQ1Vl9nRGpIRGNfeU1qWkNCSHpwdFRSQWM0UEZxbTFIemlQVzZvMV9TbEpEemExNk5EeTJfNzl1QQ?oc=5",
+          "source": "Lelezard",
+          "published": "2026-06-16T16:00:47+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Chutes & Ladders—Strive Health taps new CMO, CFO; Komodo changes leadership structure",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObzdyTGN2RTkwa2l5S2QtOHlsOW5jeFN6UDBLckZ0VE5TODA0bHVoZlY3RDB0Z1FQblV4VUFpTkJmUDhuUlZLQ00xTC1fR2w0UDdlYWhRY0dzcWZweFczY3BUUmlfMm12QVlkUTZIUXJXT0Q1QmwwSEVVY1c3Wl8tWGVQbjFnOFlsREdSb25qOWxoSTBfNXJzMFluUjI3WWhDWDRpX2hEV2pWUVNSR2tXa0gtMDN3b2tkSXRrNlFuTHAwWG8?oc=5",
+          "source": "Fierce Healthcare",
+          "published": "2026-06-17T01:47:13+00:00",
+          "summary": "",
+          "image_url": null
         }
       ]
     },
@@ -406,15 +762,16 @@
       "slug": "agritech",
       "angle": "India-first. Farm tech, supply chains, climate-resilient agriculture. Deployment over demos.",
       "max_stories": 4,
-      "feeds_ok": 1,
-      "feeds_failed": 1,
+      "beta": false,
+      "feeds_ok": 3,
+      "feeds_failed": 0,
       "entries": [
         {
           "title": "AI is everywhere in CPG R&D. But is it moving the needle? Turing Labs surveys the biggest players",
           "link": "https://agfundernews.com/ai-is-everywhere-in-cpg-rd-but-is-it-moving-the-needle-turing-labs-surveys-the-biggest-players",
           "source": "AgFunderNews",
           "published": "2026-06-16T15:30:36+00:00",
-          "summary": "57% of R&D execs at big CPG firms told Turing Labs that GenAI formulation outputs were too generic to use without significant manual re-work. The post AI is everywhere in CPG R&D. But is it moving the needle? Turing Labs surveys the biggest players appeared first on AgFunderNews .",
+          "summary": "57% of R&D execs at big CPG firms told Turing Labs that GenAI formulation outputs were too generic to use without significant manual re-work. The post AI is everywhere in CPG R&D. But is it moving the",
           "image_url": null
         },
         {
@@ -422,7 +779,7 @@
           "link": "https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing",
           "source": "AgFunderNews",
           "published": "2026-06-16T08:00:54+00:00",
-          "summary": "Rainbow Crops expects to announce a collaboration with a seed company on corn soon and is discussing additional partnerships in other crops. The post Rainbow Crops raises $11.25m to scale AI-guided multiplex gene editing appeared first on AgFunderNews .",
+          "summary": "Rainbow Crops expects to announce a collaboration with a seed company on corn soon and is discussing additional partnerships in other crops. The post Rainbow Crops raises $11.25m to scale AI-guided mu",
           "image_url": null
         },
         {
@@ -430,7 +787,135 @@
           "link": "https://agfundernews.com/french-alt-meat-whole-cut-specialist-swap-food-enters-judicial-liquidation",
           "source": "AgFunderNews",
           "published": "2026-06-15T23:05:58+00:00",
-          "summary": "Best-known for its whole cut chicken fillets, Paris-based SWAP Food has secured more than €100m ($116m) in debt and equity since it was founded in 2020. The post French alt meat whole cut specialist SWAP Food enters judicial liquidation, ceases operations appeared first on AgFunderNews .",
+          "summary": "Best-known for its whole cut chicken fillets, Paris-based SWAP Food has secured more than €100m ($116m) in debt and equity since it was founded in 2020. The post French alt meat whole cut specialist S",
+          "image_url": null
+        },
+        {
+          "title": "How a tiny blue gecko became a conservation comeback story",
+          "link": "https://news.mongabay.com/short-article/2026/06/how-a-tiny-blue-gecko-became-a-conservation-comeback-story/",
+          "source": "Conservation news",
+          "published": "2026-06-17T00:05:41+00:00",
+          "summary": "Williams electric blue day gecko is a small Tanzanian reptile whose recovery shows what focused conservation can do, reports Mongabay contributor, Manuel Fonseca. Once heavily collected for Europe’s p",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/17000449/herps_686-768x512.jpg"
+        },
+        {
+          "title": "The Bougainville community in Panguna wants justice for mining’s ‘toxic legacy’",
+          "link": "https://news.mongabay.com/podcast/2026/06/the-bougainville-community-in-panguna-wants-justice-for-minings-toxic-legacy/",
+          "source": "Conservation news",
+          "published": "2026-06-16T21:35:04+00:00",
+          "summary": "Theonila Roka Matbob grew up next to what was — at the time — the world’s largest open-pit mine in Bougainville, an autonomous region in Papua New Guinea, operated by a subsidiary of Rio Tinto. This m",
+          "image_url": "https://news.mongabay.com/wp-content/uploads/sites/20/2026/06/Media-Room-Theonila_Credit-Goldman-Environmental-Prize_152.jpg"
+        },
+        {
+          "title": "Rain along the Gulf Coast could become the first named storm of the Atlantic hurricane season",
+          "link": "https://news.mongabay.com/short-article/2026/06/rain-along-the-gulf-coast-could-become-the-first-named-storm-of-the-atlantic-hurricane-season/",
+          "source": "Conservation news",
+          "published": "2026-06-16T21:27:11+00:00",
+          "summary": "MIAMI (AP) — A cluster of storms along the Gulf Coast could become the first named tropical storm of the 2026 Atlantic hurricane season, the National Hurricane Center said. The storms threatened to br",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16212238/AP26167592799499-768x512.jpg"
+        },
+        {
+          "title": "Lawsuit demands accountability for Cerro de Pasco mining pollution in Peru",
+          "link": "https://news.mongabay.com/2026/06/lawsuit-demands-accountability-for-cerro-de-pasco-mining-pollution-in-peru/",
+          "source": "Conservation news",
+          "published": "2026-06-16T21:14:58+00:00",
+          "summary": "A mine that has been operating for decades in the Peruvian Andes continues to contaminate the soil, water and air for thousands of people living nearby, according to a lawsuit filed last month. The co",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16210447/AP0909151105123-768x512.jpg"
+        },
+        {
+          "title": "‘Thinking how traffickers think’: Study uses AI to detect marine wildlife smuggling",
+          "link": "https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/",
+          "source": "Conservation news",
+          "published": "2026-06-16T17:53:35+00:00",
+          "summary": "On Sunday, April 26, Argentine officials stopped an unusual shipment arriving at an airport near Buenos Aires. Inside, they found so many dead and dying fish, octopuses and crabs that a national rescu",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16081112/6-spiny-seahorse-Hippocampus-histrix-768x512.jpg"
+        },
+        {
+          "title": "How a popular spaghetti dish is threatening Italy’s marine ecosystem",
+          "link": "https://news.mongabay.com/2026/06/how-a-popular-spaghetti-dish-is-threatening-italys-marine-ecosystem/",
+          "source": "Conservation news",
+          "published": "2026-06-16T17:47:58+00:00",
+          "summary": "NAPLES — On a warm, moonlit night in May, Maurizio Simeone sat in an ambush at his desk about 10 kilometers (6 miles) south of Naples, Italy. The marine scientist and director of the Marine Protected ",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16113722/Riccio_Viola_URCHIN-768x512.jpg"
+        },
+        {
+          "title": "Teeming with turtles: Cabo Verde island sees 80-fold increase in nesting loggerheads",
+          "link": "https://news.mongabay.com/2026/06/teeming-with-turtles-cabo-verde-island-sees-80-fold-increase-in-nesting-loggerheads/",
+          "source": "Conservation news",
+          "published": "2026-06-16T16:36:44+00:00",
+          "summary": "In 2018, night patrol teams on Boa Vista, the third-largest island in the Cabo Verde archipelago, started noticing a change along the beaches: The loggerhead turtles were arriving in significantly lar",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/15192409/b.-%C2%A9-Roberto-Pillon-via-iNaturalist-1-768x512.jpg"
+        },
+        {
+          "title": "In Rio Indio, farmers fight Panama Canal reservoir project — and displacement",
+          "link": "https://news.mongabay.com/2026/06/in-rio-indio-farmers-fight-panama-canal-reservoir-project-and-displacement/",
+          "source": "Conservation news",
+          "published": "2026-06-16T15:20:13+00:00",
+          "summary": "LIMÓN DE CHAGRES, Panama — In Panama’s Rio Indio Basin, a $1.5 billion reservoir project aims to meet water demand for the next 50 years. But the project would displace dozens of farming communities, ",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16150742/6-1-768x512.jpg"
+        },
+        {
+          "title": "Bharat Innovates 2026 Day Two Focuses on Investor-Startup Engagement",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQNW1FLTNtVVpoUTVabXB5YkFyUTR2OEpSNjNycGoxVWU1WTlrZTJJNjlIQ1pMQ2UzTlRHeC03dklxbmVTeGVKajg5elpSSGhDVzNCd1V4bUlfTWxqRElCVUhUR0xhZDBXdWRxT2ZEZ1hWaVNIQlo1cUllbw?oc=5",
+          "source": "PIB",
+          "published": "2026-06-16T07:12:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "PM Modi visits tech exhibition in Jerusalem, explores cutting-edge Israeli innovations",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZFZ4ZEJlaFBBV2xYU21NM09DaVFuck81VzBRQmVQOWpGd1hselhOTk9NbUFyMl9qM1RZcGxpVF9lRjJRU181RnY3b0h3TXdkdjctR1AzbGR6TXNXczdERTRyZUpQWV9GU2NLQ3o1Rmt5QndESnFqaEdfejJjNkhXeHJSaHdwTDVkY05oY3o3aGlOaV96U05xLXFiT1A1XzgwRGNKQ2JQb1RZcHoybXdZSw?oc=5",
+          "source": "DD News",
+          "published": "2026-06-16T18:41:53+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "El Nino to hit 12 states severely; Chouhan calls for district-level plans",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPamxXSk9KcjdsRDhycXR4OGRLZlBTY3U2TlQ4eU44VmhtZzFSaEpfOVdFWlg5VTJpWG9ycjdRWnh0LTk5TmJMek1PRXFHLTAyRTQ5aVNvVGtyTThYdUE1LUJvU1dIclM2RVpGX1NEQ2pQYmhhWVRCTGxwb3pOV29IZ2FWUzdfNHpKRGJtSl9ZekttanFvNndkYUpldXV4YVZyUG92ODNFWHNoLTBEcXFnbEtmZ2ZZbDdjTUQ1XzFYQWpmM0VOTHlHWnFZcjVySlpwUFA2cVB2Y3dvZFZ5MjFpMNIB5gFBVV95cUxON3lIZl9RQjlTNjc1OVk1dzk1aWtrcHI1SzBfSndNUXpyVzUyRTNRQjBMQmR0VW5lODM1eHd3NldWb0NQZ1RZR2ZIX1ZMUXBMS0FKZ0NKQ0NKVXVOdmU2WFVjLUF5OGdaNE5xMEpRSUE0Ym5sZmg4eVNFQ2dieEc4WlFwTTFzMTZSY2F6OGhVY25OMXpEc0NpbEVNSkJncUN5TjVXY1B1M211TnBCRnNsUlBBUzdUVURnVjJWYm5IZExvbnJHSlBSU2E4MGo3elp6OThVeDFsZkRSRE13anZTZFJKNG1jUQ?oc=5",
+          "source": "Business Standard",
+          "published": "2026-06-16T15:51:30+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Indian agribusiness delegation impressed by New Zealand innovation",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVndnOEEtT09sYmxWZ1B2aC1fb05Ya2NRNEtXNFdBQ3prcXhfOGJXT2xodk82T1l1dGJtVDBKSy1wVzZHT0lnajdKUTZoUjZ4ZnVUY0pwOG1DTXZEOFc5a29YaGRud3pTaDNsVzRuQ2hVTEhNeldIbG5TU0F4MmRjWC1Vemd6bjlra2ZkTHl2Q2pnNUJBY3NnQzdMRWVxZ1VCRTJhUVlUZkg2SHhPdjlN?oc=5",
+          "source": "farmersweekly.co.nz",
+          "published": "2026-06-16T23:29:02+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "IIT Ropar’s ANNAM.AI and Syngenta Partner to Accelerate AI-Powered Agriculture in India",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWjVSYzNLRkQ5VHZ0amVWQ0loY21mQjZweFZQamhPaTNxc0xrT1haTlR6Nmt1RkZRbjVZeWY2RzlkUU9BYXNFVFk3dEtwRFhZYkRYcHZma1NrMFNQZmJQQk1ERjlSbkp5Njdnc21YSmVGcy00eXN5MWpDWWlkaTBOcFJzSWFoQUVwVWF0elI1UWdkdnV0YUJvdFVRZXNtMFBxZllFdmxnSTJ0U19RVWJfTWJvVmtiU25LYnZIRDNuU3RPMUHSAcgBQVVfeXFMTmVPMF9TMUZ6am55RDBHRy1YMzQ5RmpSWjdNSGlJTGRkMEFBM19jS0VhUlZmR0laZmtfNXl2N2dvZjdBdWkyNmhuUmVBNzk0dTBBNXpEUXo5ZUw0SEhmZHdOajRNTTZXdlc0aGtGcXp2R1FuTEgyQl9GU3h0NmQ0OF85X2JsUElRN1FudlBRSFFSeUVzNmxGcGFQYWNhcGljV1dYa252Q19yS1ZFRDJ6dUc5MWlkb2VNLWdKY0xranQ1eE9sUFBZTm4?oc=5",
+          "source": "RuralVoice",
+          "published": "2026-06-16T05:46:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Govt Bets ₹25,530 Crore on AI to Fix India’s Broken Ration System",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUl9xbUx4ekpOaVY2UFVELU1MOUhoS0Q3WEdJOVdGenU2XzJzdkxrc1Z3Vm5XQ0lBcW1VaWEzeFlSTDA3UDVKSXlYRElsV0Y1d05QNU4wUVFQZS1OR2pQQVdLOWF2Z2FPM3FUdE5ZM3k1OU02TnlRSFptenJlSjJlWEt2ZnBuUTM3NWtZeFh3RmhzSXFKMFBkZ0VDZmNPNjRYMUpXUnczTQ?oc=5",
+          "source": "Analytics India Magazine",
+          "published": "2026-06-16T07:06:45+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Agriculture ministry sounds El Niño alarm; MFIs step up rural credit vigil",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPX1NEalh5UHo1VTY5OUVKVWxGOE5nRXBuNkN5QzZxWjQtelczWWlKWUZNSWo3T1NNYTlyeXBJbWZTVW93Y3UwWlhTU2ZIcXI4NUpRblo3MHZQY29tTTRzRUhTZVpuWTZjSzVYc3c0VENwMnpzRlpCT0Y4dDZpSWVNdnhVTVZDTTE3WnhfeENYck50eHB5cks5eFp1Q0RHQk1lTURyQ1BJZ3VPMWdSQWNneEdGOXU5T0dHM056X1pOcjhvTlRROHE1UVQ1ZjA5aExxQjA3Tm95RW1USVdSN3lZR0RB0gHnAUFVX3lxTE1QVGxzNmhydHBGUXI2MlFyUEZnQThFYTBVQU52S1hOeXAwTkp1Z0RtRE9IYXFKd1VVQ2lOTzhYOWRrVUZuYXFXYWdsekhYdXgycXE0QXZsS0JwTEhEYWstam56anprZnpSdE5KbmR1UVU4SE9kRlRmZW56ckFrWVdsVE1FT0xpLVlZYUVnR2NGNnhsa1BOTFFOcU40aVBGQ25wOG5NQUhJWEhQcENQV3VqYV9nUDNDX3ZnYVpJd0c5T2dHeDY3Z21JSGhnR2NmT2NUQkNBUUg2SWdzcmJIa01OTFhONUNvYw?oc=5",
+          "source": "Business Standard",
+          "published": "2026-06-16T18:20:52+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "RBI revises draft norms for Kisan Credit Card for broader loan support to farmers | Akashvani News",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ096QjVNNVNCenYwVHVtMDIwVE9kLTZjNDg2S0QyaXlTRmtwd0ROZnBnZHFsekREdjBaSXRWeVRDalR1aWVGb0pjbWdpdk0zZGxxLXpUemlnbUU5cXNNbndvd2F1MHY0cjhlTnRZa2xtSUtvOVVDV2NRdmlSaURSNEp2NldMVG8zVl80aUxjWEtoN3V0VEFucGVQTVN4YjBDUVV3M3kwdC1nMkk?oc=5",
+          "source": "Newsonair",
+          "published": "2026-06-16T12:41:49+00:00",
+          "summary": "",
           "image_url": null
         }
       ]
@@ -438,11 +923,28 @@
     {
       "name": "Indian Startups",
       "slug": "indian-startups",
-      "angle": "Funding, pivots, policy, shutdowns. Entrackr-style skepticism — numbers over narratives.",
+      "angle": "Funding, pivots, policy, shutdowns. Numbers over narratives.",
       "max_stories": 6,
-      "feeds_ok": 2,
+      "beta": false,
+      "feeds_ok": 4,
       "feeds_failed": 1,
       "entries": [
+        {
+          "title": "Jio To File IPO Papers Before Reliance AGM On Friday: Report",
+          "link": "https://inc42.com/buzz/jio-to-file-ipo-papers-before-reliance-agm-on-friday-report/",
+          "source": "Inc42 Media",
+          "published": "2026-06-17T04:31:11+00:00",
+          "summary": "Reliance Jio Infocomm, the telecom arm of Reliance Industries Ltd (RIL), is expected to file its draft red herring prospectus…",
+          "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/05/JIO-IPo-ftr.jpg"
+        },
+        {
+          "title": "BigBasket Founders Step Down, TruNativ Bags $30 Mn & More",
+          "link": "https://inc42.com/buzz/bigbasket-founders-step-down-trunativ-bags-30-mn-more/",
+          "source": "Inc42 Media",
+          "published": "2026-06-17T02:30:33+00:00",
+          "summary": "New Leadership Takes Over BigBasket It is the end of an era at BigBasket. Cofounders Hari Menon and Vipul Parekh…",
+          "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/06/FTR-Daily-Brief-2026-06-16T235742.220.png"
+        },
         {
           "title": "The Next Consumer AI Battle Is Trust, Not Technology: Intellemo’s Saurabh Gupta",
           "link": "https://inc42.com/buzz/the-next-consumer-ai-battle-is-trust-not-technology-intellemos-saurabh-gupta/",
@@ -492,20 +994,12 @@
           "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/06/Loti_FTR-100.jpg"
         },
         {
-          "title": "Zerodha, Groww, Angel One, Upstox Get Nod Enabling Users To Buy US Stocks: Report",
-          "link": "https://inc42.com/buzz/zerodha-groww-angel-one-upstox-get-nod-enabling-users-to-buy-us-stocks-report/",
-          "source": "Inc42 Media",
-          "published": "2026-06-16T11:03:14+00:00",
-          "summary": "Four top retail brokerages Zerodha, Groww, Angel One and Upstox have reportedly been granted approval from the International Financial Services…",
-          "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2024/11/online-trading-SEBI-featured.png"
-        },
-        {
-          "title": "AI Security Must Focus On Recovery, Not Just Prevention: Rubrik’s Vipul Nayak",
-          "link": "https://inc42.com/buzz/ai-security-must-focus-on-recovery-not-just-prevention-rubriks-vipul-nayak/",
-          "source": "Inc42 Media",
-          "published": "2026-06-16T10:30:56+00:00",
-          "summary": "The global B2B technology landscape is at an inflexion point as the sector is now pivoting from traditional software architectures…",
-          "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/06/Rubrik_FTR-100.jpg"
+          "title": "TechSparks 2026 returns, centring on ‘The New Tech Order’",
+          "link": "https://yourstory.com/2026/06/techsparks-2026-bengaluru-new-tech-order-entrepreneurs-startup-ecosystem",
+          "source": "YourStory RSS Feed",
+          "published": "2026-06-17T02:00:00+00:00",
+          "summary": "TechSparks 2026, to be held in Bengaluru from October 13-15, will bring together founders, policymakers, investors, enterprises, developers, and creators to shape the next era of technology and innova",
+          "image_url": "https://images.yourstory.com/cs/2/a054f1302d6c11e9aa979329348d4c3e/TSBanner-1781595973238.png"
         },
         {
           "title": "5 lessons from mountains to cross on purpose and service",
@@ -524,30 +1018,6 @@
           "image_url": "https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/Socialmediabanforchildrenunder16-1772801061062.png"
         },
         {
-          "title": "Nutrition band TruNativ raises $30M in Series B funding round led by OrbiMed",
-          "link": "https://yourstory.com/2026/06/nutrition-band-trunativ-raises-series-b-funding-led-by-orbimed",
-          "source": "YourStory RSS Feed",
-          "published": "2026-06-16T14:22:51+00:00",
-          "summary": "TruNativ will use the funds to expand its distribution network across D2C, quick commerce, modern trade, pharmacy, and other retail channels. The funding will also be used for the expansion of its B2B2C ingredient business.",
-          "image_url": "https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/TruNativ-founder-1781618577573.png"
-        },
-        {
-          "title": "SolarSquare raises $53M to expand residential solar footprint across India",
-          "link": "https://yourstory.com/2026/06/solarsquare-raises-53-million-expand-residential-solar-footprint-india",
-          "source": "YourStory RSS Feed",
-          "published": "2026-06-16T04:59:28+00:00",
-          "summary": "SolarSquare has raised $53 million in a Series C round led by B Capital to expand across India, strengthen technology and scale operations as residential rooftop solar adoption accelerates nationwide.",
-          "image_url": "https://images.yourstory.com/cs/2/d99b1110116911ed9e63f54395117598/USETHISSSCopyofNewPPTTemplates--ishan13-1781584495226.png"
-        },
-        {
-          "title": "PM Modi and President Macron inaugurate Bharat Innovates 2026 in Nice, opening India's deep-tech showcase to the world",
-          "link": "https://yourstory.com/2026/06/bharat-innovates-2026-modi-macron-indian-deep-tech-startups-france",
-          "source": "YourStory RSS Feed",
-          "published": "2026-06-15T14:54:27+00:00",
-          "summary": "Bharat Innovates 2026 opened in Nice on 14 June 2026, with PM Modi, President Macron and Piyush Goyal launching India's deep-tech showcase, followed by its first cross-border MoUs and investment commitments.",
-          "image_url": "https://images.yourstory.com/cs/2/1a70b4f0170611edbdd8b5d28d859895/Untitleddesign2-1781535116761.jpg"
-        },
-        {
           "title": "Startup news and updates: daily roundup (June 16, 2026)",
           "link": "https://yourstory.com/2026/06/startup-news-and-updates-daily-roundup-june-16-2026",
           "source": "YourStory RSS Feed",
@@ -556,31 +1026,192 @@
           "image_url": "https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/DailyRoundupImages1600x900-1774005165949.jpg"
         },
         {
+          "title": "Transforming desert livelihoods in Rajasthan; Cosentus’ India centre: A pillar of growth",
+          "link": "https://yourstory.com/2026/06/transforming-desert-livelihoods-rajasthan-cosentus-india-centre-pillar-of-growth",
+          "source": "YourStory RSS Feed",
+          "published": "2026-06-17T02:00:00+00:00",
+          "summary": "Aakriti Srivastava's Bahula Naturals works with over 4,000 pastoralist households in Rajasthan, turning camel milk and desert produce into premium food products while ensuring women are at the centre ",
+          "image_url": "https://images.yourstory.com/cs/2/c5c652a0fb5a11eca125d7821ea2fbc4/LatestPPTTemplates6-1781619050325.jpg"
+        },
+        {
+          "title": "Nutrition band TruNativ raises $30M in Series B funding round led by OrbiMed",
+          "link": "https://yourstory.com/2026/06/nutrition-band-trunativ-raises-series-b-funding-led-by-orbimed",
+          "source": "YourStory RSS Feed",
+          "published": "2026-06-16T14:22:51+00:00",
+          "summary": "TruNativ will use the funds to expand its distribution network across D2C, quick commerce, modern trade, pharmacy, and other retail channels. The funding will also be used for the expansion of its B2B",
+          "image_url": "https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/TruNativ-founder-1781618577573.png"
+        },
+        {
+          "title": "Sarvam AI turns unicorn; Razorpay confidentially files IPO papers",
+          "link": "https://yourstory.com/2026/06/sarvam-ai-turns-unicorn-razorpay-files-drhp",
+          "source": "YourStory RSS Feed",
+          "published": "2026-06-16T02:00:00+00:00",
+          "summary": "Sarvam AI has raised $234 million in a major funding round led by HCLTech, backing its plans to build advanced AI models, expand infrastructure and strengthen India’s sovereign AI ecosystem.",
+          "image_url": "https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/2026-CopyofNewPPTTemplates5-1781532294467.png"
+        },
+        {
           "title": "Hari Menon steps down as Bigbasket CEO; Amazon veteran Amit Nanda to takes charge",
           "link": "https://yourstory.com/2026/06/hari-menon-steps-down-bigbasket-ceo-amazon-veteran-amit-nanda-takes-charge",
           "source": "YourStory RSS Feed",
           "published": "2026-06-16T13:41:05+00:00",
-          "summary": "The leadership transition marks the end of an era for one of India's earliest online grocery pioneers. It comes at a time when India’s online grocery and quick-commerce sector is undergoing rapid changes as companies compete with each on delivery timelines.",
+          "summary": "The leadership transition marks the end of an era for one of India's earliest online grocery pioneers. It comes at a time when India’s online grocery and quick-commerce sector is undergoing rapid chan",
           "image_url": "https://images.yourstory.com/cs/2/d99b1110116911ed9e63f54395117598/USETHISSSCopyofNewPPTTemplates--ishan14-1781616058472.png"
         },
         {
-          "title": "YourNest Venture Capital raises Rs 400 Cr for Continuum Fund",
-          "link": "https://yourstory.com/2026/06/yournest-venture-capital-raises-rs-400-crore-for-continuum-fund",
-          "source": "YourStory RSS Feed",
-          "published": "2026-06-16T09:16:36+00:00",
-          "summary": "Newgen Software is deeply integrating AI capabilities into its product lines to deliver real outcomes to the enterprises.",
-          "image_url": "https://images.the-captable.com/cs/158/11718bd02d6d11e9aa979329348d4c3e/VCinvestFeatureImage-1778036205915.jpg"
+          "title": "Why Sunil Mittal is betting on a food business that doesn’t scale like fast food",
+          "link": "https://the-ken.com/story/why-sunil-mittal-is-betting-on-a-food-business-that-doesnt-scale-like-fast-food/",
+          "source": "The Ken",
+          "published": "2026-06-17T02:30:55+00:00",
+          "summary": "The post Why Sunil Mittal is betting on a food business that doesn’t scale like fast food appeared first on The Ken .",
+          "image_url": null
+        },
+        {
+          "title": "India’s Rs 1 lakh crore R&D fund: speed was the signal, but Rs 5 lakh crore is the point",
+          "link": "https://the-ken.com/story/indias-rs-1-lakh-crore-rd-fund-speed-was-the-signal-but-rs-5-lakh-crore-is-the-point/",
+          "source": "The Ken",
+          "published": "2026-06-16T02:30:05+00:00",
+          "summary": "The post India’s Rs 1 lakh crore R&D fund: speed was the signal, but Rs 5 lakh crore is the point appeared first on The Ken .",
+          "image_url": null
+        },
+        {
+          "title": "Government recognises record 55,200 startups in FY26; total crosses 2.23 lakh under Startup India",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOWEtN2JwX3BxRHZYMENlbnBGa3BOUXZnejVkNlZ1Yjl1YVZ4VDMzT1RVcU9NRWFjMVZDWGd0TjFpZDV4c3ZUZTBYZzlPaWFPWVRyenUxdE9MM0o5VkZ2TGRDT2hLdkYwU0hOS2RMTXBmaGhDamRVbjkzT3pxZ0x5RW1tSEI2T01MMndWcDRDV0hlM2JkSDc4UHZPam83R0VzcVBmNlEySWRhOXdVM1lvY2RBY3dRamVNRzFub0l3?oc=5",
+          "source": "DD News",
+          "published": "2026-06-16T18:56:35+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "CREST Raises USD 3.1 Mn Pre-Seed Funding to Build AI-Native Fractional Family Offi ce Led by BEENEXT",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZC04WUVXYS1hd2IwMmZ1NVVNSF9leEZzMVBnT2dzYVQ1aGF0ZXBVWkpNUm5LY2FLLU40YndfYTdXcGc2SEVUWTFmRDN5WnZFaDlWb0lWel9CSnB6akQxMWYwcXRvS1VGaG5nY3lZSEtDRk9vT1lBajM3UU8taEtkZG5EdVBoLWxRd19penlCY0dxcXNLeGplQXB4YkpLdFlJakkwWV9ScFVZUnZsOHFKX0F1LTRXNmNEOGV6NUFkSWR3MDlzTjFndzE5Tk5VR1hHX2NDNHcwbTl2U090M0E4RA?oc=5",
+          "source": "Indian Startup Times",
+          "published": "2026-06-16T14:02:03+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Invest in India before it's too late: Goyal to corporates, investors",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRXBUVzBVM0Fka0pOYk9Pc09TYk1QSUJTYW5zbTVtVktnNk1SRU8yNWtRSjgtdm1iT0xISWRZYVRiVjM4REVuZUNQYnRQTWtxeGlhZjhVT1pVOUdnYVRfQXUyaUhvMmRVeFpGVVhrdWlLM3BneC1vMG85LWhlMUtVTnJkOEwtSHNJbjRJWXQ1TzJlaHV5RWV2a1FnRDUwSDloTzFsSFU4YU9SMXVsRFJEUERQNXNVUlV3Nm81RXVBOHBYaTJxdHdNYnN5MGFsMVlzOG1B0gHTAUFVX3lxTE1FcFRXMFUzQWRrSk5iT09zT1NiTVBJQlNhbnNtNW1WS2c2TVJFTzI1a1FKOC12bWJPTEhJZFlhVGJWMzhERW5lQ1BidFBNa3F4aWFmOFVPWlU5R2dhVF9BdTJpSG8yZFV4WkZVWGt1aUszcGd4LW8wbzktaGUxS1VOcmQ4TC1Ic0luNElZdDVPMmVodXlFZXZrUWdENTBIOWhPMWxIVThhT1IxdWxEUkRQRFA1c1VSVXc2bzVFdUE4cFhpMnF0d01ic3kwYWwxWXM4bUE?oc=5",
+          "source": "Business Standard",
+          "published": "2026-06-16T13:53:46+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Speedioo secures ₹10 crore seed round led by Atomic Capital",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeDFyMnp6Y2I5QUVmQ3dQUERrVU1GeGtzZU5RWU1TVGhJNnhubnlGbVBhWkdNMjFoUERUdlNoOHBmUHhBWE9oYkdlSEpJeGp6ZWZzRXhvbmZwV05TdG9mNUd2R0N0NWFKM0ZfbUxxd2I4c1JCeTRjQlh2NTJGNHhONnBwNnBRSU9KdThSOGU5bm5sU1hJNG00T0Nzakd6UG81NlFNNHg0YkszLTlnU2FF?oc=5",
+          "source": "PitchOnnet",
+          "published": "2026-06-16T10:11:59+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Business Automation Platform TrackerSuite AI Raises Pre Series A Round",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOemdZSm1LejN4NHFTTTdzTW9RejN3WTlOZC1BVjFzWkQ4SDVUdFpkeGhKR0N4bVNYeWtwWUZxUkJYVzRCUTRRNHh4RHI4a3dTVG1rWmhqQzc1REl0WjV1NDNaZjlTVTZtOXJTWGRhUG12QWJWT1JpU0dVVFdMTjRKNkQxMjFiZUZ5MDdUZUhUUTVEZkoxbE1wWUJ1ekJ6cmkxdGNBdWp5NjRiMjZ0dTBEb2dNZmxHZzR6UEwyY2JkNUhtVXloQ3B2R2lCVzBqTTlIdUxCRUVR?oc=5",
+          "source": "Siliconindia",
+          "published": "2026-06-16T13:37:59+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Sarvam joins India's AI unicorn club after securing $234 million in HCLTech-led funding",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOTAxQ3RoVnRuQnZpNERSbHlmU25KbWljN1pkRUQ3OGJ5QzRJazZTNU81a0dwdnhTYVVqb3VIZ0dFbjk5T3RITGY4Ri13RFlHNTJQbWtvazlEcWpDbEZBZjVGcTQ3TGlYVFMxSGR5cVlWR3FkalM0bVBfSXAwbkRNMmJrNG51MmNHTFF3X2RhQjlRamZXUms3MzFhTGNmcHlkZFJja01ERXJSTWRhT0trYVRGTjRubUNuZGNfMjB0VmlEOXlfcmhTMXJHb1AyTDjSAdQBQVVfeXFMTUZFVkYxaVFTRlVJelN3bDdwS1ViMy1EYnhWcmk2MEFlQ2xob2lhQy10RkRiTkhxdzlnaENQRDdUbFdBRVM3bEFSVnZRTEM5eDc2ODJOVm95bUJGS3ZMTUhibzF6N1U5VmtRUVlKUHlUQTdHT3BnQTJ3R2REZDVGc0g2eXZUbWYtTk55OXM0eDlsZjFTMERnZGJTM1R0LWl1YnFkV29nbU9EU3N3d3VCNWdJb3hDNFh4SnZKWmltd19BQ2JOeGpKS3pGSDFqZWlLUkJ2WTg?oc=5",
+          "source": "India Today",
+          "published": "2026-06-16T00:50:36+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "DLI-backed C2i Semiconductors raises $15 million from Peak XV, marking largest funding round for Indian chip startup",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSFVfSTY2U3hXSXZQLWhPejhWakJWSmw4elV1T01yRWdWR3lGZ0hTVGVxRjVBb09JVFlMQm5taHROaFhWRFViR0dWak1CM2JnQ2tEenl6dzlWSThJSVNoOXZVcWNMMkJCX0xmLXNjZHFJTE5sTGJoU1lBSXdBeTg1UjJLRGdienpvVDhzMDZZZUhSS0xaSENiNm40V1FXdUR6UHc5d2VJYlFGMDVCZEg1Ty1NZm1BMEhZSVQydTQ2eVJfUFRJNTJBVC1XanNZb1owdlFYNEpkVQ?oc=5",
+          "source": "DD News",
+          "published": "2026-06-16T18:53:52+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "HCLTech leads Indian AI startup $234m funding round",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb01STUhmcmt2dTRvYnZPa1JOMUlJb09hMU4xNGhQSmhaVkpTNDhwX2pjNHZjVTFCLTlvUlh6cjFRdHJhMUhxblM5OGMzSGdWYldveUJHUGpDc0NLOTNqYTdqU1ZXeGJZM0p2bnlvbWk3amdvU3Jxb0lpeDZ2bEg0TWNB?oc=5",
+          "source": "Tech in Asia",
+          "published": "2026-06-16T00:54:00+00:00",
+          "summary": "",
+          "image_url": null
         }
       ]
     },
     {
       "name": "Global Economics",
       "slug": "global-economics",
-      "angle": "Macro, trade, markets, central banks. What it means for India and for tech.",
+      "angle": "Macro, trade, markets, central banks, management thinking. What it means for India and for tech.",
       "max_stories": 5,
-      "feeds_ok": 2,
+      "beta": false,
+      "feeds_ok": 4,
       "feeds_failed": 1,
       "entries": [
+        {
+          "title": "China’s Central Bank Hints at Shift to Fed-Style Rate Setting",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-17/pboc-hints-at-new-policy-framework-focused-on-overnight-rate",
+          "source": "Bloomberg Economics",
+          "published": "2026-06-17T02:45:43+00:00",
+          "summary": "China’s central bank signaled a potential shift toward an overnight policy rate, a move that would bring it closer to global peers and give policymakers greater influence over short-term funding costs",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNrHsCCB53II/v1/1200x-1.jpg"
+        },
+        {
+          "title": "PBOC Launches Tool to Boost Yuan Use by Other Central Banks",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-17/pboc-announces-tool-to-boost-yuan-usage-by-foreign-central-banks",
+          "source": "Bloomberg Economics",
+          "published": "2026-06-17T03:56:04+00:00",
+          "summary": "China announced new money-market measures to broaden the use of its currency among entities like foreign central banks and sovereign wealth funds.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/imF9W5Wp3JHI/v0/1200x-1.jpg"
+        },
+        {
+          "title": "SNB Reviews Franc Alert Level Before Middle East Peace Deal",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-17/snb-reviews-franc-alert-level-before-middle-east-peace-deal",
+          "source": "Bloomberg Economics",
+          "published": "2026-06-17T04:15:00+00:00",
+          "summary": "The Swiss National Bank will this week reveal if it’s too soon to dial down its franc rhetoric before a prospective Middle East peace deal becomes reality.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ia7P6MsdkP94/v3/1200x-1.png"
+        },
+        {
+          "title": "ECB Officials Say Peace in Iran Isn’t Enough to Fix Energy Shock",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-17/ecb-officials-say-peace-in-iran-isn-t-enough-to-fix-energy-shock",
+          "source": "Bloomberg Economics",
+          "published": "2026-06-17T04:15:00+00:00",
+          "summary": "European Central Bank officials are signaling that a US-Iran peace accord won’t necessarily stop them lifting interest rates further, even if it prevents a more pronounced overshoot in inflation.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iW36wiGs_.Iw/v0/1200x-1.jpg"
+        },
+        {
+          "title": "China Vows to Improve Anti-Sanctions Measures in Financial Law",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-17/china-s-finance-chiefs-take-center-stage-with-economy-slumping",
+          "source": "Bloomberg Economics",
+          "published": "2026-06-17T00:27:17+00:00",
+          "summary": "China’s Vice Premier He Lifeng said Beijing will embed anti-sanctions provisions into its financial laws, vowing to counter what he called unreasonable foreign suppression.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ic9lfUBH6S3A/v0/1200x-1.jpg"
+        },
+        {
+          "title": "円安･高金利は危機でなく転機､市場を羅針盤にあるべき経済の姿語ろう",
+          "link": "https://www.bloomberg.com/jp/news/newsletters/2026-06-17/TGR9O1VTTD0900",
+          "source": "Bloomberg Economics",
+          "published": "2026-06-17T03:00:01+00:00",
+          "summary": "市場の変化を単なるリスクとして恐れるのではなく、日本経済の新たな成長戦略を描くための羅針盤として生かせるか。",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4jBwn_gO1Dk/v3/1200x-1.jpg"
+        },
+        {
+          "title": "BOJ Keeps Market Steady With Yen Volatility at Lowest Since 2021",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-17/boj-keeps-market-steady-with-yen-volatility-at-lowest-since-2021",
+          "source": "Bloomberg Economics",
+          "published": "2026-06-17T03:00:00+00:00",
+          "summary": "The Bank of Japan managed to keep financial markets relatively stable following its policy decision, leaving the yen in a narrow range that’s still historically weak.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/it4SQ2XKObxk/v3/1200x-1.png"
+        },
+        {
+          "title": "Putin Hosts First Southeast Asia Summit Since Ukraine Invasion",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-17/putin-hosts-first-southeast-asia-summit-since-ukraine-invasion",
+          "source": "Bloomberg Economics",
+          "published": "2026-06-17T03:00:00+00:00",
+          "summary": "President Vladimir Putin will host leaders of the Association of Southeast Asian Nations, with energy security likely to top the agenda of their first summit since Russia’s full-scale invasion of Ukra",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ihCsEKCaYBtQ/v0/1200x-1.jpg"
+        },
         {
           "title": "Deal or no deal, oil prices will stay high for months",
           "link": "https://www.economist.com/finance-and-economics/2026/06/16/deal-or-no-deal-oil-prices-will-stay-high-for-months",
@@ -606,68 +1237,124 @@
           "image_url": null
         },
         {
-          "title": "China’s Finance Chiefs Take Center Stage as Economy Stalls",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-17/china-s-finance-chiefs-take-center-stage-with-economy-slumping",
-          "source": "Bloomberg Economics",
-          "published": "2026-06-17T00:27:17+00:00",
-          "summary": "China’s central bank chief and top financial policymakers will take the stage Wednesday for the Lujiazui Forum, a gathering that could signal Beijing’s next moves to support the sputtering economy.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ic9lfUBH6S3A/v0/1200x-1.jpg"
+          "title": "SpaceX overtakes Amazon as world’s fifth most valuable company",
+          "link": "https://www.theguardian.com/science/2026/jun/16/spacex-ai-coding-anysphere-cursor-amazon-market-valuation-xai",
+          "source": "Business | The Guardian",
+          "published": "2026-06-16T18:37:43+00:00",
+          "summary": "Value of Elon Musk’s firm at one point rose to $2.97tn days after its IPO following purchase of AI coding startup Cursor Elon Musk’s SpaceX has overtaken Amazon as the world’s fifth-most valuable comp",
+          "image_url": null
         },
         {
-          "title": "Japan’s Trade Balance Swings to Deficit as Yen Inflates Imports",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/japan-s-trade-balance-swings-to-deficit-as-tech-imports-surge",
-          "source": "Bloomberg Economics",
-          "published": "2026-06-16T23:55:28+00:00",
-          "summary": "Japan’s trade balance swung to a deficit for the first time in four months as the weak yen inflated the value of imports, even as volumes fell.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ibzdG6A6q0hI/v0/1200x-1.jpg"
+          "title": "US student debt repayment system is being overhauled – here’s what to know",
+          "link": "https://www.theguardian.com/business/2026/jun/16/us-student-debt-repayment-system-changes-explainer",
+          "source": "Business | The Guardian",
+          "published": "2026-06-16T11:00:06+00:00",
+          "summary": "Borrowers face stricter payment timelines after Biden-era Save repayment plan was ended by Donald Trump The American student loan repayment system is set to undergo a significant overhaul next month, ",
+          "image_url": null
         },
         {
-          "title": "Chile Central Bank Holds Key Rate at 4.5% and Sees More Balanced Inflation Risks",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/chile-central-bank-holds-interest-rate-at-4-5",
-          "source": "Bloomberg Economics",
-          "published": "2026-06-16T21:59:40+00:00",
-          "summary": "Chile’s central bank kept its benchmark interest rate unchanged for a fourth straight meeting, saying inflation risks have become more balanced as the economy weakens and a fuel-price shock remains contained.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i2moI4GzI33s/v1/1200x-1.jpg"
+          "title": "Paramount rejected ad criticizing its owners and Warner Bros acquisition",
+          "link": "https://www.theguardian.com/us-news/2026/jun/16/paramount-rejects-ad-on-warner-bros-acquisition",
+          "source": "Business | The Guardian",
+          "published": "2026-06-16T13:00:54+00:00",
+          "summary": "Rejected citing ‘conflict of interest’, the ad took aim at Trump allies David Ellison, Paramount Skydance chief, and his billionaire father, Larry Ellison Paramount Skydance refused to air an ad submi",
+          "image_url": null
         },
         {
-          "title": "Warsh Faces First Big Test as Fed Chair",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/warsh-faces-first-big-test-as-fed-chair-decision-day-guide",
-          "source": "Bloomberg Economics",
-          "published": "2026-06-16T23:00:00+00:00",
-          "summary": "Federal Reserve policymakers are expected to hold interest rates steady on Wednesday, posing an early test for new chairman Kevin Warsh as rising inflation erodes households’ purchasing power and President Donald Trump continues to press for lower borrowing costs.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iRfAbBjNpA6k/v0/1200x-1.jpg"
+          "title": "Struggling Pizza Hut restaurant chain to be sold in two deals worth $2.7bn",
+          "link": "https://www.theguardian.com/business/2026/jun/16/yum-brands-to-sell-pizza-hut-chain",
+          "source": "Business | The Guardian",
+          "published": "2026-06-16T13:40:03+00:00",
+          "summary": "Yum! Brands, parent company of KFC and Taco Bell, to sell Pizza Hut as it faces dated stores and growing competition The struggling Pizza Hut restaurant chain will be sold for $2.7bn by parent company",
+          "image_url": null
         },
         {
-          "title": "Why Restoring Normal Traffic Through Hormuz Won’t Be Easy",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/why-restoring-strait-of-hormuz-shipping-traffic-won-t-be-easy",
-          "source": "Bloomberg Economics",
-          "published": "2026-06-16T21:15:13+00:00",
-          "summary": "The US and Iran have committed to reopening the Strait of Hormuz, the world’s most important artery for shipping oil and natural gas, which has been largely blocked since the two countries went to war in February. However, returning traffic in the strait to prewar levels — if that day ever comes — presents significant challenges. The prediction market Kalshi assigns a 51% probability that traffic ",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iYnA2px.6Mjg/v0/1200x-1.jpg"
+          "title": "Bank of Japan raises interest rates to 31-year high … of 1%",
+          "link": "https://www.theguardian.com/business/2026/jun/16/bank-of-japan-raises-interest-rates-iran-war-inflation-us-fed-bank-of-england",
+          "source": "Business | The Guardian",
+          "published": "2026-06-16T10:41:08+00:00",
+          "summary": "Country acts amid Iran war inflation pressures, but US Fed and Bank of England expected to hold rates Business live – latest updates The Bank of Japan (BoJ) has raised interest rates to a 31-year high",
+          "image_url": null
         },
         {
-          "title": "How the Iran War Is Leaving Lasting Scars Across Asia",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/how-the-iran-war-is-leaving-lasting-scars-across-asia",
-          "source": "Bloomberg Economics",
-          "published": "2026-06-16T20:56:15+00:00",
-          "summary": "On today’s Big Take Asia podcast, we discuss how war in Iran hit Asia especially hard and why structural economic problems are likely to persist, even with a peace deal in the works.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/isCTsJM0S7G0/v0/1200x-1.jpg"
+          "title": "EV prices in UK and EU not likely to dive due to Chinese rivalry, says Xpeng boss",
+          "link": "https://www.theguardian.com/business/2026/jun/16/ev-prices-uk-eu-chinese-car-firm-xpeng",
+          "source": "Business | The Guardian",
+          "published": "2026-06-16T05:00:45+00:00",
+          "summary": "Brian Gu says he sees Chinese car firms competing on quality rather than launching price war as at home Motorists in the UK and EU should not expect a sharp drop in the cost of electric vehicles despi",
+          "image_url": null
         },
         {
-          "title": "US Exports to Cuba Jump as Fuel, Cars and Food Get Past Trump’s Blockade",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/us-exports-to-cuba-jump-as-fuel-cars-and-food-get-past-trump-s-blockade",
-          "source": "Bloomberg Economics",
-          "published": "2026-06-16T19:44:40+00:00",
-          "summary": "US exports to Cuba have surged dramatically this year as businesses use a trade loophole to get fuel, appliances, furniture, food and vehicles past President Donald Trump’s wall of sanctions.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ih0qCM_TbhW4/v2/1200x-1.jpg"
+          "title": "Canada eliminates human rights watchdog that oversees companies operating abroad",
+          "link": "https://www.theguardian.com/world/2026/jun/15/canada-eliminates-human-rights-watchdog-companies-abroad",
+          "source": "Business | The Guardian",
+          "published": "2026-06-15T18:36:55+00:00",
+          "summary": "Mark Carney says Canadian Ombudsperson for Responsible Enterprise office hasn’t been ‘effective’ since its 2019 setup Canada is eliminating a watchdog that investigates alleged human rights violations",
+          "image_url": null
         },
         {
-          "title": "Citi Chief US Economist Defends Unpopular Fed Rate-Cut Call",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/citi-chief-us-economist-defends-unpopular-fed-rate-cut-call",
-          "source": "Bloomberg Economics",
-          "published": "2026-06-16T17:04:49+00:00",
-          "summary": "Citigroup Inc.’s Andrew Hollenhorst said the Federal Reserve will cut interest rates this year as the labor market weakens and oil prices ease, even as bond traders and his colleagues across Wall Street wager on hikes.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyDuXCv6XhHI/v0/1200x-1.jpg"
+          "title": "Central Bank Gold Reserves Survey 2026",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSkI4UmNFV245NHdZeHJnbngyWmo5Q1loYVdFQzdqNlFzQ1M0MEYxTmlpX3dOM2plY2huTkR3UTZfQWZDTUF4U1Q3MDJJdGlSZjV4UkZFc2Z3cC1FMWQ0TGpka19NVzZIUzdwbWxlcXZqclZPbzFDV004OGxLVWlLOFZR?oc=5",
+          "source": "World Gold Council",
+          "published": "2026-06-16T12:00:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Central Banks Are Rethinking Where They Store Their Gold",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTzRCTnprYTVJWERuUHpRckc1Zmw1Q1dYdTBHdW9waDlrUlhhVkRIUXhQNkNvaWJ1YXZUcWo5cTI1OGVZS2dPU0xrNUpfMUhMNFNsZ0czMXZ5NFZrcWZvSE1TY0lkQ0F4aktucjZMM1o1M1lzdld1RXRBMFVxRXFyTDRWNzVnRm9rb0tybW1mUFFER1pvNzh0aEJHdTlDaFJ6Tnc?oc=5",
+          "source": "WSJ",
+          "published": "2026-06-16T09:23:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Central banks to increase gold reserves over next 12 months: WGC survey",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNanZFa1VnM0EyZGNMZjI1akxhUXRfTEU3a3gxbkNIVFVHbE52Ny1Nc0lMTFY1cXN0eTVKUXFudXRyRnlGOUZyVkVsdXZKREw4b1hmSjRVMHhaallnZUFZUDRDSXN2bGxZMm9WdXhLb1dBTkY3SnF1YmxLcVl0dnRCUzJpcy1TX2pBOUdfVW9TcG9sekVlczhtbUl5RTFLaUh2OXVCMTA0TS00Sy1rc1FSQ3FKb21KNnJNUVB0QlI2bXFKeWpUWm45c9IByAFBVV95cUxNanZFa1VnM0EyZGNMZjI1akxhUXRfTEU3a3gxbkNIVFVHbE52Ny1Nc0lMTFY1cXN0eTVKUXFudXRyRnlGOUZyVkVsdXZKREw4b1hmSjRVMHhaallnZUFZUDRDSXN2bGxZMm9WdXhLb1dBTkY3SnF1YmxLcVl0dnRCUzJpcy1TX2pBOUdfVW9TcG9sekVlczhtbUl5RTFLaUh2OXVCMTA0TS00Sy1rc1FSQ3FKb21KNnJNUVB0QlI2bXFKeWpUWm45cw?oc=5",
+          "source": "The Hindu",
+          "published": "2026-06-16T14:40:40+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Gold: Rising central bank demand and de-dollarization – Rabobank",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVGNabkJsT2xKTUZHQnM0Y1RjLThhMlVlYTN2dlNZd2w5RlBCdXE5U0YzNnl6MzIyNGtweEhHMnJqQ243NmVkdUR1VnhiTzhTNjA5aWNvMnR3TjVDZTVyN29lM0FjX0xVdm1qdENLZHN2M0FmVkZ0SVFqYXdaM3E0RGtOR1Z4MGh6T0RwLUw0THZsamctQ0QzMHd2YnJSWGRIbGgtOEV0WQ?oc=5",
+          "source": "FXStreet",
+          "published": "2026-06-17T04:34:44+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Kevin Warsh's Fed debut comes at a pivotal moment for global monetary policy",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ3ZDc0twbWVIbWprYjdGWVE2SExDUXRvVzZOMV9xYnpzX1dUSVduR3o1ekJnY204SXliQ0VwWWRleEZpdmxza0U1RGFKWk5obVE3Ul9vNDctMG44alNvRGRZUmd0Qm02QkU1VHhRYlNyYzRBeTRvaG9KcjQ5b1F4UmpJZk9SYzNPbk94VldxV1JVTmp4b1h4REpQSExKamlTVzZzQm9RTVVpM0hkQ19EbzRGRnFOM1h6QTdieXpUZk1wbXdyaXVYSVNmSnFuLVhMU3dEejFR?oc=5",
+          "source": "Yahoo Finance",
+          "published": "2026-06-16T20:03:51+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Record 45% of central banks plan to increase gold holdings, WGC survey finds",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTUtVb2ZBSDgwekVaaUNRNFdfUUM4UUJVS3NvU1hBalVBWEZIajlQNXJ5dUJhYS1Bbk82cEZubDNfYmtVSmhWY0l0SXpDQnRLNmFyZ3g1c2otczk5bFI1LWNHU0VSbzNpNTNnTHV1cmtrTk82UEI1T09oTWdDbFBTWEZ5blk5aXlmbTJXMUZIZnBncjBHRDV3enhSUmZzNm8zOHZGQTBXVVJQWmVrQWY1UWhfOEw?oc=5",
+          "source": "KITCO",
+          "published": "2026-06-16T03:05:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "French central bank cuts economic growth outlook as energy prices bite",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUzJyZ3F5LWFFSC0yc1RYRVk1ZUdFX0RublBjbU91UzNtYXhVLUlMQ1dLRzJ3ZDNhTzlTUVZGeXpsQlZYYXd1RWJyVXFleFNjemtRMzUyaFJKRjF5M1YtUlRVSzVrNzF0RTFFUkNBUnFvc25OUERKMmhhbEdRb2N5dGtwU0c3TVY0dVdGNzl4a1VvS28wVlVoTlplcFo?oc=5",
+          "source": "Global Banking & Finance Review",
+          "published": "2026-06-16T18:10:11+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Central banks globally pivot to bullion amid rising geopolitical turmoil, says WGC survey",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYlJ3akR5dHJOS1dtUnlENl9nNFgzUll3Zjl1TFhjdlBmY2syWUFSc2Rac3YwTnFnOVZtZmszSGdMZmpqTzJlRjkzMDMwUE1jejRLR3Jid2dEN0M4YUhEd3VoaWVJQm5OYUJ5aVowUVRuYTVZakZTS3NQVldQYmhyTm9HdHlaSF85dHRQdXp1MkE4Skx5cjBfUVhSSGxfTzh1RmRidGJtS01xd2FmbkxNaU9oOUhTM09uYkdiVU40cEw3emVnN19ReVdZUlB5T1E2a21XUdIB1AFBVV95cUxNYlJ3akR5dHJOS1dtUnlENl9nNFgzUll3Zjl1TFhjdlBmY2syWUFSc2Rac3YwTnFnOVZtZmszSGdMZmpqTzJlRjkzMDMwUE1jejRLR3Jid2dEN0M4YUhEd3VoaWVJQm5OYUJ5aVowUVRuYTVZakZTS3NQVldQYmhyTm9HdHlaSF85dHRQdXp1MkE4Skx5cjBfUVhSSGxfTzh1RmRidGJtS01xd2FmbkxNaU9oOUhTM09uYkdiVU40cEw3emVnN19ReVdZUlB5T1E2a21XUQ?oc=5",
+          "source": "MillenniumPost",
+          "published": "2026-06-16T18:26:41+00:00",
+          "summary": "",
+          "image_url": null
         }
       ]
     },
@@ -676,75 +1363,84 @@
       "slug": "india",
       "angle": "Top national news. Policy and economy over politics-as-soap-opera.",
       "max_stories": 5,
-      "feeds_ok": 2,
+      "beta": false,
+      "feeds_ok": 3,
       "feeds_failed": 0,
       "entries": [
         {
-          "title": "Tata says India pollution board drops scrutiny of Apple iPhone parts plant",
-          "link": "https://www.thehindu.com/business/Industry/tata-says-india-pollution-board-drops-scrutiny-of-apple-iphone-parts-plant/article71111811.ece",
+          "title": "Is Lok Sabha Speaker opposed to Rahul Gandhi’s Kota visit, asks Ashok Gehlot",
+          "link": "https://www.thehindu.com/news/national/rajasthan/is-lok-sabha-speaker-opposed-to-rahul-gandhis-kota-visit-asks-ashok-gehlot/article71110296.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-17T01:44:04+00:00",
-          "summary": "Tamil Nadu’s pollution control authority had warned Tata of a forced shutdown unless it explained why government inspections found that wastewater discharge ‌had contaminated open wells in adjacent agricultural lands",
-          "image_url": "https://th-i.thgim.com/public/incoming/qbppki/article71111843.ece/alternates/LANDSCAPE_1200/2026-06-16T162029Z_1785979106_RC29ULAG13BH_RTRMADP_3_TATA-INDIA-APPLE-POLLUTION.JPG"
+          "published": "2026-06-17T04:36:55+00:00",
+          "summary": "He said the functionaries linked to the office of Lok Sabha Speaker were pressuring coaching institutes, paying guest accommodations and guesthouse operators to discourage students from attending the ",
+          "image_url": "https://th-i.thgim.com/public/incoming/8m40nn/article71096474.ece/alternates/LANDSCAPE_1200/PTI04_21_2026_000206A.jpg"
         },
         {
-          "title": "Inside Mangav, a unique Maharashtra village for abandoned women and their children",
-          "link": "https://www.thehindu.com/life-and-style/inside-mangav-a-unique-maharashtra-village-for-abandoned-women-and-their-children/article71075786.ece",
+          "title": "Major IPS reshuffle in Kerala: IGs, DIGs and SPs shifted in key police posts",
+          "link": "https://www.thehindu.com/news/national/kerala/major-ips-reshuffle-in-kerala-igs-digs-and-sps-shifted-in-key-police-posts/article71112071.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-17T01:29:18+00:00",
-          "summary": "Founded by Dr Rajendra and Dr Sucheta Dhamane, Mangav is home to 477 rescued women and 43 children, where residents run a bakery, manage farms and dairy units, and will soon launch a highway café as part of their rehabilitation journey",
-          "image_url": "https://th-i.thgim.com/public/life-and-style/fashion/pmt9a1/article71108045.ece/alternates/LANDSCAPE_1200/IMG_4988.jpeg"
+          "published": "2026-06-17T04:40:08+00:00",
+          "summary": "Putta Vimaladitya, Inspector General of Police, Internal Security, is transferred and posted as Inspector General of Police, North Zone",
+          "image_url": "https://th-i.thgim.com/public/news/national/kerala/cptcgq/article71112083.ece/alternates/LANDSCAPE_1200/26THKERALA2.jpg"
         },
         {
-          "title": "Tamil Nadu’s own-tax effort has ‘collapsed’, says White Paper",
-          "link": "https://www.thehindu.com/news/national/tamil-nadu/public-finance-states-own-tax-revenue-public-debt-tamil-nadu-maharashtra-karnataka-gujarat-gst/article71110367.ece",
+          "title": "What does Tenth Schedule provide on party mergers?",
+          "link": "https://www.thehindu.com/news/national/what-does-tenth-schedule-provide-on-party-mergers/article71108799.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T20:10:10+00:00",
-          "summary": "Giving an account of how T.N.’s own tax revenue fared vis-à-vis 3 ‘peer States’ in last 5 years, the report says the SOTR-to-GSDP ratio declined from 5.93% to 5.45%, the ‘lowest in the State’s history and the steepest decline’ among the benchmarked States",
-          "image_url": "https://th-i.thgim.com/public/incoming/9c8e3r/article71110837.ece/alternates/LANDSCAPE_1200/20260616350L.jpg"
+          "published": "2026-06-17T04:32:32+00:00",
+          "summary": "Why has the misuse of the merger provision increased after the deletion of paragraph 3?",
+          "image_url": null
         },
         {
-          "title": "Supreme Court steps in to ensure ‘dignified life’ for octogenarian, visually impaired son",
-          "link": "https://www.thehindu.com/news/national/sc-steps-in-to-ensure-dignified-life-for-octogenarian-visually-impaired-son/article71109042.ece",
+          "title": "Telegram CEO Durov alleges Reliance role in access disruption",
+          "link": "https://www.thehindu.com/sci-tech/technology/telegram-ceo-durov-alleges-reliance-role-in-access-disruption/article71112006.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T20:03:49+00:00",
-          "summary": "The top court takes suo motu cognisance of newspaper reports highlighting the dire conditions in which they are living",
-          "image_url": "https://th-i.thgim.com/public/incoming/bd1l8z/article71109778.ece/alternates/LANDSCAPE_1200/SC-AI-in-Court-GEKG2O5UJ.4.jpg.jpg"
+          "published": "2026-06-17T04:04:30+00:00",
+          "summary": "To understand the significance of the allegation, it is important to understand how the internet works",
+          "image_url": "https://th-i.thgim.com/public/incoming/6gxmmj/article71112000.ece/alternates/LANDSCAPE_1200/2026-06-16T065334Z_954098010_RC2WPGA8QOR8_RTRMADP_3_INDIA-TELEGRAM-EDUCATION.JPG"
         },
         {
-          "title": "Air Force ferrying NEET question papers by aircraft",
-          "link": "https://www.thehindu.com/education/air-force-deployed-for-secure-nationwide-delivery-of-neet-question-papers/article71110346.ece",
+          "title": "As war clouds recede, Kerala looks to an influx of Arab tourists in monsoon season",
+          "link": "https://www.thehindu.com/news/national/kerala/as-war-clouds-recedes-kerala-looks-to-an-influx-of-arab-tourists-in-monsoon-season/article71109864.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T20:01:03+00:00",
-          "summary": "Bundles flown to more than 20 locations across the country; papers delivered to several northern States, while dry runs were conducted at selected locations across southern India",
-          "image_url": "https://th-i.thgim.com/public/incoming/9dtwll/article71110492.ece/alternates/LANDSCAPE_1200/PTI06_16_2026_000164B.jpg"
+          "published": "2026-06-17T04:04:21+00:00",
+          "summary": "",
+          "image_url": "https://th-i.thgim.com/public/news/national/kerala/2n4w13/article71109897.ece/alternates/LANDSCAPE_1200/PHOTO-2026-06-16-18-46-30.jpg"
         },
         {
-          "title": "Senior BJP leaders hold meeting, discuss organisational restructuring",
-          "link": "https://www.thehindu.com/news/national/bjp-weighs-organisational-restructuring-amid-rapid-expansion/article71108530.ece",
+          "title": "Madras HC directs State to conduct last rites for Sivaganga custodial torture victim Akash Delison",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/hc-directs-state-to-perform-last-rites-of-custodial-torture-victim/article71109246.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T19:48:27+00:00",
-          "summary": "Party discusses regional in-charges, expansion of office-bearers and organisational changes ahead of new national team and possible Cabinet reshuffle",
-          "image_url": "https://th-i.thgim.com/public/news/national/336khs/article71108624.ece/alternates/LANDSCAPE_1200/0001BJP.jpg"
+          "published": "2026-06-17T04:00:39+00:00",
+          "summary": "The Bench said the refusal of the family to receive the body leaves the court with no alternative except to authorise the State authorities to proceed in accordance with law",
+          "image_url": "https://th-i.thgim.com/public/incoming/tsii5q/article71112017.ece/alternates/LANDSCAPE_1200/Formulate-guideGT7G03G3R.3.jpg.jpg"
         },
         {
-          "title": "Delhi Police bust Pakistan-backed terror syndicate, seven held",
-          "link": "https://www.thehindu.com/news/national/delhi-police-arrest-seven-bust-pakistan-backed-terror-syndicate/article71110399.ece",
+          "title": "Telangana DGP reviews rain readiness, calls for proactive measures to beat flooding, traffic woes",
+          "link": "https://www.thehindu.com/news/cities/Hyderabad/telangana-dgp-reviews-rain-readiness-calls-for-proactive-measures-to-beat-flooding-traffic-woes/article71109201.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T19:42:28+00:00",
-          "summary": "Police say the network was functioning under the patronage of Pakistan’s ISI and was using Indians to further terror activities; police have arrested suspects from Uttar Pradesh and Punjab",
-          "image_url": "https://th-i.thgim.com/public/latest-news/z9hy66/article71110818.ece/alternates/LANDSCAPE_1200/DelhiPoliceTerrorSyndicate.jpg"
+          "published": "2026-06-17T03:49:16+00:00",
+          "summary": "",
+          "image_url": "https://th-i.thgim.com/public/incoming/uccpwk/article71109200.ece/alternates/LANDSCAPE_1200/Monsoon%20field%20inspections%20.jpeg"
         },
         {
-          "title": "Supreme Court seeks Centre, States’ response on plea over ‘misuse’ of Aadhaar as proof of citizenship",
-          "link": "https://www.thehindu.com/news/national/supreme-court-seeks-responses-of-centre-states-on-plea-for-use-of-aadhaar-as-identity-proof-only/article71108039.ece",
+          "title": "BJP leaders call on actor Rajinikanth at his residence",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/bjp-leaders-call-on-actor-rajinikanth-at-his-residence/article71108311.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T19:36:20+00:00",
-          "summary": "The petition claims that ‘infiltrators and illegal immigrants’ are able to obtain Aadhaar cards and project themselves as ‘lawful residents’",
-          "image_url": "https://th-i.thgim.com/public/incoming/931uz0/article71108058.ece/alternates/LANDSCAPE_1200/IMG_Suprem_Court_3_1_2MFJ3838.jpg"
+          "published": "2026-06-17T03:36:02+00:00",
+          "summary": "BJP state unit president Nainar Nagenthran termed it a “courtesy call”",
+          "image_url": "https://th-i.thgim.com/public/news/national/tamil-nadu/k6jmu8/article71108618.ece/alternates/LANDSCAPE_1200/Nainar%20Nagenthran%20Rajini.jpg"
         },
         {
-          "title": "Selfie at 1.36 am, tragic call at 8 am: Family recalls last contact with woman who died on vacation in Mussoorie",
+          "title": "India News LIVE | Bus with 45 crashes in Gujarat, Shiv Sena (UBT) split buzz grows — Breaking News Today, June 17, 2026",
+          "link": "https://indianexpress.com/article/india/breaking-news-today-latest-news-live-updates-10743472/",
+          "source": "India | The Indian Express",
+          "published": "2026-06-17T03:36:18+00:00",
+          "summary": "",
+          "image_url": "https://images.indianexpress.com/2026/06/Gujarat-Vadodara-Bus-Accident.jpeg"
+        },
+        {
+          "title": "Hours after sending selfie, newlywed woman was found dead in Mussoorie",
           "link": "https://indianexpress.com/article/india/selfie-at-1-36-am-tragic-call-at-8-am-family-recalls-last-contact-with-woman-who-died-on-vacation-in-mussoorie-10743209/",
           "source": "India | The Indian Express",
           "published": "2026-06-17T00:40:43+00:00",
@@ -768,7 +1464,7 @@
           "image_url": "https://images.indianexpress.com/2026/06/Goa-kala-academy.jpg"
         },
         {
-          "title": "Mumbai INOX executive duped of Rs 10.4 crore via WhatsApp, four arrested in Delhi",
+          "title": "Mumbai INOX exec duped of Rs 10.4 crore via WhatsApp, 4 arrested in Delhi",
           "link": "https://indianexpress.com/article/india/mumbai-inox-executive-duped-of-rs-10-4-cr-via-whatsapp-four-arrested-in-delhi-10743268/",
           "source": "India | The Indian Express",
           "published": "2026-06-16T23:17:57+00:00",
@@ -800,22 +1496,79 @@
           "image_url": "https://images.indianexpress.com/2026/06/Prime-Minister-Narendra-Modi-US-President-Donald-Trump-French-President-Emmanuel-Macron-and-other-world-leaders-during-the.jpg"
         },
         {
-          "title": "Uzbekistan looks to woo investors as TIIF opens today",
-          "link": "https://indianexpress.com/article/india/uzbekistan-looks-to-woo-investors-as-tiif-opens-today-10743172/",
-          "source": "India | The Indian Express",
-          "published": "2026-06-16T19:13:06+00:00",
+          "title": "Top world leaders to attend India-AI Impact Summit in New Delhi next week",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?oc=5",
+          "source": "Newsonair",
+          "published": "2026-06-16T20:54:15+00:00",
           "summary": "",
-          "image_url": "https://images.indianexpress.com/2026/06/edited-Uzbek-president-.jpg"
+          "image_url": null
+        },
+        {
+          "title": "BCG: India among top 3 destinations for AI talent",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVGVUV2k2eko5MGdXNHhVQTNUOWpZS1VhLXMtYjR0RVhicDBJVFpmNG1FMFJZMzZwMTJCSUR3MVAtcEZEWXpZazNmaXNDNzNETmdMVkxIbW9RNXBsNkphdEFxTmFaVWlhbVVPZnhGVnY3bGl3VG9YXzEzenBFUFpMbVNwQ3FiajVmT3A3cTdJcGRWdlEtNkNXWlYxaVpGdHNFLXk2a3RycFJMVkJ2bUNzNElmNGk4enJjYV9lYXZqVWZnalhEYlVDUjB1MFBWMFnSAdQBQVVfeXFMTjdaNi1Ua0VjZm1mNjhSWnk3R0lzT0hMRVdZalltdHRtY3R2MFVoMHhiLW1nSGctcDBqMXBfclRYbWdGZjBIZ1FBMFIwbGxlemxZT2RxMXU0ZTVXMWUtdld6NlM3WGpCWl8tR3dMT2Q0UDZYQjRZRFZpcWJLSFA4MXdSREhVZ1dxanROQ2ZhRjE4bFVmNFVKcElQdm8wS1BCLVBBNXNia3dxM0pVQVh0cHBEeElCSFJsMlE0ckpMVGhDWmhBXzZDR2J0Y2NzZGItNlFzalQ?oc=5",
+          "source": "The Times of India",
+          "published": "2026-06-16T22:30:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Top news of the day | June 16, 2026",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU3Mydk5GaVllRlktN0liVnlWTDJBUWhJMWNQRDdDdFJHVUFpUkdnN2hmQ2sySzZHcVlkYnR0RzVnQkVwWDNBb0NPNHFwR2p1XzNQUkJDTnlTcDRyTmphXzlvaXJDWFFES2U4NUdRNlRQV0laWS14czNZYWNpTG9ORko1TEk4a0ktOXR0X3JWLTPSAZABQVVfeXFMUFNzMnZORmlZZUZZLTdJYlZ5VkwyQVFoSTFjUEQ3Q3RSR1VBaVJHZzdoZkNrMks2R3FZZGJ0dEc1Z0JFcFgzQW9DTzRxcEdqdV8zUFJCQ055U3A0ck5qYV85b2lyQ1hRREtlODVHUTZUUFdJWlkteHMzWWFjaUxvTkZKNUxJOGtJLTl0dF9yVi0z?oc=5",
+          "source": "The Hindu",
+          "published": "2026-06-16T13:29:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Sensex Today Trades Higher | Nifty Above 24,000 | Infosys & Tech Mahindra Top Gainers",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeHJHT0ctekcxcjlnMEhDSklMOFB6b2dKVTRoYkw5RTBCeEhDd3hsQXBneUZxWjNXeHpIN3dHZzdJR3ZvT01xa3ZfMklmY1JuU1JnVzVCYXNoTzhZZ1hCTUF3VmxZUWJlVFdlSmI4UEFsRVdpU29FRXJvTlpTakpHb3EzYjk4MmVqUzhwOEliVEozYXRWNVF4OTNZbmR2Skx1QW1DMXdLdkhGMHZxTlQ5bXFTLWdyMVBJbXJqc1FNdGVCYXYxTmM1S3BrNGl4MW1PN1gzRXBVTnU?oc=5",
+          "source": "Equitymaster",
+          "published": "2026-06-17T04:36:10+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Latest News",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTGdzSVNHX0VrTEtfeWxHRjFNUTg3aVpjS2tSSVdhUEhkdEU5RVlHT0FlcTFRbktMZVY2QTFETlpvbXcwelNsRl9QendVSjZ5UUVNU0Z1Z0VSV1NOaDJCTW5HVEpfYllqNi13UW1Db0tPZVBiVktlRk96UmlCbjQyRlN2djJFN2F6RUI2anhB?oc=5",
+          "source": "Hindustan Times",
+          "published": "2026-06-17T02:47:07+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "ରାତି ୯ଟାର ବଡ଼ ଖବର | 9PM Headlines | 16th JUNE 2026 | Odia News | Breaking News | Kanak News",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNTFVMnRHMkt6TFh0dG5NUFoycEdlSnhaaE9ISnlITTZWcUZBbTltS1JMMWdjZUluaEVtd0d5QlZiSVg2U2Y5X3JUZU1ZWDVocWx1N0ZFRXh6X3JMLWdpaTZTTWhubExkYWllQkVIQTVfUXlrVXRUbkVuUjZfZjJRWkRQQmt1azdoTWdPWnNPX0h6LUhIVWQ2SjE3Y1dpMmpNU3NJMldEdlpuWWJKTVdWZHdUU0lObVo1RzVNVG9B0gG-AUFVX3lxTFA1MVUydEcyS3pMWHR0bk1QWjJwR2VKeFpoT0hKeUhNNlZxRkFtOW1LUkwxZ2NlSW5oRW13R3lCVmJJWDZTZjlfclRlTVlYNWhxbHU3RkVFeHpfckwtZ2lpNlNNaG5sTGRhaWVCRUhBNV9ReWtVdFRuRW5SNl9mMlFaRFBCa3VrN2hNZ09ac09fSHotSEhVZDZKMTdjV2kyak1Tc0kyV0R2Wm5ZYkpNV1Zkd1RTSU5tWjVHNU1Ub0E?oc=5",
+          "source": "Kanak News Odisha",
+          "published": "2026-06-16T16:01:40+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "I asked ChatGPT for India’s best work-from-home locations. The answer went far beyond Goa and Manali",
+          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUmN6VktTU2tqRnd3RkZSc2hrY1NBTVVVVVkzaFlKUUVKNmVqSVhYQm1SV1kyOXhXX0xNcmVHOEJ5S3ZKaDc0NnRnVE5fNnBrcGNPT1Z0dFZzN2FKRVFTNUZHN2hDVU1kbjBXUWRISDNqUmN0ZUpTdkxDck94N0lzMGFfNUlkOFV3djFHdGliYi1YUWJTMHVwYzVkV0MzdGM5MkJYYlVlcHNjTkY5bElVZ19Jemd0azZabV9GYjZQcFNIZ1FxNjhzZklYWjNxRFFxTFBRZW1yLWNSWnlabDdseVNkVldxR1ZPd1JSWkZzN2FBbTVpREU3VDRDRdIBgAJBVV95cUxOR3BBMm9uZzJ0ZXRGSU5JbG5FeHRSU1M2R1BQdWpwejBveEhhTXJSc3NTUkd3SG1oSmphdzlhNEFOalZuX21UbFJXR3NJRk5oZE5hbV95VnN6bEc0SVB1c1Q1RGVHWS1mNjJyWmtVb0M2NjZOZ3VRVlpOZ1IxTlBZM3d1Vno0TkVsbXV1SVp4U2xEQllCblhKU2RNNGN6Smx6SHNGcXdIcHVNQU9VRWdnZWpjaFVZZExQSmdyWEdpV1JiSEFwaG9UckZzR0lQeVpZZ1hSM2M2VEtRV1NpVDJ3WFU5N3puS3VfanN6Z1ZQdkUycElheFo5dzNTT1UwWnVV?oc=5",
+          "source": "Mint",
+          "published": "2026-06-16T16:24:41+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "School assembly news headlines today- June 17: Top national, sports and world news curated for you",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYnlWUUxvSFpXc0FXZ2trWXdTVnl4aWtQTDFYY21xeVZodzlkY3AxM3lGMkl1LV9ZTFQydjFNQTJHQW9VdkU1UWF5N2FKOEJJSEhGdG9Bc1ZkLTZEVFFBVzZqR3pFVGJFSnV5dlVCWk9WeGp3enJTb0RtVWNkcElBWXBhUjBQVGtBamVQYzV6MXpZZHpiRGtFT2tpUS1rUWlMZ20yQjZKbkpzc0hfUTBrYWxPY3Q4N0RLWFp5dDFlUkJvcXJiWWlLaTNQX2pQVU1IT2llUDk0bVctNldFYk9XaA?oc=5",
+          "source": "India Today",
+          "published": "2026-06-16T12:19:42+00:00",
+          "summary": "",
+          "image_url": null
         }
       ]
     },
     {
       "name": "World",
       "slug": "world",
-      "angle": "Top global headlines only. The 5 things a well-informed person should know today.",
+      "angle": "Top global headlines only. The handful of things a well-informed person should know today.",
       "max_stories": 5,
-      "feeds_ok": 1,
-      "feeds_failed": 2,
+      "beta": false,
+      "feeds_ok": 4,
+      "feeds_failed": 0,
       "entries": [
         {
           "title": "Tehran selling deal with US as victory – but for Iranians it was necessity",
@@ -838,7 +1591,7 @@
           "link": "https://www.bbc.com/news/articles/c20yzm84r7lo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
           "published": "2026-06-17T00:25:39+00:00",
-          "summary": "The retired couple told BBC Newsnight they tried to show the warship they had changed course before the shots were fired.",
+          "summary": "The retired couple tell BBC Newsnight they tried to show the warship they had changed course in the English Channel before the shots were fired.",
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13ab/live/e6c7bcc0-69db-11f1-801f-7707cfed8b55.jpg"
         },
         {
@@ -880,17 +1633,258 @@
           "published": "2026-06-16T15:19:52+00:00",
           "summary": "The deal with General Electric is the latest sign of co-operation between US firms and Venezuela's interim government.",
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/206d/live/4711bd90-6993-11f1-bf78-b9ee73ed2967.jpg"
+        },
+        {
+          "title": "South African jazz pianist Abdullah Ibrahim dies aged 91",
+          "link": "https://www.theguardian.com/music/2026/jun/15/pianist-abdullah-ibrahim-dies",
+          "source": "World news | The Guardian",
+          "published": "2026-06-15T17:03:14+00:00",
+          "summary": "The accomplished musician, who recorded over 70 albums in his career, died peacefully in Germany after a short illness The South African jazz composer and pianist Abdullah Ibrahim has died at the age ",
+          "image_url": null
+        },
+        {
+          "title": "Jair Bolsonaro’s son sentenced to four years in jail for seeking US interference in father’s Brazil coup trial",
+          "link": "https://www.theguardian.com/world/2026/jun/16/brazilian-court-convicts-eduardo-bolsonaro-us-help-father-jair",
+          "source": "World news | The Guardian",
+          "published": "2026-06-16T21:44:54+00:00",
+          "summary": "Brazil supreme court finds that Eduardo Bolsonaro – who resides in the US - tried to get sanctions put on judges trying ex-president over coup plot Brazil’s supreme court has sentenced Eduardo Bolsona",
+          "image_url": null
+        },
+        {
+          "title": "Toronto police link dozens of shootings to ‘multilayered’ gun-for-hire network",
+          "link": "https://www.theguardian.com/world/2026/jun/16/toronto-police-shootings-gun-for-hire-network",
+          "source": "World news | The Guardian",
+          "published": "2026-06-16T17:47:30+00:00",
+          "summary": "Young adults and teens are being recruited through apps like Telegram and paid to carry out attacks, officials say Police investigators in Toronto have said that dozens of shootings – including one at",
+          "image_url": null
+        },
+        {
+          "title": "Canada eliminates human rights watchdog that oversees companies operating abroad",
+          "link": "https://www.theguardian.com/world/2026/jun/15/canada-eliminates-human-rights-watchdog-companies-abroad",
+          "source": "World news | The Guardian",
+          "published": "2026-06-15T18:36:55+00:00",
+          "summary": "Mark Carney says Canadian Ombudsperson for Responsible Enterprise office hasn’t been ‘effective’ since its 2019 setup Canada is eliminating a watchdog that investigates alleged human rights violations",
+          "image_url": null
+        },
+        {
+          "title": "Woman, 21, dies after being thrown from Brazil rope jump bridge without harness",
+          "link": "https://www.theguardian.com/world/2026/jun/15/brazil-rope-jump-bridge-woman-dies",
+          "source": "World news | The Guardian",
+          "published": "2026-06-15T17:19:45+00:00",
+          "summary": "Instructors hurled Maria Eduarda Rodrigues de Freitas into 40-metre abyss without attaching safety equipment A 21-year-old woman who died when two rope-jumping instructors threw her from a bridge with",
+          "image_url": null
+        },
+        {
+          "title": "From camel coats to guochao: Max Mara woos China’s luxury brand consumers",
+          "link": "https://www.theguardian.com/fashion/2026/jun/16/max-mara-woos-china-luxury-brand-consumers",
+          "source": "World news | The Guardian",
+          "published": "2026-06-16T17:15:13+00:00",
+          "summary": "Fashion house pays tribute to Chinese style with its 75th anniversary catwalk show in Shanghai “New York may be the city that never sleeps, but Shanghai doesn’t even sit down.” For the British designe",
+          "image_url": null
+        },
+        {
+          "title": "Fujitsu chair resigns after ‘woman-related inappropriate conduct’",
+          "link": "https://www.theguardian.com/business/2026/jun/16/fujitsu-chair-resigns-hidenori-furuta-technology-company",
+          "source": "World news | The Guardian",
+          "published": "2026-06-16T13:18:25+00:00",
+          "summary": "Japanese technology company at centre of Post Office IT scandal is negotiating settlement with UK government over faulty software Business live – latest updates The chair of Fujitsu, the Japanese tech",
+          "image_url": null
+        },
+        {
+          "title": "Bank of Japan raises interest rates to 31-year high … of 1%",
+          "link": "https://www.theguardian.com/business/2026/jun/16/bank-of-japan-raises-interest-rates-iran-war-inflation-us-fed-bank-of-england",
+          "source": "World news | The Guardian",
+          "published": "2026-06-16T10:41:08+00:00",
+          "summary": "Country acts amid Iran war inflation pressures, but US Fed and Bank of England expected to hold rates Business live – latest updates The Bank of Japan (BoJ) has raised interest rates to a 31-year high",
+          "image_url": null
+        },
+        {
+          "title": "For traumatised Indian sailors, Hormuz reopening brings little relief",
+          "link": "https://www.scmp.com/week-asia/people/article/3357371/traumatised-indian-sailors-hormuz-reopening-brings-little-relief?utm_source=rss_feed",
+          "source": "World - South China Morning Post",
+          "published": "2026-06-17T04:31:41+00:00",
+          "summary": "Captain Raman Kapoor was loading oil at an Iraqi port when word reached him that the United States and Iran were at war. Within hours, his tanker was trapped north of the Strait of Hormuz with 24 crew",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/17/eaed1f68-32b0-4702-b141-33d82b848b65_dda36ab5.jpg?itok=ZP6Gx_lM&v=1781667723"
+        },
+        {
+          "title": "Cigarettes, football and Greenland: G7 hot mics reveal world leaders’ banter",
+          "link": "https://www.scmp.com/news/world/europe/article/3357376/cigarettes-football-and-greenland-g7-hot-mics-reveal-world-leaders-banter?utm_source=rss_feed",
+          "source": "World - South China Morning Post",
+          "published": "2026-06-17T04:29:18+00:00",
+          "summary": "The leaders of the world’s richest democracies are talking about how to tackle some of the world’s biggest problems this week, but hot mics at the G7 summit revealed that conversations also covered li",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/17/3b3c9540-5742-4303-b022-0908c729a9ee_86c314c6.jpg?itok=X_Rz33mF&v=1781670550"
+        },
+        {
+          "title": "American flag blue? Algae turns Trump’s reflecting pool swamp green instead",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3357356/american-flag-blue-algae-turns-trumps-reflecting-pool-swamp-green-instead?utm_source=rss_feed",
+          "source": "World - South China Morning Post",
+          "published": "2026-06-16T23:56:46+00:00",
+          "summary": "One of US President Donald Trump’s pet beauty projects for Washington was supposed to make the Lincoln Memorial Reflecting Pool look blue, like part of the US flag. Enter Mother Nature. Algae has prol",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/17/c4256311-d5fe-4ed2-829a-a0b1c4a25f51_5efdb0e0.jpg?itok=CDh7CWyV&v=1781654195"
+        },
+        {
+          "title": "SpaceX vaults past Amazon’s market value, briefly topping Microsoft",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3357354/spacex-vaults-past-amazons-market-value-briefly-topping-microsoft?utm_source=rss_feed",
+          "source": "World - South China Morning Post",
+          "published": "2026-06-16T22:58:57+00:00",
+          "summary": "SpaceX roared past Amazon’s market valuation on Tuesday ⁠and briefly topped that of Microsoft, rapidly scaling the list of the world’s most valuable companies on a topsy-turvy trading day fuelled by f",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/17/a911eb61-e314-4a81-9806-d0adbb84b6a7_0038c2dd.jpg?itok=Sc_kXoZg&v=1781650730"
+        },
+        {
+          "title": "Latin America and Europe are bystanders in the US-China AI race, says Lula’s top adviser",
+          "link": "https://www.scmp.com/news/china/article/3357353/latin-america-and-europe-are-bystanders-us-china-ai-race-says-lulas-top-adviser?utm_source=rss_feed",
+          "source": "World - South China Morning Post",
+          "published": "2026-06-16T22:32:19+00:00",
+          "summary": "The race for artificial intelligence has hardened into a two-power contest between the United States and China, fought over rare earths, data and the rules governing the technology, with Latin America",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/17/356021d0-9553-4ff6-aeb4-e23a279a7d15_b88fa7d2.jpg?itok=zbrMtB81&v=1781649128"
+        },
+        {
+          "title": "Europe is gearing up for a trade fight with China. But will it change anything?",
+          "link": "https://www.scmp.com/economy/china-economy/article/3357291/europe-gearing-trade-fight-china-will-it-change-anything?utm_source=rss_feed",
+          "source": "World - South China Morning Post",
+          "published": "2026-06-16T22:00:10+00:00",
+          "summary": "As trade tensions between Beijing and Brussels continue to rise, China’s firms in the European Union have been forced to walk a delicate tightrope: expanding their presence in the lucrative market whi",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/b252bf06-e133-4dd0-98ce-02bf1155c3e0_c0021b39.jpg?itok=Dejvx_FQ&v=1781600789"
+        },
+        {
+          "title": "Don’t count the Russia-India-China triangle out just yet",
+          "link": "https://www.scmp.com/opinion/china-opinion/article/3356827/dont-count-russia-india-china-triangle-out-just-yet?utm_source=rss_feed",
+          "source": "World - South China Morning Post",
+          "published": "2026-06-16T21:30:05+00:00",
+          "summary": "The Russia-India-China (RIC) dialogue is back in the diplomatic conversation. It has not formally restarted, and no summit is on the horizon. But the signals are here. In 2025, Moscow again pushed for",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/12/ff2dc6bb-1f4c-4f0e-8caf-03c5fab0552e_3655fff2.jpg?itok=mMggMvwC&v=1781227624"
+        },
+        {
+          "title": "Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3357351/nvidias-jensen-huang-says-society-needs-new-social-norms-age-ai?utm_source=rss_feed",
+          "source": "World - South China Morning Post",
+          "published": "2026-06-16T20:47:30+00:00",
+          "summary": "Nvidia CEO Jensen Huang – whose work helped enable artificial intelligence – stressed in an interview on Tuesday that society has no choice but to change in the advent of AI. Huang has been optimistic",
+          "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/17/c8c726ae-2acb-418b-9f00-07f7e2060f20_2af2fd84.jpg?itok=xupkDOz9&v=1781642843"
+        },
+        {
+          "title": "Top world leaders to attend India-AI Impact Summit in New Delhi next week",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?oc=5",
+          "source": "Newsonair",
+          "published": "2026-06-16T20:54:15+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "India: Why a country of 1.4 billion is not in the football World Cup",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sbWZHMjJySHBCRXVzMVlqU29McHVjYW01Vnl5a1JJRXlSdmtqQzMtZFV4VkppU2tlV2FqdmN0eVdyRWVQa25MSk83ODltMTNsSTk3UmtBazZPUQ?oc=5",
+          "source": "BBC",
+          "published": "2026-06-16T23:09:45+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "‘Everyone is angry for different reasons’: scepticism in Iran as peace deal nears",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOV1dKQ0xiNXczUEhRVW9UX0tzM012Q0wwQU9OSkNvaHQ3Y1hYb2lEbEF4S2J3RGxwaU0wc2dnaWxtbWtpNktGTzBUZ0MwLVBRNm1OaE1jV0NjcTNMWEs2c2Rwa2dDZWJzQnh1VzFvOURRV215Q2tVTl8wUlFnOGhTd2x5ZWVySjNwbGRWOTZiZ3FRZ0E?oc=5",
+          "source": "The Guardian",
+          "published": "2026-06-17T01:31:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "World News in Brief: Reduced violence in Lebanon, shortages in Gaza, rising debt impacts development funding",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtNlFMbndId1F5Z1hpQ20zQldHNm1GQ1VlRms0Z1hMczI5S2VYZ3N2UmJocWtnbUxUQjFfdllvRWZuNlpENjl0NmtVTUlZU3hQd1djT2czcw?oc=5",
+          "source": "UN News",
+          "published": "2026-06-16T20:15:09+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "All the latest FIFA World Cup 2026 news - Daily updates and LIVE blog!",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUFXQ2VFYUFTb1k3R1ZmTk5GUTllTDM4WDdINUVLZDFGSnhqLW56Wnc0eG9OVmVOdWs0SDFJSEU4Sk1WclZvRUIxS0ZiUDVYZVF0OWV1ZmVrT1I1S24zZmVrVUJUQ2FBbGxiNTg3MUwzbGYxTHRFbl9uTXpDUjJrcDcxUWNfX21QM2dIaHV6TnNXRGhXM2w5UTJR?oc=5",
+          "source": "bundesliga.com",
+          "published": "2026-06-16T22:11:57+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "News in Pics | June 17, 2026: Best Photos from around the world",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWWl5cEU4dVVNNHhzOXdHNnpVZzRSejNycjB4X3JMa1FiYW0zczlhSlZtX09fMWg0OHd1LVBfaENrVU8wQmtCV0tzbTdrQi00WTZWVEd2S1VRRzAwX1lUWExtOUlZa1NxbmJfRnFLeGhJVjhOMXB4UjFUTWdyT25ENFdoX0ZUTkZfM2pmN3M4dTFmZXRwV0taOFlpMU5FbXN5U0Z5dg?oc=5",
+          "source": "Deccan Herald",
+          "published": "2026-06-17T01:02:38+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "OECD Report: India Remains World’s Fastest-Growing Major Economy",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5",
+          "source": "Newsonair",
+          "published": "2026-06-16T21:18:16+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "\"Not All Hezbollah\": Trump Slams Israeli Attacks On Lebanon At G7 Summit",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaUFYdjV0S25WQnZ0S1NMVlkxNW5qcDhES0JZRlRsbGZnTUE1aUNhWkxWdDF1c0JUS3l2RUV5Y3JKMmFrOFItUllSalBueDg2Wl9rOHQxcjZtSGlUM2k5dDIyTFkyRWVxNFF3YURlYlVLeEJIS01sUW1ZS1FIQ2JFNDRLZ3RaTTN6OW5yXzFHaWIydkpMOU84dlJFWXkwUjhJ?oc=5",
+          "source": "NDTV",
+          "published": "2026-06-17T00:39:48+00:00",
+          "summary": "",
+          "image_url": null
         }
       ]
     },
     {
       "name": "Other Interests",
       "slug": "other-interests",
-      "angle": "Neuroscience, education, books, music (electronic/production world welcome), live events. One genuinely interesting thing beats three mediocre ones.",
+      "angle": "Neuroscience, education, books, music (electronic/production welcome), live events, and the natural world. One genuinely interesting thing beats three mediocre ones.",
       "max_stories": 5,
-      "feeds_ok": 2,
-      "feeds_failed": 2,
+      "beta": false,
+      "feeds_ok": 7,
+      "feeds_failed": 0,
       "entries": [
+        {
+          "title": "The secrets to keeping your brain sharp in old age",
+          "link": "https://www.newscientist.com/article/2529259-the-secrets-to-keeping-your-brain-sharp-in-old-age/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "source": "New Scientist - Home",
+          "published": "2026-06-16T16:00:58+00:00",
+          "summary": "Neurologist Emily Rogalski studies \"superagers\" – people in their 80s or 90s with unusually keen memories, whose lifestyles suggest ways to slow cognitive decline",
+          "image_url": "https://images.newscientist.com/wp-content/uploads/2026/06/10131236/SEI_3005618951.jpg"
+        },
+        {
+          "title": "A quantum state that lasts forever may finally be within our grasp",
+          "link": "https://www.newscientist.com/article/2529039-a-quantum-state-that-lasts-forever-may-finally-be-within-our-grasp/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "source": "New Scientist - Home",
+          "published": "2026-06-16T14:00:05+00:00",
+          "summary": "Defying the laws of thermodynamics, experiments are beginning to show that a quantum state that is frozen forever might not be impossible. If we can tame it, it could unlock whole new types of matter",
+          "image_url": "https://images.newscientist.com/wp-content/uploads/2026/06/16102025/SEI_301079228.jpg"
+        },
+        {
+          "title": "Autism may have two distinct subtypes that vary by brain activity",
+          "link": "https://www.newscientist.com/article/2530459-autism-may-have-two-distinct-subtypes-that-vary-by-brain-activity/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "source": "New Scientist - Home",
+          "published": "2026-06-16T12:00:42+00:00",
+          "summary": "Evidence is mounting that there are distinct subtypes of autism, and now, scientists have found that the condition can vary according to the strength of people's brain connections",
+          "image_url": "https://images.newscientist.com/wp-content/uploads/2026/06/16101225/SEI_301530524.jpg"
+        },
+        {
+          "title": "Walking shark found in Papua New Guinea is new to science",
+          "link": "https://www.newscientist.com/article/2530536-walking-shark-found-in-papua-new-guinea-is-new-to-science/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "source": "New Scientist - Home",
+          "published": "2026-06-16T13:00:41+00:00",
+          "summary": "Hemiscyllium dudgeonae is the tenth recorded species of walking shark, which use their pectoral fins to move across reef flats, and its limited range means it may be at high risk of extinction",
+          "image_url": "https://images.newscientist.com/wp-content/uploads/2026/06/16113031/SEI_301624717.jpg"
+        },
+        {
+          "title": "Arctic Ocean reaches tipping point that could be dire for marine life",
+          "link": "https://www.newscientist.com/article/2530469-arctic-ocean-reaches-tipping-point-that-could-be-dire-for-marine-life/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "source": "New Scientist - Home",
+          "published": "2026-06-16T11:06:16+00:00",
+          "summary": "Disappearing sea ice is letting more sunlight in the Arctic Ocean and boosting phytoplankton growth, but this has depleted a crucial nutrient, which could severely affect animals higher up the food ch",
+          "image_url": "https://images.newscientist.com/wp-content/uploads/2026/06/15164400/SEI_301542089.jpg"
+        },
+        {
+          "title": "Technology is changing our perspective on nature – at every scale",
+          "link": "https://www.newscientist.com/article/2530330-technology-is-changing-our-perspective-on-nature-at-every-scale/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "source": "New Scientist - Home",
+          "published": "2026-06-16T09:00:29+00:00",
+          "summary": "Inspired by Ariel Waldman’s docuseries Life Unearthed, columnist Annalee Newitz explores how microscopes, drones and specialised cameras are giving us an unprecedented view of nature from many differe",
+          "image_url": "https://images.newscientist.com/wp-content/uploads/2026/06/12222400/SEI_301104432.jpg"
+        },
         {
           "title": "55% of Travelers Said They’d Consider Going Somewhere Because of a Book",
           "link": "https://bookriot.com/55-of-travelers-said-theyd-consider-going-somewhere-because-of-a-book-2/",
@@ -954,6 +1948,465 @@
           "published": "2026-06-16T09:30:00+00:00",
           "summary": "Simon & Schuster and The Black List just made adaptations a lot easier.",
           "image_url": "https://bookriot.com/wp-content/uploads/2025/08/Book-Riot-Newsletter-Heading-black.jpg.optimal.jpg"
+        },
+        {
+          "title": "Squirrel Flower Announces New Album Say a Prayer to the Gods of Getting Going",
+          "link": "https://pitchfork.com/news/squirrel-flower-announces-new-album-say-a-prayer-to-the-gods-of-getting-going/",
+          "source": "RSS: News",
+          "published": "2026-06-16T22:09:01+00:00",
+          "summary": "Watch Ella Williams wander under a double rainbow in the video to lead single “Reelin”",
+          "image_url": "https://media.pitchfork.com/photos/6a31c1ebdab06b1214824a23/master/pass/unnamed%20(88).jpg"
+        },
+        {
+          "title": "YHWH Nailgun Are Taking Magazine on Tour",
+          "link": "https://pitchfork.com/news/yhwh-nailgun-are-taking-magazine-on-tour/",
+          "source": "RSS: News",
+          "published": "2026-06-16T20:08:52+00:00",
+          "summary": "Will all the shows be 11 minutes?",
+          "image_url": "https://media.pitchfork.com/photos/6a319512e922f54904a31eb9/master/pass/YHWH-Nailgun.jpeg"
+        },
+        {
+          "title": "Kelela Can’t Work it Out With A.K. Paul on New Single “Outta Time”",
+          "link": "https://pitchfork.com/news/watch-kelela-sing-to-ak-paul-on-new-single-outta-time/",
+          "source": "RSS: News",
+          "published": "2026-06-16T19:35:02+00:00",
+          "summary": "It was originally written for her 2017 album, Take Me Apart",
+          "image_url": "https://media.pitchfork.com/photos/6a319641801ab21c70e0c5c9/master/pass/unnamed%20(35).jpg"
+        },
+        {
+          "title": "Grammys to Make Best New Artist Category Even More Confusing",
+          "link": "https://pitchfork.com/news/grammys-to-make-best-new-artist-even-more-confusing/",
+          "source": "RSS: News",
+          "published": "2026-06-16T19:27:45+00:00",
+          "summary": "The number of times an artist can submit themselves for a nomination has increased",
+          "image_url": "https://media.pitchfork.com/photos/6a317a3be63fb7351f976a8f/master/pass/GettyImages-1239723190%20(1).jpg"
+        },
+        {
+          "title": "Vince Staples Lines Up North American Tour",
+          "link": "https://pitchfork.com/news/vince-staples-lines-up-north-american-tour/",
+          "source": "RSS: News",
+          "published": "2026-06-16T17:05:24+00:00",
+          "summary": "The rapper will enlist a live band to bring his new album Cry Baby to the stage",
+          "image_url": "https://media.pitchfork.com/photos/6a316417c843cb137b4fc3f9/master/pass/Vince-Staples.jpeg"
+        },
+        {
+          "title": "Isaiah Rashad to Hit the Road on U.S. Tour",
+          "link": "https://pitchfork.com/news/isaiah-rashad-to-hit-the-road-on-us-tour/",
+          "source": "RSS: News",
+          "published": "2026-06-16T16:22:20+00:00",
+          "summary": "The Lil Sunny’s Awful Road Trip Tour kicks off in August with opener Alemeda",
+          "image_url": "https://media.pitchfork.com/photos/6a3174b394399ae803fb14f5/master/pass/Isaiah%20Rashad%20-%20Photo%20Credit_%20@marikarosegold.jpg"
+        },
+        {
+          "title": "Dawn Richard’s Abuse Lawsuit Against Diddy Dismissed",
+          "link": "https://pitchfork.com/news/dawn-richards-abuse-lawsuit-against-diddy-dismissed/",
+          "source": "RSS: News",
+          "published": "2026-06-16T16:08:57+00:00",
+          "summary": "Richard’s claims against her former collaborator exceed the statute of limitations, a New York judge ruled",
+          "image_url": "https://media.pitchfork.com/photos/6a3174c5e7b67a37a66f3391/master/pass/diddy%20dawn%20richard%20dismissal.jpeg"
+        },
+        {
+          "title": "Dev Hynes to Score Olivia Wilde’s New Film The Invite",
+          "link": "https://pitchfork.com/news/dev-hynes-to-score-olivia-wildes-the-invite/",
+          "source": "RSS: News",
+          "published": "2026-06-16T15:06:34+00:00",
+          "summary": "It’s the musician’s sixth film score and first collaboration with Wilde",
+          "image_url": "https://media.pitchfork.com/photos/6a3165b794399ae803fb13f4/master/pass/MixCollage-16-Jun-2026-10-45-AM-7868.jpg"
+        },
+        {
+          "title": "How a tiny blue gecko became a conservation comeback story",
+          "link": "https://news.mongabay.com/short-article/2026/06/how-a-tiny-blue-gecko-became-a-conservation-comeback-story/",
+          "source": "Conservation news",
+          "published": "2026-06-17T00:05:41+00:00",
+          "summary": "Williams electric blue day gecko is a small Tanzanian reptile whose recovery shows what focused conservation can do, reports Mongabay contributor, Manuel Fonseca. Once heavily collected for Europe’s p",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/17000449/herps_686-768x512.jpg"
+        },
+        {
+          "title": "The Bougainville community in Panguna wants justice for mining’s ‘toxic legacy’",
+          "link": "https://news.mongabay.com/podcast/2026/06/the-bougainville-community-in-panguna-wants-justice-for-minings-toxic-legacy/",
+          "source": "Conservation news",
+          "published": "2026-06-16T21:35:04+00:00",
+          "summary": "Theonila Roka Matbob grew up next to what was — at the time — the world’s largest open-pit mine in Bougainville, an autonomous region in Papua New Guinea, operated by a subsidiary of Rio Tinto. This m",
+          "image_url": "https://news.mongabay.com/wp-content/uploads/sites/20/2026/06/Media-Room-Theonila_Credit-Goldman-Environmental-Prize_152.jpg"
+        },
+        {
+          "title": "Rain along the Gulf Coast could become the first named storm of the Atlantic hurricane season",
+          "link": "https://news.mongabay.com/short-article/2026/06/rain-along-the-gulf-coast-could-become-the-first-named-storm-of-the-atlantic-hurricane-season/",
+          "source": "Conservation news",
+          "published": "2026-06-16T21:27:11+00:00",
+          "summary": "MIAMI (AP) — A cluster of storms along the Gulf Coast could become the first named tropical storm of the 2026 Atlantic hurricane season, the National Hurricane Center said. The storms threatened to br",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16212238/AP26167592799499-768x512.jpg"
+        },
+        {
+          "title": "Lawsuit demands accountability for Cerro de Pasco mining pollution in Peru",
+          "link": "https://news.mongabay.com/2026/06/lawsuit-demands-accountability-for-cerro-de-pasco-mining-pollution-in-peru/",
+          "source": "Conservation news",
+          "published": "2026-06-16T21:14:58+00:00",
+          "summary": "A mine that has been operating for decades in the Peruvian Andes continues to contaminate the soil, water and air for thousands of people living nearby, according to a lawsuit filed last month. The co",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16210447/AP0909151105123-768x512.jpg"
+        },
+        {
+          "title": "‘Thinking how traffickers think’: Study uses AI to detect marine wildlife smuggling",
+          "link": "https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/",
+          "source": "Conservation news",
+          "published": "2026-06-16T17:53:35+00:00",
+          "summary": "On Sunday, April 26, Argentine officials stopped an unusual shipment arriving at an airport near Buenos Aires. Inside, they found so many dead and dying fish, octopuses and crabs that a national rescu",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16081112/6-spiny-seahorse-Hippocampus-histrix-768x512.jpg"
+        },
+        {
+          "title": "How a popular spaghetti dish is threatening Italy’s marine ecosystem",
+          "link": "https://news.mongabay.com/2026/06/how-a-popular-spaghetti-dish-is-threatening-italys-marine-ecosystem/",
+          "source": "Conservation news",
+          "published": "2026-06-16T17:47:58+00:00",
+          "summary": "NAPLES — On a warm, moonlit night in May, Maurizio Simeone sat in an ambush at his desk about 10 kilometers (6 miles) south of Naples, Italy. The marine scientist and director of the Marine Protected ",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16113722/Riccio_Viola_URCHIN-768x512.jpg"
+        },
+        {
+          "title": "Teeming with turtles: Cabo Verde island sees 80-fold increase in nesting loggerheads",
+          "link": "https://news.mongabay.com/2026/06/teeming-with-turtles-cabo-verde-island-sees-80-fold-increase-in-nesting-loggerheads/",
+          "source": "Conservation news",
+          "published": "2026-06-16T16:36:44+00:00",
+          "summary": "In 2018, night patrol teams on Boa Vista, the third-largest island in the Cabo Verde archipelago, started noticing a change along the beaches: The loggerhead turtles were arriving in significantly lar",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/15192409/b.-%C2%A9-Roberto-Pillon-via-iNaturalist-1-768x512.jpg"
+        },
+        {
+          "title": "In Rio Indio, farmers fight Panama Canal reservoir project — and displacement",
+          "link": "https://news.mongabay.com/2026/06/in-rio-indio-farmers-fight-panama-canal-reservoir-project-and-displacement/",
+          "source": "Conservation news",
+          "published": "2026-06-16T15:20:13+00:00",
+          "summary": "LIMÓN DE CHAGRES, Panama — In Panama’s Rio Indio Basin, a $1.5 billion reservoir project aims to meet water demand for the next 50 years. But the project would displace dozens of farming communities, ",
+          "image_url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16150742/6-1-768x512.jpg"
+        },
+        {
+          "title": "Should nicotine be regulated like a narcotic? A Pacific nation makes the case",
+          "link": "https://www.nature.com/articles/d41586-026-01903-z",
+          "source": "Nature",
+          "published": "2026-06-17T00:00:00+00:00",
+          "summary": "Nature, Published online: 17 June 2026; doi:10.1038/d41586-026-01903-z Existing global efforts to reduce harms caused by smoking have targeted tobacco smoking, but vapes containing nicotine are also h",
+          "image_url": null
+        },
+        {
+          "title": "Author Correction: Ontogeny and transcriptional regulation of Thetis cells",
+          "link": "https://www.nature.com/articles/s41586-026-10770-7",
+          "source": "Nature",
+          "published": "2026-06-16T00:00:00+00:00",
+          "summary": "Nature, Published online: 16 June 2026; doi:10.1038/s41586-026-10770-7 Author Correction: Ontogeny and transcriptional regulation of Thetis cells",
+          "image_url": null
+        },
+        {
+          "title": "Terms of endearment? Bias in first-name eponyms for species named after people",
+          "link": "https://www.nature.com/articles/d41586-026-01916-8",
+          "source": "Nature",
+          "published": "2026-06-16T00:00:00+00:00",
+          "summary": "Nature, Published online: 16 June 2026; doi:10.1038/d41586-026-01916-8 Terms of endearment? Bias in first-name eponyms for species named after people",
+          "image_url": null
+        },
+        {
+          "title": "The Haber–Bosch fertilizer production process should be taught through a social-ecological lens",
+          "link": "https://www.nature.com/articles/d41586-026-01914-w",
+          "source": "Nature",
+          "published": "2026-06-16T00:00:00+00:00",
+          "summary": "Nature, Published online: 16 June 2026; doi:10.1038/d41586-026-01914-w The Haber–Bosch fertilizer production process should be taught through a social-ecological lens",
+          "image_url": null
+        },
+        {
+          "title": "How do researchers choose what to work on?",
+          "link": "https://www.nature.com/articles/d41586-026-01811-2",
+          "source": "Nature",
+          "published": "2026-06-16T00:00:00+00:00",
+          "summary": "Nature, Published online: 16 June 2026; doi:10.1038/d41586-026-01811-2 A scientist’s account of switching focus to tackle pressing problems, and researchers consider the best way to preserve eggs, in ",
+          "image_url": null
+        },
+        {
+          "title": "El Niño in a thermally saturated world",
+          "link": "https://www.nature.com/articles/d41586-026-01915-9",
+          "source": "Nature",
+          "published": "2026-06-16T00:00:00+00:00",
+          "summary": "Nature, Published online: 16 June 2026; doi:10.1038/d41586-026-01915-9 El Niño in a thermally saturated world",
+          "image_url": null
+        },
+        {
+          "title": "AI has entered the workforce: tax tech profits, not people",
+          "link": "https://www.nature.com/articles/d41586-026-01877-y",
+          "source": "Nature",
+          "published": "2026-06-16T00:00:00+00:00",
+          "summary": "Nature, Published online: 16 June 2026; doi:10.1038/d41586-026-01877-y As machines replace human labour, welfare states built on salary-linked taxation will need fundamental redesign.",
+          "image_url": null
+        },
+        {
+          "title": "Tech titans are hacking their bodies for a longer life: is there science behind their methods?",
+          "link": "https://www.nature.com/articles/d41586-026-01884-z",
+          "source": "Nature",
+          "published": "2026-06-16T00:00:00+00:00",
+          "summary": "Nature, Published online: 16 June 2026; doi:10.1038/d41586-026-01884-z Influencers and ultra-rich people looking to extend their lifespan are trading tips and tricks on how to eke out extra years.",
+          "image_url": null
+        },
+        {
+          "title": "Inside Berlin’s electronic jazz underground",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tZi1LelAzMUliVXNzSlFoLVBCX2phQlJPdDJocjcwQW9HZGNteHBzLWZ3RmtDZnNEVmdzd1U1eVZfZ0VtYWhIMDVzTW1oX3MyQjBYRU9NeHkyMEJsbTJhMFcwUXk1dkFINmZlVlIzUjFjR29oV3R6eA?oc=5",
+          "source": "DJ Mag",
+          "published": "2026-06-16T11:26:19+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Top Ten Festivals 2026: July · Feature",
+          "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1wS1dRakh2bDZKMnFTVjBvZGU5bTBKS2Iyc0p2MFF5OEt1NlBBeGk0akRjYTJGUEhKMWM4alZOMkE?oc=5",
+          "source": "Resident Advisor",
+          "published": "2026-06-16T22:27:39+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Former 2pole Member Marcus Schmahl On How He’s Found His True Music Identity",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNlFqYWh4YTJZRjJhYmpIYmxaalZfbkdLbXBZVGJxbzZtX1ZMM0toSE1FRkF5cGFCbzdPUEdONURucG5kdG1qM2JlUHhtR0lMd0tpR0IxTEJmcnZyc3AzZW1QeFJyZXpxOFl3VS1odDItNXVGWFg4R1doRHJGMHhPS1kzR2RoRGNFSDZWU3JCWQ?oc=5",
+          "source": "Change Underground",
+          "published": "2026-06-16T12:40:22+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Top 10 Most Streamed EDM Songs of All Time (2026 Edition)",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE00UzBTcTdISS0xRFVVeWpYTlFpZi0tcExwS2RiVHBlbG1HVjVZMUs4OHMyUGpJNVlKck1PS0oydm9CM3pubEw3cllwcHB1WWc3N3FsaDFGZHdoLWxoSUx1SUlVSzlNZkI2REJCUU1scWhHUnR6bzRRTzB5WQ?oc=5",
+          "source": "EDM House Network",
+          "published": "2026-06-16T12:58:51+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "New underground music festival sails into North Vancouver this fall: What you need to know",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWFNLVUh2MldpNWRZUnA2cVlVbmNSUGdaQkhLVi12NlZIWl9XbE5WVzRSejVBNEJSTHh4X1FfUVlFOFZCZlZnMUxHaVBIQ0U3MEs5aUhIc0hWT3UxTVZJckJDZ3IxWFlPSHB2N19JYmRHaHNHRXJPWWJUa0U0SWJGcGZoMERNRk9CNnhnZ1ZFaTAxQ0hoaWtncVVBajM2SGtWN0RCdk95WURrRFAxZ3NtTHZuOENPZWhIVXA1QlRIZjNONlVQMmxV?oc=5",
+          "source": "Vancouver Sun",
+          "published": "2026-06-16T22:05:39+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "The Beekeeper Making Electronic Music With Bees",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRE00d2pvOERydERkUGt5THdXZzk0c002VUdmQkczMmlzX2MxZjRVSVdQV2dEOW8tTFdWT2dWbWExUUdxNDJNWGV3UGt1RkJaRDRGM2lKTFhVMFBtWTdwa09OM2FIRURrYjUwSlJHNldiOFNYREgwdFBKNlRMMzdORVA0Y1M4OTZJa3RkUE04ZTg?oc=5",
+          "source": "Yahoo",
+          "published": "2026-06-15T18:25:03+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Elevate Artists Releases New Analysis of Global Electronic Music Trends",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVEJ6MHF4V3BoRkc5VHFFU25ZMS1ncGh6d0Izd2VOY0RUNGpDMkJMOEJxYXhKaDdUYWFZNHJLbE5SWW5oTVNyNTREYmE2a1pqYnE0aVp2S3BTcXVKLTRITkRNY1NUVm8yczFDei13ZnRxQUZYNHpOa3otVHdteVRQWXBkdFdBdk8zMC1wTXVQSkxyTDZ6dUVkUjBtU3pPNEZURGVkOWVINFlIZzBT?oc=5",
+          "source": "Attack Magazine",
+          "published": "2026-06-15T22:47:42+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "French Wineries Turn to Electronic Music to Draw Younger Visitors",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV2YyTFpnbW40RnNSaTJDWUVrNTFTcXhkMEprM3RjVTYwWVRTaUxzckJhTWZ2dkxZbF9EdUt0aG1HXzRFdWFUbk5qM3Iwcjl2VGlhMEpydGxWeFVxREFXNWEzbTB2TUotYTd0dmtLU2VHQ2cxODNISzI5bzB5V1YwbVFhdmV3N0s2SEYySWozV3AwQlg5MW1saHJjanNSMWRsZmlMS3RfcjJReHAzS1AxN1JR0gG3AUFVX3lxTE4tb0NUM0RFZEZFZ1RuVDZQeTVYTk9CZi02NmFXVlV6U1EzR2NaRUZsTHV3THN3ZG5ocmJGR0tWVnZlNUJnTFVqd1FDZGRGNnZSLTRtUS03M1Y5RGUxU0FpOWdzZF9HWEFSQjZuamNOLVRmeWtldXN0TF94NmlkVXR1cGhPM2N0cFpKUmR6WGZQeTZiU283Wk5YTjZLSlhUWE5PSlZNY2d2SjRRX29hWlJ3QzJSRXlxbw?oc=5",
+          "source": "Vinetur",
+          "published": "2026-06-15T20:50:03+00:00",
+          "summary": "",
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "name": "Opportunities",
+      "slug": "opportunities",
+      "angle": "BETA. Upcoming events, webinars, conferences, fellowships, cohorts, hackathons in AI / tech / strategy, India + online — things worth showing up for or applying to. Event data is imperfect; only list items with a concrete date AND a working link, and label the section clearly as beta.",
+      "max_stories": 5,
+      "beta": true,
+      "feeds_ok": 3,
+      "feeds_failed": 0,
+      "entries": [
+        {
+          "title": "India must walk the talk on AI leadership",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaUlPYmdXSWUtT3N5S1dGdjctVlNGdXV4dng4TVFUTnhtMzNRNndzd3lQYXgwR21qdV9lVEZPYzkzY0hmMEE3UlEwLUtPSmpJYVRQaGlwZVk0NXhPNXNrWURKS3NHazFxeFhLOXlwT0N5Ny1oa2MtalVxbEJZR0RMaXhwS0dfUQ?oc=5",
+          "source": "East Asia Forum",
+          "published": "2026-06-13T00:00:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "From classrooms to campuses: India’s education leaders define roadmap for AI, innovation and future-ready learning at ETEducation Annual Education Summit 2026",
+          "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPWGZMNVZKUXhRR0pxMjFjMzVIV3QxaU5TV195WkRRaFJVMXVFbHlkLTR2RV93TkRZd2VONUhqM1lmWThSYnVkZnd2ZWplSzE4WlJ6YW9aUzBtNkVELThDdmhEQ2ZuYjNjQ1RwVXBKbFBpMml1S0RNd01uR2R0RDV3R2ZHTGFhRTRVOE5XUXJyeVNXYlAxWElmUVVBSVZCVjZydTI0dGd1SDEtMFVRLUxRMUVZYmdHTl9yQUtWdVRZZ2cwMVFuUTd4ek1RVGJ0WTNDMi1Zd0RBcmNKRExVMk5nbW1EcTg3S1N5NW5GQWtqVDl3ZmVteE9qNm51azUyc0xRSFdfTkE0TjhQdE9vbGlsUjY1LTlrSDZjajJPLWVxa1BBQTFZWTY0Vmk4NWJBTlFTWDdDSGNqNXpuc3czTDBQb0twdmoyZk55R3AzRTNpUURFNzBsdjhuSWVB?oc=5",
+          "source": "ET Education",
+          "published": "2026-06-15T00:30:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Technology, Advocacy and Animal Liberation: PETA India at the Vegan India Conference 2026 - Blog",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM2RQNmhwUGczdmRBMjJYYml5UElLWWs4anJkMG01aGU0ald1V0ZKX3ZqenZCSG9Wa0UtT1RKalVGLUxwYUlST21SeTRSRWhxT3lQaUtPSHBYZi0xZ3pYaG82WG5BaUY4ZlFnYUlEaHU1NXRkNGoxdlVMc0tTN0FRXzVOamk5cVJOQ3VPcGtwUEtHVmhDc2s4UEYzRG1YanEyU1BudGctV1JDd1QwNkxDZTU1eXI3MkhQaGc4?oc=5",
+          "source": "PETA India",
+          "published": "2026-06-10T12:35:57+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Meta deepens partnership with Ambani's Reliance with AI data centre",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSlc2aGhiaC03Vk4xMTA0MHcwd0JoWEFQTHdlLUhYbTJJN1NqeEpycTU5eUZQSHY2akt1LVE1MVMzaUxmLUVuQWU5SHpZMW9RWjB0ZWlxZE41czdzdkdDS3F2OE05UktOckZhNHhEdTFlakpCTUN1dE5seGc0U25oSE1vcjhfdDJZcS1JSmlfZkI2OTFHSFpVcURxOFkwZ0RIeFphdUpB?oc=5",
+          "source": "Reuters",
+          "published": "2026-06-10T02:45:24+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Technology drives India-France strategic convergence",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYmhOQ0E3UWlPZ2F4eDQ4cHdtdFpBWmxHblFRdTR3eWlvVnZWRXFHZ0htVGUwOS0tVkljaUdWNzRiLWtOaEtDT2pXakd2elFGZWVIV3pWOU8zMm1TeFBjUDlzVkZhZERVT1hkMkd0VkY5RkU5WEVDZWpqcDRCSjliVWQ1MGtWOF9TanQzZTBUWWMwUlpDZFh0MENFRjZEZEFydzJUTWRFQjgzOFNZTEZXStIBtwFBVV95cUxPeHFHZC11dHN5RTRlSVlWWDFrOG5HdjZSbXNxbDRnNldfTzBUZGx2ZUZEUTlBcmdqd2RNTE9oQTBxdlpJZGpGdnRwRFhCRVNHWXdwSzEzUVN3WkJ1RFdWY001ZTVNdWpBdFdDOVd3MkdVc3RxZFcwVkMyYy1XVEhYMFBlbkFaenRNd0pobDRULVVZYURVb2wzYVdPWjdMcWJjMXRCTGdGUlJ4aWI3TWJteHhrSEpKcHc?oc=5",
+          "source": "The Hindu",
+          "published": "2026-06-15T18:38:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "India Investor Conference - Capital Markets Growth Story 2026",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdVRNeXRNSG9Nakc2SkJYeDFZTF82azBQT1BZRnc5Sm5RVENnbjg1T1JoeWE0MGY0VlU5endWRjFPVmdRQ3RyeTJPQzdhUVVlTXF2b1V5UTlJSXVsOS1oNzBMUEpXWHRLUjRuMG96Sm84aUN3a1hxdmxuWEQ0bXZDZUJ0bEJScWhZa0xEZmN1aWI1RXZiS2lQUGJGa2tPRFd3SmZ3S21nUkNKSllvTHVXZU9SQmdybTgxX1lGLQ?oc=5",
+          "source": "ICICI Direct",
+          "published": "2026-06-16T16:09:58+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "The Outlook for Data Centers in Asia",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMkc3cEpLYjZqdkdHUUtUWUxPQWdjSEtOSF9uaFlRU0F6d0FuN2ZycXZWVllQRjlhTG4tZ2VFbHNvZXA4UjlBa3BIMUpXNDdHVWhQTGd3RkZ6T0sxaUR3UVlOSGZ3VFBabThjR2ZHS21CamMtY3pQSF9jdVEyUEtBMEFwMUVXTU5KZ2x3?oc=5",
+          "source": "Goldman Sachs",
+          "published": "2026-06-11T07:01:04+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "G7 Summit: A strategic opportunity for India to script human-centric AI ecosystem with sovereign models",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRGNTUHpIU0RRNU5DZUd2SWxOdWN4aWZFdkttVU92OF9rT1B1d0o4dXFLM1FrVmpCdnhnNDZhYTVtV1RvZFZ6UDlIbFpBSGhEU3ZzM1VWYUhTYTR0MndoN0luZldteWpxeVNqMTdYWHlub0k4dm1fdm42a2RjMjJBYVZoNTF5UUpKX0dESTBDaTRadWUzYW1IR1RzdXBQTzNGQzhCNUctOVZZRXZ5WkcxR3ltNzJMa1dfeFFoRTJXV3dwTy1TZ0Q1UFE5LUl6WjZ4WVkxSmliYm9Fc1Fma2lpbGltZ9IB6AFBVV95cUxNUW9DVE1ycmdhSnNTNkZGQmpzMDZtWE56M2RNamdxMkM1SEZCWi1WblI3amt1SlhWNjg1NUFNTE5MWW9XdVdDMlpudzhraUVhaURGNkY3S0ZYamJXOWJQbGlsR2FZY3RkWVpUTFpGSXBNUjVNU05iNEFLLXRScVdpU0FZMzdPQmJSeVI1OWprY215cEVTVkFIaXd0OENYei1peXFGamV0SDkzTUVDVnczSkVrOW9vSnBHS1NYZmJTay03SzY5UUtwNHVaQWYyTXNYdGs4TmxzRTlQSzhoWWN5ZG9Lb0J3QW01?oc=5",
+          "source": "organiser.org",
+          "published": "2026-06-13T09:06:05+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "SAP Labs India Unveils 2026 Startup Studio Cohort Focused on Enterprise AI and Deep-Tech Innovation",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVzM0VVZBX2M4WHdYcFhUYVM0U2IyUVFoWVhDbE45MXZRdWRGSjJTb19DTDlSSnh3aDVwSDhVaFdKeWNDQVFuQ1BkVTZsSWxMYldYQVJKUVFHaC1oYTJhU3A4ZFBqN0hOcVF6Q0ZDazczZmgzdm5CNWs3Znk4ZEVlUDhHSTRycUVvX3V2NXI1VnJRUFFjYU5tZ004ZjJBV25rZ2ozTnlRQzFZOEpFdnVNUThZcnZOVkliZHZPSnZKNWROalBEdXBsRVZMd3pobldmWEdIdk0zcjQ?oc=5",
+          "source": "SAP News Center",
+          "published": "2026-06-16T04:47:51+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "EV mobility startup Trevel raises $1 Mn led by India Accelerator and Finvolve",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOekVvdk1PU1lwT0x0VlFPaWpPUlVXRVVocXZRMGZob3RZSnRlSkdCVTRBSy1nNlp1T0hfemIyUndFbTVJRmVaV2NBbW9FV1VUTVdjb18ydThadDloRTFiNkdhUGNhVlFIS08zZEszZC1XTHhVOHRFdG1xbm8yRXprYlI0RWE4c2Nkcm82OWVpbS1rZThYczJFRzhUbkZDRTVuVkYwX21oZml4MEY4Sl9hYTlvQk9Hd9IBtgFBVV95cUxOekVvdk1PU1lwT0x0VlFPaWpPUlVXRVVocXZRMGZob3RZSnRlSkdCVTRBSy1nNlp1T0hfemIyUndFbTVJRmVaV2NBbW9FV1VUTVdjb18ydThadDloRTFiNkdhUGNhVlFIS08zZEszZC1XTHhVOHRFdG1xbm8yRXprYlI0RWE4c2Nkcm82OWVpbS1rZThYczJFRzhUbkZDRTVuVkYwX21oZml4MEY4Sl9hYTlvQk9Hdw?oc=5",
+          "source": "Entrackr",
+          "published": "2026-06-12T08:58:28+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Nine Indian startups join WEF's Tech Pioneers cohort",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaGg1NEMwRjhQWEJyTlBqbUI4UHpYUVZrNWREbUgwaktXNHNBbjlaUjlCWUd4dVhfTEVJNG4yLWV6d2hTQ1dybXB0eHlESVdqWHRUZU1OUXdTLXEyWDhXanJRV1hrTTRfVDFMOXhqd01MeXVnNjcwNDQtMnhTMUJRZ1dGSkoxN1di?oc=5",
+          "source": "YourStory.com",
+          "published": "2026-06-10T13:08:06+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "3rd cohort of AIC T-Hub SpaceTech accelerator Orbit takes off with 13 startups",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdVVQcm8tejlSQTJpRjVleDFVenVYRXVCa2NKTDF5blFQbjlsZ0tEWTJScFBzQTZwbEJzQzZ4b2piejVkLVBTQjVIUDdjekRTdXg0YlcwSXhHWWdqN0dxQkRRXy1FS0UyWDhubTBRRXpUem1hUW1HZG9kbkZ4c3FPZHVkY0JJUGRDcTRLbkZxN0JIX2pjeWxremRiTnFtVjZHR0x2dmIwZktPRk5uM1puSFVvbWVyZnpldTRLMG8wTTQ4ZFg0ajNmTjNEWjRrVDRHNU8tak5HNVpwa0pYUEHSAeQBQVVfeXFMTUFGOHgzcHFjNWctUTFxaHBXZ0tDSi1JbHl6cVZvNHRESzg4MnY1ektQemo4UTVtNG9Qb25pQWFlS2ZveTIyWDhSNVdpb1dRaDVXRlNxd3RSb19BeHFuTW9BZG1KdUZiLUFNNGw0ZC1uUXZ6NjhIUFdUMDdURDQ2cEU4RWtoN182N29yLXhzN3JmU0k4X3JzWXh4TWltdkl6OTdSSkhFX3F0QjlIcFl0Wi1jSXJDdG1ZdEJ3RmM2TFI5MGtoQjY5M0lSUXY4WWk1eUFNdUY4Y21wdmtJYkhrX2RjdGJr?oc=5",
+          "source": "The Hindu",
+          "published": "2026-06-03T07:00:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "IndiaAI Startups Global: International Acceleration Programs for Indian AI Startups - 2026 2nd Cohort",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdGFyZjFNcXRDT2lya09uaGFvMmRJeGl6M3ZCRWtITVVZd09hZEpfdHBPYnVKNVVQMUxtb05VTS1YdUtuTlZ2NzJJa0M4eFdSSWFLMmhBQTNyTFFpNWJ6UG10czJfb0xrN0doZTJlY3lzcnZVLUNDbmF3Qi1EdC1xQXI5TFhzRU12dGFDX0J2LUtxMWt0Z21OYnR4MFNDQXBTWEN5ZC12WGJhNUJiMkR1MXJtWENUTVUtcWJFcG90NzVmbmJKaVo5Wg?oc=5",
+          "source": "IndiaAI",
+          "published": "2026-06-16T05:10:42+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "EV mobility startup Trevel raises $1 Mn led by India Accelerator",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTjRlZXpjS0ZUSkl0NjQ0RXlUTUphc2drYmZ4amo3U0U1bXBoZUtuUFRfUFJqRlZhcXotczRYaG5qUS1PYXpZUlZOZ0ZoYi1tZkN6V3ZNS2gzS0V3cUpNbjlvUHVzZkFEMWp6enU0T3hSOHNNMnYweDlRYVRNU2dtcDYxczQ5UmJOMkJKdjVlS29ibkEtRXdPbmRrcko2dDREbWg0SFVQZW93dTlQdWlWeVFNeXBiLTdpUENqNnBzY0RRZmx1Y2xCVGxXRThGZV94V1FB?oc=5",
+          "source": "Indiatimes",
+          "published": "2026-06-13T04:32:49+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "T-Hub and Honda select four startups for first mobility accelerator program",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRm5zdklaXzZBWTJreURTTEpraEFLNEE1ZmNzamxZMjk1d0RWcUVPQ1E3aWFlTEJEYWJOaklKeVJDa2J3NVhnWDh4TEhFeFZKRUJsTjlRenNCenNyRFUtYVZENkVyV2ZYaEJ1eTJfcEV6eWFUZmNIUHdWNm1qbkpremZraVdlS0pZYVhELUNFdU03QWhBN0VMZk43REVYNFpfaC1fV2U4cHhNNk0?oc=5",
+          "source": "Business Review Live",
+          "published": "2026-06-03T09:38:32+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "T-Hub launches third spacetech startup cohort",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb3dtMllrNDBiQUhWckRZVWJGek1RR0tKcmxkME1iNDlsQ2tkT2hHQVVibzNHSFluSjYyOHJweVZPZmt4d3BTSWx0c0xNeXlqZHU4bXpMYXdVSGx5YTBaVmxnbjVQRGZBOUdQTDkySkxxOXdvUW1fNnUyRWFkTUg5YUdJTjBYNlZNUVZYcmItWWlDYjhFZHBUS0lGOXZELWdjMXgzMlFkQ0lwcXJ6N2xqZnBHONIBugFBVV95cUxNMjU0Uy14cm1nVzlfTEFsS3ZjYVQ1a09CMjFjeEg5ejlyaFhRZFNMc0VwLTBpclRfSE5heVN1VUtwQWRZWF90eXVGQ1JwMlJrX29pS3NQamQxZ2tkWjVQRHl3eHJob3NSQ0tvMzJOUkpSZGJsdi1YcDhZSVM5Sjg3QUJtVFEwU2hid3l6c2ZkNE5Ec3JkQ0JNVWpaWFdzOGF3TU9ON1FmbzVjclBsQ0I4Z1lEUFFtanhHNFE?oc=5",
+          "source": "BusinessLine",
+          "published": "2026-06-03T07:00:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "NIT Srinagar hosts two day Smart India Hackathon 2024 grand finale",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMlltcFNLRkpxZG9YOW1Qb01QaUR5aWE2R2hXdEdvSUtqM2NYRFBlVkZLeUVSVU1IRUFub3BJMmhKaTVjQUNyMkZ5dU9UYXZHR25aeDgtZGlXTTNDd3FGT2swSDMzdklZTEc2SklYNmVGejBCWDBvb3FnU053aWFhR1J4RDJwd1p4bnh6cm9SRXlaR1R2WWFN?oc=5",
+          "source": "Newsonair",
+          "published": "2026-06-15T14:18:51+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "Zoological Survey of India hosts hackathon",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS2pTczdpcUZodG9UYVBwdWw1NlJRMFRIVW5LdlNlbUxVLWNwZHlkZ3BWS2txajd0MmhfdHFZeWt5RWp0REFqNDhfdlRRMW0tWGRGeHNEbE5GM3FaMEF0MUY1blFXNzViVFlBcDZsMEJrVFRIZUJKb216RkxObTkxajFWOWQ2TXBESGVvS2lRNHU5RTduZDB5cWtDLXpMT2ZCTzM0MjFWbjdvOG940gGzAUFVX3lxTE91LU1ZRzVGYlhwU3FCejBPN3UxbS1JRjg1eXQ3QVY1WVY4aFdCSzcwa1NXV1pIUm5NRWd6dmVpT2U3T3lfaTdHT3lyeGZRZGJMS0F0MnR4WXJVdlJMZU50Znhvam5mU1l6QlZueTdtemRPemZsSVNYZ3g1NEJpUkJqS3BhSGxqbndLS2s3YVAzNlo0UFFrUUNGTi1WamxxUDZTNGxPbGR3LWNQRHZwYnRKLU9J?oc=5",
+          "source": "The Hindu",
+          "published": "2026-06-03T07:00:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "ISRO Launches Bharatiya Antariksh Hackathon 2026; Check Eligibility, Key Dates And How To Apply",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTVhUa09nUWs4QVQ2RENMdEp5NlpJNEpYdGJtWlJ6WVdqZm9JMlhpTGxzSHhTQV81UmZuTzh1VDRzSG5wbDRfNWxDTDNaWGg5cGQ5VVZvbExZZTBMMzc4TklaSlZzZzQydC1GOUtwQUNfRUFfUmwyN2VHXzZxTzdQWnJCZzB4YXRaUVYxdU83LS1OZ21TcXk0OHhBUXNhcU81WUpVeWh4cmJGa1R2TjZqN2lzbXBDMWRzbWtRaWpWU25ydUc4cmdEVzh1Y2FzZw?oc=5",
+          "source": "NDTV",
+          "published": "2026-06-15T03:52:09+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "ISRO launches Bharatiya Antariksh Hackathon 2026: Check eligibility, key dates and how to apply",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMmE3YUU1dlV0djlfcnRZcFU1ejdkWksySTBuRGZGMTdSNXZJNjJOdEFNNlVXcEt3cFdkZ25oaDYtc2MxWlVOMFJSQzYzR1ZKWHc2cUg2eFF6OGhXMEhnQTdJelRabjJJeUJZTDlLVWN4TmJ3bHRWWVp3SGpkamhZQ1liTkNnazU4UVh5RS1aR21vRUhCOHhMVDAyMVlpSTlPQUFSNXV6czNqUGQ1NXhhSVlwTlNXWDQwbXlpZXRUY1UwTmZHci1pX2h3cElXRUtfR2Flb1hEQ0Znd1k3TTY4dGNwNTBueTRyYTk1RlZiS014MkoyUkpNVV95cFdZNmfSAYQCQVVfeXFMTi0yY2hTUFB5VmZQY3RyMHRaSkpxOU1RUFZqRUVnVWtiWUdRblJrWkxHV0FPbkdzVVRCUTVoLXJEQWFqSGFUTUhMemdIVkdqWW4xMTNJZ3BIdnU3Y0NTdjFGQjRORk1Od0FkYkhJcTc0SVZ1WEZ1UHBGZzU4NFMyR2phWUxaR0VYa1d1WWdNZHdEQXdjaVNiNHozT3A2WDd2eE5ySkU1b2Q1SVBjTnpqUWdZRF9DSmxYZ2pva2J2dnEtX2dubURtSzVLTVlKM2NXLXMyaFJVbUJwd1N5X3dKNTl1VU9DVUtONlY4MHJvMGZxWnk0eG4zeWNmOHZfall3N0pYTGg?oc=5",
+          "source": "The Times of India",
+          "published": "2026-06-12T05:22:00+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "IIT Kanpur launches cybersecurity degree, admission via JEE Main and Hackathon",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSEJYUFlMUnp4c0NZOWNsWk5OOFBaTW9KSF96akFZNngxSzE4cVc5X2tMdWhTRnA4a2Vxc3p6Y0ZlbVhYdy03b1FiTUFJY0ZmS2d5bEVHcVhCUmNTTE52aFExTGZxeGo1ZWZ5NGJmN0pOT05kODhINjNGRDR6aGZnT1dFM1ZjdkotQlI0UWJwTUNIU3BWbWtGSEhjSGRfZHhTOXdyUEQ4Unk5WDJ2c3FQS3I0bVI5RDEycXNPdVFnMjJReWRMbnR0UHhMZ0dnMFIyM0pEN1c2TThzOEljNk9Z0gHkAUFVX3lxTE9rMnd2aWhLMldCd01ZYUE0WjR1WmUwQTZKb18weGZmM0RFWl96OV9sRDhxZDhzbmIwYU5fMC1vZllhM202Zm44VkNFZHhDSm9VQ242SngwaE52aVE5UzkyaDZUbjZRQlc5elZwR3lTc2YxNmplVFVGRDRUcnAxbmNGM3hDWUdrRG11SmRGcG45ZHBUcDBOd0ZJUlJ6Y3Bhbkh1VVZWNmdhVFZ4Ti1jUF9VN1hfb2ZOWGpla3Z0bGFKNHFMNG0wZzJvNThpa1Q0ZUhuXzVGWUpIWW4tcDdERUo4U0RRUA?oc=5",
+          "source": "India Today",
+          "published": "2026-06-12T05:27:57+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "This girls-first hackathon is empowering the next generation of innovators",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVThPXzdodWxvZjdhdVFUMFVGMUlSRmNaaVJkVlJUOG9kNDlhUXlDVlVEenlKRXVsMExvcm9HTDV5NlhvdU8xdzVEY1ZySmxlbHZENGdTcHQySzRDbHViZFhwdm0wT2VRanp6aV8wakVNWXFGVUY2M0R2a3dvVjR5VXVmSGFNSXZwUnpnR21VQzZFUFRhekdlbHl0Z3VvNVhIeG1DbW9yRVItdw?oc=5",
+          "source": "YourStory.com",
+          "published": "2026-06-12T03:47:16+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "IIT Kanpur launches B.Cyber degree with hackathon-based entry",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRFE0UXR1bTFYaUhCMFljajVHU2I5aG9nREg4dXAxYUlnMHRzTHlrREx0dWlwZFotdm9tRHNSR290SFFiVUQ3cTFmVXRYOFJiQ1hJSHhsSjBJcU42MVhXLUc0YmtjSTdGXzBhLWs4MGRkWnhaYzNMQUlrSzFVZTV2OFRVd2VpZDJkT29OTWRDeG10MWhoak1lTDB6aG51UEUwU1RXQldNbTN4bGUweGh5aUZpcDJoVW5pN3dodVZBUmduZEpDM21NYWw0dVg4Q2lfdGZqVnVJb0VTX3AzX0NKYXptRVlfeVVneUY2WVhVZGhTbnRFOHc?oc=5",
+          "source": "MSN",
+          "published": "2026-06-12T18:44:01+00:00",
+          "summary": "",
+          "image_url": null
+        },
+        {
+          "title": "India’s Largest Cybercrime Hackathon Announced by FCRF; Winners to Be Felicitated at FutureCrime Summit",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaSnBqMW4wTzY4UlJ4WkEzSkVhSl9TY0kzUEFUV01QejNYVWs3elRjeVRVS0Q0ZHBEN3VLNy01N2VLUlRtTXpuM3hCMlZzWlc3V0pRWG1EbFkwUHVCdFpSM1h4VlVLaHRZOTFNOWxXaHNON3R0Y0hzQVpZbnNuZw?oc=5",
+          "source": "The420.in",
+          "published": "2026-06-16T17:29:06+00:00",
+          "summary": "",
+          "image_url": null
         }
       ]
     },
@@ -962,6 +2415,7 @@
       "slug": "remainder",
       "angle": "Catch-all for important stories that fit nowhere above. Editor's discretion.",
       "max_stories": 4,
+      "beta": false,
       "feeds_ok": 0,
       "feeds_failed": 0,
       "entries": []
