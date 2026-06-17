@@ -3,97 +3,107 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Cactus — Deep Tech — June 17, 2026</title>
+<title>[Archive] The Daily Cactus — Deep Tech — June 17, 2026</title>
 <style>
-  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e}
+  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e;--beta:#7a5cc4}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:880px;margin:0 auto;padding:24px 20px 60px}
+  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:1040px;margin:0 auto;padding:24px 24px 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
-  .masthead h1{font-size:clamp(34px,7vw,56px);letter-spacing:1px;font-weight:700}
+  .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
   .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
-  .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  nav .sep{color:var(--rule);margin:0 12px;user-select:none}
+  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
-  article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
+  article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
-  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
+  .takeaway{margin-bottom:6px;font-size:15px}
+  .takeaway b{color:var(--highlight);letter-spacing:.3px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  @media (max-width:760px){body{padding:18px 16px 48px}.grid{grid-template-columns:1fr;column-gap:0}.story-img{width:96px;height:68px;margin-left:10px}nav .sep{margin:0 8px}}
 </style>
 </head>
 <body>
-<header class="masthead">
-  <h1>The Daily Cactus 🌵</h1>
-  <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
-</header>
-<nav>
-  <a href="../index.html">Front Page</a>
-  <a href="ai.html">AI</a>
-  <a href="deep-tech.html" class="active">Deep Tech</a>
-  <a href="climate-energy.html">Climate &amp; Energy</a>
-  <a href="health-tech.html">Health Tech</a>
-  <a href="agritech.html">Agritech</a>
-  <a href="indian-startups.html">Indian Startups</a>
-  <a href="global-economics.html">Global Econ</a>
-  <a href="india.html">India</a>
-  <a href="world.html">World</a>
-  <a href="other-interests.html">Other Interests</a>
-  <a href="remainder.html">Remainder</a>
-</nav>
-<main>
-  <section>
-    <h2 class="section-title">Deep Tech</h2>
+  <header class="masthead">
+    <h1>The Daily Cactus 🌵</h1>
+    <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
+  </header>
+  <nav>
+    <a href="../index.html">Front Page</a><span class="sep">·</span>
+    <a href="ai.html">AI</a><span class="sep">·</span>
+    <a href="deep-tech.html" class="active">Deep Tech</a><span class="sep">·</span>
+    <a href="climate-energy.html">Climate &amp; Energy</a><span class="sep">·</span>
+    <a href="health-tech.html">Health Tech</a><span class="sep">·</span>
+    <a href="agritech.html">Agritech</a><span class="sep">·</span>
+    <a href="indian-startups.html">Indian Startups</a><span class="sep">·</span>
+    <a href="global-economics.html">Global Economics</a><span class="sep">·</span>
+    <a href="india.html">India</a><span class="sep">·</span>
+    <a href="world.html">World</a><span class="sep">·</span>
+    <a href="other-interests.html">Other Interests</a><span class="sep">·</span>
+    <a href="opportunities.html">Opportunities</a><span class="sep">·</span>
+    <a href="remainder.html">Remainder</a><span class="sep">·</span>
+    <a href="../../index.html">Archive</a>
+  </nav>
+  <main>
+    <div class="grid">
+      <h2 class="section-title">Deep Tech</h2>
 
-    <article>
-      <img class="story-img" src="https://spectrum.ieee.org/media-library/illustration-of-a-drone-being-used-to-collect-crop-data-on-a-wheat-farm.jpg?id=66888131&width=980" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://spectrum.ieee.org/engineering-critical-food-security">Precision farming and smart sensors are becoming essential — not optional — for feeding 10 billion people</a></h2>
-      <p class="summary">A new smart agriculture report from the IEEE Smart Agri-Food Initiative makes the case for tech-driven food systems: 750 million people currently face hunger, and global food demand is expected to rise 50% by 2050. The report argues drones, soil sensors, and AI-guided irrigation are structurally necessary if food systems are to keep pace — not luxury upgrades for early adopters.</p>
-      <p class="why"><b>Why it matters:</b> India feeds 1.4 billion people from farms increasingly stressed by heat and erratic monsoons. The technology adoption gap between Indian smallholders and large-scale industrial farms will determine whether India achieves food security or edges toward import dependency. The IEEE framing — engineering as necessity, not optionality — is the right lens for Indian policy and investment here.</p>
-      <p class="meta">IEEE Spectrum · <a href="https://spectrum.ieee.org/engineering-critical-food-security">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/b2e7e7fa-2093-4a36-bf07-23a4a7f22884_1f1e79df.jpg?itok=J8tRB142&v=1781579361" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.scmp.com/plus/tech/big-tech/article/3357235/ais-next-frontier-world-models-and-why-china-ahead-pack">AI's Next Frontier Is World Models — and China Is Leading</a></h2>
+        <p class="summary">World models — AI systems that build internal simulations of physical reality to reason about cause and effect — are emerging as the next major AI capability frontier. SCMP reports that Chinese labs are ahead of Western counterparts in this space, with companies like Alibaba, Baidu, and several research institutes publishing work on spatial reasoning and physics simulation that surpasses what DeepMind and OpenAI have released.</p>
+        <p class="takeaway"><b>Key takeaway:</b> If LLMs were the first wave, world models may be the second — and China has a head start.</p>
+        <p class="why"><b>Why it matters:</b> World models are foundational to robotics, autonomous vehicles, and drug simulation. Any country leading here will have structural advantages in the physical-AI economy of the next decade. India's AI policy currently focuses on LLMs — this is a signal to widen the aperture.</p>
+        <p class="meta">South China Morning Post · Jun 16 · <a href="https://www.scmp.com/plus/tech/big-tech/article/3357235/ais-next-frontier-world-models-and-why-china-ahead-pack">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://cdn.arstechnica.net/wp-content/uploads/2026/06/spectrumroll-500x500.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/">Europe's most-watched commercial rocket has been scrubbed again — patience wearing thin</a></h2>
-      <p class="summary">Isar Aerospace, the German startup trying to establish Europe's own commercial launch capability, has scrubbed its key orbital mission for the second time. The company has raised hundreds of millions and carries government backing, but continues to struggle with getting off the ground. Ars Technica notes plainly: Isar has capital, but sorely lacks flight experience.</p>
-      <p class="why"><b>Why it matters:</b> ISRO's commercial arm NewSpace India is competing in the same small-satellite launch market. Every European delay is, paradoxically, an Indian opportunity — but only if ISRO can convert development milestones into reliable commercial manifests. The flight-heritage gap is the same challenge facing both players.</p>
-      <p class="meta">Ars Technica · <a href="https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/d1313327-6ae4-46a6-88ba-26b540f634f7_bed04020.jpg?itok=dqai2Xqe&v=1781601384" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.scmp.com/tech/big-tech/article/3357294/smart-driving-chips-weapon-choice-chinas-ev-tech-war">Smart-Driving Chips: The New Weapon in China's EV Tech War</a></h2>
+        <p class="summary">Chinese electric vehicle makers including BYD, Li Auto, and Xpeng are now designing their own smart-driving chips in-house, turning custom silicon into the industry's primary competitive differentiator. The move mirrors what Apple did with its A-series chips — vertical integration that makes it nearly impossible for competitors to replicate the full stack.</p>
+        <p class="takeaway"><b>Key takeaway:</b> The EV war is becoming a chip war, and China's automakers are following the Apple playbook — design your own silicon.</p>
+        <p class="why"><b>Why it matters:</b> Indian EV makers like Ola Electric and Tata Motors face Chinese competitors who will soon have chip-to-cloud advantages that are extremely difficult to bridge. The window for Indian policy intervention on EV semiconductor development is narrowing.</p>
+        <p class="meta">South China Morning Post · Jun 16 · <a href="https://www.scmp.com/tech/big-tech/article/3357294/smart-driving-chips-weapon-choice-chinas-ev-tech-war">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://www.quantamagazine.org/wp-content/uploads/2026/06/Qualia-ElementaryParticles-crKristinaArmitage-Default.webp" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/">How many fundamental particles are there? The answer ranges from 17 to 995.5, depending who you ask</a></h2>
-      <p class="summary">Quanta Magazine untangles the question of how many elementary particles the universe actually contains, finding that the Standard Model answer of 17 masks genuine disagreements about how composite particles, antiparticles, and variants are counted. Physicists give answers spanning two orders of magnitude depending on the theoretical framework they use.</p>
-      <p class="why"><b>Why it matters:</b> Context for the world you operate in — a sharp reminder that even the most "settled" areas of science have unresolved counting problems, and that what counts as fundamental depends entirely on your theory of structure. That epistemological observation applies widely, including to how companies count "AI capabilities."</p>
-      <p class="meta">Quanta Magazine · <a href="https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1906194565-500x500.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/">Cockroaches Carry Thousands of Pieces of Foreign Bacterial DNA — Horizontal Gene Transfer Is Rampant</a></h2>
+        <p class="summary">Researchers have found that cockroaches harbor thousands of fragments of bacterial genomic material that have been incorporated into their own genomes through horizontal gene transfer — a process scientists previously thought was rare in complex animals. The findings suggest insects may be far more genomically fluid than assumed, with implications for antibiotic resistance research.</p>
+        <p class="takeaway"><b>Key takeaway:</b> The boundary between a cockroach's genome and its bacterial tenants is far blurrier than we thought — horizontal gene transfer in insects may be normal, not exceptional.</p>
+        <p class="why"><b>Why it matters:</b> This discovery could reshape our understanding of how insects evolve resistance to pesticides and antibiotics — including the vectors that spread disease in Indian cities. It also opens new targets for biocontrol strategies.</p>
+        <p class="meta">Ars Technica · Jun 16 · <a href="https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://spectrum.ieee.org/media-library/a-man-and-a-woman-wearing-dressy-winter-coats-watch-a-crew-of-informally-dressed-men-working-on-the-construction-of-a-wind-turbi.jpg?id=66894045&width=980" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://spectrum.ieee.org/william-heronemus-wind-energy">How a cobbled-together university experiment in 1976 seeded the entire US wind power industry</a></h2>
-      <p class="summary">IEEE Spectrum profiles William Heronemus and the University of Massachusetts team that built a makeshift wind turbine from a Ford truck axle, donated generator, and handmade blades in 1976. The scrappy prototype on Orchard Hill became the technical and intellectual foundation for what is now a multi-hundred-gigawatt US wind industry.</p>
-      <p class="why"><b>Why it matters:</b> Origin stories matter for technology policy. India's renewable ambitions — and Rajasthan specifically is one of the most wind-rich states — can draw on the same university-to-industry pipeline logic. Indian engineering institutions doing applied energy research are playing a structurally similar role today, with a longer runway than Heronemus had.</p>
-      <p class="meta">IEEE Spectrum · <a href="https://spectrum.ieee.org/william-heronemus-wind-energy">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://images.newscientist.com/wp-content/uploads/2026/06/16102025/SEI_301079228.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.newscientist.com/article/2529039-a-quantum-state-that-lasts-forever-may-finally-be-within-our-grasp/">A Quantum State That Lasts Forever May Finally Be Within Reach</a></h2>
+        <p class="summary">Physicists are inching toward quantum states that could persist indefinitely — defying the second law of thermodynamics. Experiments in time crystals and topological quantum systems are showing that certain quantum configurations can maintain coherence without constant energy input, a breakthrough that would transform quantum memory and computing.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Eternal quantum coherence, long thought thermodynamically impossible, is beginning to look achievable in specific material systems.</p>
+        <p class="why"><b>Why it matters:</b> Practical quantum computers require qubits that stay coherent long enough to complete computations. Stable quantum states could make fault-tolerant quantum computing feasible this decade — the implications for cryptography, drug discovery, and financial modelling are enormous.</p>
+        <p class="meta">New Scientist · Jun 16 · <a href="https://www.newscientist.com/article/2529039-a-quantum-state-that-lasts-forever-may-finally-be-within-our-grasp/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://cdn.arstechnica.net/wp-content/uploads/2026/06/sun_nasas_flareF-1920-500x500.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth/">The Sun may not sterilize Earth for another billion years — longer than scientists previously thought</a></h2>
-      <p class="summary">New research suggests Earth's biosphere has more time before solar expansion makes it uninhabitable — the timeline extends because plants will exhaust atmospheric CO₂ before the Sun brightens enough to cook them. The limiting factor turns out to be photosynthesis starvation, not direct heat.</p>
-      <p class="why"><b>Why it matters:</b> Context for the world you operate in. A reminder that "extinction risk" timelines are highly sensitive to which mechanism you're modeling. The planet's problems on any timescale relevant to business or policy are entirely self-inflicted — which is both more alarming and more actionable.</p>
-      <p class="meta">Ars Technica · <a href="https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth/">Read the original →</a></p>
-    </article>
-
-  </section>
-</main>
-<footer class="colophon">Edition No. 2 · June 17, 2026 · 49 stories across 11 sections · 33 RSS sources scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
+      <article>
+        <img class="story-img" src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/16/068e1416-fbf6-400e-8c6b-a677f8594d8e_267cbfd9.jpg?itok=H9TL0OFi&v=1781600407" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.scmp.com/tech/big-tech/article/3357289/ai-less-price-war-china-deepens-amid-intense-competition">China's AI Price War Deepens as Domestic Competition Intensifies</a></h2>
+        <p class="summary">Chinese AI providers including Baidu, Alibaba, ByteDance, and dozens of startups are engaged in what observers describe as a "brutal" price war, with API costs dropping 60–90% over the past year. The competitive pressure is forcing rapid commoditisation of base model capabilities and pushing differentiation toward fine-tuning, data, and deployment tooling.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Chinese AI APIs are racing toward near-zero marginal cost — which compresses the window for mid-tier AI startups everywhere to build defensible businesses on top of commodity models.</p>
+        <p class="why"><b>Why it matters:</b> Indian AI startups building on top of general-purpose LLMs face the same commoditisation pressure. The lesson from China: the moat is in proprietary data, distribution, or domain specificity — not the base model.</p>
+        <p class="meta">South China Morning Post · Jun 16 · <a href="https://www.scmp.com/tech/big-tech/article/3357289/ai-less-price-war-china-deepens-amid-intense-competition">Read the original →</a></p>
+      </article>
+    </div>
+  </main>
+  <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

@@ -3,144 +3,137 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Cactus — June 17, 2026</title>
+<title>The Daily Cactus — June 17, 2026 (Archive)</title>
 <style>
-  :root{
-    --paper:#faf6ee; --ink:#1d1d1b; --muted:#6b675e;
-    --accent:#2f6f4f; --rule:#d8d2c4; --highlight:#b3542e;
-  }
+  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e;--beta:#7a5cc4}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);
-       font-family:Georgia,'Times New Roman',serif;line-height:1.55;
-       max-width:880px;margin:0 auto;padding:24px 20px 60px}
+  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:1040px;margin:0 auto;padding:24px 24px 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
-  .masthead h1{font-size:clamp(34px,7vw,56px);letter-spacing:1px;font-weight:700}
-  .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;
-       color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;
-      padding:12px 0;border-bottom:1px solid var(--rule);
-      font-family:'Courier New',monospace;font-size:13px}
+  .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
+  .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
-  .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);
-       border-bottom:1px solid var(--rule);padding-bottom:4px;
-       text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  nav .sep{color:var(--rule);margin:0 12px;user-select:none}
+  .lead{padding:24px 0 8px;border-bottom:1px solid var(--rule)}
+  .lead .story-img{float:right;width:300px;height:200px;object-fit:cover;margin:4px 0 12px 22px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  .lead h2{font-size:30px;line-height:1.2;margin-bottom:10px}
+  .lead .summary{font-size:17px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
-  article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
+  article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:140px;height:96px;object-fit:cover;
-       margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;
-       background:#ece6d8}
-  @media (max-width:560px){
-    .story-img{width:100px;height:72px;margin-left:10px}
-  }
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
-  .why{background:#f1ead9;border-left:3px solid var(--accent);
-       padding:8px 12px;font-size:15px;margin-bottom:8px}
+  .takeaway{margin-bottom:6px;font-size:15px}
+  .takeaway b{color:var(--highlight);letter-spacing:.3px}
+  .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
-  .developing{display:inline-block;background:var(--highlight);color:#fff;
-       font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;
-       border-radius:3px;margin-bottom:6px;letter-spacing:1px}
-  .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);
-       text-align:center;font-family:'Courier New',monospace;
-       font-size:12px;color:var(--muted)}
+  .developing{display:inline-block;background:var(--highlight);color:#fff;font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;border-radius:3px;margin-bottom:6px;letter-spacing:1px}
+  .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  @media (max-width:760px){body{padding:18px 16px 48px}.grid{grid-template-columns:1fr;column-gap:0}.lead .story-img{float:none;width:100%;height:200px;margin:0 0 12px 0}.lead h2{font-size:25px}.story-img{width:96px;height:68px;margin-left:10px}nav .sep{margin:0 8px}}
 </style>
 </head>
 <body>
-<header class="masthead">
-  <h1>The Daily Cactus 🌵</h1>
-  <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
-</header>
+  <header class="masthead">
+    <h1>The Daily Cactus 🌵</h1>
+    <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
+  </header>
+  <nav>
+    <a href="index.html" class="active">Front Page</a><span class="sep">·</span>
+    <a href="sections/ai.html">AI</a><span class="sep">·</span>
+    <a href="sections/deep-tech.html">Deep Tech</a><span class="sep">·</span>
+    <a href="sections/climate-energy.html">Climate &amp; Energy</a><span class="sep">·</span>
+    <a href="sections/health-tech.html">Health Tech</a><span class="sep">·</span>
+    <a href="sections/agritech.html">Agritech</a><span class="sep">·</span>
+    <a href="sections/indian-startups.html">Indian Startups</a><span class="sep">·</span>
+    <a href="sections/global-economics.html">Global Economics</a><span class="sep">·</span>
+    <a href="sections/india.html">India</a><span class="sep">·</span>
+    <a href="sections/world.html">World</a><span class="sep">·</span>
+    <a href="sections/other-interests.html">Other Interests</a><span class="sep">·</span>
+    <a href="sections/opportunities.html">Opportunities</a><span class="sep">·</span>
+    <a href="sections/remainder.html">Remainder</a><span class="sep">·</span>
+    <a href="../index.html">Archive</a>
+  </nav>
+  <main>
+    <section class="lead">
+      <article>
+        <img class="story-img" src="https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/2026-CopyofNewPPTTemplates5-1781532294467.png" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://yourstory.com/2026/06/sarvam-ai-turns-unicorn-razorpay-files-drhp">Sarvam AI Becomes India's Newest Unicorn With $234 Million HCLTech-Led Round</a></h2>
+        <p class="summary">Sarvam AI, the Bengaluru startup building India-specific large language models and speech technology, has raised $234 million in a round led by HCLTech — crossing the billion-dollar valuation mark. The funding backs plans to build advanced AI models, expand compute infrastructure, and strengthen what the company calls India's sovereign AI ecosystem. Razorpay, meanwhile, has confidentially filed its draft red herring prospectus, signalling the fintech is finally ready for a public markets debut.</p>
+        <p class="takeaway"><b>Key takeaway:</b> India now has a funded, home-grown AI unicorn with a clear sovereign-AI mandate — something no other developing economy has pulled off at this scale.</p>
+        <p class="why"><b>Why it matters:</b> Sarvam's rise matters on two levels. First, it validates the bet that language models trained on Indian languages and Indian contexts can outperform generic LLMs for India's 1.4 billion users. Second, HCLTech's lead cheque signals that large Indian IT firms are willing to own equity in the AI infrastructure layer. If Sarvam succeeds, it could become the spine of India Stack 2.0.</p>
+        <p class="meta">YourStory · <a href="https://yourstory.com/2026/06/sarvam-ai-turns-unicorn-razorpay-files-drhp">Read the original →</a></p>
+      </article>
+    </section>
 
-<nav>
-  <a href="../../index.html" class="active">Front Page</a>
-  <a href="sections/ai.html">AI</a>
-  <a href="sections/deep-tech.html">Deep Tech</a>
-  <a href="sections/climate-energy.html">Climate &amp; Energy</a>
-  <a href="sections/health-tech.html">Health Tech</a>
-  <a href="sections/agritech.html">Agritech</a>
-  <a href="sections/indian-startups.html">Indian Startups</a>
-  <a href="sections/global-economics.html">Global Econ</a>
-  <a href="sections/india.html">India</a>
-  <a href="sections/world.html">World</a>
-  <a href="sections/other-interests.html">Other Interests</a>
-  <a href="sections/remainder.html">Remainder</a>
-</nav>
+    <div class="grid">
+      <article>
+        <img class="story-img" src="https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/05/JIO-IPo-ftr.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://inc42.com/buzz/jio-to-file-ipo-papers-before-reliance-agm-on-friday-report/">Jio Files IPO Papers Before Reliance AGM — Potentially India's Biggest-Ever Listing</a></h2>
+        <p class="summary">Reliance Jio is expected to file its draft red herring prospectus with SEBI before Reliance Industries' AGM on Friday, formally launching what could be India's largest IPO in history. Jio's telecom business alone serves over 480 million subscribers, and analysts have valued the entity at upwards of $100 billion.</p>
+        <p class="takeaway"><b>Key takeaway:</b> India's retail investor base is about to be offered a piece of the country's dominant digital infrastructure play.</p>
+        <p class="why"><b>Why it matters:</b> A Jio listing would dwarf every prior Indian IPO, potentially unlocking wealth for millions of retail investors while also testing whether domestic capital markets can absorb a company of this size without foreign anchor dependency.</p>
+        <p class="meta">Inc42 · <a href="https://inc42.com/buzz/jio-to-file-ipo-papers-before-reliance-agm-on-friday-report/">Read the original →</a></p>
+      </article>
 
-<main>
-  <section>
-    <h2 class="section-title">Front Page</h2>
+      <article>
+        <h2><a href="https://www.theguardian.com/business/2026/jun/16/bank-of-japan-raises-interest-rates-iran-war-inflation-us-fed-bank-of-england">Bank of Japan Raises Rates to 31-Year High of 1% as Iran War Inflation Bites</a></h2>
+        <p class="summary">The Bank of Japan raised its benchmark rate to 1% — the highest since 1995 — citing persistent inflationary pressure worsened by the Iran-Hormuz energy shock. The move marks a decisive end to Japan's era of ultra-loose monetary policy.</p>
+        <p class="takeaway"><b>Key takeaway:</b> The last major holdout for negative-rate policy has now joined the global tightening cycle, triggered in part by Middle East energy disruption.</p>
+        <p class="why"><b>Why it matters:</b> Higher Japanese rates unwind the yen carry trade, potentially triggering capital outflows from emerging markets including India. Every 25 bps BOJ move has historically caused volatility in EM currencies and equities.</p>
+        <p class="meta">The Guardian · <a href="https://www.theguardian.com/business/2026/jun/16/bank-of-japan-raises-interest-rates-iran-war-inflation-us-fed-bank-of-england">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/2026-CopyofNewPPTTemplates5-1781532294467.png" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://yourstory.com/2026/06/sarvam-ai-turns-unicorn-razorpay-files-drhp">Sarvam AI hits unicorn status with ₹2,000 Cr raise; Razorpay quietly files for IPO</a></h2>
-      <p class="summary">Sarvam AI has raised $234 million in a round led by HCLTech, vaulting the Indian language-model startup past the billion-dollar mark. The funds go toward advanced model development, expanded compute infrastructure, and what Sarvam calls India's "sovereign AI ecosystem." In the same news cycle, Razorpay has confidentially filed its DRHP with SEBI, marking the payments giant's long-anticipated move toward public markets.</p>
-      <p class="why"><b>Why it matters:</b> Sarvam going unicorn on HCLTech money signals that large Indian IT is now betting on homegrown AI over pure US-vendor licensing — a structural shift with direct implications for enterprise AI buyers, strategy roles, and anyone advising on India's tech stack independence. Razorpay's IPO filing adds another marquee listing to India's fintech queue.</p>
-      <p class="meta">YourStory · <a href="https://yourstory.com/2026/06/sarvam-ai-turns-unicorn-razorpay-files-drhp">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/">SpaceX Hits $2.6 Trillion, Briefly Passes Amazon After Going Public</a></h2>
+        <p class="summary">SpaceX's valuation jumped by $1 trillion in the days after its shares began trading publicly, briefly surpassing Amazon's market cap. The company — now valued at $2.6T — is the first pure space-industrial company to rank among the world's ten most valuable firms.</p>
+        <p class="takeaway"><b>Key takeaway:</b> A single IPO has compressed the gap between terrestrial tech and space infrastructure in investor imagination.</p>
+        <p class="why"><b>Why it matters:</b> SpaceX's valuation sets a benchmark for the entire space economy and may accelerate capital into Indian space startups by validating the sector's investment case at the highest possible level.</p>
+        <p class="meta">TechCrunch · <a href="https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee5d/live/2f08dc10-6961-11f1-8e1d-bbbb1017d210.jpg" alt="" onerror="this.style.display='none'">
-      <span class="developing">📈 DEVELOPING</span>
-      <h2><a href="https://www.bbc.com/news/articles/cj4gnqw8j52o">Trump's Iran ceasefire leaves Netanyahu politically boxed in — and the global inflation pipeline still loading</a></h2>
-      <p class="summary">Donald Trump's surprise ceasefire with Iran has reopened the Strait of Hormuz but handed Israeli PM Netanyahu a domestic crisis: his far-right coalition partners are furious that Iran was rewarded without a full military defeat. Separately, the ECB's chief economist warned that inflationary pressures unleashed by the conflict are still feeding through into prices — the reopening does not flip a switch.</p>
-      <p class="why"><b>Why it matters:</b> The Hormuz reopening directly affects India's oil import bill and the energy price trajectory driving domestic inflation. Watch whether Brent retreats sustainably from ~$97/bbl, and whether that gives the RBI room to shift its monetary stance. The ECB's warning suggests global rates stay tighter for longer regardless.</p>
-      <p class="meta">Earlier: US-Iran conflict blockaded Hormuz since February 28; oil hit $97/bbl Brent; three Indian sailors killed in a ship strike off Oman on June 11. · BBC News · <a href="https://www.bbc.com/news/articles/cj4gnqw8j52o">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/17/eaed1f68-32b0-4702-b141-33d82b848b65_dda36ab5.jpg?itok=ZP6Gx_lM&v=1781667723" alt="" onerror="this.style.display='none'">
+        <span class="developing">DEVELOPING</span>
+        <h2><a href="https://www.scmp.com/week-asia/people/article/3357371/traumatised-indian-sailors-hormuz-reopening-brings-little-relief">For Traumatised Indian Sailors, Hormuz Reopening Brings Little Relief</a></h2>
+        <p class="summary">Indian merchant mariners describe months of operating through a war zone — convoy escorts, blackout nights, and missile alerts. Even as the US-Iran truce reopens the Strait of Hormuz, maritime insurers are still charging war-zone premiums and many crews are waiting for normalcy that hasn't arrived.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Hormuz is technically open but trauma, elevated insurance costs, and slow repatriation mean the human crisis in Indian shipping is far from over.</p>
+        <p class="why"><b>Why it matters:</b> India has the world's largest merchant seafarer workforce — over 200,000 active sailors. Their mental health and legal protections are now a live policy question.</p>
+        <p class="meta">South China Morning Post · <a href="https://www.scmp.com/week-asia/people/article/3357371/traumatised-indian-sailors-hormuz-reopening-brings-little-relief">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.bbc.com/news/articles/cvgd5g7d7gyo">SpaceX acquires Cursor, the AI coding tool that dev teams adopted en masse</a></h2>
-      <p class="summary">SpaceX has agreed to acquire Cursor, the AI-powered code editor that captured the developer workflow market at remarkable speed. The deal consolidates one of the most widely used AI developer tools under Elon Musk's aerospace empire, which already owns the xAI lab. No purchase price has been disclosed.</p>
-      <p class="why"><b>Why it matters:</b> AI coding infrastructure is consolidating fast and independent alternatives are shrinking. For teams in India building with AI, this means more scrutiny on developer tooling vendor lock-in. For anyone tracking AI's distribution layer, it's the clearest signal yet that Musk is assembling a vertically integrated AI-to-compute-to-software stack.</p>
-      <p class="meta">BBC News · <a href="https://www.bbc.com/news/articles/cvgd5g7d7gyo">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://www.carbonbrief.org/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-10.40.53-1024x529.png" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Energy-Efficient ACs Could Save Indian Households ₹69 Billion a Year</a></h2>
+        <p class="summary">A CarbonBrief analysis finds that shifting India's AC stock to 5-star BEE-rated units could save households ₹69 billion ($724 million) annually. With India's AC penetration on course to surge toward 40% by 2040, efficiency standards set now will determine decades of energy demand.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Appliance standards are India's most tractable climate lever — and the savings belong to consumers, not governments.</p>
+        <p class="why"><b>Why it matters:</b> India is on course to see the largest AC adoption boom in human history. Locking in low-efficiency units now means peak summer grid demand will overwhelm infrastructure by 2035.</p>
+        <p class="meta">Carbon Brief · <a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <span class="developing">📈 DEVELOPING</span>
-      <h2><a href="https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827">No jailbreak needed: Fable 5 generated dangerous code output from a routine developer prompt</a></h2>
-      <p class="summary">A security researcher found that Anthropic's Fable 5 model produced code with serious security implications when given a simple "fix this code" instruction — no jailbreak, no adversarial prompt engineering required. US federal officials were alarmed enough to treat it as a red-flag safety event, according to The Register. The researcher stressed this came from a standard development workflow, not a stress test.</p>
-      <p class="why"><b>Why it matters:</b> If frontier AI can be steered toward harmful outputs through ordinary dev tasks, the "responsible deployment" frameworks that enterprises, investors, and regulators rely on need rethinking from first principles. For anyone advising on AI adoption or building AI-integrated products, this belongs in your next risk assessment — not your footnotes.</p>
-      <p class="meta">Earlier: Trump's voluntary AI EO (June 2) required model review and a cybersecurity clearinghouse; Colorado's AI consumer protection act takes effect June 30 — the first US state-level AI liability law. · The Register · <a href="https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/">Anthropic's Trump Feud May Be Boosting Enterprise Sales, Ramp Data Suggests</a></h2>
+        <p class="summary">Corporate card data from Ramp shows Anthropic's enterprise usage growing even as its conflict with the Trump administration intensifies — suggesting enterprise buyers see the company's policy positioning as a positive brand signal.</p>
+        <p class="takeaway"><b>Key takeaway:</b> AI governance posture is now a commercial differentiator, not just regulatory compliance.</p>
+        <p class="why"><b>Why it matters:</b> For Indian AI builders targeting global enterprise, values alignment matters as much as benchmark performance. The market is segmenting by politics as well as capability.</p>
+        <p class="meta">TechCrunch · <a href="https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://www.carbonbrief.org/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-10.40.53-1024x529.png" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Better ACs could save Indian households ₹69 billion a year, analysis finds</a></h2>
-      <p class="summary">A Carbon Brief analysis finds that switching to higher-efficiency air-conditioning units across India could collectively save households ₹69 billion ($724 million) annually. With AC ownership expanding rapidly amid heatwaves, the gap between cheap and premium models is generating a hidden affordability trap: people buy cheap, then pay more on electricity over the appliance's lifetime.</p>
-      <p class="why"><b>Why it matters:</b> India's cooling load is one of the largest forces shaping future grid demand. This is both a market signal and a governance challenge — appliance efficiency standards, not just market forces, will determine which direction India's power bill and carbon trajectory goes. For climate tech founders and energy investors, the addressable market here is large and the policy lever is within reach.</p>
-      <p class="meta">Carbon Brief · <a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Read the original →</a></p>
-    </article>
-
-    <article>
-      <img class="story-img" src="https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2024/11/online-trading-SEBI-featured.png" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://inc42.com/buzz/zerodha-groww-angel-one-upstox-get-nod-enabling-users-to-buy-us-stocks-report/">India's top retail brokers get IFSCA approval to offer US stock trading</a></h2>
-      <p class="summary">Zerodha, Groww, Angel One, and Upstox have reportedly received approval from the International Financial Services Centre Authority to offer US equity trading to Indian retail investors. The move marks a significant opening of cross-border investment access for India's massive and growing retail trading base.</p>
-      <p class="why"><b>Why it matters:</b> India has over 100 million demat accounts. Giving retail investors direct US equity access changes portfolio construction behaviour at scale — and raises real questions about capital flows, LRS limits, and whether Indian platforms can compete on UX and pricing against global brokers once the novelty wears off.</p>
-      <p class="meta">Inc42 · <a href="https://inc42.com/buzz/zerodha-groww-angel-one-upstox-get-nod-enabling-users-to-buy-us-stocks-report/">Read the original →</a></p>
-    </article>
-
-    <article>
-      <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJOrUegdb3gc/v3/1200x-1.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.bloomberg.com/news/videos/2026-06-16/robinhood-blackrock-plan-to-reduce-workforce-video">Robinhood cuts 10% of staff; BlackRock makes smaller but symbolic trim — both on the same day</a></h2>
-      <p class="summary">Robinhood Markets said it is cutting approximately 300 positions — 10% of its workforce — as it restructures following a difficult post-2021 trading slump. BlackRock is reportedly eliminating just under 1% of headcount: a smaller absolute number but notable given the firm's stature and historical growth trajectory. Both announcements arrived simultaneously.</p>
-      <p class="why"><b>Why it matters:</b> When both the fintech disruptor and the incumbent asset manager cut on the same day, it signals sector-wide cost pressure. For Indian fintech founders benchmarking against global comps, this confirms that growth-at-all-costs is definitively over — unit economics will be the filter for the next funding cycle.</p>
-      <p class="meta">Bloomberg · <a href="https://www.bloomberg.com/news/videos/2026-06-16/robinhood-blackrock-plan-to-reduce-workforce-video">Read the original →</a></p>
-    </article>
-
-    <article>
-      <img class="story-img" src="https://images.yourstory.com/cs/2/d99b1110116911ed9e63f54395117598/USETHISSSCopyofNewPPTTemplates--ishan14-1781616058472.png" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://yourstory.com/2026/06/hari-menon-steps-down-bigbasket-ceo-amazon-veteran-amit-nanda-takes-charge">BigBasket's founding era ends: Hari Menon steps down, Amazon veteran takes the CEO chair</a></h2>
-      <p class="summary">BigBasket cofounders Hari Menon and Vipul Parekh have stepped back from executive roles to the board, ending nearly 15 years running India's dominant online grocery platform. Amazon veteran Amit Nanda takes over as CEO. The transition comes as Tata Digital faces fierce competition from Blinkit, Zepto, and Swiggy Instamart in the quick-commerce race.</p>
-      <p class="why"><b>Why it matters:</b> Founder-era exits at Tata-backed platforms show how India's largest conglomerate is professionalising its digital bets. The quick-commerce war is now a fight between professional operators with institutional capital — the founder-scrappy phase is over. Watch how Nanda positions BigBasket's differentiation against 10-minute delivery players.</p>
-      <p class="meta">YourStory · <a href="https://yourstory.com/2026/06/hari-menon-steps-down-bigbasket-ceo-amazon-veteran-amit-nanda-takes-charge">Read the original →</a></p>
-    </article>
-
-  </section>
-</main>
-
-<footer class="colophon">Edition No. 2 · June 17, 2026 · 49 stories across 11 sections · 33 RSS sources scanned · 21 ok · 12 failed (Anthropic RSS, Import AI, Down to Earth ×2, MobiHealthNews, Entrackr, Reuters ×2, AP Top News, RA News, Nature Neuroscience) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
+      <article>
+        <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNrHsCCB53II/v1/1200x-1.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.bloomberg.com/news/articles/2026-06-17/pboc-hints-at-new-policy-framework-focused-on-overnight-rate">PBOC Hints at Fed-Style Rate Framework, Focusing on Overnight Rate</a></h2>
+        <p class="summary">China's central bank signaled a potential shift toward an overnight policy rate as its primary monetary tool — bringing PBOC in line with global peers and potentially accelerating the yuan's bid for global reserve currency status.</p>
+        <p class="takeaway"><b>Key takeaway:</b> China is building the monetary architecture needed for yuan internationalisation by borrowing the Fed's most credible tool.</p>
+        <p class="why"><b>Why it matters:</b> A more predictable PBOC framework could reshape how Asian trade — including India-China commerce — is invoiced and settled, reducing the surprise-intervention risk that has made yuan contracts unattractive.</p>
+        <p class="meta">Bloomberg · <a href="https://www.bloomberg.com/news/articles/2026-06-17/pboc-hints-at-new-policy-framework-focused-on-overnight-rate">Read the original →</a></p>
+      </article>
+    </div>
+  </main>
+  <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

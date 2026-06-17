@@ -5,85 +5,94 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Daily Cactus — Agritech — June 17, 2026</title>
 <style>
-  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e}
+  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e;--beta:#7a5cc4}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:880px;margin:0 auto;padding:24px 20px 60px}
+  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:1040px;margin:0 auto;padding:24px 24px 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
-  .masthead h1{font-size:clamp(34px,7vw,56px);letter-spacing:1px;font-weight:700}
+  .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
   .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
-  .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  nav .sep{color:var(--rule);margin:0 12px;user-select:none}
+  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
-  article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
+  article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
-  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
+  .takeaway{margin-bottom:6px;font-size:15px}
+  .takeaway b{color:var(--highlight);letter-spacing:.3px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  @media (max-width:760px){body{padding:18px 16px 48px}.grid{grid-template-columns:1fr;column-gap:0}.story-img{width:96px;height:68px;margin-left:10px}nav .sep{margin:0 8px}}
 </style>
 </head>
 <body>
-<header class="masthead">
-  <h1>The Daily Cactus 🌵</h1>
-  <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
-</header>
-<nav>
-  <a href="../index.html">Front Page</a>
-  <a href="ai.html">AI</a>
-  <a href="deep-tech.html">Deep Tech</a>
-  <a href="climate-energy.html">Climate &amp; Energy</a>
-  <a href="health-tech.html">Health Tech</a>
-  <a href="agritech.html" class="active">Agritech</a>
-  <a href="indian-startups.html">Indian Startups</a>
-  <a href="global-economics.html">Global Econ</a>
-  <a href="india.html">India</a>
-  <a href="world.html">World</a>
-  <a href="other-interests.html">Other Interests</a>
-  <a href="remainder.html">Remainder</a>
-</nav>
-<main>
-  <section>
-    <h2 class="section-title">Agritech</h2>
+  <header class="masthead">
+    <h1>The Daily Cactus 🌵</h1>
+    <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
+  </header>
+  <nav>
+    <a href="../index.html">Front Page</a><span class="sep">·</span>
+    <a href="ai.html">AI</a><span class="sep">·</span>
+    <a href="deep-tech.html">Deep Tech</a><span class="sep">·</span>
+    <a href="climate-energy.html">Climate &amp; Energy</a><span class="sep">·</span>
+    <a href="health-tech.html">Health Tech</a><span class="sep">·</span>
+    <a href="agritech.html" class="active">Agritech</a><span class="sep">·</span>
+    <a href="indian-startups.html">Indian Startups</a><span class="sep">·</span>
+    <a href="global-economics.html">Global Economics</a><span class="sep">·</span>
+    <a href="india.html">India</a><span class="sep">·</span>
+    <a href="world.html">World</a><span class="sep">·</span>
+    <a href="other-interests.html">Other Interests</a><span class="sep">·</span>
+    <a href="opportunities.html">Opportunities</a><span class="sep">·</span>
+    <a href="remainder.html">Remainder</a><span class="sep">·</span>
+    <a href="../archive/index.html">Archive</a>
+  </nav>
+  <main>
+    <div class="grid">
+      <h2 class="section-title">Agritech</h2>
 
-    <article>
-      <h2><a href="https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing">Rainbow Crops raises $11M to scale AI-guided simultaneous editing of multiple crop genes</a></h2>
-      <p class="summary">Rainbow Crops has raised $11.25 million to advance its "multiplex gene editing" platform — a technique for editing several genes in a crop simultaneously, guided by AI optimisation. The company is in talks with a major seed company on a corn collaboration and is expanding into other crops. Multiplex editing can potentially produce climate-resilient, high-yield varieties faster than conventional breeding.</p>
-      <p class="why"><b>Why it matters:</b> India's agricultural future depends on crop varieties that can handle rising temperatures and erratic monsoons. Multiplex AI-guided editing, if it crosses from pilot to commercial seed scale, could be a key tool. Partnerships with global seed companies will determine whether Indian farmers get access on viable terms — or whether this remains a technology for well-capitalised agricultural systems.</p>
-      <p class="meta">AgFunder News · <a href="https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing">Rainbow Crops Raises $11.25M to Scale AI-Guided Multiplex Gene Editing for Crops</a></h2>
+        <p class="summary">Rainbow Crops has raised $11.25 million to scale its AI-guided multiplex gene editing platform, which simultaneously edits multiple crop traits in a single cycle. The startup is close to announcing a collaboration with a major seed company on corn and is in advanced discussions for additional partnerships in wheat and soybean — crops with enormous global food security significance.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Multiplex gene editing — editing several traits at once — compresses the crop improvement timeline from decades to years when guided by AI.</p>
+        <p class="why"><b>Why it matters:</b> India's crop breeding pipeline is critically slow relative to the pace of climate change — heat-tolerant wheat and flood-resistant rice take 10-15 years through conventional breeding. AI-guided gene editing could compress that to 2-3 years, which is the difference between adaptation and crisis for Indian agriculture.</p>
+        <p class="meta">AgFunder News · Jun 16 · <a href="https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://agfundernews.com/french-alt-meat-whole-cut-specialist-swap-food-enters-judicial-liquidation">French alt-meat startup SWAP Food collapses into liquidation after raising €100M+</a></h2>
-      <p class="summary">SWAP Food, a Paris-based startup known for whole-cut chicken fillet alternatives, has entered judicial liquidation — the French equivalent of forced dissolution — despite having raised over €100 million ($116 million) in debt and equity since 2020. The failure is one of the most visible exits yet in the alternative proteins sector, which has seen multiple high-profile stumbles in the past two years.</p>
-      <p class="why"><b>Why it matters:</b> The alt-protein hype cycle has definitively met gravity. For Indian agritech founders and investors, this is a useful check on "food of the future" narratives: SWAP had the funding and the product — the market just wasn't there at the required scale and price point. Consumer adoption, not technology, remains the binding constraint.</p>
-      <p class="meta">AgFunder News · <a href="https://agfundernews.com/french-alt-meat-whole-cut-specialist-swap-food-enters-judicial-liquidation">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://agfundernews.com/ai-is-everywhere-in-cpg-rd-but-is-it-moving-the-needle-turing-labs-surveys-the-biggest-players">AI Is Everywhere in CPG R&amp;D — But 57% of Execs Say Outputs Are Too Generic to Use</a></h2>
+        <p class="summary">A Turing Labs survey of R&amp;D executives at major consumer packaged goods firms found that while AI is nearly universal in product formulation workflows, 57% say that GenAI formulation outputs are too generic to use without significant manual rework. The gap between AI enthusiasm and AI utility is widest in flavour development and nutraceutical formulation, where domain-specific fine-tuning is essential.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Generic AI is at best a first-draft accelerator in CPG R&amp;D — specialist models with proprietary formulation data are where the real value lies.</p>
+        <p class="why"><b>Why it matters:</b> Indian FMCG giants like HUL, Dabur, and Britannia are investing in AI-driven product development. This data suggests they need industry-specific fine-tuned models, not off-the-shelf LLM integrations, to get genuine R&amp;D efficiency gains.</p>
+        <p class="meta">AgFunder News · Jun 16 · <a href="https://agfundernews.com/ai-is-everywhere-in-cpg-rd-but-is-it-moving-the-needle-turing-labs-surveys-the-biggest-players">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://agfundernews.com/wp-content/uploads/2026/06/Picketa-Systems-in-the-field-Image-credit-Picketa-150x150.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field">A $1.5M startup is building real-time nutrient testing for farms — no lab required</a></h2>
-      <p class="summary">Picketa Systems has raised $1.5 million to deploy handheld sensors that test soil and plant tissue for nutrient levels in the field, removing the need to send samples to a distant laboratory. The company says real-time data closes the "fertilizer loop," enabling precision application instead of blanket spreading.</p>
-      <p class="why"><b>Why it matters:</b> India's smallholders routinely over-apply certain fertilizers while starving crops of micronutrients — a structural inefficiency affecting both yield and soil health. Low-cost in-field sensors of this kind could shift behaviour at scale if they're cheap enough and if extension services back them. Watch for Indian market entry or copycat startups.</p>
-      <p class="meta">AgFunder News · <a href="https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16081112/6-spiny-seahorse-Hippocampus-histrix-768x512.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/">AI Detects Marine Wildlife Smuggling by Thinking Like a Trafficker</a></h2>
+        <p class="summary">Researchers have developed an AI system trained on wildlife trafficking patterns that can identify suspicious shipments of marine species — seahorses, corals, and rare fish — by modelling the same evasion logic that traffickers use to disguise cargo. The system, tested in partnership with Argentine customs authorities, caught a major seahorse shipment that human inspectors had cleared.</p>
+        <p class="takeaway"><b>Key takeaway:</b> The most effective wildlife trafficking AI is trained adversarially — built to think like the criminal, not just match keywords.</p>
+        <p class="why"><b>Why it matters:</b> India is both a source and transit country for marine wildlife trafficking, particularly sea cucumbers, seahorses, and reef fish exported to Southeast Asia. Indian customs could adapt this adversarial AI approach to improve detection at major ports including JNPT and Mundra.</p>
+        <p class="meta">Mongabay · Jun 16 · <a href="https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://agfundernews.com/wp-content/uploads/2026/06/fertilizer-spraying-on-field-istock-Smederevac-e1781286411753-150x150.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive">AI-optimised plasma could make green ammonia competitive with fossil-fuel fertilizer, startup claims</a></h2>
-      <p class="summary">Faraday Earth is using AI-optimised plasma reactors to produce ammonia from air and water — a potential replacement for the Haber-Bosch process, which currently accounts for roughly 2% of global energy consumption. The startup claims it can reach a levelised cost of ~$500 per tonne, which would put green ammonia within striking distance of conventional grey ammonia pricing.</p>
-      <p class="why"><b>Why it matters:</b> India imports a significant share of its fertilizer. A scalable green ammonia pathway would reshape India's fertilizer import bill, energy diplomacy, and agricultural input costs simultaneously. The cost numbers are not yet proven at commercial scale, but the direction of travel matters — track this technology seriously over the next 24 months.</p>
-      <p class="meta">AgFunder News · <a href="https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive">Read the original →</a></p>
-    </article>
-
-  </section>
-</main>
-<footer class="colophon">Edition No. 2 · June 17, 2026 · 49 stories across 11 sections · 33 RSS sources scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
+      <article>
+        <img class="story-img" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/17000449/herps_686-768x512.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://news.mongabay.com/short-article/2026/06/how-a-tiny-blue-gecko-became-a-conservation-comeback-story/">The Tiny Blue Gecko That Came Back From the Brink</a></h2>
+        <p class="summary">The Williams' electric blue day gecko — a small Tanzanian reptile found only on a few islands off the coast — has staged a remarkable conservation comeback after targeted breeding programmes, habitat protection, and community-led anti-poaching patrols brought the species back from critically endangered status. The story is a template for what focused, locally-embedded conservation can achieve.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Focused conservation with local community buy-in can recover a species even from near-extinction — the approach works when the will and resources align.</p>
+        <p class="why"><b>Why it matters:</b> India has dozens of species in equivalent critical status — the Great Indian Bustard, Gangetic river dolphin, gharial. The blue gecko model of combining ex-situ breeding, habitat protection, and community incentives has direct applicability to Indian conservation priorities.</p>
+        <p class="meta">Mongabay · Jun 17 · <a href="https://news.mongabay.com/short-article/2026/06/how-a-tiny-blue-gecko-became-a-conservation-comeback-story/">Read the original →</a></p>
+      </article>
+    </div>
+  </main>
+  <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

@@ -5,86 +5,104 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Daily Cactus — Other Interests — June 17, 2026</title>
 <style>
-  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e}
+  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e;--beta:#7a5cc4}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:880px;margin:0 auto;padding:24px 20px 60px}
+  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:1040px;margin:0 auto;padding:24px 24px 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
-  .masthead h1{font-size:clamp(34px,7vw,56px);letter-spacing:1px;font-weight:700}
+  .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
   .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
-  .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  nav .sep{color:var(--rule);margin:0 12px;user-select:none}
+  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
-  article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
+  article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
-  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
+  .takeaway{margin-bottom:6px;font-size:15px}
+  .takeaway b{color:var(--highlight);letter-spacing:.3px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  @media (max-width:760px){body{padding:18px 16px 48px}.grid{grid-template-columns:1fr;column-gap:0}.story-img{width:96px;height:68px;margin-left:10px}nav .sep{margin:0 8px}}
 </style>
 </head>
 <body>
-<header class="masthead">
-  <h1>The Daily Cactus 🌵</h1>
-  <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
-</header>
-<nav>
-  <a href="../index.html">Front Page</a>
-  <a href="ai.html">AI</a>
-  <a href="deep-tech.html">Deep Tech</a>
-  <a href="climate-energy.html">Climate &amp; Energy</a>
-  <a href="health-tech.html">Health Tech</a>
-  <a href="agritech.html">Agritech</a>
-  <a href="indian-startups.html">Indian Startups</a>
-  <a href="global-economics.html">Global Econ</a>
-  <a href="india.html">India</a>
-  <a href="world.html">World</a>
-  <a href="other-interests.html" class="active">Other Interests</a>
-  <a href="remainder.html">Remainder</a>
-</nav>
-<main>
-  <section>
-    <h2 class="section-title">Other Interests</h2>
+  <header class="masthead">
+    <h1>The Daily Cactus 🌵</h1>
+    <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
+  </header>
+  <nav>
+    <a href="../index.html">Front Page</a><span class="sep">·</span>
+    <a href="ai.html">AI</a><span class="sep">·</span>
+    <a href="deep-tech.html">Deep Tech</a><span class="sep">·</span>
+    <a href="climate-energy.html">Climate &amp; Energy</a><span class="sep">·</span>
+    <a href="health-tech.html">Health Tech</a><span class="sep">·</span>
+    <a href="agritech.html">Agritech</a><span class="sep">·</span>
+    <a href="indian-startups.html">Indian Startups</a><span class="sep">·</span>
+    <a href="global-economics.html">Global Economics</a><span class="sep">·</span>
+    <a href="india.html">India</a><span class="sep">·</span>
+    <a href="world.html">World</a><span class="sep">·</span>
+    <a href="other-interests.html" class="active">Other Interests</a><span class="sep">·</span>
+    <a href="opportunities.html">Opportunities</a><span class="sep">·</span>
+    <a href="remainder.html">Remainder</a><span class="sep">·</span>
+    <a href="../archive/index.html">Archive</a>
+  </nav>
+  <main>
+    <div class="grid">
+      <h2 class="section-title">Other Interests</h2>
 
-    <article>
-      <img class="story-img" src="https://bookriot.com/wp-content/uploads/2026/04/The-Someday-Garden-Ashley-Poston-cover-300x0.jpg.optimal.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://bookriot.com/new-book-releases-june-16-2026/">New fiction this week includes a Bollywood-Hollywood murder mystery and Indian fabulism set in the 1960s</a></h2>
-      <p class="summary">Book Riot's June 16 new releases roundup includes a novel described as "Bollywood/Hollywood murder mystery" and another billed as "fabulism in 1960s India" — alongside Ashley Poston's Secret Garden-esque romance and other titles. A notably India-adjacent week for literary fiction.</p>
-      <p class="why"><b>Why it matters:</b> The Indian fabulism novel set in the 1960s is worth flagging — a growing wave of Indian historical and magical realist fiction is receiving global attention, and books set in that particular decade of national formation tend to carry a particular weight. Worth reading the details.</p>
-      <p class="meta">Book Riot · <a href="https://bookriot.com/new-book-releases-june-16-2026/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://images.newscientist.com/wp-content/uploads/2026/06/10131236/SEI_3005618951.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.newscientist.com/article/2529259-the-secrets-to-keeping-your-brain-sharp-in-old-age/">The Secrets to Keeping Your Brain Sharp Into Old Age</a></h2>
+        <p class="summary">Neurologist Emily Rogalski has spent a decade studying "superagers" — people in their 80s and 90s with memories as sharp as people thirty years younger. Her research finds that the common factors are not puzzles or brain games but rather intense social engagement, physical activity with a cardiovascular component, and crucially, a high tolerance for discomfort and challenge rather than cognitive ease.</p>
+        <p class="takeaway"><b>Key takeaway:</b> The brain stays sharp through challenge and connection, not comfort — passive mental activity like TV doesn't count; effortful engagement does.</p>
+        <p class="why"><b>Why it matters:</b> India's rapidly ageing population (projected 320 million over 60 by 2050) makes healthy cognitive ageing a major public health priority. This research suggests the answer is social and physical, not pharmaceutical — a finding with implications for elder care policy and design of senior living environments.</p>
+        <p class="meta">New Scientist · Jun 16 · <a href="https://www.newscientist.com/article/2529259-the-secrets-to-keeping-your-brain-sharp-in-old-age/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://bookriot.com/wp-content/uploads/2025/11/Kin-Tayari-Jones-cover-300x0.jpg.optimal.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://bookriot.com/buzziest-2026-book-kin/">KIN by Tayari Jones is the most talked-about novel of 2026 so far</a></h2>
-      <p class="summary">Book Riot confirms that KIN by Tayari Jones has topped virtually every "best books of 2026" list to date, making it the consensus literary standout of the year's first half. Jones, known for An American Marriage, brings her characteristic focus on family fracture and social context — this time in what's being described as a multigenerational reckoning.</p>
-      <p class="why"><b>Why it matters:</b> If you read one novel from 2026, this appears to be the early frontrunner for the kind that prompts real conversation. Worth a look, or at minimum, worth knowing what the cultural discussion is about.</p>
-      <p class="meta">Book Riot · <a href="https://bookriot.com/buzziest-2026-book-kin/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://images.newscientist.com/wp-content/uploads/2026/06/16101225/SEI_301530524.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.newscientist.com/article/2530459-autism-may-have-two-distinct-subtypes-that-vary-by-brain-activity/">Autism May Have Two Distinct Subtypes That Differ in Brain Activity Patterns</a></h2>
+        <p class="summary">New research provides some of the strongest evidence yet that autism is not a single condition but at least two distinct subtypes with different neural signatures — one characterised by heightened brain connectivity and one by reduced connectivity. The subtypes respond differently to interventions, which could explain why some autism therapies work well for some people and poorly for others.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Autism treatments have been one-size-fits-all because we assumed it was one condition — it isn't, and subtype-specific treatment is the next frontier.</p>
+        <p class="why"><b>Why it matters:</b> India has an estimated 18 million people on the autism spectrum, with significant underdiagnosis especially in rural areas. Subtype-specific diagnosis and intervention could dramatically improve outcomes — but requires diagnostic infrastructure that most Indian states don't yet have.</p>
+        <p class="meta">New Scientist · Jun 16 · <a href="https://www.newscientist.com/article/2530459-autism-may-have-two-distinct-subtypes-that-vary-by-brain-activity/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://bookriot.com/university-of-nebraska-bans-textbook-on-human-sexuality/">A US university has banned a human sexuality textbook because a single student complained it was pornographic</a></h2>
-      <p class="summary">The University of Nebraska at Kearney has removed a standard academic textbook on human sexuality from a course after one student complained that it constituted pornography. The university administration sided with the complaint and banned the text, prompting criticism from academic freedom advocates.</p>
-      <p class="why"><b>Why it matters:</b> The pattern — a single complaint triggering institutional capitulation — is a feature, not a bug, of the current US culture-war dynamic in higher education. The direction of US academic freedom has implications for anyone tracking how educational institutions globally are being reshaped by political pressure, including in India.</p>
-      <p class="meta">Book Riot · <a href="https://bookriot.com/university-of-nebraska-bans-textbook-on-human-sexuality/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://images.newscientist.com/wp-content/uploads/2026/06/16113031/SEI_301624717.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.newscientist.com/article/2530536-walking-shark-found-in-papua-new-guinea-is-new-to-science/">A New Species of Walking Shark Has Been Found in Papua New Guinea</a></h2>
+        <p class="summary">Scientists have identified Hemiscyllium dudgeonae — the tenth recorded species of walking shark — from Papua New Guinea's coral reefs. Walking sharks use their pectoral fins to "walk" across reef flats during low tide, and are found only in a small area of the Indo-Pacific. The species has a limited range, making it immediately vulnerable to habitat destruction and climate-driven reef bleaching.</p>
+        <p class="takeaway"><b>Key takeaway:</b> A walking shark discovered in 2026 is a reminder that ocean biodiversity surveys are still finding entirely new vertebrate species — we know less about our oceans than we think.</p>
+        <p class="why"><b>Why it matters:</b> India's Lakshadweep and Andaman coral ecosystems are home to similarly undocumented species. As climate bleaching accelerates, India risks losing reef biodiversity before it's even catalogued — an irreversible scientific and ecological loss.</p>
+        <p class="meta">New Scientist · Jun 16 · <a href="https://www.newscientist.com/article/2530536-walking-shark-found-in-papua-new-guinea-is-new-to-science/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://bookriot.com/wp-content/uploads/2026/06/finlay-donovan-plays-with-fire-cover.jpg.optimal.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://bookriot.com/sadie-sink-to-star-in-the-marriage-plot/">A24 is adapting Jeffrey Eugenides' The Marriage Plot, with Sadie Sink attached to star</a></h2>
-      <p class="summary">A24 has announced a film adaptation of Jeffrey Eugenides' 2011 literary novel The Marriage Plot, with Stranger Things star Sadie Sink attached to lead. The novel — a campus story about English literature students navigating ideas and each other in the 1980s — has been a favourite of literary readers since publication.</p>
-      <p class="why"><b>Why it matters:</b> A24 adapting a beloved literary novel is culturally interesting in itself, but the studio's track record of making literary fiction accessible without neutering it makes this one to watch. Worth flagging for the intersection of books and prestige film culture.</p>
-      <p class="meta">Book Riot · <a href="https://bookriot.com/sadie-sink-to-star-in-the-marriage-plot/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://images.newscientist.com/wp-content/uploads/2026/06/15164400/SEI_301542089.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.newscientist.com/article/2530469-arctic-ocean-reaches-tipping-point-that-could-be-dire-for-marine-life/">Arctic Ocean Has Reached a Tipping Point That Threatens Marine Life</a></h2>
+        <p class="summary">Disappearing sea ice is letting far more sunlight into the Arctic Ocean than at any point in recorded history, triggering a phytoplankton bloom that has depleted a crucial nutrient — silica — from the upper ocean. Without silica, diatoms that form the base of the Arctic food chain cannot grow, threatening a cascade of population collapses from krill to whales.</p>
+        <p class="takeaway"><b>Key takeaway:</b> The Arctic has crossed a tipping point — not just losing ice, but losing the nutrient chemistry that sustains its food web.</p>
+        <p class="why"><b>Why it matters:</b> Arctic marine collapse affects global fish stock distributions, including fish that migrate through Indian Ocean waters. It also signals that we are further into irreversible climate tipping points than most models assumed — a sobering update to the baseline for Indian climate adaptation planning.</p>
+        <p class="meta">New Scientist · Jun 16 · <a href="https://www.newscientist.com/article/2530469-arctic-ocean-reaches-tipping-point-that-could-be-dire-for-marine-life/">Read the original →</a></p>
+      </article>
 
-  </section>
-</main>
-<footer class="colophon">Edition No. 2 · June 17, 2026 · 49 stories across 11 sections · 33 RSS sources scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
+      <article>
+        <h2><a href="https://bookriot.com/55-of-travelers-said-theyd-consider-going-somewhere-because-of-a-book-2/">55% of Travellers Would Visit a Place Because of a Book — Literary Tourism Is Booming</a></h2>
+        <p class="summary">A new survey by Book Riot finds that 55% of travellers have considered visiting a location because they read about it in a book — and the trend of "literary tourism" has grown significantly post-pandemic, with dedicated literary trails, author house museums, and fiction-inspired itineraries becoming a meaningful segment of the travel market.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Books are becoming travel infrastructure — places with strong literary associations are seeing measurable tourism uplift from readers who want to walk in fictional footsteps.</p>
+        <p class="why"><b>Why it matters:</b> India has extraordinary literary geography — from Ruskin Bond's Dehradun to R.K. Narayan's Malgudi to Amitav Ghosh's Calcutta. A more intentional literary tourism strategy could drive high-value, culturally engaged visitors to destinations outside the Golden Triangle circuit.</p>
+        <p class="meta">Book Riot · Jun 16 · <a href="https://bookriot.com/55-of-travelers-said-theyd-consider-going-somewhere-because-of-a-book-2/">Read the original →</a></p>
+      </article>
+    </div>
+  </main>
+  <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

@@ -3,98 +3,106 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Cactus — Global Economics — June 17, 2026</title>
+<title>[Archive] The Daily Cactus — Global Economics — June 17, 2026</title>
 <style>
-  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e}
+  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e;--beta:#7a5cc4}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:880px;margin:0 auto;padding:24px 20px 60px}
+  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:1040px;margin:0 auto;padding:24px 24px 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
-  .masthead h1{font-size:clamp(34px,7vw,56px);letter-spacing:1px;font-weight:700}
+  .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
   .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
-  .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  nav .sep{color:var(--rule);margin:0 12px;user-select:none}
+  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
-  article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
+  article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
-  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
+  .takeaway{margin-bottom:6px;font-size:15px}
+  .takeaway b{color:var(--highlight);letter-spacing:.3px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
-  .developing{display:inline-block;background:var(--highlight);color:#fff;font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;border-radius:3px;margin-bottom:6px;letter-spacing:1px}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  @media (max-width:760px){body{padding:18px 16px 48px}.grid{grid-template-columns:1fr;column-gap:0}.story-img{width:96px;height:68px;margin-left:10px}nav .sep{margin:0 8px}}
 </style>
 </head>
 <body>
-<header class="masthead">
-  <h1>The Daily Cactus 🌵</h1>
-  <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
-</header>
-<nav>
-  <a href="../index.html">Front Page</a>
-  <a href="ai.html">AI</a>
-  <a href="deep-tech.html">Deep Tech</a>
-  <a href="climate-energy.html">Climate &amp; Energy</a>
-  <a href="health-tech.html">Health Tech</a>
-  <a href="agritech.html">Agritech</a>
-  <a href="indian-startups.html">Indian Startups</a>
-  <a href="global-economics.html" class="active">Global Econ</a>
-  <a href="india.html">India</a>
-  <a href="world.html">World</a>
-  <a href="other-interests.html">Other Interests</a>
-  <a href="remainder.html">Remainder</a>
-</nav>
-<main>
-  <section>
-    <h2 class="section-title">Global Economics</h2>
+  <header class="masthead">
+    <h1>The Daily Cactus 🌵</h1>
+    <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
+  </header>
+  <nav>
+    <a href="../index.html">Front Page</a><span class="sep">·</span>
+    <a href="ai.html">AI</a><span class="sep">·</span>
+    <a href="deep-tech.html">Deep Tech</a><span class="sep">·</span>
+    <a href="climate-energy.html">Climate &amp; Energy</a><span class="sep">·</span>
+    <a href="health-tech.html">Health Tech</a><span class="sep">·</span>
+    <a href="agritech.html">Agritech</a><span class="sep">·</span>
+    <a href="indian-startups.html">Indian Startups</a><span class="sep">·</span>
+    <a href="global-economics.html" class="active">Global Economics</a><span class="sep">·</span>
+    <a href="india.html">India</a><span class="sep">·</span>
+    <a href="world.html">World</a><span class="sep">·</span>
+    <a href="other-interests.html">Other Interests</a><span class="sep">·</span>
+    <a href="opportunities.html">Opportunities</a><span class="sep">·</span>
+    <a href="remainder.html">Remainder</a><span class="sep">·</span>
+    <a href="../../index.html">Archive</a>
+  </nav>
+  <main>
+    <div class="grid">
+      <h2 class="section-title">Global Economics</h2>
 
-    <article>
-      <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iIP8Z4OlpeAY/v0/1200x-1.jpg" alt="" onerror="this.style.display='none'">
-      <span class="developing">📈 DEVELOPING</span>
-      <h2><a href="https://www.bloomberg.com/news/articles/2026-06-16/ecb-s-lane-says-inflation-is-in-the-pipeline-despite-iran-deal">ECB's chief economist warns: the inflation from the Iran conflict is still loading — the pipeline isn't empty</a></h2>
-      <p class="summary">ECB Chief Economist Philip Lane said policymakers must prepare for inflation that was unleashed by the Middle East conflict but hasn't fully fed through into prices yet. His colleague José Luis Escriva added that energy supply disruptions are likely to persist despite the ceasefire deal. Together, their comments suggest the ECB is more worried about second-wave inflation than a clean Hormuz-reopening reset would imply.</p>
-      <p class="why"><b>Why it matters:</b> India watches ECB policy closely: a more hawkish ECB keeps European and global rates elevated, which compresses the RBI's room to cut even as India faces its own inflation-growth tension. The Iran ceasefire is not a macro clean slate — the inflationary transmission is still in motion.</p>
-      <p class="meta">Earlier: US-Iran conflict blockaded Hormuz since February; Brent hit $97/bbl; Indian sailors killed in a ship strike off Oman (June 11). · Bloomberg · <a href="https://www.bloomberg.com/news/articles/2026-06-16/ecb-s-lane-says-inflation-is-in-the-pipeline-despite-iran-deal">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNrHsCCB53II/v1/1200x-1.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.bloomberg.com/news/articles/2026-06-17/pboc-hints-at-new-policy-framework-focused-on-overnight-rate">PBOC Signals Shift to Fed-Style Overnight Rate Framework</a></h2>
+        <p class="summary">China's central bank has signalled a major potential shift in how it sets monetary policy — moving toward an overnight rate as its primary policy tool, similar to how the US Federal Reserve operates with the federal funds rate. The change would bring greater transparency and predictability to Chinese rate-setting, reducing the opacity that has made yuan-denominated instruments unattractive to foreign investors.</p>
+        <p class="takeaway"><b>Key takeaway:</b> China is building the monetary infrastructure for yuan internationalisation by adopting the Fed's most trusted policy tool.</p>
+        <p class="why"><b>Why it matters:</b> A more transparent PBOC framework could accelerate yuan's reserve currency ambitions and reshape how Asian trade — including India-China commerce — is invoiced. Indian exporters and importers would face a more predictable renminbi, reducing hedging costs and uncertainty in bilateral trade.</p>
+        <p class="meta">Bloomberg · Jun 17 · <a href="https://www.bloomberg.com/news/articles/2026-06-17/pboc-hints-at-new-policy-framework-focused-on-overnight-rate">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iFyGI2XN4lK8/v20/1200x-1.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.bloomberg.com/news/newsletters/2026-06-16/china-s-two-speed-growth-model-temporary-imbalance-or-geostrategic-design">China's economy is running two speeds at once — and the gap may be deliberate</a></h2>
-      <p class="summary">A Bloomberg analysis examines China's unusual growth pattern: its export sector is booming while domestic consumer demand stalls. The piece asks whether this is a temporary imbalance that will self-correct or a deliberate geostrategic design — an economy optimised to accumulate industrial capacity and hard currency rather than to improve living standards.</p>
-      <p class="why"><b>Why it matters:</b> If China's export boom is strategic rather than cyclical, Indian manufacturing competitiveness is the subject of a deliberate contest. The "China+1" supply chain shift benefits India, but only if Indian manufacturers can actually absorb demand — which requires policy continuity and infrastructure investment India's industry ministries are still fighting for.</p>
-      <p class="meta">Bloomberg · <a href="https://www.bloomberg.com/news/newsletters/2026-06-16/china-s-two-speed-growth-model-temporary-imbalance-or-geostrategic-design">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://www.theguardian.com/business/2026/jun/16/bank-of-japan-raises-interest-rates-iran-war-inflation-us-fed-bank-of-england">Bank of Japan Raises Rates to 31-Year High as Iran War Inflation Persists</a></h2>
+        <p class="summary">The Bank of Japan raised its benchmark rate to 1% — the highest since 1995 — citing persistent inflation pressure compounded by the Iran-Hormuz energy shock. The US Federal Reserve and Bank of England held rates steady in the same week, with the Fed waiting for US labor market data and the BoE citing post-Hormuz uncertainty. The BOJ move signals the definitive end of Japan's ultra-loose monetary era.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Japan joining the global tightening cycle means the last major safe-haven for cheap global capital has closed — yen carry trades are now genuinely expensive.</p>
+        <p class="why"><b>Why it matters:</b> The yen carry trade has been a major source of capital for emerging markets. Higher BOJ rates mean these trades unwind, pulling capital from EM equity and debt markets — including India. RBI may need to act defensively if EM outflows accelerate.</p>
+        <p class="meta">The Guardian · Jun 16 · <a href="https://www.theguardian.com/business/2026/jun/16/bank-of-japan-raises-interest-rates-iran-war-inflation-us-fed-bank-of-england">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJOrUegdb3gc/v3/1200x-1.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.bloomberg.com/news/videos/2026-06-16/robinhood-blackrock-plan-to-reduce-workforce-video">Robinhood cuts 10% of staff; BlackRock trims near 1% — financial sector signals cost squeeze</a></h2>
-      <p class="summary">Robinhood Markets said it is cutting approximately 300 positions — 10% of its workforce — as it restructures after a difficult post-2021 period. BlackRock is reportedly eliminating just under 1% of headcount. Both announcements arrived on the same day, spanning the fintech disruptor and the world's largest asset manager.</p>
-      <p class="why"><b>Why it matters:</b> For Indian fintech founders benchmarking against global comps, this confirms growth-at-all-costs is definitively over. Unit economics will be the filter for the next funding cycle — and investors who backed Indian fintech on global comparisons will apply the same pressure domestically.</p>
-      <p class="meta">Bloomberg · <a href="https://www.bloomberg.com/news/videos/2026-06-16/robinhood-blackrock-plan-to-reduce-workforce-video">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iW36wiGs_.Iw/v0/1200x-1.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.bloomberg.com/news/articles/2026-06-17/ecb-officials-say-peace-in-iran-isn-t-enough-to-fix-energy-shock">ECB: US-Iran Peace Accord Won't Be Enough to Stop Further Rate Hikes</a></h2>
+        <p class="summary">European Central Bank officials are signalling that even a successful US-Iran peace deal and full Hormuz reopening won't be sufficient to reverse the energy shock embedded in eurozone inflation. With natural gas storage still below seasonal norms and industrial energy contracts locked at war-level prices through year-end, the ECB sees further tightening as likely regardless of geopolitical outcomes.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Energy inflation in Europe is structural, not just geopolitical — even peace in Iran doesn't fix the price contracts already signed at crisis levels.</p>
+        <p class="why"><b>Why it matters:</b> Higher ECB rates and European recession risk are the key transmission channels for global economic slowdown to India. European demand for Indian IT services and pharma exports could soften if the eurozone enters recession — a risk materialising in Q3 2026 corporate earnings.</p>
+        <p class="meta">Bloomberg · Jun 17 · <a href="https://www.bloomberg.com/news/articles/2026-06-17/ecb-officials-say-peace-in-iran-isn-t-enough-to-fix-energy-shock">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.economist.com/finance-and-economics/2026/06/15/meet-the-worlds-top-ai-pilled-economists">The economists most convinced AI will reshape the economy aren't in academia — they're at hedge funds and tech firms</a></h2>
-      <p class="summary">The Economist profiles the cohort of economists who have gone furthest in arguing AI will produce transformative economic disruption: shorter work weeks, massive productivity gains, potential deflationary abundance. The piece finds them concentrated in industry and finance rather than university economics departments, which tend toward more cautious structural analysis.</p>
-      <p class="why"><b>Why it matters:</b> The policy advice flowing to Indian government ministries about AI's economic impact will largely come from the "industry AI-pilled" cohort. Understanding the priors and incentives of those economists is necessary for reading their projections with appropriate calibration — or appropriate excitement.</p>
-      <p class="meta">The Economist · <a href="https://www.economist.com/finance-and-economics/2026/06/15/meet-the-worlds-top-ai-pilled-economists">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ic9lfUBH6S3A/v0/1200x-1.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.bloomberg.com/news/articles/2026-06-17/china-s-finance-chiefs-take-center-stage-with-economy-slumping">China Embeds Anti-Sanctions Clauses in Financial Law as Economy Slumps</a></h2>
+        <p class="summary">Chinese Vice Premier He Lifeng announced that Beijing will embed anti-sanctions provisions directly into its financial laws — a counter-measure against what officials called "unreasonable" Western economic pressure. The move comes as China's economy faces slowing growth, property sector stress, and reduced access to Western capital markets, pushing Beijing toward financial self-reliance as a strategic imperative.</p>
+        <p class="takeaway"><b>Key takeaway:</b> China is legalising financial warfare readiness — embedding counter-sanctions into domestic law signals a permanent shift toward economic self-reliance.</p>
+        <p class="why"><b>Why it matters:</b> Indian companies operating in both US and Chinese markets face increasing legal complexity as China and the West build incompatible financial law regimes. The dual-compliance burden will become a competitive cost for Indian multinationals operating across this divide.</p>
+        <p class="meta">Bloomberg · Jun 17 · <a href="https://www.bloomberg.com/news/articles/2026-06-17/china-s-finance-chiefs-take-center-stage-with-economy-slumping">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMyX88EcDehc/v0/1200x-1.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.bloomberg.com/news/articles/2026-06-16/poland-pursues-taiwan-investments-to-end-role-as-assembly-hub">Poland is aggressively courting Taiwanese tech investment to move up the value chain</a></h2>
-      <p class="summary">Poland is actively recruiting Taiwanese semiconductor and electronics companies to invest in the country, aiming to move from a low-cost manufacturing base to a higher-tech economy. Poland sees Taiwan's supply chain diversification pressure as an opportunity to attract both capital and technology transfer.</p>
-      <p class="why"><b>Why it matters:</b> India is playing the same game — the "China+1" and Taiwan diversification play was supposed to benefit India significantly. Poland's aggressive pursuit is a reminder that India faces competition for Taiwanese investment from well-governed, strategically located European alternatives. Industrial policy and ease of doing business remain decisive differentiators.</p>
-      <p class="meta">Bloomberg · <a href="https://www.bloomberg.com/news/articles/2026-06-16/poland-pursues-taiwan-investments-to-end-role-as-assembly-hub">Read the original →</a></p>
-    </article>
-
-  </section>
-</main>
-<footer class="colophon">Edition No. 2 · June 17, 2026 · 49 stories across 11 sections · 33 RSS sources scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
+      <article>
+        <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/imF9W5Wp3JHI/v0/1200x-1.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.bloomberg.com/news/articles/2026-06-17/pboc-announces-tool-to-boost-yuan-usage-by-foreign-central-banks">PBOC Launches New Tool to Boost Yuan Use by Foreign Central Banks</a></h2>
+        <p class="summary">China's central bank announced new money-market instruments designed to make it easier for foreign central banks and sovereign wealth funds to hold and transact in yuan. The tool provides overnight liquidity in renminbi to qualified foreign institutions, reducing the friction that has historically made yuan reserve allocation unattractive compared to dollar or euro instruments.</p>
+        <p class="takeaway"><b>Key takeaway:</b> China is systematically eliminating the friction points that have prevented yuan from becoming a practical reserve currency — this is the plumbing layer.</p>
+        <p class="why"><b>Why it matters:</b> India's RBI holds minimal yuan reserves. But as India-China trade expands and PBOC tools improve yuan liquidity, the case for partial yuan reserve allocation will strengthen — especially given India's interest in reducing dollar dependency. This is a long game, but it's moving faster than expected.</p>
+        <p class="meta">Bloomberg · Jun 17 · <a href="https://www.bloomberg.com/news/articles/2026-06-17/pboc-announces-tool-to-boost-yuan-usage-by-foreign-central-banks">Read the original →</a></p>
+      </article>
+    </div>
+  </main>
+  <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

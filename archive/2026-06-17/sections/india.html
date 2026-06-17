@@ -3,97 +3,105 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Cactus — India — June 17, 2026</title>
+<title>[Archive] The Daily Cactus — India — June 17, 2026</title>
 <style>
-  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e}
+  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e;--beta:#7a5cc4}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:880px;margin:0 auto;padding:24px 20px 60px}
+  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:1040px;margin:0 auto;padding:24px 24px 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
-  .masthead h1{font-size:clamp(34px,7vw,56px);letter-spacing:1px;font-weight:700}
+  .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
   .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
-  .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  nav .sep{color:var(--rule);margin:0 12px;user-select:none}
+  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
-  article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
+  article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
-  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
+  .takeaway{margin-bottom:6px;font-size:15px}
+  .takeaway b{color:var(--highlight);letter-spacing:.3px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  @media (max-width:760px){body{padding:18px 16px 48px}.grid{grid-template-columns:1fr;column-gap:0}.story-img{width:96px;height:68px;margin-left:10px}nav .sep{margin:0 8px}}
 </style>
 </head>
 <body>
-<header class="masthead">
-  <h1>The Daily Cactus 🌵</h1>
-  <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
-</header>
-<nav>
-  <a href="../index.html">Front Page</a>
-  <a href="ai.html">AI</a>
-  <a href="deep-tech.html">Deep Tech</a>
-  <a href="climate-energy.html">Climate &amp; Energy</a>
-  <a href="health-tech.html">Health Tech</a>
-  <a href="agritech.html">Agritech</a>
-  <a href="indian-startups.html">Indian Startups</a>
-  <a href="global-economics.html">Global Econ</a>
-  <a href="india.html" class="active">India</a>
-  <a href="world.html">World</a>
-  <a href="other-interests.html">Other Interests</a>
-  <a href="remainder.html">Remainder</a>
-</nav>
-<main>
-  <section>
-    <h2 class="section-title">India</h2>
+  <header class="masthead">
+    <h1>The Daily Cactus 🌵</h1>
+    <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
+  </header>
+  <nav>
+    <a href="../index.html">Front Page</a><span class="sep">·</span>
+    <a href="ai.html">AI</a><span class="sep">·</span>
+    <a href="deep-tech.html">Deep Tech</a><span class="sep">·</span>
+    <a href="climate-energy.html">Climate &amp; Energy</a><span class="sep">·</span>
+    <a href="health-tech.html">Health Tech</a><span class="sep">·</span>
+    <a href="agritech.html">Agritech</a><span class="sep">·</span>
+    <a href="indian-startups.html">Indian Startups</a><span class="sep">·</span>
+    <a href="global-economics.html">Global Economics</a><span class="sep">·</span>
+    <a href="india.html" class="active">India</a><span class="sep">·</span>
+    <a href="world.html">World</a><span class="sep">·</span>
+    <a href="other-interests.html">Other Interests</a><span class="sep">·</span>
+    <a href="opportunities.html">Opportunities</a><span class="sep">·</span>
+    <a href="remainder.html">Remainder</a><span class="sep">·</span>
+    <a href="../../index.html">Archive</a>
+  </nav>
+  <main>
+    <div class="grid">
+      <h2 class="section-title">India</h2>
 
-    <article>
-      <img class="story-img" src="https://images.indianexpress.com/2026/06/Umesh.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://indianexpress.com/article/india/sikar-neet-aspirant-suicide-umesh-mali-paper-leak-protests-10742776/">Another NEET aspirant dies by suicide in Rajasthan as exam pressure and paper leak protests mount</a></h2>
-      <p class="summary">A student preparing for the NEET medical entrance exam has died by suicide in Sikar, Rajasthan, amid ongoing protests over alleged paper leaks and extreme exam pressure. The student reportedly left a note referencing the difficulty of the exam pathway. This is the latest in a recurring pattern of tragedies linked to India's single-gateway entrance system.</p>
-      <p class="why"><b>Why it matters:</b> This is a systemic story, not a tragedy-of-the-day. India's single-gateway entrance exam model concentrates immense anxiety and career-defining pressure on teenagers. For those working in education technology or policy reform, the human cost of the current system belongs in every reform conversation — and the NEET controversy has now generated enough political heat to force action.</p>
-      <p class="meta">Indian Express · <a href="https://indianexpress.com/article/india/sikar-neet-aspirant-suicide-umesh-mali-paper-leak-protests-10742776/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://th-i.thgim.com/public/incoming/6gxmmj/article71112000.ece/alternates/LANDSCAPE_1200/2026-06-16T065334Z_954098010_RC2WPGA8QOR8_RTRMADP_3_INDIA-TELEGRAM-EDUCATION.JPG" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.thehindu.com/sci-tech/technology/telegram-ceo-durov-alleges-reliance-role-in-access-disruption/article71112006.ece">Telegram CEO Durov Alleges Reliance Role in India Access Disruption</a></h2>
+        <p class="summary">Pavel Durov has publicly alleged that Reliance Industries played a role in the partial disruption of Telegram's access in India, suggesting that the telecom incumbent influenced the selective blocking or throttling of the messaging platform. The Hindu explains the technical architecture behind how such an intervention would work — and why attributing it to a single actor is difficult.</p>
+        <p class="takeaway"><b>Key takeaway:</b> A major tech CEO has directly named a Reliance entity in an internet access dispute — an allegation with significant implications for India's net neutrality framework.</p>
+        <p class="why"><b>Why it matters:</b> India's net neutrality regulations exist on paper but enforcement has been uneven. If Reliance — which both owns Jio's pipes and competes in digital services — can influence access to rival platforms, it raises fundamental questions about the regulator TRAI's enforcement capacity and the independence of India's internet infrastructure.</p>
+        <p class="meta">The Hindu · Jun 16 · <a href="https://www.thehindu.com/sci-tech/technology/telegram-ceo-durov-alleges-reliance-role-in-access-disruption/article71112006.ece">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://images.indianexpress.com/2026/06/K-Muraleedharan-kerala.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://indianexpress.com/article/india/kerala-shigella-deaths-kozhikode-wayanad-water-k-muraleedharan-10742587/">Four dead in Kerala from Shigella outbreak; government blames inadequate pre-monsoon cleaning</a></h2>
-      <p class="summary">Kerala has seen a spike in Shigella bacterial infections — a waterborne illness causing severe dysentery — with four deaths recorded this month. State health officials have attributed the outbreak to inadequate pre-monsoon cleaning of water sources in flood-affected districts. A public health alert has been issued across several districts.</p>
-      <p class="why"><b>Why it matters:</b> India's pattern of waterborne disease outbreaks every monsoon season points to a persistent infrastructure gap — water testing, sewage separation, and early warning systems — that health tech and govtech startups have identified as an opportunity. The fact that this is happening in Kerala, better-equipped than most states, tells you something about the baseline challenge everywhere else.</p>
-      <p class="meta">Indian Express · <a href="https://indianexpress.com/article/india/kerala-shigella-deaths-kozhikode-wayanad-water-k-muraleedharan-10742587/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://th-i.thgim.com/public/news/national/kerala/2n4w13/article71109897.ece/alternates/LANDSCAPE_1200/PHOTO-2026-06-16-18-46-30.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.thehindu.com/news/national/kerala/as-war-clouds-recedes-kerala-looks-to-an-influx-of-arab-tourists-in-monsoon-season/">As War Clouds Recede, Kerala Eyes Arab Tourism Surge in Monsoon Season</a></h2>
+        <p class="summary">With the US-Iran truce easing tensions across the Gulf, Kerala's tourism industry is anticipating a significant influx of Arab travellers during the monsoon season — a demographic that typically avoids travel during summer months in the Middle East. Tour operators report a sharp uptick in inquiries from Gulf countries, which have been Kerala's primary tourist source market for decades.</p>
+        <p class="takeaway"><b>Key takeaway:</b> The Iran truce's most immediate economic benefit for India may be tourism recovery in Kerala — faster than oil price normalisation.</p>
+        <p class="why"><b>Why it matters:</b> Kerala receives around ₹20,000 crore annually from Gulf tourism, and Keralite remittances from the Gulf are the state's economic backbone. A tourism recovery driven by geopolitical thaw is a leading indicator of broader economic normalisation in the Gulf-India corridor.</p>
+        <p class="meta">The Hindu · Jun 16 · <a href="https://www.thehindu.com/news/national/kerala/as-war-clouds-recedes-kerala-looks-to-an-influx-of-arab-tourists-in-monsoon-season/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://th-i.thgim.com/public/incoming/bd1l8z/article71109778.ece/alternates/LANDSCAPE_1200/SC-AI-in-Court-GEKG2O5UJ.4.jpg.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.thehindu.com/news/national/sc-steps-in-to-ensure-dignified-life-for-octogenarian-visually-impaired-son/article71109042.ece">Supreme Court intervenes suo motu to ensure a dignified life for an elderly man and his visually impaired son</a></h2>
-      <p class="summary">India's Supreme Court has taken suo motu cognisance of newspaper reports about an 80-year-old man and his visually impaired son living in dire conditions, ordering government authorities to ensure they receive adequate support. The bench said the state has a positive obligation to protect dignity, not merely to avoid harm.</p>
-      <p class="why"><b>Why it matters:</b> Suo motu SC action on welfare cases is increasingly common and creates precedent that affects how state governments budget and prioritise care. For elder care and health tech startups, it's also a signal that the judiciary is beginning to articulate a rights framework around care infrastructure — one that creates both legal exposure for the state and potential for public-private solutions.</p>
-      <p class="meta">The Hindu · <a href="https://www.thehindu.com/news/national/sc-steps-in-to-ensure-dignified-life-for-octogenarian-visually-impaired-son/article71109042.ece">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://th-i.thgim.com/public/incoming/8m40nn/article71096474.ece/alternates/LANDSCAPE_1200/PTI04_21_2026_000206A.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.thehindu.com/news/national/rajasthan/is-lok-sabha-speaker-opposed-to-rahul-gandhis-kota-visit-asks-ashok-gehlot/">Gehlot Questions Whether Lok Sabha Speaker's Office Is Pressuring Against Rahul Gandhi's Kota Visit</a></h2>
+        <p class="summary">Former Rajasthan Chief Minister Ashok Gehlot has publicly asked whether the Lok Sabha Speaker's office is pressuring coaching institutes, paying guest accommodations, and guest houses in Kota to discourage Rahul Gandhi's planned visit to the city. The allegation, if substantiated, would point to an unusual use of parliamentary office for political interference at the state level.</p>
+        <p class="takeaway"><b>Key takeaway:</b> The allegation politicises a parliamentary institution — the Speaker's office — in ways that could set uncomfortable precedents for institutional neutrality.</p>
+        <p class="why"><b>Why it matters:</b> Kota is India's largest coaching hub, and its students' welfare has become a politically sensitive issue following student deaths. Any attempt to limit opposition access to this constituency — if proven — would represent a significant misuse of institutional authority.</p>
+        <p class="meta">The Hindu · Jun 16 · <a href="https://www.thehindu.com/news/national/rajasthan/is-lok-sabha-speaker-opposed-to-rahul-gandhis-kota-visit-asks-ashok-gehlot/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://images.indianexpress.com/2026/06/16Temple.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://indianexpress.com/article/india/ram-temple-donation-controversy-congress-ayodhya-fund-allegations-probe-10742371/">Congress blames PM Modi directly in Ram Temple donation row as calls for investigation grow</a></h2>
-      <p class="summary">The Ram Temple donation controversy has escalated, with the Congress party directly blaming Prime Minister Modi and calling for a formal investigation into allegations of financial irregularities in how donations to the Ayodhya temple construction were collected and managed.</p>
-      <p class="why"><b>Why it matters:</b> Political theatre to some degree, but the institutional angle is legitimate: how religious and quasi-public institutions are governed, audited, and held accountable is a genuine governance question in a country where such bodies attract significant public funds. The accountability architecture around large religious trusts in India is genuinely underdeveloped.</p>
-      <p class="meta">Indian Express · <a href="https://indianexpress.com/article/india/ram-temple-donation-controversy-congress-ayodhya-fund-allegations-probe-10742371/">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNYndHMTBGNkpjWkVKczhuanpTY2M0bE4tYVQyTG5wb0pmOVZzZG9Ud2NFbGs5UWQtZ1czMmd4MjVzbHhESm5nYk5nTmswWFNtY0tuOHRnYUVJQzRQRmpGbG1xZEthUEt4bFhGeDlBU3lSTlM5NjZCeThTRF90WVNaTG1wWC1LLTYyaFF6VnE1Qk5xam9NX0daTk9IT3JJaDh2eGpSUVI5Z3FleTVSS1RHRm4wTdIBuAFBVV95cUxOVTJaaGFoSlYybkJCMlpYNnRIUTFPYmhtVjZhUUhxa3drV0FoY1VaeVZCa2FGbEZud1JMR0phS253bmZsUzFSakVzMGhKM216Vl82OHBrZnA3X0J0ZnJubThkNW1aSWExb3JOdm1JVFVrTXdVREVqNVN5N2ktQ3NWcEJjWXJUX3l1dmV2Qk00dk5OX3BUYTdXdmI3a1VrV3NSQ1NtemRKVVprUUVMZ0cyM2JrakR6bUph?oc=5">India's Electricity Reforms Need a State-Level Systems Upgrade</a></h2>
+        <p class="summary">A policy analysis argues that India's electricity sector reforms — tariff rationalisation, distribution company privatisation, renewable integration — are stalling because the central government is pushing national frameworks onto states that lack the administrative and technical capacity to implement them. The piece argues for a state-by-state diagnostic and customised reform roadmap rather than a one-size-fits-all national mandate.</p>
+        <p class="takeaway"><b>Key takeaway:</b> India's power sector reforms are failing at implementation, not at design — the gap is state-level capacity, not national policy ambition.</p>
+        <p class="why"><b>Why it matters:</b> Rajasthan is among the states with the most challenged distribution companies (DISCOMs). As a Jaipur-based reader, the gap between national clean energy targets and local grid reliability — frequent outages, rural supply shortfalls — is a lived experience that this analysis directly explains.</p>
+        <p class="meta">Google News · Jun 17 · <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNYndHMTBGNkpjWkVKczhuanpTY2M0bE4tYVQyTG5wb0pmOVZzZG9Ud2NFbGs5UWQtZ1czMmd4MjVzbHhESm5nYk5nTmswWFNtY0tuOHRnYUVJQzRQRmpGbG1xZEthUEt4bFhGeDlBU3lSTlM5NjZCeThTRF90WVNaTG1wWC1LLTYyaFF6VnE1Qk5xam9NX0daTk9IT3JJaDh2eGpSUVI5Z3FleTVSS1RHRm4wTdIBuAFBVV95cUxOVTJaaGFoSlYybkJCMlpYNnRIUTFPYmhtVjZhUUhxa3drV0FoY1VaeVZCa2FGbEZud1JMR0phS253bmZsUzFSakVzMGhKM216Vl82OHBrZnA3X0J0ZnJubThkNW1aSWExb3JOdm1JVFVrTXdVREVqNVN5N2ktQ3NWcEJjWXJUX3l1dmV2Qk00dk5OX3BUYTdXdmI3a1VrV3NSQ1NtemRKVVprUUVMZ0cyM2JrakR6bUph?oc=5">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://images.indianexpress.com/2026/06/hemant-soren-babulal-marandi-composite.jpg" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://indianexpress.com/article/india/jharkhand-rajya-sabha-elections-bjp-nda-mlas-ranchi-10742734/">BJP corrals its MLAs before Jharkhand Rajya Sabha election in classic resort politics</a></h2>
-      <p class="summary">The BJP has reportedly begun moving its legislators to an undisclosed resort ahead of Rajya Sabha elections in Jharkhand — a pre-emptive move against poaching attempts by rival parties. The tactic is a feature of Indian coalition-era democracy, familiar from multiple states over the past decade.</p>
-      <p class="why"><b>Why it matters:</b> Context for the world you operate in. Rajya Sabha composition directly affects which legislation passes and which doesn't — including several digital and technology bills currently in the pipeline. The composition after these elections will matter for policy outcomes over the next two years.</p>
-      <p class="meta">Indian Express · <a href="https://indianexpress.com/article/india/jharkhand-rajya-sabha-elections-bjp-nda-mlas-ranchi-10742734/">Read the original →</a></p>
-    </article>
-
-  </section>
-</main>
-<footer class="colophon">Edition No. 2 · June 17, 2026 · 49 stories across 11 sections · 33 RSS sources scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
+      <article>
+        <h2><a href="https://www.thehindu.com/news/national/what-does-tenth-schedule-provide-on-party-mergers/">What Does the Tenth Schedule Actually Say About Party Mergers?</a></h2>
+        <p class="summary">The Hindu examines the constitutional and legal questions around the Tenth Schedule's anti-defection provisions following increased use of the merger exception — which allows defection if at least two-thirds of a party's legislative members agree to merge with another party. The piece analyses why misuse of this provision has increased since paragraph 3 (which previously required parliamentary recognition of mergers) was deleted in 2003.</p>
+        <p class="takeaway"><b>Key takeaway:</b> A 2003 amendment removed the check on merger-based defection — and India has been paying the price through constitutional instability in state legislatures ever since.</p>
+        <p class="why"><b>Why it matters:</b> Understanding India's anti-defection law is essential context for reading state-level political volatility, including in Rajasthan where floor-crossing has repeatedly destabilised elected governments. The constitutional architecture matters as much as the political personalities.</p>
+        <p class="meta">The Hindu · Jun 16 · <a href="https://www.thehindu.com/news/national/what-does-tenth-schedule-provide-on-party-mergers/">Read the original →</a></p>
+      </article>
+    </div>
+  </main>
+  <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

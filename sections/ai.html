@@ -5,98 +5,134 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Daily Cactus — AI — June 17, 2026</title>
 <style>
-  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e}
+  :root{
+    --paper:#faf6ee; --ink:#1d1d1b; --muted:#6b675e;
+    --accent:#2f6f4f; --rule:#d8d2c4; --highlight:#b3542e; --beta:#7a5cc4;
+  }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:880px;margin:0 auto;padding:24px 20px 60px}
+  body{background:var(--paper);color:var(--ink);
+       font-family:Georgia,'Times New Roman',serif;line-height:1.55;
+       max-width:1040px;margin:0 auto;padding:24px 24px 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
-  .masthead h1{font-size:clamp(34px,7vw,56px);letter-spacing:1px;font-weight:700}
-  .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px}
+  .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
+  .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;
+       color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
+      padding:12px 0;border-bottom:1px solid var(--rule);
+      font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
-  .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  nav .sep{color:var(--rule);margin:0 12px;user-select:none}
+  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);
+       border-bottom:1px solid var(--rule);padding-bottom:4px;
+       text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
-  article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
+  article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
-  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;
+       margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
-  .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
+  .takeaway{margin-bottom:6px;font-size:15px}
+  .takeaway b{color:var(--highlight);letter-spacing:.3px}
+  .why{background:#f1ead9;border-left:3px solid var(--accent);
+       padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
-  .developing{display:inline-block;background:var(--highlight);color:#fff;font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;border-radius:3px;margin-bottom:6px;letter-spacing:1px}
-  .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  .developing{display:inline-block;background:var(--highlight);color:#fff;
+       font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;
+       border-radius:3px;margin-bottom:6px;letter-spacing:1px}
+  .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);
+       text-align:center;font-family:'Courier New',monospace;
+       font-size:12px;color:var(--muted)}
+  @media (max-width:760px){
+    body{padding:18px 16px 48px}
+    .grid{grid-template-columns:1fr;column-gap:0}
+    .story-img{width:96px;height:68px;margin-left:10px}
+    nav .sep{margin:0 8px}
+  }
 </style>
 </head>
 <body>
-<header class="masthead">
-  <h1>The Daily Cactus 🌵</h1>
-  <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
-</header>
-<nav>
-  <a href="../index.html">Front Page</a>
-  <a href="ai.html" class="active">AI</a>
-  <a href="deep-tech.html">Deep Tech</a>
-  <a href="climate-energy.html">Climate &amp; Energy</a>
-  <a href="health-tech.html">Health Tech</a>
-  <a href="agritech.html">Agritech</a>
-  <a href="indian-startups.html">Indian Startups</a>
-  <a href="global-economics.html">Global Econ</a>
-  <a href="india.html">India</a>
-  <a href="world.html">World</a>
-  <a href="other-interests.html">Other Interests</a>
-  <a href="remainder.html">Remainder</a>
-</nav>
-<main>
-  <section>
-    <h2 class="section-title">AI</h2>
+  <header class="masthead">
+    <h1>The Daily Cactus 🌵</h1>
+    <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
+  </header>
 
-    <article>
-      <h2><a href="https://www.bbc.com/news/articles/cvgd5g7d7gyo">SpaceX acquires Cursor, the AI coding tool that dev teams adopted en masse</a></h2>
-      <p class="summary">SpaceX has agreed to acquire Cursor, the AI-powered code editor that captured the developer workflow market at remarkable speed. The deal consolidates one of the most widely used AI developer tools under Elon Musk's aerospace empire, which also owns the xAI lab. No purchase price has been disclosed.</p>
-      <p class="why"><b>Why it matters:</b> AI coding infrastructure is consolidating fast and the independent alternatives are shrinking. For teams building with AI, this means more scrutiny on developer tooling vendor lock-in. It's the clearest signal yet that Musk is assembling a vertically integrated AI-to-compute-to-software stack — and that the "distribution moat" for AI tools is being captured by corporate absorption.</p>
-      <p class="meta">BBC News · <a href="https://www.bbc.com/news/articles/cvgd5g7d7gyo">Read the original →</a></p>
-    </article>
+  <nav>
+    <a href="../index.html">Front Page</a><span class="sep">·</span>
+    <a href="ai.html" class="active">AI</a><span class="sep">·</span>
+    <a href="deep-tech.html">Deep Tech</a><span class="sep">·</span>
+    <a href="climate-energy.html">Climate &amp; Energy</a><span class="sep">·</span>
+    <a href="health-tech.html">Health Tech</a><span class="sep">·</span>
+    <a href="agritech.html">Agritech</a><span class="sep">·</span>
+    <a href="indian-startups.html">Indian Startups</a><span class="sep">·</span>
+    <a href="global-economics.html">Global Economics</a><span class="sep">·</span>
+    <a href="india.html">India</a><span class="sep">·</span>
+    <a href="world.html">World</a><span class="sep">·</span>
+    <a href="other-interests.html">Other Interests</a><span class="sep">·</span>
+    <a href="opportunities.html">Opportunities</a><span class="sep">·</span>
+    <a href="remainder.html">Remainder</a><span class="sep">·</span>
+    <a href="../archive/index.html">Archive</a>
+  </nav>
 
-    <article>
-      <span class="developing">📈 DEVELOPING</span>
-      <h2><a href="https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827">No jailbreak needed: Fable 5 generated dangerous code output from a routine developer prompt</a></h2>
-      <p class="summary">A security researcher found that Anthropic's Fable 5 model produced code with serious security implications when given a simple "fix this code" instruction — no jailbreak, no adversarial prompt engineering required. US federal officials were alarmed enough to treat it as a red-flag safety event, according to The Register. The researcher emphasised this was a standard development workflow, not a stress test.</p>
-      <p class="why"><b>Why it matters:</b> If frontier AI can be steered toward harmful outputs through ordinary dev tasks, the "responsible deployment" frameworks that enterprises, investors, and regulators rely on need rethinking from first principles. For anyone advising on AI adoption or building AI-integrated products, this belongs in your next risk assessment — not your footnotes.</p>
-      <p class="meta">Earlier: Trump's voluntary AI EO (June 2) required model review and a cybersecurity clearinghouse; Colorado's AI consumer protection act takes effect June 30 — the first US state-level AI liability law. · The Register · <a href="https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827">Read the original →</a></p>
-    </article>
+  <main>
+    <div class="grid">
+      <h2 class="section-title">AI</h2>
 
-    <article>
-      <img class="story-img" src="https://wp.technologyreview.com/wp-content/uploads/2026/06/26-05-27-MIT-TECH-01-Interior-1-FIN-cmyk_1.jpg?w=1425" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/">AI data centers are learning to flex their power draw to keep grids stable</a></h2>
-      <p class="summary">MIT Technology Review reports on a growing practice: data centers agreeing to curtail electricity draw during grid stress events, in exchange for preferential pricing or faster interconnection approvals. As AI compute demand strains power infrastructure worldwide, flexible demand is becoming the fastest lever utilities have — without waiting years for new generation capacity to come online.</p>
-      <p class="why"><b>Why it matters:</b> India is building data center capacity aggressively, and CERC and state DISCOMs are already debating flex-demand frameworks. This model — flex agreements as a condition of grid access — is becoming standard globally. For founders and strategists in Indian energy tech and AI infrastructure, this is near-term policy context, not a distant best practice.</p>
-      <p class="meta">MIT Technology Review · <a href="https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/">Anthropic's Trump Feud May Be Boosting Enterprise Sales, Ramp Data Suggests</a></h2>
+        <p class="summary">Anthropic's public disputes with the Trump administration over AI safety and governance appear to be benefiting rather than hurting its commercial prospects. Corporate card data from Ramp shows accelerating enterprise spending on Claude products even as the political friction intensifies — suggesting enterprise buyers are treating Anthropic's policy positioning as a positive brand signal.</p>
+        <p class="takeaway"><b>Key takeaway:</b> AI governance posture is now a commercial differentiator, not just a regulatory compliance exercise.</p>
+        <p class="why"><b>Why it matters:</b> For Indian AI builders targeting global enterprise, this is a strategic data point: values alignment with buyers matters as much as benchmark performance. The market is segmenting by politics as well as capability.</p>
+        <p class="meta">TechCrunch · Jun 16 · <a href="https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/">Why South Korea adopted AI faster and more deeply than almost any other country</a></h2>
-      <p class="summary">MIT Technology Review's on-the-ground piece from Seoul finds that South Korea's embrace of AI spans immigration checkpoints, subway systems, clinics, and convenience stores — not just tech companies. The piece attributes this to cultural pragmatism about efficiency, government co-investment, and a manufacturing-led economy hungry for automation tools.</p>
-      <p class="why"><b>Why it matters:</b> India's AI adoption is concentrated in IT services and a few consumer apps — far less woven into public systems. South Korea is a useful comparison: not a US-style tech hub, but a country that industrialised AI deployment. India's "sovereign AI" ambitions (see: Sarvam's unicorn round) need to engage the deployment question, not just the model-building one.</p>
-      <p class="meta">MIT Technology Review · <a href="https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://wp.technologyreview.com/wp-content/uploads/2026/06/26-05-27-MIT-TECH-01-Interior-1-FIN-cmyk_1.jpg?w=1425" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/">Data Centers Are Getting Online Faster by Offering Grid Flexibility</a></h2>
+        <p class="summary">A new generation of data centers is gaining faster grid connections by committing to "flex" — agreeing to curtail power during peak demand periods. The arrangement gives utilities the flexibility they need to approve connections quickly, bypassing years-long interconnection queues. But critics warn it creates a two-tier power grid where AI compute gets priority access.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Flexible load commitments are becoming the key to unlocking data center capacity in constrained grids.</p>
+        <p class="why"><b>Why it matters:</b> India's data center boom faces identical grid congestion problems. The flex model could accelerate Indian AI infrastructure build-out if CERC adopts similar interruptible-load frameworks for Tier 2 cities.</p>
+        <p class="meta">MIT Technology Review · Jun 16 · <a href="https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://gmalandrakis.com/writings/ad-economicum.html">AI plus robotics makes a nearly peopleless economy technically conceivable — the debate is about who decides</a></h2>
-      <p class="summary">An essay circulating widely on Hacker News argues that AI combined with robotics has crossed a threshold where a "peopleless economy" — production and services running with a tiny fraction of current human labour — is now technically plausible, even if politically and socially implausible in the near term. The post generated 241 points and 453 comments, a signal that the idea resonates strongly with engineers and technologists.</p>
-      <p class="why"><b>Why it matters:</b> The debate matters less for its conclusions and more for what it tells you about the mental model dominant in AI labs and VC right now. Strategy and Founder's Office roles touching AI policy need to be fluent in this argument — it's already shaping product roadmaps and investment theses across the sector.</p>
-      <p class="meta">HackerNews / gmalandrakis.com · <a href="https://gmalandrakis.com/writings/ad-economicum.html">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/">Android 17 Ships With Gemini Embedded at OS Level — AI Is Now the Interface</a></h2>
+        <p class="summary">Google released Android 17 and Wear OS 7, bringing expanded Gemini features into the OS layer — not just as an app but as a system-level AI that acts across applications. New multitasking tools, parental controls, and smartwatch upgrades are bundled alongside AI features that handle scheduling, translation, and cross-app actions without leaving the home screen.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Google has made Gemini the default AI layer of Android, locking 3 billion devices into its AI distribution channel.</p>
+        <p class="why"><b>Why it matters:</b> India has the world's largest Android user base. Gemini at the OS level means Indian consumers encounter Google's AI — not local competitors — as their default interface, raising questions about market access for India-first models like Sarvam.</p>
+        <p class="meta">TechCrunch · Jun 16 · <a href="https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2 style="font-size:16px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;font-family:'Courier New',monospace;margin-bottom:8px;">AI Tools &amp; Releases</h2>
-      <p class="summary">This week's most significant tool move is the <strong>Cursor acquisition by SpaceX</strong> — covered above. The key observation: AI coding infrastructure is consolidating rapidly, and teams that built workflows around Cursor's independence should begin evaluating contingency options. The product roadmap may shift materially under Musk's ownership priorities.</p>
-    </article>
+      <article>
+        <h2><a href="https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/">60% of US Consumers Say "AI" in Brand Messaging Is a Turnoff</a></h2>
+        <p class="summary">A WordPress VIP survey found that 60% of US consumers are put off when brands explicitly mention AI in their marketing — even as those same companies increasingly invest in AI-powered tools. The gap between enterprise AI enthusiasm and consumer AI scepticism is widening, with younger consumers only marginally more tolerant.</p>
+        <p class="takeaway"><b>Key takeaway:</b> "AI-powered" is becoming the new "e-" prefix — a term that signals hype more than value to consumers.</p>
+        <p class="why"><b>Why it matters:</b> Indian consumer brands rushing to slap AI labels on products risk the same backlash. The signal: invest in AI capabilities, but let the product speak — don't lead with the label.</p>
+        <p class="meta">TechCrunch · Jun 16 · <a href="https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/">Read the original →</a></p>
+      </article>
 
-  </section>
-</main>
-<footer class="colophon">Edition No. 2 · June 17, 2026 · 49 stories across 11 sections · 33 RSS sources scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
+      <article>
+        <h2><a href="https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/">DOJ Says xAI's Unpermitted Gas Turbines Are a National Security Matter</a></h2>
+        <p class="summary">The US Justice Department intervened to argue that xAI's unpermitted methane gas turbines at its Memphis, Tennessee data center should be allowed to continue operating because the Pentagon needs them. The DOJ urged a federal judge to dismiss an NAACP pollution lawsuit, framing a private AI company's illegal generators as critical national infrastructure.</p>
+        <p class="takeaway"><b>Key takeaway:</b> The US government is now explicitly subordinating environmental law to AI compute access — a precedent with global implications.</p>
+        <p class="why"><b>Why it matters:</b> If compute equals national security, every environmental and zoning constraint on AI infrastructure becomes negotiable. This sets a template other governments — including India's — may reference when fast-tracking AI campus permits near sensitive areas.</p>
+        <p class="meta">TechCrunch · Jun 16 · <a href="https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/">Read the original →</a></p>
+      </article>
+
+      <article>
+        <h2><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSXVLY0ZoSnFndDlLRkxjTFFxX0tKZkNOakVrZmhYdEVkLS02VGdTZ1VsZUtpRE9wQXNmYmFva3NXZG1QOXJnVHJkM29XZDVRMVZyaWdqbUR1d1N5V0JSbUtOb3FweHRBZkNiTzI1TlB1V3FCZERtQ2FOSUdIRk5RNFZuWVh0eWgxOVoxUXgzTEhXY2NjYmxQRlRoUVk1OHUxenJaejNHYTgwOFhmNVl5d3Q5ZVJnOUpTUTBOU3JkX1k?oc=5">Maharashtra Launches AI Policy 2026 to Attract Investment and Create Tech Jobs</a></h2>
+        <p class="summary">The Maharashtra government announced its Artificial Intelligence Policy 2026, aiming to attract large AI investments to the state, create high-skilled employment, and establish the Mumbai-Pune corridor as a hub for AI research and deployment. The policy includes incentives for AI startups, data centre developers, and skill development programmes.</p>
+        <p class="takeaway"><b>Key takeaway:</b> India's largest state economy is now officially competing for AI investment — with policy muscle behind the pitch.</p>
+        <p class="why"><b>Why it matters:</b> Maharashtra's policy adds to a growing set of state-level AI frameworks (Telangana, Karnataka, Tamil Nadu). The policy race is creating localised AI ecosystems, which is good for job creation but risks fragmenting India's data governance and talent pipeline if states diverge on regulation.</p>
+        <p class="meta">Google News (Maharashtra Govt) · Jun 16 · <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSXVLY0ZoSnFndDlLRkxjTFFxX0tKZkNOakVrZmhYdEVkLS02VGdTZ1VsZUtpRE9wQXNmYmFva3NXZG1QOXJnVHJkM29XZDVRMVZyaWdqbUR1d1N5V0JSbUtOb3FweHRBZkNiTzI1TlB1V3FCZERtQ2FOSUdIRk5RNFZuWVh0eWgxOVoxUXgzTEhXY2NjYmxQRlRoUVk1OHUxenJaejNHYTgwOFhmNVl5d3Q5ZVJnOUpTUTBOU3JkX1k?oc=5">Read the original →</a></p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>

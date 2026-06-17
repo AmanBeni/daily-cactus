@@ -3,94 +3,104 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Cactus — Climate &amp; Energy — June 17, 2026</title>
+<title>[Archive] The Daily Cactus — Climate &amp; Energy — June 17, 2026</title>
 <style>
-  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e}
+  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e;--beta:#7a5cc4}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:880px;margin:0 auto;padding:24px 20px 60px}
+  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:1040px;margin:0 auto;padding:24px 24px 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
-  .masthead h1{font-size:clamp(34px,7vw,56px);letter-spacing:1px;font-weight:700}
+  .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
   .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
-  .section-title{font-size:22px;margin:34px 0 6px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  nav .sep{color:var(--rule);margin:0 12px;user-select:none}
+  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
-  article h2{font-size:21px;line-height:1.3;margin-bottom:6px}
+  article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:140px;height:96px;object-fit:cover;margin:2px 0 10px 16px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
-  @media(max-width:560px){.story-img{width:100px;height:72px;margin-left:10px}}
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
+  .takeaway{margin-bottom:6px;font-size:15px}
+  .takeaway b{color:var(--highlight);letter-spacing:.3px}
   .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
   .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  @media (max-width:760px){body{padding:18px 16px 48px}.grid{grid-template-columns:1fr;column-gap:0}.story-img{width:96px;height:68px;margin-left:10px}nav .sep{margin:0 8px}}
 </style>
 </head>
 <body>
-<header class="masthead">
-  <h1>The Daily Cactus 🌵</h1>
-  <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
-</header>
-<nav>
-  <a href="../index.html">Front Page</a>
-  <a href="ai.html">AI</a>
-  <a href="deep-tech.html">Deep Tech</a>
-  <a href="climate-energy.html" class="active">Climate &amp; Energy</a>
-  <a href="health-tech.html">Health Tech</a>
-  <a href="agritech.html">Agritech</a>
-  <a href="indian-startups.html">Indian Startups</a>
-  <a href="global-economics.html">Global Econ</a>
-  <a href="india.html">India</a>
-  <a href="world.html">World</a>
-  <a href="other-interests.html">Other Interests</a>
-  <a href="remainder.html">Remainder</a>
-</nav>
-<main>
-  <section>
-    <h2 class="section-title">Climate &amp; Energy</h2>
+  <header class="masthead">
+    <h1>The Daily Cactus 🌵</h1>
+    <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
+  </header>
+  <nav>
+    <a href="../index.html">Front Page</a><span class="sep">·</span>
+    <a href="ai.html">AI</a><span class="sep">·</span>
+    <a href="deep-tech.html">Deep Tech</a><span class="sep">·</span>
+    <a href="climate-energy.html" class="active">Climate &amp; Energy</a><span class="sep">·</span>
+    <a href="health-tech.html">Health Tech</a><span class="sep">·</span>
+    <a href="agritech.html">Agritech</a><span class="sep">·</span>
+    <a href="indian-startups.html">Indian Startups</a><span class="sep">·</span>
+    <a href="global-economics.html">Global Economics</a><span class="sep">·</span>
+    <a href="india.html">India</a><span class="sep">·</span>
+    <a href="world.html">World</a><span class="sep">·</span>
+    <a href="other-interests.html">Other Interests</a><span class="sep">·</span>
+    <a href="opportunities.html">Opportunities</a><span class="sep">·</span>
+    <a href="remainder.html">Remainder</a><span class="sep">·</span>
+    <a href="../../index.html">Archive</a>
+  </nav>
+  <main>
+    <div class="grid">
+      <h2 class="section-title">Climate &amp; Energy</h2>
 
-    <article>
-      <img class="story-img" src="https://www.carbonbrief.org/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-10.40.53-1024x529.png" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Better ACs could save Indian households ₹69 billion a year, analysis finds</a></h2>
-      <p class="summary">A Carbon Brief analysis finds that switching to higher-efficiency air-conditioning units across India could collectively save households ₹69 billion ($724 million) annually. With AC ownership expanding rapidly amid heatwaves, the gap between cheap and premium models creates a hidden affordability trap: people buy cheap, then pay more on electricity over the appliance's lifetime.</p>
-      <p class="why"><b>Why it matters:</b> India's cooling load is one of the largest forces shaping future grid demand. This is both a market signal and a governance challenge — appliance efficiency standards, not just consumer choice, will determine which direction India's power bill and carbon trajectory goes. For climate tech founders and energy investors, the addressable market here is enormous and the policy lever is within reach.</p>
-      <p class="meta">Carbon Brief · <a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://www.carbonbrief.org/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-10.40.53-1024x529.png" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Energy-Efficient ACs Could Save Indian Households ₹69 Billion a Year</a></h2>
+        <p class="summary">A CarbonBrief analysis models what would happen if India's entire AC stock shifted to 5-star BEE-rated units: households would collectively save ₹69 billion ($724 million) annually in electricity costs. With India's AC penetration on course to jump from around 10% today toward 40% by 2040, the efficiency standards set in this decade will shape the country's energy trajectory for a generation.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Appliance standards — not carbon taxes — are India's most actionable climate tool, and the savings accrue directly to households.</p>
+        <p class="why"><b>Why it matters:</b> India is poised for the largest AC adoption boom in history. Lock in low-efficiency units now and peak summer grid demand will overwhelm power infrastructure by 2035. Lock in 5-star, and India avoids the equivalent energy load of several mid-sized states.</p>
+        <p class="meta">Carbon Brief · Jun 16 · <a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <img class="story-img" src="https://www.carbonbrief.org/wp-content/uploads/2026/06/UKs-EV-drivers-are-now-saving-1100-a-year-–-and-3bn-in-total.png" alt="" onerror="this.style.display='none'">
-      <h2><a href="https://www.carbonbrief.org/analysis-uks-ev-drivers-are-now-saving-1100-each-a-year-and-3bn-in-total/">UK EV drivers are saving £1,100 a year each — even as the government mulls weakening EV targets</a></h2>
-      <p class="summary">A Carbon Brief analysis finds that UK drivers who switched to electric vehicles are now collectively saving £3 billion annually against petrol equivalents, averaging £1,100 per car per year. The data arrives amid reports that the UK government is considering weakening its EV mandate, making the consumer economics case for EVs increasingly hard to argue against from first principles.</p>
-      <p class="why"><b>Why it matters:</b> India's EV transition faces the same dynamic: the economics of EVs are improving faster than policy is moving. The UK data point — undeniable consumer savings even at current energy prices — is useful ammunition for anyone pushing EV adoption in B2C or fleet contexts in India.</p>
-      <p class="meta">Carbon Brief · <a href="https://www.carbonbrief.org/analysis-uks-ev-drivers-are-now-saving-1100-each-a-year-and-3bn-in-total/">Read the original →</a></p>
-    </article>
+      <article>
+        <img class="story-img" src="https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1350384252-500x500.jpg" alt="" onerror="this.style.display='none'">
+        <h2><a href="https://arstechnica.com/science/2026/06/trump-admin-abandons-fight-against-wind-energy-as-clean-energy-output-surges/">Trump Admin Quietly Abandons Fight Against Wind Energy as Output Surges</a></h2>
+        <p class="summary">Legal victories by wind energy developers have effectively ended the Trump administration's two-year campaign to halt offshore and onshore wind expansion in the United States. Clean energy output — wind, solar, and storage combined — has surged to record levels, with wind alone covering 14% of US electricity generation in May 2026, its highest ever share.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Market forces and legal precedent defeated executive hostility to wind energy — a lesson in how energy infrastructure outlasts political cycles.</p>
+        <p class="why"><b>Why it matters:</b> For Indian renewable policy, the US case confirms that once wind and solar reach scale, they become politically entrenched — contracted capacity, supply chains, and jobs are too large to unwind. India's 2030 target of 500 GW renewables is past the point of political reversal.</p>
+        <p class="meta">Ars Technica · Jun 16 · <a href="https://arstechnica.com/science/2026/06/trump-admin-abandons-fight-against-wind-energy-as-clean-energy-output-surges/">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.canarymedia.com/articles/solar/solar-wind-trump-obstacles-tax-credits">US solar and wind developers have weeks to lock in federal incentives before Trump's July 4 deadline kills them</a></h2>
-      <p class="summary">After the One Big Beautiful Bill Act set July 4, 2026 as a drop-dead date for new solar and wind projects to qualify for federal tax credits, developers are in a race to secure site control, interconnection agreements, and financing. Post-deadline, incentives available to new projects drop sharply, effectively closing a significant window of US renewable expansion.</p>
-      <p class="why"><b>Why it matters:</b> US renewable energy policy volatility directly affects global supply chains for solar panels and wind components — of which India is both a significant buyer and an emerging manufacturer. A US market contraction could flood global markets with excess capacity, benefiting Indian developers but hurting Indian manufacturers trying to compete on scale.</p>
-      <p class="meta">Canary Media · <a href="https://www.canarymedia.com/articles/solar/solar-wind-trump-obstacles-tax-credits">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://www.theguardian.com/environment/2026/jun/16/arctic-sea-ice-rethickening-climate-geoengineering">Scientists Are Trying to Refreeze the Arctic — and Early Signs Are Promising</a></h2>
+        <p class="summary">A bold attempt to artificially rethicken Arctic sea ice using pumps that bring cold seawater to the surface during polar winters is showing early positive results in small-scale trials. The geoengineering approach — once dismissed as science fiction — has gained credibility as Arctic sea ice decline accelerates beyond IPCC models.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Arctic geoengineering has moved from thought experiment to field trial — the urgency of sea ice loss is forcing climate scientists to consider interventions they once ruled out.</p>
+        <p class="why"><b>Why it matters:</b> Arctic albedo loss is accelerating global warming in a feedback loop that affects monsoon patterns in South Asia. An intervention that slows Arctic melt has potential co-benefits for Indian agriculture via stabilised monsoon behaviour.</p>
+        <p class="meta">The Guardian · Jun 16 · <a href="https://www.theguardian.com/environment/2026/jun/16/arctic-sea-ice-rethickening-climate-geoengineering">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.canarymedia.com/articles/solar/new-york-gov-sign-balcony-solar-bill">New York apartment dwellers may finally be able to tap solar power — if the governor signs</a></h2>
-      <p class="summary">New York state legislators have passed the SUNNY Act, which would legalise "plug-in" solar panels that attach to apartment balconies and connect directly to a standard outlet. Governor Hochul has not yet signed. The policy would open distributed solar to the millions of New Yorkers who rent or live in condos and have been excluded from conventional rooftop solar programmes.</p>
-      <p class="why"><b>Why it matters:</b> India has the same problem at scale — the vast majority of urban Indians live in apartments and cannot access rooftop solar. India's MNRE is slowly working toward similar rules. New York's policy experiment, and its results, will be relevant evidence for Indian regulators and distributed energy startups.</p>
-      <p class="meta">Canary Media · <a href="https://www.canarymedia.com/articles/solar/new-york-gov-sign-balcony-solar-bill">Read the original →</a></p>
-    </article>
+      <article>
+        <h2><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTXdiSUk0WmZTMlFrNWRpZFk5TExyMmItVmxRa3A2X0MzYlFLV0tlMXpwRE13eHJvLXlWTGxPb3pCYkNUT3hoSlRuX3VVTVRCLThrR1ZuYXpwZ1ByOGdPTUw3SEttUXIzTG1YNllGMU1DU2JwRmhNWW1qVXo2bnlxWFdwSzdMeU8zUWZPVG1uM1FlMUxNbGxxcEZRQWp2MHBGU0xZeHBuVXo0REV2R3YxOEZrWk5KOW96WHA2dzZzN0g?oc=5">82% of Indians Back Coal-to-Clean Energy Transition, Yale-CVoter Survey Finds</a></h2>
+        <p class="summary">A Yale University and CVoter joint survey finds that 82% of Indian respondents support transitioning away from coal toward clean energy — a striking figure given India's dependence on coal for 70% of power generation. Support is broadly distributed across regions and income levels, though affordability concerns are the most cited barrier to personal adoption of clean technologies.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Indian public opinion is far ahead of coal industry lobbying on energy transition — a political opening that governments have largely failed to exploit.</p>
+        <p class="why"><b>Why it matters:</b> Indian climate policy often cites lack of public support as a constraint. This data suggests the real constraints are economic and industrial, not democratic — which changes the policy problem from "how do we build support" to "how do we manage transition costs."</p>
+        <p class="meta">Google News (Yale-CVoter) · Jun 16 · <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTXdiSUk0WmZTMlFrNWRpZFk5TExyMmItVmxRa3A2X0MzYlFLV0tlMXpwRE13eHJvLXlWTGxPb3pCYkNUT3hoSlRuX3VVTVRCLThrR1ZuYXpwZ1ByOGdPTUw3SEttUXIzTG1YNllGMU1DU2JwRmhNWW1qVXo2bnlxWFdwSzdMeU8zUWZPVG1uM1FlMUxNbGxxcEZRQWp2MHBGU0xZeHBuVXo0REV2R3YxOEZrWk5KOW96WHA2dzZzN0g?oc=5">Read the original →</a></p>
+      </article>
 
-    <article>
-      <h2><a href="https://www.canarymedia.com/articles/transmission/new-england-hydropower-transmission-line">A major renewable energy transmission line has been running for five months — and the early data is ambiguous</a></h2>
-      <p class="summary">The New England Clean Energy Connect line, which began transmitting Canadian hydropower into Maine in January, has now operated for nearly six months. The early numbers are mixed enough to raise questions about whether the project will deliver its projected clean energy impact, despite being celebrated as a renewable milestone at launch.</p>
-      <p class="why"><b>Why it matters:</b> India is building interstate renewable transmission aggressively. Large transmission infrastructure projects routinely undershoot optimistic projections in early years. This is useful groundtruth for anyone modelling Indian grid expansion timelines — or evaluating the credibility of transmission infrastructure promises.</p>
-      <p class="meta">Canary Media · <a href="https://www.canarymedia.com/articles/transmission/new-england-hydropower-transmission-line">Read the original →</a></p>
-    </article>
-
-  </section>
-</main>
-<footer class="colophon">Edition No. 2 · June 17, 2026 · 49 stories across 11 sections · 33 RSS sources scanned · 21 ok · 12 failed · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
+      <article>
+        <h2><a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOdFN1c21pSTJaVnVlcDluWDlNNDlFWUxUR01lSkZ5TFJlTmdlRURpVjNpMlhrakJ3N3pXWXphSU8yNVRoVGxhOURVU1dOVnloVXZZNHNRZTIwZW5RTmUybXRpR1lpSURSREhJeWdZTWFvQ3lKNUpmbEQ1cW1kcUF2V21VVjY1Mm9SaGlMTEJ0YlJvaTZnTDdnNF9RUTd5VV9ZeXBJZnoxZ0xMeDBSa1ZHaS0weTdoc0ZxU29XcXR2a19IRG1JemJUd0V5TGdpdHfSAdYBQVVfeXFMTk42OV9VWnU2aUt5bERRVkU0NVA1RGpWOFA4QnZTS3RadVFyVHhEWV81Nm1TOEoyaGdqeEdBc3p4bHl0S0hkSExjc18zejBlS1h4dlgxU2h3SW50Z29wdU9xem9JS0c0NC1vdDk3TW1rZG1jRms1NjZNRzduekJvYk1lb1JTVjRPeWhjT3JYSUhyZU5IS3FMVzVQNGtjNGJ5Y0RoTUxFbXVBRGRyX0lPUC1FeGpRZGQ5cjI4NXlWWHhXblc0R3VzcVJ3eENEN2doWE9tMk8xUQ?oc=5">Solar-Integrated Rail and Road Infrastructure Could Power India's Clean Energy Transition</a></h2>
+        <p class="summary">An expert analysis explores how deploying solar panels along India's vast rail and road network — covering canopies over highways, rail corridors, and station rooftops — could contribute significantly to India's 500 GW renewable target while also generating local employment and reducing land acquisition conflicts that plague large solar parks.</p>
+        <p class="takeaway"><b>Key takeaway:</b> India's linear infrastructure — 70,000+ km of rail, 6+ million km of roads — is an under-utilised solar surface area sitting in plain sight.</p>
+        <p class="why"><b>Why it matters:</b> Land acquisition is one of the biggest bottlenecks for Indian solar expansion. Deploying on existing rights-of-way bypasses this entirely while keeping projects closer to demand centres. The policy enabling framework exists; it needs scale.</p>
+        <p class="meta">Google News · Jun 16 · <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOdFN1c21pSTJaVnVlcDluWDlNNDlFWUxUR01lSkZ5TFJlTmdlRURpVjNpMlhrakJ3N3pXWXphSU8yNVRoVGxhOURVU1dOVnloVXZZNHNRZTIwZW5RTmUybXRpR1lpSURSREhJeWdZTWFvQ3lKNUpmbEQ1cW1kcUF2V21VVjY1Mm9SaGlMTEJ0YlJvaTZnTDdnNF9RUTd5VV9ZeXBJZnoxZ0xMeDBSa1ZHaS0weTdoc0ZxU29XcXR2a19IRG1JemJUd0V5TGdpdHfSAdYBQVVfeXFMTk42OV9VWnU2aUt5bERRVkU0NVA1RGpWOFA4QnZTS3RadVFyVHhEWV81Nm1TOEoyaGdqeEdBc3p4bHl0S0hkSExjc18zejBlS1h4dlgxU2h3SW50Z29wdU9xem9JS0c0NC1vdDk3TW1rZG1jRms1NjZNRzduekJvYk1lb1JTVjRPeWhjT3JYSUhyZU5IS3FMVzVQNGtjNGJ5Y0RoTUxFbXVBRGRyX0lPUC1FeGpRZGQ5cjI4NXlWWHhXblc0R3VzcVJ3eENEN2doWE9tMk8xUQ?oc=5">Read the original →</a></p>
+      </article>
+    </div>
+  </main>
+  <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>
