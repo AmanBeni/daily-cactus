@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-16T14:48:54.431722+00:00",
+  "generated_at": "2026-06-17T02:01:42.491959+00:00",
   "stats": {
     "feeds_total": 33,
     "feeds_ok": 21,
     "feeds_failed": 12,
-    "total_entries": 98
+    "total_entries": 100
   },
   "failed_feeds": [
     {
@@ -66,6 +66,22 @@
       "feeds_failed": 2,
       "entries": [
         {
+          "title": "Predicting model behavior before release by simulating deployment",
+          "link": "https://openai.com/index/deployment-simulation",
+          "source": "OpenAI News",
+          "published": "2026-06-16T00:00:00+00:00",
+          "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+          "image_url": null
+        },
+        {
+          "title": "Unlocking UK house-building with AI-accelerated planning",
+          "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+          "source": "Google DeepMind News",
+          "published": "2026-06-16T21:29:50+00:00",
+          "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+          "image_url": "https://lh3.googleusercontent.com/kc7RMwXGDfJAoCsgs6pUuONGMXePGbvF_q_i8i-bWBBakQ91O8VYPk8cyHfpOD1uF-lw8Mk6pd2JpXofi5n4qNoNziPol46lBMmZuxoG9NKl16CW=w528-h297-n-nu-rw-lo"
+        },
+        {
           "title": "Want to get a data center online quickly? Give it some flex.",
           "link": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
           "source": "Artificial intelligence – MIT Technology Review",
@@ -82,67 +98,67 @@
           "image_url": null
         },
         {
-          "title": "SpaceX Is Buying Cursor",
-          "link": "https://www.bbc.com/news/articles/cvgd5g7d7gyo",
+          "title": "GrapheneOS has been ported to Android 17",
+          "link": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
           "source": "Hacker News: Front Page",
-          "published": "2026-06-16T12:31:37+00:00",
-          "summary": "Article URL: https://www.bbc.com/news/articles/cvgd5g7d7gyo Comments URL: https://news.ycombinator.com/item?id=48554215 Points: 236 # Comments: 255",
+          "published": "2026-06-16T20:34:35+00:00",
+          "summary": "Article URL: https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon Comments URL: https://news.ycombinator.com/item?id=48561654 Points: 389 # Comments: 154",
           "image_url": null
         },
         {
-          "title": "Mechanical Watch (2022)",
-          "link": "https://ciechanow.ski/mechanical-watch/",
+          "title": "Apple is about to make Hide My Email useless",
+          "link": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
           "source": "Hacker News: Front Page",
-          "published": "2026-06-16T11:26:27+00:00",
-          "summary": "Article URL: https://ciechanow.ski/mechanical-watch/ Comments URL: https://news.ycombinator.com/item?id=48553550 Points: 317 # Comments: 46",
+          "published": "2026-06-16T18:37:21+00:00",
+          "summary": "Article URL: https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/ Comments URL: https://news.ycombinator.com/item?id=48559935 Points: 398 # Comments: 240",
           "image_url": null
         },
         {
-          "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
-          "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
+          "title": "Has AI already killed self-help nonfiction books?",
+          "link": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
           "source": "Hacker News: Front Page",
-          "published": "2026-06-16T09:26:09+00:00",
-          "summary": "Article URL: https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827 Comments URL: https://news.ycombinator.com/item?id=48552687 Points: 310 # Comments: 172",
+          "published": "2026-06-16T17:11:05+00:00",
+          "summary": "Article URL: https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/ Comments URL: https://news.ycombinator.com/item?id=48558489 Points: 163 # Comments: 171",
           "image_url": null
         },
         {
-          "title": "John Carmack on Fabrice Bellard",
-          "link": "https://twitter.com/ID_AA_Carmack/status/2064095424420487226",
+          "title": "Stop Using JWTs",
+          "link": "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
           "source": "Hacker News: Front Page",
-          "published": "2026-06-16T04:58:15+00:00",
-          "summary": "https://xcancel.com/ID_AA_Carmack/status/2064095424420487226 Comments URL: https://news.ycombinator.com/item?id=48550779 Points: 544 # Comments: 280",
+          "published": "2026-06-16T16:49:46+00:00",
+          "summary": "Article URL: https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452 Comments URL: https://news.ycombinator.com/item?id=48558147 Points: 249 # Comments: 144",
           "image_url": null
         },
         {
-          "title": "The time the x86 emulator team found code so bad they fixed it during emulation",
-          "link": "https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419",
+          "title": "Is Meta destroying its engineering organization?",
+          "link": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
           "source": "Hacker News: Front Page",
-          "published": "2026-06-16T04:46:36+00:00",
-          "summary": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419 Comments URL: https://news.ycombinator.com/item?id=48550693 Points: 401 # Comments: 116",
+          "published": "2026-06-16T16:42:32+00:00",
+          "summary": "Article URL: https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering Comments URL: https://news.ycombinator.com/item?id=48558045 Points: 414 # Comments: 383",
           "image_url": null
         },
         {
-          "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
-          "link": "https://www.richardosgood.com/posts/banned-book-library/",
+          "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
+          "link": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
           "source": "Hacker News: Front Page",
-          "published": "2026-06-15T22:37:55+00:00",
-          "summary": "Article URL: https://www.richardosgood.com/posts/banned-book-library/ Comments URL: https://news.ycombinator.com/item?id=48547985 Points: 489 # Comments: 288",
+          "published": "2026-06-16T16:40:58+00:00",
+          "summary": "Article URL: https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/ Comments URL: https://news.ycombinator.com/item?id=48558018 Points: 268 # Comments: 143",
           "image_url": null
         },
         {
-          "title": "Why I email complete strangers",
-          "link": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/",
+          "title": "Apple's weird anti-nausea dots cured my car sickness",
+          "link": "https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work",
           "source": "Hacker News: Front Page",
-          "published": "2026-06-15T21:57:10+00:00",
-          "summary": "Article URL: https://www.goodinternetmagazine.com/why-i-email-complete-strangers/ Comments URL: https://news.ycombinator.com/item?id=48547566 Points: 192 # Comments: 84",
+          "published": "2026-06-16T16:12:06+00:00",
+          "summary": "Article URL: https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work Comments URL: https://news.ycombinator.com/item?id=48557530 Points: 581 # Comments: 188",
           "image_url": null
         },
         {
-          "title": "Peopleless economy? Not technically impossible",
-          "link": "https://gmalandrakis.com/writings/ad-economicum.html",
+          "title": "Calvin and Hobbes and the price of integrity",
+          "link": "https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of",
           "source": "Hacker News: Front Page",
-          "published": "2026-06-15T21:10:36+00:00",
-          "summary": "Article URL: https://gmalandrakis.com/writings/ad-economicum.html Comments URL: https://news.ycombinator.com/item?id=48547062 Points: 241 # Comments: 453",
+          "published": "2026-06-16T15:44:44+00:00",
+          "summary": "Article URL: https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of Comments URL: https://news.ycombinator.com/item?id=48557079 Points: 283 # Comments: 129",
           "image_url": null
         }
       ]
@@ -164,12 +180,20 @@
           "image_url": "https://spectrum.ieee.org/media-library/illustration-of-a-drone-being-used-to-collect-crop-data-on-a-wheat-farm.jpg?id=66888131&width=980"
         },
         {
-          "title": "This 1976 University Experiment Spun Up the U.S. Wind Industry",
-          "link": "https://spectrum.ieee.org/william-heronemus-wind-energy",
-          "source": "IEEE Spectrum",
-          "published": "2026-06-15T13:00:01+00:00",
-          "summary": "A half century ago, a scrappy crew at the University of Massachusetts Amherst erected a wind turbine on Orchard Hill, the highest point on campus. It was a frugal production, cobbled together from the rear axle of a Ford truck, a donated generator and microcontroller, a steam pipe, and various handcrafted steel and fiberglass parts, including its 4.5-meter blades. The team of UMass engineering gra",
-          "image_url": "https://spectrum.ieee.org/media-library/a-man-and-a-woman-wearing-dressy-winter-coats-watch-a-crew-of-informally-dressed-men-working-on-the-construction-of-a-wind-turbi.jpg?id=66894045&width=980"
+          "title": "Cockroaches scurry around with thousands of pieces of bacterial genomes",
+          "link": "https://arstechnica.com/science/2026/06/cockroaches-scurry-around-with-thousands-of-pieces-of-bacterial-genomes/",
+          "source": "Science - Ars Technica",
+          "published": "2026-06-16T21:54:41+00:00",
+          "summary": "Transferring genes across species doesn't just happen in microbes.",
+          "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1906194565-500x500.jpg"
+        },
+        {
+          "title": "Trump admin abandons fight against wind energy as clean energy output surges",
+          "link": "https://arstechnica.com/science/2026/06/trump-admin-abandons-fight-against-wind-energy-as-clean-energy-output-surges/",
+          "source": "Science - Ars Technica",
+          "published": "2026-06-16T16:49:09+00:00",
+          "summary": "Legal victories have dampened the Trump admin’s efforts to halt wind and solar power.",
+          "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/GettyImages-1350384252-500x500.jpg"
         },
         {
           "title": "Key mission for Europe's commercial space enterprise scrubbed again",
@@ -236,22 +260,6 @@
           "published": "2026-06-16T07:30:00+00:00",
           "summary": "When the New England Clean Energy Connect transmission line started carrying electricity from Canada into Maine in January, supporters hailed the project as a triumph for renewable power. Now, after nearly six months of operations, the early numbers raise questions about whether the project will be able to advance…",
           "image_url": null
-        },
-        {
-          "title": "Solar and wind try to navigate Trump’s obstacle course for tax credits",
-          "link": "https://www.canarymedia.com/articles/solar/solar-wind-trump-obstacles-tax-credits",
-          "source": "Canary Media",
-          "published": "2026-06-15T07:30:00+00:00",
-          "summary": "Wind and solar developers in the U.S. have just a few more weeks to secure lucrative federal tax incentives. After that crucial deadline, the hard part begins. Last summer, President Donald Trump signed the One Big Beautiful Bill Act into law, creating a drop-dead date of July 4, 2026, for solar and wind developers…",
-          "image_url": null
-        },
-        {
-          "title": "This spring, clean energy in the US set record after record",
-          "link": "https://www.canarymedia.com/articles/clean-energy/clean-energy-us-set-records",
-          "source": "Canary Media",
-          "published": "2026-06-15T07:30:00+00:00",
-          "summary": "As spring gives way to summer, many parts of the U.S. are already feeling the heat. It’s a good moment to take stock of the energy breakthroughs that transpired this past “shoulder season.” That’s the period of time between the chill of winter and the high temperatures of July and August, when renewable energy…",
-          "image_url": null
         }
       ]
     },
@@ -263,6 +271,22 @@
       "feeds_ok": 2,
       "feeds_failed": 1,
       "entries": [
+        {
+          "title": "STAT+: How a biotech turned a trial failure into an AI model",
+          "link": "https://www.statnews.com/2026/06/16/how-biotech-turned-trial-failure-ai-model-health-tech/?utm_campaign=rss",
+          "source": "STAT",
+          "published": "2026-06-16T16:45:14+00:00",
+          "summary": "In this edition of STAT Health Tech: How a biotech startup turned a failed clinical trial into an AI model, and more.",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/04/AdobeStock_479151457-645x645.jpeg"
+        },
+        {
+          "title": "The U.S. infant mortality rate fell to an all-time low, though it still trails other similar nations",
+          "link": "https://www.statnews.com/2026/06/16/us-infant-mortality-rate-all-time-low/?utm_campaign=rss",
+          "source": "STAT",
+          "published": "2026-06-16T14:55:40+00:00",
+          "summary": "Infant mortality in the U.S. dropped to a new all-time low in 2025, according to CDC data, though it still trails other similar nations.",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2023/11/babyfoot-645x645.jpg"
+        },
         {
           "title": "STAT+: ARCH-launched Neumora stops depression program",
           "link": "https://www.statnews.com/2026/06/16/biotech-news-arch-launched-neumora-stops-depression-program/?utm_campaign=rss",
@@ -312,20 +336,28 @@
           "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/GettyImages-2279417128-645x645.jpg"
         },
         {
-          "title": "Opinion: I’m an Alzheimer’s specialist. I still missed it in my own father",
-          "link": "https://www.statnews.com/2026/06/16/alzheimers-diagnosis-treatment-infrastructure/?utm_campaign=rss",
-          "source": "STAT",
-          "published": "2026-06-16T08:30:00+00:00",
-          "summary": "“Alzheimer’s is not primarily a disease of old age. It is a decades-long biological process,” writes Elizabeth Bevins.",
-          "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/AdobeStock_830477818-645x645.jpeg"
+          "title": "Amenable FDA review bodes well for Moderna's mRNA flu shot ahead of adcomm grilling",
+          "link": "https://www.fiercebiotech.com/biotech/amenable-fda-briefing-docs-bode-well-modernas-mrna-flu-shot-ahead-adcomm-grilling",
+          "source": "Fierce Biotech",
+          "published": null,
+          "summary": "With a panel of outside experts set to weigh in Thursday—and with a refusal-to-file fiasco with the FDA just barely in the rearview—Moderna and its contender for the United States’ first mRNA-based influenza vaccine are heading into a critical test this week.",
+          "image_url": null
         },
         {
-          "title": "STAT+: FDA approves Colorado’s plan to import cheaper drugs from Canada",
-          "link": "https://www.statnews.com/pharmalot/2026/06/15/colorado-drug-imports-canada/?utm_campaign=rss",
-          "source": "STAT",
-          "published": "2026-06-15T18:19:20+00:00",
-          "summary": "The FDA said it will allow Colorado to import certain prescription drugs from Canada in an effort to bring prices down for residents.",
-          "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/GettyImages-1354533773-645x645.jpg"
+          "title": "Eli Lilly’s M&A spree continues with acquisition of non-opioid pain drugmaker 4E",
+          "link": "https://www.fiercebiotech.com/biotech/eli-lilly-ma-spree-continues-acquisition-non-opioid-pain-drugmaker-4e",
+          "source": "Fierce Biotech",
+          "published": null,
+          "summary": "Eli Lilly is taking another shot at the pain market, continuing a recent M&A binge that shows no signs of slowing down.",
+          "image_url": null
+        },
+        {
+          "title": "PE firm Altaris scoops up AI drug development outfit Simulations Plus for $375M",
+          "link": "https://www.fiercebiotech.com/biotech/pe-firm-altaris-scoops-ai-drug-development-outfit-simulations-plus-375m",
+          "source": "Fierce Biotech",
+          "published": null,
+          "summary": "As biopharma companies of all stripes devote more time and attention to AI-based drug discovery and development, healthcare PE firm Altaris is bolstering its presence in the field through M&A.",
+          "image_url": null
         },
         {
           "title": "Edgewise data power rival to BMS and Cytokinetics toward phase 3",
@@ -366,30 +398,6 @@
           "published": null,
           "summary": "Executives told Fierce how the company is in the middle of a transition to “the new Biogen”—embracing partnerships, investment and entrepreneurship to replenish its pipeline.",
           "image_url": null
-        },
-        {
-          "title": "iRhythm hit by cyberattack that compromised patient data, says operations unaffected",
-          "link": "https://www.fiercebiotech.com/medtech/irhythm-hit-cyberattack-has-found-no-impact-its-business",
-          "source": "Fierce Biotech",
-          "published": null,
-          "summary": "Medical device maker iRhythm has been hit by a cyberattack, but the company said the incident has not affected its core products, operations or ability to meet patient needs.",
-          "image_url": null
-        },
-        {
-          "title": "Spyre spies another edge for UC ambitions with midstage win for anti-TL1A antibody",
-          "link": "https://www.fiercebiotech.com/biotech/spyre-spies-another-edge-ulcerative-colitis-ambitions-phase-2-disease-reduction-win",
-          "source": "Fierce Biotech",
-          "published": null,
-          "summary": "The company's SPY002 prompted a 10.7-point reduction from baseline levels in patients’ Robart’s Histopathology Index (RHI) scores by week 12.",
-          "image_url": null
-        },
-        {
-          "title": "Japan, South Korea challenge the West’s place in research rankings: report",
-          "link": "https://www.fiercebiotech.com/biotech/japan-south-korea-challenge-wests-place-research-rankings-report",
-          "source": "Fierce Biotech",
-          "published": null,
-          "summary": "Nature Index’s latest research rankings show that China continues to be the clear leader in contributions to scientific journals, with a 22% increase between 2024 and 2025. While China remains well ahead of the rest of the top 10, nearly 10% growth in journal contributions from Japan and South Korea outpaced higher-ranked Western countries such as the U.S., Germany and the U.K.",
-          "image_url": null
         }
       ]
     },
@@ -402,6 +410,14 @@
       "feeds_failed": 1,
       "entries": [
         {
+          "title": "AI is everywhere in CPG R&D. But is it moving the needle? Turing Labs surveys the biggest players",
+          "link": "https://agfundernews.com/ai-is-everywhere-in-cpg-rd-but-is-it-moving-the-needle-turing-labs-surveys-the-biggest-players",
+          "source": "AgFunderNews",
+          "published": "2026-06-16T15:30:36+00:00",
+          "summary": "57% of R&D execs at big CPG firms told Turing Labs that GenAI formulation outputs were too generic to use without significant manual re-work. The post AI is everywhere in CPG R&D. But is it moving the needle? Turing Labs surveys the biggest players appeared first on AgFunderNews .",
+          "image_url": null
+        },
+        {
           "title": "Rainbow Crops raises $11.25m to scale AI-guided multiplex gene editing",
           "link": "https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing",
           "source": "AgFunderNews",
@@ -410,28 +426,12 @@
           "image_url": null
         },
         {
-          "title": "French alt meat whole cut specialist SWAP Food enters judicial liquidation",
+          "title": "French alt meat whole cut specialist SWAP Food enters judicial liquidation, ceases operations",
           "link": "https://agfundernews.com/french-alt-meat-whole-cut-specialist-swap-food-enters-judicial-liquidation",
           "source": "AgFunderNews",
           "published": "2026-06-15T23:05:58+00:00",
-          "summary": "Best-known for its whole cut chicken fillets, Paris-based SWAP Food has secured more than €100m ($116m) in debt and equity since it was founded in 2020. The post French alt meat whole cut specialist SWAP Food enters judicial liquidation appeared first on AgFunderNews .",
+          "summary": "Best-known for its whole cut chicken fillets, Paris-based SWAP Food has secured more than €100m ($116m) in debt and equity since it was founded in 2020. The post French alt meat whole cut specialist SWAP Food enters judicial liquidation, ceases operations appeared first on AgFunderNews .",
           "image_url": null
-        },
-        {
-          "title": "Picketa Systems raises $1.5m to bring crop nutrient testing to the field",
-          "link": "https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field",
-          "source": "AgFunderNews",
-          "published": "2026-06-15T12:00:00+00:00",
-          "summary": "\"Within 10 years, with advances in crop sensing, specialized inputs, and autonomous vehicles, we'll close the fertilizer loop entirely,” says Picketa CEO Xavier Hebert-Couturier. The post Picketa Systems raises $1.5m to bring crop nutrient testing to the field appeared first on AgFunderNews .",
-          "image_url": "https://agfundernews.com/wp-content/uploads/2026/06/Picketa-Systems-in-the-field-Image-credit-Picketa-150x150.jpg"
-        },
-        {
-          "title": "Fertilizer… without Haber Bosch: Can AI-optimized plasma make green ammonia cost-competitive?",
-          "link": "https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive",
-          "source": "AgFunderNews",
-          "published": "2026-06-15T11:00:31+00:00",
-          "summary": "Faraday Earth—a startup using AI-optimized plasma to make green ammonia—claims its system could reach a levelized cost of c.$500 per ton, putting it within striking distance of fossil fuel-derived gray ammonia. The post Fertilizer… without Haber Bosch: Can AI-optimized plasma make green ammonia cost-competitive? appeared first on AgFunderNews .",
-          "image_url": "https://agfundernews.com/wp-content/uploads/2026/06/fertilizer-spraying-on-field-istock-Smederevac-e1781286411753-150x150.jpg"
         }
       ]
     },
@@ -508,12 +508,12 @@
           "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/06/Rubrik_FTR-100.jpg"
         },
         {
-          "title": "Nutrition band TruNativ raises $30M in Series B funding round led by OrbiMed",
-          "link": "https://yourstory.com/2026/06/nutrition-band-trunativ-raises-series-b-funding-led-by-orbimed",
+          "title": "5 lessons from mountains to cross on purpose and service",
+          "link": "https://yourstory.com/2026/05/mountains-to-cross-life-purpose-service-lessons",
           "source": "YourStory RSS Feed",
-          "published": "2026-06-16T14:22:51+00:00",
-          "summary": "TruNativ will use the funds to expand its distribution network across D2C, quick commerce, modern trade, pharmacy, and other retail channels. The funding will also be used for the expansion of its B2B2C ingredient business.",
-          "image_url": "https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/TruNativ-founder-1781618577573.png"
+          "published": "2026-06-16T07:38:41+00:00",
+          "summary": "Discover 5 inspiring lessons from Mountains to Cross by Dr. Abraham M. George on purpose, resilience, service, and meaningful success.",
+          "image_url": "https://images.yourstory.com/cs/2/ba6b0930e8cd11edbf1c2f9de7fdeb77/SHERLOCKHOLMES-2026-05-21T141402-1779353067622.png"
         },
         {
           "title": "5 books that help you disconnect from social media chaos",
@@ -524,43 +524,35 @@
           "image_url": "https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/Socialmediabanforchildrenunder16-1772801061062.png"
         },
         {
-          "title": "Sarvam AI turns unicorn; Razorpay confidentially files IPO papers",
-          "link": "https://yourstory.com/2026/06/sarvam-ai-turns-unicorn-razorpay-files-drhp",
+          "title": "Nutrition band TruNativ raises $30M in Series B funding round led by OrbiMed",
+          "link": "https://yourstory.com/2026/06/nutrition-band-trunativ-raises-series-b-funding-led-by-orbimed",
           "source": "YourStory RSS Feed",
-          "published": "2026-06-16T02:00:00+00:00",
-          "summary": "Sarvam AI has raised $234 million in a major funding round led by HCLTech, backing its plans to build advanced AI models, expand infrastructure and strengthen India’s sovereign AI ecosystem.",
-          "image_url": "https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/2026-CopyofNewPPTTemplates5-1781532294467.png"
+          "published": "2026-06-16T14:22:51+00:00",
+          "summary": "TruNativ will use the funds to expand its distribution network across D2C, quick commerce, modern trade, pharmacy, and other retail channels. The funding will also be used for the expansion of its B2B2C ingredient business.",
+          "image_url": "https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/TruNativ-founder-1781618577573.png"
         },
         {
-          "title": "5 lessons from mountains to cross on purpose and service",
-          "link": "https://yourstory.com/2026/05/mountains-to-cross-life-purpose-service-lessons",
+          "title": "SolarSquare raises $53M to expand residential solar footprint across India",
+          "link": "https://yourstory.com/2026/06/solarsquare-raises-53-million-expand-residential-solar-footprint-india",
           "source": "YourStory RSS Feed",
-          "published": "2026-06-16T07:38:41+00:00",
-          "summary": "Discover 5 inspiring lessons from Mountains to Cross by Dr. Abraham M. George on purpose, resilience, service, and meaningful success.",
-          "image_url": "https://images.yourstory.com/cs/2/ba6b0930e8cd11edbf1c2f9de7fdeb77/SHERLOCKHOLMES-2026-05-21T141402-1779353067622.png"
+          "published": "2026-06-16T04:59:28+00:00",
+          "summary": "SolarSquare has raised $53 million in a Series C round led by B Capital to expand across India, strengthen technology and scale operations as residential rooftop solar adoption accelerates nationwide.",
+          "image_url": "https://images.yourstory.com/cs/2/d99b1110116911ed9e63f54395117598/USETHISSSCopyofNewPPTTemplates--ishan13-1781584495226.png"
         },
         {
-          "title": "Token costs are climbing. Developers can help fix that",
-          "link": "https://yourstory.com/2026/06/tokeconomics-ai-token-cost-jigar-halani-nvidia-devsparks-2026",
+          "title": "PM Modi and President Macron inaugurate Bharat Innovates 2026 in Nice, opening India's deep-tech showcase to the world",
+          "link": "https://yourstory.com/2026/06/bharat-innovates-2026-modi-macron-indian-deep-tech-startups-france",
           "source": "YourStory RSS Feed",
-          "published": "2026-06-15T05:30:00+00:00",
-          "summary": "At DevSparks 2026 in Bengaluru, NVIDIA's Jigar Halani made the case that every model choice and agent a developer ships has a direct cost implication, and that understanding tokeconomics is now a core developer skill.",
-          "image_url": "https://images.yourstory.com/cs/2/727115006d2011f09259ebc21ca89457/RGR606611-1781356581229.jpg"
+          "published": "2026-06-15T14:54:27+00:00",
+          "summary": "Bharat Innovates 2026 opened in Nice on 14 June 2026, with PM Modi, President Macron and Piyush Goyal launching India's deep-tech showcase, followed by its first cross-border MoUs and investment commitments.",
+          "image_url": "https://images.yourstory.com/cs/2/1a70b4f0170611edbdd8b5d28d859895/Untitleddesign2-1781535116761.jpg"
         },
         {
-          "title": "YourNest Venture Capital raises Rs 400 Cr for Continuum Fund",
-          "link": "https://yourstory.com/2026/06/yournest-venture-capital-raises-rs-400-crore-for-continuum-fund",
+          "title": "Startup news and updates: daily roundup (June 16, 2026)",
+          "link": "https://yourstory.com/2026/06/startup-news-and-updates-daily-roundup-june-16-2026",
           "source": "YourStory RSS Feed",
-          "published": "2026-06-16T09:16:36+00:00",
-          "summary": "Newgen Software is deeply integrating AI capabilities into its product lines to deliver real outcomes to the enterprises.",
-          "image_url": "https://images.the-captable.com/cs/158/11718bd02d6d11e9aa979329348d4c3e/VCinvestFeatureImage-1778036205915.jpg"
-        },
-        {
-          "title": "Startup news and updates: Daily roundup (June 15, 2026)",
-          "link": "https://yourstory.com/2026/06/startup-news-and-updates-daily-roundup-june-15-2026",
-          "source": "YourStory RSS Feed",
-          "published": "2026-06-15T12:09:00+00:00",
-          "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here’s the roundup for Monday, June 15, 2026",
+          "published": "2026-06-16T09:34:09+00:00",
+          "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Tuesday, June 16, 2026",
           "image_url": "https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/DailyRoundupImages1600x900-1774005165949.jpg"
         },
         {
@@ -570,6 +562,14 @@
           "published": "2026-06-16T13:41:05+00:00",
           "summary": "The leadership transition marks the end of an era for one of India's earliest online grocery pioneers. It comes at a time when India’s online grocery and quick-commerce sector is undergoing rapid changes as companies compete with each on delivery timelines.",
           "image_url": "https://images.yourstory.com/cs/2/d99b1110116911ed9e63f54395117598/USETHISSSCopyofNewPPTTemplates--ishan14-1781616058472.png"
+        },
+        {
+          "title": "YourNest Venture Capital raises Rs 400 Cr for Continuum Fund",
+          "link": "https://yourstory.com/2026/06/yournest-venture-capital-raises-rs-400-crore-for-continuum-fund",
+          "source": "YourStory RSS Feed",
+          "published": "2026-06-16T09:16:36+00:00",
+          "summary": "Newgen Software is deeply integrating AI capabilities into its product lines to deliver real outcomes to the enterprises.",
+          "image_url": "https://images.the-captable.com/cs/158/11718bd02d6d11e9aa979329348d4c3e/VCinvestFeatureImage-1778036205915.jpg"
         }
       ]
     },
@@ -582,6 +582,22 @@
       "feeds_failed": 1,
       "entries": [
         {
+          "title": "Deal or no deal, oil prices will stay high for months",
+          "link": "https://www.economist.com/finance-and-economics/2026/06/16/deal-or-no-deal-oil-prices-will-stay-high-for-months",
+          "source": "Finance & economics",
+          "published": "2026-06-16T19:55:31+00:00",
+          "summary": "The pre-war days of $60 crude are not coming back soon",
+          "image_url": null
+        },
+        {
+          "title": "America’s bull market has entered its manic phase",
+          "link": "https://www.economist.com/finance-and-economics/2026/06/16/americas-bull-market-has-entered-its-manic-phase",
+          "source": "Finance & economics",
+          "published": "2026-06-16T18:19:00+00:00",
+          "summary": "Options markets show optimism is giving way to euphoria",
+          "image_url": null
+        },
+        {
           "title": "Meet the world’s top AI-pilled economists",
           "link": "https://www.economist.com/finance-and-economics/2026/06/15/meet-the-worlds-top-ai-pilled-economists",
           "source": "Finance & economics",
@@ -590,68 +606,68 @@
           "image_url": null
         },
         {
-          "title": "ECB’s Lane Says Inflation Is in the Pipeline Despite Iran Deal",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/ecb-s-lane-says-inflation-is-in-the-pipeline-despite-iran-deal",
+          "title": "China’s Finance Chiefs Take Center Stage as Economy Stalls",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-17/china-s-finance-chiefs-take-center-stage-with-economy-slumping",
           "source": "Bloomberg Economics",
-          "published": "2026-06-16T13:55:52+00:00",
-          "summary": "The European Central Bank must be prepared for inflation that’s been unleashed by the conflict in the Middle East but is yet to be felt, according to Chief Economist Philip Lane.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iIP8Z4OlpeAY/v0/1200x-1.jpg"
+          "published": "2026-06-17T00:27:17+00:00",
+          "summary": "China’s central bank chief and top financial policymakers will take the stage Wednesday for the Lujiazui Forum, a gathering that could signal Beijing’s next moves to support the sputtering economy.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ic9lfUBH6S3A/v0/1200x-1.jpg"
         },
         {
-          "title": "World Bank Initiative Brings Electricity to 50 Million Africans",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/world-bank-s-mission-300-brings-electricity-to-50-million-africans-by-2026",
+          "title": "Japan’s Trade Balance Swings to Deficit as Yen Inflates Imports",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-16/japan-s-trade-balance-swings-to-deficit-as-tech-imports-surge",
           "source": "Bloomberg Economics",
-          "published": "2026-06-16T13:46:59+00:00",
-          "summary": "A World Bank initiative to provide electricity to 300 million Africans by 2030 has reached nearly a fifth of its goal, two years after its formation.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iIMqA5kGTmCQ/v2/1200x-1.jpg"
+          "published": "2026-06-16T23:55:28+00:00",
+          "summary": "Japan’s trade balance swung to a deficit for the first time in four months as the weak yen inflated the value of imports, even as volumes fell.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ibzdG6A6q0hI/v0/1200x-1.jpg"
         },
         {
-          "title": "Robinhood, BlackRock Plan to Reduce Workforce",
-          "link": "https://www.bloomberg.com/news/videos/2026-06-16/robinhood-blackrock-plan-to-reduce-workforce-video",
+          "title": "Chile Central Bank Holds Key Rate at 4.5% and Sees More Balanced Inflation Risks",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-16/chile-central-bank-holds-interest-rate-at-4-5",
           "source": "Bloomberg Economics",
-          "published": "2026-06-16T13:42:00+00:00",
-          "summary": "Robinhood Markets says it’s cutting 10% of its workforce, a reduction of around 300 positions, while BlackRock is said to be eliminating just under 1% of its workforce. Katherine Doherty has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJOrUegdb3gc/v3/1200x-1.jpg"
+          "published": "2026-06-16T21:59:40+00:00",
+          "summary": "Chile’s central bank kept its benchmark interest rate unchanged for a fourth straight meeting, saying inflation risks have become more balanced as the economy weakens and a fuel-price shock remains contained.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i2moI4GzI33s/v1/1200x-1.jpg"
         },
         {
-          "title": "Poland Pursues Taiwan Investments to End Role as Assembly Hub",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/poland-pursues-taiwan-investments-to-end-role-as-assembly-hub",
+          "title": "Warsh Faces First Big Test as Fed Chair",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-16/warsh-faces-first-big-test-as-fed-chair-decision-day-guide",
           "source": "Bloomberg Economics",
-          "published": "2026-06-16T13:15:39+00:00",
-          "summary": "Poland is betting on a flood of investments and technology transfers from Taiwanese companies to reengineer its $1 trillion economy.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMyX88EcDehc/v0/1200x-1.jpg"
+          "published": "2026-06-16T23:00:00+00:00",
+          "summary": "Federal Reserve policymakers are expected to hold interest rates steady on Wednesday, posing an early test for new chairman Kevin Warsh as rising inflation erodes households’ purchasing power and President Donald Trump continues to press for lower borrowing costs.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iRfAbBjNpA6k/v0/1200x-1.jpg"
         },
         {
-          "title": "ECB’s Escriva Says Energy Disruption Will Persist Despite Deal",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/ecb-s-escriva-says-energy-disruption-will-persist-despite-deal",
+          "title": "Why Restoring Normal Traffic Through Hormuz Won’t Be Easy",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-16/why-restoring-strait-of-hormuz-shipping-traffic-won-t-be-easy",
           "source": "Bloomberg Economics",
-          "published": "2026-06-16T12:03:38+00:00",
-          "summary": "European Central Bank Governing Council member Jose Luis Escriva warned that complications over energy supplies are likely to persist, despite an agreement to re-open the Strait of Hormuz.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSr9LLMq3GJo/v1/1200x-1.jpg"
+          "published": "2026-06-16T21:15:13+00:00",
+          "summary": "The US and Iran have committed to reopening the Strait of Hormuz, the world’s most important artery for shipping oil and natural gas, which has been largely blocked since the two countries went to war in February. However, returning traffic in the strait to prewar levels — if that day ever comes — presents significant challenges. The prediction market Kalshi assigns a 51% probability that traffic ",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iYnA2px.6Mjg/v0/1200x-1.jpg"
         },
         {
-          "title": "Lunchboxes Signal Inflation Pain for Brazil White-Collar Workers",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/lunchboxes-signal-inflation-pain-for-brazil-white-collar-workers",
+          "title": "How the Iran War Is Leaving Lasting Scars Across Asia",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-16/how-the-iran-war-is-leaving-lasting-scars-across-asia",
           "source": "Bloomberg Economics",
-          "published": "2026-06-16T12:00:00+00:00",
-          "summary": "Brazil’s lunch rush is moving from restaurants to office microwaves.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iUpwqojj3MVA/v3/1200x-1.jpg"
+          "published": "2026-06-16T20:56:15+00:00",
+          "summary": "On today’s Big Take Asia podcast, we discuss how war in Iran hit Asia especially hard and why structural economic problems are likely to persist, even with a peace deal in the works.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/isCTsJM0S7G0/v0/1200x-1.jpg"
         },
         {
-          "title": "UK to Reduce Military Operations Without Defense Funding Boost",
-          "link": "https://www.bloomberg.com/news/articles/2026-06-16/uk-to-reduce-military-operations-without-defense-funding-boost",
+          "title": "US Exports to Cuba Jump as Fuel, Cars and Food Get Past Trump’s Blockade",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-16/us-exports-to-cuba-jump-as-fuel-cars-and-food-get-past-trump-s-blockade",
           "source": "Bloomberg Economics",
-          "published": "2026-06-16T11:52:19+00:00",
-          "summary": "The UK will be forced to “dial back” operations, exercises and training for its armed forces, Britain’s top uniformed military official said, underscoring the fallout from the budget battle that prompted the defense secretary to quit last week.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i73EndeQ717E/v1/1200x-1.jpg"
+          "published": "2026-06-16T19:44:40+00:00",
+          "summary": "US exports to Cuba have surged dramatically this year as businesses use a trade loophole to get fuel, appliances, furniture, food and vehicles past President Donald Trump’s wall of sanctions.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ih0qCM_TbhW4/v2/1200x-1.jpg"
         },
         {
-          "title": "China’s Two-Speed Growth Model: Temporary Imbalance or Geostrategic Design?",
-          "link": "https://www.bloomberg.com/news/newsletters/2026-06-16/china-s-two-speed-growth-model-temporary-imbalance-or-geostrategic-design",
+          "title": "Citi Chief US Economist Defends Unpopular Fed Rate-Cut Call",
+          "link": "https://www.bloomberg.com/news/articles/2026-06-16/citi-chief-us-economist-defends-unpopular-fed-rate-cut-call",
           "source": "Bloomberg Economics",
-          "published": "2026-06-16T11:47:43+00:00",
-          "summary": "The country’s external sector is booming at the same time domestic demand stalls.",
-          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iFyGI2XN4lK8/v20/1200x-1.jpg"
+          "published": "2026-06-16T17:04:49+00:00",
+          "summary": "Citigroup Inc.’s Andrew Hollenhorst said the Federal Reserve will cut interest rates this year as the labor market weakens and oil prices ease, even as bond traders and his colleagues across Wall Street wager on hikes.",
+          "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyDuXCv6XhHI/v0/1200x-1.jpg"
         }
       ]
     },
@@ -664,132 +680,132 @@
       "feeds_failed": 0,
       "entries": [
         {
-          "title": "Ganesh Utsav Samiti seeks advance coordination for smooth conduct of festivities",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/ganesh-utsav-samiti-seeks-advance-coordination-for-smooth-conduct-of-festivities/article71109303.ece",
+          "title": "Tata says India pollution board drops scrutiny of Apple iPhone parts plant",
+          "link": "https://www.thehindu.com/business/Industry/tata-says-india-pollution-board-drops-scrutiny-of-apple-iphone-parts-plant/article71111811.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T14:41:35+00:00",
-          "summary": "It also request the implementation of a single-window system for the registration of Ganesh mandaps and sees the provision of free electricity services for festival-related activities",
-          "image_url": null
+          "published": "2026-06-17T01:44:04+00:00",
+          "summary": "Tamil Nadu’s pollution control authority had warned Tata of a forced shutdown unless it explained why government inspections found that wastewater discharge ‌had contaminated open wells in adjacent agricultural lands",
+          "image_url": "https://th-i.thgim.com/public/incoming/qbppki/article71111843.ece/alternates/LANDSCAPE_1200/2026-06-16T162029Z_1785979106_RC29ULAG13BH_RTRMADP_3_TATA-INDIA-APPLE-POLLUTION.JPG"
         },
         {
-          "title": "Mysuru: SC/ST Commission seeks report on reservation in tender works",
-          "link": "https://www.thehindu.com/news/national/karnataka/mysuru-scst-commission-seeks-report-on-reservation-in-tender-works/article71109708.ece",
+          "title": "Inside Mangav, a unique Maharashtra village for abandoned women and their children",
+          "link": "https://www.thehindu.com/life-and-style/inside-mangav-a-unique-maharashtra-village-for-abandoned-women-and-their-children/article71075786.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T14:40:53+00:00",
-          "summary": "",
-          "image_url": "https://th-i.thgim.com/public/incoming/u1l1gp/article71109931.ece/alternates/LANDSCAPE_1200/2303_16_6_2026_18_54_24_1_COMMISSIONMEETING.JPG"
+          "published": "2026-06-17T01:29:18+00:00",
+          "summary": "Founded by Dr Rajendra and Dr Sucheta Dhamane, Mangav is home to 477 rescued women and 43 children, where residents run a bakery, manage farms and dairy units, and will soon launch a highway café as part of their rehabilitation journey",
+          "image_url": "https://th-i.thgim.com/public/life-and-style/fashion/pmt9a1/article71108045.ece/alternates/LANDSCAPE_1200/IMG_4988.jpeg"
         },
         {
-          "title": "Teacher deployment for census work disrupts academic activities: Kerala General Education Minister",
-          "link": "https://www.thehindu.com/news/national/kerala/teacher-deployment-for-census-work-disrupts-academic-activities-kerala-general-education-minister/article71109799.ece",
+          "title": "Tamil Nadu’s own-tax effort has ‘collapsed’, says White Paper",
+          "link": "https://www.thehindu.com/news/national/tamil-nadu/public-finance-states-own-tax-revenue-public-debt-tamil-nadu-maharashtra-karnataka-gujarat-gst/article71110367.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T14:40:40+00:00",
-          "summary": "Samsudheen calls for review of Central guidelines that require teachers to be deployed for non-academic government assignments such as census operations and electoral work",
-          "image_url": "https://th-i.thgim.com/public/incoming/j951fm/article71109912.ece/alternates/LANDSCAPE_1200/N.%20Samsudheen_2.JPG"
+          "published": "2026-06-16T20:10:10+00:00",
+          "summary": "Giving an account of how T.N.’s own tax revenue fared vis-à-vis 3 ‘peer States’ in last 5 years, the report says the SOTR-to-GSDP ratio declined from 5.93% to 5.45%, the ‘lowest in the State’s history and the steepest decline’ among the benchmarked States",
+          "image_url": "https://th-i.thgim.com/public/incoming/9c8e3r/article71110837.ece/alternates/LANDSCAPE_1200/20260616350L.jpg"
         },
         {
-          "title": "Priyank Kharge’s salvo against RSS seen as a move to consolidate support base, counter criticism against Karnataka govt.",
-          "link": "https://www.thehindu.com/news/national/karnataka/priyank-kharges-salvo-against-rss-seen-as-a-move-to-consolidate-support-base-counter-criticism-against-govt/article71109374.ece",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T14:42:28+00:00",
-          "summary": "By bringing the RSS into the political discourse, the Congress appears to be shifting the debate to ideological issues, a terrain to confront the BJP",
-          "image_url": "https://th-i.thgim.com/public/incoming/675fsq/article71109825.ece/alternates/LANDSCAPE_1200/_JAI8560.JPG"
-        },
-        {
-          "title": "CPI flays Pawan Kalyan’s remarks on leaders of southern States",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/cpi-flays-pawan-kalyans-remarks-on-leaders-of-southern-states/article71109441.ece",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T14:40:08+00:00",
-          "summary": "Those who ultimately submit to the national leadership should first examine their own political conduct before criticising others, says Ramakrishna",
-          "image_url": "https://th-i.thgim.com/public/incoming/3k66nf/article71109915.ece/alternates/LANDSCAPE_1200/9774_9_1_2023_18_12_47_1_IMG_20230109_WA0529.JPG"
-        },
-        {
-          "title": "SC steps in to ensure ‘dignified life’ for octogenarian, visually impaired son",
+          "title": "Supreme Court steps in to ensure ‘dignified life’ for octogenarian, visually impaired son",
           "link": "https://www.thehindu.com/news/national/sc-steps-in-to-ensure-dignified-life-for-octogenarian-visually-impaired-son/article71109042.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T14:38:47+00:00",
+          "published": "2026-06-16T20:03:49+00:00",
           "summary": "The top court takes suo motu cognisance of newspaper reports highlighting the dire conditions in which they are living",
           "image_url": "https://th-i.thgim.com/public/incoming/bd1l8z/article71109778.ece/alternates/LANDSCAPE_1200/SC-AI-in-Court-GEKG2O5UJ.4.jpg.jpg"
         },
         {
-          "title": "Shigella alert in Thrissur",
-          "link": "https://www.thehindu.com/news/national/kerala/shigella-alert-in-thrissur/article71109757.ece",
+          "title": "Air Force ferrying NEET question papers by aircraft",
+          "link": "https://www.thehindu.com/education/air-force-deployed-for-secure-nationwide-delivery-of-neet-question-papers/article71110346.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T14:37:57+00:00",
-          "summary": "",
-          "image_url": null
+          "published": "2026-06-16T20:01:03+00:00",
+          "summary": "Bundles flown to more than 20 locations across the country; papers delivered to several northern States, while dry runs were conducted at selected locations across southern India",
+          "image_url": "https://th-i.thgim.com/public/incoming/9dtwll/article71110492.ece/alternates/LANDSCAPE_1200/PTI06_16_2026_000164B.jpg"
         },
         {
-          "title": "Union Minister reviews Vijayawada railway projects, highlights infrastructure development",
-          "link": "https://www.thehindu.com/news/national/andhra-pradesh/union-minister-reviews-vijayawada-railway-projects-highlights-infrastructure-development/article71109654.ece",
+          "title": "Senior BJP leaders hold meeting, discuss organisational restructuring",
+          "link": "https://www.thehindu.com/news/national/bjp-weighs-organisational-restructuring-amid-rapid-expansion/article71108530.ece",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "published": "2026-06-16T14:37:38+00:00",
-          "summary": "Pralhad Joshi inspects the ongoing development works at the Rayanapadu Satellite Railway Station and reviews the progress of modernisation initiatives being undertaken by the Railways. Later, visits Sri Kanaka Durga Temple atop Indrakeeladri and offers prayers",
-          "image_url": "https://th-i.thgim.com/public/incoming/gzp9pv/article71109894.ece/alternates/LANDSCAPE_1200/vjkvg-bjp%204.JPG"
+          "published": "2026-06-16T19:48:27+00:00",
+          "summary": "Party discusses regional in-charges, expansion of office-bearers and organisational changes ahead of new national team and possible Cabinet reshuffle",
+          "image_url": "https://th-i.thgim.com/public/news/national/336khs/article71108624.ece/alternates/LANDSCAPE_1200/0001BJP.jpg"
         },
         {
-          "title": "Former minister Vijayabaskar latest AIADMK legislator to quit as crisis deepens for party",
-          "link": "https://indianexpress.com/article/india/former-minister-vijayabaskar-aiadmk-mla-quit-10742858/",
-          "source": "India | The Indian Express",
-          "published": "2026-06-16T14:10:04+00:00",
-          "summary": "",
-          "image_url": "https://images.indianexpress.com/2026/06/tamil-nadu.png"
+          "title": "Delhi Police bust Pakistan-backed terror syndicate, seven held",
+          "link": "https://www.thehindu.com/news/national/delhi-police-arrest-seven-bust-pakistan-backed-terror-syndicate/article71110399.ece",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "published": "2026-06-16T19:42:28+00:00",
+          "summary": "Police say the network was functioning under the patronage of Pakistan’s ISI and was using Indians to further terror activities; police have arrested suspects from Uttar Pradesh and Punjab",
+          "image_url": "https://th-i.thgim.com/public/latest-news/z9hy66/article71110818.ece/alternates/LANDSCAPE_1200/DelhiPoliceTerrorSyndicate.jpg"
         },
         {
-          "title": "‘Leaving this world’: Another NEET aspirant dies by suicide in Rajasthan",
-          "link": "https://indianexpress.com/article/india/sikar-neet-aspirant-suicide-umesh-mali-paper-leak-protests-10742776/",
-          "source": "India | The Indian Express",
-          "published": "2026-06-16T13:26:05+00:00",
-          "summary": "",
-          "image_url": "https://images.indianexpress.com/2026/06/Umesh.jpg"
+          "title": "Supreme Court seeks Centre, States’ response on plea over ‘misuse’ of Aadhaar as proof of citizenship",
+          "link": "https://www.thehindu.com/news/national/supreme-court-seeks-responses-of-centre-states-on-plea-for-use-of-aadhaar-as-identity-proof-only/article71108039.ece",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "published": "2026-06-16T19:36:20+00:00",
+          "summary": "The petition claims that ‘infiltrators and illegal immigrants’ are able to obtain Aadhaar cards and project themselves as ‘lawful residents’",
+          "image_url": "https://th-i.thgim.com/public/incoming/931uz0/article71108058.ece/alternates/LANDSCAPE_1200/IMG_Suprem_Court_3_1_2MFJ3838.jpg"
         },
         {
-          "title": "Resort politics begins in Jharkhand as BJP herds legislators away",
-          "link": "https://indianexpress.com/article/india/jharkhand-rajya-sabha-elections-bjp-nda-mlas-ranchi-10742734/",
+          "title": "Selfie at 1.36 am, tragic call at 8 am: Family recalls last contact with woman who died on vacation in Mussoorie",
+          "link": "https://indianexpress.com/article/india/selfie-at-1-36-am-tragic-call-at-8-am-family-recalls-last-contact-with-woman-who-died-on-vacation-in-mussoorie-10743209/",
           "source": "India | The Indian Express",
-          "published": "2026-06-16T13:11:55+00:00",
+          "published": "2026-06-17T00:40:43+00:00",
           "summary": "",
-          "image_url": "https://images.indianexpress.com/2026/06/hemant-soren-babulal-marandi-composite.jpg"
+          "image_url": "https://images.indianexpress.com/2026/06/massoorie-couple-murder_20260616192847.jpeg"
         },
         {
-          "title": "Mysterious cracks ‘as wide as 2 people’ damage J&K houses, farmland",
-          "link": "https://indianexpress.com/article/india/mysterious-cracks-wide-2-people-damage-jammu-and-kashmir-houses-farmland-10742733/",
+          "title": "Bihar Police exam: Railways announces 30+ special trains to avoid repeat of June 14 chaos",
+          "link": "https://indianexpress.com/article/india/bihar-police-exam-railways-announces-30-special-trains-to-avoid-repeat-of-june-14-chaos-10743211/",
           "source": "India | The Indian Express",
-          "published": "2026-06-16T12:53:39+00:00",
+          "published": "2026-06-16T23:24:34+00:00",
           "summary": "",
-          "image_url": "https://images.indianexpress.com/2026/06/cracks-Jammu-and-Kashmir.jpg"
+          "image_url": "https://images.indianexpress.com/2026/06/Police-personnel-keep-watch-at-Patliputra-station-in-Patna-on-Sunday.-Rahul-Sharma_20260616194059.jpg"
         },
         {
-          "title": "Kerala sees spike in Shigella cases, 4 deaths this month; minister blames poor pre-monsoon cleaning",
-          "link": "https://indianexpress.com/article/india/kerala-shigella-deaths-kozhikode-wayanad-water-k-muraleedharan-10742587/",
+          "title": "Mould, cracks, superficial patchwork: What IIT Madras team found at Goa’s iconic Kala Academy",
+          "link": "https://indianexpress.com/article/india/mould-cracks-superficial-patchwork-what-iit-madras-team-found-at-goas-iconic-kala-academy-10743161/",
           "source": "India | The Indian Express",
-          "published": "2026-06-16T11:48:48+00:00",
+          "published": "2026-06-16T23:23:40+00:00",
           "summary": "",
-          "image_url": "https://images.indianexpress.com/2026/06/K-Muraleedharan-kerala.jpg"
+          "image_url": "https://images.indianexpress.com/2026/06/Goa-kala-academy.jpg"
         },
         {
-          "title": "Railway Board approves new route for Sabarmati-Veraval Vande Bharat Express – Check revised stops, timings",
-          "link": "https://indianexpress.com/article/india/railway-board-approves-new-route-for-sabarmati-veraval-vande-bharat-express-check-revised-stops-timings-10742467/",
+          "title": "Mumbai INOX executive duped of Rs 10.4 crore via WhatsApp, four arrested in Delhi",
+          "link": "https://indianexpress.com/article/india/mumbai-inox-executive-duped-of-rs-10-4-cr-via-whatsapp-four-arrested-in-delhi-10743268/",
           "source": "India | The Indian Express",
-          "published": "2026-06-16T11:31:53+00:00",
+          "published": "2026-06-16T23:17:57+00:00",
           "summary": "",
-          "image_url": "https://images.indianexpress.com/2026/06/vande-bharat-2.jpg"
+          "image_url": "https://images.indianexpress.com/2026/06/Whatsapp_20260616214327.jpg"
         },
         {
-          "title": "Pune-Danapur Amrit Bharat Express: Train number, route, stops, frequency, time table",
-          "link": "https://indianexpress.com/article/india/pune-danapur-amrit-bharat-express-train-number-route-stops-frequency-time-table-10742372/",
+          "title": "Trump listening, Modi to G7: Shortage of trust, need to rebuild",
+          "link": "https://indianexpress.com/article/india/trump-listening-modi-to-g7-shortage-of-trust-need-to-rebuild-10743269/",
           "source": "India | The Indian Express",
-          "published": "2026-06-16T10:34:19+00:00",
+          "published": "2026-06-16T23:15:00+00:00",
           "summary": "",
-          "image_url": "https://images.indianexpress.com/2026/06/amrit-bharat-express-2.jpg"
+          "image_url": "https://images.indianexpress.com/2026/06/P1-Moditrump-4col.jpg"
         },
         {
-          "title": "‘PM Modi responsible’: Congress breaks silence on Ram Temple donation row",
-          "link": "https://indianexpress.com/article/india/ram-temple-donation-controversy-congress-ayodhya-fund-allegations-probe-10742371/",
+          "title": "TMC crisis: Speaker Om Birla to hear both sides before deciding on rebel MPs",
+          "link": "https://indianexpress.com/article/india/speaker-om-birla-to-hear-both-sides-before-deciding-on-rebel-mps-10743294/",
           "source": "India | The Indian Express",
-          "published": "2026-06-16T10:21:23+00:00",
+          "published": "2026-06-16T23:08:50+00:00",
           "summary": "",
-          "image_url": "https://images.indianexpress.com/2026/06/16Temple.jpg"
+          "image_url": "https://images.indianexpress.com/2026/06/om-birla-2_20260316003109_20260401214417_20260616230806.jpg"
+        },
+        {
+          "title": "At G7 meet, Mark Carney invites PM Narendra Modi to visit Canada; both vow to strengthen relations",
+          "link": "https://indianexpress.com/article/india/at-g7-meet-mark-carney-invites-pm-narendra-modi-to-visit-canada-both-vow-to-strengthen-relations-10743244/",
+          "source": "India | The Indian Express",
+          "published": "2026-06-16T20:56:49+00:00",
+          "summary": "",
+          "image_url": "https://images.indianexpress.com/2026/06/Prime-Minister-Narendra-Modi-US-President-Donald-Trump-French-President-Emmanuel-Macron-and-other-world-leaders-during-the.jpg"
+        },
+        {
+          "title": "Uzbekistan looks to woo investors as TIIF opens today",
+          "link": "https://indianexpress.com/article/india/uzbekistan-looks-to-woo-investors-as-tiif-opens-today-10743172/",
+          "source": "India | The Indian Express",
+          "published": "2026-06-16T19:13:06+00:00",
+          "summary": "",
+          "image_url": "https://images.indianexpress.com/2026/06/edited-Uzbek-president-.jpg"
         }
       ]
     },
@@ -802,68 +818,68 @@
       "feeds_failed": 2,
       "entries": [
         {
-          "title": "Iran deal presents political nightmare for Netanyahu",
-          "link": "https://www.bbc.com/news/articles/cj4gnqw8j52o?at_medium=RSS&at_campaign=rss",
+          "title": "Tehran selling deal with US as victory – but for Iranians it was necessity",
+          "link": "https://www.bbc.com/news/articles/cn4rwzxvl8ko?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "published": "2026-06-16T03:40:36+00:00",
-          "summary": "Donald Trump's ceasefire agreement with Iran leaves the Israeli PM trapped in a new political and security dilemma.",
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee5d/live/2f08dc10-6961-11f1-8e1d-bbbb1017d210.jpg"
+          "published": "2026-06-16T15:31:24+00:00",
+          "summary": "For many Iranians, the question is not whether the deal means victory, but whether it lowers prices and reduces fear of another war.",
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd69/live/fa1ab490-698f-11f1-bf78-b9ee73ed2967.jpg"
+        },
+        {
+          "title": "Fragile quiet in Lebanon as US-Iran truce leaves unanswered questions",
+          "link": "https://www.bbc.com/news/articles/cvgepl5gdp1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "published": "2026-06-16T16:20:33+00:00",
+          "summary": "Many Lebanese remain doubtful that the agreement could finally mean the end of the fighting between Israel and Hezbollah.",
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16f0/live/d36dc9e0-6994-11f1-b1db-af71d47507d6.jpg"
+        },
+        {
+          "title": "UK investigating reports Russian warship fired warning shots near yacht in English Channel",
+          "link": "https://www.bbc.com/news/articles/c20yzm84r7lo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "published": "2026-06-17T00:25:39+00:00",
+          "summary": "The retired couple told BBC Newsnight they tried to show the warship they had changed course before the shots were fired.",
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13ab/live/e6c7bcc0-69db-11f1-801f-7707cfed8b55.jpg"
         },
         {
           "title": "Russian artist and Putin critic shot dead in Poland",
           "link": "https://www.bbc.com/news/articles/clyrzd5g6k2o?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "published": "2026-06-16T10:37:16+00:00",
+          "published": "2026-06-16T17:33:50+00:00",
           "summary": "Robert Kuzovkov, who used the pseudonym Semyon Skrepetsky, has been known for his caricatures of politicians including Vladimir Putin.",
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/802d/live/a26f4a30-6962-11f1-9f4a-21531e88e991.jpg"
         },
         {
-          "title": "Eight dead after US Air Force B-52 bomber crashes in California",
-          "link": "https://www.bbc.com/news/articles/cqx10yql319o?at_medium=RSS&at_campaign=rss",
+          "title": "German broadcaster removes TV intro after Elon Musk takes legal action",
+          "link": "https://www.bbc.com/news/articles/c0jyzp9z9deo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "published": "2026-06-16T01:49:03+00:00",
-          "summary": "The incident occurred on Monday morning while the aircraft had been on a routine test mission.",
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e43/live/732b1820-6945-11f1-8e1d-bbbb1017d210.jpg"
+          "published": "2026-06-16T17:57:00+00:00",
+          "summary": "ZDF TV responded to a \"cease and desist\" letter after the tech trillionaire condemned the broadcaster's \"outrageous lies\".",
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8f4/live/3b494590-6994-11f1-a716-b5396926119a.jpg"
         },
         {
-          "title": "Cuba tourism collapses as US pressure campaign bites",
-          "link": "https://www.bbc.com/news/articles/ckg8zrm20jjo?at_medium=RSS&at_campaign=rss",
+          "title": "Hundreds of cats stolen for food in Vietnam rescued by police, welfare group says",
+          "link": "https://www.bbc.com/news/articles/c20yzm58vk3o?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "published": "2026-06-16T11:16:59+00:00",
-          "summary": "The number of foreign visitors is down by 58% compared to last year, Cuban officials say, amid sanctions and an effective oil blockade.",
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5724/live/1d7d1180-6972-11f1-8cc2-edef34f05c3f.jpg"
+          "published": "2026-06-16T17:17:55+00:00",
+          "summary": "Police have arrested nine people and rescued more than 400 cats destined for slaughter, with more than 40 reunited with their owners.",
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a76d/live/c145dbd0-69a4-11f1-8546-8f19e4fe30f4.jpg"
         },
         {
-          "title": "Hungary's MPs block return of Orbán, limiting rule of PM to eight years",
-          "link": "https://www.bbc.com/news/articles/c621zplqrrno?at_medium=RSS&at_campaign=rss",
+          "title": "France's oldest female detainee, 79, goes on trial for in-law's grisly murder",
+          "link": "https://www.bbc.com/news/articles/cy498llene1o?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "published": "2026-06-16T12:42:15+00:00",
-          "summary": "The vote fulfils a promise by new PM Péter Magyar to stop his predecessor from becoming prime minister again.",
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b138/live/13ff5dc0-697c-11f1-a63b-a7cb529e1ca8.jpg"
+          "published": "2026-06-16T14:46:35+00:00",
+          "summary": "A dismembered body found in a chain-bound trunk in the Seine in 1995 was only recently connected to the defendant by DNA evidence.",
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a49/live/29c3a640-6989-11f1-bf78-b9ee73ed2967.png"
         },
         {
-          "title": "'Dancing girl's' bare torso restored in Indian textbook after backlash",
-          "link": "https://www.bbc.com/news/articles/c7vyzgl2142o?at_medium=RSS&at_campaign=rss",
+          "title": "Venezuela signs deal with US energy giant to rebuild power grid",
+          "link": "https://www.bbc.com/news/articles/c0jyzpv52yyo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News",
-          "published": "2026-06-16T07:05:54+00:00",
-          "summary": "A picture in a new school textbook had covered up the naked torso of the famous figurine with dark shading.",
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be3/live/3aa49d90-6946-11f1-b8da-53bba3cad46c.jpg"
-        },
-        {
-          "title": "Somaliland opens Jerusalem embassy after Israel's recognition of its independence",
-          "link": "https://www.bbc.com/news/articles/cj4gn4d54y0o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "published": "2026-06-16T14:34:39+00:00",
-          "summary": "The move comes six months after Israel became the first country to recognise the breakaway East African state.",
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f4f/live/5af064b0-6975-11f1-a610-610c6ec6d3a5.jpg"
-        },
-        {
-          "title": "FBI thwarted plot targeting White House UFC event, Patel says",
-          "link": "https://www.bbc.com/news/articles/cqx10xlje1lo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "published": "2026-06-16T14:18:44+00:00",
-          "summary": "US media say the plan would have involved a drone attack. The FBI boss says multiple suspects are in custody.",
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76bb/live/f3fbc9c0-6979-11f1-a63b-a7cb529e1ca8.jpg"
+          "published": "2026-06-16T15:19:52+00:00",
+          "summary": "The deal with General Electric is the latest sign of co-operation between US firms and Venezuela's interim government.",
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/206d/live/4711bd90-6993-11f1-bf78-b9ee73ed2967.jpg"
         }
       ]
     },
@@ -875,6 +891,22 @@
       "feeds_ok": 2,
       "feeds_failed": 2,
       "entries": [
+        {
+          "title": "55% of Travelers Said They’d Consider Going Somewhere Because of a Book",
+          "link": "https://bookriot.com/55-of-travelers-said-theyd-consider-going-somewhere-because-of-a-book-2/",
+          "source": "BOOK RIOT",
+          "published": "2026-06-16T23:39:21+00:00",
+          "summary": "On the rise of literary tourism and reading vacations, the HEARTSTOPPER FOREVER trailer, and more bookish news.",
+          "image_url": null
+        },
+        {
+          "title": "Book Riot’s Deals of the Day for June 16, 2026",
+          "link": "https://bookriot.com/book-riots-deals-of-the-day-for-june-16-2026/",
+          "source": "BOOK RIOT",
+          "published": "2026-06-16T16:23:03+00:00",
+          "summary": "A love letter to California, a Golden Girls cozy mystery, a novel inspired by a beloved Harlem jazz performer, and more of today's best book deals",
+          "image_url": "https://bookriot.com/wp-content/uploads/2025/07/sorcery-and-small-magics-200x300.jpg.optimal.jpg"
+        },
         {
           "title": "The Buzziest Book Club Read of 2026 So Far",
           "link": "https://bookriot.com/buzziest-2026-book-kin/",
@@ -922,22 +954,6 @@
           "published": "2026-06-16T09:30:00+00:00",
           "summary": "Simon & Schuster and The Black List just made adaptations a lot easier.",
           "image_url": "https://bookriot.com/wp-content/uploads/2025/08/Book-Riot-Newsletter-Heading-black.jpg.optimal.jpg"
-        },
-        {
-          "title": "Join the 500 Billion Page Challenge",
-          "link": "https://bookriot.com/500-billion-page-challenge/",
-          "source": "BOOK RIOT",
-          "published": "2026-06-16T09:01:00+00:00",
-          "summary": "Reading as little as three pages a day is all you need to make a difference in the ThriftBooks 500 billion page challenge.",
-          "image_url": "https://bookriot.com/wp-content/uploads/2026/06/ThriftBooks_500BPC_logo_tagline_teal.jpg.optimal.jpg"
-        },
-        {
-          "title": "6 of the Best New Book Releases Out June 16, 2026",
-          "link": "https://bookriot.com/new-book-releases-june-16-2026/",
-          "source": "BOOK RIOT",
-          "published": "2026-06-16T09:00:00+00:00",
-          "summary": "There's a Secret Garden-esque romance by Ashley Poston, a Bollywood/Hollywood murder mystery, fabulism in 1960's India, and more.",
-          "image_url": "https://bookriot.com/wp-content/uploads/2026/04/The-Someday-Garden-Ashley-Poston-cover-300x0.jpg.optimal.jpg"
         }
       ]
     },
