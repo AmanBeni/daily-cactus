@@ -1,0 +1,39 @@
+# OPTIONAL — add this ONLY if cross-day memory (seen.json) and the archive index
+# aren't accumulating. The routine pushes each edition to a claude/* branch; by
+# default main never updates, so the next run clones a stale main (memory resets,
+# archive index can't list past dates). This merges each edition back into main so
+# state accumulates across runs.
+#
+# With this added, the flow is: routine -> claude/* branch -> merged into main ->
+# next run clones an up-to-date main. publish.yml still deploys as before.
+#
+# Tradeoff: editions auto-merge with no manual review. You said that's fine. If a
+# merge ever conflicts (e.g. you hand-edited main mid-run), this workflow fails
+# loudly in the Actions tab rather than doing anything silently.
+
+name: Merge edition into main
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Merge the edition branch
+        run: |
+          git config user.name  "Daily Cactus Bot"
+          git config user.email "bot@dailycactus.local"
+          git merge --no-edit "origin/${{ github.ref_name }}"
+          git push origin main
