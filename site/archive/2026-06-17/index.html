@@ -3,77 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Cactus — June 17, 2026</title>
+<title>The Daily Cactus — June 17, 2026 (Archive)</title>
 <style>
-  :root{
-    --paper:#faf6ee; --ink:#1d1d1b; --muted:#6b675e;
-    --accent:#2f6f4f; --rule:#d8d2c4; --highlight:#b3542e; --beta:#7a5cc4;
-  }
+  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e;--beta:#7a5cc4}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);
-       font-family:Georgia,'Times New Roman',serif;line-height:1.55;
-       max-width:1040px;margin:0 auto;padding:24px 24px 64px}
+  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:1040px;margin:0 auto;padding:24px 24px 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
   .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
-  .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;
-       color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
-      padding:12px 0;border-bottom:1px solid var(--rule);
-      font-family:'Courier New',monospace;font-size:13px;line-height:2}
+  .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
   nav .sep{color:var(--rule);margin:0 12px;user-select:none}
   .lead{padding:24px 0 8px;border-bottom:1px solid var(--rule)}
-  .lead .story-img{float:right;width:300px;height:200px;object-fit:cover;
-       margin:4px 0 12px 22px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  .lead .story-img{float:right;width:300px;height:200px;object-fit:cover;margin:4px 0 12px 22px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .lead h2{font-size:30px;line-height:1.2;margin-bottom:10px}
   .lead .summary{font-size:17px}
   .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
-  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);
-       border-bottom:1px solid var(--rule);padding-bottom:4px;
-       text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
   article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:128px;height:88px;object-fit:cover;
-       margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
   .takeaway{margin-bottom:6px;font-size:15px}
   .takeaway b{color:var(--highlight);letter-spacing:.3px}
-  .why{background:#f1ead9;border-left:3px solid var(--accent);
-       padding:8px 12px;font-size:15px;margin-bottom:8px}
+  .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
-  .developing{display:inline-block;background:var(--highlight);color:#fff;
-       font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;
-       border-radius:3px;margin-bottom:6px;letter-spacing:1px}
-  .beta-tag{display:inline-block;background:var(--beta);color:#fff;
-       font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;
-       border-radius:3px;letter-spacing:1px;vertical-align:middle;margin-left:8px}
-  .beta-note{grid-column:1 / -1;font-size:13px;color:var(--muted);font-style:italic;
-       margin:2px 0 4px}
-  .opp h2{font-size:18px}
-  .opp .when{font-family:'Courier New',monospace;font-size:12px;color:var(--beta);
-       margin-bottom:4px;letter-spacing:.5px}
-  .archive-list{list-style:none;margin-top:14px}
-  .archive-list li{padding:9px 0;border-bottom:1px solid var(--rule)}
-  .archive-list .d{font-family:'Courier New',monospace;color:var(--muted);
-       font-size:13px;margin-right:10px}
-  .archive-list a{color:var(--ink);text-decoration:none}
-  .archive-list a:hover{color:var(--accent)}
-  .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);
-       text-align:center;font-family:'Courier New',monospace;
-       font-size:12px;color:var(--muted)}
-  @media (max-width:760px){
-    body{padding:18px 16px 48px}
-    .grid{grid-template-columns:1fr;column-gap:0}
-    .lead .story-img{float:none;width:100%;height:200px;margin:0 0 12px 0}
-    .lead h2{font-size:25px}
-    .story-img{width:96px;height:68px;margin-left:10px}
-    nav .sep{margin:0 8px}
-  }
+  .developing{display:inline-block;background:var(--highlight);color:#fff;font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;border-radius:3px;margin-bottom:6px;letter-spacing:1px}
+  .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
+  @media (max-width:760px){body{padding:18px 16px 48px}.grid{grid-template-columns:1fr;column-gap:0}.lead .story-img{float:none;width:100%;height:200px;margin:0 0 12px 0}.lead h2{font-size:25px}.story-img{width:96px;height:68px;margin-left:10px}nav .sep{margin:0 8px}}
 </style>
 </head>
 <body>
@@ -81,7 +43,6 @@
     <h1>The Daily Cactus 🌵</h1>
     <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
   </header>
-
   <nav>
     <a href="index.html" class="active">Front Page</a><span class="sep">·</span>
     <a href="sections/ai.html">AI</a><span class="sep">·</span>
@@ -96,9 +57,8 @@
     <a href="sections/other-interests.html">Other Interests</a><span class="sep">·</span>
     <a href="sections/opportunities.html">Opportunities</a><span class="sep">·</span>
     <a href="sections/remainder.html">Remainder</a><span class="sep">·</span>
-    <a href="archive/index.html">Archive</a>
+    <a href="../index.html">Archive</a>
   </nav>
-
   <main>
     <section class="lead">
       <article>
@@ -106,7 +66,7 @@
         <h2><a href="https://yourstory.com/2026/06/sarvam-ai-turns-unicorn-razorpay-files-drhp">Sarvam AI Becomes India's Newest Unicorn With $234 Million HCLTech-Led Round</a></h2>
         <p class="summary">Sarvam AI, the Bengaluru startup building India-specific large language models and speech technology, has raised $234 million in a round led by HCLTech — crossing the billion-dollar valuation mark. The funding backs plans to build advanced AI models, expand compute infrastructure, and strengthen what the company calls India's sovereign AI ecosystem. Razorpay, meanwhile, has confidentially filed its draft red herring prospectus, signalling the fintech is finally ready for a public markets debut.</p>
         <p class="takeaway"><b>Key takeaway:</b> India now has a funded, home-grown AI unicorn with a clear sovereign-AI mandate — something no other developing economy has pulled off at this scale.</p>
-        <p class="why"><b>Why it matters:</b> Sarvam's rise matters on two levels. First, it validates the bet that language models trained on Indian languages (Hindi, Tamil, Telugu, Kannada) and Indian contexts can outperform generic LLMs for India's 1.4 billion users. Second, HCLTech's lead cheque signals that large Indian IT firms — long seen as services businesses — are willing to own equity in the AI infrastructure layer. If Sarvam succeeds, it could become the spine of India Stack 2.0.</p>
+        <p class="why"><b>Why it matters:</b> Sarvam's rise matters on two levels. First, it validates the bet that language models trained on Indian languages and Indian contexts can outperform generic LLMs for India's 1.4 billion users. Second, HCLTech's lead cheque signals that large Indian IT firms are willing to own equity in the AI infrastructure layer. If Sarvam succeeds, it could become the spine of India Stack 2.0.</p>
         <p class="meta">YourStory · <a href="https://yourstory.com/2026/06/sarvam-ai-turns-unicorn-razorpay-files-drhp">Read the original →</a></p>
       </article>
     </section>
@@ -123,17 +83,17 @@
 
       <article>
         <h2><a href="https://www.theguardian.com/business/2026/jun/16/bank-of-japan-raises-interest-rates-iran-war-inflation-us-fed-bank-of-england">Bank of Japan Raises Rates to 31-Year High of 1% as Iran War Inflation Bites</a></h2>
-        <p class="summary">The Bank of Japan raised its benchmark rate to 1% — the highest since 1995 — citing persistent inflationary pressure worsened by the Iran-Hormuz energy shock. The US Federal Reserve and Bank of England held rates steady. BOJ action marks a decisive end to Japan's era of ultra-loose monetary policy.</p>
+        <p class="summary">The Bank of Japan raised its benchmark rate to 1% — the highest since 1995 — citing persistent inflationary pressure worsened by the Iran-Hormuz energy shock. The move marks a decisive end to Japan's era of ultra-loose monetary policy.</p>
         <p class="takeaway"><b>Key takeaway:</b> The last major holdout for negative-rate policy has now joined the global tightening cycle, triggered in part by Middle East energy disruption.</p>
-        <p class="why"><b>Why it matters:</b> Higher Japanese rates unwind the yen carry trade — borrowed yen invested in higher-yielding emerging markets — potentially triggering capital outflows from markets including India. Every 25 bps BOJ move has historically caused volatility in EM currencies and equities.</p>
+        <p class="why"><b>Why it matters:</b> Higher Japanese rates unwind the yen carry trade, potentially triggering capital outflows from emerging markets including India. Every 25 bps BOJ move has historically caused volatility in EM currencies and equities.</p>
         <p class="meta">The Guardian · <a href="https://www.theguardian.com/business/2026/jun/16/bank-of-japan-raises-interest-rates-iran-war-inflation-us-fed-bank-of-england">Read the original →</a></p>
       </article>
 
       <article>
-        <h2><a href="https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/">SpaceX Hits $2.6 Trillion, Briefly Passes Amazon in Market Cap After Going Public</a></h2>
-        <p class="summary">SpaceX's valuation jumped by $1 trillion in the days after its shares began trading publicly, briefly surpassing Amazon's market cap. The company — now valued at $2.6T — is the first pure space-industrial company to rank among the world's ten most valuable firms. Elon Musk's net worth has reached previously unrecorded levels.</p>
+        <h2><a href="https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/">SpaceX Hits $2.6 Trillion, Briefly Passes Amazon After Going Public</a></h2>
+        <p class="summary">SpaceX's valuation jumped by $1 trillion in the days after its shares began trading publicly, briefly surpassing Amazon's market cap. The company — now valued at $2.6T — is the first pure space-industrial company to rank among the world's ten most valuable firms.</p>
         <p class="takeaway"><b>Key takeaway:</b> A single IPO has compressed the gap between terrestrial tech and space infrastructure in investor imagination.</p>
-        <p class="why"><b>Why it matters:</b> SpaceX's valuation sets a benchmark for the entire space economy and may accelerate capital into Indian space startups (Skyroot, Pixxel, Agnikul) by validating the sector's investment case at the highest possible level.</p>
+        <p class="why"><b>Why it matters:</b> SpaceX's valuation sets a benchmark for the entire space economy and may accelerate capital into Indian space startups by validating the sector's investment case at the highest possible level.</p>
         <p class="meta">TechCrunch · <a href="https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/">Read the original →</a></p>
       </article>
 
@@ -141,40 +101,39 @@
         <img class="story-img" src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/17/eaed1f68-32b0-4702-b141-33d82b848b65_dda36ab5.jpg?itok=ZP6Gx_lM&v=1781667723" alt="" onerror="this.style.display='none'">
         <span class="developing">DEVELOPING</span>
         <h2><a href="https://www.scmp.com/week-asia/people/article/3357371/traumatised-indian-sailors-hormuz-reopening-brings-little-relief">For Traumatised Indian Sailors, Hormuz Reopening Brings Little Relief</a></h2>
-        <p class="summary">Captain Raman Kapoor and hundreds of Indian merchant mariners describe PTSD-like symptoms after months operating through a war zone — convoy escorts, blackout nights, and missile alerts. Even as the US-Iran truce reopens the Strait of Hormuz, maritime insurers are still charging war-zone premiums and many crews are waiting for normalcy that hasn't arrived.</p>
+        <p class="summary">Indian merchant mariners describe months of operating through a war zone — convoy escorts, blackout nights, and missile alerts. Even as the US-Iran truce reopens the Strait of Hormuz, maritime insurers are still charging war-zone premiums and many crews are waiting for normalcy that hasn't arrived.</p>
         <p class="takeaway"><b>Key takeaway:</b> Hormuz is technically open but trauma, elevated insurance costs, and slow repatriation mean the human crisis in Indian shipping is far from over.</p>
-        <p class="why"><b>Why it matters:</b> India has the world's largest merchant seafarer workforce — over 200,000 active sailors. Their mental health and legal protections are now a live policy question touching the Ministry of Ports and the Directorate General of Shipping.</p>
+        <p class="why"><b>Why it matters:</b> India has the world's largest merchant seafarer workforce — over 200,000 active sailors. Their mental health and legal protections are now a live policy question.</p>
         <p class="meta">South China Morning Post · <a href="https://www.scmp.com/week-asia/people/article/3357371/traumatised-indian-sailors-hormuz-reopening-brings-little-relief">Read the original →</a></p>
       </article>
 
       <article>
         <img class="story-img" src="https://www.carbonbrief.org/wp-content/uploads/2026/06/Screenshot-2026-06-16-at-10.40.53-1024x529.png" alt="" onerror="this.style.display='none'">
         <h2><a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Energy-Efficient ACs Could Save Indian Households ₹69 Billion a Year</a></h2>
-        <p class="summary">A CarbonBrief analysis finds that shifting India's air conditioning stock to 5-star BEE-rated units could save households ₹69 billion ($724 million) in electricity costs annually. With India's AC penetration expected to surge from 10% today toward 40% by 2040, the efficiency standards set now will determine decades of energy demand.</p>
-        <p class="takeaway"><b>Key takeaway:</b> Appliance standards, not carbon taxes, are the most tractable Indian climate lever — and the savings belong to consumers, not governments.</p>
-        <p class="why"><b>Why it matters:</b> India is on course to see the largest AC adoption boom in human history. If it mirrors China's low-efficiency path, peak summer power demand will overwhelm grids. If it mandates 5-star, the savings rival a medium-sized renewable project — without subsidies.</p>
+        <p class="summary">A CarbonBrief analysis finds that shifting India's AC stock to 5-star BEE-rated units could save households ₹69 billion ($724 million) annually. With India's AC penetration on course to surge toward 40% by 2040, efficiency standards set now will determine decades of energy demand.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Appliance standards are India's most tractable climate lever — and the savings belong to consumers, not governments.</p>
+        <p class="why"><b>Why it matters:</b> India is on course to see the largest AC adoption boom in human history. Locking in low-efficiency units now means peak summer grid demand will overwhelm infrastructure by 2035.</p>
         <p class="meta">Carbon Brief · <a href="https://www.carbonbrief.org/analysis-energy-efficient-air-conditioning-could-save-indian-homes-69bn-rupees-a-year/">Read the original →</a></p>
       </article>
 
       <article>
         <h2><a href="https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/">Anthropic's Trump Feud May Be Boosting Enterprise Sales, Ramp Data Suggests</a></h2>
-        <p class="summary">Anthropic's ongoing tension with the Trump administration over AI governance appears to be a sales advantage, not a liability — at least among enterprise buyers. Corporate card data from Ramp shows Anthropic's business usage growing even as the conflict intensifies, suggesting that liberal-leaning enterprises see the company's policy stance as a brand signal.</p>
-        <p class="takeaway"><b>Key takeaway:</b> In the current AI landscape, public opposition to Trump may be a legitimate enterprise sales strategy for AI companies.</p>
-        <p class="why"><b>Why it matters:</b> This data point reveals how AI governance politics is bleeding into commercial decisions. For Indian AI builders competing for global enterprise contracts, it's a signal that values alignment — not just benchmarks — is increasingly part of the buying decision.</p>
+        <p class="summary">Corporate card data from Ramp shows Anthropic's enterprise usage growing even as its conflict with the Trump administration intensifies — suggesting enterprise buyers see the company's policy positioning as a positive brand signal.</p>
+        <p class="takeaway"><b>Key takeaway:</b> AI governance posture is now a commercial differentiator, not just regulatory compliance.</p>
+        <p class="why"><b>Why it matters:</b> For Indian AI builders targeting global enterprise, values alignment matters as much as benchmark performance. The market is segmenting by politics as well as capability.</p>
         <p class="meta">TechCrunch · <a href="https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/">Read the original →</a></p>
       </article>
 
       <article>
         <img class="story-img" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNrHsCCB53II/v1/1200x-1.jpg" alt="" onerror="this.style.display='none'">
         <h2><a href="https://www.bloomberg.com/news/articles/2026-06-17/pboc-hints-at-new-policy-framework-focused-on-overnight-rate">PBOC Hints at Fed-Style Rate Framework, Focusing on Overnight Rate</a></h2>
-        <p class="summary">China's central bank signaled a potential shift toward an overnight policy rate as its primary monetary policy tool — a move that would bring the PBOC in line with global peers including the US Federal Reserve and European Central Bank. The change would increase rate-setting transparency and could accelerate the yuan's bid for global reserve currency status.</p>
-        <p class="takeaway"><b>Key takeaway:</b> China is quietly building the monetary policy architecture needed for yuan internationalisation — borrowing the Fed's most credible tool.</p>
-        <p class="why"><b>Why it matters:</b> A more predictable PBOC framework could reshape how Asian trade — including India-China — is invoiced and settled. It also reduces the surprise-intervention risk that has historically made yuan-denominated contracts unattractive for Indian exporters.</p>
+        <p class="summary">China's central bank signaled a potential shift toward an overnight policy rate as its primary monetary tool — bringing PBOC in line with global peers and potentially accelerating the yuan's bid for global reserve currency status.</p>
+        <p class="takeaway"><b>Key takeaway:</b> China is building the monetary architecture needed for yuan internationalisation by borrowing the Fed's most credible tool.</p>
+        <p class="why"><b>Why it matters:</b> A more predictable PBOC framework could reshape how Asian trade — including India-China commerce — is invoiced and settled, reducing the surprise-intervention risk that has made yuan contracts unattractive.</p>
         <p class="meta">Bloomberg · <a href="https://www.bloomberg.com/news/articles/2026-06-17/pboc-hints-at-new-policy-framework-focused-on-overnight-rate">Read the original →</a></p>
       </article>
     </div>
   </main>
-
   <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
 </body>
 </html>
