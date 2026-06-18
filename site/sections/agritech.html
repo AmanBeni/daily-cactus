@@ -3,96 +3,146 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Cactus — Agritech — June 17, 2026</title>
+<title>The Daily Cactus — Agritech · 18 June 2026</title>
 <style>
-  :root{--paper:#faf6ee;--ink:#1d1d1b;--muted:#6b675e;--accent:#2f6f4f;--rule:#d8d2c4;--highlight:#b3542e;--beta:#7a5cc4}
+  :root{
+    --paper:#faf6ee; --ink:#1d1d1b; --muted:#6b675e;
+    --accent:#2f6f4f; --rule:#d8d2c4; --highlight:#b3542e; --beta:#7a5cc4;
+  }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55;max-width:1040px;margin:0 auto;padding:24px 24px 64px}
+  body{background:var(--paper);color:var(--ink);
+       font-family:Georgia,'Times New Roman',serif;line-height:1.55;
+       max-width:2200px;margin:0 auto;padding:24px clamp(20px,3.5vw,72px) 64px}
   .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
   .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
-  .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule);font-family:'Courier New',monospace;font-size:13px;line-height:2}
+  .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;
+       color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
+  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
+      padding:12px 0;border-bottom:1px solid var(--rule);
+      font-family:'Courier New',monospace;font-size:13px;line-height:2}
   nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
   nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
   nav .sep{color:var(--rule);margin:0 12px;user-select:none}
-  .grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px;margin-top:8px}
-  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:4px;text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
+  .lead{padding:24px 0 8px;border-bottom:1px solid var(--rule)}
+  .lead .story-img{float:right;width:300px;height:200px;object-fit:cover;
+       margin:4px 0 12px 22px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  .lead h2{font-size:30px;line-height:1.2;margin-bottom:10px}
+  .lead .summary{font-size:17px}
+  .lead .summary,.lead .takeaway,.lead .why{max-width:74ch}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+        column-gap:40px;margin-top:8px}
+  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);
+       border-bottom:1px solid var(--rule);padding-bottom:4px;
+       text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
   article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
   article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
   article h2 a{color:var(--ink);text-decoration:none}
   article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:128px;height:88px;object-fit:cover;margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
+  .story-img{float:right;width:128px;height:88px;object-fit:cover;
+       margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
   .summary{margin-bottom:8px}
   .takeaway{margin-bottom:6px;font-size:15px}
   .takeaway b{color:var(--highlight);letter-spacing:.3px}
-  .why{background:#f1ead9;border-left:3px solid var(--accent);padding:8px 12px;font-size:15px;margin-bottom:8px}
+  .why{background:#f1ead9;border-left:3px solid var(--accent);
+       padding:8px 12px;font-size:15px;margin-bottom:8px}
   .why b{color:var(--accent)}
   .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
   .meta a{color:var(--highlight)}
-  .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);text-align:center;font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
-  @media (max-width:760px){body{padding:18px 16px 48px}.grid{grid-template-columns:1fr;column-gap:0}.story-img{width:96px;height:68px;margin-left:10px}nav .sep{margin:0 8px}}
+  .developing{display:inline-block;background:var(--highlight);color:#fff;
+       font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;
+       border-radius:3px;margin-bottom:6px;letter-spacing:1px}
+  .beta-tag{display:inline-block;background:var(--beta);color:#fff;
+       font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;
+       border-radius:3px;letter-spacing:1px;vertical-align:middle;margin-left:8px}
+  .beta-note{grid-column:1 / -1;font-size:13px;color:var(--muted);font-style:italic;
+       margin:2px 0 4px}
+  .opp h2{font-size:18px}
+  .opp .when{font-family:'Courier New',monospace;font-size:12px;color:var(--beta);
+       margin-bottom:4px;letter-spacing:.5px}
+  .archive-list{list-style:none;margin-top:14px}
+  .archive-list li{padding:9px 0;border-bottom:1px solid var(--rule)}
+  .archive-list .d{font-family:'Courier New',monospace;color:var(--muted);
+       font-size:13px;margin-right:10px}
+  .archive-list a{color:var(--ink);text-decoration:none}
+  .archive-list a:hover{color:var(--accent)}
+  .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);
+       text-align:center;font-family:'Courier New',monospace;
+       font-size:12px;color:var(--muted)}
+  @media (max-width:760px){
+    body{padding:18px 16px 48px}
+    .grid{grid-template-columns:1fr;column-gap:0}
+    .lead .story-img{float:none;width:100%;height:200px;margin:0 0 12px 0}
+    .lead h2{font-size:25px}
+    .story-img{width:96px;height:68px;margin-left:10px}
+    nav .sep{margin:0 8px}
+  }
 </style>
 </head>
 <body>
   <header class="masthead">
-    <h1>The Daily Cactus 🌵</h1>
-    <div class="dateline">June 17, 2026 · Edition No. 2 · Jaipur, India</div>
+    <h1>The Daily Cactus &#127795;</h1>
+    <div class="dateline">18 JUNE 2026 &middot; EDITION NO. 3 &middot; JAIPUR, INDIA</div>
   </header>
   <nav>
-    <a href="../index.html">Front Page</a><span class="sep">·</span>
-    <a href="ai.html">AI</a><span class="sep">·</span>
-    <a href="deep-tech.html">Deep Tech</a><span class="sep">·</span>
-    <a href="climate-energy.html">Climate &amp; Energy</a><span class="sep">·</span>
-    <a href="health-tech.html">Health Tech</a><span class="sep">·</span>
-    <a href="agritech.html" class="active">Agritech</a><span class="sep">·</span>
-    <a href="indian-startups.html">Indian Startups</a><span class="sep">·</span>
-    <a href="global-economics.html">Global Economics</a><span class="sep">·</span>
-    <a href="india.html">India</a><span class="sep">·</span>
-    <a href="world.html">World</a><span class="sep">·</span>
-    <a href="other-interests.html">Other Interests</a><span class="sep">·</span>
-    <a href="opportunities.html">Opportunities</a><span class="sep">·</span>
-    <a href="remainder.html">Remainder</a><span class="sep">·</span>
+    <a href="../index.html">Front Page</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/ai.html">AI</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/deep-tech.html">Deep Tech</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/climate-energy.html">Climate &amp; Energy</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/health-tech.html">Health Tech</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/agritech.html" class="active">Agritech</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/indian-startups.html">Indian Startups</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/global-economics.html">Global Economics</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/india.html">India</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/world.html">World</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/other-interests.html">Other Interests</a>
+    <span class="sep">&middot;</span>
+    <a href="../sections/opportunities.html">Opportunities</a>
+    <span class="sep">&middot;</span>
     <a href="../archive/index.html">Archive</a>
   </nav>
   <main>
     <div class="grid">
       <h2 class="section-title">Agritech</h2>
-
       <article>
-        <h2><a href="https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing">Rainbow Crops Raises $11.25M to Scale AI-Guided Multiplex Gene Editing for Crops</a></h2>
-        <p class="summary">Rainbow Crops has raised $11.25 million to scale its AI-guided multiplex gene editing platform, which simultaneously edits multiple crop traits in a single cycle. The startup is close to announcing a collaboration with a major seed company on corn and is in advanced discussions for additional partnerships in wheat and soybean — crops with enormous global food security significance.</p>
-        <p class="takeaway"><b>Key takeaway:</b> Multiplex gene editing — editing several traits at once — compresses the crop improvement timeline from decades to years when guided by AI.</p>
-        <p class="why"><b>Why it matters:</b> India's crop breeding pipeline is critically slow relative to the pace of climate change — heat-tolerant wheat and flood-resistant rice take 10-15 years through conventional breeding. AI-guided gene editing could compress that to 2-3 years, which is the difference between adaptation and crisis for Indian agriculture.</p>
-        <p class="meta">AgFunder News · Jun 16 · <a href="https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing">Read the original →</a></p>
+        <h2><a href="https://inc42.com/startups/fishing-bigger-margins-how-aquapulse-is-solving-shrimp-farmings-biggest-bottleneck/">Aquapulse: Solving Shrimp Farming&rsquo;s Biggest Bottleneck in India</a></h2>
+        <p class="summary">India&rsquo;s aquaculture sector has long struggled with a costly problem: farmers produce high-value shrimp but much of that value is lost to disease, poor feed efficiency, and opaque intermediary chains. Aquapulse is building IoT and AI tools to help shrimp farmers improve yields and access better pricing directly.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Aquapulse is tackling yield and margin loss in a $5B+ Indian shrimp export sector using real-time farm monitoring and direct market linkages.</p>
+        <div class="why"><b>Why it matters:</b> Indian aquaculture is a massive, underserved sector where technology adoption is still early. This is the kind of deep-domain vertical where AI-generalist founders can build defensible advantage.</div>
+        <p class="meta">Inc42 &middot; <a href="https://inc42.com/startups/fishing-bigger-margins-how-aquapulse-is-solving-shrimp-farmings-biggest-bottleneck/">Read the original &rarr;</a></p>
       </article>
-
       <article>
-        <h2><a href="https://agfundernews.com/ai-is-everywhere-in-cpg-rd-but-is-it-moving-the-needle-turing-labs-surveys-the-biggest-players">AI Is Everywhere in CPG R&amp;D — But 57% of Execs Say Outputs Are Too Generic to Use</a></h2>
-        <p class="summary">A Turing Labs survey of R&amp;D executives at major consumer packaged goods firms found that while AI is nearly universal in product formulation workflows, 57% say that GenAI formulation outputs are too generic to use without significant manual rework. The gap between AI enthusiasm and AI utility is widest in flavour development and nutraceutical formulation, where domain-specific fine-tuning is essential.</p>
-        <p class="takeaway"><b>Key takeaway:</b> Generic AI is at best a first-draft accelerator in CPG R&amp;D — specialist models with proprietary formulation data are where the real value lies.</p>
-        <p class="why"><b>Why it matters:</b> Indian FMCG giants like HUL, Dabur, and Britannia are investing in AI-driven product development. This data suggests they need industry-specific fine-tuned models, not off-the-shelf LLM integrations, to get genuine R&amp;D efficiency gains.</p>
-        <p class="meta">AgFunder News · Jun 16 · <a href="https://agfundernews.com/ai-is-everywhere-in-cpg-rd-but-is-it-moving-the-needle-turing-labs-surveys-the-biggest-players">Read the original →</a></p>
+        <h2><a href="https://agfundernews.com/vivici-bags-e12-5m-eic-funding-to-scale-precision-fermented-dairy-proteins">Vivici Bags &euro;12.5M to Scale Precision-Fermented Dairy Proteins</a></h2>
+        <p class="summary">Vivici, a precision fermentation startup producing dairy proteins without cows, secured &euro;12.5M in EIC funding to scale its platform. The funding reflects growing European appetite for alternative protein infrastructure as conventional dairy faces both climate and welfare scrutiny.</p>
+        <p class="takeaway"><b>Key takeaway:</b> European public funding is now backing precision fermentation at commercial scale &mdash; a signal that alt-protein is moving from lab to supply chain.</p>
+        <div class="why"><b>Why it matters:</b> India&rsquo;s dairy sector ($100B+) faces long-term disruption risk from precision fermentation. Indian dairy co-ops and large processors need a view on this timeline now, not in five years.</div>
+        <p class="meta">AgFunderNews &middot; <a href="https://agfundernews.com/vivici-bags-e12-5m-eic-funding-to-scale-precision-fermented-dairy-proteins">Read the original &rarr;</a></p>
       </article>
-
       <article>
-        <img class="story-img" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/16081112/6-spiny-seahorse-Hippocampus-histrix-768x512.jpg" alt="" onerror="this.style.display='none'">
-        <h2><a href="https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/">AI Detects Marine Wildlife Smuggling by Thinking Like a Trafficker</a></h2>
-        <p class="summary">Researchers have developed an AI system trained on wildlife trafficking patterns that can identify suspicious shipments of marine species — seahorses, corals, and rare fish — by modelling the same evasion logic that traffickers use to disguise cargo. The system, tested in partnership with Argentine customs authorities, caught a major seahorse shipment that human inspectors had cleared.</p>
-        <p class="takeaway"><b>Key takeaway:</b> The most effective wildlife trafficking AI is trained adversarially — built to think like the criminal, not just match keywords.</p>
-        <p class="why"><b>Why it matters:</b> India is both a source and transit country for marine wildlife trafficking, particularly sea cucumbers, seahorses, and reef fish exported to Southeast Asia. Indian customs could adapt this adversarial AI approach to improve detection at major ports including JNPT and Mundra.</p>
-        <p class="meta">Mongabay · Jun 16 · <a href="https://news.mongabay.com/2026/06/thinking-how-traffickers-think-study-uses-ai-to-detect-marine-wildlife-smuggling/">Read the original →</a></p>
+        <h2><a href="https://agfundernews.com/the-protein-brewery-wins-eu-approval-for-fermotein-mycoprotein-six-years-after-novel-foods-filing">EU Approves Fermotein Mycoprotein After Six-Year Process &mdash; A Signal for Alt-Protein Regulation</a></h2>
+        <p class="summary">The Protein Brewery won EU novel foods approval for Fermotein mycoprotein after a six-year regulatory process. The GFI notes the case shows the need to ensure regulatory frameworks keep pace with food innovation.</p>
+        <p class="takeaway"><b>Key takeaway:</b> Six years from filing to EU approval for mycoprotein &mdash; the regulatory lag is the biggest bottleneck for alt-protein commercialisation in Europe.</p>
+        <div class="why"><b>Why it matters:</b> For Indian agrifood startups eyeing EU market entry &mdash; especially in novel food categories &mdash; regulatory timeline is the primary strategic variable, not just technology.</div>
+        <p class="meta">AgFunderNews &middot; <a href="https://agfundernews.com/the-protein-brewery-wins-eu-approval-for-fermotein-mycoprotein-six-years-after-novel-foods-filing">Read the original &rarr;</a></p>
       </article>
-
       <article>
-        <img class="story-img" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/06/17000449/herps_686-768x512.jpg" alt="" onerror="this.style.display='none'">
-        <h2><a href="https://news.mongabay.com/short-article/2026/06/how-a-tiny-blue-gecko-became-a-conservation-comeback-story/">The Tiny Blue Gecko That Came Back From the Brink</a></h2>
-        <p class="summary">The Williams' electric blue day gecko — a small Tanzanian reptile found only on a few islands off the coast — has staged a remarkable conservation comeback after targeted breeding programmes, habitat protection, and community-led anti-poaching patrols brought the species back from critically endangered status. The story is a template for what focused, locally-embedded conservation can achieve.</p>
-        <p class="takeaway"><b>Key takeaway:</b> Focused conservation with local community buy-in can recover a species even from near-extinction — the approach works when the will and resources align.</p>
-        <p class="why"><b>Why it matters:</b> India has dozens of species in equivalent critical status — the Great Indian Bustard, Gangetic river dolphin, gharial. The blue gecko model of combining ex-situ breeding, habitat protection, and community incentives has direct applicability to Indian conservation priorities.</p>
-        <p class="meta">Mongabay · Jun 17 · <a href="https://news.mongabay.com/short-article/2026/06/how-a-tiny-blue-gecko-became-a-conservation-comeback-story/">Read the original →</a></p>
+        <h2><a href="https://agfundernews.com/ais-role-in-agrifood-biotech-comes-into-sharper-focus">AI&rsquo;s Role in Agrifood Biotech Comes Into Sharper Focus</a></h2>
+        <p class="summary">As AI transforms scientific discovery in agrifood biotech, industry players are grappling with the extent of its real-world use cases. The analysis distinguishes between AI as a research accelerant (protein design, crop genomics) and AI as a commercial operations tool &mdash; finding the former far more mature.</p>
+        <p class="takeaway"><b>Key takeaway:</b> AI is transforming agrifood R&amp;D pipelines but commercial deployment is still catching up &mdash; the bottleneck is integration and talent, not the models themselves.</p>
+        <div class="why"><b>Why it matters:</b> India&rsquo;s agritech sector is at an inflection point. Companies that can bridge the AI R&amp;D capability with on-farm implementation will capture the next wave of value.</div>
+        <p class="meta">AgFunderNews &middot; <a href="https://agfundernews.com/ais-role-in-agrifood-biotech-comes-into-sharper-focus">Read the original &rarr;</a></p>
       </article>
     </div>
   </main>
-  <footer class="colophon">June 17, 2026 · Edition No. 2 · 48 sources scanned · 44 feeds ok · 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, feeds.hbr.org) · The Daily Cactus is produced for one reader in Jaipur, India.</footer>
+  <footer class="colophon">Edition 3 &nbsp;&middot;&nbsp; 18 June 2026 &nbsp;&middot;&nbsp; 48 sources scanned &nbsp;&middot;&nbsp; 44 ok &middot; 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, hbr.org) &nbsp;&middot;&nbsp; Jaipur, India</footer>
 </body>
 </html>
