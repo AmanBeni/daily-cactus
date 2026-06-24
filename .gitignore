@@ -1,0 +1,10 @@
+# Local Claude Code settings (machine-specific; do not publish)
+.claude/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
