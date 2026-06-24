@@ -36,11 +36,19 @@ jobs:
       - name: Fetch feeds
         run: python scripts/fetch_feeds.py
 
-      - name: Commit latest feeds
+      - name: Build lean digest
+        # Turns the raw ~280-story latest.json into feeds/digest.json (the small,
+        # url/image-free file the routine reads) + feeds/refs.json (url/image
+        # lookup used only at publish time). This is the main token-saving step:
+        # all dedup/ranking/trimming happens here on free runners, not in the
+        # token-billed routine.
+        run: python scripts/build_digest.py
+
+      - name: Commit feeds
         run: |
           git config user.name  "Daily Cactus Bot"
           git config user.email "bot@dailycactus.local"
-          git add feeds/latest.json
+          git add feeds/latest.json feeds/digest.json feeds/refs.json
           # Only commit if something actually changed
           git diff --staged --quiet || git commit -m "Fetch feeds $(date -u +%Y-%m-%dT%H:%MZ)"
           git push

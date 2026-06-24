@@ -1,7 +1,13 @@
 # Publishes the routine's output to GitHub Pages.
-# Routines push to claude/* branches by default; this workflow takes the
-# site/ folder from those pushes and deploys it to the gh-pages branch,
-# which GitHub Pages serves.
+#
+# In v4 the routine no longer writes the full edition JSON. It writes a tiny
+# DRAFT (drafts/YYYY-MM-DD.json) of story IDs + the prose it wrote. This
+# workflow expands that draft into the full site/editions/YYYY-MM-DD.json
+# (injecting url/image/source verbatim from feeds/refs.json) and THEN deploys
+# site/ to gh-pages. Doing the expansion here — on free runners — keeps the
+# model's output tiny and makes fabricated urls structurally impossible.
+#
+# Routines push to claude/* branches by default; we also accept main.
 
 name: Publish Daily Cactus
 
@@ -11,6 +17,7 @@ on:
       - 'claude/**'
       - 'main'
     paths:
+      - 'drafts/**'
       - 'site/**'
 
 permissions:
@@ -23,11 +30,21 @@ jobs:
       - name: Checkout routine branch
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Assemble edition(s) from draft(s)
+        # Expands every drafts/*.json into site/editions/*.json. Fails loudly on
+        # malformed JSON so a broken paper is never deployed.
+        run: python scripts/assemble_edition.py
+
       - name: Deploy site/ to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           publish_branch: gh-pages
-          keep_files: true          # keep past archive/YYYY-MM-DD/ editions across deploys
+          keep_files: true          # keep past editions/*.json across deploys
           commit_message: "Publish edition from ${{ github.ref_name }}"
