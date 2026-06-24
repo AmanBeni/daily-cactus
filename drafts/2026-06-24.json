@@ -1,0 +1,387 @@
+{
+  "date": "2026-06-24",
+  "lead": {
+    "id": "ai-7",
+    "headline": "Anthropic plants an always-on AI inside Slack that learns how your company actually thinks",
+    "summary": "Anthropic launched Claude Tag, a persistent AI presence that lives in Slack, reads conversations it is invited to, and builds an evolving picture of how a company communicates, decides, and uses jargon. Unlike point-in-time chatbots, it can be summoned mid-thread to answer questions using context absorbed over weeks. Anthropic calls it a coworker, not a tool.",
+    "takeaway": "Anthropic is not just selling AI access — it is competing to own the institutional-knowledge layer before any rival does.",
+    "why": "This is the enterprise AI play that matters most right now: whoever holds organisational context holds the relationship. For someone pivoting into founder's-office or AI-strategy roles, this model — where AI earns its keep by knowing your company, not just the internet — is immediately relevant. Every major enterprise software vendor will respond with a competing version within months; understanding the architecture now is table stakes.",
+    "developing": false
+  },
+  "frontpage": [
+    {
+      "id": "world-9",
+      "headline": "US Congress passes war powers resolution against Trump's Iran conflict — a historic first",
+      "summary": "Both chambers of Congress voted to pass a resolution directing President Trump to halt US military action against Iran, the first time such a measure has cleared both houses in history. The move is constitutionally symbolic — the President can veto it — but signals a growing legislative majority uncomfortable with the conflict. The Senate vote followed the House earlier in the week.",
+      "takeaway": "Congress has drawn a line; the Iran conflict now carries a domestic political ceiling even if it continues operationally.",
+      "why": "The US-Iran war affects India's oil import costs, regional shipping, and diplomatic positioning. A legislative rebuke does not end the conflict but raises the domestic political cost of escalation and opens space for a negotiated off-ramp. India, which has long managed careful neutrality, watches any diplomatic shift closely.",
+      "developing": true
+    },
+    {
+      "id": "indian-startups-1",
+      "headline": "A Bengaluru startup is not racing Nvidia on speed — just on price",
+      "summary": "The Ken profiles a Bengaluru AI chip company building inference-optimised silicon designed to undercut Nvidia on cost rather than compete on raw performance. The thesis: most production AI workloads run on inference, not training, and they do not need the fastest chip — just a cheap enough one. The startup is pitching Indian and global cloud players.",
+      "takeaway": "India's best shot at the chip market may be the inference layer, where price beats petaflops.",
+      "why": "For anyone tracking Indian deep tech, this is the clearest articulation yet of a viable wedge strategy. If the startup gets traction, it validates a model where Indian hardware companies compete not on frontier benchmarks but on cost-per-token at scale. Worth watching who funds the next round and whether the IP is defensible.",
+      "developing": false
+    },
+    {
+      "id": "india-7",
+      "headline": "India's IT giants are losing the employer brand war to AI-native startups",
+      "summary": "TCS, Infosys, and Wipro are struggling to position themselves as attractive employers for AI-era engineers, according to Storyboard18. Their legacy image — body-shopping, process execution — conflicts with the skills they now need and the narratives younger engineers want to join. AI-native startups and hyperscalers are winning on employer brand while the incumbents scramble to rebrand.",
+      "takeaway": "The IT sector's talent gap is structural, not cyclical — a rebranding campaign will not fix a business model mismatch.",
+      "why": "This is the landscape you are navigating from the other side. The brand vacuum at large IT players is an opportunity for AI-native consultancies, product studios, and founder's-office roles. Understanding where top AI talent is going tells you where the leverage and the demand are.",
+      "developing": false
+    },
+    {
+      "id": "climate-energy-5",
+      "headline": "Europe's June heatwave is shattering records — France's hottest day ever, UK bracing for 40C",
+      "summary": "An intense heatwave is tracking eastward across Europe, with France recording its all-time hottest day and parts of the UK bracing for temperatures close to 40 degrees Celsius — more than a month before the historical summer peak. Italy has issued red alerts in 16 cities. Forty people have already drowned in water-related accidents as populations flee the heat.",
+      "takeaway": "A 40C June reading in the UK is a climate anomaly that was essentially statistically impossible 30 years ago.",
+      "why": "Useful context more than direct action. Europe's cooling crisis mirrors India's predicament but is two decades behind on infrastructure adaptation. Watch what Europe mandates next for buildings and grid resilience — it tends to preview global regulatory direction by about a decade.",
+      "developing": true
+    },
+    {
+      "id": "climate-energy-3",
+      "headline": "India's grid is cracking under summer cooling demand — and the fix is years away",
+      "summary": "Scroll.in examines how India's power infrastructure is failing to keep pace with surging summer demand for air conditioning, driven by worsening heat waves. Peak demand hours are causing blackouts across multiple states. The gap between installed generation capacity and the distribution network's ability to deliver electricity is the core bottleneck.",
+      "takeaway": "India's cooling problem is also an energy-poverty problem — the people most exposed to heat are those least able to afford reliable power.",
+      "why": "For anyone tracking Indian climate tech or energy investment, this is the central domestic story this decade. Distributed solar, grid-edge battery storage, and demand-response technology are the logical answers — and represent a large, largely untapped opportunity space for startups and investors alike.",
+      "developing": false
+    },
+    {
+      "id": "global-economics-2",
+      "headline": "RBI Governor: rate hikes are off the table for now, geopolitical uncertainty is too high",
+      "summary": "RBI Governor Sanjay Malhotra said on Tuesday that discussing interest-rate increases was 'premature' given ongoing geopolitical uncertainties. His comments pushed back explicitly on market speculation that the central bank might shift to a tightening stance after a period of rate cuts aimed at supporting economic growth.",
+      "takeaway": "India's central bank intends to stay accommodative — cheaper money is the plan for the near term.",
+      "why": "An accommodative stance means cheaper startup debt, more risk appetite among PE and VC funds, and continued tailwinds for the ecosystem. Directly positive for the Indian startup and investment landscape this reader is entering over the next 12 to 18 months.",
+      "developing": false
+    },
+    {
+      "id": "deep-tech-1",
+      "headline": "China's surgical robot clears the EU, and its AI tops a clinical benchmark — the medical AI race just changed",
+      "summary": "A Chinese teleoperated surgical robot became the first from China to receive European Union regulatory clearance, opening a key Western market. In the same week, a Chinese clinical-grade AI model topped a major healthcare benchmark, outperforming Western competitors. Both milestones signal maturation of China's health-AI sector.",
+      "takeaway": "China's medical AI is no longer catching up — it has cleared the West's hardest regulatory gate and is benchmarking ahead.",
+      "why": "For Indian health-tech watchers, this closes a window. The competitive gap that Indian companies might have exploited is narrowing from the Chinese side faster than expected. If you are evaluating health-AI startups, add 'how does this differentiate from Chinese players with EU approval' to the due-diligence list.",
+      "developing": false
+    }
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": [
+        {
+          "id": "ai-7",
+          "headline": "Anthropic plants an always-on AI inside Slack that learns how your company actually thinks",
+          "summary": "Anthropic launched Claude Tag, a persistent AI presence that lives in Slack, reads conversations it is invited to, and builds an evolving picture of how a company communicates, decides, and uses jargon. Unlike point-in-time chatbots, it can be summoned mid-thread to answer questions using context absorbed over weeks. Anthropic calls it a coworker, not a tool.",
+          "takeaway": "Anthropic is not just selling AI access — it is competing to own the institutional-knowledge layer before any rival does.",
+          "why": "This is the enterprise AI play that matters most right now: whoever holds organisational context holds the relationship. For someone pivoting into founder's-office or AI-strategy roles, this model — where AI earns its keep by knowing your company, not just the internet — is immediately relevant. Every major enterprise software vendor will respond with a competing version within months; understanding the architecture now is table stakes.",
+          "developing": false
+        },
+        {
+          "id": "ai-5",
+          "headline": "India's MoEngage bets that marketing's future is one AI agent per customer",
+          "summary": "Bengaluru-based marketing platform MoEngage made an all-cash acquisition to get its hands on technology that assigns individual AI agents to each customer, enabling hyper-personalised engagement at scale. The bet: the future of marketing is not campaigns but millions of parallel one-on-one AI relationships.",
+          "takeaway": "MoEngage is betting the marketing stack collapses into agents, not dashboards.",
+          "why": "An Indian B2B SaaS player making an M&A move to go all-in on agentic AI is a signal worth noting. If the thesis is right, the entire CRM and marketing-automation category gets rewritten. Interesting reference point for anyone thinking about AI-first product strategy in India.",
+          "developing": false
+        },
+        {
+          "id": "ai-9",
+          "headline": "AI helps breast cancer patients skip chemotherapy they did not actually need",
+          "summary": "An AI system has been shown to accurately identify breast cancer patients who can safely forgo adjuvant chemotherapy without increasing recurrence risk. The tool analyses tumour characteristics and patient data to distinguish low-risk cases where chemotherapy adds harm but little benefit.",
+          "takeaway": "AI is giving oncologists the confidence to do less — which is often the harder clinical decision.",
+          "why": "Useful framing for health-tech thinking: value is not always in new capability. In India, where healthcare resources are stretched and chemotherapy access is uneven, an AI that accurately de-escalates treatment could have outsized impact. The real story is in clinical confidence, not the model.",
+          "developing": false
+        },
+        {
+          "id": "ai-4",
+          "headline": "The same mechanism that makes AI hallucinate may also make it creative",
+          "summary": "The Hindu explores research suggesting that large language models' tendency to generate plausible but false outputs shares a mechanism with divergent thinking. The models are not merely retrieving facts but combining them in ways that sometimes produce errors and sometimes produce genuinely novel ideas. The line between mistake and creativity may be structurally thin.",
+          "takeaway": "Hallucination and creativity may be the same coin, different sides — which complicates efforts to suppress one without killing the other.",
+          "why": "Relevant for anyone using or building with LLMs. Aggressive hallucination suppression may also reduce the serendipitous associations that make AI genuinely useful for ideation. Worth keeping in mind when evaluating AI outputs for creative versus factual tasks.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "id": "deep-tech-1",
+          "headline": "China's surgical robot clears the EU, and its AI tops a clinical benchmark — the medical AI race just changed",
+          "summary": "A Chinese teleoperated surgical robot became the first from China to receive European Union regulatory clearance, opening a key Western market. In the same week, a Chinese clinical-grade AI model topped a major healthcare benchmark, outperforming Western competitors. Both milestones signal maturation of China's health-AI sector.",
+          "takeaway": "China's medical AI is no longer catching up — it has cleared the West's hardest regulatory gate and is benchmarking ahead.",
+          "why": "For Indian health-tech watchers, this closes a window. The competitive gap that Indian companies might have exploited is narrowing from the Chinese side faster than expected. If you are evaluating health-AI startups, add 'how does this differentiate from Chinese players with EU approval' to the due-diligence list.",
+          "developing": false
+        },
+        {
+          "id": "deep-tech-7",
+          "headline": "Blocking Anthropic in Hong Kong may be the best advertising Chinese AI has ever received",
+          "summary": "US-based banks JPMorgan and Goldman Sachs blocked Hong Kong employees from using Anthropic's Claude following US AI export controls. South China Morning Post argues the ban hands a credibility win to Chinese AI providers, who can now pitch themselves as the reliable, accessible alternative for firms operating across Asia.",
+          "takeaway": "US AI export controls are inadvertently accelerating enterprise adoption of Chinese AI in Asian markets.",
+          "why": "Direct relevance for anyone thinking about the AI competitive landscape in India. As US controls tighten, Chinese AI providers gain a geopolitical-reliability argument in markets that do not want to risk being cut off. India will face the same choice pressure. Understanding this dynamic matters for AI-strategy roles.",
+          "developing": false
+        },
+        {
+          "id": "deep-tech-4",
+          "headline": "A rumour that ASML shipped EUV machines to China was false — but the denial revealed how nervous everyone is",
+          "summary": "A rumour circulated that ASML had shipped extreme ultraviolet lithography machines to China, the key equipment for cutting-edge chip manufacturing subject to strict US export controls. ASML denied it. But the speed and care of the denial reflects genuine anxiety in the industry about controls being circumvented.",
+          "takeaway": "The fact that this rumour was taken seriously at all shows how anxious the semiconductor world has become about China's chip access.",
+          "why": "Background context. India's semiconductor ambitions depend partly on how the ASML-China standoff plays out, since the same equipment and IP controls shape what fabs are buildable in India under US partnership. A circumvented control changes the calculus for everyone.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "id": "climate-energy-5",
+          "headline": "Europe's June heatwave is shattering records — France's hottest day ever, UK bracing for 40C",
+          "summary": "An intense heatwave is tracking eastward across Europe, with France recording its all-time hottest day and parts of the UK bracing for temperatures close to 40 degrees Celsius — more than a month before the historical summer peak. Italy has issued red alerts in 16 cities. Forty people have already drowned in water-related accidents as populations flee the heat.",
+          "takeaway": "A 40C June reading in the UK is a climate anomaly that was essentially statistically impossible 30 years ago.",
+          "why": "Useful context more than direct action. Europe's cooling crisis mirrors India's predicament but is two decades behind on infrastructure adaptation. Watch what Europe mandates next for buildings and grid resilience — it tends to preview global regulatory direction by about a decade.",
+          "developing": true
+        },
+        {
+          "id": "climate-energy-3",
+          "headline": "India's grid is cracking under summer cooling demand — and the fix is years away",
+          "summary": "Scroll.in examines how India's power infrastructure is failing to keep pace with surging summer demand for air conditioning, driven by worsening heat waves. Peak demand hours are causing blackouts across multiple states. The gap between installed generation capacity and the distribution network's ability to deliver electricity is the core bottleneck.",
+          "takeaway": "India's cooling problem is also an energy-poverty problem — the people most exposed to heat are those least able to afford reliable power.",
+          "why": "For anyone tracking Indian climate tech or energy investment, this is the central domestic story this decade. Distributed solar, grid-edge battery storage, and demand-response technology are the logical answers — and represent a large, largely untapped opportunity space for startups and investors alike.",
+          "developing": false
+        },
+        {
+          "id": "climate-energy-1",
+          "headline": "NLC India and Indian Oil to set up a joint venture for solar, wind, and storage in Tamil Nadu",
+          "summary": "State-owned NLC India and Indian Oil Corporation signed an MoU to establish a joint venture for large-scale renewable energy projects in Tamil Nadu, covering solar generation, wind, and energy storage. No deal size was disclosed, but the combination of a power utility and an oil major in renewables is structurally notable.",
+          "takeaway": "India's largest public-sector oil company is now formally entering the renewables JV space — the transition is structural, not marginal.",
+          "why": "Tamil Nadu already has India's best wind resource. A JV between a power utility and an oil major signals the PSU sector is serious about renewables beyond headline announcements. Worth tracking if you are following India's energy transition or energy infrastructure investment.",
+          "developing": false
+        },
+        {
+          "id": "climate-energy-6",
+          "headline": "Sperm whales on opposite sides of the Mediterranean speak in distinctly different dialects",
+          "summary": "Researchers detected that sperm whale populations on the eastern and western sides of the Mediterranean use distinct click patterns — a form of dialect — shaped by their matriarchal social structures and transmitted culturally across generations. The finding adds to growing evidence that cetaceans have complex socially learned communication.",
+          "takeaway": "Sperm whales have dialects passed down through matriarchal lineages — culture is not exclusive to primates.",
+          "why": "Purely for the wonder of it. No policy angle, no India read-through. Just one of those findings that makes the natural world feel more inhabited than we tend to assume.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "health-tech",
+      "stories": [
+        {
+          "id": "health-tech-8",
+          "headline": "Cadence raises $100 million to scale AI-powered care for patients with chronic diseases",
+          "summary": "Cadence, a US health-tech company specialising in remote patient monitoring, closed a $100 million Series C round to expand its AI-powered care model for chronic conditions including hypertension, diabetes, and heart failure. The company pairs continuous monitoring devices with AI-driven clinical interventions coordinated remotely.",
+          "takeaway": "Chronic disease management — not acute care — is where the largest AI-in-health opportunity sits, and capital is now following that thesis.",
+          "why": "India carries one of the world's largest chronic disease burdens, yet chronic care management is fragmented and under-resourced. The Cadence model — AI-coordinated remote care — is directly applicable and largely untried at scale in India. A useful reference point for anyone thinking about health-tech strategy here.",
+          "developing": false
+        },
+        {
+          "id": "health-tech-1",
+          "headline": "IHH Healthcare signs Infosys for a seven-year AI-powered hospital ERP overhaul",
+          "summary": "IHH Healthcare, one of the world's largest hospital operators with facilities across Malaysia, Singapore, India, and Turkey, signed a seven-year contract with Infosys to build an AI-powered enterprise resource planning platform spanning its global hospital network. The goal is unified patient data, clinical workflows, and operational analytics.",
+          "takeaway": "A seven-year, multi-country hospital IT contract going to Infosys signals that enterprise-grade AI health infrastructure is finally being commissioned at scale.",
+          "why": "India angle: Infosys wins a large healthcare AI deal in a region that includes Indian hospitals. The ERP layer of healthcare — scheduling, billing, supply chain — is where AI can create immediate efficiency gains without regulatory friction. Evidence that the foundational infrastructure work, not just the clinical glamour plays, is now happening.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "agritech",
+      "stories": [
+        {
+          "id": "agritech-1",
+          "headline": "H5N1 bird flu confirmed in Australia for the first time — the outbreak map is now complete",
+          "summary": "Australian authorities confirmed the presence of H5N1 avian influenza, which has killed millions of wild and domestic birds and mammals across North America, Europe, and Asia. This is the first confirmed detection in Australia, raising fears about the continent's unique wildlife and its large poultry sector.",
+          "takeaway": "H5N1 has now reached every major continent; Australia's detection closes the last significant gap in the global outbreak map.",
+          "why": "Background risk with India implications. India's poultry sector is one of Asia's largest and sits adjacent to affected regions. The central question — when or whether H5N1 achieves sustained human-to-human transmission — has not changed, but the geographic spread is worth monitoring for supply-chain and pandemic-preparedness planning.",
+          "developing": true
+        },
+        {
+          "id": "agritech-7",
+          "headline": "Mangrove forests feared lost are quietly recovering — a new global study",
+          "summary": "A June 2026 study finds that mangrove coverage globally has stabilised and is modestly recovering after decades of net loss to coastal development and aquaculture. The recovery is uneven — Southeast Asia leads, West Africa lags — but the overall trend reversal was unexpected given projections from a decade ago.",
+          "takeaway": "Mangroves are rebounding where local governance improved — evidence that targeted conservation and aquaculture reform can reverse deforestation trends.",
+          "why": "India has the world's second-largest mangrove area in the Sundarbans, and its conservation is both a climate and coastal-protection issue. The study's finding that recovery follows governance improvement is directly applicable to India's coastal management debates.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "id": "indian-startups-1",
+          "headline": "A Bengaluru startup is not racing Nvidia on speed — just on price",
+          "summary": "The Ken profiles a Bengaluru AI chip company building inference-optimised silicon designed to undercut Nvidia on cost rather than compete on raw performance. The thesis: most production AI workloads run on inference, not training, and they do not need the fastest chip — just a cheap enough one. The startup is pitching Indian and global cloud players.",
+          "takeaway": "India's best shot at the chip market may be the inference layer, where price beats petaflops.",
+          "why": "For anyone tracking Indian deep tech, this is the clearest articulation yet of a viable wedge strategy. If the startup gets traction, it validates a model where Indian hardware companies compete not on frontier benchmarks but on cost-per-token at scale. Worth watching who funds the next round and whether the IP is defensible.",
+          "developing": false
+        },
+        {
+          "id": "indian-startups-2",
+          "headline": "Square Yards becomes a unicorn with a Rs 900 crore raise",
+          "summary": "Real estate and mortgage platform Square Yards raised Rs 900 crore (approximately $95 million) in a mix of debt and equity transactions, crossing the unicorn threshold. The company plans to expand its business and upgrade its technology infrastructure. YourStory also highlights a father-daughter founding team within the company running a separate initiative fighting period poverty.",
+          "takeaway": "Square Yards is India's first real estate tech unicorn of 2026 — proptech is still producing big outcomes despite a cooling funding environment.",
+          "why": "Real estate, India's largest asset class, has been surprisingly under-digitised at the transaction and mortgage layer. Square Yards' valuation validates the thesis that proptech can scale. A useful data point for anyone tracking which sectors are still generating unicorns in the current environment.",
+          "developing": false
+        },
+        {
+          "id": "indian-startups-5",
+          "headline": "SEBI's new GARUDA framework removes key compliance bottlenecks for India's alternative investment funds",
+          "summary": "India's market regulator SEBI introduced the GARUDA framework, designed to ease operational and compliance burdens on Alternative Investment Funds — the vehicles that channel domestic and foreign capital into startups and growth-stage companies. The changes target simplified reporting, streamlined investor onboarding, and reduced redemption friction.",
+          "takeaway": "SEBI is making it easier to run an AIF — the plumbing of India's startup funding ecosystem just got a meaningful upgrade.",
+          "why": "For anyone entering the investment or strategy side of the startup ecosystem, the AIF regulatory regime is directly relevant. GARUDA simplifies operations for fund managers and makes India more competitive as a destination for pooled capital. The details will matter as they are published.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "global-economics",
+      "stories": [
+        {
+          "id": "global-economics-2",
+          "headline": "RBI Governor: rate hikes are off the table for now, geopolitical uncertainty is too high",
+          "summary": "RBI Governor Sanjay Malhotra said on Tuesday that discussing interest-rate increases was 'premature' given ongoing geopolitical uncertainties. His comments pushed back explicitly on market speculation that the central bank might shift to a tightening stance after a period of rate cuts aimed at supporting economic growth.",
+          "takeaway": "India's central bank intends to stay accommodative — cheaper money is the plan for the near term.",
+          "why": "An accommodative stance means cheaper startup debt, more risk appetite among PE and VC funds, and continued tailwinds for the ecosystem. Directly positive for the Indian startup and investment landscape this reader is entering over the next 12 to 18 months.",
+          "developing": false
+        },
+        {
+          "id": "global-economics-1",
+          "headline": "PBOC adviser hints at a possible rate cut in China but says targeted support is also needed",
+          "summary": "An adviser to China's central bank said a rate cut remained possible in 2026 but cautioned that monetary easing alone would not be enough — the economy also needs targeted measures to support technological innovation and household consumption. The comments suggest China's leadership is debating the mix between broad stimulus and structural policy.",
+          "takeaway": "China will likely cut rates, but the PBOC knows cuts alone cannot fix structural demand weakness.",
+          "why": "China's easing cycle matters for India: a weaker yuan and slower Chinese growth tends to redirect export competition toward Indian markets, while Chinese stimulus can move commodity prices. Useful macro backdrop for anyone thinking about India's competitive position in manufacturing and exports.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "india",
+      "stories": [
+        {
+          "id": "india-7",
+          "headline": "India's IT giants are losing the employer brand war to AI-native startups",
+          "summary": "TCS, Infosys, and Wipro are struggling to position themselves as attractive employers for AI-era engineers, according to Storyboard18. Their legacy image — body-shopping, process execution — conflicts with the skills they now need and the narratives younger engineers want to join. AI-native startups and hyperscalers are winning on employer brand while the incumbents scramble to rebrand.",
+          "takeaway": "The IT sector's talent gap is structural, not cyclical — a rebranding campaign will not fix a business model mismatch.",
+          "why": "This is the landscape you are navigating from the other side. The brand vacuum at large IT players is an opportunity for AI-native consultancies, product studios, and founder's-office roles. Understanding where top AI talent is going tells you where the leverage and the demand are.",
+          "developing": false
+        },
+        {
+          "id": "india-2",
+          "headline": "Mumbai's monsoon arrived 13 days late — and promptly flooded the city overnight",
+          "summary": "The southwest monsoon reached Mumbai on June 23, about 13 days behind its historical normal onset date of June 10. Within hours of arrival, heavy overnight rains caused waterlogging across multiple pockets of the city. The IMD has issued an orange alert for continued heavy rainfall.",
+          "takeaway": "A delayed onset followed by intense rainfall is consistent with climate-driven monsoon variability that is getting harder to plan around.",
+          "why": "Jaipur context: Rajasthan's monsoon arrival depends on the same system tracking northeast. A delayed but strong season has mixed implications — better eventual rains for agriculture but heightened flood and heat risk in the interim. A useful signal for the next few weeks.",
+          "developing": true
+        },
+        {
+          "id": "india-3",
+          "headline": "Zepto's Hyderabad warehouse found with cockroach infestations and an expired food licence",
+          "summary": "A food safety inspection of Zepto's Hyderabad quick-commerce warehouse flagged cockroach infestations, an expired FSSAI licence, and multiple hygiene violations. Other Hyderabad restaurants were flagged in the same sweep. The inspections appear to be part of a broader FSSAI review of quick-commerce dark-store infrastructure.",
+          "takeaway": "Quick-commerce dark stores are becoming a food-safety flashpoint — the speed-over-process model has a hygiene cost.",
+          "why": "Relevant context for understanding India's quick-commerce sector. Regulatory scrutiny of dark store hygiene is a real operational risk for Zepto, Blinkit, and Swiggy Instamart. For anyone evaluating these businesses, the compliance layer now matters as much as the unit economics.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "world",
+      "stories": [
+        {
+          "id": "world-9",
+          "headline": "US Congress passes war powers resolution against Trump's Iran conflict — a historic first",
+          "summary": "Both chambers of Congress voted to pass a resolution directing President Trump to halt US military action against Iran, the first time such a measure has cleared both houses in history. The move is constitutionally symbolic — the President can veto it — but signals a growing legislative majority uncomfortable with the conflict. The Senate vote followed the House earlier in the week.",
+          "takeaway": "Congress has drawn a line; the Iran conflict now carries a domestic political ceiling even if it continues operationally.",
+          "why": "The US-Iran war affects India's oil import costs, regional shipping, and diplomatic positioning. A legislative rebuke does not end the conflict but raises the domestic political cost of escalation and opens space for a negotiated off-ramp. India, which has long managed careful neutrality, watches any diplomatic shift closely.",
+          "developing": true
+        },
+        {
+          "id": "world-1",
+          "headline": "Trump asked 'what about India?' when JD Vance floated Indian peacekeepers for Ukraine",
+          "summary": "When Vice President JD Vance raised the possibility of deploying Indian peacekeeping troops as part of a Ukraine ceasefire arrangement, President Trump interjected to question India's role. NDTV reports the exchange in the context of ongoing US-Ukraine diplomacy, reflecting active discussions about neutral third-party monitors for any eventual peace deal.",
+          "takeaway": "India's name is now in the room when Ukraine peace is discussed — useful leverage, but also a pressure point.",
+          "why": "India's strategic neutrality on Ukraine has been an asset. Being formally drafted into a peacekeeper role would change that calculus significantly and risk complicating relations with Russia. Track whether this develops into a formal ask through diplomatic channels.",
+          "developing": true
+        },
+        {
+          "id": "world-7",
+          "headline": "Airbus to inspect 16 A380 superjumbos over wing cracks — five immediately",
+          "summary": "Airbus said it will inspect 16 of its A380 double-decker jets after discovering cracks in a key structural wing component on aircraft operated by Emirates and Qantas. Five planes have been identified for immediate inspection. The issue is with a load-bearing structural element, not a cosmetic surface crack.",
+          "takeaway": "Structural wing cracks across 16 out of a relatively small A380 fleet is a serious airworthiness signal — further groundings are likely.",
+          "why": "Useful for frequent flyers on Emirates or Qantas, which operate the world's largest A380 fleets across routes connecting to India and the Gulf. No broader economic angle beyond aviation safety and potential route disruption.",
+          "developing": true
+        },
+        {
+          "id": "world-2",
+          "headline": "Mamdani-backed candidates sweep New York's Democratic primary, reshaping the city's politics",
+          "summary": "In New York's Democratic primary, a slate backed by progressive politician Zohran Mamdani won across key races. Most notably, Brad Lander defeated incumbent Dan Goldman in a contest that laid bare the city's divisions over the Israel-Gaza war. The results signal a significant leftward shift in New York's Democratic coalition.",
+          "takeaway": "New York's Democratic Party is realigning around Gaza — a shift that will define the city's political landscape through the mayoral race.",
+          "why": "Largely background context with a diaspora note: Mamdani's ascent as an Indian-American progressive in New York is worth noting for its read on how diaspora communities are navigating US political polarisation over Gaza. No direct India policy angle.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "other-interests",
+      "stories": [
+        {
+          "id": "other-interests-5",
+          "headline": "Raising children may permanently keep parents' brains younger — new neuroscience research",
+          "summary": "New Scientist reports research suggesting that the experience of parenting — independent of genetics — appears to preserve brain health in both mothers and fathers, potentially acting as a buffer against cognitive decline and Alzheimer's disease. Proposed mechanisms include sustained social engagement, purposeful activity, and hormonal changes triggered by caregiving.",
+          "takeaway": "Parenting may be an underappreciated form of cognitive exercise with long-term neuroprotective effects.",
+          "why": "Interesting if preliminary. The implication — that the attentional demands of caregiving function as cognitive training — is consistent with broader research on purpose and brain health. File as early-stage finding worth revisiting when replicated.",
+          "developing": false
+        },
+        {
+          "id": "other-interests-3",
+          "headline": "A crater in Western Australia may be the oldest asteroid impact structure on Earth — 3 billion years old",
+          "summary": "A June 2026 study claims the North Pole Dome in Western Australia's Pilbara region was formed by an asteroid strike approximately 3 billion years ago, which would make it the oldest known impact structure on the planet. Other researchers dispute the dating methodology. The Pilbara is already one of the oldest exposed rock sequences on Earth.",
+          "takeaway": "If the age holds, this is a window into the late stages of Earth's heavy bombardment period — when life was just beginning to emerge.",
+          "why": "Pure curiosity. The early bombardment era is the period when the chemistry that preceded life was forming under regular cosmic assault. No action item — just a remarkable claim worth following as independent peer review proceeds.",
+          "developing": false
+        },
+        {
+          "id": "other-interests-8",
+          "headline": "A cave in Belize contained teeth from dozens of elite Maya people whose bodies were buried elsewhere",
+          "summary": "Archaeologists discovered a cache of teeth from high-status Maya individuals in a Belizean cave, far from the tombs where the rest of their remains were interred. Researchers believe the separation was intentional — a mortuary ritual possibly intended to guide the deceased to the underworld. The teeth span multiple centuries and multiple elite individuals.",
+          "takeaway": "The Maya systematically separated body parts across sites in death rituals — a mortuary complexity not previously documented at this scale.",
+          "why": "No further angle beyond genuine strangeness. Just a finding that makes human cultures feel more elaborate and harder to fully reconstruct than we tend to assume.",
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunities-1",
+      "name": "Qualcomm India Snapdragon Multiverse Hackathon",
+      "when": "Registrations open — 2026",
+      "summary": "Qualcomm India is running a hackathon to build multi-device AI solutions using Snapdragon hardware. Designed for developers and founders interested in on-device intelligence, edge AI, and hardware-software co-design. Qualcomm hackathons typically include mentorship, hardware access, and paths to visibility with the company's ecosystem."
+    },
+    {
+      "id": "opportunities-5",
+      "name": "PW AI Startup Challenge 2026 (India)",
+      "when": "Open now — 2026",
+      "summary": "Physics Wallah is running a startup challenge for teams building in the AI or education space in India. Worth applying if your idea has an ed-tech or AI angle targeting the Indian market — PW's distribution and brand give winners meaningful exposure."
+    },
+    {
+      "id": "opportunities-6",
+      "name": "IndiaAI Startups Global — International Acceleration Program, 2nd Cohort",
+      "when": "Applications open — 2026",
+      "summary": "IndiaAI's global acceleration program connects Indian AI startups with international markets, mentors, and investors. The 2nd cohort is active. Government-backed with real international reach — if you are building an AI product and want global exposure with institutional support, this is one of the more credible pathways available right now."
+    },
+    {
+      "id": "opportunities-7",
+      "name": "SAP Labs India 2026 Startup Studio Cohort",
+      "when": "Open now — 2026",
+      "summary": "SAP Labs India's Startup Studio is taking applications for its 2026 cohort, focused on enterprise AI and deep-tech innovation. Selected startups get access to SAP's enterprise customer network, technology stack, and senior mentors. Strong fit for B2B AI founders who want to sell into large enterprises and need credibility to open those doors."
+    }
+  ]
+}
