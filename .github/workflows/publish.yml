@@ -1,11 +1,15 @@
 # Publishes the routine's output to GitHub Pages.
 #
-# In v4 the routine no longer writes the full edition JSON. It writes a tiny
-# DRAFT (drafts/YYYY-MM-DD.json) of story IDs + the prose it wrote. This
-# workflow expands that draft into the full site/editions/YYYY-MM-DD.json
-# (injecting url/image/source verbatim from feeds/refs.json) and THEN deploys
-# site/ to gh-pages. Doing the expansion here — on free runners — keeps the
-# model's output tiny and makes fabricated urls structurally impossible.
+# In v4 the routine writes a tiny DRAFT (drafts/YYYY-MM-DD.json) of story IDs +
+# prose. This workflow expands it into the full site/editions/YYYY-MM-DD.json
+# (injecting url/image/source verbatim from feeds/refs.json), deploys site/ to
+# gh-pages, then rebuilds the date-picker manifest ON gh-pages.
+#
+# Why the manifest rebuild lives here (not in its own workflow): a workflow
+# triggered by a push to gh-pages must physically exist on gh-pages — but
+# gh-pages only contains the published site/ (no .github/). So a standalone
+# manifest workflow can never fire. Running it as a post-deploy job here works
+# because this workflow is triggered by the claude/*/main push, where it exists.
 #
 # Routines push to claude/* branches by default; we also accept main.
 
@@ -48,3 +52,45 @@ jobs:
           publish_branch: gh-pages
           keep_files: true          # keep past editions/*.json across deploys
           commit_message: "Publish edition from ${{ github.ref_name }}"
+
+  manifest:
+    # Rebuild editions/index.json (the date-picker list the renderer reads) from
+    # whatever editions actually exist on gh-pages after the deploy.
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Rebuild editions/index.json
+        run: |
+          python3 - << 'PY'
+          import json, glob, os
+          dates = sorted(
+              (os.path.basename(f)[:-5] for f in glob.glob("editions/*.json")
+               if os.path.basename(f) != "index.json"),
+              reverse=True)
+          out = []
+          for d in dates:
+              entry = {"date": d}
+              try:
+                  data = json.load(open(f"editions/{d}.json"))
+                  entry["edition"] = data.get("edition")
+                  entry["lead"] = (data.get("lead") or {}).get("headline", "")
+              except Exception:
+                  pass
+              out.append(entry)
+          os.makedirs("editions", exist_ok=True)
+          json.dump({"editions": out}, open("editions/index.json", "w"), indent=2)
+          print(f"Manifest rebuilt with {len(out)} editions")
+          PY
+
+      - name: Commit manifest
+        run: |
+          git config user.name  "Daily Cactus Bot"
+          git config user.email "bot@dailycactus.local"
+          git add editions/index.json
+          git diff --staged --quiet || git commit -m "Update editions manifest"
+          git push
