@@ -1,0 +1,55 @@
+# Rebuilds editions/index.json (the date-picker manifest) on the published site.
+# Runs on GitHub's runners — costs zero model tokens. Triggers whenever a new
+# edition lands on gh-pages, and is guarded against looping on its own output.
+
+name: Build editions manifest
+
+on:
+  push:
+    branches: [gh-pages]
+    paths:
+      - 'editions/**'
+      - '!editions/index.json'
+
+permissions:
+  contents: write
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Rebuild index.json
+        run: |
+          python3 - << 'PY'
+          import json, glob, os
+          dates = sorted(
+              (os.path.basename(f)[:-5] for f in glob.glob("editions/*.json")
+               if os.path.basename(f) != "index.json"),
+              reverse=True)
+          out = []
+          for d in dates:
+              entry = {"date": d}
+              try:
+                  data = json.load(open(f"editions/{d}.json"))
+                  entry["edition"] = data.get("edition")
+                  entry["lead"] = (data.get("lead") or {}).get("headline", "")
+              except Exception:
+                  pass
+              out.append(entry)
+          os.makedirs("editions", exist_ok=True)
+          json.dump({"editions": out}, open("editions/index.json", "w"), indent=2)
+          print(f"Manifest rebuilt with {len(out)} editions")
+          PY
+
+      - name: Commit manifest
+        run: |
+          git config user.name  "Daily Cactus Bot"
+          git config user.email "bot@dailycactus.local"
+          git add editions/index.json
+          git diff --staged --quiet || git commit -m "Update editions manifest"
+          git push
