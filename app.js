@@ -70,7 +70,7 @@ function renderEdition(ed) {
   (ed.sections || []).forEach((s) =>
     navItems.push(`<a data-target="sec-${esc(s.slug)}">${esc(s.name)}</a>`));
   if (ed.opportunities && ed.opportunities.length)
-    navItems.push(`<a data-target="sec-opportunities">Opportunities</a>`);
+    navItems.push(`<a data-target="sec-opportunities">Opportunities &amp; Events</a>`);
   $("#nav").innerHTML = navItems.join('<span class="sep">·</span>');
   $("#nav").querySelectorAll("a").forEach((a) =>
     a.addEventListener("click", () => {
@@ -87,7 +87,7 @@ function renderEdition(ed) {
   (ed.sections || []).forEach((s) =>
     html += sectionBlock(s.name, s.slug, s.stories));
   if (ed.opportunities && ed.opportunities.length)
-    html += sectionBlock("Opportunities", "opportunities", ed.opportunities, true);
+    html += sectionBlock("Opportunities & Events", "opportunities", ed.opportunities, true);
   $("#paper").innerHTML = html;
 
   $("#colophon").textContent = ed.colophon || "";
