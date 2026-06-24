@@ -1,100 +1,109 @@
-# The Daily Cactus — Source Registry  (v2)
-# Edit freely. Both the fetcher and the routine read this every run.
+# The Daily Cactus — Source Registry  (v4)
+# Edit freely. The fetcher (scripts/fetch_feeds.py) reads this every run.
 #
-# VERIFICATION STATUS (as of build):
-#   [OK]      confirmed working in a real fetch run
-#   [VERIFIED] feed URL confirmed from the publisher's own RSS page
-#   [TRY]     plausible but unconfirmed — may 403/bot-block; safe to fail
-#   [GNEWS]   Google News RSS query = diversity backstop. Pulls from MANY
-#             outlets so no section is ever stuck on one source. Reliable XML.
-#             (Reuters/AP killed their public RSS; Google News replaces them.)
+# VERIFICATION STATUS:
+#   [OK]/[VERIFIED] confirmed working   [TRY] plausible, may 403   [GNEWS] Google News RSS query
 #
-# Google News query syntax: q=<terms>+when:<N>d   (when:2d = last 2 days)
-# Region pinned to India (hl=en-IN&gl=IN&ceid=IN:en) so coverage is India-aware.
+# DESIGN (v4): prefer FEWER, RICHER Google-News queries per section (high recall via
+# broad OR-term lists) and let scripts/build_digest.py rank + dedupe + diversify the
+# pool down to the cap. One rich query beats many narrow overlapping ones. Multiple
+# queries are kept only where genuinely distinct (Other Interests, Opportunities &
+# Events tiers).
+#
+# IMPORTANT: a section's `window_hours` MUST be >= the largest `when:Nd` in its
+# queries (Nd*24), or fetch_feeds will trim those results before the editor sees them.
+# `when:Nd` = last N days. Region pinned to India (hl=en-IN&gl=IN&ceid=IN:en).
 
 sections:
 
   - name: "AI"
     slug: ai
     max_stories: 6
-    angle: "Capabilities, research, industry moves. Separate substance from press releases. Keep an 'AI Tools & Releases' eye for notable launches relevant to an AI-generalist."
+    window_hours: 72
+    angle: "Capabilities, research, industry moves, India AI policy & tools. Separate substance from press releases."
     feeds:
       - https://www.technologyreview.com/topic/artificial-intelligence/feed   # [OK]
       - https://techcrunch.com/category/artificial-intelligence/feed/          # [VERIFIED]
       - https://analyticsindiamag.com/feed/                                    # [TRY] India AI angle
-      - https://importai.substack.com/feed                                     # [TRY] flaky last run
-      - https://news.google.com/rss/search?q=artificial+intelligence+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      - https://importai.substack.com/feed                                     # [TRY] flaky
+      - https://news.google.com/rss/search?q=(%22artificial+intelligence%22+OR+AI+OR+%22machine+learning%22+OR+OpenAI+OR+Anthropic+OR+DeepMind)+(India+OR+research+OR+breakthrough+OR+launch+OR+policy+OR+funding+OR+regulation+OR+acquisition)+when:3d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Deep Tech"
     slug: deep-tech
     max_stories: 5
-    angle: "Semiconductors, space, robotics, quantum, materials. Engineering reality over vaporware."
+    window_hours: 72
+    angle: "Semiconductors, space, robotics, drones/defence tech, quantum, advanced materials. Engineering reality over vaporware."
     feeds:
       - https://spectrum.ieee.org/feeds/feed.rss          # [OK]
       - https://arstechnica.com/science/feed/             # [OK]
       - https://www.quantamagazine.org/feed/              # [OK]
       - https://www.theguardian.com/technology/rss        # [VERIFIED]
-      - https://www.scmp.com/rss/36/feed                  # [VERIFIED] Asia tech angle
-      - https://news.google.com/rss/search?q=(semiconductor+OR+robotics+OR+quantum)+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      - https://www.scmp.com/rss/36/feed                  # [VERIFIED] Asia tech
+      - https://news.google.com/rss/search?q=(semiconductor+OR+robotics+OR+drones+OR+UAV+OR+%22defence+tech%22+OR+%22advanced+materials%22+OR+quantum+OR+spacetech+OR+ISRO+OR+%22humanoid+robot%22+OR+fusion+OR+photonics)+when:3d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] strategic + frontier
 
   - name: "Climate & Energy"
     slug: climate-energy
     max_stories: 6
-    angle: "Climate science, energy transition, grids, policy. Merge climate + sustainability + energy/utilities. India angle is gold."
+    window_hours: 72
+    angle: "Energy transition, grids, climate science & adaptation, carbon markets, biodiversity, water. India angle is gold."
     feeds:
       - https://www.carbonbrief.org/feed/                 # [OK]
       - https://www.canarymedia.com/rss                   # [OK]
       - https://www.theguardian.com/environment/rss       # [VERIFIED]
-      - https://news.google.com/rss/search?q=(energy+transition+OR+renewable+OR+climate)+India+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] replaces dead IEA/DTE feeds
+      - https://news.google.com/rss/search?q=(solar+OR+EV+OR+%22green+hydrogen%22+OR+%22renewable+energy%22+OR+%22energy+storage%22+OR+%22carbon+market%22+OR+%22climate+adaptation%22+OR+%22water+scarcity%22+OR+biodiversity+OR+IPCC+OR+%22extreme+weather%22)+(India+OR+study+OR+report)+when:3d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Health Tech"
     slug: health-tech
     max_stories: 4
-    angle: "Digital health, biotech, devices, healthcare systems. Deployment and evidence over lab hype."
+    window_hours: 96
+    angle: "Digital health, biotech, devices, drug discovery. Deployment and evidence over lab hype."
     feeds:
       - https://www.statnews.com/feed/                    # [OK]
       - https://www.fiercebiotech.com/rss/xml             # [OK]
-      - https://news.google.com/rss/search?q=(digital+health+OR+health+tech+OR+biotech)+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] replaces flaky mobihealthnews
+      - https://news.google.com/rss/search?q=(%22health+tech%22+OR+%22digital+health%22+OR+telemedicine+OR+medtech+OR+pharma+OR+%22drug+discovery%22+OR+%22clinical+trial%22+OR+CRISPR+OR+mRNA+OR+immunotherapy)+(India+OR+research)+when:4d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Agritech"
     slug: agritech
     max_stories: 4
-    angle: "India-first. Farm tech, supply chains, climate-resilient agriculture. Deployment over demos."
+    window_hours: 96
+    angle: "India-first farm tech, food security, alt-proteins, regenerative & precision agriculture. Deployment over demos."
     feeds:
       - https://agfundernews.com/feed                     # [OK]
-      - https://news.mongabay.com/feed/                   # [VERIFIED] nature/agri/environment
-      - https://news.google.com/rss/search?q=agritech+India+when:3d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] replaces dead DTE feed
+      - https://news.mongabay.com/feed/                   # [VERIFIED] nature/agri
+      - https://news.google.com/rss/search?q=(agritech+OR+foodtech+OR+%22agri+fintech%22+OR+%22food+security%22+OR+%22alternative+protein%22+OR+%22regenerative+agriculture%22+OR+%22precision+agriculture%22+OR+FPO)+India+when:4d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Indian Startups"
     slug: indian-startups
     max_stories: 6
-    angle: "Funding, pivots, policy, shutdowns. Numbers over narratives."
+    window_hours: 48
+    angle: "Funding, M&A, IPOs, shutdowns, regulation, VC theses, D2C/quick-commerce. Numbers over narratives."
     feeds:
       - https://inc42.com/feed/                           # [OK]
       - https://yourstory.com/feed                        # [OK]
-      - https://entrackr.com/feed/                        # [TRY] errored last run
-      - https://the-ken.com/feed/                         # [TRY] likely paywalled, may fail
-      - https://news.google.com/rss/search?q=Indian+startup+funding+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      - https://entrackr.com/feed/                        # [TRY]
+      - https://the-ken.com/feed/                         # [TRY] likely paywalled
+      - https://news.google.com/rss/search?q=(startup+OR+unicorn+OR+founder+OR+%22venture+capital%22+OR+%22seed+funding%22+OR+D2C+OR+%22quick+commerce%22)+(funding+OR+raises+OR+acquires+OR+IPO+OR+shuts+OR+%22lays+off%22+OR+%22Series+A%22+OR+SEBI+OR+RBI+OR+MeitY+OR+DPIIT)+India+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Global Economics"
     slug: global-economics
     max_stories: 5
-    angle: "Macro, trade, markets, central banks, management thinking. What it means for India and for tech."
+    window_hours: 48
+    angle: "Macro, trade, markets, central banks, geopolitics, supply chains. What it means for India and tech."
     feeds:
       - https://feeds.bloomberg.com/economics/news.rss    # [OK]
       - https://www.economist.com/finance-and-economics/rss.xml  # [OK]
-      - https://www.theguardian.com/business/rss          # [VERIFIED] diversity beyond Bloomberg
-      - https://feeds.hbr.org/harvardbusiness             # [VERIFIED] strategy/management lens
-      - https://news.google.com/rss/search?q=(global+economy+OR+central+bank+OR+trade)+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      - https://www.theguardian.com/business/rss          # [VERIFIED]
+      - https://feeds.hbr.org/harvardbusiness             # [VERIFIED] strategy lens
+      - https://news.google.com/rss/search?q=(Fed+OR+RBI+OR+tariff+OR+%22trade+war%22+OR+recession+OR+%22interest+rate%22+OR+%22central+bank%22+OR+geopolitics+OR+%22supply+chain%22)+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "India"
     slug: india
     max_stories: 5
-    angle: "Top national news. Policy and economy over politics-as-soap-opera."
+    angle: "Top national news + digital public infrastructure (UPI/ONDC/Aadhaar). Policy and economy over politics-as-soap-opera."
     feeds:
       - https://www.thehindu.com/news/national/feeder/default.rss  # [OK]
       - https://indianexpress.com/section/india/feed/     # [OK]
-      - https://news.google.com/rss/search?q=India+top+news+when:1d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      - https://news.google.com/rss/search?q=India+(economy+OR+policy+OR+infrastructure+OR+trade+OR+diplomacy+OR+UPI+OR+ONDC+OR+Aadhaar+OR+%22digital+public+infrastructure%22)+when:1d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "World"
     slug: world
@@ -104,38 +113,45 @@ sections:
       - https://feeds.bbci.co.uk/news/world/rss.xml       # [OK]
       - https://www.theguardian.com/world/rss             # [VERIFIED]
       - https://www.scmp.com/rss/5/feed                   # [VERIFIED] Asia angle
-      - https://news.google.com/rss/search?q=world+news+when:1d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] replaces dead Reuters/AP
+      - https://news.google.com/rss/search?q=world+news+when:1d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Other Interests"
     slug: other-interests
     max_stories: 5
-    window_hours: 120   # 5 days — culture/music/event news isn't breaking, and the
-                        # reader checks the paper only a few days a week, so a tour
-                        # announced 2-3 days ago should still surface.
-    angle: "Neuroscience, education, books, music (electronic/production welcome), live events, and the natural world. One genuinely interesting thing beats three mediocre ones."
+    window_hours: 336   # 14 days — covers the India-tour query; culture isn't breaking
+                        # and the reader checks the paper only a few days a week.
+    angle: "Music (all kinds), live events, neuroscience, the natural world, books, big ideas. One genuinely interesting thing beats three mediocre ones."
     feeds:
       - https://www.quantamagazine.org/tag/neuroscience/feed/  # [OK] neuroscience
       - https://www.newscientist.com/feed/home/           # [VERIFIED] science
       - https://bookriot.com/feed/                        # [OK] books
-      - https://pitchfork.com/rss/news/                   # [VERIFIED] music (replaces flaky RA)
+      - https://pitchfork.com/rss/news/                   # [VERIFIED] music
       - https://news.mongabay.com/feed/                   # [VERIFIED] nature
       - https://www.nature.com/nature.rss                 # [TRY] may bot-block
-      # Music & LIVE EVENTS (India-biased): catches artist tour/concert/festival
-      # announcements like "Fred again.. India tour" that the old genre-only query missed.
-      - https://news.google.com/rss/search?q=(concert+OR+tour+OR+festival+OR+gig+OR+lineup+OR+album+OR+%22live+music%22)+when:10d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] music/live events
-      # Science & ideas
-      - https://news.google.com/rss/search?q=(neuroscience+OR+psychology+OR+archaeology+OR+astronomy)+when:4d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] science
+      # General music (artist/album/tour news) — broad, the missing piece.
+      - https://news.google.com/rss/search?q=(music+OR+album+OR+concert+OR+tour+OR+festival+OR+%22live+music%22+OR+band)+when:7d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] music
+      # Artist-to-India tours/concerts (the "Fred again.. India tour" recall fix).
+      - https://news.google.com/rss/search?q=(%22India+tour%22+OR+%22India+concert%22+OR+%22performs+in+India%22+OR+%22coming+to+India%22+OR+%22Delhi+concert%22+OR+%22Mumbai+concert%22+OR+%22Jaipur+festival%22)+when:14d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] India tours
+      # Science & ideas (psychology dropped — pop-psych noise).
+      - https://news.google.com/rss/search?q=(neuroscience+OR+astronomy+OR+archaeology+OR+%22particle+physics%22+OR+cosmology+OR+ecology+OR+%22evolutionary+biology%22+OR+paleontology)+when:4d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] science
 
-  - name: "Opportunities"
+  - name: "Opportunities & Events"
     slug: opportunities
     max_stories: 5
     beta: true
-    window_hours: 336   # 14 days — events/fellowships are announced ahead of time
-    angle: "BETA. Upcoming events, webinars, conferences, fellowships, cohorts, hackathons in AI / tech / strategy, India + online — things worth showing up for or applying to. Event data is imperfect; only list items with a concrete date AND a working link, and label the section clearly as beta."
+    window_hours: 1080   # 45 days — global must-attend events are announced far ahead.
+    angle: "BETA. Events & opportunities worth showing up to / applying to, in THREE tiers: (1) NATIONAL India events that matter; (2) LOCAL — Jaipur + Delhi/NCR + nearby (0-4 great ones); (3) GLOBAL — only the creamiest, must-attend. Plus fellowships/cohorts/hackathons. Includes OFFLINE events (summits, expos, exhibitions, seminars, festivals, sport). Examples: G7 in India, Olympics, India Art Fair, Jaipur Literature Festival. Only list items with a concrete date AND a working link; label clearly as beta."
     feeds:
-      - https://news.google.com/rss/search?q=(AI+OR+technology)+(webinar+OR+conference+OR+summit)+India+when:10d&hl=en-IN&gl=IN&ceid=IN:en      # [GNEWS]
-      - https://news.google.com/rss/search?q=(fellowship+OR+cohort+OR+accelerator)+India+startup+when:14d&hl=en-IN&gl=IN&ceid=IN:en              # [GNEWS]
-      - https://news.google.com/rss/search?q=hackathon+India+when:14d&hl=en-IN&gl=IN&ceid=IN:en                                                  # [GNEWS]
+      # Tier 1a — national India events (generic)
+      - https://news.google.com/rss/search?q=(summit+OR+conference+OR+expo+OR+conclave+OR+%22trade+fair%22+OR+convention)+India+when:30d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      # Tier 1b — national marquee, named (tech + culture)
+      - https://news.google.com/rss/search?q=(%22Jaipur+Literature+Festival%22+OR+JLF+OR+%22Magnetic+Fields%22+OR+%22NH7+Weekender%22+OR+%22India+Art+Fair%22+OR+TechSparks+OR+Nasscom+OR+%22CII+summit%22+OR+%22FICCI%22)+when:30d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      # Tier 2 — local: Jaipur + Delhi/NCR + nearby
+      - https://news.google.com/rss/search?q=(conference+OR+summit+OR+expo+OR+meetup+OR+festival+OR+exhibition+OR+workshop+OR+concert)+(Jaipur+OR+Delhi+OR+Gurugram+OR+Noida+OR+Rajasthan+OR+NCR)+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      # Tier 3 — global must-attend (named only)
+      - https://news.google.com/rss/search?q=(Davos+OR+G7+OR+G20+OR+CES+OR+%22World+Economic+Forum%22+OR+Olympics+OR+%22FIFA+World+Cup%22+OR+Cannes+OR+%22Venice+Biennale%22+OR+%22Art+Basel%22)+when:45d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      # Fellowships / cohorts / hackathons
+      - https://news.google.com/rss/search?q=(fellowship+OR+cohort+OR+accelerator+OR+%22open+call%22+OR+hackathon)+India+startup+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Remainder"
     slug: remainder

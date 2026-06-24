@@ -55,6 +55,14 @@ SUMMARY_CHARS = 200          # enough for the editor to judge relevance; it
                              # rewrites anyway. (120 risked too-thin context.)
 BUFFER_MULT = 2              # keep ~2x max_stories per section as recall buffer
 SECTION_HARD_CAP = 10        # absolute ceiling per section, keeps input bounded
+MAX_PER_SOURCE = 3           # diversity: no single outlet dominates a section's
+                             # shortlist (one busy feed could otherwise eat the cap)
+NEAR_DUP_JACCARD = 0.6       # title token-overlap above this = same story, drop the
+                             # lower-ranked copy (catches syndicated near-duplicates
+                             # that the exact-title key misses — matters now that
+                             # several queries per section can return the same story)
+RECENCY_HORIZON_H = 168      # gentle 7-day recency decay so a strong 2-3 day old
+                             # story isn't crushed by fresh-but-weak items
 
 # Gentle interest nudge for ranking ONLY (never a hard filter). Kept light on
 # purpose so it doesn't starve serendipity or bake in today's obsessions.
@@ -63,9 +71,16 @@ INTEREST_TERMS = (
     "climate", "energy", "renewable", "semiconductor", "chip", "robot",
     "quantum", "agritech", "health", "biotech", "neuroscience", "economy",
     "founder", "strategy", "policy",
+    # India digital public infrastructure & ecosystem (high relevance for this reader)
+    "upi", "ondc", "aadhaar", "digital public", "venture", "d2c", "quick commerce",
+    # deep-tech / strategic
+    "drone", "defence", "space", "materials",
+    # climate breadth
+    "carbon", "biodiversity", "water",
     # culture / live events — so music & event news (e.g. an artist's India tour)
     # gets a gentle nudge and survives the per-section candidate cap.
-    "concert", "tour", "festival", "album", "music", "fellowship", "hackathon",
+    "concert", "tour", "festival", "album", "music", "exhibition", "summit",
+    "fellowship", "hackathon",
 )
 
 _WS = re.compile(r"\s+")
@@ -81,11 +96,19 @@ def norm_title(t: str) -> str:
 
 def title_key(t: str) -> str:
     """A coarse fingerprint: first 8 normalised words. Two stories sharing this
-    are almost certainly the same story syndicated across outlets. Conservative
-    by design — we'd rather keep a near-dup than silently merge two real
-    stories (which would waste a candidate slot, not lose coverage)."""
+    are almost certainly the same story syndicated across outlets."""
     words = norm_title(t).split()
     return " ".join(words[:8])
+
+
+def title_tokens(t: str) -> set:
+    return set(norm_title(t).split())
+
+
+def jaccard(a: set, b: set) -> float:
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a | b)
 
 
 def make_id(slug: str, n: int) -> str:
@@ -102,49 +125,61 @@ def parse_dt(s):
 
 
 def score(entry, now) -> float:
-    """Recall-oriented rank. Recency dominates; a light interest nudge breaks
-    ties toward what this reader cares about. NOT used to pick the lead or make
-    the final cut — only to order the shortlist so the buffer keeps good items."""
+    """Rank a candidate for the per-section shortlist. Recency (gentle 7-day decay)
+    plus a capped interest nudge toward what this reader cares about. NOT used to
+    pick the lead or make the final cut — only to order the shortlist so the cap
+    keeps the strongest items; the AI editor does the real selection."""
     s = 0.0
     dt = parse_dt(entry.get("published"))
     if dt:
         age_h = max(0.0, (now - dt).total_seconds() / 3600.0)
-        s += max(0.0, 48.0 - age_h)          # newer = higher, ~2-day horizon
+        s += 10.0 * max(0.0, 1.0 - age_h / RECENCY_HORIZON_H)   # 10 at fresh → 0 at ~7d
     else:
-        s += 6.0                              # undated: modest, don't bury it
+        s += 3.0                              # undated: modest, don't bury it
     hay = (entry.get("title", "") + " " + entry.get("summary", "")).lower()
     hits = sum(1 for term in INTEREST_TERMS if term in hay)
-    s += min(hits, 4) * 1.5                   # gentle, capped nudge
+    s += min(hits, 5) * 1.2                   # gentle, capped nudge
     return s
 
 
 def shortlist_section(section, now):
-    """Dedup + rank + cap one section. Returns (lean_entries, refs_map, dropped)."""
+    """Dedup + rank + diversity-cap one section. Returns (lean, refs, dropped)."""
     raw = section.get("entries", []) or []
     max_stories = section.get("max_stories") or 4
     keep = min(max_stories * BUFFER_MULT, SECTION_HARD_CAP)
 
-    seen_urls = set()
-    seen_titles = set()
-    deduped = []
-    dropped = 0
+    # Pass 1 — drop entries with no link and exact-url / near-exact-title dups.
+    seen_urls, seen_keys, pool = set(), set(), []
     for e in raw:
         url = e.get("link") or e.get("url")
         if not url:
-            dropped += 1
             continue
-        tkey = title_key(e.get("title", ""))
-        if url in seen_urls or (tkey and tkey in seen_titles):
-            dropped += 1                       # conservative dedup
+        k = title_key(e.get("title", ""))
+        if url in seen_urls or (k and k in seen_keys):
             continue
         seen_urls.add(url)
-        if tkey:
-            seen_titles.add(tkey)
-        deduped.append(e)
+        if k:
+            seen_keys.add(k)
+        pool.append(e)
 
-    deduped.sort(key=lambda e: score(e, now), reverse=True)
-    dropped += max(0, len(deduped) - keep)
-    chosen = deduped[:keep]
+    # Rank survivors, then select up to `keep` enforcing fuzzy near-dup removal and
+    # per-source diversity — so a busy outlet or overlapping queries can't dominate.
+    pool.sort(key=lambda e: score(e, now), reverse=True)
+    chosen, chosen_tokens, per_source = [], [], {}
+    for e in pool:
+        if len(chosen) >= keep:
+            break
+        toks = title_tokens(e.get("title", ""))
+        if any(jaccard(toks, ct) >= NEAR_DUP_JACCARD for ct in chosen_tokens):
+            continue
+        src = (e.get("source") or "").strip().lower()
+        if src and per_source.get(src, 0) >= MAX_PER_SOURCE:
+            continue
+        chosen.append(e)
+        chosen_tokens.append(toks)
+        per_source[src] = per_source.get(src, 0) + 1
+
+    dropped = len(raw) - len(chosen)
 
     slug = section.get("slug") or "x"
     lean, refs = [], {}

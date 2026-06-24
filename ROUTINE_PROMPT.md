@@ -40,8 +40,14 @@ From the digest's candidates, choose and write:
   (not Opportunities). These may also appear in their home section.
 - **sections** — for each section with worthy stories, the best ones (the digest
   already caps quantity; you can include fewer). Omit a section with nothing good.
-- **opportunities** — only items with a concrete date/deadline. 0–5. If none
-  qualify, use `[]`.
+- **opportunities** — drawn from the digest section slugged `opportunities`
+  ("Opportunities & Events"). Real things worth showing up to / applying to, in
+  three tiers: **national** India events that matter; **local** — Jaipur +
+  Delhi/NCR + nearby (include 0–4 genuinely good ones); **global** — only the
+  creamiest, must-attend (e.g. G7-in-India, the Olympics, a major biennale).
+  Include **offline** events (summits, expos, exhibitions, seminars, festivals,
+  sport) as well as fellowships/cohorts/hackathons. Only items with a concrete
+  date/deadline AND a link. 0–6 total. If none qualify, use `[]`.
 
 For every story write four fields, tight and concrete, plain text (no markdown):
 - **headline** — plain language, not the outlet's clickbait.
@@ -52,7 +58,8 @@ For every story write four fields, tight and concrete, plain text (no markdown):
   consequence, the bet, the read-through to his pivot or to India. If the honest
   answer is "useful context, not personally actionable," say so. Don't pad.
 
-Opportunities use `name` / `when` / `summary` instead (a tight what/when/why).
+Opportunities use `name` / `when` / `summary` instead — a tight what / when /
+why-go, and note the city or "global" so the tier is clear.
 
 ## The draft schema (write EXACTLY this shape)
 ```json
