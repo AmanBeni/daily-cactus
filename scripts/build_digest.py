@@ -63,6 +63,9 @@ INTEREST_TERMS = (
     "climate", "energy", "renewable", "semiconductor", "chip", "robot",
     "quantum", "agritech", "health", "biotech", "neuroscience", "economy",
     "founder", "strategy", "policy",
+    # culture / live events — so music & event news (e.g. an artist's India tour)
+    # gets a gentle nudge and survives the per-section candidate cap.
+    "concert", "tour", "festival", "album", "music", "fellowship", "hackathon",
 )
 
 _WS = re.compile(r"\s+")

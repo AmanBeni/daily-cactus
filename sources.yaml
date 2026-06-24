@@ -109,6 +109,9 @@ sections:
   - name: "Other Interests"
     slug: other-interests
     max_stories: 5
+    window_hours: 120   # 5 days — culture/music/event news isn't breaking, and the
+                        # reader checks the paper only a few days a week, so a tour
+                        # announced 2-3 days ago should still surface.
     angle: "Neuroscience, education, books, music (electronic/production welcome), live events, and the natural world. One genuinely interesting thing beats three mediocre ones."
     feeds:
       - https://www.quantamagazine.org/tag/neuroscience/feed/  # [OK] neuroscience
@@ -117,7 +120,11 @@ sections:
       - https://pitchfork.com/rss/news/                   # [VERIFIED] music (replaces flaky RA)
       - https://news.mongabay.com/feed/                   # [VERIFIED] nature
       - https://www.nature.com/nature.rss                 # [TRY] may bot-block
-      - https://news.google.com/rss/search?q=(neuroscience+OR+music+production+OR+electronic+music)+when:3d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      # Music & LIVE EVENTS (India-biased): catches artist tour/concert/festival
+      # announcements like "Fred again.. India tour" that the old genre-only query missed.
+      - https://news.google.com/rss/search?q=(concert+OR+tour+OR+festival+OR+gig+OR+lineup+OR+album+OR+%22live+music%22)+when:10d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] music/live events
+      # Science & ideas
+      - https://news.google.com/rss/search?q=(neuroscience+OR+psychology+OR+archaeology+OR+astronomy)+when:4d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] science
 
   - name: "Opportunities"
     slug: opportunities
