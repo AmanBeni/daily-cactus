@@ -79,7 +79,46 @@ Web-search before trusting memory about any external service's behavior.
 ## Gotchas
 - GitHub cron is best-effort and can lag a few minutes; keep fetch ~1h before the
   routine.
-- `manifest.yml` is loop-guarded (`!editions/index.json`).
 - v4 styling changes appear on refresh without a routine run (CSS is live in
   `style.css`, loaded by the browser).
 - Owner is on a MacBook Air M4 (16GB) + external monitor; test layout at both widths.
+
+## v4 DEPLOYMENT LEARNINGS (24 Jun 2026 — hard-won; read before touching the pipeline)
+The v4 token rewrite was correct first try; the pain was three *pre-existing* gaps
+in the repo that only surfaced when a real edition tried to render. All fixed now:
+
+1. **The JS renderer must physically live in `site/` in the repo.** The repo had
+   only the OLD model-written static `index.html` (a frozen "21 Jun" paper) — the
+   data-driven renderer (`site/app.js`, `site/style.css`, and the `index.html`
+   that loads `app.js` → fetches `editions/*.json`) had never been committed,
+   despite docs listing it as done. Symptom: the homepage shows an old paper no
+   matter how correct the edition JSON is. The renderer is now committed. Don't
+   let the routine overwrite it (the prompt forbids touching `site/`).
+
+2. **`editions/index.json` is required** — `app.js` reads it to know which edition
+   to load. Missing/empty index.json ⇒ "No editions published yet" (or a stale
+   page). It must list every edition present on gh-pages.
+
+3. **A workflow triggered by `push` to `gh-pages` can NEVER run here.** GitHub runs
+   the workflow file *from the pushed branch*, and gh-pages only contains the
+   published `site/` (no `.github/`). So the old standalone `manifest.yml` was
+   dead. FIX: the manifest rebuild is now a **post-deploy job inside `publish.yml`**
+   (which is triggered by the claude/*/main push, where it does exist). It checks
+   out gh-pages, rebuilds `editions/index.json` from the editions actually there,
+   and pushes. `manifest.yml` was deleted.
+
+### The actual daily flow now (all automatic except the one manual routine run)
+1. `fetch.yml` (daily cron ~05:00 IST) → `latest.json` → `digest.json` + `refs.json`.
+2. **You** click Run now on the routine (after ~05:30 IST) → writes `drafts/<today>.json`.
+3. `publish.yml` (auto) → `assemble_edition.py` builds `site/editions/<today>.json`
+   → peaceiris deploys `site/` to gh-pages (`keep_files:true`) → manifest job
+   rebuilds `editions/index.json`. Site updates itself.
+4. `automerge.yml` also merges the claude/* branch into main (legacy; harmless,
+   just causes a second publish run — safe to delete if you want a cleaner log).
+
+### Fetch window & "no cross-day memory"
+- Normal sections: last **36h** (`HOURS_WINDOW`), ≤8 stories/feed. Opportunities: **14 days**.
+- No persistent memory: editions are independent, dedup is within-day only, so a
+  still-fresh story can repeat next day. Could be re-added cheaply in
+  `build_digest.py` (read recent `drafts/` on Actions, drop already-used URLs —
+  zero token cost) if repeats become annoying.

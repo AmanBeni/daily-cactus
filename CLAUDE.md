@@ -23,10 +23,11 @@ Claude Code Routine (~06:00 IST, subscription, sandboxed — no internet)
         ▼
 publish.yml (GitHub Actions)
   scripts/assemble_edition.py  drafts/*.json + feeds/refs.json → site/editions/YYYY-MM-DD.json
-    (injects url/image/source/colophon/edition deterministically), then deploys site/ → gh-pages
+    (injects url/image/source/colophon/edition), deploys site/ → gh-pages, then a
+    post-deploy job rebuilds editions/index.json on gh-pages (manifest)
         │
         ▼
-manifest.yml → editions/index.json   ·   GitHub Pages renderer (site/index.html + app.js + style.css) renders the JSON
+GitHub Pages renderer (site/index.html + app.js + style.css, committed in repo) renders the JSON
 ```
 
 **Core rules that keep cost low (do not violate):**
@@ -54,8 +55,9 @@ manifest.yml → editions/index.json   ·   GitHub Pages renderer (site/index.ht
 | `feeds/refs.json` | id→url/image lookup for assembly. Model never reads it. |
 | `drafts/YYYY-MM-DD.json` | The routine's daily output (IDs + prose). |
 | `site/editions/YYYY-MM-DD.json` | Assembled edition the renderer reads. |
-| `site/editions/index.json` | Date manifest (maintained by `manifest.yml`). |
-| `.github/workflows/{fetch,publish,manifest}.yml` | The pipeline. |
+| `site/editions/index.json` | Date manifest (rebuilt by a post-deploy job in `publish.yml`, on gh-pages). |
+| `site/{index.html,app.js,style.css}` | The JS renderer. MUST stay committed; routine never touches it. |
+| `.github/workflows/{fetch,publish}.yml` | The pipeline (a gh-pages-triggered manifest workflow can't run, so it's folded into publish.yml). |
 
 ## Editorial intent (full version in ROUTINE_PROMPT.md)
 Signal over noise; "why it matters" > "what happened"; India lens; no hype;
