@@ -1,5 +1,719 @@
 {
-  "date": "1970-01-01",
-  "colophon": "Placeholder. Replaced on first fetch.",
-  "sections": []
+  "date": "2026-06-24",
+  "colophon": "48 sources scanned · 44 ok · 4 failed",
+  "sections": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "beta": false,
+      "stories": [
+        {
+          "id": "ai-1",
+          "title": "The Real \"Catch\" in Clinical Automation: Rethinking Artificial Intelligence for Healthcare Workflows",
+          "source": "Cureus",
+          "summary": ""
+        },
+        {
+          "id": "ai-2",
+          "title": "Anthropic Launches An Always-On AI Coworker",
+          "source": "NDTV",
+          "summary": ""
+        },
+        {
+          "id": "ai-3",
+          "title": "AI for sustainability, governance and compliance: from initial applications to widespread use",
+          "source": "KPMG",
+          "summary": ""
+        },
+        {
+          "id": "ai-4",
+          "title": "The strange link between AI hallucination and creativity",
+          "source": "The Hindu",
+          "summary": ""
+        },
+        {
+          "id": "ai-5",
+          "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers."
+        },
+        {
+          "id": "ai-6",
+          "title": "Developments in Artificial Intelligence Regulation in Financial Services",
+          "source": "orrick.com",
+          "summary": ""
+        },
+        {
+          "id": "ai-7",
+          "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise"
+        },
+        {
+          "id": "ai-8",
+          "title": "Artificial Intelligence in Healthcare Market worth $194.79 billion by 2031 | MarketsandMarkets™",
+          "source": "PR Newswire",
+          "summary": ""
+        },
+        {
+          "id": "ai-9",
+          "title": "Artificial intelligence helps breast cancer patients avoid unnecessary chemotherapy",
+          "source": "News-Medical",
+          "summary": ""
+        },
+        {
+          "id": "ai-10",
+          "title": "Build a protein research copilot with Amazon Bedrock AgentCore",
+          "source": "Amazon Web Services (AWS)",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "beta": false,
+      "stories": [
+        {
+          "id": "deep-tech-1",
+          "title": "China’s medical AI breaks ground as surgical robot wins EU approval, model tops benchmark",
+          "source": "Tech - South China Morning Post",
+          "summary": "Medical AI from China has reached new milestones, with a teleoperated surgical robot gaining access to the European Union market and a clinical-grade model topping a major healthcare benchmark develop"
+        },
+        {
+          "id": "deep-tech-2",
+          "title": "From hype to horizon: Preparing the workplace for the data, AI, and quantum convergence",
+          "source": "Indiatimes",
+          "summary": ""
+        },
+        {
+          "id": "deep-tech-3",
+          "title": "Quantum Computing Is Finally Here. But What Is It?",
+          "source": "Bloomberg.com",
+          "summary": ""
+        },
+        {
+          "id": "deep-tech-4",
+          "title": "ASML EUV in China? The rumour is ridiculed but it reveals a tougher reality on the ground",
+          "source": "Tech - South China Morning Post",
+          "summary": "For anyone closely watching the semiconductor industry, the recent saga around ASML’s denial of possible EUV (extreme ultraviolet) lithography shipments to China, in an apparent response to US concern"
+        },
+        {
+          "id": "deep-tech-5",
+          "title": "to Release Advanced 1/2-type CMOS Sensor for Mobile Applications Featuring Industry’s First*1 RB2×2 OCL Pixel Structure for Both High Resolution and AF Performance｜News Releases｜Sony Semiconductor Solutions Group",
+          "source": "sony-semicon.com",
+          "summary": ""
+        },
+        {
+          "id": "deep-tech-6",
+          "title": "Quantum of Solace: a heartbroken James Bond is fuelled by rage in Daniel Craig’s most underrated 007 film",
+          "source": "The Guardian",
+          "summary": ""
+        },
+        {
+          "id": "deep-tech-7",
+          "title": "US Anthropic ban is best advert for Chinese AI",
+          "source": "Tech - South China Morning Post",
+          "summary": "Bankers working for JPMorgan Chase and Goldman Sachs in Hong Kong must have been miffed when they were shut off from using artificial intelligence (AI) models from Anthropic, a pioneering American fir"
+        },
+        {
+          "id": "deep-tech-8",
+          "title": "US's climate.gov site, taken down by Trump, relaunched by nonprofit",
+          "source": "Science - Ars Technica",
+          "summary": "Climate.us has now restored everything taken down by the government."
+        },
+        {
+          "id": "deep-tech-9",
+          "title": "Robot Memory Is The Next Big Robotics Frontier",
+          "source": "Forbes",
+          "summary": ""
+        },
+        {
+          "id": "deep-tech-10",
+          "title": "Department of War Announces Initiative to Revolutionize ISR via Quantum Sensing",
+          "source": "U.S. Department of War (.gov)",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "beta": false,
+      "stories": [
+        {
+          "id": "climate-energy-1",
+          "title": "NLC India and Indian Oil Plan Joint Venture for Solar, Wind and Storage Projects",
+          "source": "Saur Energy",
+          "summary": ""
+        },
+        {
+          "id": "climate-energy-2",
+          "title": "NLC India and Indian Oil Sign MoU to Develop Large-Scale Renewable Energy Projects in Tamil Nadu",
+          "source": "Sarkaritel.com",
+          "summary": ""
+        },
+        {
+          "id": "climate-energy-3",
+          "title": "How India can keep cool as energy demands overheat its power grid",
+          "source": "Scroll.in",
+          "summary": ""
+        },
+        {
+          "id": "climate-energy-4",
+          "title": "Weakening UK net zero policy would damage economy, chief climate adviser says",
+          "source": "Environment | The Guardian",
+          "summary": "Climate Change Committee chair Nigel Topping says U-turns damage investor confidence and disrupt businesses Weakening the UK’s net zero policy would disrupt business and damage the economy, the UK’s c"
+        },
+        {
+          "id": "climate-energy-5",
+          "title": "Europe heatwave live: UK braces for record-breaking temperatures; Italy issues red alert for 16 cities",
+          "source": "Environment | The Guardian",
+          "summary": "Temperatures expected to hit 40C in parts of the UK, as extreme heatwave spreads slowly eastwards, sparking warnings in Italy and the Netherlands France records hottest day ever as 40 people drown acr"
+        },
+        {
+          "id": "climate-energy-6",
+          "title": "Different sperm whale ‘dialects’ detected on separate sides of the Mediterranean",
+          "source": "Environment | The Guardian",
+          "summary": "Matriarchal groups in east and west exhibit distinct click patterns, used to form social structures From “Howdy” to “G’day”, English – like other languages – is rich in dialects. Now researchers have "
+        },
+        {
+          "id": "climate-energy-7",
+          "title": "Adidas, Uniqlo and Calvin Klein ads in UK banned over ‘recycled’ clothing claims",
+          "source": "Environment | The Guardian",
+          "summary": "UK regulator has increased its scrutiny of fashion retailers over potentially misleading environmental statements Ads for Calvin Klein, Adidas and Uniqlo promoting “recycled” clothing and shoes have b"
+        },
+        {
+          "id": "climate-energy-8",
+          "title": "CCC: Faster electrification of UK will ‘put money back into people’s pockets’",
+          "source": "Carbon Brief",
+          "summary": "Faster electrification is the best way to secure lower energy bills and stronger energy security,... The post CCC: Faster electrification of UK will ‘put money back into people’s pockets’ appeared fir"
+        },
+        {
+          "id": "climate-energy-9",
+          "title": "Virginia slaps data centers with big new tax — but no climate rules",
+          "source": "Canary Media",
+          "summary": "Virginia Gov. Abigail Spanberger and her fellow state Democrats romped to a governing trifecta last year, pledging to curtail rising electric bills and ensure power-hungry data centers pay their fair "
+        },
+        {
+          "id": "climate-energy-10",
+          "title": "Driving India's energy transition: Inside Tata Power's business engines",
+          "source": "Tata Power",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "name": "Health Tech",
+      "slug": "health-tech",
+      "beta": false,
+      "stories": [
+        {
+          "id": "health-tech-1",
+          "title": "IHH Healthcare Taps Infosys in a Seven-Year Deal to Build AI-Powered ERP Platform Across Global Hospital Network",
+          "source": "Digital Health News",
+          "summary": ""
+        },
+        {
+          "id": "health-tech-2",
+          "title": "Health tech's next phase: AI partnerships, virtual care wins, and the push for real interoperability",
+          "source": "MarketScale",
+          "summary": ""
+        },
+        {
+          "id": "health-tech-3",
+          "title": "Google Launches Revamped Health App, Coach & Fitbit Air",
+          "source": "Digital Health News",
+          "summary": ""
+        },
+        {
+          "id": "health-tech-4",
+          "title": "STAT+: FDA drops enforcement against Whoop after it tweaks blood pressure feature",
+          "source": "STAT",
+          "summary": "The FDA told wearable maker Whoop last week that it would not take further enforcement action over the company's blood pressure feature."
+        },
+        {
+          "id": "health-tech-5",
+          "title": "STAT+: Want high-quality generic drugs? One expert has ideas on how consumers can trust their supply",
+          "source": "STAT",
+          "summary": "Can the quality of generic drugs in the U.S. be made more consistent? One expert has some ideas on how to do it."
+        },
+        {
+          "id": "health-tech-6",
+          "title": "Judge rules government can’t stop SNAP dollars from buying candy and sugary drinks",
+          "source": "STAT",
+          "summary": "The federal government can't block benefits from the nation's largest food aid program from being used to buy candy, soda, and other sugary drinks, a judge ruled."
+        },
+        {
+          "id": "health-tech-7",
+          "title": "Modern Healthcare seeks a health tech editor",
+          "source": "Talking Biz News",
+          "summary": ""
+        },
+        {
+          "id": "health-tech-8",
+          "title": "Cadence secures $100M series C to advance AI-powered care for chronic disease",
+          "source": "Fierce Healthcare",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "name": "Agritech",
+      "slug": "agritech",
+      "beta": false,
+      "stories": [
+        {
+          "id": "agritech-1",
+          "title": "Deadly bird flu strain confirmed in Australia for first time",
+          "source": "Conservation news",
+          "summary": "A deadly strain of avian influenza, H5N1, that has killed millions of wild and domestic birds and mammals across the globe, has for the first time reached Australia’s shores. Australian authorities co"
+        },
+        {
+          "id": "agritech-2",
+          "title": "Global pressure on ayahuasca threatens Amazonian plants and knowledge systems",
+          "source": "Conservation news",
+          "summary": "“One of the world’s largest pharmacies is being destroyed,” says Benki Piyãko, a leader of the Ashaninka Indigenous people in the Brazilian state of Acre. The warning points to multiple threats advanc"
+        },
+        {
+          "id": "agritech-3",
+          "title": "As Canada eyes Arctic road expansion, Indigenous guardians race to understand caribou",
+          "source": "Conservation news",
+          "summary": "For years, Wayne Mercredi spent hours driving the Tibbitt to Contwoyto winter road. Leaving early in the morning to take advantage of limited daylight, he’d travel the road’s 400-kilometer length (250"
+        },
+        {
+          "id": "agritech-4",
+          "title": "Unnati Agri Raises Rs 17 Crore Debt Funding from Recur Club to Strengthen Growth and Distribution Network",
+          "source": "Indian Startup Times",
+          "summary": ""
+        },
+        {
+          "id": "agritech-5",
+          "title": "Rodent-killing baits threaten small wild cats and other wildlife",
+          "source": "Conservation news",
+          "summary": "Cat kills rodent. Cat eats rodent. Cat is exposed to potentially lethal rodenticides. That scenario is increasingly likely for many small wild cat species across the globe, and yet, only a handful of "
+        },
+        {
+          "id": "agritech-6",
+          "title": "Deforestation is just a symptom. The disease is de-governance (commentary)",
+          "source": "Conservation news",
+          "summary": "For decades, deforestation has been treated as the central problem. It’s measured in hectares lost, monitored through satellites, and addressed through conservation programs, carbon mechanisms, and de"
+        },
+        {
+          "id": "agritech-7",
+          "title": "Can globally essential mangroves bounce back from deforestation? New study gives hope",
+          "source": "Conservation news",
+          "summary": "The world’s mangrove forests, critical coastal ecosystems feared to be on the brink of collapse, are making an unexpected recovery overall, according to research published in June 2026 by scientists a"
+        },
+        {
+          "id": "agritech-8",
+          "title": "Before tourists can see bonobos, trackers must earn their trust",
+          "source": "Conservation news",
+          "summary": "Founder’s Briefs: An occasional series where Mongabay founder Rhett Ayers Butler shares analysis, perspectives and story summaries. In Salonga National Park in the Democratic Republic of Congo, resear"
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "beta": false,
+      "stories": [
+        {
+          "id": "indian-startups-1",
+          "title": "This Bengaluru startup isn’t building faster chips than Nvidia. It’s building cheaper AI",
+          "source": "The Ken",
+          "summary": "The post This Bengaluru startup isn’t building faster chips than Nvidia. It’s building cheaper AI appeared first on The Ken ."
+        },
+        {
+          "id": "indian-startups-2",
+          "title": "Square Yards turns unicorn; A father-daughter duo fights period poverty",
+          "source": "YourStory RSS Feed",
+          "summary": "Real estate and mortgage platform Square Yards has raised Rs 900 crore ($95 million approx.) in a mix of debt and equity transactions."
+        },
+        {
+          "id": "indian-startups-3",
+          "title": "The Lendbox Puzzle, Turtlemint’s IPO & More",
+          "source": "Inc42 Media",
+          "summary": "Inside Per Annum’s High Returns Illusion Lendbox parent Transactree’s investment platform, Per Annum, is under scrutiny. Despite RBI tightening P2P…"
+        },
+        {
+          "id": "indian-startups-4",
+          "title": "Indian Unicorn Tracker: Funding, Investors, Revenue And More",
+          "source": "Inc42 Media",
+          "summary": "The year 2026 has begun on a strong note for India’s startup ecosystem, with Juspay becoming the first unicorn of…"
+        },
+        {
+          "id": "indian-startups-5",
+          "title": "SEBI’s ‘GARUDA’ Framework Eases Key Bottlenecks For Indian Startup Investors",
+          "source": "Inc42 Media",
+          "summary": "Alternative investments funds (AIFs) have been critical in supporting the growth of the world’s third-largest startup ecosystem since its beginning.…"
+        },
+        {
+          "id": "indian-startups-6",
+          "title": "BharatTender Raises Rs 1.25 Crore in Pre-Seed Funding to Digitise B2B Procurement in India",
+          "source": "Indian Startup Times",
+          "summary": ""
+        },
+        {
+          "id": "indian-startups-7",
+          "title": "AI Startups Drive India’s Weekly Funding to $432 Million Across 23 Deals",
+          "source": "fundsforNGOs News",
+          "summary": ""
+        },
+        {
+          "id": "indian-startups-8",
+          "title": "Top Indian Startups Most Likely to Become Unicorns in 2026",
+          "source": "Business Outreach Magazine",
+          "summary": ""
+        },
+        {
+          "id": "indian-startups-9",
+          "title": "Square Yards turns unicorn with Rs 900 Cr fundraise",
+          "source": "YourStory RSS Feed",
+          "summary": "Square Yards will use this funding round to expand its business and upgrade its technology infrastructure."
+        },
+        {
+          "id": "indian-startups-10",
+          "title": "Cybersecurity startup Mitigata raises $15 mn in Bessemer-led Series B round",
+          "source": "Business Standard",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "beta": false,
+      "stories": [
+        {
+          "id": "global-economics-1",
+          "title": "PBOC Adviser Sees Potential Rate Cut But Calls for Targeted Aid",
+          "source": "Bloomberg Economics",
+          "summary": "China may still cut interest rates this year, though besides looser policy the economy requires more targeted support for technological innovation and improving people’s livelihoods, according to an a"
+        },
+        {
+          "id": "global-economics-2",
+          "title": "RBI Governor Says It Is Premature to Discuss Rate Hikes Yet",
+          "source": "Bloomberg Economics",
+          "summary": "India’s central bank Governor Sanjay Malhotra pushed back against expectations for future interest-rate increases, saying it was “premature” to discuss the policy outlook given ongoing geopolitical un"
+        },
+        {
+          "id": "global-economics-3",
+          "title": "EU Rides Out Budget Spat Without Spooking Markets or Ratings",
+          "source": "Bloomberg Economics",
+          "summary": "The European Union’s regime for monitoring public finances has arguably just passed its toughest health test since a revamp after the pandemic."
+        },
+        {
+          "id": "global-economics-4",
+          "title": "Canada to Send Warships to Indo-Pacific, Defense Minister Says",
+          "source": "Bloomberg Economics",
+          "summary": "Canada plans to send warships to the Indo-Pacific in two deployments this year, its defense minister said, part of a move to deepen military ties with regional allies even as Ottawa also endeavors to "
+        },
+        {
+          "id": "global-economics-5",
+          "title": "Mild Singapore Inflation Points to Policy Hold, Economists Say",
+          "source": "Bloomberg Economics",
+          "summary": "Singapore will likely hold monetary policy at its meeting next month and consider further moves later in the year after weaker-than-expected inflation data for May, according to economists."
+        },
+        {
+          "id": "global-economics-6",
+          "title": "Conservative Fujimori Poised to Win Peru’s Presidency, Vote Count Shows",
+          "source": "Bloomberg Economics",
+          "summary": "Conservative Keiko Fujimori is poised to become Peru’s next president after running her fourth consecutive campaign, according to figures published by the elections regulator after weeks of adjudicati"
+        },
+        {
+          "id": "global-economics-7",
+          "title": "Trump Says Justice Department Looking Into Gasoline Prices",
+          "source": "Bloomberg Economics",
+          "summary": "US President Donald Trump has ordered the Department of Justice to look into gasoline prices, which he says aren’t falling fast enough."
+        },
+        {
+          "id": "global-economics-8",
+          "title": "China’s central bank sets weaker yuan midpoint against US dollar for third day",
+          "source": "South China Morning Post",
+          "summary": ""
+        },
+        {
+          "id": "global-economics-9",
+          "title": "Malaysia Central Bank Pledges Stronger Measures to Boost Inflows",
+          "source": "Bloomberg Economics",
+          "summary": "Malaysia will intensify measures to encourage foreign-exchange inflows, including efforts to boost the repatriation and conversion of companies’ overseas earnings, the central bank said."
+        },
+        {
+          "id": "global-economics-10",
+          "title": "Georgia the latest country to join the central bank Gold rush",
+          "source": "FXStreet",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "beta": false,
+      "stories": [
+        {
+          "id": "india-1",
+          "title": "Illegal immigrants from Bangladesh, Myanmar | Pushback, detention and deportation laws explained",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "What is a pushback? Is it same as deportation? Is it legal?"
+        },
+        {
+          "id": "india-2",
+          "title": "Monsoon tracker LIVE: 'Orange' alert for Mumbai, heavy overnight rain leads to waterlogging in several pockets",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "The southwest monsoon finally hit Mumbai on June 23, about 13 days after its normal onset date"
+        },
+        {
+          "id": "india-3",
+          "title": "Cockroach infestation, expired FSSAI licence among hygiene violations flagged at Hyderabad’s Zepto warehouse",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "Rameshwaram Cafe, SVM Grand, Platform 65, and Iguru Restaurant found having hygiene and contamination risks"
+        },
+        {
+          "id": "india-4",
+          "title": "Probe on to identify Karnataka BJP MLAs who cross-voted; ‘will be punished’, says high command",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "Strong concerns were raised over lack of discipline in the State BJP at a meeting convened by party national president Nitin Nabin"
+        },
+        {
+          "id": "india-5",
+          "title": "Bengaluru Metro Purple Line services resume; technical snag resolved after hours of disruption",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "Regular operations resumed from 5 a.m. after a technical issue that had severely affected services the previous evening was successfully rectified, the BMRCL said"
+        },
+        {
+          "id": "india-6",
+          "title": "Why West Bengal’s decision of linking social security benefits to SIR is being challenged | Explained",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "The linking of the Public Distribution System (PDS) and Annapurna Yojana to the outcome of the Special Intensive Revision in West Bengal was challenged by an independent trade union"
+        },
+        {
+          "id": "india-7",
+          "title": "India's IT giants confront an identity crisis as AI reshapes their employer brand",
+          "source": "Storyboard18",
+          "summary": ""
+        },
+        {
+          "id": "india-8",
+          "title": "Sensex Today Trades Higher | Nifty Above 23,850 | Tech Mahindra & Infosys Top Gainers",
+          "source": "Equitymaster",
+          "summary": ""
+        },
+        {
+          "id": "india-9",
+          "title": "India News Live Updates, 24 June 2026: Tourist bus overturns in Tamil Nadu; 24 injured",
+          "source": "India | The Indian Express",
+          "summary": ""
+        },
+        {
+          "id": "india-10",
+          "title": "Bishwanath Sinha appointed Kerala’s next Chief Secretary",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "Sinha, who is currently Additional Chief Secretary, Home, is set to replace Chief Secretary A Jayathilak, who will retire on June 30"
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "beta": false,
+      "stories": [
+        {
+          "id": "world-1",
+          "title": "\"What About India?\" What Trump Said To JD Vance's Ukraine Peacekeeper Plan",
+          "source": "NDTV",
+          "summary": ""
+        },
+        {
+          "id": "world-2",
+          "title": "Clean sweep for Mamdani-backed candidates in New York's Democratic primary",
+          "source": "BBC News",
+          "summary": "Brad Lander unseats Dan Goldman in a race that laid bare the city's divisions over the Israel-Gaza war."
+        },
+        {
+          "id": "world-3",
+          "title": "As Europe bakes in early heatwave, fan and air-con sales skyrocket",
+          "source": "World - South China Morning Post",
+          "summary": "Europe braced for more of an unprecedented heatwave that has smashed records in many countries and sent air-conditioner sales zooming in a continent unused and ill-equipped to handle searing heat. The"
+        },
+        {
+          "id": "world-4",
+          "title": "Play puts spotlight on Kenya’s crisis of gender-based violence",
+          "source": "World news | The Guardian",
+          "summary": "Autobiographical work Free Me aims to encourage victims to speak out in country where violence against women is rising There are audible gasps in the auditorium in Nairobi as a husband launches a voll"
+        },
+        {
+          "id": "world-5",
+          "title": "Rebuking Trump, US Senate joins House in vote to end Iran war",
+          "source": "World - South China Morning Post",
+          "summary": "The US Senate backed legislation on Tuesday directing US President Donald Trump to halt US military action against Iran, the latest rebuke of the Republican president from an increasingly restive Cong"
+        },
+        {
+          "id": "world-6",
+          "title": "US foreign policy",
+          "source": "The Guardian",
+          "summary": ""
+        },
+        {
+          "id": "world-7",
+          "title": "Airbus to inspect 16 A380 planes after cracks found on wings",
+          "source": "World - South China Morning Post",
+          "summary": "Airbus on Tuesday said it would inspect 16 A380 planes, five of them immediately, after cracks were found in a key wing component on aircraft used by the Emirates and Qantas airlines. The European Uni"
+        },
+        {
+          "id": "world-8",
+          "title": "Bondi Beach shooting hero pleads not guilty to alleged assault on his father",
+          "source": "BBC News",
+          "summary": "Ahmed al Ahmed tackled one of the gunmen who killed 15 people at a Jewish event in December."
+        },
+        {
+          "id": "world-9",
+          "title": "Congress passes war powers measure for first time, rebuking Trump's war with Iran",
+          "source": "BBC News",
+          "summary": "The resolution is largely symbolic, but it adds to pressure on the White House to end the conflict once and for all."
+        },
+        {
+          "id": "world-10",
+          "title": "Breaking News, World News and Video from Al Jazeera",
+          "source": "Al Jazeera",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "name": "Other Interests",
+      "slug": "other-interests",
+      "beta": false,
+      "stories": [
+        {
+          "id": "other-interests-1",
+          "title": "Deadly bird flu strain confirmed in Australia for first time",
+          "source": "Conservation news",
+          "summary": "A deadly strain of avian influenza, H5N1, that has killed millions of wild and domestic birds and mammals across the globe, has for the first time reached Australia’s shores. Australian authorities co"
+        },
+        {
+          "id": "other-interests-2",
+          "title": "Francine LeFrak Supports Off-Broadway Production of Music City, C",
+          "source": "The National Law Review",
+          "summary": ""
+        },
+        {
+          "id": "other-interests-3",
+          "title": "Huge crater in Australia may be the oldest impact structure on Earth",
+          "source": "New Scientist - Home",
+          "summary": "A study claims that the North Pole Dome crater in Western Australia was caused by an asteroid strike 3 billion years ago, but other researchers dispute the proposed age"
+        },
+        {
+          "id": "other-interests-4",
+          "title": "Global pressure on ayahuasca threatens Amazonian plants and knowledge systems",
+          "source": "Conservation news",
+          "summary": "“One of the world’s largest pharmacies is being destroyed,” says Benki Piyãko, a leader of the Ashaninka Indigenous people in the Brazilian state of Acre. The warning points to multiple threats advanc"
+        },
+        {
+          "id": "other-interests-5",
+          "title": "Parenting may permanently improve brain health for mums and dads",
+          "source": "New Scientist - Home",
+          "summary": "Raising children appears to keep the brain young, potentially acting as a buffer against cognitive decline and Alzheimer’s"
+        },
+        {
+          "id": "other-interests-6",
+          "title": "Inclusive Music-Based Non-Profits",
+          "source": "Trend Hunter",
+          "summary": ""
+        },
+        {
+          "id": "other-interests-7",
+          "title": "As Canada eyes Arctic road expansion, Indigenous guardians race to understand caribou",
+          "source": "Conservation news",
+          "summary": "For years, Wayne Mercredi spent hours driving the Tibbitt to Contwoyto winter road. Leaving early in the morning to take advantage of limited daylight, he’d travel the road’s 400-kilometer length (250"
+        },
+        {
+          "id": "other-interests-8",
+          "title": "Elite Maya people had teeth placed in a cave far from their tombs",
+          "source": "New Scientist - Home",
+          "summary": "A cave in Belize contains teeth from dozens of important Maya people buried elsewhere, which may attest to a ritual intended to ensure their passage to the underworld"
+        },
+        {
+          "id": "other-interests-9",
+          "title": "FEATURE | Lake Effect: Quiet Music From Toronto From The City’s Ambient, Neoclassical & Experimental Composers",
+          "source": "ludwig-van.com",
+          "summary": ""
+        },
+        {
+          "id": "other-interests-10",
+          "title": "Let Florist’s Emily Sprague “Sing To” You on New Single",
+          "source": "RSS: News",
+          "summary": "The composer and singer-songwriter is readying a new solo album, Cyano"
+        }
+      ]
+    },
+    {
+      "name": "Opportunities",
+      "slug": "opportunities",
+      "beta": true,
+      "stories": [
+        {
+          "id": "opportunities-1",
+          "title": "Qualcomm India Opens Registrations for Snapdragon Multiverse Hackathon to Build Multi-Device AI Solutions",
+          "source": "TheWire.in",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-2",
+          "title": "The Rise of AI Conferences in India: What to Expect in 2026",
+          "source": "Indiatimes",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-3",
+          "title": "What Happens When 6151 Girls Use AI To Build Solutions for Real-Life Problems Across India?",
+          "source": "The Better India",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-4",
+          "title": "NSO’s national-level hackathon ‘STATATHON – A Data Journey for Viksit Bharat’ concludes successfully",
+          "source": "News On AIR",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-5",
+          "title": "Apply Now: PW AI Startup Challenge 2026 (India)",
+          "source": "fundsforNGOs",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-6",
+          "title": "IndiaAI Startups Global: International Acceleration Programs for Indian AI Startups - 2026 2nd Cohort",
+          "source": "IndiaAI",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-7",
+          "title": "SAP Labs India Unveils 2026 Startup Studio Cohort Focused on Enterprise AI and Deep-Tech Innovation",
+          "source": "SAP News Center",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-8",
+          "title": "EV mobility startup Trevel raises $1 Mn led by India Accelerator and Finvolve",
+          "source": "Entrackr",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-9",
+          "title": "Nine Indian startups join WEF's Tech Pioneers cohort",
+          "source": "YourStory.com",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-10",
+          "title": "'India AI Summit was extremely disorganised': Anthropic CEO Dario on viral stage moment with Sam Altman",
+          "source": "Deccan Herald",
+          "summary": ""
+        }
+      ]
+    }
+  ]
 }
