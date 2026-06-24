@@ -3,182 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Daily Cactus — Sunday, 21 June 2026</title>
-<style>
-  :root{
-    --paper:#faf6ee; --ink:#1d1d1b; --muted:#6b675e;
-    --accent:#2f6f4f; --rule:#d8d2c4; --highlight:#b3542e; --beta:#7a5cc4;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--paper);color:var(--ink);
-       font-family:Georgia,'Times New Roman',serif;line-height:1.55;
-       max-width:2200px;margin:0 auto;padding:24px clamp(20px,3.5vw,72px) 64px}
-  .masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
-  .masthead h1{font-size:clamp(36px,7vw,60px);letter-spacing:1px;font-weight:700}
-  .masthead .dateline{font-family:'Courier New',monospace;font-size:13px;
-       color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:6px}
-  nav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
-      padding:12px 0;border-bottom:1px solid var(--rule);
-      font-family:'Courier New',monospace;font-size:13px;line-height:2}
-  nav a{color:var(--ink);text-decoration:none;text-transform:uppercase;letter-spacing:1px}
-  nav a:hover,nav a.active{color:var(--accent);text-decoration:underline}
-  nav .sep{color:var(--rule);margin:0 12px;user-select:none}
-  .lead{padding:24px 0 8px;border-bottom:1px solid var(--rule)}
-  .lead .story-img{float:right;width:300px;height:200px;object-fit:cover;
-       margin:4px 0 12px 22px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
-  .lead h2{font-size:30px;line-height:1.2;margin-bottom:10px}
-  .lead .summary{font-size:17px}
-  .lead .summary,.lead .takeaway,.lead .why{max-width:74ch}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
-        column-gap:40px;margin-top:8px}
-  .section-title{grid-column:1 / -1;font-size:20px;margin:30px 0 2px;color:var(--accent);
-       border-bottom:1px solid var(--rule);padding-bottom:4px;
-       text-transform:uppercase;letter-spacing:2px;font-family:'Courier New',monospace}
-  article{padding:18px 0;border-bottom:1px solid var(--rule);overflow:hidden}
-  article h2{font-size:20px;line-height:1.3;margin-bottom:6px}
-  article h2 a{color:var(--ink);text-decoration:none}
-  article h2 a:hover{color:var(--accent)}
-  .story-img{float:right;width:128px;height:88px;object-fit:cover;
-       margin:2px 0 8px 14px;border:1px solid var(--rule);border-radius:4px;background:#ece6d8}
-  .summary{margin-bottom:8px}
-  .takeaway{margin-bottom:6px;font-size:15px}
-  .takeaway b{color:var(--highlight);letter-spacing:.3px}
-  .why{background:#f1ead9;border-left:3px solid var(--accent);
-       padding:8px 12px;font-size:15px;margin-bottom:8px}
-  .why b{color:var(--accent)}
-  .meta{font-family:'Courier New',monospace;font-size:12px;color:var(--muted)}
-  .meta a{color:var(--highlight)}
-  .developing{display:inline-block;background:var(--highlight);color:#fff;
-       font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;
-       border-radius:3px;margin-bottom:6px;letter-spacing:1px}
-  .beta-tag{display:inline-block;background:var(--beta);color:#fff;
-       font-family:'Courier New',monospace;font-size:11px;padding:1px 7px;
-       border-radius:3px;letter-spacing:1px;vertical-align:middle;margin-left:8px}
-  .beta-note{grid-column:1 / -1;font-size:13px;color:var(--muted);font-style:italic;
-       margin:2px 0 4px}
-  .opp h2{font-size:18px}
-  .opp .when{font-family:'Courier New',monospace;font-size:12px;color:var(--beta);
-       margin-bottom:4px;letter-spacing:.5px}
-  .archive-list{list-style:none;margin-top:14px}
-  .archive-list li{padding:9px 0;border-bottom:1px solid var(--rule)}
-  .archive-list .d{font-family:'Courier New',monospace;color:var(--muted);
-       font-size:13px;margin-right:10px}
-  .archive-list a{color:var(--ink);text-decoration:none}
-  .archive-list a:hover{color:var(--accent)}
-  .colophon{margin-top:46px;padding-top:12px;border-top:3px double var(--ink);
-       text-align:center;font-family:'Courier New',monospace;
-       font-size:12px;color:var(--muted)}
-  @media (max-width:760px){
-    body{padding:18px 16px 48px}
-    .grid{grid-template-columns:1fr;column-gap:0}
-    .lead .story-img{float:none;width:100%;height:200px;margin:0 0 12px 0}
-    .lead h2{font-size:25px}
-    .story-img{width:96px;height:68px;margin-left:10px}
-    nav .sep{margin:0 8px}
-  }
-</style>
+<title>The Daily Cactus 🌵</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="masthead">
-    <h1>The Daily Cactus &#127795;</h1>
-    <div class="dateline">Sunday, 21 June 2026 &middot; Edition No. 4 &middot; Jaipur, India</div>
+    <h1>The Daily Cactus 🌵</h1>
+    <div class="dateline" id="dateline">Loading…</div>
   </header>
-  <nav>
-    <a href="index.html" class="active">Front Page</a><span class="sep">&middot;</span>
-    <a href="sections/ai.html">AI</a><span class="sep">&middot;</span>
-    <a href="sections/deep-tech.html">Deep Tech</a><span class="sep">&middot;</span>
-    <a href="sections/climate-energy.html">Climate &amp; Energy</a><span class="sep">&middot;</span>
-    <a href="sections/health-tech.html">Health Tech</a><span class="sep">&middot;</span>
-    <a href="sections/agritech.html">Agritech</a><span class="sep">&middot;</span>
-    <a href="sections/indian-startups.html">Indian Startups</a><span class="sep">&middot;</span>
-    <a href="sections/global-economics.html">Global Economics</a><span class="sep">&middot;</span>
-    <a href="sections/india.html">India</a><span class="sep">&middot;</span>
-    <a href="sections/world.html">World</a><span class="sep">&middot;</span>
-    <a href="sections/other-interests.html">Other Interests</a><span class="sep">&middot;</span>
-    <a href="sections/opportunities.html">Opportunities</a><span class="sep">&middot;</span>
-    <a href="archive/index.html">Archive</a>
-  </nav>
 
-  <main>
-    <section class="lead">
-      <article>
-        <span class="developing">&#128200; DEVELOPING</span>
-        <img class="story-img" src="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17c2/live/72006a90-6d05-11f1-8e1d-bbbb1017d210.jpg" alt="" onerror="this.style.display='none'">
-        <h2><a href="https://www.bbc.com/news/articles/cwyekkwm1mmo">Iran Declares Hormuz Closed &mdash; and Heads to Switzerland to Talk</a></h2>
-        <p class="summary">Iran announced it has closed the Strait of Hormuz, citing ongoing Israeli strikes in Lebanon as a ceasefire violation &mdash; even as negotiators flew to Switzerland for the next round of US-Iran talks. The US military disputed the closure claim. Trump threatened to impose tolls on Hormuz transit, adding a new lever to an already fragile standoff.</p>
-        <p class="takeaway"><b>Key takeaway:</b> Iran is using Hormuz as a pressure lever simultaneously with negotiation &mdash; pressure-while-talking is a classic Iranian posture, and the interim deal has clearly not resolved the underlying tensions.</p>
-        <p class="why"><b>Why it matters:</b> India imports roughly 85% of its crude oil; around 70% transits Hormuz. Even a credible threat &mdash; not an actual closure &mdash; drives up war-risk insurance, delays tankers, and pushes Brent higher. That feeds directly into India&rsquo;s inflation and current account at exactly the moment the RBI has already cut FY27 GDP to 6.6% and the Warsh Fed is threatening rate hikes. The two macro risks are converging. <em>Earlier: US-Iran deal text finalized June 17; Hormuz was technically open but shippers were cautious, war-risk premiums elevated.</em></p>
-        <p class="meta">BBC News &middot; <a href="https://www.bbc.com/news/articles/cwyekkwm1mmo">Read the original &rarr;</a></p>
-      </article>
-    </section>
+  <div class="datebar" id="datebar" style="visibility:hidden">
+    <label for="datepick">Edition:</label>
+    <select id="datepick" aria-label="Choose edition date"></select>
+  </div>
 
-    <div class="grid">
+  <nav id="nav"></nav>
 
-      <article>
-        <h2><a href="https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/">Nobel Laureate John Jumper Leaves DeepMind for Anthropic</a></h2>
-        <p class="summary">John Jumper, who shared the 2024 Nobel Prize in Chemistry for AlphaFold&rsquo;s protein-structure breakthroughs at Google DeepMind, is departing for Anthropic. He joins a string of senior DeepMind exits. TechCrunch notes he is not the only big name recently leaving Google&rsquo;s AI lab.</p>
-        <p class="takeaway"><b>Key takeaway:</b> A sitting Nobel laureate chose Anthropic over every other lab &mdash; which is a stronger signal about research environment than any hiring announcement.</p>
-        <p class="why"><b>Why it matters:</b> The AI talent war has moved beyond salary to research autonomy and mission. For tracking where the field&rsquo;s next capability jumps will land, follow the top researchers &mdash; and right now they are moving toward Anthropic.</p>
-        <p class="meta">TechCrunch &middot; <a href="https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/">Read the original &rarr;</a></p>
-      </article>
+  <main id="paper"><p class="status">Loading the latest edition…</p></main>
 
-      <article>
-        <h2><a href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaWMwZXBMSUJEZjlDNzZMMWNFUGNidVJ1ZzAzbkpZUTRLOEFHQmtsbmxGckhDV3Nfc1JhbFNDblhtUGdHSERRbDlBLUJnWnFPajFhRUprV3N4TlVDMDFTQ1FETFN5akgwWXJrNTlZeGxOWWZtdlROWGY0QTdaOUQySGZnQVByblFxcEtad2ZJNjBjTjd4eG9yckhmbUNNWG1LX2w1SGxieXFTVTVPRkJLbElTM0hkOXZRLXFpeUU1NGxyYjJVVW1qZjJlUElmNWdZV3JXekV4bDA2aXVFaUxLeHN6OUxhVl83WG1OTC1CTQ?oc=5">Reliance AGM: Ambani Declares AI the Central Bet for 500 Million Indians</a></h2>
-        <p class="summary">At Reliance Industries&rsquo; 49th AGM, Mukesh Ambani unveiled an AI-first strategy for Jio &mdash; embedding AI across calls, apps, and home devices for over 500 million subscribers. He called for India to stop being a consumer of AI built elsewhere and announced plans to build sovereign AI infrastructure at Jio&rsquo;s scale.</p>
-        <p class="takeaway"><b>Key takeaway:</b> Reliance&rsquo;s AGM functions as India&rsquo;s unofficial national tech policy speech &mdash; and Ambani just said AI is the decade&rsquo;s infrastructure, not a product feature.</p>
-        <p class="why"><b>Why it matters:</b> Jio&rsquo;s 500M-user base means any AI feature becomes an instant mass-market deployment. Expect massive demand for AI integration talent across Jio&rsquo;s ecosystem &mdash; telecom, retail, fintech, entertainment &mdash; in the next 12&ndash;18 months.</p>
-        <p class="meta">Indiatimes &middot; <a href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaWMwZXBMSUJEZjlDNzZMMWNFUGNidVJ1ZzAzbkpZUTRLOEFHQmtsbmxGckhDV3Nfc1JhbFNDblhtUGdHSERRbDlBLUJnWnFPajFhRUprV3N4TlVDMDFTQ1FETFN5akgwWXJrNTlZeGxOWWZtdlROWGY0QTdaOUQySGZnQVByblFxcEtad2ZJNjBjTjd4eG9yckhmbUNNWG1LX2w1SGxieXFTVTVPRkJLbElTM0hkOXZRLXFpeUU1NGxyYjJVVW1qZjJlUElmNWdZV3JXekV4bDA2aXVFaUxLeHN6OUxhVl83WG1OTC1CTQ?oc=5">Read the original &rarr;</a></p>
-      </article>
+  <footer class="colophon" id="colophon"></footer>
 
-      <article>
-        <h2><a href="https://www.bloomberg.com/news/articles/2026-06-20/charting-the-global-economy-warsh-s-tenure-at-the-fed-begins">New Fed Chair Warsh Signals Rate Hikes; Inflation Gauge Expected to Accelerate</a></h2>
-        <p class="summary">Kevin Warsh presided over his first Fed policy meeting, vowing to restore price stability and signalling growing internal support for rate hikes. The Fed&rsquo;s preferred inflation gauge (PCE) is expected to show faster price growth in its next reading &mdash; reinforcing the new hawkish direction.</p>
-        <p class="takeaway"><b>Key takeaway:</b> The Warsh Fed is not waiting &mdash; the message from his first meeting is that rate hikes are the path, and inflation comes before growth.</p>
-        <p class="why"><b>Why it matters:</b> US rate hikes pressure emerging market currencies and trigger capital outflows. India is exposed: a stronger dollar plus a potential oil shock (see Hormuz lead) is the worst-case combination for the rupee and RBI&rsquo;s room to manoeuvre.</p>
-        <p class="meta">Bloomberg &middot; <a href="https://www.bloomberg.com/news/articles/2026-06-20/charting-the-global-economy-warsh-s-tenure-at-the-fed-begins">Read the original &rarr;</a></p>
-      </article>
-
-      <article>
-        <img class="story-img" src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/21/9aa78e47-2193-4a1d-bf2e-5fc6996c12d9_97418995.jpg?itok=RZ6c3Sqf&amp;v=1781993688" alt="" onerror="this.style.display='none'">
-        <h2><a href="https://www.scmp.com/news/world/europe/article/3357799/report-says-uk-pm-starmer-ready-quit-source-says-he-still-focused-job">UK Prime Minister Starmer Reportedly Set to Resign Monday</a></h2>
-        <p class="summary">Britain&rsquo;s Observer reported that Keir Starmer was expected to announce his resignation Monday with a departure timetable. A government source pushed back. Labour has faced sustained pressure over welfare reform, economic stagnation, and a polling collapse since the 2025 election cycle.</p>
-        <p class="takeaway"><b>Key takeaway:</b> If confirmed, Starmer&rsquo;s exit would trigger a Labour leadership contest &mdash; most likely won by Andy Burnham &mdash; at Britain&rsquo;s most economically vulnerable moment in years.</p>
-        <p class="why"><b>Why it matters:</b> Useful context for India-UK FTA watchers: Burnham-led Labour would likely shift policy leftward on trade and investment rules, potentially complicating a deal that has been in negotiation for three years.</p>
-        <p class="meta">South China Morning Post &middot; <a href="https://www.scmp.com/news/world/europe/article/3357799/report-says-uk-pm-starmer-ready-quit-source-says-he-still-focused-job">Read the original &rarr;</a></p>
-      </article>
-
-      <article>
-        <img class="story-img" src="https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/06/Ftr-100-2.jpg" alt="" onerror="this.style.display='none'">
-        <h2><a href="https://inc42.com/buzz/from-sarvam-to-influish-indian-startups-raised-426-mn-this-week/">Indian Startups Raised $426 Million This Week &mdash; AI Drove Half of It</a></h2>
-        <p class="summary">Indian startups raised $426 million across 19 deals in June 15&ndash;19, nearly double the prior week&rsquo;s $246 million. Sarvam&rsquo;s $234M sovereign-AI round (covered last week) drove the AI surge, but cleantech, consumer health, and creator-economy also closed deals this week.</p>
-        <p class="takeaway"><b>Key takeaway:</b> Strip out Sarvam and India&rsquo;s weekly VC run rate is still ~$192M &mdash; the AI tailwind is lifting the whole ecosystem, not just a single marquee name.</p>
-        <p class="why"><b>Why it matters:</b> The breadth of sectors &mdash; AI, cleantech, health, creator tools &mdash; signals the opportunity window for AI generalists and strategy professionals is wider than pure-AI companies alone.</p>
-        <p class="meta">Inc42 &middot; <a href="https://inc42.com/buzz/from-sarvam-to-influish-indian-startups-raised-426-mn-this-week/">Read the original &rarr;</a></p>
-      </article>
-
-      <article>
-        <img class="story-img" src="https://th-i.thgim.com/public/incoming/gmo76h/article71127245.ece/alternates/LANDSCAPE_1200/_JAI8630.JPG" alt="" onerror="this.style.display='none'">
-        <h2><a href="https://www.thehindu.com/news/national/insuring-the-informal-worker-against-the-heat/article71125184.ece">India&rsquo;s Informal Workers Face the Heat &mdash; With Nowhere to Hide</a></h2>
-        <p class="summary">India is piloting &ldquo;parametric&rdquo; heat insurance that pays out automatically when temperatures cross a threshold &mdash; no claim needed. But field evidence shows workers take the payout without actually resting, because missing income is impossible. The money transfers; the protection doesn&rsquo;t.</p>
-        <p class="takeaway"><b>Key takeaway:</b> Parametric heat insurance is live in India but the product design fails at the human level: workers who cannot afford to stop working will not, even when paid to.</p>
-        <p class="why"><b>Why it matters:</b> With 95 of the world&rsquo;s hottest cities currently in India and hundreds of millions of outdoor workers, this is a wicked problem that markets alone won&rsquo;t solve. Serious climate-tech and social insurance innovation is increasingly focused here.</p>
-        <p class="meta">The Hindu &middot; <a href="https://www.thehindu.com/news/national/insuring-the-informal-worker-against-the-heat/article71125184.ece">Read the original &rarr;</a></p>
-      </article>
-
-      <article>
-        <h2><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5">OECD Confirms India as World&rsquo;s Fastest-Growing Major Economy</a></h2>
-        <p class="summary">The OECD&rsquo;s latest report confirms India retains its position as the world&rsquo;s fastest-growing major economy, holding structural outperformance even as global growth slows under US rate-hike pressure, residual Iran disruption, and tighter financial conditions.</p>
-        <p class="takeaway"><b>Key takeaway:</b> India is growing fastest &mdash; but the real stress test is whether that lead holds if the Warsh Fed triggers capital outflows and Hormuz disrupts oil simultaneously.</p>
-        <p class="why"><b>Why it matters:</b> &ldquo;Fastest-growing&rdquo; is India&rsquo;s recurring headline. The macro scenario that breaks it &mdash; oil shock plus dollar strength &mdash; is precisely what today&rsquo;s lead story raises. Worth watching the next 60 days closely.</p>
-        <p class="meta">Newsonair &middot; <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5">Read the original &rarr;</a></p>
-      </article>
-
-    </div>
-  </main>
-
-  <footer class="colophon">
-    Sunday, 21 June 2026 &middot; 48 stories across 11 sections &middot; 48 sources scanned &middot; 44 ok &middot; 4 failed (analyticsindiamag.com, importai.substack.com, entrackr.com, harvardbusiness.org)<br>
-    The Daily Cactus is produced for one reader in Jaipur, India.
-  </footer>
+  <script src="app.js"></script>
 </body>
 </html>
