@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-25",
-  "colophon": "52 sources scanned · 48 ok · 4 failed",
+  "date": "2026-06-26",
+  "colophon": "52 sources scanned · 47 ok · 5 failed",
   "sections": [
     {
       "name": "AI",
@@ -9,63 +9,63 @@
       "stories": [
         {
           "id": "ai-1",
-          "title": "Equal AI secures US$30m Series B funding, co-led by Prosus Ventures and Tomales Bay Capital, to scale India’s AI Assistant",
-          "source": "Prosus",
-          "summary": ""
-        },
-        {
-          "id": "ai-2",
-          "title": "Inside India newsletter: Meet the humans teaching robots to perform routine tasks, as India finds a way to enter the AI race",
+          "title": "Amazon adds new funding, lifting India AI and cloud investment to $48 billion",
           "source": "CNBC",
           "summary": ""
         },
         {
+          "id": "ai-2",
+          "title": "India can still build AI winners despite US, China lead, says Accel's Subrata Mitra",
+          "source": "Mint",
+          "summary": ""
+        },
+        {
           "id": "ai-3",
-          "title": "Former Infosys chief has a new startup that wants to challenge the IT services world",
+          "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
           "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "Backed by Mayfield and Aramco Ventures, Vishal Sikka’s new venture brings together veterans from SAP, Infosys, and VianAI."
+          "summary": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says."
         },
         {
           "id": "ai-4",
-          "title": "Explained: The Supreme Court of India’s Draft Regulations for Use of Artificial Intelligence in Courts, 2026",
-          "source": "The Leaflet",
+          "title": "US, India Working on Structured Framework for Safe Rollout of Advanced AI Technologies: Helberg",
+          "source": "Open Magazine",
           "summary": ""
         },
         {
           "id": "ai-5",
-          "title": "'India Leading In AI Literacy': Open AI's Chris Lehane To NDTV",
-          "source": "NDTV",
-          "summary": ""
+          "title": "Repositioning retail for the AI era",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants"
         },
         {
           "id": "ai-6",
-          "title": "Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood",
+          "title": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit",
           "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "In its first earnings report since going public, the AI chipmaker forecast a narrower gross margin in its core business, scaring investors."
+          "summary": "Two days left to lock in your spot at TechCrunch Founder Summit 2026 and save up to $190 before Early Bird rates expire on June 26 at 11:59 p.m. PT. Register today."
         },
         {
           "id": "ai-7",
-          "title": "Anthropic Veterans’ Startup Seeks to Help Scientists Develop Their Own AI",
-          "source": "WSJ",
+          "title": "Sail Research raises $80M to optimize long-horizon AI agents",
+          "source": "SiliconANGLE",
           "summary": ""
         },
         {
           "id": "ai-8",
-          "title": "Europe is pushing back on Washington’s chip war",
-          "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "As ASML CEO Christophe Fouquet told TechCrunch in May, what China can currently buy are older-generation deep ultraviolet tools — gear first shipped about a decade ago — the same machines the MATCH Ac"
-        },
-        {
-          "id": "ai-9",
-          "title": "The emerging role of AI tools in smallholder finance",
-          "source": "IFPRI",
+          "title": "Who will control Africa’s AI infrastructure, and at what cost?",
+          "source": "Al Jazeera",
           "summary": ""
         },
         {
+          "id": "ai-9",
+          "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to."
+        },
+        {
           "id": "ai-10",
-          "title": "The emergence of the web data infrastructure layer for AI",
-          "source": "Artificial intelligence – MIT Technology Review",
-          "summary": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstru"
+          "title": "What students think about Generative AI: What universities need to know",
+          "source": "QS Quacquarelli Symonds",
+          "summary": ""
         }
       ]
     },
@@ -76,63 +76,63 @@
       "stories": [
         {
           "id": "deep-tech-1",
-          "title": "Inside India newsletter: Meet the humans teaching robots to perform routine tasks, as India finds a way to enter the AI race",
+          "title": "Kuaishou chip spin-off taps new funding for in-house designs amid US export controls",
+          "source": "Tech - South China Morning Post",
+          "summary": "Chinese internet giants are increasingly moving beyond software and into semiconductor design, betting that proprietary chips will give them greater control over computing infrastructure as artificial"
+        },
+        {
+          "id": "deep-tech-2",
+          "title": "Datacentres are growing target of global climate-related legal cases, report finds",
+          "source": "Technology | The Guardian",
+          "summary": "LSE analysis highlights litigation linked to energy sources, water consumption and air pollution The proliferation of datacentres and AI is increasingly at the forefront of environmental litigation ar"
+        },
+        {
+          "id": "deep-tech-3",
+          "title": "Researchers at Saitama University reveal how atomic defects can program carbon quantum dots for future light-based technologies",
+          "source": "EurekAlert!",
+          "summary": ""
+        },
+        {
+          "id": "deep-tech-4",
+          "title": "How Rwanda is using drones to improve health care",
+          "source": "Medical Xpress",
+          "summary": ""
+        },
+        {
+          "id": "deep-tech-5",
+          "title": "ON Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
           "source": "CNBC",
           "summary": ""
         },
         {
-          "id": "deep-tech-2",
-          "title": "China’s telecoms giants bet on ‘air-space-ground-sea’ networks for future AI needs",
-          "source": "Tech - South China Morning Post",
-          "summary": "China’s telecoms giants are pushing for “air-space-ground-sea” networks amid Beijing’s push to expand artificial intelligence infrastructure, as SpaceX’s market debut has ignited the industry’s focus "
-        },
-        {
-          "id": "deep-tech-3",
-          "title": "Morgan Stanley raises China humanoid robot shipment forecast to 50,000 units",
-          "source": "Tech - South China Morning Post",
-          "summary": "Morgan Stanley has again raised its forecast for China’s humanoid robot shipments this year, lifting its estimate to 50,000 units from 28,000 as commercial validation, policy support and supply-chain "
-        },
-        {
-          "id": "deep-tech-4",
-          "title": "China’s JCET to build new plant in Shanghai to expand advanced chip packaging",
-          "source": "Tech - South China Morning Post",
-          "summary": "Chinese chip-packaging and testing giant Jiangsu Changjiang Electronics Technology (JCET) says it will invest 7.8 billion yuan (US$1.15 billion) to build a new plant, as demand for home-grown chips co"
-        },
-        {
-          "id": "deep-tech-5",
-          "title": "AI Is Designing Radio Chips That Humans Couldn’t Even Imagine",
-          "source": "IEEE Spectrum",
-          "summary": "Summary RFIC design is a complex “ dark art ” that limits progress in wireless technologies like 5G, autonomous vehicles, and satellite communications. Princeton researchers use reinforcement learning"
-        },
-        {
           "id": "deep-tech-6",
-          "title": "A Pure Play on Humanoid Robots Is Coming to the Nasdaq",
-          "source": "Barron's",
+          "title": "India’s drone makers see orders surge for weaponised UAVs",
+          "source": "Financial Times",
           "summary": ""
         },
         {
           "id": "deep-tech-7",
-          "title": "‘We should be worried’: report sheds light on ICE’s booming arsenal of hi-tech surveillance tools",
-          "source": "Technology | The Guardian",
-          "summary": "Spending on government contracts with tech firms that use AI-powered tools to track immigrants has soared to record levels under Trump 2.0, report says A new report sheds light on the unprecedented gr"
+          "title": "China’s cybersecurity industry needs its own Mythos model, 360 founder warns",
+          "source": "Tech - South China Morning Post",
+          "summary": "China must develop its own equivalent to Anthropic’s Mythos model to counter the cybersecurity risks posed by the artificial intelligence era, according to 360 Security Technology founder Zhou Hongyi,"
         },
         {
           "id": "deep-tech-8",
-          "title": "Experimental wine bottle tracks oxygen moving through the cork",
-          "source": "Science - Ars Technica",
-          "summary": "The small bit of air in the bottle sees oxygen and other chemicals move in and out."
+          "title": "What it Means to Be a Mathematician When AI Does the Math",
+          "source": "IEEE Spectrum",
+          "summary": "In the mid-noughties, when music by the Killers and Franz Ferdinand blared out of every pub and nightclub I passed, I spent my days and nights struggling through a Ph.D. in applied mathematics . My re"
         },
         {
           "id": "deep-tech-9",
-          "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
-          "source": "TechCrunch",
+          "title": "BIG! FBI Warns Battlefield Killer Drones Could Soon Strike US Soil; 'ONLY A MATTER OF TIME'",
+          "source": "The Times of India",
           "summary": ""
         },
         {
           "id": "deep-tech-10",
-          "title": "‘Real alien stuff’: How Iran’s ‘jellyfish drone’ formation fooled US fighter jets — and do China and Russia have it too?",
-          "source": "The Times of India",
-          "summary": ""
+          "title": "Why Hong Kong’s bilingualism is uniquely indispensable in the AI era",
+          "source": "Tech - South China Morning Post",
+          "summary": "Last week, while preparing a lecture on the visual culture of the Global South, I caught Google’s Gemini in a double hallucination. Cross-referencing a historical event between English and Chinese dat"
         }
       ]
     },
@@ -143,63 +143,63 @@
       "stories": [
         {
           "id": "climate-energy-1",
-          "title": "Norwegian startup raises $6M to fix this sneaky source of energy waste",
+          "title": "Massachusetts Senate preserves energy-efficiency funding in new bill",
           "source": "Canary Media",
-          "summary": "Mikal Løvik began his career in Norway’s offshore oil and gas industry, where he noticed a big but largely hidden source of energy waste: electric heating cables. Service vessels and drilling rigs use"
+          "summary": "The Massachusetts Senate on Wednesday unveiled its long-awaited energy legislation, a wide-ranging bill that touches on dozens of topics from plug-in solar to renewable energy procurement. Sponsors sa"
         },
         {
           "id": "climate-energy-2",
-          "title": "Odisha govt signs JVA with NLC India to boost renewable energy",
-          "source": "DD India",
+          "title": "Climate resilience investment could avert $28 billion in losses across India’s renewable energy pipeline",
+          "source": "pv magazine India",
           "summary": ""
         },
         {
           "id": "climate-energy-3",
-          "title": "Odisha Signs 1 GW Renewable Energy JV with NLC India Renewables",
-          "source": "Saur Energy",
+          "title": "Investing in Climate Resilience Can Save India's Renewable Energy Sector USD 28 Billion: Zurich Kotak Report",
+          "source": "Elets BFSI",
           "summary": ""
         },
         {
           "id": "climate-energy-4",
-          "title": "Base Power brings cheap batteries to residents in power-starved PJM",
-          "source": "Canary Media",
-          "summary": "PJM Interconnection, which serves 67 million people across 13 states from the mid-Atlantic to the Midwest, has become a poster child for how not to keep up with soaring energy demand. Startup Base Pow"
+          "title": "Guest post: How US renewable-energy growth persists despite federal policy uncertainty",
+          "source": "Carbon Brief",
+          "summary": "Despite recent shifts in federal energy policies, our analysis shows that the US transition to... The post Guest post: How US renewable-energy growth persists despite federal policy uncertainty appear"
         },
         {
           "id": "climate-energy-5",
-          "title": "Exploit last North Sea oil and gas or risk mass job losses, Andy Burnham urged",
-          "source": "Environment | The Guardian",
-          "summary": "British Chamber of Commerce boss Shevaun Haviland says transition to clean energy could be handled better Andy Burnham should be ready to exploit the UK’s remaining North Sea oil and gas resources to "
-        },
-        {
-          "id": "climate-energy-6",
-          "title": "Farmers criticise government plan to counter threats to UK food security",
-          "source": "Environment | The Guardian",
-          "summary": "Plan warns climate crisis will lead to food price shocks and shortages but farmers say it fails to adequately fund response The climate crisis will lead to food price shocks and shortages, the governm"
-        },
-        {
-          "id": "climate-energy-7",
-          "title": "How EV adoption and repair inflation are reshaping India's car insurance industry?",
-          "source": "Forbes India",
+          "title": "Climate resilience investment could save India's renewable sector US$28bn, report finds",
+          "source": "Asia Insurance Review",
           "summary": ""
         },
         {
+          "id": "climate-energy-6",
+          "title": "NLC India, OREDA sign JV to develop 1GW of renewable energy in Odisha",
+          "source": "PV Tech",
+          "summary": ""
+        },
+        {
+          "id": "climate-energy-7",
+          "title": "China Briefing 25 June 2026: Five-year plans passed | Critical-mineral tensions | Industrial decarbonisation plan",
+          "source": "Carbon Brief",
+          "summary": "Welcome to Carbon Brief’s China Briefing. China Briefing handpicks and explains the most important climate... The post China Briefing 25 June 2026: Five-year plans passed | Critical-mineral tensions |"
+        },
+        {
           "id": "climate-energy-8",
-          "title": "India’s EV ecosystem drew Rs 2.23 lakh crore in five years. Electricity is still 1% of road transport energy.",
-          "source": "Down To Earth",
+          "title": "India outlines energy storage, nuclear targets at BRICS meet",
+          "source": "The Economic Times",
           "summary": ""
         },
         {
           "id": "climate-energy-9",
-          "title": "Prof Philippe Ciais: The world’s most highly cited climate scientist",
-          "source": "Carbon Brief",
-          "summary": "Phillipe Ciais has spent almost four decades researching the planet’s carbon cycle – and the... The post Prof Philippe Ciais: The world’s most highly cited climate scientist appeared first on Carbon B"
+          "title": "Extreme heat grips Europe as UK hits new June record, France shuts down nuclear reactors and deaths rise across continent – as it happened",
+          "source": "Environment | The Guardian",
+          "summary": "Heatwave-related deaths climb in Spain, Italy and France as continent battles another day of extreme temperatures Farryn Stock Over in the UK, South East Water has announced a temporary hosepipe ban i"
         },
         {
           "id": "climate-energy-10",
-          "title": "Majority of datacenters are vulnerable to climate threats like floods and fires, study finds",
+          "title": "‘Act on the evidence outside the window’: Andy Burnham urged to stick to net zero targets if he becomes PM",
           "source": "Environment | The Guardian",
-          "summary": "Study warns AI datacenters are vulnerable to the climate hazards that their global greenhouse gas emissions bolster Amid rising concern that the artificial intelligence boom is fueling the climate cri"
+          "summary": "Burnham is coming under pressure from some to ditch net zero targets but this could be highly damaging on many levels UK politics live – latest updates Britain’s net zero economy is booming. The secto"
         }
       ]
     },
@@ -210,50 +210,50 @@
       "stories": [
         {
           "id": "health-tech-1",
-          "title": "STAT+: A dispatch on AI from BIOtech’s big summer bash",
+          "title": "STAT+: At BIO 2026, industry wrestled with Washington politics, and making AI work better",
           "source": "STAT",
-          "summary": "In this edition of STAT's AI Prognosis: Brittany Trang brings the latest from BIO on how biotech companies are approaching artificial intelligence."
+          "summary": "Biotech executives reveal concerns over Chinese biotech, the profitability of AI, and the durability of Trump's drug price moves."
         },
         {
           "id": "health-tech-2",
-          "title": "STAT+: Eli Lilly dives into hair loss treatments with investment in AI startup Absci",
-          "source": "STAT",
-          "summary": "Eli Lilly is investing in a small startup developing a medication to spur hair growth, and potentially also treat endometriosis."
+          "title": "Long-term growth and credibility of India’s hair restoration industry will depend on strong regulatory oversight, standardised clinical practices, and greater transparency",
+          "source": "Express Pharma",
+          "summary": ""
         },
         {
           "id": "health-tech-3",
-          "title": "HighRes® and Waters collaborate to advance drug discovery through robotic automation",
-          "source": "BioSpectrum India",
+          "title": "Pharma distributor’s licence cancelled over Kota deaths | India News",
+          "source": "Hindustan Times",
           "summary": ""
         },
         {
           "id": "health-tech-4",
-          "title": "STAT+: AI wades into a vexing medical mystery: What causes sudden cardiac death?",
+          "title": "STAT+: Cassidy proposes bill to rein in 340B drug discount program",
           "source": "STAT",
-          "summary": "A new study published in Nature uses artificial intelligence to identify people at high risk for sudden cardiac death, and pinpoints a possible reason."
+          "summary": "Placing new limits on the 340B drug discount program would be a fresh challenge for hospitals as they confront funding cuts."
         },
         {
           "id": "health-tech-5",
-          "title": "Telangana is Key Pillar of India’s Pharma Production",
-          "source": "Deccan Chronicle",
-          "summary": ""
+          "title": "Supreme Court ruling blocks thousands of lawsuits against maker of Roundup weedkiller",
+          "source": "STAT",
+          "summary": "The Supreme Court sided with the maker of Roundup weedkiller in a ruling expected to block thousands of lawsuits alleging it failed to warn people the product could cause cancer."
         },
         {
           "id": "health-tech-6",
-          "title": "India pharma sector shifts focus to biosimilars, biologics and high-value growth",
-          "source": "BusinessLine",
+          "title": "IgA Nephropathy Clinical Trial Space Intensifies with 25+ Companies in Active Development | DelveInsight",
+          "source": "GlobeNewswire",
           "summary": ""
         },
         {
           "id": "health-tech-7",
-          "title": "Medra Launches Reasoning Layer for Drug Discovery Robotics",
-          "source": "Genetic Engineering and Biotechnology News",
+          "title": "India's Pitch: From Cheap Drugs To Cutting-Edge Pharma",
+          "source": "WION",
           "summary": ""
         },
         {
           "id": "health-tech-8",
-          "title": "India Pharma’s Next Growth Phase",
-          "source": "BW Healthcare",
+          "title": "June and Sadelain, the pioneers of CAR-T cell immunotherapy, receive the Frontiers of Knowledge Award - Centro Nacional de Investigaciones Oncológicas",
+          "source": "Centro Nacional de Investigaciones Oncológicas - CNIO",
           "summary": ""
         }
       ]
@@ -265,50 +265,50 @@
       "stories": [
         {
           "id": "agritech-1",
-          "title": "Failed promises to clean air in South Africa’s coal belt take toll on public health",
+          "title": "Amazon floodplains cocoa offers a climate-resilient and sustainable chocolate",
           "source": "Conservation news",
-          "summary": "eMALAHLENI, South Africa — Elisabeth Moutloang, 49, lives in the shadows of Duvha Power Station, a 3,600-MW coal-fired power station owned and operated by Eskom, South Africa’s national energy provide"
+          "summary": "A river community in Pará uses ancestral secrets to beat the climate crisis one chocolate bean at a time."
         },
         {
           "id": "agritech-2",
-          "title": "Wildlife helps regulate the climate & this belongs in policy discussions (commentary)",
+          "title": "Trump admin persists in quixotic quest against wind power despite legal defeat",
           "source": "Conservation news",
-          "summary": "When we talk about climate change and wildlife, most people think about the impact of climate change on animals. We see individual organisms struggling to find food and being pushed into new places an"
+          "summary": "U.S. President Donald Trump’s administration is continuing its campaign to end wind energy development through a series of executive orders, lawsuits, and lease buybacks. This is despite a recent cour"
         },
         {
           "id": "agritech-3",
+          "title": "As temperatures soar, Paris court set to rule on landmark climate change case",
+          "source": "Conservation news",
+          "summary": "THE HAGUE, Netherlands (AP) — A day after France hit record high temperatures, a court in Paris is set to rule Thursday on a landmark climate change case that could see energy giant TotalEnergies forc"
+        },
+        {
+          "id": "agritech-4",
+          "title": "SAI Platform Launches Regenerating Together Programme to Advance Regenerative Agriculture Across Global Supply Chains",
+          "source": "Global Agriculture",
+          "summary": ""
+        },
+        {
+          "id": "agritech-5",
+          "title": "How India can cast off food security’s foreign crutch",
+          "source": "Business Today",
+          "summary": ""
+        },
+        {
+          "id": "agritech-6",
           "title": "The bioeconomy runs on sugar. Solarferm wants to run it on gas",
           "source": "AgFunderNews",
           "summary": "If the bioeconomy is to scale, it needs a cheaper, more consistent source of fermentable sugars, says New Zealand startup Solarferm. The post The bioeconomy runs on sugar. Solarferm wants to run it on"
         },
         {
-          "id": "agritech-4",
-          "title": "India showcases climate-resilient agriculture at UNHRC session",
-          "source": "Awaz The Voice",
-          "summary": ""
-        },
-        {
-          "id": "agritech-5",
-          "title": "Maldives launches grants to boost climate resilience and food security",
-          "source": "Muslim Network TV",
-          "summary": ""
-        },
-        {
-          "id": "agritech-6",
-          "title": "Draft National Food Security (Amendment) Bill mulls 7 kg grain per person, caps family quota at 35 kg",
-          "source": "The Tribune",
-          "summary": ""
-        },
-        {
           "id": "agritech-7",
-          "title": "New analysis breaks down 2025 Amazon deforestation, with good news and bad news",
-          "source": "Conservation news",
-          "summary": "Each year, researchers at the University of Maryland’s GLAD Lab in the U.S. develop one of the most important data sets on global forest loss. The data is derived from NASA and European Space Agency s"
+          "title": "Food security, farmers’ income and nutritious food are priorities of govt says Agri Min Shivraj Singh Chouhan",
+          "source": "News On AIR",
+          "summary": ""
         },
         {
           "id": "agritech-8",
-          "title": "Green Revolution to Resilience: Why India's Fertiliser Policy Needs an Update",
-          "source": "The Quint",
+          "title": "Draft National Food Security (Amendment) Bill mulls 7 kg grain per person, caps family quota at 35 kg",
+          "source": "The Tribune",
           "summary": ""
         }
       ]
@@ -320,62 +320,62 @@
       "stories": [
         {
           "id": "indian-startups-1",
-          "title": "Meesho’s ₹202 Cr Question: Can It Crack India’s Kirana Code?",
-          "source": "Inc42 Media",
-          "summary": "Meesho’s first acquisition announcement after the ecommerce company went public also marked its foray into B2B retail space from the…"
+          "title": "Startup news and updates: daily roundup (June 25, 2026)",
+          "source": "YourStory RSS Feed",
+          "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Thursday, June 25, 2026."
         },
         {
           "id": "indian-startups-2",
-          "title": "Deeptech startup QOSMIC raises $3.3 million in seed funding round",
-          "source": "Business Standard",
-          "summary": ""
+          "title": "Opening a demat account has never been easier. Here's why",
+          "source": "YourStory RSS Feed",
+          "summary": "From Aadhaar-based eSign to video verification, digital onboarding has transformed how Indians start their investing journey, eliminating paperwork, branch visits, and long waiting periods. For a long"
         },
         {
           "id": "indian-startups-3",
-          "title": "Vishal Sikka Launches AI Startup Hang Ten Systems, Raises $32 Mn in Seed Funding",
-          "source": "Analytics India Magazine",
-          "summary": ""
+          "title": "IRDAI’s Reform Push That Can Upend Insurance Startups",
+          "source": "Inc42 Media",
+          "summary": "When someone buys car insurance in India, it’s generally assumed that most of the premium goes towards insurance coverage. However,…"
         },
         {
           "id": "indian-startups-4",
-          "title": "Space-Tech Startup QOSMIC Secures $3.33 Mn In Seed Funding Led by Accel, Prosus",
-          "source": "BW Disrupt",
+          "title": "QOSMIC Raises $3.33 Million Seed Funding to Build Laser-Based Space Communication Infrastructure",
+          "source": "CXO Digitalpulse",
           "summary": ""
         },
         {
           "id": "indian-startups-5",
-          "title": "India can build sovereign AI, but can it build an AI-ready workforce?",
-          "source": "YourStory RSS Feed",
-          "summary": "While India’s AI infrastructure and computing capabilities get billions of dollars in investment, the harder task is preparing professionals for an economy where AI changes how value is created."
+          "title": "Adani Group Launches ‘Vande Bharatam’ Initiative To Back Startup Founders",
+          "source": "Inc42 Media",
+          "summary": "Conglomerate Adani Group has launched Vande Bharatam, a nationwide initiative to identify and support entrepreneurs, innovators and problem-solvers from across…"
         },
         {
           "id": "indian-startups-6",
-          "title": "Startup news and updates: daily roundup (June 23, 2026)",
-          "source": "YourStory RSS Feed",
-          "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Tuesday, June 23, 2026"
+          "title": "DRC-Born Yamify Raises Pre-Seed Funding to Build 'Heroku for AI Tools' on African Data Centres",
+          "source": "iAfrica.com",
+          "summary": ""
         },
         {
           "id": "indian-startups-7",
-          "title": "This Bengaluru startup isn’t building faster chips than Nvidia. It’s building cheaper AI",
-          "source": "The Ken",
-          "summary": "The post This Bengaluru startup isn’t building faster chips than Nvidia. It’s building cheaper AI appeared first on The Ken ."
+          "title": "Centre May Acquire 1-2% Stake In Sarvam Post $300 Mn Raise: Report",
+          "source": "Inc42 Media",
+          "summary": "The central government may end up acquiring a 1-2% stake in AI unicorn Sarvam once its $300 Mn funding round…"
         },
         {
           "id": "indian-startups-8",
-          "title": "Ex-Infosys CEO Vishal Sikka’s New AI Venture Hang Ten Bags $32 Mn",
-          "source": "Inc42 Media",
-          "summary": "Former Infosys CEO Vishal Sikka’s new AI venture Hang Ten Systems has raised $32 Mn (₹302 Cr) in its seed…"
+          "title": "Sazabi Raises $8M in Seed Funding",
+          "source": "FinSMEs",
+          "summary": ""
         },
         {
           "id": "indian-startups-9",
-          "title": "JustAI Bags $17 Mn To Scale Its Agentic Martech Stack",
-          "source": "Inc42 Media",
-          "summary": "AI-powered martech platform JustAI, erstwhile Just Words, has raised $17 Mn (₹160.2 Cr) in its Series A funding round led…"
+          "title": "Exclusive | Startup Arca Raises Fresh $48.5 Million to Disrupt the Wealth Advisory Business",
+          "source": "WSJ",
+          "summary": ""
         },
         {
           "id": "indian-startups-10",
-          "title": "Eqon Raises $6M in Seed Funding",
-          "source": "FinSMEs",
+          "title": "Talentir: Austrian-Swiss Startup Raises €4 Million for Global Payout Infrastructure",
+          "source": "trendingtopics.eu",
           "summary": ""
         }
       ]
@@ -387,63 +387,63 @@
       "stories": [
         {
           "id": "global-economics-1",
-          "title": "RBI's dollar push puts bank treasury desks at the centre of funding strategy",
-          "source": "BFSI News",
-          "summary": ""
+          "title": "Datacentres are growing target of global climate-related legal cases, report finds",
+          "source": "Business | The Guardian",
+          "summary": "LSE analysis highlights litigation linked to energy sources, water consumption and air pollution The proliferation of datacentres and AI is increasingly at the forefront of environmental litigation ar"
         },
         {
           "id": "global-economics-2",
+          "title": "Iran war supply chain disruptions: Impacts on India’s economy",
+          "source": "IFPRI",
+          "summary": ""
+        },
+        {
+          "id": "global-economics-3",
+          "title": "After conflict, before talks: Supply chain outlook for Q3 2026 and beyond",
+          "source": "S&P Global",
+          "summary": ""
+        },
+        {
+          "id": "global-economics-4",
+          "title": "Yen Outperforms G-10 Peers Despite Hovering Near 1986 Low",
+          "source": "Bloomberg Economics",
+          "summary": "The yen’s pause just shy of a four-decade low has yielded an unexpected result: it is the best-performing Group-of-10 currency against the dollar so far this month."
+        },
+        {
+          "id": "global-economics-5",
+          "title": "Tokyo Inflation Picks Up, Keeping BOJ on Track for Further Hike",
+          "source": "Bloomberg Economics",
+          "summary": "Tokyo’s key inflation gauge picked up for the first time in eight months, keeping the Bank of Japan on a trajectory to raise interest rates further."
+        },
+        {
+          "id": "global-economics-6",
+          "title": "Singapore Grads Battle Low-Paid Traineeships Stigma to Get Hired",
+          "source": "Bloomberg Economics",
+          "summary": "As the class of 2026 join the race to find jobs, unemployed college graduates in Singapore are taking a last-ditch shot at getting ahead: temporary government-funded gigs that earn them half the media"
+        },
+        {
+          "id": "global-economics-7",
+          "title": "Fed's Williams: Inflation still too high, rate policy 'well positioned' to lower price pressures",
+          "source": "Reuters",
+          "summary": ""
+        },
+        {
+          "id": "global-economics-8",
+          "title": "US media regulator Brendan Carr accuses Disney of ‘misinformation’ on investigations",
+          "source": "Business | The Guardian",
+          "summary": "Disney-owned ABC launched awareness campaign about two FCC investigations it faces, urging viewers to write in Brendan Carr, the Trump-aligned chairman of the Federal Communications Commission (FCC), "
+        },
+        {
+          "id": "global-economics-9",
           "title": "Elon Musk loses trillionaire status as SpaceX and Tesla stock drops",
           "source": "Business | The Guardian",
           "summary": "Falling shares push tech mogul back down to billionaire ranks after SpaceX IPO made him world’s first trillionaire Elon Musk was no longer a trillionaire by the time markets closed on Wednesday. Plung"
         },
         {
-          "id": "global-economics-3",
-          "title": "Market access to non-tariff barriers: India, US review trade core elements",
-          "source": "The Indian Express",
-          "summary": ""
-        },
-        {
-          "id": "global-economics-4",
-          "title": "Fed’s Bowman Finalizes Moves to Reshape Bank-Supervision Unit",
-          "source": "Bloomberg Economics",
-          "summary": "Federal Reserve Vice Chair for Supervision Michelle Bowman has completed a shakeup of the agency’s bank-oversight unit as she aims to prioritize what she sees as core financial risks."
-        },
-        {
-          "id": "global-economics-5",
-          "title": "Bank of Canada Rejects Recession Label for Economy’s Weakness",
-          "source": "Bloomberg Economics",
-          "summary": "Bank of Canada officials rejected the notion that the country’s economy is in recession as they set borrowing costs earlier this month, though they acknowledged weak growth and labor market slack."
-        },
-        {
-          "id": "global-economics-6",
-          "title": "Burnham Team Looks at Treasury Breakup and BOE Reforms",
-          "source": "Bloomberg Economics",
-          "summary": "Influential figures in Andy Burnham’s entourage have urged the would-be prime minister to break up the Treasury to refocus the government’s agenda on growth."
-        },
-        {
-          "id": "global-economics-7",
-          "title": "Trump says he’s ordered investigation into oil companies over alleged price gouging",
-          "source": "Business | The Guardian",
-          "summary": "Trump says he instructed justice department to investigate oil firms over high gas prices amid Middle East conflict Donald Trump said on Wednesday that he had instructed the US Department of Justice t"
-        },
-        {
-          "id": "global-economics-8",
-          "title": "Record profits, terrible service: something’s got to give for US consumers",
-          "source": "Business | The Guardian",
-          "summary": "Experts say consolidation and market power have left consumers paying more for less How do people in the US describe customer service in 2026? When Delta Airlines charged Marie Duggan, an economic his"
-        },
-        {
-          "id": "global-economics-9",
-          "title": "Asian Currencies Consolidate; May be Weighed by Fed Rate-Hike Expectations",
-          "source": "WSJ",
-          "summary": ""
-        },
-        {
           "id": "global-economics-10",
-          "title": "Jake Bauers hits an RBI triple",
-          "source": "ESPN India",
-          "summary": ""
+          "title": "Will AI lower interest rates?",
+          "source": "Finance & economics",
+          "summary": "Kevin Warsh is drawing lessons about tech from Alan Greenspan—but selectively"
         }
       ]
     },
@@ -454,62 +454,62 @@
       "stories": [
         {
           "id": "india-1",
-          "title": "Emergency is the greatest assault on Indian democracy, says Bihar BJP president Sanjay Saraogi",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "summary": "Saraogi said that under the leadership of Prime Minister Narendra Modi, the BJP remains steadfast in its commitment to democratic values and constitutional principles"
+          "title": "Iran war supply chain disruptions: Impacts on India’s economy",
+          "source": "IFPRI",
+          "summary": ""
         },
         {
           "id": "india-2",
-          "title": "Every Indian is a VIP, says Vice-President C P Radhakrishnan",
-          "source": "India | The Indian Express",
+          "title": "PM Modi, Netherlands' Queen Máxima discuss expanding financial inclusion through India's digital public...",
+          "source": "Moneycontrol.com",
           "summary": ""
         },
         {
           "id": "india-3",
-          "title": "India-China border trade via Lipulekh Pass to resume after 6 years",
-          "source": "The Shillong Times",
+          "title": "Why has India-U.S. trade deal been delayed? | Explained",
+          "source": "The Hindu",
           "summary": ""
         },
         {
           "id": "india-4",
-          "title": "Plan to target tourists in Pahalgam was in motion week before attack, terrorists used trekking app to log coordinates",
-          "source": "India | The Indian Express",
-          "summary": ""
+          "title": "RTI Under Threat? Why Anna Hazare is fighting Maharashtra’s new rules | Pulse Maharashtra",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "The Maharashtra government issued a notification amending certain provisions of the Maharashtra Right to Information Rules, 2026. The amendments have drawn criticism from social activists."
         },
         {
           "id": "india-5",
-          "title": "Market access to non-tariff barriers: India, US review trade core elements",
-          "source": "The Indian Express",
-          "summary": ""
+          "title": "Digital Arrest scams: CBI conducts searches at over 80 locations across India",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "The arrested accused were involved in the incorporation of shell companies and the opening and operation of mule bank accounts. These accounts were reportedly used for laundering about ₹2 crore of sus"
         },
         {
           "id": "india-6",
-          "title": "State aims at 32% growth in mining sector, says Minister Kollu Ravindra",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "summary": "Government accelerating exploration for gold, beach sand minerals, iron ore, and manganese, he says, adding that gold deposits have been identified in Anantapur and Chittoor districts"
+          "title": "Piyush Goyal Wins UK-India Award for Elevating Ties",
+          "source": "Rediff MoneyWiz",
+          "summary": ""
         },
         {
           "id": "india-7",
-          "title": "Assault on human dignity, says Rahul Gandhi on incident of bonded labour in U.P.",
+          "title": "In Telangana, the right to walk derailed by design",
           "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "summary": "Uttar Pradesh Congress leader Ajay Kumar Lallu said the failed economic policies of the BJP government were responsible for such oppression of the ordinary poor people"
+          "summary": "The Supreme Court declared the ‘right to walk on demarcated footpaths’ a fundamental right. In Hyderabad, however, decades of vehicle-centric road planning have left pedestrians at a dead end. Swathi "
         },
         {
           "id": "india-8",
-          "title": "Piyush Goyal to hold talks in London as India, UK prepare to operationalise CETA",
-          "source": "DD India",
+          "title": "India Major Driver Of Global Growth Despite Iran War, External Headwinds: IMF",
+          "source": "NDTV",
           "summary": ""
         },
         {
           "id": "india-9",
-          "title": "India’s Powerful Payment Ecosystem and the Access Challenge",
-          "source": "Thunes",
+          "title": "News On AIR | June 25, 2026 9:12 PM",
+          "source": "News On AIR",
           "summary": ""
         },
         {
           "id": "india-10",
-          "title": "India, US 'Very Close' to Historic Trade Deal",
-          "source": "Rediff",
+          "title": "India-US trade deal very close, but here's why it isn't signed yet",
+          "source": "India Today",
           "summary": ""
         }
       ]
@@ -527,57 +527,57 @@
         },
         {
           "id": "world-2",
-          "title": "Hong Kong can take the regulatory high road amid US-China AI decoupling",
-          "source": "World - South China Morning Post",
-          "summary": "The market realignment over the past week starkly captures the self-defeating logic of America’s technology containment strategy. The momentum began on June 15, when the shares of Chinese artificial i"
-        },
-        {
-          "id": "world-3",
           "title": "India Retains Position as World’s Second-Largest Steel Producer, Boosting Self-Reliance",
           "source": "News On AIR",
           "summary": ""
         },
         {
+          "id": "world-3",
+          "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked",
+          "source": "BBC News",
+          "summary": "The ship was reportedly struck by an \"unknown projectile\" near Oman but no casualties were reported."
+        },
+        {
           "id": "world-4",
-          "title": "Brazil detains Spanish woman for racism, in latest high-profile arrest",
-          "source": "World - South China Morning Post",
-          "summary": "Brazil’s federal police detained a Spanish citizen in Sao Paulo’s international Guarulhos airport for racism on Wednesday, the latest in a series of high-profile arrests of foreign tourists on similar"
-        },
-        {
-          "id": "world-5",
-          "title": "France confirms first Ebola case in doctor who had worked in DRC",
-          "source": "World news | The Guardian",
-          "summary": "French health ministry says patient’s contacts are being traced and that risk to European public is very low The first case of Ebola has been confirmed in France, the country’s health ministry has sai"
-        },
-        {
-          "id": "world-6",
-          "title": "Zelensky Is \"Courageous\", Doing \"Pretty Well\" Against Russia: Trump",
+          "title": "Hospitals Raise Alert As Europe Grapples With Unprecedented Heatwave",
           "source": "NDTV",
           "summary": ""
         },
         {
-          "id": "world-7",
-          "title": "Keiko Fujimori vows to unite a Peru ‘split in two’ as run-off lead holds",
+          "id": "world-5",
+          "title": "US Supreme Court paves way for Trump’s mass deportation of Haitians and Syrians",
           "source": "World - South China Morning Post",
-          "summary": "Right-wing ⁠candidate Keiko Fujimori said on ⁠Wednesday she would seek to ⁠unite a Peru “split in two” if she takes office, after razor-thin election results gave her enough votes to secure what appea"
+          "summary": "The US Supreme Court on Thursday backed a Trump administration move to strip deportation protections from some 350,000 Haitians and 6,000 Syrians living in the United States. The conservative-dominate"
+        },
+        {
+          "id": "world-6",
+          "title": "US foreign policy",
+          "source": "The Guardian",
+          "summary": ""
+        },
+        {
+          "id": "world-7",
+          "title": "Venezuela earthquakes draw aid from governments that cut ties with Caracas",
+          "source": "World - South China Morning Post",
+          "summary": "Venezuela received offers of rescue teams and humanitarian aid from across the Americas on Thursday, including from right-wing governments that had broken off diplomatic relations with Caracas less th"
         },
         {
           "id": "world-8",
-          "title": "France, UK and Spain see record temperatures as heatwave grips western Europe",
-          "source": "BBC News",
-          "summary": "Tens of millions of people are grappling with punishing temperatures, which have led to red heat alerts across the continent."
+          "title": "UK’s King Charles breaks tradition to reveal US$17 million tax bill",
+          "source": "World - South China Morning Post",
+          "summary": "King Charles will not live at Buckingham ⁠Palace after its 10-year refurbishment finishes next year, royal officials said on Thursday, ending nearly two centuries of the central London landmark servin"
         },
         {
           "id": "world-9",
-          "title": "World News in Brief: Students injured in Sudan drone strike, dangerous returns in south Lebanon, celebrating women diplomats",
-          "source": "UN News",
+          "title": "UPI emerges as world’s largest real-time payments platform",
+          "source": "News On AIR",
           "summary": ""
         },
         {
           "id": "world-10",
-          "title": "Brazilian federal police arrest Spanish citizen at São Paulo airport for racism",
+          "title": "Venezuela earthquakes: ‘intensive’ search for survivors as death toll rises to 188 – as it happened",
           "source": "World news | The Guardian",
-          "summary": "Woman detained at airport after allegedly making racist remarks directed at workers unloading baggage, police say Brazil’s federal police have detained a Spanish citizen in São Paulo’s international G"
+          "summary": "Delcy Rodríguez said authorities were shifting rescue teams from other parts of the country to the hardest-hit La Guaira area Venezuela declares state of emergency after deadly twin earthquakes Have y"
         }
       ]
     },
@@ -588,63 +588,63 @@
       "stories": [
         {
           "id": "other-interests-1",
-          "title": "beabadoobee Details New Album Pylon and International Tour",
+          "title": "Beabadoobee Details New Album Pylon and International Tour",
           "source": "RSS: News",
           "summary": "She also shared the rage-filled music video for her new single “Sun Has Set”"
         },
         {
           "id": "other-interests-2",
+          "title": "Indian Junior Men's Hockey Team Set for Exposure Tour of Belgium",
+          "source": "Hockey India",
+          "summary": ""
+        },
+        {
+          "id": "other-interests-3",
           "title": "India’s Vaibhav Sooryavanshi must use own changing room for England tour",
           "source": "The Guardian",
           "summary": ""
         },
         {
-          "id": "other-interests-3",
-          "title": "Failed promises to clean air in South Africa’s coal belt take toll on public health",
-          "source": "Conservation news",
-          "summary": "eMALAHLENI, South Africa — Elisabeth Moutloang, 49, lives in the shadows of Duvha Power Station, a 3,600-MW coal-fired power station owned and operated by Eskom, South Africa’s national energy provide"
-        },
-        {
           "id": "other-interests-4",
-          "title": "Neuroscience can't tell us the way to govern people's brains",
-          "source": "New Scientist",
-          "summary": ""
+          "title": "Amazon floodplains cocoa offers a climate-resilient and sustainable chocolate",
+          "source": "Conservation news",
+          "summary": "A river community in Pará uses ancestral secrets to beat the climate crisis one chocolate bean at a time."
         },
         {
           "id": "other-interests-5",
-          "title": "BCCI Announces India Tour of Ireland for T20I Series",
-          "source": "News On AIR",
-          "summary": ""
+          "title": "Trump admin persists in quixotic quest against wind power despite legal defeat",
+          "source": "Conservation news",
+          "summary": "U.S. President Donald Trump’s administration is continuing its campaign to end wind energy development through a series of executive orders, lawsuits, and lease buybacks. This is despite a recent cour"
         },
         {
           "id": "other-interests-6",
-          "title": "Wildlife helps regulate the climate & this belongs in policy discussions (commentary)",
-          "source": "Conservation news",
-          "summary": "When we talk about climate change and wildlife, most people think about the impact of climate change on animals. We see individual organisms struggling to find food and being pushed into new places an"
+          "title": "There Are 16 Joy Division Live Albums on the Way",
+          "source": "RSS: News",
+          "summary": "A massive new box set is by far the most comprehensive collection to date of Ian Curtis and the band’s concert recordings"
         },
         {
           "id": "other-interests-7",
-          "title": "Fred Again.. Announces Debut India Tour: Shows in Delhi, Mumbai, and Bengaluru This December",
-          "source": "The Hollywood Reporter India",
-          "summary": ""
+          "title": "As temperatures soar, Paris court set to rule on landmark climate change case",
+          "source": "Conservation news",
+          "summary": "THE HAGUE, Netherlands (AP) — A day after France hit record high temperatures, a court in Paris is set to rule Thursday on a landmark climate change case that could see energy giant TotalEnergies forc"
         },
         {
           "id": "other-interests-8",
-          "title": "Fred Again India Tour 2026: How To Book Tickets, Check Dates, And Venues",
-          "source": "Esquire India",
-          "summary": ""
+          "title": "Lost books by ancient philosophers recovered from 'unreadable' scrolls",
+          "source": "New Scientist - Home",
+          "summary": "Scrolls from the Roman library of Herculaneum that were carbonised by a volcanic eruption have been read in their entirety for the first time, thanks to scans and AI software"
         },
         {
           "id": "other-interests-9",
-          "title": "Fred again.. announces debut India tour dates",
-          "source": "DJ Mag",
+          "title": "Tour de France 2026: All riders and teams - complete start list",
+          "source": "olympics.com",
           "summary": ""
         },
         {
           "id": "other-interests-10",
-          "title": "Fred Again Officially Confirms Debut India Tour",
-          "source": "rollingstoneindia.com",
-          "summary": ""
+          "title": "Erykah Badu Is Going on Tour With the Alchemist",
+          "source": "RSS: News",
+          "summary": "Select shows will also feature De La Soul, Smino, and “additional special guests”"
         }
       ]
     },
@@ -655,62 +655,62 @@
       "stories": [
         {
           "id": "opportunities-1",
-          "title": "Japan PM cancels Assam leg of India visit, Delhi to host summit",
-          "source": "MSN",
+          "title": "India Showcases Indigenous Sniper Rifle, Drone Defences At International Police Expo",
+          "source": "NDTV",
           "summary": ""
         },
         {
           "id": "opportunities-2",
+          "title": "SGSITS Incubation Forum Cohort 3.0 Startup Grant Program (India)",
+          "source": "fundsforNGOs",
+          "summary": ""
+        },
+        {
+          "id": "opportunities-3",
           "title": "IGNCA organises exhibition on traditional utensils of Northeast India in New Delhi",
           "source": "News On AIR",
           "summary": ""
         },
         {
-          "id": "opportunities-3",
+          "id": "opportunities-4",
           "title": "Japan PM Takaichi to give Assam a miss next month, New Delhi to host India-Japan summit",
           "source": "ThePrint",
           "summary": ""
         },
         {
-          "id": "opportunities-4",
+          "id": "opportunities-5",
           "title": "Venue of Japan-India summit may be changed to New Delhi",
           "source": "The Japan Times",
           "summary": ""
         },
         {
-          "id": "opportunities-5",
-          "title": "Apply Now: PW AI Startup Challenge 2026 (India)",
-          "source": "fundsforNGOs",
-          "summary": ""
-        },
-        {
           "id": "opportunities-6",
-          "title": "LIVE: Delhi Govt. Minister Shri Manjinder Singh Sirsa Addresses Press Conference at BJP HQ , ND",
-          "source": "bjp.org",
+          "title": "AESOP-IIT DELHI-UCL WORKSHOP: Webinar two",
+          "source": "UCL | University College London",
           "summary": ""
         },
         {
           "id": "opportunities-7",
-          "title": "Hafta 594: Trump, Modi and the G7 summit – what did India gain?",
-          "source": "Newslaundry",
+          "title": "Japan PM cancels Guwahati leg, summit moved to Delhi",
+          "source": "MSN",
           "summary": ""
         },
         {
           "id": "opportunities-8",
-          "title": "Anthropic CEO's 'extremely disorganised' remark on India AI summit sparks Congress-BJP war of words",
-          "source": "Moneycontrol.com",
+          "title": "Press conference of BJP Leader & Delhi Govt. Minister Shri Manjinder Singh Sirsa",
+          "source": "bjp.org",
           "summary": ""
         },
         {
           "id": "opportunities-9",
-          "title": "'India AI Summit was extremely disorganised': Anthropic CEO Dario on viral stage moment with Sam Altman",
-          "source": "Deccan Herald",
+          "title": "PM’s address at Republic Summit 2026 in New Delhi",
+          "source": "PM India",
           "summary": ""
         },
         {
           "id": "opportunities-10",
-          "title": "India AI Summit 'disorganised': Amodei on awkward moment with Altman",
-          "source": "Business Standard",
+          "title": "Hafta 594: Trump, Modi and the G7 summit – what did India gain?",
+          "source": "Newslaundry",
           "summary": ""
         }
       ]
