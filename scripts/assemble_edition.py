@@ -21,6 +21,7 @@ broken paper. If the model references an unknown id, that single story is
 dropped with a warning rather than crashing the whole edition.
 """
 import json
+import re
 import sys
 import datetime
 import pathlib
@@ -35,6 +36,27 @@ OUT_DIR = ROOT / "site" / "editions"
 # Edition numbering is deterministic — no stored counter to drift or corrupt.
 # Seed: 2026-06-16 == edition 1 (so 2026-06-18 == edition 3, matching history).
 EPOCH = datetime.date(2026, 6, 16)
+
+# Wrong-link guard (B1): if the editor's rewritten headline shares NO significant
+# word with the source title behind its id, the id was almost certainly mismatched
+# (e.g. an AI-summit headline pointing at an unrelated article) — drop it.
+_WORD = re.compile(r"[a-z0-9]{4,}")
+_STOP = {"with", "that", "this", "from", "have", "will", "into", "amid", "over",
+         "after", "says", "said", "than", "then", "when", "what", "your", "their",
+         "about", "more", "most", "also", "been", "could", "would", "year", "years",
+         "india", "indian", "news", "report", "first", "global"}
+
+
+def sig_tokens(s):
+    return {w for w in _WORD.findall((s or "").lower()) if w not in _STOP}
+
+
+def coerce_signal(v):
+    if isinstance(v, list):
+        return [str(x) for x in v if str(x).strip()]
+    if isinstance(v, str) and v.strip():
+        return [v.strip()]
+    return []
 
 
 def load_json(path, default=None):
@@ -69,9 +91,19 @@ def build_story(item, refs, warnings):
     if ref is None:
         warnings.append(f"unknown story id {sid!r} — dropped")
         return None
+    headline = item.get("headline", ref.get("title", ""))
+    htok, rtok = sig_tokens(headline), sig_tokens(ref.get("title", ""))
+    if htok and rtok and not (htok & rtok):
+        warnings.append(f"id {sid!r}: headline shares no word with its source title "
+                        f"— likely wrong id, dropped ({headline[:50]!r} vs "
+                        f"{ref.get('title','')[:50]!r})")
+        return None
     return {
-        "headline": item.get("headline", ref.get("title", "")),
+        "headline": headline,
         "summary": item.get("summary", ""),
+        "signal": coerce_signal(item.get("signal")),
+        "badge": (item.get("badge") or "").strip(),
+        # legacy fields kept for older drafts that still send them
         "takeaway": item.get("takeaway", ""),
         "why": item.get("why", ""),
         "source": ref.get("source", ""),

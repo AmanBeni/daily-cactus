@@ -11,22 +11,43 @@ function esc(s) {
     .replace(/"/g, "&quot;");
 }
 
+// Cactus placeholder so the lead story always has a visual (mandatory photo).
+function imgPH() {
+  return '<div class="story-img placeholder" aria-hidden="true">🌵</div>';
+}
+
 // One story block. `lead` toggles the larger lead layout.
 function storyHTML(s, lead = false) {
-  const img = s.image
-    ? `<img class="story-img" src="${esc(s.image)}" alt="" onerror="this.style.display='none'">`
-    : "";
-  const dev = s.developing ? `<span class="developing">📈 DEVELOPING</span>` : "";
-  const take = s.takeaway
-    ? `<p class="takeaway"><b>Key takeaway:</b> ${esc(s.takeaway)}</p>` : "";
-  const why = s.why
-    ? `<p class="why"><b>Why it matters:</b> ${esc(s.why)}</p>` : "";
+  let img = "";
+  if (s.image) {
+    const onerr = lead ? "this.outerHTML=imgPH()" : "this.style.display='none'";
+    img = `<img class="story-img" src="${esc(s.image)}" alt="" onerror="${onerr}">`;
+  } else if (lead) {
+    img = imgPH();
+  }
+
+  const badges = [];
+  if (s.developing) badges.push(`<span class="badge">📈 Developing</span>`);
+  if (s.badge) badges.push(`<span class="badge">${esc(s.badge)}</span>`);
+  const badgeHTML = badges.length ? `<div class="badges">${badges.join("")}</div>` : "";
+
+  // "The Signal" bullets (v1.1). Fall back to legacy takeaway/why for old editions.
+  let body;
+  if (s.signal && s.signal.length) {
+    body = `<div class="signal"><b>The Signal</b><ul>${
+      s.signal.map((b) => `<li>${esc(b)}</li>`).join("")}</ul></div>`;
+  } else {
+    const take = s.takeaway ? `<p class="takeaway"><b>Key takeaway:</b> ${esc(s.takeaway)}</p>` : "";
+    const why = s.why ? `<p class="why"><b>Why it matters:</b> ${esc(s.why)}</p>` : "";
+    body = take + why;
+  }
+
   const url = esc(s.url || "#");
   return `<article${lead ? ' class="lead-article"' : ""}>
-    ${img}${dev}
+    ${img}${badgeHTML}
     <h2><a href="${url}" target="_blank" rel="noopener">${esc(s.headline)}</a></h2>
     <p class="summary">${esc(s.summary)}</p>
-    ${take}${why}
+    ${body}
     <p class="meta">${esc(s.source || "")} · <a href="${url}" target="_blank" rel="noopener">Read the original →</a></p>
   </article>`;
 }

@@ -153,6 +153,14 @@ sections:
       # Fellowships / cohorts / hackathons
       - https://news.google.com/rss/search?q=(fellowship+OR+cohort+OR+accelerator+OR+%22open+call%22+OR+hackathon)+India+startup+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
+  - name: "Beyond Your Beat"
+    slug: beyond-your-beat
+    max_stories: 3
+    angle: "Broad top headlines so the editor can surface 1-3 genuinely important stories OUTSIDE the reader's usual domains (major sports, culture, world moments) that he'd regret missing. Not for stories already covered in other sections."
+    feeds:
+      - https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en   # [GNEWS] top stories (all topics)
+      - https://news.google.com/rss/search?q=(cricket+OR+football+OR+Olympics+OR+tennis+OR+sports+OR+film+OR+award+OR+championship)+when:1d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] sports & culture
+
   - name: "Remainder"
     slug: remainder
     max_stories: 4

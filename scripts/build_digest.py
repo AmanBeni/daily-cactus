@@ -192,6 +192,7 @@ def shortlist_section(section, now):
             "title": e.get("title", "(untitled)"),
             "source": source,
             "summary": summary,
+            "img": bool(e.get("image_url")),   # lets the editor prefer an imaged lead
         })
         refs[sid] = {
             "url": e.get("link") or e.get("url"),
