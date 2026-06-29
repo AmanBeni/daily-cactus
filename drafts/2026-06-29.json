@@ -1,0 +1,401 @@
+{
+  "date": "2026-06-29",
+  "lead": {
+    "id": "ai-1",
+    "headline": "India Turns to Chinese AI as US Frontier Models Stay Off-Limits",
+    "summary": "With OpenAI and Anthropic effectively inaccessible for government and sensitive Indian applications — owing to data localization requirements and US export considerations — India is quietly exploring Chinese AI as a fine-tuning base. The pivot exposes how far India's sovereign AI ambitions remain from commercial reality.",
+    "takeaway": "India's AI sovereignty gap is forcing a China dependency that no one wants to say out loud.",
+    "why": "This matters directly to anyone building AI products for Indian enterprise or government: which models are actually deployable in regulated contexts is now a compliance question, not a preference. The pivot also signals that India's compute mission and domestic model efforts have not yet closed the gap. For anyone tracking India's AI-generalist or founder's-office space, understanding the geopolitical stack beneath any Indian AI application — not just the tech stack — is becoming core competency.",
+    "developing": true
+  },
+  "frontpage": [
+    {
+      "id": "world-1",
+      "headline": "New Delhi Hosts Global AI Summit Next Week as India Plays Both Sides of the AI Cold War",
+      "summary": "World leaders are converging on New Delhi next week for the India-AI Impact Summit, underscoring India's ambition to be a central player in global AI governance. The summit arrives as India simultaneously signs US-led AI supply chain pacts and quietly explores Chinese model alternatives.",
+      "takeaway": "India is playing both sides of the AI cold war — and hosting the room where it plays out.",
+      "why": "The margins of this summit — bilateral conversations, informally floated policy frameworks — will shape India's AI regulatory posture for years. If you are watching for India's AI policy direction or opportunities in government AI partnerships, this is the week to pay close attention.",
+      "developing": false
+    },
+    {
+      "id": "ai-3",
+      "headline": "Ford Rehires Veteran Engineers After AI Falls Short of Factory Quality Goals",
+      "summary": "Ford has brought back experienced engineers after discovering that AI manufacturing tools could not reproduce the tacit knowledge needed to maintain product quality. A senior Ford executive acknowledged that the company mistakenly believed AI alone would produce high-quality outputs.",
+      "takeaway": "AI without domain expertise is a liability, not an upgrade.",
+      "why": "This is the clearest senior-executive admission yet from a major manufacturer that AI ROI depends on the human knowledge encoded into the system. For anyone advising on enterprise AI adoption or building in industrial or professional-services contexts, the pitch is now augmentation plus expert pairing, not substitution.",
+      "developing": false
+    },
+    {
+      "id": "ai-6",
+      "headline": "New Chinese AI Model Said to Match Anthropic at the Frontier",
+      "summary": "A new Chinese AI model has reportedly reached performance parity with Anthropic's leading models, according to benchmark reports. The development, if independently verified, would mark another step in China's rapid narrowing of the frontier AI gap.",
+      "takeaway": "The performance gap between US and Chinese frontier AI is closing faster than the political gap.",
+      "why": "Directly connected to the lead story. If Chinese models are genuinely competitive, India's pivot becomes less risky and more defensible. But benchmark parity claims from Chinese labs have often looked better in controlled evals than in production — independent verification matters before this changes any procurement calculus.",
+      "developing": true
+    },
+    {
+      "id": "india-1",
+      "headline": "India's First Large-Scale Homegrown Silicon Deployment Goes Into CCTV Cameras",
+      "summary": "Mindgrove Technologies has signed an MoU to integrate its Indian-designed chips into CCTV cameras at commercial scale, which the company describes as one of the largest deployments of Indian silicon to date. The deal signals that India's chip design ecosystem is moving from prototypes toward real products.",
+      "takeaway": "India's chip story just got its first commercial proof point — small sector, real milestone.",
+      "why": "The gap between India's semiconductor design capability and actual deployed products has been the persistent credibility problem. Mindgrove getting to commercial scale, even in surveillance hardware, matters. Watch for similar deals in embedded systems and industrial IoT — these are the proof points that pull investor and government attention toward the design-in-India tier.",
+      "developing": false
+    },
+    {
+      "id": "climate-energy-8",
+      "headline": "Germany, Poland, Czechia Hit 40C-Plus in Europe's Most Extreme Heat on Record",
+      "summary": "A historic heat wave pushed temperatures above 40C across central and eastern Europe, setting all-time national records in Germany, Czechia, Poland, and Hungary. More than 191 million Europeans endured temperatures of 35C or higher, straining health systems and energy infrastructure built for cooler climates.",
+      "takeaway": "Europe's heat emergency is now structural, not occasional — and the adaptation market is enormous.",
+      "why": "Europe is now a buyer of heat-resilience solutions at scale. India has decades of experience with extreme heat — in urban design, community health response, and agricultural management. Climate-tech firms and consultants with India experience should be looking at European adaptation contracts as a serious market.",
+      "developing": true
+    },
+    {
+      "id": "global-economics-8",
+      "headline": "BIS Flags AI Investment Bust as a Top Threat to Global Financial Stability",
+      "summary": "The Bank for International Settlements has listed an AI investment bust — alongside inflation and fiscal stress — among the gravest near-term risks to global prosperity. The warning reflects concern that AI-driven capital expenditure could reverse sharply if commercial returns disappoint at scale.",
+      "takeaway": "The world's central bankers' bank is telling investors to scenario-plan for an AI winter.",
+      "why": "Hold this alongside the AI boom headlines. If data center capex reverses — because AI commercial returns disappoint — the second-order effects run through chip demand, power infrastructure, cloud valuations, and eventually venture funding for AI startups. Worth keeping as the bear-case anchor in any AI sector analysis.",
+      "developing": false
+    },
+    {
+      "id": "india-9",
+      "headline": "India-UK Free Trade Agreement Enters Its Most Consequential Phase in July",
+      "summary": "July opens what analysts describe as the biggest chapter in India-UK trade relations, with key provisions of the hard-won free trade agreement set to become operational. Services, professional mobility, and goods categories are expected to see early movement.",
+      "takeaway": "The India-UK trade deal stops being a talking point in July and starts being a contract.",
+      "why": "Services exports — tech, consulting, legal, financial — are where India captures the most from this deal. For professionals and founders thinking about India-UK cross-border strategy or knowledge-sector partnerships, July is the moment to study what is actually agreed, not the headline.",
+      "developing": false
+    },
+    {
+      "id": "world-2",
+      "headline": "Sovereign Wealth Funds Managing $29 Trillion Pivot to Energy as Dollar Fears Grow",
+      "summary": "Sovereign wealth funds and central banks overseeing $29 trillion in assets are shifting allocations toward energy infrastructure while raising concerns about dollar dependency, according to new survey data. The reallocation reflects geopolitical uncertainty and long-term energy transition bets.",
+      "takeaway": "When $29 trillion moves to energy infrastructure, that is the decade's most important capital signal.",
+      "why": "India's green hydrogen program, offshore renewables buildout, and grid modernization are exactly the asset class this capital is hunting for. Understanding which sovereign funds are in motion — and what structures they prefer — is useful starting knowledge for anyone working India's energy infrastructure play.",
+      "developing": false
+    }
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": [
+        {
+          "id": "ai-2",
+          "headline": "India Joins 34-Nation US-Led Pact to Build Resilient AI Supply Chains",
+          "summary": "India has signed onto a US-led initiative with 34 other nations aimed at building AI supply chains less vulnerable to single-point dependencies. The agreement focuses on compute access, semiconductor diversity, and AI infrastructure redundancy.",
+          "takeaway": "India is hedging its AI supply chain bets by joining Western pacts at the diplomatic level while exploring Chinese alternatives at the operational level.",
+          "why": "Read alongside the lead: this is not contradiction, it is hedging. India signing Western AI cooperation frameworks while pragmatically testing Chinese models reflects the bind of a country that cannot afford to be locked out of any frontier. Understanding which layer of India's AI stack is governed by which relationship is essential for anyone operating in this space.",
+          "developing": false
+        },
+        {
+          "id": "ai-3",
+          "headline": "Ford Rehires Veteran Engineers After AI Falls Short of Factory Quality Goals",
+          "summary": "Ford brought back experienced engineers after AI manufacturing tools failed to reproduce the tacit knowledge needed for high-quality production. A senior executive admitted the company mistakenly believed AI alone would deliver quality outputs.",
+          "takeaway": "AI without domain expertise is a liability, not an upgrade.",
+          "why": "The clearest admission yet from a major manufacturer that AI ROI depends on the human knowledge encoded into the system. For anyone advising on enterprise AI adoption, the pitch is now augmentation plus expert pairing, not replacement.",
+          "developing": false
+        },
+        {
+          "id": "ai-6",
+          "headline": "New Chinese AI Model Said to Match Anthropic at the Frontier",
+          "summary": "A new Chinese AI model has reportedly reached performance parity with Anthropic's leading models, according to benchmark reports. If independently verified, it marks another milestone in China's rapid AI catch-up.",
+          "takeaway": "The performance gap between US and Chinese frontier AI is closing faster than the political gap.",
+          "why": "Benchmark parity claims need independent verification before changing procurement calculus — Chinese lab evals have often looked better in controlled settings than in production. But the trend direction is clear. File alongside the lead story's India-China AI pivot.",
+          "developing": true
+        },
+        {
+          "id": "ai-10",
+          "headline": "Wall Street Bets on Micron as the Next Nvidia in the AI Infrastructure Trade",
+          "summary": "Investors searching for the next AI beneficiary beyond Nvidia are converging on Micron, the US memory chip maker, whose high-bandwidth memory products are central to AI accelerator stacks. The thesis is that memory bandwidth, not just compute, becomes the binding AI bottleneck next.",
+          "takeaway": "If Nvidia is the engine, Micron is becoming the fuel tank — and markets just noticed.",
+          "why": "Useful infrastructure context. The memory bottleneck thesis has been discussed among engineers for a year; it is now entering mainstream market pricing. For India's chip policy conversation, memory and storage are underdiscussed relative to logic chips — this is a gap worth noting.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "id": "deep-tech-3",
+          "headline": "DeepSeek Upgrades Its Flagship Model to Slash AI Inference Latency",
+          "summary": "Chinese AI startup DeepSeek has rolled out a major upgrade to its V4 model — called DSpark — aimed at significantly accelerating response generation and reducing chip strain during inference. The upgrade targets the gap between model quality and deployment cost.",
+          "takeaway": "DeepSeek is competing on inference efficiency, not just benchmark performance.",
+          "why": "Inference cost is the real commercial battlefield in AI deployment. DeepSeek's focus on latency and chip efficiency is a direct challenge to US providers on the cost axis — the axis that matters most for enterprise adoption at scale. India's AI stack decisions increasingly depend on this kind of per-token cost arithmetic.",
+          "developing": false
+        },
+        {
+          "id": "deep-tech-5",
+          "headline": "Humanoid Robots Move from Lab Demonstrations to Factory Floors and Frontlines",
+          "summary": "Humanoid robots are gaining ground in real-world deployments, with manufacturers and militaries beginning to integrate bipedal and semi-autonomous robotic workers into operational settings beyond controlled pilots.",
+          "takeaway": "Humanoid robotics is exiting the demo phase — deployment economics are beginning to pencil out.",
+          "why": "Useful context for the longer arc of automation in manufacturing. India's manufacturing push — under PLI schemes and as a China-plus-one destination — will eventually collide with robotics cost curves. The timeline is still a few years out, but the direction is set.",
+          "developing": false
+        },
+        {
+          "id": "deep-tech-1",
+          "headline": "Chinese Chipmakers Bet on Silicon Carbide to Solve Data Center Energy Crisis",
+          "summary": "As AI-driven data center energy demand pushes electrical grids to their limits, Chinese semiconductor firms are investing in silicon carbide power semiconductors, which offer far higher efficiency than conventional silicon in power conversion applications.",
+          "takeaway": "SiC chips could be the quiet solution to the AI power problem that GPUs create.",
+          "why": "Silicon carbide is an enabling-layer bet that rarely gets AI media coverage but could matter enormously for whether data center buildouts are feasible at scale. India's chip strategy has focused on logic chips; power semiconductors are a gap worth noting in the policy conversation.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "id": "climate-energy-1",
+          "headline": "India Plans Its First Hybrid Floating Renewable Energy Platform Off Goa",
+          "summary": "The National Institute of Oceanography is planning India's first hybrid floating renewable energy platform in the waters off Goa, combining solar, wind, and potentially wave energy generation in a single offshore installation.",
+          "takeaway": "India is taking floating renewable platforms from concept to coastal reality.",
+          "why": "Offshore renewables are a key piece of India's long-term energy mix, especially as onshore land constraints grow. A successful pilot off Goa creates a replicable template for India's extensive coastline. Climate-energy professionals should track whether this moves from MoU to funded build.",
+          "developing": true
+        },
+        {
+          "id": "climate-energy-2",
+          "headline": "India's First Green Hydrogen Train Moves Closer to Deployment",
+          "summary": "India's first green hydrogen-powered train — which generates electricity via hydrogen fuel cells and emits only water vapor — is on track for deployment with government backing under the national green hydrogen mission.",
+          "takeaway": "India's hydrogen train is no longer a concept — it is on a schedule.",
+          "why": "Hydrogen trains are particularly compelling for routes where grid electrification is uneconomical. If the pilot performs, it opens a procurement path for rolling stock that avoids the full wire infrastructure investment — potentially significant for India's vast semi-electrified rail network.",
+          "developing": true
+        },
+        {
+          "id": "climate-energy-8",
+          "headline": "Germany, Poland, Czechia Hit 40C-Plus in Europe's Most Extreme Heat on Record",
+          "summary": "A historic heat wave pushed temperatures above 40C across central and eastern Europe, setting all-time national records in Germany, Czechia, Poland, and Hungary. More than 191 million Europeans endured 35C or above, straining health systems and energy grids built for cooler climates.",
+          "takeaway": "Europe's heat emergency is now structural, not occasional — and the adaptation market is enormous.",
+          "why": "Europe is now a serious buyer of heat-resilience solutions at scale. India has decades of experience with extreme heat management. Climate-tech firms and consultants with India experience should be looking at European adaptation contracts as a real market opportunity.",
+          "developing": true
+        },
+        {
+          "id": "climate-energy-7",
+          "headline": "Dangerous Heatwave to Blanket Central and Eastern US Before July 4 Festivities",
+          "summary": "US forecasters are warning of a prolonged and dangerous heat event across a large swath of the central and eastern United States, overlapping with Fourth of July celebrations and World Cup events. The combination of high temperatures and mass outdoor gatherings is raising public health concerns.",
+          "takeaway": "Europe and the US are hitting simultaneous heat records — climate extremes are no longer sequential, they are concurrent.",
+          "why": "Useful global context. Concurrent heat events across two major economies are accelerating the political case for adaptation spending, which affects the pace of global clean energy investment. For India's climate-tech sector, more urgency in the West means more potential buyers.",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "health-tech",
+      "stories": [
+        {
+          "id": "health-tech-1",
+          "headline": "Can India Capture the China-Plus-One Shift in Global Pharma?",
+          "summary": "India's pharmaceutical sector is positioned to benefit from global supply chain diversification away from China, given its existing generic drug manufacturing base. But the constraint is structural: India's own active pharmaceutical ingredient supply remains heavily dependent on Chinese imports.",
+          "takeaway": "India wants the pharma China-plus-one prize but still buys its raw materials from China.",
+          "why": "The strategic irony here is sharp: India's pharma opportunity depends on reducing the very dependency it is using as a selling point. For health-tech strategy and policy, the upstream API question — building domestic active pharmaceutical ingredient manufacturing — is the prerequisite, not the afterthought.",
+          "developing": false
+        },
+        {
+          "id": "health-tech-2",
+          "headline": "Government to Launch Affordable Digital Health Platform for Small Clinics Across India",
+          "summary": "The Indian government is preparing to launch a low-cost digital health management system targeted at small and rural clinics that cannot afford enterprise health-tech solutions. The initiative aims to bring basic electronic records and health management to the last mile of India's healthcare network.",
+          "takeaway": "India is building a health-tech stack for the 80 percent, not the 20 percent.",
+          "why": "A government-backed affordable platform at scale changes the baseline for what rural and semi-urban clinics run on. For health-tech startups, the key question is whether this creates an open interoperable layer that enables services on top, or closes the market by competing directly with private players.",
+          "developing": true
+        },
+        {
+          "id": "health-tech-8",
+          "headline": "India's Pharma Strength Is a Real Geopolitical Asset, but China Exposure Is the Blind Spot",
+          "summary": "India is recognized globally as the generic drug supplier of last resort — a genuine geopolitical asset. But high API import dependency from China is the sector's structural vulnerability, particularly in scenarios where US or EU domestic sourcing mandates accelerate.",
+          "takeaway": "India's pharma reputation is built on a supply chain it does not fully control.",
+          "why": "Sits alongside health-tech-1 as a pair of reads on the same strategic problem. US and EU legislators are already proposing domestic sourcing mandates. For India to capture the resulting shift, API manufacturing investment is the one move that unlocks everything else — and it is underfunded relative to the opportunity.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "agritech",
+      "stories": [
+        {
+          "id": "agritech-2",
+          "headline": "A Failed Monsoon Would Test India's Food Security in Ways Policy Is Not Ready For",
+          "summary": "A weak or failed monsoon season could dampen rural incomes, spike food inflation, and stress India's food security mechanisms in ways that existing policy tools — procurement, buffer stocks, price controls — were not designed to handle at scale.",
+          "takeaway": "India's food security safety net has not been stress-tested at the scale a serious monsoon failure would require.",
+          "why": "A weak monsoon is not just an agricultural story — it cascades into rural income stress, food price inflation, and political economy pressure that affects consumption-facing startups and the macro growth narrative. The resilience gap is also where the agritech opportunity lives: precision irrigation, crop insurance, and early-warning tools all become urgent in a bad monsoon year.",
+          "developing": true
+        },
+        {
+          "id": "agritech-8",
+          "headline": "Farmers at Bonn Conference Warn of a Double Crisis: Climate Shock and Market Failure",
+          "summary": "At the Bonn climate conference, farmer representatives warned that agriculture faces simultaneous crises of climate-driven yield losses and collapsing market structures that fail to compensate producers for resilience investments. The framing shifts climate agriculture from a technical problem to a political economy problem.",
+          "takeaway": "Climate adaptation in agriculture fails if markets do not price in resilience — the Bonn farmers are naming the missing piece.",
+          "why": "Useful framing for how agritech solutions need to be positioned: not as productivity tools alone, but as risk management and resilience infrastructure. Policy levers — insurance, procurement, price floors — are as important as technology in this picture.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "id": "indian-startups-2",
+          "headline": "OpenAI Appoints Former Uber Executive as India Head in Signal of Serious Market Push",
+          "summary": "OpenAI has named Prabhjeet Singh, a former Uber India executive, as its India head, signaling a move beyond enterprise sales toward building for the Indian market's specific dynamics. Separately, Sachin Tendulkar has backed Ten X You, a sportswear brand targeting Indian consumers.",
+          "takeaway": "OpenAI hiring from Uber India is a tell — it is building a mass market strategy, not just a sales office.",
+          "why": "Uber's India playbook was about adapting a global product for drastically different price sensitivities and use patterns. That is the kind of operator knowledge you hire when you are serious about a market at scale. Worth watching who Singh's first hires are and whether product localization follows.",
+          "developing": false
+        },
+        {
+          "id": "indian-startups-9",
+          "headline": "Proptech Unicorn Square Yards Taps Bankers for $300 Million IPO",
+          "summary": "Square Yards, the Indian proptech unicorn operating in real estate brokerage, home loans, and property management, has engaged investment bankers to manage a $300 million public offering. It would be the latest in India's active new-age tech IPO pipeline.",
+          "takeaway": "India's proptech sector is graduating from venture-backed growth to public-market accountability.",
+          "why": "Square Yards going public at $300 million is a useful barometer for where India's real-estate-tech sector sits — growing, but now priced for profitability transparency. Useful context for tracking which Indian startup sectors are maturing versus which remain venture-stage.",
+          "developing": false
+        },
+        {
+          "id": "indian-startups-5",
+          "headline": "FY26 Sees 22 Indian Tech Startups Make Their Public Market Debut",
+          "summary": "Inc42's FY26 financial tracker shows 22 new-age technology companies made their public market debut during the year, reflecting continued appetite for Indian tech IPOs even as global markets remained uncertain.",
+          "takeaway": "India's startup-to-public-market pipeline is one of the most active in the world right now.",
+          "why": "22 IPOs in a year is a meaningful cohort. The quality test comes in post-listing: performance trajectories and profitability progression will define whether Indian tech IPOs remain a credible asset class or face the correction Western markets went through after 2021.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "global-economics",
+      "stories": [
+        {
+          "id": "global-economics-7",
+          "headline": "China Moves to Block Mainland Investors from Parking Capital in US Tech via Offshore Funds",
+          "summary": "Chinese regulators are cracking down on offshore investment vehicles that allowed mainland investors to gain exposure to US tech companies in ways that circumvented capital controls. The move signals Beijing wants domestic capital directed toward Chinese tech, not American.",
+          "takeaway": "Beijing is forcing its own investors to bet on China's tech dream rather than America's.",
+          "why": "Read as a signal of confidence and concern simultaneously: confidence that Chinese tech is worth backing, concern that offshore capital flight is real. For India, the potential read-through is that displaced capital looking for non-US, non-China tech exposure may turn toward Indian markets — India is one of the obvious destinations.",
+          "developing": false
+        },
+        {
+          "id": "global-economics-8",
+          "headline": "BIS Flags AI Investment Bust as a Top Threat to Global Financial Stability",
+          "summary": "The Bank for International Settlements has identified an AI investment bust — alongside inflation and fiscal stress — as among the gravest near-term threats to global financial stability. The concern is that AI-driven capital expenditure could reverse sharply if commercial returns disappoint at scale.",
+          "takeaway": "The world's central bankers' bank is telling investors to scenario-plan for an AI winter.",
+          "why": "The sober macro read on the AI boom. If the capex cycle reverses, second-order effects run through chip demand, power infrastructure, cloud valuations, and venture funding for AI startups. Worth keeping as the bear-case anchor in any AI sector analysis.",
+          "developing": false
+        },
+        {
+          "id": "global-economics-10",
+          "headline": "RBI Proposes Broader Money Market Access for NBFCs and Large Corporates",
+          "summary": "The Reserve Bank of India has released draft proposals that would expand money market access for non-banking financial companies and large corporates, aimed at deepening India's domestic capital markets and reducing over-dependence on bank credit.",
+          "takeaway": "RBI is widening the on-ramp to India's money markets — a quiet but consequential financial infrastructure move.",
+          "why": "For fintech builders and financial strategy watchers, expanded money market access changes liquidity management options for NBFCs and corporates. The deeper India's domestic capital market, the more resilient the financial system becomes to external shocks — which is the long-term story here.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "india",
+      "stories": [
+        {
+          "id": "india-1",
+          "headline": "India's First Large-Scale Homegrown Silicon Deployment Goes Into CCTV Cameras",
+          "summary": "Mindgrove Technologies has signed an MoU to deploy its Indian-designed chips in CCTV cameras at commercial scale, marking what the company calls the largest integration of Indian silicon to date. The deal moves India's chip design ecosystem from prototype stage toward real-world product.",
+          "takeaway": "India's chip story just got its first commercial proof point — small sector, real milestone.",
+          "why": "The credibility gap for India's semiconductor ambitions has always been the absence of deployed products. Mindgrove getting to commercial scale, even in surveillance hardware, changes that narrative. Watch for similar deals in embedded systems and industrial IoT — these are the proof points that pull investor and government attention toward the design-in-India tier.",
+          "developing": false
+        },
+        {
+          "id": "india-3",
+          "headline": "A Weak Monsoon Could Slow India's Economy More Than Investors Are Pricing In",
+          "summary": "A below-normal monsoon season could dampen rural incomes, increase food inflation, and slow consumption growth in ways the market consensus may be underestimating. Agricultural output and rural demand together account for a substantial share of India's GDP and consumption story.",
+          "takeaway": "If the monsoon underperforms, India's growth story gets a material dent that rate cuts alone cannot fix.",
+          "why": "A weak monsoon is not just an agricultural variable — it is an inflation variable, a rate variable, and a political economy variable. For anyone thinking about India growth bets or consumer-facing startups, rural demand is the swing factor that shifts the picture significantly.",
+          "developing": true
+        },
+        {
+          "id": "india-5",
+          "headline": "Former PM Advisor Argues India Should Resume Strategic Economic Dialogue with China",
+          "summary": "Sanjaya Baru, former economic advisor to the Prime Minister, argues in the Indian Express that India and China should resume formal strategic economic dialogue channels that have been dormant since the 2020 Galwan crisis. He contends that geopolitical and trade realities make engagement unavoidable.",
+          "takeaway": "India's China posture is shifting from studied silence to cautious re-engagement — the AI story is one signal, this op-ed is another.",
+          "why": "Important background for understanding the lead story. The debate about India-China economic re-engagement is happening at the elite policy level. Understanding which voices are pushing for it, and on what terms, helps map where India's strategic calculus is heading — useful context for anyone operating in sectors where this tension plays out directly.",
+          "developing": true
+        },
+        {
+          "id": "india-9",
+          "headline": "India-UK Free Trade Agreement Enters Its Most Consequential Phase in July",
+          "summary": "July marks the beginning of the most significant phase in India-UK trade relations, with key provisions of the long-negotiated free trade agreement set to become operational. Services, professional mobility, and goods categories are expected to see early movement.",
+          "takeaway": "The India-UK trade deal stops being a talking point in July and starts being a contract.",
+          "why": "Services exports — tech, consulting, legal, financial — are where India gains most from this deal. For professionals and founders thinking about India-UK cross-border strategy or knowledge-sector partnerships, July is the moment to study what is actually agreed rather than the headline.",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "world",
+      "stories": [
+        {
+          "id": "world-1",
+          "headline": "New Delhi Hosts Global AI Summit Next Week as World Leaders Converge",
+          "summary": "Top world leaders are set to attend the India-AI Impact Summit in New Delhi next week, positioning India as a host of consequential AI governance conversations. The summit arrives as India signs US-led AI supply chain pacts while navigating its own AI dependency dilemmas.",
+          "takeaway": "India is playing both sides of the AI cold war — and hosting the room where it plays out.",
+          "why": "The summit's outputs — even informal ones — will shape India's AI regulatory and partnership posture for years. Pay attention to which countries send senior delegations and what side conversations get reported in the days after.",
+          "developing": false
+        },
+        {
+          "id": "world-2",
+          "headline": "Sovereign Funds Managing $29 Trillion Pivot to Energy as Dollar Fears Grow",
+          "summary": "Sovereign wealth funds and central banks managing $29 trillion in assets are reallocating toward energy infrastructure while raising concerns about dollar dependency, according to new survey data. The shift reflects geopolitical uncertainty and long-term energy transition bets.",
+          "takeaway": "When $29 trillion moves to energy infrastructure, that is the decade's most important capital signal.",
+          "why": "India's green hydrogen program, offshore renewables buildout, and grid modernization are exactly the asset class this capital is hunting for. Understanding which sovereign funds are in motion — and what structures they prefer — is useful starting knowledge for anyone working India's energy infrastructure play.",
+          "developing": false
+        },
+        {
+          "id": "world-3",
+          "headline": "Ukraine Drones Hit Russian Refinery as Putin Publicly Acknowledges Fuel Shortages",
+          "summary": "Ukrainian drones struck a major Russian oil refinery in the south and set it ablaze, while President Putin acknowledged for the first time that Russia was facing domestic fuel shortages. The admission is unusual and suggests the sustained drone campaign is having real economic effect.",
+          "takeaway": "Putin admitting fuel shortages is the most significant economic signal from Russia in months.",
+          "why": "Useful context for India's Russian oil import calculus. If Russian refining capacity is degrading under sustained drone pressure, Russia's ability to offer heavily discounted crude — India's current energy arbitrage — may be changing. Worth tracking for anyone modeling India's energy import costs.",
+          "developing": true
+        },
+        {
+          "id": "world-9",
+          "headline": "Rescuers Pull 33 from Venezuela Earthquake Rubble as Critical Survival Window Closes",
+          "summary": "Rescue teams have pulled 33 people, including two boys, from rubble following Venezuela's devastating earthquake. Tens of thousands remain missing as the critical survival window closes, with international relief hampered by Venezuela's political isolation and the aftermath of US USAID cuts.",
+          "takeaway": "Venezuela's earthquake is turning into a humanitarian crisis shaped as much by politics as geology.",
+          "why": "Useful global context. The US disaster response — tested after deep USAID cuts — is being watched as a signal of American soft power. India's own disaster response capacity and expanding engagement with the Global South sit against this backdrop.",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "other-interests",
+      "stories": [
+        {
+          "id": "other-interests-10",
+          "headline": "Neuroscientist Erin Schuman Wins 2026 Kavli Prize for Discovering That Memory Lives in the Synapse",
+          "summary": "Erin Schuman of Caltech has been awarded the 2026 Kavli Prize in Neuroscience for her foundational work on local synaptic protein synthesis — demonstrating that individual synapses can store memories independently of the cell body. The discovery rewrites the basic model of how the brain learns and remembers at the cellular level.",
+          "takeaway": "Memory is not just a brain-level phenomenon — it happens at the synapse, and Schuman proved it.",
+          "why": "Pure intellectual gold. Schuman's work on distributed synaptic memory opens generative questions for anyone thinking at the intersection of neuroscience and AI: about local plasticity, distributed learning systems, and what biological intelligence actually looks like at a mechanistic level. Worth reading the primary research.",
+          "developing": false
+        },
+        {
+          "id": "other-interests-6",
+          "headline": "Mel Sunquist, the Tiger Biologist Who Taught Generations How to Follow a Cat in the Dark",
+          "summary": "Conservation News pays tribute to Mel Sunquist, a field biologist who pioneered the study of wild tigers in the 1970s using only fieldcraft and nerve — before camera traps, GPS collars, or satellite data existed. He mentored generations of conservationists who now lead programs across South and Southeast Asia.",
+          "takeaway": "The best field science was done before the tools existed — and the questions Sunquist asked still drive conservation biology today.",
+          "why": "Worth reading for its own sake. A beautiful tribute to scientific curiosity operating without data infrastructure. There is also an India angle: Sunquist's tiger work was done partly in South Asian forests, and his methods directly shaped the institutions that now manage Project Tiger.",
+          "developing": false
+        },
+        {
+          "id": "other-interests-7",
+          "headline": "India's Live Entertainment Economy Is Growing Fast and Finally Getting Noticed",
+          "summary": "India's concert and live entertainment sector is accelerating, with revenues, venue construction, and artist bookings all picking up as corporate backing and urban experience-seeking grow. The sector is transitioning from an informal afterthought to a structured industry.",
+          "takeaway": "India's experience economy is professionalizing — and it is large enough to be a real sector bet.",
+          "why": "A useful signal for the reader's broader India context. As disposable incomes rise and urban entertainment demand grows, live events are becoming a meaningful economic category. For anyone tracking India's consumer economy or urban lifestyle sectors, this is an inflection worth noting.",
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunities-8",
+      "name": "National Rural Development Conference",
+      "when": "June 28-29, 2026 (today is the final day), New Delhi",
+      "summary": "India's first-ever national conference on rural development, bringing together policymakers, researchers, and practitioners focused on rural infrastructure, livelihoods, and governance. A rare national-scale convening on the Bharat economy agenda — relevant for anyone working in agritech, development finance, or India's rural policy space. National, Delhi."
+    }
+  ]
+}
