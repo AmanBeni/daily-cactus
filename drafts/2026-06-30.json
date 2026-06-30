@@ -1,0 +1,311 @@
+{
+  "date": "2026-06-30",
+  "lead": {
+    "id": "india-4",
+    "headline": "US-India trade deal is in its final stretch",
+    "summary": "US envoy Sergio Gor says the two countries are in the 'final 1 per cent' of negotiations on a bilateral trade deal, with both The Hindu and India Today reporting that he credited the personal chemistry between President Trump and Prime Minister Modi as the primary engine. A deal would be the first major bilateral trade agreement India has signed in years and could reshape tariff regimes across pharmaceuticals, textiles, electronics, and agriculture. An ambassador going on record with 'final 1 per cent' — not an anonymous official — signals both governments are managing timelines toward an announcement.",
+    "signal": [
+      "Political signalling, not a slip: both sides want the deal announced soon and are using the envoy's public statements to manage expectations.",
+      "For AI-generalist and strategy readers: the deal's terms on digital trade, data localisation, and pharma will define the operating environment for a decade — watch those chapters closely.",
+      "Domestic constraint to watch: farmer lobbies are already pushing PM Modi to ring-fence MSP protections from US agricultural imports (see agritech section) — the final 1 per cent may hinge on exactly this carve-out."
+    ],
+    "developing": true,
+    "badge": ""
+  },
+  "frontpage": [
+    {
+      "id": "world-1",
+      "headline": "World leaders coming to New Delhi for the India-AI Impact Summit next week",
+      "summary": "Top leaders from multiple countries are scheduled to attend an India-AI Impact Summit in New Delhi next week, according to News on AIR. The timing is pointed: India has just signed onto a US-led 35-nation AI supply chain initiative and is actively positioning itself as a rule-setter in global AI governance. A gathering of this level in New Delhi would mark a significant step up from previous bilateral AI dialogues and follow weeks of India-linked AI policy moves.",
+      "signal": [
+        "India is moving from AI consumer to AI governance actor — the summit is a diplomatic proof point that deserves attention beyond the headlines.",
+        "Watch what frameworks emerge: EU-India AI governance alignment (see AI section) could shape how Indian companies build for global markets."
+      ],
+      "developing": true
+    },
+    {
+      "id": "world-8",
+      "headline": "India opens the world's first nuclear-process-heat hydrogen facility",
+      "summary": "India has launched what is described as the world's first hydrogen production facility powered by nuclear process heat — a milestone in clean energy technology. Nuclear process heat uses a reactor's thermal output directly rather than generating electricity to then electrolyse water, potentially making hydrogen production significantly more efficient and lower-cost than current methods. No country had previously operated such a facility at scale. India's atomic energy programme — largely self-developed due to decades of sanctions — is a natural home for this kind of first.",
+      "signal": [
+        "Technically significant: avoiding the double energy-conversion loss of nuclear-electric electrolysis could cut hydrogen production costs materially.",
+        "Strategically significant: positions India as an exporter of a novel clean-energy technology, not just a low-cost manufacturer of existing ones.",
+        "Worth tracking which industrial buyers come first and whether this spawns a licensable technology export."
+      ],
+      "developing": false,
+      "badge": "FIRST"
+    },
+    {
+      "id": "ai-3",
+      "headline": "India joins 34 nations in a US-led push for resilient AI supply chains",
+      "summary": "India has signed onto a US-led multilateral initiative, alongside 34 other countries, to build resilient and trustworthy AI supply chains. The initiative focuses on diversifying production and sourcing of AI hardware, software, and data infrastructure away from single points of failure — an implicit response to China's dominance in certain semiconductor and rare-earth segments. India's participation cements its alignment with the Western-led AI order and opens doors for Indian chip and data-centre investment from partner countries.",
+      "signal": [
+        "Joining this framework gives Indian AI firms preferential access to partner-country procurement and investment channels — a quiet but real commercial benefit.",
+        "Geopolitical read: this is India formally choosing a lane in the US-China AI contest, with near-term economic upside and long-term supply-chain exposure managed."
+      ],
+      "developing": false
+    },
+    {
+      "id": "global-economics-9",
+      "headline": "Supreme Court gives Trump broad power to fire independent agency heads",
+      "summary": "The US Supreme Court ruled that President Trump has the constitutional authority to fire leaders of independent federal agencies — a case centred on the March 2025 dismissal of FTC member Rebecca Slaughter. The decision significantly expands executive power over agencies including the FTC, FCC, and NLRB, which have long operated with statutory protection from presidential removal. The ruling inverts decades of New Deal-era precedent that kept independent regulators insulated from political pressure.",
+      "signal": [
+        "Near-term effect: expect an FTC and other regulators more aligned with White House priorities on Big Tech, mergers, and AI — which matters for global companies operating in the US.",
+        "India angle: US antitrust posture toward the tech platforms that dominate Indian digital markets — Google, Meta, Amazon — could shift meaningfully."
+      ],
+      "developing": false,
+      "badge": "ANALYSIS"
+    },
+    {
+      "id": "global-economics-10",
+      "headline": "But the Court draws a line: Trump's firing of a Fed governor was unconstitutional",
+      "summary": "In a companion ruling, the Supreme Court found that Trump's dismissal of Federal Reserve governor Lisa Cook was unconstitutional. While the broader decision expanded presidential removal power over independent agencies, the Court drew a specific line protecting the Fed's statutory independence — a distinction financial markets will read as crucial. Fed governors have for-cause removal protection written into statute and the Court upheld it, preserving central bank credibility.",
+      "signal": [
+        "Markets get their preferred outcome: executive power expands broadly but the Fed's independence holds, at least for now.",
+        "Watch for legislative attempts to narrow the Fed's protection — the ruling preserves the statutory shield, but Congress can change statutes."
+      ],
+      "developing": false,
+      "badge": "ANALYSIS"
+    },
+    {
+      "id": "climate-energy-7",
+      "headline": "Six charts: clean power was the world's largest source of new energy in 2025",
+      "summary": "Carbon Brief's annual data review shows that clean power — solar, wind, hydro, and nuclear combined — added more to global energy supplies than any fossil fuel source in 2025. The milestone is significant because it occurred during a year of record global energy demand growth, not demand stagnation. Solar alone accounted for the lion's share of new additions. The charts also reveal a widening gap between rich and developing countries in the pace of transition, and make clear that 'largest source of new energy' is not the same as 'dominant in total supply' — fossils still hold that position.",
+      "signal": [
+        "The headline stat is real but partial: new additions are not total share; fossils still dominate existing supply, which is what determines emissions today.",
+        "India angle: India now ranks in the global top three for new solar additions — the 85 GW/year by FY30 projection (see climate section) would extend that lead.",
+        "The clean-power buildout is where the hardware, financing, and grid-management opportunities will concentrate over the next decade."
+      ],
+      "developing": false,
+      "badge": "DATA"
+    },
+    {
+      "id": "deep-tech-1",
+      "headline": "China is merging its chip toolmakers into state-backed national champions",
+      "summary": "China's semiconductor self-sufficiency campaign has entered a consolidation phase: state-backed equipment makers are absorbing smaller rivals to forge larger, better-resourced companies capable of competing with ASML, Applied Materials, and KLA. The playbook mirrors how China built dominance in solar panels and EV batteries — consolidate fragmented domestic industries into a few well-funded giants, then scale aggressively. The goal is to reduce dependence on US and European equipment increasingly subject to export controls.",
+      "signal": [
+        "This is the slow-burn story that matters most for the global chip industry: not AI valuation cycles, but whether China can build a sovereign equipment stack.",
+        "India angle: as a new semiconductor manufacturing destination, India's equipment sourcing decisions are increasingly constrained by geopolitics — worth tracking early."
+      ],
+      "developing": true
+    }
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": [
+        {
+          "id": "ai-10",
+          "headline": "Gartner calls 2026 the 'inflection year' for enterprise AI — and the pressure to prove ROI is real",
+          "summary": "MIT Technology Review, drawing on Gartner research, reports that 2026 is being declared the inflection year for enterprise AI — the moment organisations must stop piloting and start aligning AI projects with measurable business objectives. Enterprise investment is booming but outcomes remain uneven. The pressure to demonstrate return on investment is reshaping procurement: buyers are now sophistication-testing vendors on actual outcomes, not running open-ended trials.",
+          "signal": [
+            "For anyone building AI products for enterprises: the evaluation criteria have shifted from 'can it do the task' to 'can it prove the business case' — different pitch entirely.",
+            "India's large IT services firms face a structural challenge here: their traditional time-and-materials model conflicts with the outcome-based accountability AI ROI demands."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "ai-9",
+          "headline": "AI agents are not your coworkers — and treating them as such is a category error",
+          "summary": "MIT Technology Review's Algorithm newsletter pushes back on the growing tendency to anthropomorphise AI agents as 'colleagues' or 'digital employees'. The framing matters because it creates false expectations about reliability, judgment, and accountability that lead to predictable failures. Organisations that have successfully deployed agents tend to treat them as powerful automated pipelines with narrow, well-defined mandates — not as people who need onboarding and can exercise judgment.",
+          "signal": [
+            "The 'coworker' framing is a vendor talking point, not an operational reality — useful to have this pushback from a credible source going into enterprise budget cycles.",
+            "For founders building agentic products: design the interface layer to set expectations accurately; 'tool with superpowers' is more defensible than 'digital teammate' when something goes wrong."
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-7",
+          "headline": "EU and India are approaching a genuine convergence on AI governance",
+          "summary": "A piece from Observer Research Foundation argues that the EU and India are at a 'frontier moment' for AI governance alignment — both having developed frameworks (the EU AI Act and India's emerging AI policy) that share an underlying risk-based logic. This opens space for joint standards on high-risk AI systems, cross-border data agreements, and mutual recognition of audit frameworks. The EU is India's third-largest trade partner; shared AI rules could significantly reduce compliance overhead for Indian companies building for European markets.",
+          "signal": [
+            "Regulatory convergence here is a quiet but large opportunity: Indian AI companies that build to both frameworks would face fewer barriers in two major markets simultaneously.",
+            "Watch the India-AI Impact Summit next week for EU representation — that would signal whether this convergence is moving from policy paper to practice."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "id": "deep-tech-8",
+          "headline": "Meta's AI research chief says the next frontier is agents that do economically valuable work",
+          "summary": "Dawn Song, Meta's new Vice President of AI Research, says the next major phase of AI will be agents that can perform 'economically valuable' work across a broad range of real-world domains — not just narrow task automation. The framing from Meta's research leadership is significant because it aligns with where the company's AI investment is actually flowing: less foundation-model arms race, more agentic infrastructure. Song cited health, science, and enterprise as priority domains.",
+          "signal": [
+            "When a hyperscaler's research chief narrows the definition this precisely it usually reflects where internal bets are being placed — worth watching what Meta actually ships next.",
+            "India angle: 'economically valuable' AI in health and agriculture is exactly the use case Indian AI startups are well-positioned to build for — and where Meta's infrastructure investment could be an enabler."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-5",
+          "headline": "A quantum startup says it will leapfrog everyone — the hardware isn't there yet",
+          "summary": "A quantum computing startup has announced claims of leapfrogging all competitors on a future system, but Ars Technica notes the claims would require 'a massive leap from any of its existing hardware.' This is a recurring pattern in quantum: roadmap milestones that vastly outpace demonstrated progress. Genuine quantum advantage for practical problems remains elusive, even as funding and hype continue to flow into the sector.",
+          "signal": [
+            "Calibration tool: when evaluating quantum claims, look for actual hardware benchmarks and error rates, not roadmap projections from press releases.",
+            "India's national quantum mission (Rs 6,003 crore) should be held to the same standard — announced targets matter less than demonstrated qubit quality."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "id": "climate-energy-2",
+          "headline": "India's solar boom is being held back by policy failures, not technology",
+          "summary": "A Wire analysis identifies specific policy failures constraining India's solar energy sector: inconsistent tender timelines, land acquisition bottlenecks, weak grid infrastructure in high-irradiance states, and domestic manufacturing incentives that have raised module costs without yet building a robust supply chain. The critique is pointed given India's 500 GW renewable target for 2030 and the persistent gap between announced and commissioned capacity.",
+          "signal": [
+            "The constraint is now governance and grid, not cost or technology — solar is cheap enough; the pipeline management is the problem.",
+            "For founders and policy readers: the bottlenecks — grid integration, land, DISCOM health — are where the real opportunities in India's energy transition sit."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "climate-energy-9",
+          "headline": "India's annual solar installations could reach 85 GW by FY30",
+          "summary": "A new report projects India's yearly solar installation rate could hit 85 GW by financial year 2030, driven by rising domestic and commercial demand, falling costs, government mandates, and corporate renewable commitments. For context, India installed roughly 25 GW in FY24 — the projection requires approximately tripling the annual run rate over six years.",
+          "signal": [
+            "Ambitious projection; achieving it would require resolving exactly the policy and grid bottlenecks flagged in TheWire analysis above.",
+            "At 85 GW per year, India would rank among the top two or three solar markets globally — that scale creates adjacent opportunities in storage, grid management, and project finance."
+          ],
+          "developing": false,
+          "badge": "DATA"
+        }
+      ]
+    },
+    {
+      "slug": "health-tech",
+      "stories": [
+        {
+          "id": "health-tech-4",
+          "headline": "Aarogya Setu 2.0 launches as India's next digital health push",
+          "summary": "Union Health Minister JP Nadda launched Aarogya Setu 2.0 alongside a set of other digital health initiatives. The original app, introduced during COVID-19, has been evolving into a broader health data platform; version 2.0 is positioned as part of India's Ayushman Bharat Digital Mission infrastructure, intended to improve interoperability across health records, teleconsultation, and medicine delivery. The upgrade signals continued government investment in the digital health stack rather than one-off pandemic tooling.",
+          "signal": [
+            "ABDM plus Aarogya Setu 2.0 is the infrastructure layer for a generation of health-tech startups — the data rails are being laid.",
+            "The key question for founders is whether health records become interoperable in practice, not just in policy — that is where application-layer moats will form."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "agritech",
+      "stories": [
+        {
+          "id": "agritech-3",
+          "headline": "A weak monsoon is testing India's food security buffers",
+          "summary": "ETV Bharat reports that a below-normal monsoon this year is putting India's food security systems under strain. The agricultural economy remains heavily rain-dependent despite decades of irrigation investment — a shortfall means lower kharif crop yields, higher food inflation, and pressure on government procurement buffers. The timing is particularly sensitive given active India-US trade deal negotiations where agriculture is a contested chapter.",
+          "signal": [
+            "A monsoon shortfall feeds directly into food inflation, which is politically sensitive for the government and economically significant for India's poorest households.",
+            "The food-security stress case makes the farmer lobby's demand to keep agriculture out of the US trade deal (see below) harder for the government to negotiate away."
+          ],
+          "developing": true
+        },
+        {
+          "id": "agritech-7",
+          "headline": "Farmer groups tell PM: ring-fence agriculture from the India-US trade deal",
+          "summary": "The Indian Coordination Committee of Farmers' Movements (ICCFM) has written to Prime Minister Modi urging that agriculture be excluded from the bilateral trade deal currently in its final stages. The body flags two specific risks: US agricultural imports could undercut domestic producers on price, and any trade commitments might constrain the government's ability to maintain minimum support prices — currently a politically non-negotiable instrument of farm income policy.",
+          "signal": [
+            "MSP is a red line in Indian farm politics; any deal perceived as threatening it would face significant domestic resistance that no government wants before an election cycle.",
+            "This is the domestic constraint that negotiators on both sides must work around — the 'final 1 per cent' of the deal may hinge on exactly this agricultural carve-out."
+          ],
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "id": "indian-startups-3",
+          "headline": "BYJU'S claims an $800M comeback round at a $22B valuation",
+          "summary": "The edtech giant — which went through insolvency proceedings and severe operational turbulence in 2024-25 — has reportedly raised $800 million in a round led by founder Byju Raveendran, restoring a $22 billion valuation according to Elets Technomedia. If confirmed, it would be one of the largest edtech rounds globally. Worth treating with healthy scepticism until independently verified: BYJU'S has a history of opaque funding announcements, and the company's legal and operational status has been complex.",
+          "signal": [
+            "Verify before accepting the framing: specific valuation and round details need corroboration from institutional investors or regulatory filings.",
+            "If real, it signals that Indian edtech is not dead but has narrowed to a small number of heavily-backed survivors — a very different market structure than 2021."
+          ],
+          "developing": true
+        },
+        {
+          "id": "indian-startups-4",
+          "headline": "AI is rewiring how Indian consumer brands acquire and retain customers",
+          "summary": "Inc42's analysis — anchored in John Wanamaker's famous observation about advertising waste — examines how AI is changing the consumer growth stack for India's B2C economy. The piece covers AI-driven personalisation in D2C, AI-assisted customer service, and predictive inventory management across beauty, food delivery, and fashion. The thesis: broad spray-and-pray digital advertising is giving way to AI-segmented micro-campaigns that meaningfully improve unit economics for brands that adopt them first.",
+          "signal": [
+            "The brands and agencies that figure out AI-native growth first will compound cost advantages that are structurally hard to reverse.",
+            "India's next wave of consumer unicorns will likely look different from the previous cohort — leaner customer acquisition costs, higher lifetime value, smaller teams."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        }
+      ]
+    },
+    {
+      "slug": "global-economics",
+      "stories": [
+        {
+          "id": "global-economics-4",
+          "headline": "Former BOJ official: Japan rate hike is likely before December",
+          "summary": "A former Executive Director of the Bank of Japan says the central bank will probably raise interest rates earlier than most market participants expect, moving to normalise what he describes as 'still excessively accommodative' financial conditions. The BOJ's pace of policy normalisation has been a major factor in global currency markets in 2025-26, particularly for yen carry trades that feed capital flows into emerging markets including India.",
+          "signal": [
+            "A faster BOJ tightening cycle strengthens the yen and unwinds carry trades, creating short-term volatility in EM equity flows — including foreign institutional investor positioning in Indian markets.",
+            "The yen-rupee relationship makes BOJ decisions surprisingly material for Indian market participants; worth keeping on the radar."
+          ],
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "india",
+      "stories": [
+        {
+          "id": "india-6",
+          "headline": "Modi aide says India is within striking distance of 8% GDP growth",
+          "summary": "A senior aide to Prime Minister Modi told the Financial Times that India is within 'striking distance' of 8% annual GDP growth — a rate that would make India the world's fastest-growing large economy by a significant margin. India's recent growth has been running at 6-7%, and the gap to 8% is not trivial: it would require sustained improvement in agricultural output, exports, and private investment. An official going on record with this figure in the FT suggests it is managed communication, not an offhand comment.",
+          "signal": [
+            "This is a signal about where the government wants the growth narrative to be heading into the next political cycle — read it as aspiration-management as much as forecast.",
+            "If India approaches 8%, it reshapes the talent and capital story for founder-office and strategy roles: high-growth economies create denser opportunity sets and faster career compounding."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "id": "beyond-your-beat-6",
+          "headline": "Germany knocked out of the 2026 World Cup by Paraguay on penalties",
+          "summary": "Germany were eliminated from the 2026 FIFA World Cup after losing to Paraguay in a penalty shootout, with the drama compounded by a disallowed goal that would have kept them alive. The result is a significant upset — Germany were considered strong contenders and Paraguay are not traditionally a knockout-stage power. The 2026 World Cup is being hosted across the US, Canada, and Mexico in an expanded 48-team format that has already produced several surprises at this stage.",
+          "signal": [
+            "The tournament's biggest upset so far — worth knowing if you follow football at all.",
+            "The 48-team format is generating more late-stage surprises than previous World Cups: the field is flatter than in prior tournaments."
+          ],
+          "developing": false
+        },
+        {
+          "id": "beyond-your-beat-5",
+          "headline": "Germany's World Cup squad was built on African roots — and it still wasn't enough",
+          "summary": "A DW analysis of Germany's 2026 squad examines how heavily it drew on players of African heritage — a reflection of decades of migration and the football development pipeline that has followed. The piece explores identity, integration, and what it means to represent Germany in the mid-2020s. Published just before or after Germany's elimination, it adds cultural texture beyond the scoreline.",
+          "signal": [
+            "Useful context if the Germany-Paraguay result caught your attention — the squad composition story is the longer read behind it."
+          ],
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunities-9",
+      "name": "IndiaAI Startups Global — International Acceleration Program (2nd Cohort, 2026)",
+      "when": "2026, 2nd cohort open — check IndiaAI.gov.in for exact deadline",
+      "summary": "IndiaAI's international acceleration program connects Indian AI startups with global markets through structured cohort-based support, mentorship, and international partnership pathways. The 2nd cohort is open. Directly relevant for early-to-growth-stage AI founders looking to expand beyond India. Global."
+    }
+  ]
+}
