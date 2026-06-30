@@ -1,67 +1,37 @@
 {
   "date": "2026-06-28",
   "edition": 13,
-  "colophon": "52 sources scanned · 48 ok · 4 failed",
+  "colophon": "54 sources scanned · 50 ok · 4 failed",
   "lead": null,
   "frontpage": [
     {
-      "headline": "Trump orders fresh strikes on Iran after ceasefire violation and warns the US may finish the job",
-      "summary": "President Trump said Saturday that US forces struck Iranian missile and drone storage sites and coastal radar facilities, saying Iran violated the terms of the recent ceasefire. Trump warned the US may be forced to militarily complete the job, reviving fears of full resumed conflict just days after the Strait of Hormuz reopened under the peace deal.",
+      "headline": "CRED's 900-million-dollar raise pushes India's startup funding past one billion in a single week for the first time since 2023",
+      "summary": "Indian startups raised over 1.1 billion dollars across 16 deals between June 21 and 26, the first weekly billion-dollar mark since 2023. CRED's 900-million-dollar round was the engine; other deals included Square Yards and a cluster of deep-tech plays. The figure represents a 2.5x jump week-on-week.",
       "signal": [],
       "badge": "",
-      "takeaway": "The US-Iran ceasefire is already cracking — if it collapses, oil prices and global supply chains take the hit immediately.",
-      "why": "India imports roughly 80 percent of its crude oil. The Strait of Hormuz reopening was already priced in as a relief valve; a return to hostilities would reverse that fast. Domestic fuel prices, the RBI's rate path, and India's current account deficit are all directly in the blast radius of a renewed Iran conflict. This is the macro story to watch this week.",
-      "source": "World news | The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/jun/28/venezuelan-earthquakes-test-trumps-new-western-hemisphere-policy-after-gutting-of-usaid",
-      "image": null,
-      "developing": true
-    },
-    {
-      "headline": "India relaunches Aarogya Setu as a comprehensive connected-care digital health platform",
-      "summary": "The government unveiled Aarogya Setu 2.0, transforming the pandemic-era contact-tracing app into a full digital health platform offering connected care, electronic health records, and teleconsultation services. The launch accompanies a separate push to deploy affordable digital clinic management tools for small practices across India.",
-      "signal": [],
-      "badge": "",
-      "takeaway": "India is building the world's most ambitious public digital health stack — Aarogya Setu 2.0 is the consumer front-end of a much larger infrastructure play.",
-      "why": "If Aarogya Setu 2.0 integrates with ABHA health IDs and the new clinic management system, it becomes a data platform for health AI — an enormous B2B opportunity for startups building on top of it. The DPI model means the rails are public; the applications are up for grabs. This is the kind of state-built platform that creates a generation of health-tech companies.",
-      "source": "ETGovernment.com",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRmVKRE9fNkRKa255RjNTc2lEUWNvdEI4dGxncVk0VTh0ZW13MVFSY1pLZUJLWHpvTmVGSXUwMlRZSVY0TTNxMlMyMkVESG9IdEZRbTc1TVVFbnBxdE0wNHdZZDdST05ZWVMtMjdZWHpYLUtldVFiWnB4RFdoZHc5U0dNZUZ4NHhtU3ZzUjF6dWcyR2szS1R1LW1xbFBucWFQN1JaZk5vOTJFY0d6cVg1V0ZZOXp0T2ppS2hGQUM1OWdVejlNdVpCbWE5dV82OTk4dU9CVnN3UFlpRWxkYkHSAd4BQVVfeXFMT0ZlSkRPXzZESmtueUYzU3NpRFFjb3RCOHRsZ3FZNFU4dGVtdzFRUmNaS2VCS1h6b05lRkl1MDJUWUlWNE0zcTJTMjJFREhvSHRGUW03NU1VRW5wcXRNMDR3WWQ3Uk9OWVlTLTI3WVh6WC1LZXVRYlpweERXaGR3OVNHTWVGeDR4bVN2c1IxenVnMkdrM0tUdS1tcWxQbnFhUDdSWmZObzkyRWNHenFYNVdGWTl6dE9qaUtoRkFDNTlnVXo5TXVaQm1hOXVfNjk5OHVPQlZzd1BZaUVsZGJB?oc=5",
-      "image": null,
+      "takeaway": "After two lean years, institutional confidence in Indian consumer tech and fintech is back — CRED's raise is a signal, not a one-off.",
+      "why": "Late-stage capital unlocking in India typically precedes a wave of founder-office and strategy hires as funded startups build execution muscle. If this marks a genuine re-opening of the funding cycle — and the 22 IPOs in FY26 suggest it does — the job market for AI-generalist and founder-adjacent roles gets materially better through 2026.",
+      "source": "YourStory RSS Feed",
+      "url": "https://yourstory.com/2026/06/startup-news-and-updates-daily-roundup-june-29-2026",
+      "image": "https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/RoundupIMG21600x900-1763028299752.jpg",
       "developing": false
     }
   ],
   "sections": [
     {
-      "name": "Indian Startups",
-      "slug": "indian-startups",
+      "name": "India",
+      "slug": "india",
       "stories": [
         {
-          "headline": "Indian vibe-coding startup Rocket is raising a fresh round from US institutional investor SIG",
-          "summary": "Rocket, an Indian startup in the vibe-coding space — tools that let non-programmers build software using natural-language instructions — is in talks with US-based Susquehanna International Group to raise a fresh funding round. The deal would be a notable signal of international institutional interest in Indian AI-native developer tools.",
+          "headline": "Digital India turns 11 with AI and semiconductors at the centre of the next chapter",
+          "summary": "India marked the 11th anniversary of the Digital India initiative with a renewed focus on artificial intelligence, semiconductor manufacturing, and digital infrastructure. The occasion signalled the shift from the first generation of DPI — connectivity and payments — toward a second generation built on AI and hardware sovereignty.",
           "signal": [],
           "badge": "",
-          "takeaway": "International institutional capital is now paying attention to Indian AI-native developer tools, not just consumer or fintech plays.",
-          "why": "Vibe coding is a real category and India has the engineering density to build competitive tools in it, not just use them. SIG's interest in Rocket suggests the valuation story for Indian AI-tooling startups is credible internationally. Worth tracking as a signal for the broader Indian AI developer-tools ecosystem — this is an adjacent space to the founder-office and AI-strategy work this reader is pursuing.",
-          "source": "The Daily Star",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPekp4SzV0dzNjSXBndXZwRDlfQ2ZLbXhCZFpVcDlEYWVUMEd6X3pEZnY0M2JzZ2k3dlhiaWdUOExLNmhvVzZYS2ZPTHJ3VzdIWjBwcWl6TW1JZGRldzhBMVNWUFVrQXBrazNDVS1YZjZkU2xSNEhSd1hhMTd4ckxtU2I5QW1WSXpmRnktcldyNmVpaksxOWlqSW1fczVzOFNfMlJhOUI5Nkt6aDlYUVE?oc=5",
+          "takeaway": "Digital India's first decade was about access; the second decade is about AI and chips — a materially harder challenge.",
+          "why": "The framing matters for career positioning. If India's next DPI wave is AI-native, the founder-office and strategy roles in government-adjacent startups and policy shops will increasingly require AI fluency. The anniversary is a useful anchor for understanding where the government's priorities and budget will flow — and which kinds of firms get first-mover advantage building on the new rails.",
+          "source": "blog.google",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdFFHYkZDUVltN1pQd0pGWDJWb3ZsZjFSM1c0d0pPV25WSHJDRFZoS19lc2pocTFUZEl3VElvMkVkTWdncjcycVp2QlVXTkpyenBLWUlTcElncnlFc1lkV19uVlZUejVPTFpxM1k2VFZvU244RzJWOWF2dWdQUG40WjhBeWp5MEZpZDBGcTRXUDhfV2Zs?oc=5",
           "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Other Interests",
-      "slug": "other-interests",
-      "stories": [
-        {
-          "headline": "The 2026 Kavli Prize in Neuroscience goes to Erin Schuman for discovering that neurons make their own proteins on-site",
-          "summary": "Erin Schuman of the Max Planck Institute for Brain Research has received the 2026 Kavli Prize in Neuroscience. Her work showed that neurons synthesize proteins locally at synapses — not only in the cell body as textbooks stated — fundamentally changing how scientists understand memory formation and synaptic plasticity.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "The biggest scientific breakthroughs often come from showing that the rule everyone assumed was true is wrong for the most important cases.",
-          "why": "Worth knowing for its own sake. Schuman's local-translation work has downstream implications for understanding neurodegeneration, learning, and the design of neuro-targeted drugs. The Kavli Prize is the neuroscience Nobel equivalent — this is a finding with a long tail of applied consequences.",
-          "source": "BOOK RIOT",
-          "url": "https://bookriot.com/book-riots-deals-of-the-day-for-june-28-2026/",
-          "image": "https://bookriot.com/wp-content/uploads/2024/11/Gnomon.jpg.optimal.jpg",
           "developing": false
         }
       ]
@@ -72,8 +42,8 @@
       "name": "National Rural Development Conference",
       "when": "June 28-29, 2026 — New Delhi",
       "summary": "India's first national conference on rural development brings together policymakers, practitioners, and sector leaders for two days in Delhi. Opens today. Relevant if you work at the intersection of governance, agritech, rural livelihoods, or DPI deployment — and if you can still get a seat for day two.",
-      "source": "LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGVacHQyeWJXZFk3UExZWVRkbnp1M1YxU3hDamdtdFlnLTBjWXB3c3JMVndnNjA0YnVCUmJTWG5LZjJfdVRkMWpMRGxTa2k3aUZkOWo5alp2Z2kxVnRxMkRhVDJSV3Fkd2hnQzVuMHJ0RDBrWlhTNWpZbzVBMzBRMks5VHJJNnNZOXdLc05mWjB0Vjc3WlEyUGY4c0IzTF9DdTFrdlRjUQ?oc=5"
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFGalRabzg1a0F3Ym4ycE5lSmxZV1daSGl1SzhERmNjV3VrcTVndGJkak4xcm1MMm9sRmk4dnlmenNlMmVnN1NRQjFSTUdfaHI4eXo4OVJwX3dYX1hzaVJNOU94LWJDYUIzSE5JTjVyRW5QeEZ2aGs0TURiN2hhdzVlc3pzaElzNklHOWw1NmVsYkF4SC1GY2xUZEowRFpUNlROYnJ2a0xUZ0E1UEhibUFZMUFwSmNhRl9Cb2FsekRIQdIBygFBVV95cUxNdjZYTHJuUVcyT09jYWtEUE5ZQ244b2lHX1k3cGM1R0FCVWRESlhBNVJ3LW9VNkdac3htVk82MTloTFdxcmNycC16OUpTS2N6dldHZUkyT29od1NoaTVVUDBrSGFZWU1wN196SGU2dDZ4M05IdkJUcW1CeGx5eHFHd0E1QTIzV1ozS3NYdWQ1SjNPVEc2REUxMS1sbE9TcjYxam50QjJKd21UN3luWDRFbU5jUklSaWRlUW1WTzdxeU9xSUlrVDVnbXl3?oc=5"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-06-26",
   "edition": 11,
-  "colophon": "52 sources scanned · 48 ok · 4 failed",
+  "colophon": "54 sources scanned · 50 ok · 4 failed",
   "lead": null,
   "frontpage": [
     {
@@ -15,6 +15,18 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?oc=5",
       "image": null,
       "developing": false
+    },
+    {
+      "headline": "Proactive climate resilience could save India's renewable energy sector $28 billion",
+      "summary": "A joint report by Zurich Insurance and Kotak finds that targeted climate resilience investment — flood barriers, grid hardening, better weather modeling — could prevent up to $28 billion in losses across India's renewable energy pipeline over the next decade. The pipeline at risk spans solar parks, wind farms, and transmission infrastructure exposed to extreme weather.",
+      "signal": [],
+      "badge": "",
+      "takeaway": "India's clean energy buildout has a $28 billion resilience gap — the question is who funds it and what financial and tech products emerge to close it.",
+      "why": "The intersection of insurance, climate tech, and infrastructure finance is where new products are being built. For this reader evaluating India climate-tech plays, risk modeling and resilience infrastructure are under-invested relative to generation capacity. The Jaipur angle: Rajasthan's solar farms face similar physical risks from dust storms and heat extremes — local exposure to a global problem.",
+      "source": "TheWire.in",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSXU1a1F5am9JdlgzT0Exdy1kSzdmcnhnY2dveld6bTczNG54cTVQSnBhUUlqMGJOTWc4Tk55LV8wdmU2Y25ma1FSYlpqc0J0VDJ0dFpWZ0NOMVdlTC1VREtMeEY1UGxMbVBLZGtjRTNZVlNmX0Q4RGx3WXlueFI2RUVzYTN5RlFIQzZ5TGNzRktNX0xCMGNFdTZ0c9IBoAFBVV95cUxPVi1iTmpVOGJwMEVGSTNwWjlOTUpVRHl4cUFyeHU0V09jbTV0cW9jVUNoZVZ0MTdVV25md1I2S3YyNlBxNWtCNGxFRTczNlk2a3dFRk40YlFxYk9OYXp3dzJ5eVdhNXQ0S1M0VnJkTHJQd2N4Zks1U1ZzRml1SjlYMld1ZmFNNGxUOWZUT1NIMUdyS0llRUJhTWI1eWVfLThU?oc=5",
+      "image": null,
+      "developing": false
     }
   ],
   "sections": [
@@ -23,12 +35,12 @@
       "slug": "ai",
       "stories": [
         {
-          "headline": "Accel's Subrata Mitra: India can build AI winners despite the US and China head start",
-          "summary": "Accel partner Subrata Mitra argues India has a credible path to globally competitive AI companies despite US and Chinese hardware and compute dominance. He points to India's software engineering depth, Indic language data advantages, and the enterprise AI application layer as structural edges that do not require owning the foundation model.",
+          "headline": "Patronus AI raises $50 million to build synthetic worlds for stress-testing AI agents",
+          "summary": "Patronus AI, founded by former Meta AI researchers, has raised $50 million to create digital test environments where AI agents can be put through high-stakes scenarios before real-world deployment. The startup is reportedly seeing near-insatiable demand from enterprises building agentic systems.",
           "signal": [],
           "badge": "",
-          "takeaway": "India's AI opportunity is in applications and vertical AI, not in foundation model races — a well-informed thesis from active capital.",
-          "why": "Useful framing for evaluating career moves in the AI space. The tension between Mitra's applications thesis and Sarvam's foundation model bet (see indian-startups-7, frontpage) is the live debate in Indian AI. Worth reading the full piece to understand where experienced capital is placing bets versus where the government's strategic interest lies — they are not the same.",
+          "takeaway": "You cannot safely ship AI agents without test infrastructure — Patronus is betting the world will pay well for that.",
+          "why": "Together with Sail Research raising $80 million this week, Patronus signals that agent evaluation and reliability is a serious category forming in real time. For someone tracking AI infrastructure investment, this is a two-data-point pattern worth noting.",
           "source": "News On AIR",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUjZkRE1QTzA0WnJrczVjTjJVdVdlM2tiRUdON0RISWw4ZUVlOGJxSHBuUWliRFNiSmhnNWRxOTJ1NHpXX2U4UTkyWVFOSlAzZVlheG9vVnhyY212UDBWMlFfYl9kcTdtLXJWUkw0cnlSeU1tMy1BREl1c2o2RE51UnE3NWl5R01BRHl5ODI0bExnRThYb25F?oc=5",
           "image": null,
@@ -37,74 +49,20 @@
       ]
     },
     {
-      "name": "Deep Tech",
-      "slug": "deep-tech",
+      "name": "Health Tech",
+      "slug": "health-tech",
       "stories": [
         {
-          "headline": "India's drone makers see a surge in orders for armed UAVs",
-          "summary": "Indian drone manufacturers are reporting a significant increase in orders for weaponised UAVs following recent conflict-driven demand signals, including the Iran war's demonstration of drone warfare effectiveness. Both government contracts and export interest are accelerating, per the Financial Times.",
+          "headline": "India is rebranding its pharma sector from cheap generics to cutting-edge drug maker",
+          "summary": "India is actively repositioning its pharmaceutical industry — long the world's pharmacy for affordable generics — toward innovation, biologics, and high-value specialty drugs. Government incentives for R&D and a push to attract global pharma partnerships beyond contract manufacturing are part of the strategy.",
           "signal": [],
           "badge": "",
-          "takeaway": "India is building a domestic drone defense industrial base rapidly — and with genuine demand now in hand, not just policy ambition.",
-          "why": "High-signal story for India's defense tech moment. The Atmanirbhar Bharat push in defense is showing results precisely because external conflicts validated the demand for armed UAVs. India's defense tech space is generating real startup and venture capital opportunities — a category worth tracking if you follow deep tech.",
-          "source": "Technology | The Guardian",
-          "url": "https://www.theguardian.com/australia-news/video/2026/jun/27/australian-rescue-team-uses-ai-powered-drone-to-find-lost-hikers-video",
+          "takeaway": "India's pharma ambition is upgrading from cost-leader to innovation partner — the next decade tests whether the R&D pipeline can support that claim.",
+          "why": "India's generic advantage is being competed away as other low-cost manufacturing hubs emerge. The innovation pivot is strategically necessary and creates investment opportunities if you can identify which Indian pharma companies have genuine R&D depth versus those repositioning on reputation alone.",
+          "source": "Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeVl5dW5PT1AycXU2VFU1UGgtMTJSZjZWWmR2d0E4UWRWdmo2a2Rzc2Nwck5CX3NQcTVLcWltalVmaFNTdkRYZldDOXNnYmxEck9LRTd1ZnF2X0p6SldoNFJjaEhDNjhPc0ZtRzdTdnVGRm1JSWU3TFdUMjA1aHNiTzVoRDhOYnVKUm8xa0NIcVhZZmVURjg3dTdiNzBpWURZQy1Mb3A0bTlHcEFXcWlEdV9HV3NSNnVPN2fSAboBQVVfeXFMTnlZeXVuT09QMnF1NlRVNVBoLTEyUmY2VlpkdndBOFFkVnZqNmtkc3NjcHJOQl9zUHE1S3FpbWpVZmhTU3ZEWGZXQzlzZ2JsRHJPS0U3dWZxdl9KekpXaDRSY2hIQzY4T3NGbUc3U3Z1RkZtSUllN0xXVDIwNWhzYk81aEQ4TmJ1SlJvMWtDSHFYWWZlVEY4N3U3YjcwaVlEWUMtTG9wNG05R3BBV3FpRHVfR1dzUjZ1Tzdn?oc=5",
           "image": null,
           "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Agritech",
-      "slug": "agritech",
-      "stories": [
-        {
-          "headline": "India's draft Food Security Amendment would raise grain allocation to 7kg per person",
-          "summary": "A draft amendment to India's National Food Security Act proposes increasing per-person grain allocation from 5kg to 7kg while capping total family entitlements at 35kg per month. The amendment is in consultation stage and would significantly expand India's already massive food subsidy coverage if passed.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "India is expanding food welfare commitments even as it grapples with food security's structural vulnerabilities — the two are in tension.",
-          "why": "Policy context for understanding the agritech opportunity space. Larger subsidized grain distribution could dampen commercial food tech demand signals in the short term, but increases pressure on yield efficiency and logistics — areas where agritech intervention is most valuable. Food security will remain politically salient regardless of which party holds power.",
-          "source": "carboncopy.info",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSVdCYWpFcXMzMW4tWUNobWowYU9la3NjbDQ2VlNUWnRkLTJGSlpEX1gtRF9xRzFWNE4xRnNiRnNpcmxIc0pSdVNGNXlsVGs0WHFGSDFiS2lVbk9kZHNhZ1JROVdCOHdDT3NXVnVYRXkxSmtoYXRETG1zbFIyWGFYYWdSaDE3TXFsSnRPQXQ2T29Yd2dPWGM3d29xNzlSczg?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Indian Startups",
-      "slug": "indian-startups",
-      "stories": [
-        {
-          "headline": "Indian startup QOSMIC raises $3.3 million to build laser-based space communication links",
-          "summary": "QOSMIC has raised $3.3 million in seed funding to develop laser-based optical communication infrastructure for space, enabling high-bandwidth data transmission between satellites and ground stations. The startup enters a market heating up globally as LEO satellite constellations multiply.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "India now has a seed-stage player in optical space communication — a category that will matter significantly as satellite constellations scale.",
-          "why": "Interesting for deep tech tracking in India. Laser-based optical links are faster and more secure than radio-frequency alternatives. India's post-liberalization space sector has created room for exactly this kind of startup to emerge. Small raise, but it signals the ecosystem is deepening beyond software.",
-          "source": "The Daily Star",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPekp4SzV0dzNjSXBndXZwRDlfQ2ZLbXhCZFpVcDlEYWVUMEd6X3pEZnY0M2JzZ2k3dlhiaWdUOExLNmhvVzZYS2ZPTHJ3VzdIWjBwcWl6TW1JZGRldzhBMVNWUFVrQXBrazNDVS1YZjZkU2xSNEhSd1hhMTd4ckxtU2I5QW1WSXpmRnktcldyNmVpaksxOWlqSW1fczVzOFNfMlJhOUI5Nkt6aDlYUVE?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Global Economics",
-      "slug": "global-economics",
-      "stories": [
-        {
-          "headline": "Iran war is reshaping India's supply chains with costs and some selective opportunities",
-          "summary": "An IFPRI analysis maps how the Iran conflict is disrupting India's supply chains — raising shipping costs through the Gulf, affecting fertilizer and oil imports, and creating agricultural input uncertainty. It also notes India stands to gain selectively from trade diversion as global supply chains reroute away from conflict-affected corridors.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "The Iran war is net negative for India's import costs but creates selective opportunities in trade route diversification.",
-          "why": "Essential macro context for understanding India's current economic situation. The IMF's India growth affirmation (frontpage) is real but being tested by energy import costs routed through Hormuz. Supply chain disruption analysis is a core skill in founder's offices and strategy roles — this case study is live and worth studying in real time.",
-          "source": "Dailynewsegypt",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVnZVakdteUQxcFI1ckloa0duaDRzblNrVEZ1YkNIZHc0U3JwV19tWlU4QVJiVDdYUTFsd1lwVzdJcWRvUDM2UUJFYXNlQkRMV0hXeXdrY1g0S2NOckVSVjJYRnVfRHpmak1CQ2FURUVvZUoxLVJJYmpNcjBEbGZ6cnEwMHc1QVJvRGdVTVRFSVJuc1RXcEktMUJ2MHJEQ1hiVzI4dEoxbm8?oc=5",
-          "image": null,
-          "developing": true
         }
       ]
     }
@@ -114,15 +72,15 @@
       "name": "SGSITS Incubation Forum Cohort 3.0 — Startup Grant Program",
       "when": "Application deadline upcoming — verify at SGSITS or fundsforNGOs",
       "summary": "SGSITS, a prominent technical institute in Indore, Madhya Pradesh, is running its third cohort of a startup incubation and grant program. Open to early-stage Indian startups and student entrepreneurs. National reach; Indore is accessible from Jaipur. Worth checking if you have an early-stage idea or are supporting a founder.",
-      "source": "Mint",
+      "source": "livemint.com",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdXlFemdrYTlDTlFyRUR4bGJDU0RzUXg4UnA0S3lpNUN0LXVGVmRzcjhrcVI0UFE4a1N0dDUzSGtleF95RXFKa2ExQWdRbHpTcjBnNG9nVkJ1MVotTlFzc0VtMnVBN3U3TTgtSktEQUkyRVJlRVRlUGN3MzVGajh3Ry1UQUZSOXZ0cm5SZk0wYk5NYUc4VEVmV1M1WjRUZFd3dVhNdzRFNUVMTHFLVXV0dEFydXYybEw1cWhIbEZ0OTh4Q3BUaVhlNjVuSHdUZHRRSmppVHBTQmRRTS1BdS1ZS25taUdCN2gwdnk00gHwAUFVX3lxTE1sSHUtVGppNkREQ0hTU2ZwT2hrOHk2TzNKRnJmbXR3SUhodExCYUh5bWlVQ0ZpOVhQR3lFZUhoNy1xSVk5eDg4MlFtYjhiVUk0bzdYdnFFQUZ0YkNITld1Z3lFeGtROTh6Q1dJMXh2azZONTdDSmRvbnlJWm5VZk5waVc3cmIxdzF6QmZ1ZWdNLWV3cWcta1NFUXZpdm9uRWF4U3NVZ3k1SDQxU1pHNDVXNXpTWjF1NThhTlZBYmhlNHFrTlMybUI5SF9CYW9IU2N4cXA3SkRsU1oxRjFIN01YZGR1VTExX0JtWlN1eUxPTQ?oc=5"
     },
     {
       "name": "AESOP-IIT Delhi-UCL Joint Webinar on Urban Planning",
       "when": "Webinar 2 of series — check IIT Delhi or UCL events pages for date",
       "summary": "A joint academic webinar organized by AESOP (Association of European Schools of Planning), IIT Delhi, and University College London, exploring urban planning themes at the India-Europe intersection. Free to attend for researchers and practitioners with interest in urban development, smart cities, or Indo-European academic collaboration. Delhi-based but accessible globally as a webinar.",
-      "source": "LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGVacHQyeWJXZFk3UExZWVRkbnp1M1YxU3hDamdtdFlnLTBjWXB3c3JMVndnNjA0YnVCUmJTWG5LZjJfdVRkMWpMRGxTa2k3aUZkOWo5alp2Z2kxVnRxMkRhVDJSV3Fkd2hnQzVuMHJ0RDBrWlhTNWpZbzVBMzBRMks5VHJJNnNZOXdLc05mWjB0Vjc3WlEyUGY4c0IzTF9DdTFrdlRjUQ?oc=5"
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFGalRabzg1a0F3Ym4ycE5lSmxZV1daSGl1SzhERmNjV3VrcTVndGJkak4xcm1MMm9sRmk4dnlmenNlMmVnN1NRQjFSTUdfaHI4eXo4OVJwX3dYX1hzaVJNOU94LWJDYUIzSE5JTjVyRW5QeEZ2aGs0TURiN2hhdzVlc3pzaElzNklHOWw1NmVsYkF4SC1GY2xUZEowRFpUNlROYnJ2a0xUZ0E1UEhibUFZMUFwSmNhRl9Cb2FsekRIQdIBygFBVV95cUxNdjZYTHJuUVcyT09jYWtEUE5ZQ244b2lHX1k3cGM1R0FCVWRESlhBNVJ3LW9VNkdac3htVk82MTloTFdxcmNycC16OUpTS2N6dldHZUkyT29od1NoaTVVUDBrSGFZWU1wN196SGU2dDZ4M05IdkJUcW1CeGx5eHFHd0E1QTIzV1ozS3NYdWQ1SjNPVEc2REUxMS1sbE9TcjYxam50QjJKd21UN3luWDRFbU5jUklSaWRlUW1WTzdxeU9xSUlrVDVnbXl3?oc=5"
     }
   ]
 }

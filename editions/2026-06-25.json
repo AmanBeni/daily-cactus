@@ -1,7 +1,7 @@
 {
   "date": "2026-06-25",
   "edition": 10,
-  "colophon": "52 sources scanned · 48 ok · 4 failed",
+  "colophon": "54 sources scanned · 50 ok · 4 failed",
   "lead": null,
   "frontpage": [
     {
@@ -19,54 +19,18 @@
   ],
   "sections": [
     {
-      "name": "Deep Tech",
-      "slug": "deep-tech",
-      "stories": [
-        {
-          "headline": "Iran's coordinated drone swarm confused and evaded US fighter jets — and raised questions about China and Russia",
-          "summary": "Iran deployed a multi-drone formation — described by US military analysts as a jellyfish formation — that exploited the coordinated movement and radar profile of swarming drones to confuse and evade US fighter jets. The tactic has raised questions about whether China and Russia possess similar or more advanced capabilities.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "Drone swarm tactics that can spoof fighter jet response protocols are now an operational reality, not a theoretical threat.",
-          "why": "This matters for India's defence planning: air defence assumptions built around conventional missile and jet threats face a new challenge from low-cost swarms that overwhelm intercept capacity by volume and coordination. India's border situations with both Pakistan and China now have this threat dimension. Defence-adjacent strategy readers should track how militaries are adapting their response doctrine.",
-          "source": "Technology | The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/jun/27/ai-drone-rescue-kosciuszko-national-park-hikers-fire-rescue-nsw",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
       "name": "Climate & Energy",
       "slug": "climate-energy",
       "stories": [
         {
-          "headline": "A majority of the world's data centres are exposed to serious climate risks including floods and fires",
-          "summary": "A new study finds that most global data centres — including those powering AI workloads — are located in areas vulnerable to climate hazards such as extreme flooding, wildfires, and heat stress. The same AI systems driving demand for these facilities are contributing to the greenhouse gas emissions that worsen these risks.",
+          "headline": "Odisha signs a 1 GW renewable energy joint venture with NLC India",
+          "summary": "The Odisha government has signed a joint venture agreement with NLC India Renewables to develop 1 gigawatt of renewable energy capacity. The deal accelerates Odisha's clean energy transition, which has historically been dominated by coal power feeding large industrial consumers.",
           "signal": [],
           "badge": "",
-          "takeaway": "The AI infrastructure accelerating climate change is itself most exposed to climate damage — a feedback loop that data centre investors are only beginning to price in.",
-          "why": "For someone tracking AI infrastructure and climate, this is a structural risk story: data centre real estate and insurance will reprice as climate hazard maps are updated. India's data centre buildout — significant given the government's cloud push — needs to factor in monsoon flooding and heat stress resilience. Most current plans do not. This is an emerging due diligence dimension for anyone advising on Indian tech infrastructure.",
-          "source": "Carbon Brief",
-          "url": "https://www.carbonbrief.org/debriefed-26-june-2026-heat-records-broken-across-europe-london-climate-action-week-introducing-project-cosmos/",
-          "image": "https://www.carbonbrief.org/wp-content/uploads/2026/06/Electrification1__is_the_key_theme_of_this_year_s_CCC_report-scaled.png",
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Indian Startups",
-      "slug": "indian-startups",
-      "stories": [
-        {
-          "headline": "Space-tech startup QOSMIC raises $3.3 million in seed funding from Accel and Prosus",
-          "summary": "QOSMIC, a Bengaluru-based deep-tech startup working in the space technology sector, has raised $3.33 million in seed funding led by Accel and Prosus. The round is one of the larger seed raises in India's nascent but growing space-tech ecosystem.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "Accel and Prosus backing an Indian space-tech seed round signals the category has moved from government-adjacent curiosity to investable startup territory.",
-          "why": "India's space sector opened to private companies after ISRO's recent policy changes, and QOSMIC is one of the early recipients of institutional venture capital in that opening. For someone tracking Indian startup ecosystems, space-tech is worth watching: it intersects with defence, agriculture via remote sensing, and communications in ways that create a large addressable market without competing directly with Reliance or the Tatas.",
-          "source": "The Daily Star",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPekp4SzV0dzNjSXBndXZwRDlfQ2ZLbXhCZFpVcDlEYWVUMEd6X3pEZnY0M2JzZ2k3dlhiaWdUOExLNmhvVzZYS2ZPTHJ3VzdIWjBwcWl6TW1JZGRldzhBMVNWUFVrQXBrazNDVS1YZjZkU2xSNEhSd1hhMTd4ckxtU2I5QW1WSXpmRnktcldyNmVpaksxOWlqSW1fczVzOFNfMlJhOUI5Nkt6aDlYUVE?oc=5",
+          "takeaway": "A major coal state signing a 1 GW renewable JV signals India's energy transition is reaching even its most fossil-dependent economies.",
+          "why": "Odisha has significant industrial power demand from steel and aluminium plants. If it can shift even a portion of that load to renewables, it moves the needle on India's overall grid emissions profile. For readers tracking India's energy transition, state-level JVs like this are where the actual gigawatts get built — the national targets live or die in state execution.",
+          "source": "Earth Journalism Network",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ1ZEME9wUDYwcHd2dFJBQ19TTS1uVEZvUFI2RDRHOGg4RnU3b2M4Z3JDOHAxQnRGUXk3NWl2SGsta2NSWnE2UXE0VUR0aG4xcDB0SWladGl2M2h4YVBseHM0NEZCZTlsUVlYV2d4dEU0WlVHTkpFWlB2RUdQRmFidWFDZmtLLTUzUzZpaFVZZEhIRWpYdG85a1VXQkxETXIxcE5OOHZUQU11ODB5dWJjSHI2UmY2M0gzaDBZako2VGltdw?oc=5",
           "image": null,
           "developing": false
         }
@@ -78,8 +42,8 @@
       "name": "PW AI Startup Challenge 2026",
       "when": "Applications open now — deadline not specified, check link",
       "summary": "An India-national AI startup competition run by Physics Wallah. Aimed at AI founders and builders. Worth applying if you are working on an AI product — national in scope, open to applicants across India.",
-      "source": "NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFGalRabzg1a0F3Ym4ycE5lSmxZV1daSGl1SzhERmNjV3VrcTVndGJkak4xcm1MMm9sRmk4dnlmenNlMmVnN1NRQjFSTUdfaHI4eXo4OVJwX3dYX1hzaVJNOU94LWJDYUIzSE5JTjVyRW5QeEZ2aGs0TURiN2hhdzVlc3pzaElzNklHOWw1NmVsYkF4SC1GY2xUZEowRFpUNlROYnJ2a0xUZ0E1UEhibUFZMUFwSmNhRl9Cb2FsekRIQdIBygFBVV95cUxNdjZYTHJuUVcyT09jYWtEUE5ZQ244b2lHX1k3cGM1R0FCVWRESlhBNVJ3LW9VNkdac3htVk82MTloTFdxcmNycC16OUpTS2N6dldHZUkyT29od1NoaTVVUDBrSGFZWU1wN196SGU2dDZ4M05IdkJUcW1CeGx5eHFHd0E1QTIzV1ozS3NYdWQ1SjNPVEc2REUxMS1sbE9TcjYxam50QjJKd21UN3luWDRFbU5jUklSaWRlUW1WTzdxeU9xSUlrVDVnbXl3?oc=5"
+      "source": "Central Tibetan Administration",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUk9FdVNvM0EzUHV2MURIc1hRT3pkMktNNl8wbjVyaUUtX2JnUXdhT1NTOFFtMFk5N2dzaVRlMG9HMl8wZHhwVThIbHdVLTVWYUl5Q09ONThrcmdMeWN1SG9ZMnFBNDV0bXY5RUFla3d5SzQwajg0MkVSWDNKOTR3THpFVFVlSG9qdDdCaXZ1dmRoMTNrQW01TnRGcTFoUk5kNXJQSm13SDhRWG1sZ2RsYWloQ1E1cGFRXzhHLTRFWkdMV1NJMVBzRFhGdVFYejl1N0pSYWhNZUwyWGNSZ1lLREViMlFpWTRhSGVXd1FucmpEckZ0ZTlwa3Fn?oc=5"
     }
   ]
 }

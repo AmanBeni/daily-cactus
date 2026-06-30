@@ -1,65 +1,35 @@
 {
   "date": "2026-06-27",
   "edition": 12,
-  "colophon": "52 sources scanned · 48 ok · 4 failed",
+  "colophon": "54 sources scanned · 50 ok · 4 failed",
   "lead": null,
   "frontpage": [
     {
-      "headline": "OpenAI, SpaceX and others race to build their own chips and shrink Nvidia's grip",
-      "summary": "OpenAI has unveiled Jalapeño, a custom inference chip being designed with TSMC, as part of a wave of Big Tech firms building in-house silicon to reduce dependence on Nvidia GPUs. Google, Amazon, Meta and SpaceX are all on similar paths, collectively compressing Nvidia's pricing power on the inference side of the AI stack.",
+      "headline": "IMF warns AI will fuel inflation not just through chip costs but by making consumers richer",
+      "summary": "The IMF's chief economist argues that AI will drive inflation via a demand channel that has been under-discussed: by generating wealth, AI makes consumers more willing to spend, putting upward pressure on prices beyond the chip and energy cost spikes already in the forecasts. The report calls on central banks to update their models.",
       "signal": [],
       "badge": "",
-      "takeaway": "The inference chip market is fracturing fast — Nvidia's monopoly on AI hardware is being dissolved from below.",
-      "why": "Cheaper inference changes the economics of running AI products dramatically. If you are building on top of AI or advising companies that do, factor in a sustained drop in API costs over the next two to three years. India's semiconductor ambitions also get a clearer target: inference chips may be a more achievable wedge than training silicon.",
-      "source": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdWRteXctYlB6bmF4NGxPNDctUl9Ba0wybkhLTTBoLVRvNmhzaDBCRzRnNkVjUnJCNEFtMmo3SWJ0N05qZUNJNDdfYnd2ZXVhS3FscGtucy0yUkZ0Q1B3RGNOamthS01ZTFEyMUYyazF2endlc3B4cGdlbzVtSTFaOWhrR0RianpHNTI5WXNWaHNpNV9TVEE0eUEwMTg4QVdDS3FleDg2cXZROUEyOVZGSWpQbEpZRGxnOERQdl94MlZXVHpwWFE2am5abm85NXdDUGFtaTJEeHc5OWFKWXQyY1Q1VUpRM2FGOThqXzE3VHRYcUFkTjZDOUZ5UXU2cENCclHSAYcCQVVfeXFMTl80dlFlN3Q0dUVONVVjNklwY0JNZTJmQlBUOEJReVQwcUExaVNTeUNWVXoxQWxJYXdrUDBHSXNYcGhvT0RGZGZGV0ZQczRUSU94aVEwVVYxX0ZVR09RZXF4ejEzWGhKLUU3WGR1ajhaQmR2VG9INVlHSTJtSmdSUFNfYzdEN2o1aFhyTUpaVmJ3T2F6VGZlZllGVVhsZzZwcGNsTWIyc05zWC1wVnhZWGstTm1ZVnJfVzVRenl5X0RvdnJWc3BTanRpYklIN21COXNqQ3NqV08taXh2YUhuQ3dvSEkyMVMyVllNeE13aEJ0UldyMFRORHY3SXJOMUNRUi1CWFNDWjA?oc=5",
-      "image": null,
+      "takeaway": "AI is inflationary in a second, subtler way that central banks have not fully priced in — the wealth effect.",
+      "why": "If this analysis holds, the AI drives deflation consensus narrative is incomplete. Rate cuts may come later than markets expect, in both the US and India. For anyone in macro or strategy, this IMF view is a useful contrarian data point worth stress-testing against your own assumptions.",
+      "source": "Bloomberg Economics",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/s-korea-tightens-property-curbs-as-chip-boom-spurs-home-prices",
+      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iALWI2tmRpP4/v1/1200x-1.jpg",
       "developing": false
     },
     {
-      "headline": "Climate science confirms human emissions supercharged Europe's second record heatwave in two months",
-      "summary": "Western and central Europe has broken heat records for the second time in eight weeks. Attribution scientists confirm that human-caused warming made this heatwave substantially more intense and more probable. The UK broke its June temperature record for three consecutive days; France postponed public events; Poland issued wildfire warnings.",
+      "headline": "China's Zhipu AI delivers another low-cost frontier model, analysts call it a new DeepSeek moment",
+      "summary": "Beijing-based Zhipu AI has released a coding model competitive on benchmarks with Western equivalents at a fraction of the training cost, drawing comparisons to DeepSeek's January 2025 market shock. The model is attracting global developer attention.",
       "signal": [],
       "badge": "",
-      "takeaway": "Back-to-back attribution-confirmed records mean Europe's unprecedented heat is now the baseline, not the exception.",
-      "why": "India has direct exposure: European logistics slowdowns affect Indian exporters; climate migration from affected regions will reshape geopolitics; and rapid attribution science is tightening legal liability on emitters worldwide. Useful context for anyone thinking about climate risk in business strategy.",
-      "source": "Environment | The Guardian",
-      "url": "https://www.theguardian.com/environment/2026/jun/28/temperature-records-tumble-across-europe-as-heatwave-moves-east",
-      "image": null,
-      "developing": false
-    },
-    {
-      "headline": "India startup funding tops $1.09 billion this week, up 290% year-on-year",
-      "summary": "A CRED mega-round anchored an exceptional week for Indian startup funding, pushing the weekly total past $1 billion for the first time in years. Year-on-year the jump is 290%, though CRED's outsized round means the headline number flatters the broader ecosystem signal.",
-      "signal": [],
-      "badge": "",
-      "takeaway": "Adjust for the CRED effect, but a 290% year-on-year surge still signals serious capital returning to Indian tech.",
-      "why": "Consumer fintech at scale is back in favour with investors — CRED's raise is the clearest proof. The next two weeks of deal flow will show whether this is a one-off or the start of a fresh cycle. For someone building or advising in the ecosystem, this is a good moment to watch which sectors follow.",
-      "source": "The Daily Star",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPekp4SzV0dzNjSXBndXZwRDlfQ2ZLbXhCZFpVcDlEYWVUMEd6X3pEZnY0M2JzZ2k3dlhiaWdUOExLNmhvVzZYS2ZPTHJ3VzdIWjBwcWl6TW1JZGRldzhBMVNWUFVrQXBrazNDVS1YZjZkU2xSNEhSd1hhMTd4ckxtU2I5QW1WSXpmRnktcldyNmVpaksxOWlqSW1fczVzOFNfMlJhOUI5Nkt6aDlYUVE?oc=5",
-      "image": null,
+      "takeaway": "China producing capable low-cost frontier models is no longer a one-off — it is becoming a structural pattern.",
+      "why": "Each new Chinese model release compresses the time before powerful AI is cheap and widely available. For Indian founders and builders, this expands the model menu beyond proprietary Western APIs. It also raises a genuine strategic question: should Indian AI products be built on commercial US APIs, or on increasingly capable open-weight alternatives from China?",
+      "source": "Tech - South China Morning Post",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3358639/ai-agents-provide-economic-value-are-next-frontier-says-meta-ai-research-chief?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/28/70cb5296-071b-4ab4-8177-048e7b579930_4b59e2e6.jpg?itok=Ua9CRLJq&v=1782627613",
       "developing": false
     }
   ],
   "sections": [
-    {
-      "name": "AI",
-      "slug": "ai",
-      "stories": [
-        {
-          "headline": "After Anthropic's Mythos suspension, India formally pushes for guaranteed AI model access",
-          "summary": "Following the temporary suspension of Anthropic's Mythos model to Indian users, India's government formally pushed the US for assurances of stable AI technology access. The US has responded with commitments, and Mythos is being made available to trusted partners in a staged release.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "India has learned the hard way that US-controlled AI models can be switched off — and is now negotiating access guarantees.",
-          "why": "This is the geopolitics of AI dependency made concrete. India's AI ambitions — government, enterprise and startup — rest on models it does not control. The Mythos episode will likely accelerate India's push for domestic AI models and diversified vendor agreements. For anyone in AI policy or strategy, this is the most important structural story in Indian AI this month.",
-          "source": "India Today",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdnN6U3YxVGI2dDUyWFZnRUZQOFhUTnBpb296NGJxdjRDNkJBRWNRdFVlc1JvWTdMNk1iN0xvTzVOSzBwTWwxdGVySXMweDVfSHJZdHlDcmxLanphREZSc2p3YkQ2SDVNcHhiaER6d19lUXpWX0N6ZTlBa0lGWlMzNHJ3RlV4bEV4RS1DQ0ZWNURuSFJYT3FxVTVUT1E4RTRHRVZZbHNQN0RrVWVSWWw1aEVUdEVoRC1pejJuNW1jc09GUmfSAcgBQVVfeXFMT0lBajVfZ0kxUnNpVmxNdzZrdVlSaGFGTjRZR1NNOElwT0tFLVJMd3RmMTAyRTNENk9PREhITDFjdThlY1FUWHVCVHN6LWduZVlORUJRc1Zvb3ZoOU9lLTBDOWoteFZGZExrVkVVVTVFRUh2ajlHVzFTemJKMVBtUUh6dmtqMFE4aDBqNDdVQjd1aHBWX0I4NGxjSDZFWHVlUlM1YVRSWUZTU1d3cVhSaUZoVlpUV2dEQTVMMVJTSzlfZjhsSVd1NEM?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
     {
       "name": "Climate & Energy",
       "slug": "climate-energy",
@@ -71,62 +41,26 @@
           "badge": "",
           "takeaway": "Zone-based permitting is how India actually speeds up renewable energy — watch whether other states follow this template.",
           "why": "The regulatory friction point in Indian renewables has always been land and grid access, not capital. Zone designations directly address that. If this model works, it is a template for other states. For anyone in energy or infrastructure, the replicability of this approach is the story.",
-          "source": "The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQUtJM3phVGVCTEJheUYwMlh1UmdvOXlpdlFEc1NqX3hoVjQ0bFBDbjg3UGNNNTlHOFZRb1JkVHhJRmluNUJiN0pCdXN2YUpSSk5KMkFjV0ZIQlRuMUlTSk5XOFBhTmJjcVFtTnpXRTJiSUF6WE5oYUdMVFhWQ3VNVS1kcnRXYVBVeENMZEJhTHRXRWcyRDhBMjhNMUJ3OWZZQXV0T193ektseFhteVNnZWZuWFhGUFRvTmhFaHMyQ0kxTU9yZkFjdVpldjQwV20tNVNvclRfTFbSAd4BQVVfeXFMTm5ieDhkTlBkSHBzSTRwaXFGbHFSMy1TelNWa1NzMDN6MDhEX3JCb0x4WGZPbXpUdnNMYVp5V2p6YTZpay1Kall3SWQteG5ZQWlfSzRwZjNLOGNyeGhlQjhFTVpXTDZodFl1dVZQZ1ZNN0RfZnoycjJFbDNsSWlTQy1OdVZCUk5fcFJlLUd3RXpVSXZTNDlxWlZCSnpISV9VdHZVNmhOdDNJcEIwNDY4RmkwOHpncGtYVlJ2cEdWdUFRWkZqaG8wMXN4US0yeVlVRmlMYlVTYm1tYmN1a1h3?oc=5",
+          "source": "International Institute for Sustainable Development",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMXdOQUhaTFFFVHJnYnhsWHFnSWV4dS1pZmV3WVBmMDh1LUEydks2aklrMUMzcURrVHVkSXl2aXcxdVJoTTJFWlVrQm5IamVMM3RGOVVERkRXWVpwUjM2X1RFMEIwS3MzbThicHhEUmJpamhtYUpHbVVHRUJYVmdRbFYxOGVTOHJsQ1dETjhnSkJPZTg?oc=5",
           "image": null,
           "developing": false
         }
       ]
     },
     {
-      "name": "Agritech",
-      "slug": "agritech",
+      "name": "Health Tech",
+      "slug": "health-tech",
       "stories": [
         {
-          "headline": "Cold chain infrastructure is the missing link holding back India's next food economy",
-          "summary": "An ET Hospitality analysis argues that India's food economy is constrained less by production and more by the absence of integrated cold chain infrastructure. Post-harvest losses remain among the world's highest, limiting the value farmers can capture and the products India can export at quality.",
+          "headline": "India's pharma industry is tariff-proof but faces a deeper China dependency problem",
+          "summary": "An analysis in The Diplomat argues that India's generic pharma sector has successfully positioned itself beyond US tariff risk, but remains acutely dependent on Chinese active pharmaceutical ingredients. The piece traces how this dependency emerged and why substituting it is harder than Indian manufacturers admit.",
           "signal": [],
           "badge": "",
-          "takeaway": "India wastes roughly 16-18% of food post-harvest — cold chain is not a logistics problem, it is an economic opportunity.",
-          "why": "For anyone in agritech, food, or infrastructure, cold chain is one of the highest-leverage gaps in the Indian food system. The constraint is not capital scarcity but fragmented, unconnected facilities. A platform that integrates cold storage, transport and last-mile delivery at district level could unlock enormous value. Practically actionable for a founder.",
-          "source": "ETV Bharat",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbE1vTjNTa3B1Sko1dFRzOGZqczg3OC1RT2pqN2dSYmpUR3JIRzNpVnQ5eDk4TlJoYUZpTHlaZnJ6ejgtN1V6VFl0dHNiMTBIZWluZnNNa002MXd4Q0t5dDhLcEdDMmNzbGlkcnlOWnI0Ykw0TW1jdV9XNzVZS0VWYzBQeEpKU1R1NVplS3ItaERucE9XQTJLQ25fZ3VxcFFnZTFfZ0xZM3RGamttX2ctNkllei15NmpHOHp4QVFSYUVNVWo3VERlTUFsS0pOc1dlRm5LQtIB2gFBVV95cUxPMWtGRHdlTnRKemJhVnFYWU52enh6YXFydksyUGlBNllNcjFaQ3pJMjBrRzNibVFyODUzcmRKWUF5R0s0a3MxdlFjSUo0WWl3TC1rRkd4OGxVZ3otbE9VU3NOc3dfVTZNYjNWSnktUjJaQ2Jiajl1UHFiLUxkRmpyNHpVUV81QXpyVW1mQ3hLOV8tLS1LUlBpenl6eTFFTWtHWjhaN0RxWGZ5YXdjdm1NbHRMVVh0blMwNTRrcmdsZXVrTmNDTEJ5SFVqbjJIUkpiVENJeGZKVTRKUQ?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Global Economics",
-      "slug": "global-economics",
-      "stories": [
-        {
-          "headline": "S&P affirms US credit rating at AA+ with stable outlook despite high fiscal deficits",
-          "summary": "S&P Global Ratings maintained the US sovereign credit rating at AA+, one notch below the top triple-A, citing a resilient economy and high but stable fiscal deficits. The stable outlook signals S&P sees no near-term risk of a downgrade despite continued US government borrowing.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "S&P is not alarmed by US deficits yet — but AA+ is already a downgrade from historic AAA, a reminder of the direction of travel.",
-          "why": "A stable US rating keeps dollar funding costs from spiking, which matters for emerging markets like India that price off US treasuries. Useful background context, not immediately actionable.",
-          "source": "Forbes",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQW1NNjJmMVY2ZXRaRTNrWEJ0elBfMW54SmFIelFqWUtWVkw3OUVvV21jTUZBb2pNekZqcktRTm9MWnV3dzItUGlIbk1ucnMxRUJQZ3MzV0llMTFiLTVETm1XLWhKaWxDajNCM0p4X3VSWThHcUhweWpNU19tS184X1lZRXhzUml4NEhVSTRrd2pZZWhYRWZMYlhfQ3ZxZVNxQThWWm8tTjlLd2FFUzg4SEFXMA?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "India",
-      "slug": "india",
-      "stories": [
-        {
-          "headline": "India-UK free trade agreement aims for transformational growth, 1,000 advisors deployed",
-          "summary": "Commerce Minister Piyush Goyal described the India-UK Comprehensive Economic and Trade Agreement as a vehicle for transformational growth for both economies. The government is deploying 1,000 advisory personnel and upgrading its trade portal to help Indian businesses leverage the deal.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "India-UK CETA is signed — now comes the harder work of actually using it, which is where most FTAs fail.",
-          "why": "For Indian businesses and startups, the advisory infrastructure is the actionable angle: 1,000 trade advisors and a new portal mean tangible support for identifying UK market opportunities. If you are building anything with potential UK enterprise customers, this is the moment to explore what CETA actually offers your sector.",
-          "source": "The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTFpQTFQ2VzVVSlpCQ2YyVU80RGNRQWZpRVpIM3g2VzRSY3lhZ3gyMmtIaUw2OEFZMWVTLWk3bDUwUEdUa0QwTnRwNnR2WG1fOVRrZnNyNVRMZ1pDUnJuMGNqNEFYM1ZCcmU5ZlRjc1hETWtVdnl4cEJHc2RVRHM1cVhqbERBaXBsRGZsejdra2lqOEF4Mi12RGh1NWVnMmo1VEg3MXh5TEdPREdSX1B0OXVzX3A0VFVV0gG_AUFVX3lxTE54cXZ2bGVmbU9LTUVsSHlwUEtXYmZOU09QWlhOYm5MbUJLMXpISDN2NkZpX19YSURhUTVvQTU5MC1Eek5BTS1TY2JMaXN5VDJ0REJNZXg2NnRxc3lmOW5oaGpMTDlpc0ZPTFVlU2VMdDctSElNU2UxeW5vSDUxYW16X3ZVc0FSY3ptS25Pb05obUJLVzFJbkljRE4tX3BGdGI3S2o2WVJIMDdrWnkyX3RGUktrenViQW53eGhwRXhv?oc=5",
+          "takeaway": "India's pharma resilience story has a hidden vulnerability: the supply chain runs through China, not around it.",
+          "why": "For anyone tracking India's industrial strategy or healthcare supply chains, this is the honest version of the India as global pharmacy narrative. The API dependency is a strategic risk that both government and investors are underweighting. It is also an opportunity: whoever solves domestic API manufacturing in India at scale builds a genuinely strategic asset.",
+          "source": "Indiatimes",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUnJjUkVnRmx4V293ZG5DWWRXS3VsNzFWR25FbERnM0JRc09BTGVOSFZ3VWNuWlhKa1dzLXJod0pwVG1GMjRINDg5d0tnRThubnh2dV9UV3pZS3hDYlZiM0t5VTg0ZVVjNjRGVUVNRUdlYUEwSmp0MUtZQ3pLNm5zemYxNEdVSUNLRndZdkRpRWNQZWJobTg4MTB5LWxpQmhJaTV6VUhOSWxhQWozNjI2OXNfLWxSY3pBdDJBRE1TVTBiUUpvQUJKSUotR3lTUGkxdVJFNFlmUk5tb2hXLUxNclJISk4yTG43aHQyTlNOSFF1UQ?oc=5",
           "image": null,
           "developing": false
         }
@@ -147,6 +81,18 @@
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?oc=5",
           "image": null,
           "developing": false
+        },
+        {
+          "headline": "Severe heatwave puts 95 of the world's hottest cities inside India",
+          "summary": "A severe heatwave has placed 95 of the world's hottest cities within India, with cities across Rajasthan, Uttar Pradesh and Madhya Pradesh recording extreme temperatures. Health and agricultural impacts are mounting across the affected regions.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "When 95 of the world's hottest cities are in India simultaneously, the climate story is no longer abstract — it is the daily lived reality.",
+          "why": "This matters directly for a reader in Jaipur. Beyond the immediate health risk, sustained extreme heat reshapes labour productivity, agricultural yields, water availability and urban planning in ways that compound over years. The structural case for India's climate adaptation investment (see climate-energy-3) becomes harder to dispute the worse these numbers get.",
+          "source": "UN News",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xSWR6VmtrVzVfeFB1WUNjX0Vwc2x4eUdEVDJJLWpIdm9UbVg3dFdLZVNGRkNOa2pkc3ZKWEIyWnlnRDl1MkxmT2F6TndaTHg2ei1xTGhFbw?oc=5",
+          "image": null,
+          "developing": false
         }
       ]
     }
@@ -156,15 +102,15 @@
       "name": "First-Ever National Rural Development Conference",
       "when": "June 28-29, 2026",
       "summary": "Inaugural national conference on rural development held in Delhi, bringing together policymakers, practitioners and researchers on India's rural economy. Relevant for anyone working on agritech, rural fintech, or India's development agenda. Delhi, national.",
-      "source": "NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFGalRabzg1a0F3Ym4ycE5lSmxZV1daSGl1SzhERmNjV3VrcTVndGJkak4xcm1MMm9sRmk4dnlmenNlMmVnN1NRQjFSTUdfaHI4eXo4OVJwX3dYX1hzaVJNOU94LWJDYUIzSE5JTjVyRW5QeEZ2aGs0TURiN2hhdzVlc3pzaElzNklHOWw1NmVsYkF4SC1GY2xUZEowRFpUNlROYnJ2a0xUZ0E1UEhibUFZMUFwSmNhRl9Cb2FsekRIQdIBygFBVV95cUxNdjZYTHJuUVcyT09jYWtEUE5ZQ244b2lHX1k3cGM1R0FCVWRESlhBNVJ3LW9VNkdac3htVk82MTloTFdxcmNycC16OUpTS2N6dldHZUkyT29od1NoaTVVUDBrSGFZWU1wN196SGU2dDZ4M05IdkJUcW1CeGx5eHFHd0E1QTIzV1ozS3NYdWQ1SjNPVEc2REUxMS1sbE9TcjYxam50QjJKd21UN3luWDRFbU5jUklSaWRlUW1WTzdxeU9xSUlrVDVnbXl3?oc=5"
+      "source": "Central Tibetan Administration",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUk9FdVNvM0EzUHV2MURIc1hRT3pkMktNNl8wbjVyaUUtX2JnUXdhT1NTOFFtMFk5N2dzaVRlMG9HMl8wZHhwVThIbHdVLTVWYUl5Q09ONThrcmdMeWN1SG9ZMnFBNDV0bXY5RUFla3d5SzQwajg0MkVSWDNKOTR3THpFVFVlSG9qdDdCaXZ1dmRoMTNrQW01TnRGcTFoUk5kNXJQSm13SDhRWG1sZ2RsYWloQ1E1cGFRXzhHLTRFWkdMV1NJMVBzRFhGdVFYejl1N0pSYWhNZUwyWGNSZ1lLREViMlFpWTRhSGVXd1FucmpEckZ0ZTlwa3Fn?oc=5"
     },
     {
       "name": "SGSITS Incubation Forum Cohort 3.0 — Startup Grant Program",
       "when": "Applications open, India",
       "summary": "Third cohort of SGSITS Incubation Forum's startup grant program for early-stage ventures in India. Worth a look if you are early-stage or advising founders who are. National.",
-      "source": "Central Tibetan Administration",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUk9FdVNvM0EzUHV2MURIc1hRT3pkMktNNl8wbjVyaUUtX2JnUXdhT1NTOFFtMFk5N2dzaVRlMG9HMl8wZHhwVThIbHdVLTVWYUl5Q09ONThrcmdMeWN1SG9ZMnFBNDV0bXY5RUFla3d5SzQwajg0MkVSWDNKOTR3THpFVFVlSG9qdDdCaXZ1dmRoMTNrQW01TnRGcTFoUk5kNXJQSm13SDhRWG1sZ2RsYWloQ1E1cGFRXzhHLTRFWkdMV1NJMVBzRFhGdVFYejl1N0pSYWhNZUwyWGNSZ1lLREViMlFpWTRhSGVXd1FucmpEckZ0ZTlwa3Fn?oc=5"
+      "source": "News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN01DWnhkZE01T0M0dGJhZWgweHNxNjBwMzZlclZ6eFlQMGRDbmMtVFJuTnhXbVhzeUZxVTVQZm1pWVFoRHFlRmZxS2dGMXhZbXVhUURoQm9HMUcyc0hWTEFuVFZqVndoWE5McjNGb3NCcG9oT3VRNGNKaHBCWDZsWnR5VmFzNW42WGh2QTEyS1E4Tk5KeWx2MU5sU3JUSk0tY04tYkRXOWl2UQ?oc=5"
     }
   ]
 }

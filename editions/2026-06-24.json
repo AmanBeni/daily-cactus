@@ -1,24 +1,67 @@
 {
   "date": "2026-06-24",
   "edition": 9,
-  "colophon": "52 sources scanned · 48 ok · 4 failed",
+  "colophon": "54 sources scanned · 50 ok · 4 failed",
   "lead": null,
-  "frontpage": [],
+  "frontpage": [
+    {
+      "headline": "A Bengaluru startup is not racing Nvidia on speed — just on price",
+      "summary": "The Ken profiles a Bengaluru AI chip company building inference-optimised silicon designed to undercut Nvidia on cost rather than compete on raw performance. The thesis: most production AI workloads run on inference, not training, and they do not need the fastest chip — just a cheap enough one. The startup is pitching Indian and global cloud players.",
+      "signal": [],
+      "badge": "",
+      "takeaway": "India's best shot at the chip market may be the inference layer, where price beats petaflops.",
+      "why": "For anyone tracking Indian deep tech, this is the clearest articulation yet of a viable wedge strategy. If the startup gets traction, it validates a model where Indian hardware companies compete not on frontier benchmarks but on cost-per-token at scale. Worth watching who funds the next round and whether the IP is defensible.",
+      "source": "YourStory RSS Feed",
+      "url": "https://yourstory.com/2026/06/startup-news-and-updates-daily-roundup-june-29-2026",
+      "image": "https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/RoundupIMG21600x900-1763028299752.jpg",
+      "developing": false
+    },
+    {
+      "headline": "China's surgical robot clears the EU, and its AI tops a clinical benchmark — the medical AI race just changed",
+      "summary": "A Chinese teleoperated surgical robot became the first from China to receive European Union regulatory clearance, opening a key Western market. In the same week, a Chinese clinical-grade AI model topped a major healthcare benchmark, outperforming Western competitors. Both milestones signal maturation of China's health-AI sector.",
+      "signal": [],
+      "badge": "",
+      "takeaway": "China's medical AI is no longer catching up — it has cleared the West's hardest regulatory gate and is benchmarking ahead.",
+      "why": "For Indian health-tech watchers, this closes a window. The competitive gap that Indian companies might have exploited is narrowing from the Chinese side faster than expected. If you are evaluating health-AI startups, add 'how does this differentiate from Chinese players with EU approval' to the due-diligence list.",
+      "source": "Tech - South China Morning Post",
+      "url": "https://www.scmp.com/tech/tech-war/article/3358745/chinas-piotech-looks-acquire-wuxi-shangji-amid-us-chip-curbs?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/29/0ab160cd-eeea-4151-9f6e-aebf21825b76_08a34ef5.jpg?itok=SGdJTQFW&v=1782720153",
+      "developing": false
+    }
+  ],
   "sections": [
     {
-      "name": "Global Economics",
-      "slug": "global-economics",
+      "name": "Deep Tech",
+      "slug": "deep-tech",
       "stories": [
         {
-          "headline": "PBOC adviser hints at a possible rate cut in China but says targeted support is also needed",
-          "summary": "An adviser to China's central bank said a rate cut remained possible in 2026 but cautioned that monetary easing alone would not be enough — the economy also needs targeted measures to support technological innovation and household consumption. The comments suggest China's leadership is debating the mix between broad stimulus and structural policy.",
+          "headline": "China's surgical robot clears the EU, and its AI tops a clinical benchmark — the medical AI race just changed",
+          "summary": "A Chinese teleoperated surgical robot became the first from China to receive European Union regulatory clearance, opening a key Western market. In the same week, a Chinese clinical-grade AI model topped a major healthcare benchmark, outperforming Western competitors. Both milestones signal maturation of China's health-AI sector.",
           "signal": [],
           "badge": "",
-          "takeaway": "China will likely cut rates, but the PBOC knows cuts alone cannot fix structural demand weakness.",
-          "why": "China's easing cycle matters for India: a weaker yuan and slower Chinese growth tends to redirect export competition toward Indian markets, while Chinese stimulus can move commodity prices. Useful macro backdrop for anyone thinking about India's competitive position in manufacturing and exports.",
-          "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU0tnYmloaHpIVTVmYUZHSUljRy1XNHN2VU8wSDVxSk5DRmJFUkNDWjNzOXJ6ejd0a0hGWmoxMWJncnZOQm5taGpMU09TMjBTMEFkUWlTZXVDMXRoUkhoZGRTWVdUTnVzaXhoRHlQUmloSnpPUTVBYU9rbFV0ZE1VTUFnZGZ2RkRTTWRjQ1dqVE9Telg2c285TlBTRFYyVDNFc1pxcUExa0lkZ3ZUTy1MZEp0N2pOTzg4ZFo4?oc=5",
-          "image": null,
+          "takeaway": "China's medical AI is no longer catching up — it has cleared the West's hardest regulatory gate and is benchmarking ahead.",
+          "why": "For Indian health-tech watchers, this closes a window. The competitive gap that Indian companies might have exploited is narrowing from the Chinese side faster than expected. If you are evaluating health-AI startups, add 'how does this differentiate from Chinese players with EU approval' to the due-diligence list.",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/tech-war/article/3358745/chinas-piotech-looks-acquire-wuxi-shangji-amid-us-chip-curbs?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/06/29/0ab160cd-eeea-4151-9f6e-aebf21825b76_08a34ef5.jpg?itok=SGdJTQFW&v=1782720153",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "A Bengaluru startup is not racing Nvidia on speed — just on price",
+          "summary": "The Ken profiles a Bengaluru AI chip company building inference-optimised silicon designed to undercut Nvidia on cost rather than compete on raw performance. The thesis: most production AI workloads run on inference, not training, and they do not need the fastest chip — just a cheap enough one. The startup is pitching Indian and global cloud players.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "India's best shot at the chip market may be the inference layer, where price beats petaflops.",
+          "why": "For anyone tracking Indian deep tech, this is the clearest articulation yet of a viable wedge strategy. If the startup gets traction, it validates a model where Indian hardware companies compete not on frontier benchmarks but on cost-per-token at scale. Worth watching who funds the next round and whether the IP is defensible.",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/06/startup-news-and-updates-daily-roundup-june-29-2026",
+          "image": "https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/RoundupIMG21600x900-1763028299752.jpg",
           "developing": false
         }
       ]
@@ -29,29 +72,29 @@
       "name": "Qualcomm India Snapdragon Multiverse Hackathon",
       "when": "Registrations open — 2026",
       "summary": "Qualcomm India is running a hackathon to build multi-device AI solutions using Snapdragon hardware. Designed for developers and founders interested in on-device intelligence, edge AI, and hardware-software co-design. Qualcomm hackathons typically include mentorship, hardware access, and paths to visibility with the company's ecosystem.",
-      "source": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU19NT00zY19HV3g1YVZWTkFtZkRvdlo3SVVRNlQtRlZPSE5xOUZzTk41RDM2emFLVkZKZEt6X0FXNVQweWJycnVWbHV5MmdOM2JXOHBJdWZ4WDFXRFNqM0p3cEVaY19LbVFieS1jcWtESFJlejQ0c29SWC1tU0hwT2Q2eUpyaElDVVNPRGNaV1lqUzFJWmU4QVVtakRlY0VObmRFdTNPN2FsUDcy?oc=5"
+      "source": "ICC",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaDZIMFhSR3dVTzVZWEQyeTI5aElNZVBydkVtd0NHbmZ2MkJqYzh1TWUtMXFLZ1U3SXU4TEdWeTZGSHVTRDhHdUZObFo0MXJnOW9ORjN0cnVMN3BobXpSNXoyejk0MnBDcy1PQXAwcE5VbjlaSS02aVN3MFE1VVNJNjNYYVkyZThlRzdsdk5BTHdHV3gtR3NYejRZUHF3Um05dEFwUGNqQ0VJZDZFTm9YTDcwVWJ2Q2FCV0hfWnp4UE9MZm9QNklKVDFXM1JuQQ?oc=5"
     },
     {
       "name": "PW AI Startup Challenge 2026 (India)",
       "when": "Open now — 2026",
       "summary": "Physics Wallah is running a startup challenge for teams building in the AI or education space in India. Worth applying if your idea has an ed-tech or AI angle targeting the Indian market — PW's distribution and brand give winners meaningful exposure.",
-      "source": "NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFGalRabzg1a0F3Ym4ycE5lSmxZV1daSGl1SzhERmNjV3VrcTVndGJkak4xcm1MMm9sRmk4dnlmenNlMmVnN1NRQjFSTUdfaHI4eXo4OVJwX3dYX1hzaVJNOU94LWJDYUIzSE5JTjVyRW5QeEZ2aGs0TURiN2hhdzVlc3pzaElzNklHOWw1NmVsYkF4SC1GY2xUZEowRFpUNlROYnJ2a0xUZ0E1UEhibUFZMUFwSmNhRl9Cb2FsekRIQdIBygFBVV95cUxNdjZYTHJuUVcyT09jYWtEUE5ZQ244b2lHX1k3cGM1R0FCVWRESlhBNVJ3LW9VNkdac3htVk82MTloTFdxcmNycC16OUpTS2N6dldHZUkyT29od1NoaTVVUDBrSGFZWU1wN196SGU2dDZ4M05IdkJUcW1CeGx5eHFHd0E1QTIzV1ozS3NYdWQ1SjNPVEc2REUxMS1sbE9TcjYxam50QjJKd21UN3luWDRFbU5jUklSaWRlUW1WTzdxeU9xSUlrVDVnbXl3?oc=5"
+      "source": "Central Tibetan Administration",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUk9FdVNvM0EzUHV2MURIc1hRT3pkMktNNl8wbjVyaUUtX2JnUXdhT1NTOFFtMFk5N2dzaVRlMG9HMl8wZHhwVThIbHdVLTVWYUl5Q09ONThrcmdMeWN1SG9ZMnFBNDV0bXY5RUFla3d5SzQwajg0MkVSWDNKOTR3THpFVFVlSG9qdDdCaXZ1dmRoMTNrQW01TnRGcTFoUk5kNXJQSm13SDhRWG1sZ2RsYWloQ1E1cGFRXzhHLTRFWkdMV1NJMVBzRFhGdVFYejl1N0pSYWhNZUwyWGNSZ1lLREViMlFpWTRhSGVXd1FucmpEckZ0ZTlwa3Fn?oc=5"
     },
     {
       "name": "IndiaAI Startups Global — International Acceleration Program, 2nd Cohort",
       "when": "Applications open — 2026",
       "summary": "IndiaAI's global acceleration program connects Indian AI startups with international markets, mentors, and investors. The 2nd cohort is active. Government-backed with real international reach — if you are building an AI product and want global exposure with institutional support, this is one of the more credible pathways available right now.",
-      "source": "LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGVacHQyeWJXZFk3UExZWVRkbnp1M1YxU3hDamdtdFlnLTBjWXB3c3JMVndnNjA0YnVCUmJTWG5LZjJfdVRkMWpMRGxTa2k3aUZkOWo5alp2Z2kxVnRxMkRhVDJSV3Fkd2hnQzVuMHJ0RDBrWlhTNWpZbzVBMzBRMks5VHJJNnNZOXdLc05mWjB0Vjc3WlEyUGY4c0IzTF9DdTFrdlRjUQ?oc=5"
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFGalRabzg1a0F3Ym4ycE5lSmxZV1daSGl1SzhERmNjV3VrcTVndGJkak4xcm1MMm9sRmk4dnlmenNlMmVnN1NRQjFSTUdfaHI4eXo4OVJwX3dYX1hzaVJNOU94LWJDYUIzSE5JTjVyRW5QeEZ2aGs0TURiN2hhdzVlc3pzaElzNklHOWw1NmVsYkF4SC1GY2xUZEowRFpUNlROYnJ2a0xUZ0E1UEhibUFZMUFwSmNhRl9Cb2FsekRIQdIBygFBVV95cUxNdjZYTHJuUVcyT09jYWtEUE5ZQ244b2lHX1k3cGM1R0FCVWRESlhBNVJ3LW9VNkdac3htVk82MTloTFdxcmNycC16OUpTS2N6dldHZUkyT29od1NoaTVVUDBrSGFZWU1wN196SGU2dDZ4M05IdkJUcW1CeGx5eHFHd0E1QTIzV1ozS3NYdWQ1SjNPVEc2REUxMS1sbE9TcjYxam50QjJKd21UN3luWDRFbU5jUklSaWRlUW1WTzdxeU9xSUlrVDVnbXl3?oc=5"
     },
     {
       "name": "SAP Labs India 2026 Startup Studio Cohort",
       "when": "Open now — 2026",
       "summary": "SAP Labs India's Startup Studio is taking applications for its 2026 cohort, focused on enterprise AI and deep-tech innovation. Selected startups get access to SAP's enterprise customer network, technology stack, and senior mentors. Strong fit for B2B AI founders who want to sell into large enterprises and need credibility to open those doors.",
-      "source": "Nasscom",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPUU5COXh2cW40bmpVREhSaVRwcVBxUnc1NUt4cVdsQkxLdUZHNWlyQ3EtcmdKTnpMTExLd09TSTQ3eWFhNTJCVG9OWDZEUXdYWGVsX3hvcG1maV9XMXcxenhJX1VTSV9hRUU2YWtoMDduOEZkSHVQdG4tN2kwWk1oUk9UZFAzX1F3S0kxb0tia0FlQm10U0pFbzg4SE5VX18tcHZRSFM4d0hNUlBhQzY4RGFDR3RlUnNIZ1EwRHZhd2duMG5qVC02bjBmY19WbTZqWHpFVlF1ZnJUd05vaG5nU0VlNXczcThkazA5ZEhRQjNkMDdXZ3c?oc=5"
+      "source": "LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGVacHQyeWJXZFk3UExZWVRkbnp1M1YxU3hDamdtdFlnLTBjWXB3c3JMVndnNjA0YnVCUmJTWG5LZjJfdVRkMWpMRGxTa2k3aUZkOWo5alp2Z2kxVnRxMkRhVDJSV3Fkd2hnQzVuMHJ0RDBrWlhTNWpZbzVBMzBRMks5VHJJNnNZOXdLc05mWjB0Vjc3WlEyUGY4c0IzTF9DdTFrdlRjUQ?oc=5"
     }
   ]
 }
