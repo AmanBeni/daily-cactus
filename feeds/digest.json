@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-29",
-  "colophon": "52 sources scanned · 48 ok · 4 failed",
+  "date": "2026-06-30",
+  "colophon": "54 sources scanned · 50 ok · 4 failed",
   "sections": [
     {
       "name": "AI",
@@ -9,63 +9,73 @@
       "stories": [
         {
           "id": "ai-1",
-          "title": "Alternatives to OpenAI, Anthropic: With US prime AI off the table, India opts for fine China",
-          "source": "The Economic Times",
-          "summary": ""
+          "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
+          "img": false
         },
         {
           "id": "ai-2",
-          "title": "India along with 34 nations sign US led initiative to build resilient AI supply chains",
-          "source": "News On AIR",
-          "summary": ""
+          "title": "Bringing AI to India’s digital health infrastructure",
+          "source": "blog.google",
+          "summary": "",
+          "img": false
         },
         {
           "id": "ai-3",
-          "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
-          "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”"
+          "title": "India along with 34 nations sign US led initiative to build resilient AI supply chains",
+          "source": "News On AIR",
+          "summary": "",
+          "img": false
         },
         {
           "id": "ai-4",
-          "title": "India’s AI Dream Is Getting Lost in Translation",
-          "source": "Bloomberg.com",
-          "summary": ""
+          "title": "South Korean tech giants commit over $550B to ease ‘RAMageddon’",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "The world's two largest memory chip companies vow to build more memory lab fabs as South Korea positions itself as an AI tech powerhouse country.",
+          "img": false
         },
         {
           "id": "ai-5",
-          "title": "Private sector indispensable to India-US AI, critical minerals push: Official",
-          "source": "Indiatimes",
-          "summary": ""
+          "title": "Arena, the AI leaderboard everyone uses, is now a $100M business",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "The startup, which runs a popular free AI leaderboard, launched its commercial service just last September.",
+          "img": false
         },
         {
           "id": "ai-6",
-          "title": "New Chinese AI model is as good as Anthropic Mythos, report",
-          "source": "India Today",
-          "summary": ""
+          "title": "Tidal AI Policy",
+          "source": "TIDAL",
+          "summary": "",
+          "img": false
         },
         {
           "id": "ai-7",
-          "title": "AI and regulation redefine European retail",
-          "source": "Retail Insight Network",
-          "summary": ""
+          "title": "A 'Frontier' Moment for EU-India AI Governance",
+          "source": "orfonline.org",
+          "summary": "",
+          "img": false
         },
         {
           "id": "ai-8",
-          "title": "Insilico, SK Launch Up-to-$2.5B Neuroimmune AI Drug Collaboration",
-          "source": "Genetic Engineering and Biotechnology News",
-          "summary": ""
+          "title": "Patients are bringing AI to therapy",
+          "source": "American Psychological Association (APA)",
+          "summary": "",
+          "img": false
         },
         {
           "id": "ai-9",
-          "title": "Can AI improve IVF results in cattle? Ohio State research shows promise – Ohio Ag Net",
-          "source": "Ohio's Country Journal",
-          "summary": ""
+          "title": "AI agents are not your “coworkers”",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will r",
+          "img": false
         },
         {
           "id": "ai-10",
-          "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
-          "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron."
+          "title": "Agent confidence on the technical frontier",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "summary": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mount",
+          "img": true
         }
       ]
     },
@@ -76,63 +86,73 @@
       "stories": [
         {
           "id": "deep-tech-1",
-          "title": "As AI pushes data centres to breaking point, some Chinese chipmakers bet on SiC",
+          "title": "Top China chip toolmakers consolidate to build national champions, defy US curbs",
           "source": "Tech - South China Morning Post",
-          "summary": "As the global artificial intelligence (AI) boom puts intense pressure on data centre energy grids, some Chinese chipmakers are betting on highly efficient silicon carbide (SiC) semiconductors to help "
+          "summary": "China’s campaign for semiconductor self-sufficiency has entered a consolidation phase, with state-backed toolmakers swallowing smaller rivals in a bid to forge national champions aimed at defying US e",
+          "img": true
         },
         {
           "id": "deep-tech-2",
-          "title": "The final insurance frontier: Hong Kong spots opportunity in mainland China’s space boom",
-          "source": "Tech - South China Morning Post",
-          "summary": "Elon Musk’s recent record-breaking SpaceX IPO has thrust the space economy into the financial mainstream, but mainland China’s trillion-yuan commercial space sector remains strikingly underinsured – a"
+          "title": "‘We’re up against forces that have all the money in the world’: Erin Brockovich on her battle against AI datacentres",
+          "source": "Technology | The Guardian",
+          "summary": "In 1993, she squeezed a $333m settlement from a Californian energy company in a scandal over contaminated water. Three decades later, she has a new target in her sights – and it’s global When Erin Bro",
+          "img": false
         },
         {
           "id": "deep-tech-3",
-          "title": "Faster AI, lower costs: DSpark eases inference bottlenecks and chip strain, says DeepSeek",
-          "source": "Tech - South China Morning Post",
-          "summary": "Chinese artificial intelligence start-up DeepSeek has rolled out a major upgrade to its flagship V4 model aimed at sharply accelerating AI response generation, as competition among Chinese developers "
+          "title": "Seven lessons from founders building robotics businesses set to scale",
+          "source": "Bessemer Venture Partners",
+          "summary": "",
+          "img": false
         },
         {
           "id": "deep-tech-4",
-          "title": "Putin says Russia faces fuel shortages as Ukrainian drones strike refineries",
-          "source": "Financial Times",
-          "summary": ""
+          "title": "AI and Robotics Present Unique Challenges and Opportunities",
+          "source": "Advanced Manufacturing",
+          "summary": "",
+          "img": false
         },
         {
           "id": "deep-tech-5",
-          "title": "From factory floors to frontlines, humanoid robots gain ground",
-          "source": "The Times of India",
-          "summary": ""
+          "title": "Quantum computing startup says it will leapfrog everybody",
+          "source": "Science - Ars Technica",
+          "summary": "But the system would require a massive leap from any of its existing hardware.",
+          "img": true
         },
         {
           "id": "deep-tech-6",
-          "title": "Australian rescue team uses AI-powered drone to find lost hikers – video",
+          "title": "Shares in chipmakers underpinning AI boom rocket in first half of 2026",
           "source": "Technology | The Guardian",
-          "summary": "Two men in their 20s were found within five hours thanks to an artificial intelligence-powered drone, which used thermal imaging to locate them. Two hikers veered off a walking track in Kosciuszko nat"
+          "summary": "Value of some chip manufacturers have tripled, or more, driving Asia Pacific stock markets sharply higher Shares in chipmakers have surged in the first half of this year as investors piled into compan",
+          "img": false
         },
         {
           "id": "deep-tech-7",
-          "title": "Secure multi-party biometric verification using QKD assisted quantum oblivious transfer",
-          "source": "Nature",
-          "summary": ""
+          "title": "Ministers likely to support law change to allow delivery robots on England’s paths",
+          "source": "Technology | The Guardian",
+          "summary": "Exclusive: Safety campaigners concerned about plan for widespread deployment on already crowded pavements Large numbers of autonomous delivery robots could be coming to towns and cities across England",
+          "img": false
         },
         {
           "id": "deep-tech-8",
-          "title": "Next-gen drones, upgraded missiles: Iran says it built advanced weapons during war",
-          "source": "India Today",
-          "summary": ""
+          "title": "AI agents that provide ‘economic value’ are next frontier, says Meta AI research chief",
+          "source": "Tech - South China Morning Post",
+          "summary": "The next frontier of artificial intelligence will be agents that can perform “economically valuable” work across a broad range of real-world domains, according to Dawn Song, Meta Platforms’ new vice-p",
+          "img": true
         },
         {
           "id": "deep-tech-9",
-          "title": "Weirdly Fascinating: Robotic Arm Crawls Using Its Three Fingers.",
-          "source": "IEEE Spectrum",
-          "summary": ""
+          "title": "Disorder creates direction-dependent optics in compound semiconductors",
+          "source": "Phys.org",
+          "summary": "",
+          "img": false
         },
         {
           "id": "deep-tech-10",
-          "title": "Hikers lost in Kosciuszko national park rescued within five hours by AI drone",
-          "source": "Technology | The Guardian",
-          "summary": "Fire and Rescue NSW uses thermal imaging and a mobile phone red light to quickly locate men who veered off walking track near Jindabyne Get our breaking news email , free app or daily news podcast Two"
+          "title": "Oracle Adds New Fusion Agentic Applications to Help Customers Improve Supply Chain Performance",
+          "source": "Oracle",
+          "summary": "",
+          "img": false
         }
       ]
     },
@@ -143,63 +163,73 @@
       "stories": [
         {
           "id": "climate-energy-1",
-          "title": "NIO plans India’s 1st hybrid floating renewable energy platform off Goa",
-          "source": "The Times of India",
-          "summary": ""
+          "title": "Scaling Rural Distributed Renewable Energy in India - International Institute for Sustainable Development",
+          "source": "International Institute for Sustainable Development",
+          "summary": "",
+          "img": false
         },
         {
           "id": "climate-energy-2",
-          "title": "India's first green hydrogen train on track: It generates electricity & emits water vapour | India News",
-          "source": "Hindustan Times",
-          "summary": ""
+          "title": "The Policy Failures Holding Back Indias Solar Energy Sector",
+          "source": "TheWire.in",
+          "summary": "",
+          "img": false
         },
         {
           "id": "climate-energy-3",
-          "title": "Government Aims to Make India a Global Hub for Green Hydrogen: Pralhad Joshi | Akashvani News",
-          "source": "News On AIR",
-          "summary": ""
+          "title": "12 Communicators Trained on How to Report on Renewable Energy in EJN’s Workshop in Visakhapatnam",
+          "source": "Earth Journalism Network",
+          "summary": "",
+          "img": false
         },
         {
           "id": "climate-energy-4",
-          "title": "Guest post: Climate change has caused one-fifth of Pine Island glacier retreat",
-          "source": "Carbon Brief",
-          "summary": "The Pine Island glacier in West Antarctica is one of the fastest-changing glaciers in the... The post Guest post: Climate change has caused one-fifth of Pine Island glacier retreat appeared first on C"
+          "title": "India Data Centers Explore Seawater Cooling Amid Water Scarcity",
+          "source": "Indiatimes",
+          "summary": "",
+          "img": false
         },
         {
           "id": "climate-energy-5",
-          "title": "India's Big Step Towards Clean Fuel With Green Hydrogen From Nuclear Reactor",
-          "source": "NDTV",
-          "summary": ""
+          "title": "How solar energy can support India’s clean energy transition",
+          "source": "pv magazine India",
+          "summary": "",
+          "img": false
         },
         {
           "id": "climate-energy-6",
-          "title": "Body of boy, 15, recovered from Manchester reservoir amid UK heatwave",
-          "source": "Environment | The Guardian",
-          "summary": "At least seven people have died in water-related incidents during record-breaking June temperatures The body of a 15-year-old boy has been recovered from a reservoir near Manchester, as police renewed"
+          "title": "California’s choice: Cleaner air for schools or money for utilities",
+          "source": "Canary Media",
+          "summary": "Should California spend nearly $200 million helping public schools install healthier and more efficient heating, ventilation, air-conditioning, and plumbing systems? Or should it send the money back t",
+          "img": false
         },
         {
           "id": "climate-energy-7",
-          "title": "Heatwave and high humidity to blast much of US: ‘impactful to anyone’",
-          "source": "Environment | The Guardian",
-          "summary": "Forecasters expect days of high temperatures in central and eastern US before Fourth of July and World Cup festivities A long and dangerous heatwave will blast a large swath of the central and eastern"
+          "title": "Six charts show how clean power was world’s largest source of new energy in 2025",
+          "source": "Carbon Brief",
+          "summary": "Clean power added more to global energy supplies than any other source in 2025, according... The post Six charts show how clean power was world’s largest source of new energy in 2025 appeared first on",
+          "img": true
         },
         {
           "id": "climate-energy-8",
-          "title": "Germany, Czechia, Poland and Hungary swelter through hottest days on record",
+          "title": "‘Literally growing the future’: volunteers help save Scottish rainforest by collecting 11m seeds",
           "source": "Environment | The Guardian",
-          "summary": "Heat records of over 40C set as extreme weather spreads east, with more than 191m in Europe enduring 35C or above After decades of warnings, why is Europe so unprepared? Germany, Czechia, Poland and H"
+          "summary": "Teams painstakingly combed endangered Atlantic habitat over several years, helping to grow 8m native trees A small band of volunteers has helped to grow nearly 8m native trees in Scotland, crucial to ",
+          "img": false
         },
         {
           "id": "climate-energy-9",
-          "title": "Ampere hits 4 lakh mark as EV push gathers pace",
-          "source": "Manufacturing Today India",
-          "summary": ""
+          "title": "India’s Annual Solar Installations Could Reach 85 GW by FY30 on Rising Demand : Report",
+          "source": "Sarkaritel.com",
+          "summary": "",
+          "img": false
         },
         {
           "id": "climate-energy-10",
-          "title": "DeBriefed 26 June 2026: Heat records broken across Europe | London climate action week | Introducing ‘Project Cosmos’",
-          "source": "Carbon Brief",
-          "summary": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate... The post DeBriefed 26 June 2026: Heat records broken across Europe | London climate action"
+          "title": "Trump administration targets California coastal agency in escalation of energy production fight",
+          "source": "Environment | The Guardian",
+          "summary": "US commerce department accuses state of ‘environmental terrorism’ and plans to evaluate its coastal agency The Trump administration plans to evaluate the performance of the California Coastal Commissi",
+          "img": false
         }
       ]
     },
@@ -210,51 +240,59 @@
       "stories": [
         {
           "id": "health-tech-1",
-          "title": "Pharma: Can India take advantage of a China+1 opportunity",
-          "source": "Business Today",
-          "summary": ""
+          "title": "Bringing AI to India’s digital health infrastructure",
+          "source": "blog.google",
+          "summary": "",
+          "img": false
         },
         {
           "id": "health-tech-2",
-          "title": "Govt. to launch affordable digital health management system for small clinics across India",
-          "source": "The Hindu",
-          "summary": ""
+          "title": "STAT+: Unredacted comments from California hospital lawsuits show stunning admissions and a ‘forced’ McKinsey collaboration",
+          "source": "STAT",
+          "summary": "Who controls the Medicaid market, GLP-1 usage and pizza household costs, and more from Health Care Inc.",
+          "img": true
         },
         {
           "id": "health-tech-3",
-          "title": "India unveils Aarogya Setu 2.0 to expand digital health services",
-          "source": "ETGovernment.com",
-          "summary": ""
+          "title": "India s pharma sector at a crossroads can it seize the china 1 supply chain shift",
+          "source": "Indiatimes",
+          "summary": "",
+          "img": false
         },
         {
           "id": "health-tech-4",
-          "title": "From Oil To Infra And Pharma, The India-Guyana Connect Is Growing",
-          "source": "StratNews Global",
-          "summary": ""
+          "title": "Aarogya Setu 2.0: India’s Next Digital Health Push",
+          "source": "The Indian Practitioner",
+          "summary": "",
+          "img": false
         },
         {
           "id": "health-tech-5",
-          "title": "Union Minister Rajiv Ranjan Singh stresses research in pharma and biotech sectors | Akashvani News",
-          "source": "News On AIR",
-          "summary": ""
+          "title": "STAT+: AstraZeneca to pay $34 million to settle kickback charges filed by Texas attorney general",
+          "source": "STAT",
+          "summary": "AstraZeneca agreed to pay $34 million to settle claims that the company paid kickbacks to improperly influence prescriptions paid for by Texas Medicaid.",
+          "img": true
         },
         {
           "id": "health-tech-6",
-          "title": "BIO 2026: AI, federal policy impacts, and general vibes",
+          "title": "STAT+: 26 states sue to block Medicaid work requirements",
           "source": "STAT",
-          "summary": "What were the vibes like at BIO 2026? STAT reporters take you inside the annual industry conference on the latest episode of STATus Report."
+          "summary": "States argue the rules will make it too hard for people to get the Medicaid coverage they're entitled too.",
+          "img": true
         },
         {
           "id": "health-tech-7",
-          "title": "Supreme Court rules in weedkiller cancer case",
-          "source": "STAT",
-          "summary": "Dems want to unmask Eli Lilly's obesity drug user, a new genome-editing tool raises ethics questions, and more health news"
+          "title": "India’s pharma exports find a new growth engine in Brazil",
+          "source": "Moneycontrol.com",
+          "summary": "",
+          "img": false
         },
         {
           "id": "health-tech-8",
-          "title": "Tariff-Proof But Not China-Proof: The Geopolitics of India’s Pharma Power",
-          "source": "The Diplomat – Asia-Pacific",
-          "summary": ""
+          "title": "Union Health Minister Shri J.P. Nadda Launches Aarogya Setu 2.0 and Other Digital Initiatives for Health Sector",
+          "source": "PIB",
+          "summary": "",
+          "img": false
         }
       ]
     },
@@ -265,51 +303,59 @@
       "stories": [
         {
           "id": "agritech-1",
-          "title": "Between June 22 and June 27, 2026, as many as 18 Indian startups from diverse sectors raised over $1.08 billion in funding from investors. These sectors include Proptech, Ecommerce, Martech, Fintech, Spacetech, Cybersecurity, DevOps, Agritech, Logistics,",
-          "source": "instagram.com",
-          "summary": ""
+          "title": "UPES and IIT Guwahati partner to integrate AI across clean energy and agritech innovation ecosystem in India",
+          "source": "Agro Spectrum India",
+          "summary": "",
+          "img": false
         },
         {
           "id": "agritech-2",
-          "title": "Failed Monsoon A Test For Indian Food Security",
-          "source": "ETV Bharat",
-          "summary": ""
+          "title": "UPES, IIT Guwahati Launch SPARC-AI for AI-Driven Clean Energy and Agritech Innovation",
+          "source": "Energetica India Magazine",
+          "summary": "",
+          "img": false
         },
         {
           "id": "agritech-3",
-          "title": "Pakistan needs a national agricultural mechanization policy before food security becomes a crisis",
-          "source": "Business Recorder",
-          "summary": ""
+          "title": "Failed Monsoon A Test For Indian Food Security",
+          "source": "ETV Bharat",
+          "summary": "",
+          "img": false
         },
         {
           "id": "agritech-4",
-          "title": "Kenya’s overcrowded safaris: Wildlife for who?",
+          "title": "The Ideas Shaping Environmental Action",
           "source": "Conservation news",
-          "summary": "Thinking of going on safari? You’re not alone. The popularity of African safaris has led to a boom in safari companies, and scenes of overcrowded wildlife sightings and new tourism developments are be"
+          "summary": "What ideas are shaping responses to the environmental crisis? The Mongabay Newscast picks the brains of authors, researchers, activists and storytellers exploring the systems behind biodiversity loss ",
+          "img": true
         },
         {
           "id": "agritech-5",
-          "title": "French court orders TotalEnergies to disclose climate impacts in vigilance plan",
+          "title": "A coastal Philippine farm offers a blueprint for farming with wetlands",
           "source": "Conservation news",
-          "summary": "A French court has delivered a landmark judgment against oil and gas giant TotalEnergies SE, holding it accountable for the carbon footprint associated with its global operations. On June 25, the Pari"
+          "summary": "PITOGO, Philippines — The Glinoga Integrated Farm in Quezon province sits among brackish fishponds, some active, others long abandoned and slowly reclaimed by the landscape. About a four-hour drive fr",
+          "img": true
         },
         {
           "id": "agritech-6",
-          "title": "Mel Sunquist, field biologist and mentor to generations of conservationists",
+          "title": "Human rights abuse allegations continue to rise in the mining sector, report finds",
           "source": "Conservation news",
-          "summary": "In the 1970s, studying wild tigers still involved more nerve than equipment. A biologist could not rely on camera traps, GPS collars, or satellite-linked data. To understand where a tiger went, what i"
+          "summary": "Over the last several years, the United States and European Union have intensified efforts to secure the minerals needed for a clean energy transition. Officials have fast-tracked new projects and sig",
+          "img": true
         },
         {
           "id": "agritech-7",
-          "title": "PM Modi hands over 500 MT rice consignment to strengthen food security of Seychelles amid West Asia conflict: MEA",
-          "source": "ANI News",
-          "summary": ""
+          "title": "Farmers' Body ICCFM Urges PM to Keep Agriculture Out of India-US Trade Deal, Flags Risks to MSP and Food Security",
+          "source": "RuralVoice",
+          "summary": "",
+          "img": false
         },
         {
           "id": "agritech-8",
-          "title": "At Bonn Conference, Farmers’ Warn of Double Crisis Threatening Food Security",
-          "source": "carboncopy.info",
-          "summary": ""
+          "title": "The Protein Brewery says FDA GRAS setback won’t derail US plans as it raises $20.5m Series B extension",
+          "source": "AgFunderNews",
+          "summary": "The Protein Brewery was advised by the FDA to withdraw and refile its GRAS notice due to “deficiencies” but insists the move won't derail its US plans. The post The Protein Brewery says FDA GRAS setba",
+          "img": true
         }
       ]
     },
@@ -320,57 +366,73 @@
       "stories": [
         {
           "id": "indian-startups-1",
-          "title": "Fintech Startups To Watch: Startups That Caught Our Eye In June",
-          "source": "Inc42 Media",
-          "summary": "The month of June kept the Indian fintech sector busy on multiple fronts. The headline move came from CRED raising…"
+          "title": "Startup news and updates: daily roundup [June 29, 2026]",
+          "source": "YourStory RSS Feed",
+          "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Monday, June 29, 2026.",
+          "img": true
         },
         {
           "id": "indian-startups-2",
-          "title": "Sachin Tendulkar’s sportswear play; OpenAI’s India chief",
-          "source": "YourStory RSS Feed",
-          "summary": "Ten X You builds sportswear for Indian consumers, backed by Sachin Tendulkar. OpenAI names former Uber executive Prabhjeet Singh as India head."
+          "title": "AI software development startup 8090 nabs $135M funding round",
+          "source": "SiliconANGLE",
+          "summary": "",
+          "img": false
         },
         {
           "id": "indian-startups-3",
-          "title": "Exclusive: Vibe Coding Startup Rocket Seeks New Investment in SIG-Led Funding Round",
-          "source": "RS Web Solutions",
-          "summary": ""
+          "title": "BYJU’S raises $800 million funding round led by founder, valuation reaches $22 billion",
+          "source": "Elets Technomedia",
+          "summary": "",
+          "img": false
         },
         {
           "id": "indian-startups-4",
-          "title": "Former Meta researchers' startup raises $50 million",
-          "source": "The Daily Star",
-          "summary": ""
+          "title": "How AI Is Rewiring The Consumer Growth Stack Across India’s B2C Economy",
+          "source": "Inc42 Media",
+          "summary": "John Wanamaker, one of the biggest retailers of the 1900s, once said, “Half the money I spend on advertising is…",
+          "img": true
         },
         {
           "id": "indian-startups-5",
-          "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
-          "source": "Inc42 Media",
-          "summary": "The Indian startup ecosystem continued to mature in FY26, with 22 new-age tech companies making their public market debut as…"
+          "title": "Klook India’s new campaign with Farah Khan is about the trips you didn’t plan for",
+          "source": "YourStory RSS Feed",
+          "summary": "With Farah Khan and her longtime cook Dilip exploring Singapore together, Klook India’s latest digital-first campaign taps into a growing shift in travel: moving beyond checklist tourism toward discov",
+          "img": true
         },
         {
           "id": "indian-startups-6",
-          "title": "Kunal Shah & The WhatsApp Acid Test",
-          "source": "Inc42 Media",
-          "summary": "“Kunal Shah represents the very best of India’s startup ecosystem: bold thinking, intellectual curiosity, relentless execution and the ability to…"
+          "title": "AI data infrastructure startup Clairva raises $500K led by Venture Catalysts",
+          "source": "Entrackr",
+          "summary": "",
+          "img": false
         },
         {
           "id": "indian-startups-7",
-          "title": "Why value fashion is becoming India’s dominant retail story",
-          "source": "YourStory RSS Feed",
-          "summary": "Indian consumers are not merely seeking cheaper clothes. They are seeking fashionable, trend-relevant apparel at prices that feel justified by the value delivered. The demand is not for low prices alo"
+          "title": "Flipkart, Amazon Flex Logistics Muscles; Will It Bring New Growth Levers?",
+          "source": "Inc42 Media",
+          "summary": "When Delhivery acquired Ecom Express in 2025, the Indian logistics industry read it as a consolidation play — a larger…",
+          "img": true
         },
         {
           "id": "indian-startups-8",
-          "title": "Brands, AI, platforms: test your business creativity with Edition 238 of our weekly quiz!",
-          "source": "YourStory RSS Feed",
-          "summary": "This insightful feature from YourStory tests and strengthens your business acumen! Here are 5 questions to kick off this 238th quiz. Ready?"
+          "title": "Chamath Palihapitiya raises $135M Series A for his AI coding startup, takes CEO role",
+          "source": "TechCrunch",
+          "summary": "",
+          "img": false
         },
         {
           "id": "indian-startups-9",
-          "title": "Proptech unicorn Square Yards engages bankers for $300-mn IPO",
-          "source": "Mint",
-          "summary": ""
+          "title": "IT dept clears seed funding for 15 startups",
+          "source": "The Times of India",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "indian-startups-10",
+          "title": "Farid says Egypt to revamp startup funding, considers new sovereign fund mechanism to bridge financing gap",
+          "source": "Dailynewsegypt",
+          "summary": "",
+          "img": false
         }
       ]
     },
@@ -381,63 +443,73 @@
       "stories": [
         {
           "id": "global-economics-1",
-          "title": "Iran war developments, Fed rate path cues in focus for Indian rupee and bonds",
-          "source": "Reuters",
-          "summary": ""
+          "title": "South Korea Tightens Property Curbs as Chip Boom Spurs Home Prices",
+          "source": "Bloomberg Economics",
+          "summary": "South Korea imposed tougher property curbs in neighborhoods outside Seoul with proximity to semiconductor hubs after a boom in the industry fueled sharp home-price gains, raising concerns about specul",
+          "img": true
         },
         {
           "id": "global-economics-2",
-          "title": "Origin Technology summit showcases supply chain digitalization",
-          "source": "Dailynewsegypt",
-          "summary": ""
+          "title": "‘We’re up against forces that have all the money in the world’: Erin Brockovich on her battle against AI datacentres",
+          "source": "Business | The Guardian",
+          "summary": "In 1993, she squeezed a $333m settlement from a Californian energy company in a scandal over contaminated water. Three decades later, she has a new target in her sights – and it’s global When Erin Bro",
+          "img": false
         },
         {
           "id": "global-economics-3",
-          "title": "Japan’s Retail Sales Rise a Third Month on Wage Gains, Subsidies",
-          "source": "Bloomberg Economics",
-          "summary": "Japan’s retail sales rose in May for a third month, powered by strong wage gains and government subsidies to ease the cost of living."
+          "title": "Asia FX Talk - Fed independence maintained for now",
+          "source": "MUFG Research",
+          "summary": "",
+          "img": false
         },
         {
           "id": "global-economics-4",
-          "title": "Stock Market Outlook Hinges On AI Earnings And Fed Rate Risks",
-          "source": "Forbes",
-          "summary": ""
+          "title": "Former BOJ Official Sees Next Hike Probably Before December",
+          "source": "Bloomberg Economics",
+          "summary": "The Bank of Japan will probably raise interest rates earlier than most expect as it moves to normalize still excessively accommodative financial conditions, according to the bank’s former Executive Di",
+          "img": true
         },
         {
           "id": "global-economics-5",
-          "title": "Spirit airlines is dead and a bus travel boom looks likely – but will Greyhounds ever be cool again?",
-          "source": "Business | The Guardian",
-          "summary": "For most Americans, riding a bus means abandoning expectations of basic dignity – but with an increase in ridership, that could change “It’s a grueling experience,” Greyhound bus enthusiast Miles Tayl"
+          "title": "UK Food Inflation Drops to 15-Month Low, Retailers’ Survey Says",
+          "source": "Bloomberg Economics",
+          "summary": "Food inflation has fallen to a 15-month low in the UK, according to a trade association of retailers, the latest sign of easing cost pressures that could prevent the Bank of England from raising inter",
+          "img": true
         },
         {
           "id": "global-economics-6",
-          "title": "When it comes to taxing the super rich, there’s no need to reinvent the wheel",
-          "source": "Business | The Guardian",
-          "summary": "Any new tax on the rich won’t raise much money unless many of the exceptions and loopholes are dealt with In this new era of rampaging oligarchs, nothing may seem as satisfying as slapping a tax on El"
+          "title": "Compliance alone won't protect your digital supply chain",
+          "source": "SLB",
+          "summary": "",
+          "img": false
         },
         {
           "id": "global-economics-7",
-          "title": "China cracks down on rule-bending offshore investments",
-          "source": "Finance & economics",
-          "summary": "It wants mainland investors to bet on its own tech dreams not America’s"
+          "title": "Oracle Adds New Fusion Agentic Applications to Help Customers Improve Supply Chain Performance",
+          "source": "Oracle",
+          "summary": "",
+          "img": false
         },
         {
           "id": "global-economics-8",
-          "title": "AI Bust Risks Ripple Effects From Growth to Credit, BIS Says",
-          "source": "Bloomberg Economics",
-          "summary": "An artificial-intelligence bust, inflation and fiscal stress are among the most alarming threats to global prosperity at present, the Bank for International Settlements warned."
+          "title": "ASTM and CSA Group sign agreement to develop biomass supply chain risk standard",
+          "source": "Ethanol Producer Magazine",
+          "summary": "",
+          "img": false
         },
         {
           "id": "global-economics-9",
-          "title": "Japan Policy Draft Backs ‘Appropriate’ Monetary Policy",
-          "source": "Bloomberg Economics",
-          "summary": "The Japanese government is expected to call for “appropriate” monetary management in its basic policy guidelines, according to a document seen by Bloomberg, in an apparent bid to dissuade the Bank of "
+          "title": "US supreme court rules Trump can fire leaders of independent agencies",
+          "source": "Business | The Guardian",
+          "summary": "Case focused on White House’s March 2025 firing of Federal Trade Commission member Rebecca Slaughter US supreme court decisions – live updates Sign up for the Breaking News US email The US supreme cou",
+          "img": false
         },
         {
           "id": "global-economics-10",
-          "title": "RBI seeks bigger money market access: What draft proposals mean for NBFCs and companies",
-          "source": "The Economic Times",
-          "summary": ""
+          "title": "US supreme court rules Trump’s firing of Lisa Cook from Fed was unconstitutional",
+          "source": "Business | The Guardian",
+          "summary": "Justices find president does not have constitutional authority to fire Federal Reserve governor without cause US supreme court decisions – live updates Sign up for the Breaking News US email The US su",
+          "img": false
         }
       ]
     },
@@ -448,63 +520,73 @@
       "stories": [
         {
           "id": "india-1",
-          "title": "MoU signed for indigenous chips in CCTV cameras",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "summary": "According to Mindgrove Technologies this is one of the largest commercial integrations of Indian-designed silicon to date"
+          "title": "Trinidad and Tobago first Caribbean nation to adopt India’s UPI platform : EAM S Jaishankar",
+          "source": "News On AIR",
+          "summary": "",
+          "img": false
         },
         {
           "id": "india-2",
-          "title": "India's missions fund builders; policy must now complement it on the demand side",
-          "source": "Moneycontrol.com",
-          "summary": ""
+          "title": "Bringing AI to India’s digital health infrastructure",
+          "source": "blog.google",
+          "summary": "",
+          "img": false
         },
         {
           "id": "india-3",
-          "title": "Can a weak monsoon slow India's economy? Here's what investors need to know",
-          "source": "The Economic Times",
-          "summary": ""
+          "title": "U.P. Congress chief Ajay Rai placed under house arrest in Ayodhya ahead of party delegation’s visit",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "The party had informed the local administration about the proposed delegation’s visit to take the blessings of Lord Ram",
+          "img": true
         },
         {
           "id": "india-4",
-          "title": "India Marks 11 Years of Digital India with Expanding Digital Public Infrastructure",
-          "source": "OpenGov Asia",
-          "summary": ""
+          "title": "US, India trade deal in final steps: Sergio Gor",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "The U.S. envoy to India cited the personal equation between U.S. President Donald Trump and Prime Minister Narendra Modi which was driving the ties.",
+          "img": true
         },
         {
           "id": "india-5",
-          "title": "Sanjaya Baru writes | It’s time to resume the India-China strategic economic dialogue",
-          "source": "The Indian Express",
-          "summary": ""
+          "title": "Sabarimala gold theft: SIT’s interim report mentions criminal conspiracy by TDB officials",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "High Court permits special investigation team to register fresh case, including against former TDB president P.S. Prashanth",
+          "img": true
         },
         {
           "id": "india-6",
-          "title": "Trump-Modi Talks At G7 Eet May Help In Concluding India-U.S. Trade Deal",
-          "source": "Daily Excelsior",
-          "summary": ""
+          "title": "India within ‘striking distance’ of 8% growth, says top Narendra Modi aide",
+          "source": "Financial Times",
+          "summary": "",
+          "img": false
         },
         {
           "id": "india-7",
-          "title": "Food delivery workers fear stigma amid drug link claims, police checks",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "summary": ""
+          "title": "US-India trade deal enters final 1 per cent, says envoy",
+          "source": "India Today",
+          "summary": "",
+          "img": false
         },
         {
           "id": "india-8",
-          "title": "Pedestrian rights in focus as city footpaths remain inaccessible",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "summary": ""
+          "title": "Courts must remain vigilant guardians of constitutional supremacy: CJI Surya Kant in Sweden",
+          "source": "India | The Indian Express",
+          "summary": "",
+          "img": true
         },
         {
           "id": "india-9",
-          "title": "July opens the biggest chapter in India-U.K. trade relations",
-          "source": "The Hindu",
-          "summary": ""
+          "title": "Hopae extends reach to 1.45 billion people in India via Hopae Connect integration",
+          "source": "Biometric Update",
+          "summary": "",
+          "img": false
         },
         {
           "id": "india-10",
-          "title": "Rain havoc: Railway bridge collapses in Assam, flash floods in Arunachal",
+          "title": "Ketan Agarwal murder: Police to conduct Chetan Chaudhary’s gait analysis",
           "source": "India | The Indian Express",
-          "summary": ""
+          "summary": "",
+          "img": true
         }
       ]
     },
@@ -517,61 +599,71 @@
           "id": "world-1",
           "title": "Top world leaders to attend India-AI Impact Summit in New Delhi next week",
           "source": "News On AIR",
-          "summary": ""
+          "summary": "",
+          "img": false
         },
         {
           "id": "world-2",
-          "title": "Sovereign investors with US$29 trillion pivot to energy assets, flag dollar fears",
-          "source": "World - South China Morning Post",
-          "summary": "Sovereign wealth funds and central banks managing US$29 trillion in assets are turning to energy assets, and raising concerns about the dollar, in a portfolio reassessment driven by unprecedented geop"
+          "title": "Shares in chipmakers underpinning AI boom rocket in first half of 2026",
+          "source": "World news | The Guardian",
+          "summary": "Value of some chip manufacturers have tripled, or more, driving Asia Pacific stock markets sharply higher Shares in chipmakers have surged in the first half of this year as investors piled into compan",
+          "img": false
         },
         {
           "id": "world-3",
-          "title": "Ukraine drones ignite Russian refinery as Putin acknowledges fuel shortages",
-          "source": "World - South China Morning Post",
-          "summary": "Ukraine kept up its heavy drone assault on Russia, setting fire to a major oil refinery in the south, as President Vladimir Putin acknowledged for the first time on Sunday that the country was facing "
+          "title": "Australia politics live: Duniam says Liberal party has bigger problems than branding; fuel excise to rise tomorrow",
+          "source": "World news | The Guardian",
+          "summary": "Melissa McIntosh doubles down on suggestion party might need a ‘rebrand’ to win back voters. Follow today’s news live Get our breaking news email , free app or daily news podcast Chalmers defends hous",
+          "img": false
         },
         {
           "id": "world-4",
-          "title": "Sadhvi Sail Crowned Femina Miss India World 2026",
-          "source": "News On AIR",
-          "summary": ""
+          "title": "Ukraine war briefing: Putin expects US negotiators in Moscow; fuel rationing in Siberia as crisis bites",
+          "source": "The Guardian",
+          "summary": "",
+          "img": false
         },
         {
           "id": "world-5",
-          "title": "Pauline Hanson’s One Nation withdrew more than $800,000 of election spending claims after AEC inquiries",
-          "source": "World news | The Guardian",
-          "summary": "The Australian Electoral Commission is examining if party breached laws in its $6m public funding claim after the last election, documents show Follow our Australia news live blog for latest updates G"
+          "title": "Self-exiled Chinese billionaire Guo Wengui jailed for 30 years in US for fraud conviction",
+          "source": "World - South China Morning Post",
+          "summary": "A self-exiled billionaire Chinese business tycoon once believed to be among China’s wealthiest men was sentenced on Monday to 30 years in a US prison for a massive financial fraud that a federal judge",
+          "img": true
         },
         {
           "id": "world-6",
-          "title": "Venezuelan earthquakes test Trump’s new western hemisphere policy after gutting of USAID",
-          "source": "World news | The Guardian",
-          "summary": "Marco Rubio is scrambling to provide effective disaster response to country whose president US deposed in January This week’s dual earthquakes in Venezuela are a test for the new era of American power"
+          "title": "US parents charged with murder in death of 7-year-old son who weighed 116kg",
+          "source": "World - South China Morning Post",
+          "summary": "The parents of a seven-year-old Michigan boy who weighed 116 kilograms (255 pounds) when he died have been charged with murder, torture and child abuse, prosecutors said. “Clearly the parents were fee",
+          "img": true
         },
         {
           "id": "world-7",
-          "title": "To boost birth rate, Hong Kong needs to deliver quality housing",
-          "source": "World - South China Morning Post",
-          "summary": "The public consultation for Chief Executive John Lee Ka-chiu’s last policy address of his current term is under way. Will he, for example, listen to the people about whether the baby bonus, one of the"
+          "title": "Venezuelans newly deported from US missing after hotel collapse",
+          "source": "World news | The Guardian",
+          "summary": "More than 100 people removed on ICE flight were being held in hotel in La Guaira when earthquakes struck More than 100 people just deported from the United States were being held in a hotel when earth",
+          "img": false
         },
         {
           "id": "world-8",
-          "title": "Australia politics live: Taylor says Coalition ‘lost trust’ of public as poll numbers keep falling; Monique Ryan pushes bill to fix Hecs debts",
-          "source": "World news | The Guardian",
-          "summary": "Follow today’s news live Get our breaking news email , free app or daily news podcast Royal commission hearings resume today The next round of hearings for the antisemitism royal commission begins tod"
+          "title": "India launches world’s first nuclear process heat-based hydrogen production facility",
+          "source": "News On AIR",
+          "summary": "",
+          "img": false
         },
         {
           "id": "world-9",
-          "title": "Two boys pulled from Venezuela earthquake rubble among 33 people rescued over weekend",
-          "source": "BBC News",
-          "summary": "With tens of thousands of people missing, relatives face another night waiting for news of loved ones as the crucial window for locating survivors closes."
+          "title": "How the Northern Metropolis university town can deliver on innovation",
+          "source": "World - South China Morning Post",
+          "summary": "The recent visit of Xia Baolong, director of the Hong Kong and Macau Affairs Office, carried the task of accelerating the development of the Northern Metropolis. This is not another urban expansion, b",
+          "img": true
         },
         {
           "id": "world-10",
-          "title": "Eleven killed after plane carrying skydivers crashes in eastern France",
-          "source": "BBC News",
-          "summary": "The pilot and 10 passengers - including five first-time parachutists - died in the incident, local officials said."
+          "title": "World News in Brief: Afghanistan airstrikes, rights violations in DR Congo, Gaza displacement",
+          "source": "UN News",
+          "summary": "",
+          "img": false
         }
       ]
     },
@@ -582,63 +674,73 @@
       "stories": [
         {
           "id": "other-interests-1",
-          "title": "China's Hubei steps up river, lake management to improve water ecology",
-          "source": "Global Times",
-          "summary": ""
+          "title": "Inside India’s Concert Boom: Growth, Regulatory Reboot and the Fight for a Safer Live Music Industry in 2026",
+          "source": "The Hollywood Reporter India",
+          "summary": "",
+          "img": false
         },
         {
           "id": "other-interests-2",
-          "title": "Lorde Uploads 49 Demos From Virgin for Album’s Anniversary",
+          "title": "Agriculture Detail Fall U.S. Tour",
           "source": "RSS: News",
-          "summary": "The XRAYS page also features new photos, notes, and artwork ideas for her 2025 LP"
+          "summary": "The tour will make travel from the west to midwest, making stops in San Diego, Portland, Denver and more",
+          "img": true
         },
         {
           "id": "other-interests-3",
-          "title": "Kenya’s overcrowded safaris: Wildlife for who?",
+          "title": "The Ideas Shaping Environmental Action",
           "source": "Conservation news",
-          "summary": "Thinking of going on safari? You’re not alone. The popularity of African safaris has led to a boom in safari companies, and scenes of overcrowded wildlife sightings and new tourism developments are be"
+          "summary": "What ideas are shaping responses to the environmental crisis? The Mongabay Newscast picks the brains of authors, researchers, activists and storytellers exploring the systems behind biodiversity loss ",
+          "img": true
         },
         {
           "id": "other-interests-4",
-          "title": "The Book News We Covered This Week",
-          "source": "BOOK RIOT",
-          "summary": "The books colleges are reading in 2026, nominees for a literary prize cleared of using AI, the new trailer for Sense and Sensibility, and more."
+          "title": "Tadej Pogačar aims for a record-equalling fifth Tour de France title",
+          "source": "UAE Team Emirates",
+          "summary": "",
+          "img": false
         },
         {
           "id": "other-interests-5",
-          "title": "French court orders TotalEnergies to disclose climate impacts in vigilance plan",
-          "source": "Conservation news",
-          "summary": "A French court has delivered a landmark judgment against oil and gas giant TotalEnergies SE, holding it accountable for the carbon footprint associated with its global operations. On June 25, the Pari"
+          "title": "Eight principles from human ecology can help AI work for human well-being",
+          "source": "Tech Xplore",
+          "summary": "",
+          "img": false
         },
         {
           "id": "other-interests-6",
-          "title": "Mel Sunquist, field biologist and mentor to generations of conservationists",
+          "title": "A coastal Philippine farm offers a blueprint for farming with wetlands",
           "source": "Conservation news",
-          "summary": "In the 1970s, studying wild tigers still involved more nerve than equipment. A biologist could not rely on camera traps, GPS collars, or satellite-linked data. To understand where a tiger went, what i"
+          "summary": "PITOGO, Philippines — The Glinoga Integrated Farm in Quezon province sits among brackish fishponds, some active, others long abandoned and slowly reclaimed by the landscape. About a four-hour drive fr",
+          "img": true
         },
         {
           "id": "other-interests-7",
-          "title": "India’s Concert Economy: The Rise of Live Entertainment",
-          "source": "CII Blog",
-          "summary": ""
+          "title": "A new age for astronomy enabled by space-based solar power",
+          "source": "The Space Review",
+          "summary": "",
+          "img": false
         },
         {
           "id": "other-interests-8",
-          "title": "Book Riot’s Deals of the Day for June 28, 2026",
-          "source": "BOOK RIOT",
-          "summary": "The best book deals of the day, from a take of two sisters in a fake marriage scheme to a YA horror anthology centering Black girls"
+          "title": "A cataclysmic collision in space provides new clues on astronomy’s biggest stalemate",
+          "source": "The Conversation",
+          "summary": "",
+          "img": false
         },
         {
           "id": "other-interests-9",
-          "title": "Why archaeology in Judea and Samaria matters more than political narratives",
-          "source": "The Jerusalem Post",
-          "summary": ""
+          "title": "Trump has big AI and quantum ambitions: this scientist’s job is to make them reality",
+          "source": "Nature",
+          "summary": "Nature, Published online: 29 June 2026; doi:10.1038/d41586-026-02023-4 Darío Gil knows that researchers are sceptical of the massive US artificial-intelligence push — he’s asking them to keep an open ",
+          "img": false
         },
         {
           "id": "other-interests-10",
-          "title": "Schuman Receives 2026 Kavli Prize in Neuroscience",
-          "source": "Caltech",
-          "summary": ""
+          "title": "Human rights abuse allegations continue to rise in the mining sector, report finds",
+          "source": "Conservation news",
+          "summary": "Over the last several years, the United States and European Union have intensified efforts to secure the minerals needed for a clean energy transition. Officials have fast-tracked new projects and sig",
+          "img": true
         }
       ]
     },
@@ -649,63 +751,122 @@
       "stories": [
         {
           "id": "opportunities-1",
-          "title": "IGNCA organises exhibition on traditional utensils of Northeast India in New Delhi",
-          "source": "News On AIR",
-          "summary": ""
+          "title": "Qualifying pathway confirmed for Cricket's Olympic Games return",
+          "source": "ICC",
+          "summary": "",
+          "img": false
         },
         {
           "id": "opportunities-2",
           "title": "Delhi to host India’s first Global Pineapple Festival — dates, time, venue, entry fee, other details here",
-          "source": "Mint",
-          "summary": ""
+          "source": "livemint.com",
+          "summary": "",
+          "img": false
         },
         {
           "id": "opportunities-3",
           "title": "Nitin Gadkari addresses 6th edition of FICCI Road Safety Awards & Conclave 2024",
           "source": "News On AIR",
-          "summary": ""
+          "summary": "",
+          "img": false
         },
         {
           "id": "opportunities-4",
-          "title": "Sikyong Highlights His Holiness's Four Principal Commitments at India Habitat Centre Exhibition, Inaugurates Renovated Sherig Parkhang Trust in Delhi",
-          "source": "Central Tibetan Administration",
-          "summary": ""
+          "title": "Tripura CM Manik Saha inaugurates Tripura Global Pineapple Festival in New Delhi",
+          "source": "News On AIR",
+          "summary": "",
+          "img": false
         },
         {
           "id": "opportunities-5",
-          "title": "India Showcases Indigenous Sniper Rifle, Drone Defences At International Police Expo",
-          "source": "NDTV",
-          "summary": ""
+          "title": "Sikyong Highlights His Holiness's Four Principal Commitments at India Habitat Centre Exhibition, Inaugurates Renovated Sherig Parkhang Trust in Delhi",
+          "source": "Central Tibetan Administration",
+          "summary": "",
+          "img": false
         },
         {
           "id": "opportunities-6",
-          "title": "AI and innovation are revolutionising the future of healthcare and the conversation starts now. Tune in to Optum presents CNBC-TV18 HealthX Elevate, industry partner NASSCOM, as Ekta Batra sits down with Prashanth Koduganty, VP - Operational Excellenc",
-          "source": "LinkedIn",
-          "summary": ""
+          "title": "India Showcases Indigenous Sniper Rifle, Drone Defences At International Police Expo",
+          "source": "NDTV",
+          "summary": "",
+          "img": false
         },
         {
           "id": "opportunities-7",
-          "title": "INDIAN TECH START-UP REPORT 2025",
-          "source": "Nasscom",
-          "summary": ""
+          "title": "AI and innovation are revolutionising the future of healthcare and the conversation starts now. Tune in to Optum presents CNBC-TV18 HealthX Elevate, industry partner NASSCOM, as Ekta Batra sits down with Prashanth Koduganty, VP - Operational Excellenc",
+          "source": "LinkedIn",
+          "summary": "",
+          "img": false
         },
         {
           "id": "opportunities-8",
-          "title": "First-Ever National Rural Development Conference to Be Held in Delhi on June 28–29",
-          "source": "PIB",
-          "summary": ""
+          "title": "INDIAN TECH START-UP REPORT 2025",
+          "source": "Nasscom",
+          "summary": "",
+          "img": false
         },
         {
           "id": "opportunities-9",
-          "title": "ICAR–IARI, New Delhi Organizes Workshop on Taxonomy and Molecular Identification of Agriculturally Important Insects | ICAR",
-          "source": "Indian Council Of Agricultural Research",
-          "summary": ""
+          "title": "IndiaAI Startups Global: International Acceleration Programs for Indian AI Startups - 2026 2nd Cohort",
+          "source": "IndiaAI",
+          "summary": "",
+          "img": false
         },
         {
           "id": "opportunities-10",
           "title": "Japan PM Takaichi to give Assam a miss next month, New Delhi to host India-Japan summit",
           "source": "ThePrint",
-          "summary": ""
+          "summary": "",
+          "img": false
+        }
+      ]
+    },
+    {
+      "name": "Beyond Your Beat",
+      "slug": "beyond-your-beat",
+      "beta": false,
+      "stories": [
+        {
+          "id": "beyond-your-beat-1",
+          "title": "'No negotiation at any level': Iran refutes Donald Trump's claim of planned US talks in Doha",
+          "source": "The Times of India",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "beyond-your-beat-2",
+          "title": "Catching up on border infrastructure, says Kiren Rijiju after tribal group claims land grab by China",
+          "source": "The Hindu",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "beyond-your-beat-3",
+          "title": "Raped, killed, branded an 'informant': Yasin Malik is key accused as Sarla Bhat's case reaches court after 36 years | India News",
+          "source": "Hindustan Times",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "beyond-your-beat-4",
+          "title": "Generals, Envoys, Lanka Hotel: Track-II Meet That India Says 'Holds No Value'",
+          "source": "NDTV",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "beyond-your-beat-5",
+          "title": "Germany's 2026 World Cup squad built on African roots",
+          "source": "dw.com",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "beyond-your-beat-6",
+          "title": "Germany eliminated by Paraguay in penalty shootout after disallowed goal",
+          "source": "The Indian Express",
+          "summary": "",
+          "img": false
         }
       ]
     }
