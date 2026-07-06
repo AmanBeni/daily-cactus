@@ -5,19 +5,97 @@
   "lead": null,
   "frontpage": [
     {
+      "headline": "Trump orders fresh strikes on Iran after ceasefire violation and warns the US may finish the job",
+      "summary": "President Trump said Saturday that US forces struck Iranian missile and drone storage sites and coastal radar facilities, saying Iran violated the terms of the recent ceasefire. Trump warned the US may be forced to militarily complete the job, reviving fears of full resumed conflict just days after the Strait of Hormuz reopened under the peace deal.",
+      "signal": [],
+      "badge": "",
+      "takeaway": "The US-Iran ceasefire is already cracking — if it collapses, oil prices and global supply chains take the hit immediately.",
+      "why": "India imports roughly 80 percent of its crude oil. The Strait of Hormuz reopening was already priced in as a relief valve; a return to hostilities would reverse that fast. Domestic fuel prices, the RBI's rate path, and India's current account deficit are all directly in the blast radius of a renewed Iran conflict. This is the macro story to watch this week.",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWS0wd05fY2VPVHNJSG40ZnUtdWVKS2tHR2FPQUk4RUJvY1BRTWNlc1hMT1VEUTNaQ21XX0xLejVUVXE1WDFJbExRZmpOSUhuYmNORkwzcDkyR3dYRFhMQS13Yk9UV1FxUzZTZTVKMy1uVGp2V0VuQnVwQ3lmaGxwMW9wTFdGM0FRSkdkMGR4cDBjUDY2blpoeUVmU3U?oc=5",
+      "image": null,
+      "developing": true
+    },
+    {
       "headline": "CRED's 900-million-dollar raise pushes India's startup funding past one billion in a single week for the first time since 2023",
       "summary": "Indian startups raised over 1.1 billion dollars across 16 deals between June 21 and 26, the first weekly billion-dollar mark since 2023. CRED's 900-million-dollar round was the engine; other deals included Square Yards and a cluster of deep-tech plays. The figure represents a 2.5x jump week-on-week.",
       "signal": [],
       "badge": "",
       "takeaway": "After two lean years, institutional confidence in Indian consumer tech and fintech is back — CRED's raise is a signal, not a one-off.",
       "why": "Late-stage capital unlocking in India typically precedes a wave of founder-office and strategy hires as funded startups build execution muscle. If this marks a genuine re-opening of the funding cycle — and the 22 IPOs in FY26 suggest it does — the job market for AI-generalist and founder-adjacent roles gets materially better through 2026.",
-      "source": "YourStory RSS Feed",
-      "url": "https://yourstory.com/2026/06/startup-news-and-updates-daily-roundup-june-29-2026",
-      "image": "https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/RoundupIMG21600x900-1763028299752.jpg",
+      "source": "Inc42 Media",
+      "url": "https://inc42.com/buzz/meet-the-top-10-indian-startup-investors-of-h1-2026/",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-30.jpg",
+      "developing": false
+    },
+    {
+      "headline": "Top world leaders confirmed for India's AI Impact Summit in New Delhi next week",
+      "summary": "World leaders are confirmed to attend the India-AI Impact Summit in New Delhi next week, making it one of the highest-profile AI governance gatherings of the year. India is leveraging its BRICS chairmanship and its DPI credibility to position itself as the Global South's convener on AI policy.",
+      "signal": [],
+      "badge": "",
+      "takeaway": "India is not just an AI market — it is actively positioning itself as the world's AI governance convener for the developing world.",
+      "why": "For someone in Jaipur working toward AI-strategy and founder-office roles, this is the most important event on the Indian calendar this month. The panels, signatories, and side-meetings at a summit like this shape real policy and surface real opportunities — worth following closely even if attending is not feasible.",
+      "source": "World - South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3359500/trump-meet-ukraines-zelensky-and-syrias-sharaa-during-nato-summit-turkey?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/06/f0d0c309-1085-4c23-a841-1a24b5384e86_bb2f3e58.jpg?itok=OPiglUdn&v=1783279684",
       "developing": false
     }
   ],
   "sections": [
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "headline": "China is issuing digital ID cards for AI agents — a regulatory precedent the world will study",
+          "summary": "China's State Administration for Market Regulation has released national standards establishing a unified identity system for AI agents. Every autonomous AI agent operating in China will require a registered identity, creating an auditable trail of AI-driven actions — a first-of-its-kind framework at national scale.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "China has answered the AI agent accountability problem with a mandatory registry — the question is whether this becomes a global template or a trade barrier.",
+          "why": "India's AI governance frameworks are still being written. China's AI agent ID system is a direct reference point — a heavy-handed but coherent answer to the question of who is responsible when an AI agent acts autonomously. If India adopts a lighter model, that could become a competitive advantage for AI startups building autonomous agents here.",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/05/5d6aa18b-a94a-4e36-8049-39e3c1a52f6f_03028fab.jpg?itok=WqC8-zkU&v=1783251171",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "Indian vibe-coding startup Rocket is raising a fresh round from US institutional investor SIG",
+          "summary": "Rocket, an Indian startup in the vibe-coding space — tools that let non-programmers build software using natural-language instructions — is in talks with US-based Susquehanna International Group to raise a fresh funding round. The deal would be a notable signal of international institutional interest in Indian AI-native developer tools.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "International institutional capital is now paying attention to Indian AI-native developer tools, not just consumer or fintech plays.",
+          "why": "Vibe coding is a real category and India has the engineering density to build competitive tools in it, not just use them. SIG's interest in Rocket suggests the valuation story for Indian AI-tooling startups is credible internationally. Worth tracking as a signal for the broader Indian AI developer-tools ecosystem — this is an adjacent space to the founder-office and AI-strategy work this reader is pursuing.",
+          "source": "London Daily News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1V2OHk0eHJUYWpmTHhJbUEyYTdSeVpnTDBpZDFMVGVITU10WG5zaWFkRVlDTWpVMERrM1ZuRFhQS1c1dXBZOTJ0cko5M2RybVBfMmJXeFBiVmxQaVNOelJqQ2dDdmJyN2pIX2NqLV9ac0JELTNTNnI3T1hLZklNQVFFRk9GVXRld29zNkVoNWR0TENkM0FuMEtoM01YTFU?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "stories": [
+        {
+          "headline": "US consumer spending held through the Iran conflict but prices are rising at their fastest in three years",
+          "summary": "Despite the disruption of the US-Iran conflict, US consumer spending showed limited signs of buckling in the latest data. However, prices rose at their fastest pace in three years, putting the Federal Reserve in a difficult position between supporting growth and controlling inflation that is no longer transitory.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "The US economy is not breaking under the Iran conflict strain — but inflation is the hidden damage, and the Fed is running out of room to ease.",
+          "why": "A Fed that cannot cut because of sticky inflation means global dollar tightness persists. This feeds through to emerging market capital flows and the rupee. India's interest rate environment stays constrained by US monetary policy even if the RBI wants to ease. Good macro context for anyone watching Indian business conditions through the rest of 2026.",
+          "source": "Asia Insurance Review",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTVA3UFBWSVpZV1N4dHh5VFpoUUw2MnBqNWZrMlVCZXBwOHRnM0JOcm1rWUZFbC1XYVJRLUhHa3ljUV9PcUhjU2xjYlpHcjRNZzc4WnBKaWFBN2NvQVRFenBLX0VCb2dtSGY5SERkdFBhUHZZcXo3cjF5ckkxa0hqOFhpRmpKLXd3SVpKRURoMGQwaUhNS2Y1SldJbmVVaWVzdTNKeUJ3b1I1T3NNTTJaZHVXekx6Z3FUWGI1NTAtdTlQcWFvd2g1djlocDMweE9xc3cwS19sa2lnbzhEeHE1TTBnZE5Nb0Q5c3lqUjVnZGt1R09WQThUa3p3?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
     {
       "name": "India",
       "slug": "india",
@@ -29,8 +107,26 @@
           "badge": "",
           "takeaway": "Digital India's first decade was about access; the second decade is about AI and chips — a materially harder challenge.",
           "why": "The framing matters for career positioning. If India's next DPI wave is AI-native, the founder-office and strategy roles in government-adjacent startups and policy shops will increasingly require AI fluency. The anniversary is a useful anchor for understanding where the government's priorities and budget will flow — and which kinds of firms get first-mover advantage building on the new rails.",
-          "source": "blog.google",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdFFHYkZDUVltN1pQd0pGWDJWb3ZsZjFSM1c0d0pPV25WSHJDRFZoS19lc2pocTFUZEl3VElvMkVkTWdncjcycVp2QlVXTkpyenBLWUlTcElncnlFc1lkV19uVlZUejVPTFpxM1k2VFZvU244RzJWOWF2dWdQUG40WjhBeWp5MEZpZDBGcTRXUDhfV2Zs?oc=5",
+          "source": "NDTV Profit",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNThiVEQzZm8xZjFQcEExMlZFNmI3MUoteFNsY0d6N2Q2UVpJTTFkQlVvcVp6MVFUQkNHUGlBMDVMWWdFUUlpMmNBR0VpMkNTNW1zMnAyQ2RnV2hIMW9rd3Bnd1dKTUJWUktYT3VYT0lHOHZWUHlSbkl2RWlnUFBHclhBclJLOUo4WDRfVjhoV2FzZElLZXlRQnAxSkVMaTYyQXIySjI5OVBiQzQ1WnZQVVVwcUllaHZkbEtwUFJ5TTczLVJtNC1CZ1pDSnHSAdQBQVVfeXFMT2Q1UC0wcDlCOVlOWUFISmlxSkFaamZjdnFJMDRKcVNFR1RlU2o3SnZWUmctVTgxTFZ3Z2tsMkhRUWo1YVU4cE9fejdDTjdWTHBNYmpoNk13ZjJtbEdNTW1CRzhiSFhDVmZ2SlRRNXRxd05uMXpONG1hTWF6ZG0wTEZQYmZCVm95SEQ5bjM4UUdVV3lGVEc3NDN5QkNjY19rSDJiQ05vdzZ4ZVNjQ3I0ckQ0TXo2d1EyeWFvc202LVlKLW5MVXg3ekkzR2dBQTNFeFM0aWU?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "stories": [
+        {
+          "headline": "OECD confirms India remains the world's fastest-growing major economy",
+          "summary": "The OECD's latest report reaffirms India's position as the fastest-growing major economy globally. The assessment comes alongside growing investor interest in India as an alternative manufacturing and technology hub to China.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "India's growth advantage over other major economies is now a consensus multilateral view, not just an optimist's talking point.",
+          "why": "When the OECD confirms it, capital flows follow. For someone building a career in India's startup and strategy ecosystem, being in the fastest-growing major economy is a structural tailwind that justifies the career bet — and makes the international case for Indian talent and firms easier to make.",
+          "source": "News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?oc=5",
           "image": null,
           "developing": false
         }
@@ -42,8 +138,8 @@
       "name": "National Rural Development Conference",
       "when": "June 28-29, 2026 — New Delhi",
       "summary": "India's first national conference on rural development brings together policymakers, practitioners, and sector leaders for two days in Delhi. Opens today. Relevant if you work at the intersection of governance, agritech, rural livelihoods, or DPI deployment — and if you can still get a seat for day two.",
-      "source": "NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYzFGalRabzg1a0F3Ym4ycE5lSmxZV1daSGl1SzhERmNjV3VrcTVndGJkak4xcm1MMm9sRmk4dnlmenNlMmVnN1NRQjFSTUdfaHI4eXo4OVJwX3dYX1hzaVJNOU94LWJDYUIzSE5JTjVyRW5QeEZ2aGs0TURiN2hhdzVlc3pzaElzNklHOWw1NmVsYkF4SC1GY2xUZEowRFpUNlROYnJ2a0xUZ0E1UEhibUFZMUFwSmNhRl9Cb2FsekRIQdIBygFBVV95cUxNdjZYTHJuUVcyT09jYWtEUE5ZQ244b2lHX1k3cGM1R0FCVWRESlhBNVJ3LW9VNkdac3htVk82MTloTFdxcmNycC16OUpTS2N6dldHZUkyT29od1NoaTVVUDBrSGFZWU1wN196SGU2dDZ4M05IdkJUcW1CeGx5eHFHd0E1QTIzV1ozS3NYdWQ1SjNPVEc2REUxMS1sbE9TcjYxam50QjJKd21UN3luWDRFbU5jUklSaWRlUW1WTzdxeU9xSUlrVDVnbXl3?oc=5"
+      "source": "Vajiram & Ravi",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04cDM3SGhkSy1CV3VWNUdvdjhFOEd4cGhnNHlRS2dabl85Mno0Qkw0d2F1U0diWE1oNzJoSnN3N191ZmJ6Nk80Z2djdXZ5QkNQUkJnYlROVVhTQmN1blVJTl9tRjI0RXZyT1VzRW1oR0FDcjloQWhwendBYVEtOWs?oc=5"
     }
   ]
 }

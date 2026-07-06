@@ -1,0 +1,573 @@
+{
+  "date": "2026-07-06",
+  "edition": 21,
+  "colophon": "54 sources scanned · 50 ok · 4 failed",
+  "lead": {
+    "headline": "China's newest AI chip startup bets on 3D stacking to leapfrog US export controls",
+    "summary": "A Chinese AI chip startup led by semiconductor veteran Wei Shaojun has emerged from stealth, betting on 3D chip stacking as its primary strategy for building advanced AI processors without access to ASML's EUV lithography machines, which are blocked by US export controls. The startup joins Huawei in treating 3D stacking — layering multiple chiplets vertically to achieve higher effective transistor density without printing at smaller nodes — as the main technical workaround for the sanctions. The approach can partially replicate leading-edge chip performance, though it introduces significant thermal and manufacturing complexity. This signals that China's chip independence effort is maturing beyond Huawei's improvisation into a broader startup ecosystem deliberately engineered around the sanctions constraint.",
+    "signal": [
+      "China is institutionalizing 3D stacking as a sanctions bypass — this is a startup ecosystem forming around a geopolitical constraint, not just one company improvising, and it will attract serious capital",
+      "For India: as AI infrastructure ambitions accelerate, semiconductor supply chain dependency is a structural risk and potentially an opportunity — the US-China chip war is redrawing who can build what"
+    ],
+    "badge": "DEEP TECH",
+    "takeaway": "",
+    "why": "",
+    "source": "Tech - South China Morning Post",
+    "url": "https://www.scmp.com/tech/tech-trends/article/3359336/chinese-ai-chip-start-exits-stealth-mode-bets-3d-stacking-bypass-us-controls?utm_source=rss_feed",
+    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/03/f64b6647-5dcc-47d1-b4c5-7aa0835ad628_f2ed69f1.jpg?itok=dmsEBNGF&v=1783073699",
+    "developing": true
+  },
+  "frontpage": [
+    {
+      "headline": "Top world leaders are coming to New Delhi for an AI Impact Summit next week",
+      "summary": "India is hosting a high-profile AI Impact Summit in New Delhi in the coming days, with heads of state and senior government officials from multiple countries attending. The event follows India's G20 AI leadership and the India-Japan AI cooperation agreement, and represents India's most ambitious diplomatic push yet to become a rule-setter rather than rule-taker in global AI governance. New Delhi is positioning itself as the convening power that can bridge Western regulatory instincts with the Global South's development priorities.",
+      "signal": [
+        "India is making a credible play to co-author the rules of global AI governance — this summit's outcomes will set the tone for India-AI partnerships and investment for the next 12-24 months",
+        "Track announcements closely: bilateral AI deals, governance frameworks, and investment commitments from this summit will directly shape the India AI landscape"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?oc=5",
+      "image": null,
+      "developing": true
+    },
+    {
+      "headline": "Trump's Iran war is over — but its effect on global interest rates is not",
+      "summary": "Bloomberg Economics argues that even though US-Iran hostilities have subsided, the inflationary and monetary consequences are sticky. The conflict drove oil prices and energy market uncertainty that fed into global inflation central banks will take years to tame. The structural result is higher rates for longer globally, affecting capital flows to emerging markets, startup financing, and sovereign debt costs. India's decision to hold the repo rate this week should be read in this context — the RBI is carefully navigating a globally hostile rate environment.",
+      "signal": [
+        "The global rate environment has shifted structurally upward — VCs, infrastructure investors, and founders should plan around a tighter capital cycle through at least 2027-28",
+        "India's 6.9% growth becomes more impressive against this backdrop, but the cost of financing India's energy and infrastructure ambitions is also rising"
+      ],
+      "badge": "ANALYSIS",
+      "takeaway": "",
+      "why": "",
+      "source": "Bloomberg Economics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-05/trump-s-war-means-higher-global-interest-rates-for-years-to-come",
+      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJXn8ZzzeDm0/v0/1200x-1.jpg",
+      "developing": false
+    },
+    {
+      "headline": "Investors are now specifically betting on solving India's AI power crunch",
+      "summary": "India's AI data center buildout is running into a fundamental bottleneck: electricity. Data centers require enormous, reliable, and stable power — India's grid, despite its renewable ambitions, cannot yet deliver the consistency hyperscale AI compute demands. Investors are actively funding a new category of plays to address this: dedicated power infrastructure for AI campuses, advanced cooling solutions, captive energy projects, and demand-side optimization. This is crystallizing as a distinct sub-sector within India's AI investment stack.",
+      "signal": [
+        "Power infrastructure is the binding constraint for India's AI ambitions — whoever solves this at scale owns a critical layer of the AI stack",
+        "An underexplored wedge at the intersection of AI, deep tech, and climate: early investors here are defining a market that will be enormous if India achieves its compute targets"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSTBWaW1SWFZPeUpGaWdOakhWNDZSck9Sa3Z4bGI4QlQ0NTFmN0EyM3lxNWh2NWFtRXVocUltV1RySWg0MWd6NGx0dWJCM09QbW50UHpLRUNMWVdQU2tOZmN6UkNGdHA4d3ZrclhMdDFXZS14a2wwWlBhWXkwMDhUcDFUYU9WQ3dpVjI1bjE2cDZmT2dLWk15WXRPcEZoMF9EZ0dCTDZRR0JCUmZSdHczWFZqVEU3MkExOEdob0M5ZV9HYi1KNjA0Mk9jbUFaN3EyREFoQzJmUFN1aEhESl9uR2ZuQXpKZ9IB3wFBVV95cUxQR29fUkY0eGg3bXZNbFZCY0ZLdzdCNDFtNUdLMzFqMUFIQWJCdFRPbllWekxCLWNnUVFBOTVTMGo1d3ZmemVUbnJwNkFEODQ3bXo3Qm5GLWhXMUZSTVVYYlozeXkwS3VkeVJXbG9kLVNiMWJHRkExS1JIWUF5cERyRHpOLV9JN3ZvWkVfWDk3dUFBUU0ySXpObUx4cEdCVmUxdEZXOUNBM0swbUx6bDdqTjF1REU0LUFqZEdLdF9mUTRsZkYxVW5xYlJrNmdtS0xfSWhKQVBUbTRlX3FnUVQ0?oc=5",
+      "image": null,
+      "developing": false
+    },
+    {
+      "headline": "Indonesia does not just want UPI — it wants India's entire digital public infrastructure playbook",
+      "summary": "PM Modi's Indonesia visit has expanded well beyond UPI to encompass India's full DPI stack: digital identity, document wallets, open commerce rails, and the India Stack architecture. Indonesia is building national digital platforms and sees India's decade-long DPI journey as a working blueprint. Multiple Southeast Asian nations are in similar conversations, making DPI export a serious strand of Indian tech diplomacy with real commercial opportunities for Indian govtech firms.",
+      "signal": [
+        "India's DPI is becoming an exportable model — a rare case of India as a solutions exporter in tech governance, not just a market or service provider",
+        "DPI-adjacent roles in govtech, digital infrastructure, and international tech partnerships are gaining strategic significance beyond domestic deployment"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWNPdVlxYW5ldXZIQzB4dkk1UmJrZG02bE4wdktjb0pCNmlub3BzbVBobUkzMTRvYnFONmZPZm8xRzE4RFlwQy1XR0h2Q281ZlNFOWFRcS16eXEwcUVlcm5oeUZGVGZReEVQRGNUc3dyekJSdFhfbVFOa21Mb3JsWWtickhzRWMxbzdEejgtU0pzdzNVME9rRmFSVFRFdWI1WUFxbl8tSkZOblZ4bWhyd1pGdHlfSzdfRTQwaFFzeTVjQ2o0bkE?oc=5",
+      "image": null,
+      "developing": false
+    },
+    {
+      "headline": "ByteDance and Alibaba are removing humanlike AI features ahead of new Chinese rules",
+      "summary": "ByteDance's Doubao and Alibaba's Qwen — two of China's most-used AI apps — are proactively disabling customized, humanlike AI agent and companion features ahead of incoming Chinese regulations on AI that simulates human characteristics. The rules reflect government concern about parasocial AI relationships, emotional manipulation, and impersonation risks. The move affects millions of users and illustrates a sharp divergence: China's consumer AI market is being de-humanized by regulation while Western AI products actively develop companion and persona features.",
+      "signal": [
+        "China's consumer AI market is fragmenting from the West's by design — a structurally different product landscape is forming, enforced by regulation",
+        "For Indian AI builders: no equivalent rules exist in India yet; the design freedom is real, but so is the regulatory uncertainty — watch how India's own AI governance evolves"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Tech - South China Morning Post",
+      "url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/05/5d6aa18b-a94a-4e36-8049-39e3c1a52f6f_03028fab.jpg?itok=WqC8-zkU&v=1783251171",
+      "developing": true
+    },
+    {
+      "headline": "India startup funding dipped 9% in H1 2026 — but global AI megadeals hit a record",
+      "summary": "Indian startup funding totaled $5.2 billion in H1 2026, down 9% year-on-year. Global startup funding hit a record $510 billion in the same period, almost entirely driven by AI megadeals. The divergence is sharp: India has not captured a proportionate share of the global AI investment wave. Inc42's top-10 most active investors for H1 2026 is the most useful current map of where checks are being written in India.",
+      "signal": [
+        "India's startup market is cooling precisely when global AI funding is at all-time highs — the ecosystem has not yet produced the AI breakout companies that attract megadeal capital",
+        "Actionable: the top-10 investor list is the most efficient shortcut to mapping active capital in India right now"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Inc42 Media",
+      "url": "https://inc42.com/buzz/meet-the-top-10-indian-startup-investors-of-h1-2026/",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-30.jpg",
+      "developing": false
+    },
+    {
+      "headline": "Venezuela earthquake death toll passes 3,000 — one of Latin America's worst disasters in years",
+      "summary": "Twin earthquakes have killed more than 3,000 people in Venezuela, with thousands more missing. Venezuela's interim president is managing both the humanitarian crisis and the risk of social unrest, assuring citizens that order will be maintained. The disaster is unfolding against Venezuela's political fragility and limited institutional capacity for large-scale disaster response. International aid organizations are mobilizing, but access and logistics remain challenging.",
+      "signal": [
+        "One of Latin America's deadliest natural disasters in years — important geopolitical and humanitarian context",
+        "Honest read: significant to know; not directly actionable for this reader"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "World - South China Morning Post",
+      "url": "https://www.scmp.com/news/world/americas/article/3359503/venezuela-leader-vows-no-social-unrest-here-earthquakes-death-toll-passes-3000?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/06/fc859c9f-ff25-4554-a9f9-b01095de4c62_afdebb23.jpg?itok=2eUdybF2&v=1783287753",
+      "developing": true
+    },
+    {
+      "headline": "The World Bank quietly dropped its climate finance target — Carbon Brief unpacks what breaks",
+      "summary": "The World Bank has abandoned its target to direct 45% of its financing to climate goals in developing countries. Carbon Brief's Q&A explains the fallout: loss of the tracking metric that pushed multilateral lending toward low-carbon investment, weakened accountability for climate-aligned development finance, and a signal that institutional appetite for green conditionality is softening under political pressure. This happens precisely as developing nations are most strained by higher borrowing costs and the costs of energy transition.",
+      "signal": [
+        "Multilateral climate finance is retreating just as developing economies need it most — the backstop is being removed in the middle of the transition",
+        "India is building its own domestic carbon market partly as a hedge against this kind of multilateral unreliability; that bet looks smarter today"
+      ],
+      "badge": "ANALYSIS",
+      "takeaway": "",
+      "why": "",
+      "source": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/qa-how-will-the-world-banks-abandoned-finance-goal-affect-climate-action/",
+      "image": "https://www.carbonbrief.org/wp-content/uploads/2026/07/Large2C_emerging_economies_receive_the_most_World_Bank_climate_finance.png",
+      "developing": false
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "stories": [
+        {
+          "headline": "Investors are now specifically betting on solving India's AI power crunch",
+          "summary": "India's AI data center buildout is hitting a hard bottleneck: electricity. Data centers need enormous, reliable, stable power — India's grid cannot yet deliver the consistency hyperscale AI compute demands. Investors are funding a new category: dedicated AI campus power infrastructure, advanced cooling, captive energy projects, and demand-side optimization. This is crystallizing as a distinct sub-sector of India's AI investment stack — and a critical infrastructure layer in its own right.",
+          "signal": [
+            "Power infrastructure is the binding constraint for India's AI ambitions — whoever solves this at scale owns a critical layer of the stack",
+            "Energy-for-AI sits at the intersection of AI, deep tech, and climate: a high-leverage, underexplored wedge for founders and investors"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSTBWaW1SWFZPeUpGaWdOakhWNDZSck9Sa3Z4bGI4QlQ0NTFmN0EyM3lxNWh2NWFtRXVocUltV1RySWg0MWd6NGx0dWJCM09QbW50UHpLRUNMWVdQU2tOZmN6UkNGdHA4d3ZrclhMdDFXZS14a2wwWlBhWXkwMDhUcDFUYU9WQ3dpVjI1bjE2cDZmT2dLWk15WXRPcEZoMF9EZ0dCTDZRR0JCUmZSdHczWFZqVEU3MkExOEdob0M5ZV9HYi1KNjA0Mk9jbUFaN3EyREFoQzJmUFN1aEhESl9uR2ZuQXpKZ9IB3wFBVV95cUxQR29fUkY0eGg3bXZNbFZCY0ZLdzdCNDFtNUdLMzFqMUFIQWJCdFRPbllWekxCLWNnUVFBOTVTMGo1d3ZmemVUbnJwNkFEODQ3bXo3Qm5GLWhXMUZSTVVYYlozeXkwS3VkeVJXbG9kLVNiMWJHRkExS1JIWUF5cERyRHpOLV9JN3ZvWkVfWDk3dUFBUU0ySXpObUx4cEdCVmUxdEZXOUNBM0swbUx6bDdqTjF1REU0LUFqZEdLdF9mUTRsZkYxVW5xYlJrNmdtS0xfSWhKQVBUbTRlX3FnUVQ0?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Trump officially rules out an FDA for AI — the US bets on deregulation",
+          "summary": "The Trump administration has explicitly rejected the idea of a federal body to pre-approve AI systems before deployment. The US will rely on voluntary industry commitments and existing general-purpose laws rather than sector-specific AI regulation — putting it in sharp divergence from the EU's AI Act and the UK's emerging risk-based framework. The deregulatory approach is framed as pro-innovation but leaves accountability and safety gaps that critics argue will eventually require course correction.",
+          "signal": [
+            "US-EU AI governance divergence is now formalized: no federal AI regulator, no pre-clearance for high-risk systems in the US",
+            "India's governance opportunity: the space between US deregulation and EU over-regulation is exactly where India could stake a credible, development-friendly middle path — the AI Impact Summit is the moment"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNYUVfYlp1ZFdSU3diMFUtT0dsQ0M0eTh1ZHgxV3dTWDVtaFRjOWl1OWdKUFpiY0NmYTJ1S1BxQk5VdDFsVEVrbzgyS3gySUpnOC1GSkJnUi1DT1Nwcmc4UmdOeVV5TnhDVVRMMW54NkxjTnV2VENDdkhacDNlOGR2aUZPOXl2Y3lHNjJBWWhLY0NYN3pIUDhkaEF4ZjZrb1ZhNVFUaURJVnZZMmVtNEZQUEk4dXp3b2VNNlNGRXptN0xFRi1fVENJMVRHSU91MVFFME5OenVXOVMzX3htdHlJanpSM09GT1lVdkkxZmtwYk0tSDZhaEVZLUJvZ0TSAYICQVVfeXFMTWdaNkxmM2d0bUZpM1lHcEFiOGlRWERnNS1XVlRBNmJ4bkh2OVp5SEZsUnVXalJzYkdUQ1lTVDZoWEdRTThZWmVuRHF6dk82Qk1mdWZDNjhkYXJHQ1VERVhVR0pBdTlXYm5HTl9xand3Ym9rMFA1U0JvU05NbGtCelRGZVJKWXhsRllJLTFOXzVuNlhvbVFtUzJvTFpCNGNTcGxNQ0plcVpNVnluMWpXQThqSUN0WWpNazdkMmloenJXVmdMeTVMb2FkYWc4QlVHOFlYZEJDb1R0RWFMbWZ5NEtRN0tRVmx5QWVRY1hLc044OVV3dlZ5Mk8yWWl6SHQ5NTZ3?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Shunya Labs launches a multilingual Voice AI platform for India's 22-plus languages",
+          "summary": "Indian AI startup Shunya Labs has launched a multilingual Voice AI platform targeting enterprise applications across India's official languages and major dialects. Global AI giants have consistently underinvested in Tier-2 and regional Indian languages, creating a structural moat for India-specific startups with locally trained data and domain expertise. Voice-first interfaces matter disproportionately for India's next billion internet users, many of whom will not be keyboard-first.",
+          "signal": [
+            "India's linguistic complexity is a genuine competitive moat for homegrown AI — global platforms cannot replicate the training data advantage in Indian regional languages",
+            "Voice AI in India is a high-leverage product wedge: rural and semi-urban enterprise and government applications are largely untouched by existing solutions"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Campaign India",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR2dJLXZyVzFCVTZ1S180RThPeVg5OG1vOHlpbVRGR0ZJT01JQ2Nkc1RXU094NHdmZ3hUZUNNcFQ0QnAtOHZIZW5zV1JPLVROQmxneC1OV1ptRG9pNWJZdWJad3hiVTBieG9NU1dWUko0RXFwTUQxSnU1R3NRT2xTaTNQc1ZSN1ZEOTU3djU1dUtIOVpnb01XWHpkUWJ2TkdNWXNhbUNaUG1wblZEaVpUeGNkWkozQQ?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "headline": "UK's Foreign Secretary warns AI poses a Hiroshima-level risk without global governance",
+          "summary": "Britain's Foreign Secretary issued an unusually stark public warning comparing the civilizational risk of unregulated AI to the Hiroshima bomb — citing overlapping systemic risks from AI, climate change, irregular migration, and foreign interference that require urgent multilateral governance frameworks, similar to the treaties that eventually constrained nuclear weapons. The statement is notable for coming from a senior foreign policy figure, not a technologist, signaling that AI governance has fully entered the foreign policy mainstream.",
+          "signal": [
+            "AI governance is now foreign policy, not just tech policy — G7 foreign ministers are using nuclear analogies in public",
+            "India's AI Impact Summit next week positions it to be a convening voice between the West's regulatory instincts and the Global South's development needs"
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Technology | The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/jul/05/ai-hiroshima-style-threat-humanity-global-rules-yvette-cooper",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "ByteDance and Alibaba are removing humanlike AI features ahead of new Chinese rules",
+          "summary": "ByteDance's Doubao and Alibaba's Qwen are disabling customized, humanlike AI agent and companion features ahead of Chinese regulations targeting AI that simulates human characteristics. China's government is concerned about parasocial AI relationships, emotional manipulation, and impersonation. The move affects millions of users and marks a structural divergence: China's consumer AI market is being deliberately de-humanized while Western AI products actively invest in companion and persona capabilities.",
+          "signal": [
+            "China and the West are building structurally different AI consumer markets — regulatory divergence is producing product divergence at scale",
+            "India has not yet set equivalent rules; the design freedom is real, but so is the regulatory uncertainty for companion and agent AI products"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/05/5d6aa18b-a94a-4e36-8049-39e3c1a52f6f_03028fab.jpg?itok=WqC8-zkU&v=1783251171",
+          "developing": true
+        },
+        {
+          "headline": "An Indian launch vehicle startup is approaching its first-ever rocket launch",
+          "summary": "This week's Rocket Report from Ars Technica notes an Indian private space startup nearing its maiden launch — a significant milestone as India's new space sector moves from roadmaps to actual lift-off. Separately, SpaceX hit a major cumulative launch milestone, and Rocket Lab secured three new NASA Electron rocket contracts. An Indian first launch would be a genuine inflection point for investor confidence in the country's private space sector, which has been building toward this for several years.",
+          "signal": [
+            "India's private space sector is hitting operational readiness — a successful first launch would catalyze the next investment cycle",
+            "The scale gap with SpaceX is enormous, but domestic launch capability has significant strategic value beyond commercial returns"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Science - Ars Technica",
+          "url": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/HMLfHqEbUAA-kFk-500x500.jpg",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "India is trying to build a carbon market from scratch — here is what is at stake",
+          "summary": "India is working to establish a domestic carbon market: a formal mechanism for pricing and trading carbon credits across industrial sectors, tied to its international climate commitments. The design challenges are substantial — setting a credible price, determining sector coverage, enforcing accurate reporting, and preventing greenwashing. A functioning carbon market would fundamentally change the economics of industrial decarbonization in India, channeling capital toward clean energy and efficiency in ways that subsidy programs alone cannot achieve.",
+          "signal": [
+            "A domestic carbon market would reshape industrial investment incentives across energy, manufacturing, and infrastructure for decades — a critical policy architecture being built now",
+            "With the World Bank dropping its climate finance target, domestic carbon pricing becomes even more important as India can no longer rely on multilateral backstops"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "StratNews Global",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT1dvSmJubkQ2RWlWdUpwQ1pOWGNXZ0JMdTJBbURmdUxKTDNtMXNadFhpSnZ2ZVI0TmREZElmdlc0VW1ka2l6WWJlOUptbkh4X2dudDNsMXRDclQwd3FEQ0ZFOFNnZ1lkTjJzZl9ncG5JNnFKYVRuRjNhaU9kSHYyNWxYQWIwUVFrVUNRdQ?oc=5",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Record US heatwave kills 25 over July 4 weekend — a preview of what extreme heat does",
+          "summary": "A heat dome over the eastern United States pushed temperatures above 100°F across more than 20 states over the Independence Day holiday weekend, killing at least 25 people. The event is being directly linked to climate change — heat waves are becoming more frequent, more intense, and longer-lasting. The heatwave stressed power grids, disrupted travel, and disproportionately hit elderly and low-income communities without air conditioning. It is the latest in a string of lethal heat events across multiple continents this summer.",
+          "signal": [
+            "Lethal extreme heat is now a predictable annual feature of summer in major economies — the cumulative cost in lives and productivity is compounding year on year",
+            "India faces more severe heat exposure than the US with far less cooling infrastructure and a much larger outdoor workforce — this is not a distant scenario"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Environment | The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/05/heatwave-deaths-weather",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India's solar irrigation success story is plateauing — it needs a policy second act",
+          "summary": "India has deployed hundreds of thousands of solar-powered irrigation pumps, replacing diesel and cutting farmer fuel costs in a genuine first-phase success. But the program is stalling. ET EnergyWorld reports that the next phase — integrating smart water management, linking pumps to grid feedback mechanisms, expanding to more marginal and rain-fed farmers — requires policy innovation well beyond simple subsidy deployment. The transition from install to sustainably manage is where most rural technology programs stall.",
+          "signal": [
+            "Solar irrigation is proven but needs a policy second act — a test case for whether India can move from pilot to platform in rural technology deployment",
+            "Demand management and smart metering for agricultural power is an underexplored product space at the agritech-energy intersection"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "ET EnergyWorld",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOEwxZF9ELThSbm1kQm9MclB0S08tUTFEQnJ3dFJCWFpSSGZlQ3R5NWJBU2YzbWgtSnptUjZ2cUtGbWw0eUtaNktrSnFHcHpKVFFkWXN5a0tGRE1nYmdOUzk2eUJWYk80dl9Pd2Q0bl9nNmQxRmVkYVNOZ2lDQnV1cXdYelNfR1NRanA3MXdLVmVFa3NISFNiS2JGbW9mTmNDVk9Fbmp4RThmWlBZaG9qMy1EeTdhUk9DTWR5TUs5VF92SHRqbWgw0gHMAUFVX3lxTE4xZVR3X08xRHBJUFJjeW5FTk1aZTlQSEhrRzZBeWRjcXI2bUZYLTd5RjhOVG84MkQ4VnFQcHMyMlRsNEc3U0FxR1hPZ25MNFZKQTl6SDFrUVh1bjJIUmc1TXlvUlpxTGVYS0s2V19TSTctRk5XTGtySmhxTTFFb2tub19sTEJrbGlub2c0MWpEYVRYdDB5bW5Qd25oSVZER0N6TkthdUlnRkFKUFpkd2VZT0dxdzczNnVLVGg4Z0MtWjN2XzI0N0l3SEpvaQ?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Health Tech",
+      "slug": "health-tech",
+      "stories": [
+        {
+          "headline": "Genome Valley produces 40% of India's pharma output — but captures surprisingly little value",
+          "summary": "Hyderabad's Genome Valley cluster accounts for a striking 40% of India's total pharmaceutical output, yet economic analysis suggests its gains relative to that scale have been meagre. The cluster remains largely locked in cost-plus contract manufacturing for global pharma companies rather than moving up the value chain into branded drugs, novel biologics, or proprietary IP. The same structural trap — large-scale activity with thin margins and low domestic value capture — has historically affected India's IT services sector and risks repeating in pharma.",
+          "signal": [
+            "India's pharma manufacturing strength is real but the value capture problem is also real — scale without innovation economics produces activity, not wealth",
+            "A cautionary tale for deep tech and AI: manufacturing or services at scale is not the same as building a high-value innovation pipeline"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The South First",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPajgydmNGSFltR2dMYVl6MHlVUTd0elBZN0w2blYtMEZoNmhkRjBvVXRLd1ZSTlBYUU5hdWNUaldmSThOX0ZUWHVmbXBCV3J1bFd2WERTRXBwdEFYZkJ3NS1oRXV4RHNtY2RkWFA2N1NPNGdwdXJiUXVYYWZsVE1EMWlKb1pNVXZsU1BmQkduNE51aGVIckhnT0Z1RTBLSGRMekVsM0R3?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "India startup funding dipped 9% in H1 2026 — but global AI megadeals hit a record",
+          "summary": "Indian startup funding totaled $5.2 billion in H1 2026, down 9% year-on-year. Global startup funding hit a record $510 billion in the same period, almost entirely on AI megadeals. India has not captured a proportionate share of the AI-driven global funding wave. Inc42's top-10 most active investors for H1 2026 is the most useful current map of where checks are actually being written in India.",
+          "signal": [
+            "India's startup market is cooling precisely when global AI funding is at all-time highs — a strategic gap, not just a funding statistic",
+            "Actionable for anyone navigating India's ecosystem: the top-10 investor list is the most efficient shortcut to mapping active capital right now"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/meet-the-top-10-indian-startup-investors-of-h1-2026/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-30.jpg",
+          "developing": false
+        },
+        {
+          "headline": "OYO's IPO comes down to one question: can investors live with the debt?",
+          "summary": "OYO's long-anticipated IPO is approaching, and the central tension is clear: the company has reached positive EBITDA and substantially improved profitability at the operating level, but carries significant legacy debt from its aggressive global expansion phase. Investors must decide whether to value it on the path to a clean balance sheet or discount it for ongoing leverage risk. The IPO is a bellwether for how India's public markets now price new-age tech companies that have turned the operational corner but not yet the financial one.",
+          "signal": [
+            "OYO's IPO is a live test of India's public market appetite for 'earned its stripes' tech companies — not a loss-making growth story, but not a pristine balance sheet either",
+            "How OYO prices will set expectations for the next cohort of Indian tech IPOs; the debt-versus-profitability framing is the defining valuation question for this generation"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/features/oyos-ipoyos-ipo-hinges-on-one-trade-off-profitability-vs-debt/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/IPRISM-PYOmage-1.jpg",
+          "developing": true
+        },
+        {
+          "headline": "India issues formal notice to Meta over child abuse material appearing in paid Instagram ads",
+          "summary": "The Indian government has issued Meta a formal notice demanding an explanation within seven days over reports of child sexual abuse material appearing in paid Instagram advertisements. If accurate, this represents a failure not just of content moderation but of Meta's ad review pipeline — commercial inventory that should be vetted before delivery. India has ordered a detailed investigation and response, reflecting the country's increasingly assertive posture toward global tech platforms on compliance and content governance.",
+          "signal": [
+            "India is escalating from informal pressure to formal compliance demands with global tech platforms — Meta must respond on record within a week",
+            "For platform builders: India's enforcement posture on content governance is tightening; compliance costs for operating in India will keep rising"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/07/govt-notice-meta-child-sexual-abuse-material-instagram-ads",
+          "image": "https://images.yourstory.com/cs/2/8e7cc4102d6c11e9aa979329348d4c3e/Screenshot2026-04-10at5-1775820802777.png",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "stories": [
+        {
+          "headline": "Trump's Iran war is over — but its effect on global interest rates is not",
+          "summary": "Bloomberg Economics argues that the inflationary and monetary consequences of the US-Iran conflict are sticky even after hostilities ended. Higher oil prices and energy market uncertainty fed into global inflation that central banks — including a reconstituted Fed under Kevin Warsh — will take years to contain. Higher rates for longer is the structural baseline globally, affecting emerging market capital flows, startup funding, and sovereign debt costs.",
+          "signal": [
+            "The global rate environment has shifted structurally upward — plan around a tighter capital cycle through at least 2027-28",
+            "India's 6.9% growth is more impressive against this backdrop, but financing the energy transition and infrastructure ambitions is also more expensive"
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-05/trump-s-war-means-higher-global-interest-rates-for-years-to-come",
+          "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJXn8ZzzeDm0/v0/1200x-1.jpg",
+          "developing": false
+        },
+        {
+          "headline": "RBI holds repo rate, projects India's GDP growth at 6.9% this fiscal year",
+          "summary": "The Reserve Bank of India's Monetary Policy Committee held the repo rate steady at its latest meeting, balancing domestic growth support against the globally hostile rate environment. The RBI simultaneously projected India's real GDP growth at 6.9% for the current fiscal year — consistent with the OECD's external validation of India as the world's fastest-growing major economy. The RBI also flagged rising life insurance policy surrenders as a financial stability data point worth watching.",
+          "signal": [
+            "RBI is threading a careful needle: hold rates to support growth while managing imported inflation — the 6.9% projection makes that calibration look credible",
+            "The confluence of RBI projection and OECD validation gives India a strong story in global investment forums heading into H2 2026"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "South Korea plans a sovereign-style investment fund from its semiconductor tax windfall",
+          "summary": "South Korea is creating a long-term investment fund using tax revenues from its surging semiconductor industry — primarily Samsung and SK Hynix profits — to finance structural growth priorities beyond the chip cycle. The concept parallels Norway's sovereign wealth fund built on oil revenues: bank the windfall and invest for the long run rather than spending it in the current cycle. South Korea's model will be closely watched as a governance template for how tech-dominant economies convert sector rents into durable national assets.",
+          "signal": [
+            "An interesting governance innovation: converting cyclical tech revenue into a long-term structural fund — a model India's IT sector windfall could inspire",
+            "The semiconductor geopolitics story has a fiscal architecture dimension beyond supply chain and exports; this is one concrete answer to 'what do you do when you win the chip race'"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-05/south-korea-eyes-growth-fund-from-chip-tax-windfall-yonhap-says",
+          "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iYfKQJ0YuUGo/v1/1200x-1.jpg",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "stories": [
+        {
+          "headline": "Indonesia does not just want UPI — it wants India's entire digital public infrastructure playbook",
+          "summary": "PM Modi's Indonesia visit expanded well beyond UPI to encompass India's full DPI stack: digital identity, document wallets, open commerce rails, and India Stack architecture. Indonesia is building national digital platforms and sees India's decade-long DPI journey as a working blueprint. Multiple Southeast Asian nations are in similar conversations, making DPI export a serious strand of Indian tech diplomacy with real commercial openings for Indian govtech firms.",
+          "signal": [
+            "India's DPI is becoming an exportable model — a rare case of India as a solutions exporter in tech governance, not just a market",
+            "DPI-adjacent roles in govtech, digital infrastructure, and international tech partnerships are gaining strategic significance beyond domestic deployment"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Firstpost",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWNPdVlxYW5ldXZIQzB4dkk1UmJrZG02bE4wdktjb0pCNmlub3BzbVBobUkzMTRvYnFONmZPZm8xRzE4RFlwQy1XR0h2Q281ZlNFOWFRcS16eXEwcUVlcm5oeUZGVGZReEVQRGNUc3dyekJSdFhfbVFOa21Mb3JsWWtickhzRWMxbzdEejgtU0pzdzNVME9rRmFSVFRFdWI1WUFxbl8tSkZOblZ4bWhyd1pGdHlfSzdfRTQwaFFzeTVjQ2o0bkE?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India needs a new cybersecurity strategy built for frontier AI — the existing one won't cover it",
+          "summary": "India's AI ambitions — LLMs, AI-enabled government services, AI-driven data centers — are outpacing the country's cybersecurity architecture, which was designed for traditional IT systems. Frontier AI introduces qualitatively different attack surfaces: model poisoning, prompt injection, adversarial inputs to critical infrastructure, and training data supply chain vulnerabilities. India needs a dedicated national AI cybersecurity framework, not just an extension of existing IT security policy.",
+          "signal": [
+            "AI cybersecurity is a genuinely new technical problem — defending a neural network requires different tools and threat models than defending a database",
+            "An underexplored career wedge: India needs both policy architects and technical experts in AI security; the gap between AI ambition and defensive capacity is widening"
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNUQ4UkpyS3ItMVpVQzV2SF94QXJtRXlFdWZpXzVOWWZ3UzRDZmhIa1U0RzBORkZra2Fjanc2eVNxNTBUYzVfSFo3eE5xSzY3X0F0YzJQN1pFX3FpNXEybFB4SUpvQWxxYURlYkFBVEtKV1VoRkloSllpZ3N3YmNaeUZzOXE0Z29OeWRiLXpjWEk2VmRtTmlHQThoaG1PdFRSbmIyRG11a25nYXJQTHJ2MtIBvgFBVV95cUxQQkw0ZUp3bnlTeGpPUm91ZW53UF9EbW9XaWxwdDJpUS16T3pteDhFUjB2X0FySEVGMVI3c3hOZVYxV0RQS0x4UWJjQk1QTzFaMnZQR3luTmtVNFlsUkVURnVCVnJRRnc0Z2l6Mno2SjRwekl0UXlJdlhIZ2pTSXFSaFBXQXF3bHEtRWxjNHpSYjVGcU9uMFpqWE12cVBhb01ub1l2dVpnYWFnRm55YmM4cGJNNTRPTkdrX3VZUnhB?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "stories": [
+        {
+          "headline": "OECD formally confirms India as the world's fastest-growing major economy",
+          "summary": "The OECD's latest report formally confirms India's position as the fastest-growing major economy globally, ahead of China and all other G20 peers. The external validation matters beyond the headline: it will be cited in FDI discussions, sovereign rating reviews, and India's positioning in trade and geopolitical negotiations. The figure is consistent with the RBI's 6.9% GDP growth projection for the current fiscal year.",
+          "signal": [
+            "OECD validation carries weight in capital markets and diplomatic forums that domestic projections alone do not — India's growth story now has institutional backing",
+            "Honest read: fastest-growing in a relative sense; the quality of growth — manufacturing depth, jobs per percentage point, rural poverty — remains a more complex picture"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Top world leaders are coming to New Delhi for an AI Impact Summit next week",
+          "summary": "India is hosting a major AI Impact Summit in New Delhi in the coming days, with heads of state and senior officials from multiple countries attending. Following India's G20 AI leadership and the India-Japan AI cooperation agreement, this summit represents New Delhi's most ambitious diplomatic push yet to position itself as a central node in global AI governance — capable of shaping the rules rather than simply adopting them.",
+          "signal": [
+            "India is making a credible bid to co-author global AI norms — not just implement frameworks set by the US, EU, or China",
+            "Track announcements from this summit closely: bilateral AI deals, governance frameworks, and investment commitments are all in play"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?oc=5",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Trump will meet Zelensky and Syria's new president at the NATO summit in Turkey",
+          "summary": "On the sidelines of the NATO summit in Ankara, Trump has scheduled bilateral meetings with Ukrainian President Zelensky and Syrian President Ahmad al-Sharaa — the post-Assad government's leader. The Zelensky meeting will focus on the fragile ceasefire and US support conditions for Ukraine. The al-Sharaa meeting continues US engagement with a reconstituted Syria. The summit is hosted by Turkey, giving Erdogan significant diplomatic leverage as the Western alliance manages Trump's divergent instincts on collective defense.",
+          "signal": [
+            "Ukraine, Syria, and NATO's future are being contested simultaneously in Ankara this week — a concentrated moment of global foreign policy",
+            "India watches US-Russia dynamics carefully; any shifts in Trump's Ukraine posture have downstream implications for India's defence procurement and energy positioning"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World - South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359500/trump-meet-ukraines-zelensky-and-syrias-sharaa-during-nato-summit-turkey?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/06/f0d0c309-1085-4c23-a841-1a24b5384e86_bb2f3e58.jpg?itok=OPiglUdn&v=1783279684",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "Other Interests",
+      "slug": "other-interests",
+      "stories": [
+        {
+          "headline": "Fred Again announces debut India tour — Delhi, Mumbai, and Bengaluru this December",
+          "summary": "British electronic music producer Fred Again has announced his first India tour, with concerts in Delhi, Mumbai, and Bengaluru this December. One of the most acclaimed electronic artists of the past three years — known for emotionally textured live sets built around real recorded moments and an unusually intimate crowd connection — his India debut is a notable moment for the country's live music scene. Artists of his caliber rarely tour India.",
+          "signal": [
+            "Worth putting in the calendar if electronic music is your thing — December in Delhi will work well for this kind of show",
+            "Honest read: cultural note, not strategy-relevant"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "IMDb",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43TXhvRF9tQlB4NUx3cjE0R01DTXVMR2tYeHdsNkNROVBNdlJPMHpvdVhtOUROT0ZoX0ZQNXBKYWMyWmJXYUk2eGZyZUgtVzlpbmhXNndkRjIxRTQtaWQtaw?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "A Byzantine city with 200 written records has been uncovered in Egypt's Dakhla Oasis",
+          "summary": "Excavations at Egypt's Dakhla Oasis have revealed a substantial Byzantine-era city accompanied by an unusual find: 200 written records providing a rare window into daily administrative and commercial life in a provincial Byzantine settlement far from Constantinople. Written records from this period and region are exceptionally rare — this is a significant find for understanding how the Byzantine world functioned at its periphery.",
+          "signal": [
+            "A genuine archaeological discovery: written records rather than just physical ruins make this a find that actually tells stories about daily life",
+            "Honest read: enriching context, not actionable"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Archaeology News Online Magazine",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNajk4b1lwMnNxQnc4cFdDZTFyalcySXRLOWROVnRUVTJYQXB4M1F2eFNGTDdvOHdlRUNEZWRnSldvQmM3ZG9lRkFJLVlUMDJ4M3FjT2RIRk9XNUtieERnX0dadEdqVlU4RjR1LVA2N3hTNlVjNktFVElCaGlLcHk0TWRZNmlfaXhNVXdkYzVrQ2M?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Beyond Your Beat",
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "headline": "Neymar retires from international football after Brazil's World Cup exit",
+          "summary": "Neymar da Silva Santos Júnior has announced his retirement from the Brazilian national team immediately after Brazil was knocked out of the 2026 FIFA World Cup. He leaves with 79 international goals in 130 appearances — one behind Pelé's all-time Brazil record — having never won the World Cup. His 15-year international career combined extraordinary individual brilliance, a shattering 2014 semi-final injury on home soil during the 7-1 loss to Germany, and the persistent question of whether his talent was ever fully converted into collective success.",
+          "signal": [
+            "End of an era for Brazilian football — one of the defining individual careers of the 2010s-2020s generation of the sport is over",
+            "The 2026 World Cup is producing major storylines; Brazil's exit is the biggest so far"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdVVIUGozWS1qY0YyUF9mam5yMjVPcVZzZFVNeE9kM0xmbjlNNUUwTlJBVTVCODg2bUxLdF9NX2NrTU1yVngwMXQwdW5jbk91cVZxRW54bk1HSzExVmVaUFRaeDFMVDZ1X2hEZ2lQZ1ZpSFVTUzVRdmxDdzRlbWRkNkhZeG9wcXg3ZU5fazRPTHBKNWlxRmJCWjFqYWJmZ1c3TXhKd1llWlVqS0FUQXlmVzBhNUJwQdIBuwFBVV95cUxOaDdLTXBkQUZnRFJKWUNHcm8zempKX2QwaHBiZXpkblNNZVFKR2xyLUF4V2dUc2ExMlBjbW50dlFDMlpCZHZ6NU11LUZzVVRBcE5neWFEYlE4Y2U1aUxsVTdEMTFtcjFCdlpTNFhlc0lZTWpSRVhTOHNKMklnYmhwaEhZTHJSYzVzNm1WUS1CeUhvRVpBRW11cXhrV2ZrZXNNRzU3dG1haEN1VW5Gc3pId0ZGelBhWFFTSy1N?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "name": "Delhi Mango Festival 2026",
+      "when": "July 2026",
+      "summary": "Dilli Haat Janakpuri, New Delhi — annual festival showcasing 400-plus varieties of Indian mangoes. One of Delhi's best summer events and easily done as a day trip from Jaipur. National — Delhi/NCR.",
+      "source": "Daily Pioneer",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOGQ4OHUzNGs4ZncyWVlSWWd2OGoxU0JVdU9HRGtlMWg0Ym1LTlROLUhZZ0x6ZjVwQXZCNEhkbXR4a3V3Y1hYT0RmemJHOWxkSzdremc1cndTUjlWWjF5bFlXOXlRZ0dtNjdUS2JZV1VsVWJ5aG1DQkV0UEx3d0hCVjhnaw?oc=5"
+    }
+  ]
+}
