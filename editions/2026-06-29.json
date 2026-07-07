@@ -3,65 +3,22 @@
   "edition": 14,
   "colophon": "54 sources scanned · 50 ok · 4 failed",
   "lead": null,
-  "frontpage": [
-    {
-      "headline": "India-UK Free Trade Agreement Enters Its Most Consequential Phase in July",
-      "summary": "July opens what analysts describe as the biggest chapter in India-UK trade relations, with key provisions of the hard-won free trade agreement set to become operational. Services, professional mobility, and goods categories are expected to see early movement.",
-      "signal": [],
-      "badge": "",
-      "takeaway": "The India-UK trade deal stops being a talking point in July and starts being a contract.",
-      "why": "Services exports — tech, consulting, legal, financial — are where India captures the most from this deal. For professionals and founders thinking about India-UK cross-border strategy or knowledge-sector partnerships, July is the moment to study what is actually agreed, not the headline.",
-      "source": "Highland Post",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbzdRRHZqRzY0SkxqdC04ZDB0cnhEUEg1Tnhyb0VBaEFSWExvQXFhWmVDTWtScGRFUU1lOTM0UjEwQ20za0tjaVhndUhlalFkWUZJM0NmYlVZdmczdS1aU3lpVDVpQ0hUVk00RHB6b3hjSm9EQnBRUjlOWjNGQmZRQm11d2hmaUNoUTJxXzJuT09KdmlCc0pEZUo1XzdGaDI0RjhEdkg0ekNkUjNiVk04bXl2aGVSY3pY?oc=5",
-      "image": null,
-      "developing": false
-    }
-  ],
+  "frontpage": [],
   "sections": [
     {
-      "name": "Health Tech",
-      "slug": "health-tech",
+      "name": "Indian Startups",
+      "slug": "indian-startups",
       "stories": [
         {
-          "headline": "Can India Capture the China-Plus-One Shift in Global Pharma?",
-          "summary": "India's pharmaceutical sector is positioned to benefit from global supply chain diversification away from China, given its existing generic drug manufacturing base. But the constraint is structural: India's own active pharmaceutical ingredient supply remains heavily dependent on Chinese imports.",
+          "headline": "Proptech Unicorn Square Yards Taps Bankers for $300 Million IPO",
+          "summary": "Square Yards, the Indian proptech unicorn operating in real estate brokerage, home loans, and property management, has engaged investment bankers to manage a $300 million public offering. It would be the latest in India's active new-age tech IPO pipeline.",
           "signal": [],
           "badge": "",
-          "takeaway": "India wants the pharma China-plus-one prize but still buys its raw materials from China.",
-          "why": "The strategic irony here is sharp: India's pharma opportunity depends on reducing the very dependency it is using as a selling point. For health-tech strategy and policy, the upstream API question — building domestic active pharmaceutical ingredient manufacturing — is the prerequisite, not the afterthought.",
-          "source": "StratNews Global",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT2ZwTFBtd0ZyMlAzTklQVkM0Z2FrQ3FRMEJaU2tleEVYQWY0UXZoU2JWdW05Umd2dS1temh6OWtZeWk5UkdwcHEyRHJrR0RjdDhGRHA1SE8yaTExcTV6QkZxOTZLNFNXMFNLWG1zS2pvTG9oV0JfSnZwZktwb2JZLVFhcGs1SDFmcUZSUnl1VEVRV1pXY24zdE51bHRzd3Y3UXRCQjRHd3hiMnh2?oc=5",
+          "takeaway": "India's proptech sector is graduating from venture-backed growth to public-market accountability.",
+          "why": "Square Yards going public at $300 million is a useful barometer for where India's real-estate-tech sector sits — growing, but now priced for profitability transparency. Useful context for tracking which Indian startup sectors are maturing versus which remain venture-stage.",
+          "source": "Road to VR",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9aajRfellqQXZpbzFHcHRiR3M3VmpoYWtId0VNdFNKZzBad0dnOEdnazlyN3FUZFpPU0lFdkNITnhabG1pc0c5TGswM19WOFJrRFJFSTBacTZtb0xiMVljc05ZN0IwUlNGRWRIZFFVMUFYazNXRG1IZUlUWQ?oc=5",
           "image": null,
-          "developing": false
-        },
-        {
-          "headline": "India's Pharma Strength Is a Real Geopolitical Asset, but China Exposure Is the Blind Spot",
-          "summary": "India is recognized globally as the generic drug supplier of last resort — a genuine geopolitical asset. But high API import dependency from China is the sector's structural vulnerability, particularly in scenarios where US or EU domestic sourcing mandates accelerate.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "India's pharma reputation is built on a supply chain it does not fully control.",
-          "why": "Sits alongside health-tech-1 as a pair of reads on the same strategic problem. US and EU legislators are already proposing domestic sourcing mandates. For India to capture the resulting shift, API manufacturing investment is the one move that unlocks everything else — and it is underfunded relative to the opportunity.",
-          "source": "Air Cargo News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSnJ6X2JBU0Rrajl3RUZkc1dsYzNyQUhMV3JsZV9PcEpyb2NVaF80UzhLRkJ3cnBjcDZIYm1MNFcyYmUzSmgwSFpVV2RraWt6MEF1VFJEREs5RE90UGh1T0xpOVhiQmxaXzliQ21NT2hLWHc4Tmd3RE44YlRuUHlNRGVhRW5wamlHMWpjQm83YTNzOUNrSDZCNGV3NEhTamQzWi04WDZKOUVYb1NKWERteg?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Agritech",
-      "slug": "agritech",
-      "stories": [
-        {
-          "headline": "Farmers at Bonn Conference Warn of a Double Crisis: Climate Shock and Market Failure",
-          "summary": "At the Bonn climate conference, farmer representatives warned that agriculture faces simultaneous crises of climate-driven yield losses and collapsing market structures that fail to compensate producers for resilience investments. The framing shifts climate agriculture from a technical problem to a political economy problem.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "Climate adaptation in agriculture fails if markets do not price in resilience — the Bonn farmers are naming the missing piece.",
-          "why": "Useful framing for how agritech solutions need to be positioned: not as productivity tools alone, but as risk management and resilience infrastructure. Policy levers — insurance, procurement, price floors — are as important as technology in this picture.",
-          "source": "Conservation news",
-          "url": "https://news.mongabay.com/2026/07/australias-seagrass-meadows-under-pressure-as-climate-change-turns-up-the-heat/",
-          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/07/02094729/3-leafy-sea-dragon-768x512.jpg",
           "developing": false
         }
       ]
@@ -71,64 +28,16 @@
       "slug": "india",
       "stories": [
         {
-          "headline": "India-UK Free Trade Agreement Enters Its Most Consequential Phase in July",
-          "summary": "July marks the beginning of the most significant phase in India-UK trade relations, with key provisions of the long-negotiated free trade agreement set to become operational. Services, professional mobility, and goods categories are expected to see early movement.",
+          "headline": "A Weak Monsoon Could Slow India's Economy More Than Investors Are Pricing In",
+          "summary": "A below-normal monsoon season could dampen rural incomes, increase food inflation, and slow consumption growth in ways the market consensus may be underestimating. Agricultural output and rural demand together account for a substantial share of India's GDP and consumption story.",
           "signal": [],
           "badge": "",
-          "takeaway": "The India-UK trade deal stops being a talking point in July and starts being a contract.",
-          "why": "Services exports — tech, consulting, legal, financial — are where India gains most from this deal. For professionals and founders thinking about India-UK cross-border strategy or knowledge-sector partnerships, July is the moment to study what is actually agreed rather than the headline.",
-          "source": "Highland Post",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbzdRRHZqRzY0SkxqdC04ZDB0cnhEUEg1Tnhyb0VBaEFSWExvQXFhWmVDTWtScGRFUU1lOTM0UjEwQ20za0tjaVhndUhlalFkWUZJM0NmYlVZdmczdS1aU3lpVDVpQ0hUVk00RHB6b3hjSm9EQnBRUjlOWjNGQmZRQm11d2hmaUNoUTJxXzJuT09KdmlCc0pEZUo1XzdGaDI0RjhEdkg0ekNkUjNiVk04bXl2aGVSY3pY?oc=5",
+          "takeaway": "If the monsoon underperforms, India's growth story gets a material dent that rate cuts alone cannot fix.",
+          "why": "A weak monsoon is not just an agricultural variable — it is an inflation variable, a rate variable, and a political economy variable. For anyone thinking about India growth bets or consumer-facing startups, rural demand is the swing factor that shifts the picture significantly.",
+          "source": "The Indian Awaaz",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRkhiMEJ6ZFN3bFNvXzUxekZrVTg5blFuVFFKT0NyczIwQ3NoQlV0MFBPWEF0X0lTQnBHWHczM2lxNVZ0U3FKRkV6aXdkUWdPeENwUXB1R3FQLUpoanlhU1pSOFl0LVFzSk9femhWZno4UXJMN081RkEyYXR2VE43TDJvd2RHZ3hmTUF2d2NBVlktUklaZjBzdHRQVE1vUFBXTlFIbmZxbXdqeExMb1lfR0JQaWI?oc=5",
           "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "World",
-      "slug": "world",
-      "stories": [
-        {
-          "headline": "New Delhi Hosts Global AI Summit Next Week as World Leaders Converge",
-          "summary": "Top world leaders are set to attend the India-AI Impact Summit in New Delhi next week, positioning India as a host of consequential AI governance conversations. The summit arrives as India signs US-led AI supply chain pacts while navigating its own AI dependency dilemmas.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "India is playing both sides of the AI cold war — and hosting the room where it plays out.",
-          "why": "The summit's outputs — even informal ones — will shape India's AI regulatory and partnership posture for years. Pay attention to which countries send senior delegations and what side conversations get reported in the days after.",
-          "source": "News On AIR",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "Ukraine Drones Hit Russian Refinery as Putin Publicly Acknowledges Fuel Shortages",
-          "summary": "Ukrainian drones struck a major Russian oil refinery in the south and set it ablaze, while President Putin acknowledged for the first time that Russia was facing domestic fuel shortages. The admission is unusual and suggests the sustained drone campaign is having real economic effect.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "Putin admitting fuel shortages is the most significant economic signal from Russia in months.",
-          "why": "Useful context for India's Russian oil import calculus. If Russian refining capacity is degrading under sustained drone pressure, Russia's ability to offer heavily discounted crude — India's current energy arbitrage — may be changing. Worth tracking for anyone modeling India's energy import costs.",
-          "source": "World - South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359500/trump-meet-ukraines-zelensky-and-syrias-sharaa-during-nato-summit-turkey?utm_source=rss_feed",
-          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/06/f0d0c309-1085-4c23-a841-1a24b5384e86_bb2f3e58.jpg?itok=OPiglUdn&v=1783279684",
           "developing": true
-        }
-      ]
-    },
-    {
-      "name": "Other Interests",
-      "slug": "other-interests",
-      "stories": [
-        {
-          "headline": "India's Live Entertainment Economy Is Growing Fast and Finally Getting Noticed",
-          "summary": "India's concert and live entertainment sector is accelerating, with revenues, venue construction, and artist bookings all picking up as corporate backing and urban experience-seeking grow. The sector is transitioning from an informal afterthought to a structured industry.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "India's experience economy is professionalizing — and it is large enough to be a real sector bet.",
-          "why": "A useful signal for the reader's broader India context. As disposable incomes rise and urban entertainment demand grows, live events are becoming a meaningful economic category. For anyone tracking India's consumer economy or urban lifestyle sectors, this is an inflection worth noting.",
-          "source": "Cricinfo",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yYk9iaWZTaGlBVUdZdU9sVHU2RDJQcWJTazFiVHFRczJVdVVnWDJqcXloRTg2YXpDa0hSX1BDN0dSam13NVgwNXFScWZFVUNCMWJmTDBEQnJ6XzA5QlRrRVdCMDgySUtvT0hjc0FIQ0RUQQ?oc=5",
-          "image": null,
-          "developing": false
         }
       ]
     }
@@ -138,8 +47,8 @@
       "name": "National Rural Development Conference",
       "when": "June 28-29, 2026 (today is the final day), New Delhi",
       "summary": "India's first-ever national conference on rural development, bringing together policymakers, researchers, and practitioners focused on rural infrastructure, livelihoods, and governance. A rare national-scale convening on the Bharat economy agenda — relevant for anyone working in agritech, development finance, or India's rural policy space. National, Delhi.",
-      "source": "PIB",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85THA2czVWTTFCR2VxMjA0RV9Ed001WkhDMEJvTlRPbnhEeG9Ob3RLaFc2emJaOUk4MHJYRUdPeXI1UFRLc09fR3h0QVFQU1hqRy0wNFh6YzJudFJGWDhXMjc3ejB6aG1xRWVzQV9JRlZycTg?oc=5"
+      "source": "Vision IAS",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVVRfbThGOWlqeEFRSkFxVXcwb1lWcWV1QWljdkNRY2J0MzZRbEI3R3pFV3hZXzA5ZGNIazJSV0pFWUh1bWxDRWFtRnh1U2Q4S3kzOGtraTg0MFAyUXZSRWtGOU5nWVdNWWNSZEpxX2U0VDNHUlB2VDYzUk9rRGIzVkVlbjJadU9kUElvZGJCNkVrMFh0MUVlbG40TTU1SmNxenZZREF1aFZpUmRWZVdORk04aXRtS0ozdWRwN2I3SkY5dTMxZEFMU0NLVQ?oc=5"
     }
   ]
 }

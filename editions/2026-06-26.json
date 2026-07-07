@@ -2,40 +2,57 @@
   "date": "2026-06-26",
   "edition": 11,
   "colophon": "54 sources scanned · 50 ok · 4 failed",
-  "lead": null,
+  "lead": {
+    "headline": "Amazon raises its India AI and cloud bet to $48 billion",
+    "summary": "Amazon announced additional funding that brings its total committed investment in India's AI and cloud infrastructure to $48 billion. The announcement follows similar mega-commitments from Google and Microsoft in recent months, cementing the hyperscaler race for India's fast-growing cloud market as a structural trend rather than a promotional one.",
+    "signal": [],
+    "badge": "",
+    "takeaway": "India is now the primary battleground for global AI infrastructure investment — the $48 billion Amazon commitment makes this structural, not speculative.",
+    "why": "For someone pivoting to AI roles in India, this signals where the highest-value job and startup creation is happening. AWS, Azure, and Google Cloud are all building out India data center capacity simultaneously, which means demand for AI talent, cloud architects, and ecosystem builders will compound over the next three to five years. The downstream effect on Indian AI startups like Sarvam is the second-order story: this infrastructure is what enables them to scale.",
+    "source": "EdTech Innovation Hub",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYXNGQjNfd2x0OGIzSWpzR2R1X25BMTQ0bjFyREhIRUlrSmtwMlFqNVV3eUY4MlJuLUl3eDZQcDF6MlZtd2RDU0xmeGI1R19YRllyeXVJbVhlUV9QQWZmd2xaZGlMdGJMd3N2Ri02UlZGc1RiOVNKcUFXV05UczZQdE9iTDZMVUFydkw2ZFdQMm4wUmw1NDNQaDRUUGVWa0pKRVRyYnlsS09tTi1xcWp0Q3o2eVFGbnNCYV80?oc=5",
+    "image": null,
+    "developing": false
+  },
   "frontpage": [
     {
-      "headline": "Global leaders converging on New Delhi next week for India's first major AI summit",
-      "summary": "Top world leaders are set to attend the India-AI Impact Summit in New Delhi next week, positioning India as a convener of global AI governance conversations. The summit coincides with US-India bilateral discussions on a structured framework for safe AI deployment.",
+      "headline": "Proactive climate resilience could save India's renewable energy sector $28 billion",
+      "summary": "A joint report by Zurich Insurance and Kotak finds that targeted climate resilience investment — flood barriers, grid hardening, better weather modeling — could prevent up to $28 billion in losses across India's renewable energy pipeline over the next decade. The pipeline at risk spans solar parks, wind farms, and transmission infrastructure exposed to extreme weather.",
       "signal": [],
       "badge": "",
-      "takeaway": "India is positioning itself as a neutral convener on AI governance — the non-Western alternative to EU regulation and US self-governance.",
-      "why": "The summit's timing alongside the US-India AI framework talks (see ai-4 in today's AI section) suggests India is building diplomatic leverage in global AI governance, not just hosting an event. For someone tracking the AI space in India, this is worth monitoring closely — it may shape India's AI policy posture for years. Events like this also tend to generate fellowship, advisory, and startup opportunities worth watching.",
-      "source": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5",
+      "takeaway": "India's clean energy buildout has a $28 billion resilience gap — the question is who funds it and what financial and tech products emerge to close it.",
+      "why": "The intersection of insurance, climate tech, and infrastructure finance is where new products are being built. For this reader evaluating India climate-tech plays, risk modeling and resilience infrastructure are under-invested relative to generation capacity. The Jaipur angle: Rajasthan's solar farms face similar physical risks from dust storms and heat extremes — local exposure to a global problem.",
+      "source": "TERI",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZUhHSGxMNWVtSjJtelA0RmV4dXNPcTlrazFWLTVzZ3hkSGRfWThWSGdrRG9uX090eDVOSVVwcHRwQ05IRTN4dlh3OGt0YkUxOVM5Q0Y3Zk82NGlBUHNSQ3pyLU01VTFHZ0VHWjJRdmV1T2JzVWE3RGpvN2c0dzJSSXVJb1NtRVU0SExrbVNjUWx2SXZYa0xkbXRUSW53cEVmZ3N6MjM3Vy1RSTFmakNtYU5fcUs?oc=5",
       "image": null,
+      "developing": false
+    },
+    {
+      "headline": "White House quietly asks OpenAI to hold back its newest model over safety concerns",
+      "summary": "The Trump administration has reportedly asked OpenAI to delay the broad public release of GPT-5.6, steering it instead toward a limited partner preview. The intervention is notable because Trump's public posture toward AI has been permissive and pro-speed, making the quiet safety hold a counterintuitive signal.",
+      "signal": [],
+      "badge": "",
+      "takeaway": "The US government has a back-channel AI safety regime that runs independently of its public deregulatory messaging.",
+      "why": "If the administration with the most permissive AI posture is still privately applying brakes, it suggests safety concerns at the frontier are more acute than the public debate reflects. For India's AI governance conversations at next week's summit (world-1), this is relevant context — even the US has quiet coordination mechanisms worth studying and potentially borrowing from.",
+      "source": "Apple Machine Learning Research",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZGdjdl9KVHBqRWh3M0R1R0JNVTNzSEtrd25sUHRnUEVlRlpndmx6Ul8xV2lrcE5tVVNLTDl0NWNKVDlqRkhlSUFMam0tNkpSUWxKR2ZySDdVVENYU3JsblZKeHFFQTEybFl3QVQ0aU51Vmg2Y0IzX1BGYU5tRFVoSExzMExNZ1BtTjRF?oc=5",
+      "image": null,
+      "developing": false
+    },
+    {
+      "headline": "AI recovers lost books by ancient philosophers from scrolls burnt by Vesuvius in 79 CE",
+      "summary": "Researchers have fully decoded carbonized scrolls from the Roman library at Herculaneum — destroyed when Vesuvius erupted nearly 2,000 years ago — using X-ray scans and AI text-recognition software. The recovered texts include lost works by ancient philosophers that have been inaccessible since antiquity.",
+      "signal": [],
+      "badge": "",
+      "takeaway": "AI has now recovered knowledge literally buried under a volcano for two millennia — one of the more genuinely remarkable applications of the technology.",
+      "why": "Worth pausing on as a moment of wonder rather than strategic analysis. This is a beautiful example of AI doing something humans simply could not do otherwise. If you follow philosophy or ancient history, the recovered texts will likely circulate as translations over the coming year. No career angle needed — just a good story.",
+      "source": "BOOK RIOT",
+      "url": "https://bookriot.com/best-sci-fi-and-fantasy-books-for-gamers/",
+      "image": "https://bookriot.com/wp-content/uploads/2025/05/A-Master-of-Djinn-300x0.jpg.optimal.jpg",
       "developing": false
     }
   ],
   "sections": [
-    {
-      "name": "Deep Tech",
-      "slug": "deep-tech",
-      "stories": [
-        {
-          "headline": "ON Semiconductor pays $7 billion for Synaptics to accelerate physical AI",
-          "summary": "ON Semiconductor has agreed to acquire Synaptics for $7 billion, targeting the growing market for AI inference running at the edge — in devices, vehicles, and industrial equipment rather than data centers. Physical AI refers to systems that act on the physical world: robots, autonomous systems, and embedded sensors.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "Edge AI chip consolidation is underway — significant capital is moving into silicon that runs AI locally, not in the cloud.",
-          "why": "Useful context for understanding the semiconductor landscape as it relates to India's deep tech moment. Physical AI and edge inference are driving a new wave of chip M&A. India's drone defense plays and industrial AI startups sit at the edge of this value chain.",
-          "source": "The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWHZXREdscWxyWV8xWkdRUG1qWTl2M3Q1OW1BNU92OGhuT0JzNVkwcFFzUF83ZThnSG5nc2FWM1BRWkVOMldaYVBjYnlIMG1XT1JnMFhObWliLVhaa3VBMnZ6U29EbW9IbTJaUnluU1VkX1gxTldBbl9YUjRjekpQdUVsTDEyaVRJT2FGWDVoTGo3VlVJT1g3dDJ0cjlpY0FfQ3VMQkZ30gGzAUFVX3lxTFA1cnJZRDJSMk5iSGU3cVJIOXVXSjJ3RXBpMWRvWXVjQ29WcURqSTBTTjdsOG11aV9CUlRGWHpsV2xCSkNndktaa2U5dnJ4S3p3bVJ6QW1ZeG1aXzFEMEVPaEFKeTIyaW9PNVZDQkdqVE1XVlhPYWIxZTFKWjNQOVNXTFFaSHBQOV9UU3JObnowS2Rkd0JLV0JaaWdwSkNtOEtBTDQtb0lweFdGNnZhOUFvRlRn?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
     {
       "name": "Health Tech",
       "slug": "health-tech",
@@ -47,8 +64,38 @@
           "badge": "",
           "takeaway": "India's pharma ambition is upgrading from cost-leader to innovation partner — the next decade tests whether the R&D pipeline can support that claim.",
           "why": "India's generic advantage is being competed away as other low-cost manufacturing hubs emerge. The innovation pivot is strategically necessary and creates investment opportunities if you can identify which Indian pharma companies have genuine R&D depth versus those repositioning on reputation alone.",
-          "source": "hrtoday.in",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeHRrUXRtOFBwV3dDYzRSMmVwcGRSZ2JaOEM5bVV4V3dBVlB4WVEweHNlSGxIOHE4aE8wYV8zSV91Z2pHNmtpeFJRUFdpcEdWNkpvVDloMDRWYmFISEJ0NmEwUWwyY2xLSnE5cVl1dHNTVGxUVHdHUWtOUnhqdXVNekNB?oc=5",
+          "source": "livemint.com",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOOS1pMnRlLU05ODNEcTZ4aFNueEJzUnRtM0Zrbkw2ZGNkQmVCdzh4WUVyV1JneWZ1dHNHSEt5SS1GeG9uRUUzTHNteG1renh3WTRBSllqQXdKTVN2dG5kdHEteWN3S0RJUElEeEZfM0tRMk0zZWdObzZIdk1DZHd5TnhzdGNXeXd6TFJsa0hhWWdxTzhGamZNQU1XQXh4d2tjUFNlSU82TXVfbFY3OVBGUEFhQS1ZTlFHY1JhNm95Sm5abFVodVNuUDVVRXB5WGNnZkdtVUlZWUdwel9qd2xvSmY2WTdlTmV1aGfSAe8BQVVfeXFMTWkxS1QwMXdoWU5mTXd2ZDk5SkpQaVJFcUVoM0tmYWFuYTBmQWhGdHdMM2xFUU01eFRDLVdIWkhITmZwVWJPNG1PQWdKazZwSlZqdDljajVscUc1dVVBT3I3QU1sYUJ0TmtHZG5fRVhsUlRQVVpraTlFZ0JieUlXUGJtcUpSUS1ITkdIUHpReHBIR1lYbXV3cXhqUlBUZVhhU2p3QktSOU9QdnlJTTNjQnpEVERoRkZLUERRMy1aZ3d5amNfaWd4X1BNNldhQ0xwWG9Lb0Izc2NVYUk4b3BVMHBZYVd1SU1RdDJfbUxON1k?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Agritech",
+      "slug": "agritech",
+      "stories": [
+        {
+          "headline": "India needs to break its dependence on imported agricultural inputs to secure food supply",
+          "summary": "An analysis argues that India's food security strategy remains structurally dependent on imported seeds, fertilizers, and crop protection inputs — a vulnerability exposed by the Iran war's supply chain disruptions. The piece advocates for a domestic push in agricultural biotech and input manufacturing to reduce this exposure.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "India's food security is more fragile than grain production numbers suggest — the hidden risk is import dependency in agricultural inputs.",
+          "why": "Connects directly to the Iran war supply chain story in today's economics section. India's exposure in agricultural inputs mirrors its energy import vulnerability. For agritech investors: domestic substitution in seeds and fertilizers is a policy-backed opportunity that will only intensify given geopolitical trends.",
+          "source": "AgFunderNews",
+          "url": "https://agfundernews.com/olam-agri-on-what-it-takes-to-build-self-reliant-food-systems-across-africa",
+          "image": "https://agfundernews.com/wp-content/uploads/2025/10/Olam-Agri1-150x150.webp",
+          "developing": false
+        },
+        {
+          "headline": "India's draft Food Security Amendment would raise grain allocation to 7kg per person",
+          "summary": "A draft amendment to India's National Food Security Act proposes increasing per-person grain allocation from 5kg to 7kg while capping total family entitlements at 35kg per month. The amendment is in consultation stage and would significantly expand India's already massive food subsidy coverage if passed.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "India is expanding food welfare commitments even as it grapples with food security's structural vulnerabilities — the two are in tension.",
+          "why": "Policy context for understanding the agritech opportunity space. Larger subsidized grain distribution could dampen commercial food tech demand signals in the short term, but increases pressure on yield efficiency and logistics — areas where agritech intervention is most valuable. Food security will remain politically salient regardless of which party holds power.",
+          "source": "The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPci1qdEdvLWRfU0NFYm9jLS00b3RvMXNLMVJPaXVxN3FfN1hwb0dYaWlJTzJMLWIwMlFUeDdLb0MzTmpuc2RTdzVZa3ltWXc0eUNQTjZEeGJneVA3U0pTY3hsRW5tMElpdENmeW90dldLWFJmbWpGU013Qi01YURnVGJHWHI3dEgtN2JQc0V4enBPcXZJOXEzZkdZd3UyZGRiOU93bVFYeFI2R0RQOHlaRjhXSk1UbGRCdk0tYzh4ZS1zYUN4NHd4MXhJZnFxNFFFOFI2cmFyT3pqUHlTa2ZOWGF0WkhzNnExRGo4ZGFQSTNGVTktNzQ5ZjNISWZjTHBidTA2RWU3Tlc1dWV3V0FscEdnNNIBmgJBVV95cUxPcXdVZm9QYlVxMlg0VnZFSVZVam9GeWdMTUtBRTVwMFBrdFozOHEtZjEybVhVLWNJejFlb01JbmdiVXlHUmt5c0VXRnE3WjJsYURZakIyX01ZN0MyVEQwWlFzR01zQ09iMTNPVU1rZEF2YzZlb1lMWlF6OFAwNmNWNlZ6cjlfWXFKM2FOZ29VdTdNekNVTWN1VUdtMjAwWVFNQS12bUE5WXl5ZnVzUmgtY0F0amxRdm9LNVl3S0MzNjljbWJEb3MyQjBITF9sLXJ1ODBTblF1VFZhNkVRdTF6aW5RZEEtVjR0bWhtQ19IT0VBb0l4VTlqM2JWNG5PZHhRR0ZnZWUzVTRIMTdtakFIeEJDUFE5bXl0Y2c?oc=5",
           "image": null,
           "developing": false
         }
@@ -65,26 +112,8 @@
           "badge": "",
           "takeaway": "India now has a seed-stage player in optical space communication — a category that will matter significantly as satellite constellations scale.",
           "why": "Interesting for deep tech tracking in India. Laser-based optical links are faster and more secure than radio-frequency alternatives. India's post-liberalization space sector has created room for exactly this kind of startup to emerge. Small raise, but it signals the ecosystem is deepening beyond software.",
-          "source": "London Daily News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1V2OHk0eHJUYWpmTHhJbUEyYTdSeVpnTDBpZDFMVGVITU10WG5zaWFkRVlDTWpVMERrM1ZuRFhQS1c1dXBZOTJ0cko5M2RybVBfMmJXeFBiVmxQaVNOelJqQ2dDdmJyN2pIX2NqLV9ac0JELTNTNnI3T1hLZklNQVFFRk9GVXRld29zNkVoNWR0TENkM0FuMEtoM01YTFU?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Global Economics",
-      "slug": "global-economics",
-      "stories": [
-        {
-          "headline": "Could AI-driven productivity allow central banks to hold interest rates lower for longer?",
-          "summary": "Kevin Warsh draws lessons from the Greenspan era's productivity boom to argue that AI-driven gains could suppress inflation and allow central banks to maintain lower rates. The thesis is contested but gaining traction in monetary policy circles, including at the Federal Reserve.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "The macro AI bull case is not just about stock prices — it is about whether AI productivity creates a new extended low-rate era.",
-          "why": "Second-order thinking for anyone following AI's economic impact. The Greenspan comparison is instructive: the 1990s productivity boom was real but the Fed was slow to recognize it, keeping rates higher than warranted. If AI delivers comparable gains, the macro regime shift could be significant for investment return assumptions. Highly uncertain but worth tracking as a thesis.",
-          "source": "BFSI News",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMkpIbXNja1dwZ1pROGgxUzhoM3libFdwT09jbW80cmJMYlEwSVdqeUtsVVVWcWVwY3oyUXF1UnB5Qm5tUXEyZURaeGF2eXRRVkhfT2gxV2tCQ0RaMjFaVWxpbHJyRmhQamFGc1c2QUlIREFMQ2ppS3hnQ2x5M3FQX29aalZSYWlhQUIzR2RjX25VZC1keU1VYXM5QkxzaGZCQ3R2NGozYmF5c0xJTF92bEpNSC1aQ2xJSlg5NXJrc3hMOU5SZ1JNbFJlZ0NfYlNQTnpLSGhCZ01saGl4YU0ybtIB5gFBVV95cUxQRm1QQnUyMk9HX0hyMGxWNEVmODRKbTktcFN6aThCMTBWb0JfRTlFV1RtMkhUTlA2WnZRVU93bFNQX2k1cEozelBLMFhNRldiZHl1Sjhvdi1Xa3BmSGE5bkEtQ1ZSYW5Bd2lvdkc2b3o0aEctLWI0NVZjSnBsbE50cWxsczVoNVhfcDdleFJjUnFBZi1DTkgyNDBCd1k4d1FybmVwOWw3aUpwWm55WElxOFZ0Yi1wMGp6MHlBWlNETGUxNjMyYVJQdndDazhIVFhsU0tzbVI3b3djbUNrWjgwX2JwZE83QQ?oc=5",
+          "source": "Indiatimes",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMm5ub1YxblZTWm8yZTc3U3YzMktVeE9QXzRWbDMySzBXOEROS2hIVWZlRWQ3a1NaMk9ETHBhdWMzd2JIcFkxekx3SVJ0MkhNMEFpeWM0S2hwZHNBX3poVGR5ai1MX3doa2tXNmFfdWwyT29ldjZIOThPZ0NJVnJiSElhUHZkalNCaEFZNHVfTm5Bbm41VlAteDBQT01HbFVvSmtsazZQTExlbTlqWmtoNzdOQUh2VVBob0M0LWplTkhXRTdEYzNDOEg5cHFGTnJvekRvSEwzRjVHZzY5ZmgzUTYtQ3I3THRoZVd4UtIB8gFBVV95cUxPVmlKcVB4ZGRadU1fcV9SNkJyaGlPdm5nOTBIM0J6aDlySUpWVEFoYndpNXM4N0xnamFBc29UZnZwd1NoX2VKVDlqQ1JtSWI4TjctZDd2X0ZEMzBxSVZqcGNZbVBlLWd4aFRqOWtaaU03d0N1RWVEUHlYTjlXSlpaY2NrQk11NHFvM3JabTU5Q3JJbU5GMTBXUzNVdWZNZzZZbFhkU3pzOWFaWC1QQ1RQUEtyYTBlb25kWk1FWjhZd0Ywb2t3V01lMkJsSTZLUktNbks5MmxZZFNiNlNwZHV0ZUN2S2hhSFhJZHpmM2VLZTIzQQ?oc=5",
           "image": null,
           "developing": false
         }
@@ -95,34 +124,16 @@
       "slug": "india",
       "stories": [
         {
-          "headline": "PM Modi pitches India's DPI stack to Netherlands' Queen Maxima, the UN's financial inclusion advocate",
-          "summary": "Prime Minister Modi met with Queen Maxima of the Netherlands, who serves as the UN Special Advocate for Inclusive Finance, to discuss scaling India's digital public infrastructure — including UPI, Aadhaar, and DigiLocker — to other countries. The conversation fits a pattern of India actively marketing its DPI architecture as a global template.",
+          "headline": "India-US trade deal is close but stuck on the hardest remaining issues",
+          "summary": "Both India Today and The Hindu report a US-India trade agreement is near finalization but stalled on politically sensitive issues: agricultural tariffs and market access for US dairy and poultry, and US demands on pharmaceutical intellectual property protections. The remaining gaps are small in number but politically difficult to close quickly.",
           "signal": [],
           "badge": "",
-          "takeaway": "India is treating its DPI stack as a diplomatic product — and the world is listening.",
-          "why": "Connects directly to the UPI milestone (world-9, frontpage). India's digital infrastructure is increasingly a soft power asset and a commercial export opportunity. Deep knowledge of how India's DPI was built, governed, and scaled is a differentiator in international development, fintech strategy, and policy-adjacent roles.",
-          "source": "NDTV Profit",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNThiVEQzZm8xZjFQcEExMlZFNmI3MUoteFNsY0d6N2Q2UVpJTTFkQlVvcVp6MVFUQkNHUGlBMDVMWWdFUUlpMmNBR0VpMkNTNW1zMnAyQ2RnV2hIMW9rd3Bnd1dKTUJWUktYT3VYT0lHOHZWUHlSbkl2RWlnUFBHclhBclJLOUo4WDRfVjhoV2FzZElLZXlRQnAxSkVMaTYyQXIySjI5OVBiQzQ1WnZQVVVwcUllaHZkbEtwUFJ5TTczLVJtNC1CZ1pDSnHSAdQBQVVfeXFMT2Q1UC0wcDlCOVlOWUFISmlxSkFaamZjdnFJMDRKcVNFR1RlU2o3SnZWUmctVTgxTFZ3Z2tsMkhRUWo1YVU4cE9fejdDTjdWTHBNYmpoNk13ZjJtbEdNTW1CRzhiSFhDVmZ2SlRRNXRxd05uMXpONG1hTWF6ZG0wTEZQYmZCVm95SEQ5bjM4UUdVV3lGVEc3NDN5QkNjY19rSDJiQ05vdzZ4ZVNjQ3I0ckQ0TXo2d1EyeWFvc202LVlKLW5MVXg3ekkzR2dBQTNFeFM0aWU?oc=5",
+          "takeaway": "The deal is real and close — but what remains undone is exactly what each side finds hardest to concede.",
+          "why": "A signed India-US trade deal would be the largest bilateral economic event of the year and would reshape Indian export and FDI flows for years. Watch which side blinks on agriculture — India's food security politics make agricultural concessions nearly impossible, which may ultimately cap the deal's scope even if it is signed.",
+          "source": "The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd1YxWjllOGcxcnNfb0dfSG1wYnc2SGJFTE5taXI4ZDk3enZvRTdLRzBxdjNRN2RfYm5NNE1DZzQ2aE95NV9mdXVUdGdDZ1pnOE12S3U0T29aQ3FidDA0Mk94UDlOdlBnOEpHQXJORlJkMk5vcElMeW1Nd3NaX0llUzVwa2lwX2xtbFg2dW5ZRkxtWEhTcVRPc3pIYlMtdVk3c3F5Y05QNG1CcUxhUWFLY3NmVkZ4cWNMTUhMd1ZtUHBfRnQ5dEd1UklMZnBINkowVE5FTTluZXFWcVE1MWdF0gHsAUFVX3lxTE5Kb1hVY3FBWmRUY0UyOW53ejlTV0ZJME82V2pRVWhYMlhCb1dEWXlBZUlkZE1uSzZHdkw5QnF0X1RUbzdPcnk5VEpacllkYW51YTlVbTdkdEp3V2Mtb29tdFVsQUx6ejVGX0x5VlBnUTlJMVgwYWt6U1FjdU5pbndpNVg4ZXlsNFJhcUFNNGs0MFNLcHl2QTUwOHlveTFfWkhMd2lsZFpmMkdxRElnYjU3OVhPbnV5bXZibEpoVnVNRGx5RVREM08yTkZQdlIzZEtfOTJtcDZCRHBnVk5ZbUtDNl9XQjhKVEhnaUsy?oc=5",
           "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Other Interests",
-      "slug": "other-interests",
-      "stories": [
-        {
-          "headline": "India's 14-year-old cricket prodigy Vaibhav Sooryavanshi gets his own changing room for England tour",
-          "summary": "India batting sensation Vaibhav Sooryavanshi — the youngest Indian ever to score a Test century — will have a separate changing room during England's tour under BCCI arrangements that comply with professional sport regulations around minors. The detail underscores just how young he is even as he competes at the highest level.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "India's youngest cricket star is navigating the logistical realities of being a professional athlete at 14.",
-          "why": "A lightly charming cricket story rather than one with strategic implications. Sooryavanshi's emergence represents a new generation of Indian cricket talent — the changing room arrangement is the kind of detail that makes his exceptional youth tangible.",
-          "source": "News On AIR",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRWZOMTczTWdkZ2ZSZ0s0NU9NaUxvQ0E1WVhhMmQ4Y0hMdExxSHFHWTBwTmxuUzFrTTJIb2lBWHE0YlBjbFFYZG5USlhlTnBzZmwyZW5YWkFJbHU4Zk05a0xvTWJsTDJGaXQ2QVJYZExVbXRPZ0UxRGxSVzBRNl9PbHlMVGI?oc=5",
-          "image": null,
-          "developing": false
+          "developing": true
         }
       ]
     }
@@ -132,8 +143,8 @@
       "name": "SGSITS Incubation Forum Cohort 3.0 — Startup Grant Program",
       "when": "Application deadline upcoming — verify at SGSITS or fundsforNGOs",
       "summary": "SGSITS, a prominent technical institute in Indore, Madhya Pradesh, is running its third cohort of a startup incubation and grant program. Open to early-stage Indian startups and student entrepreneurs. National reach; Indore is accessible from Jaipur. Worth checking if you have an early-stage idea or are supporting a founder.",
-      "source": "PM India",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZWNRa21CYWMyVVd0RV9tQUJqUUM5MzQ5ZFBpUmlzd1lXM01uNUFlY2tjdEliTGtyMTNUZGJzWV9IYmIzb0VrcGpBMmxYRjdKNmVIWUJWN2VkUF9UcC1JUDBuRmRiUzdFZHZtc3NHeGtMQVVwRnVqempyRGdBVmRYRzQ3MU1ObXp5N2JTeG9FOGh5RTFPa3lDVE03Ykwxd3ZYbmtxMF8wLUJmcFdHZlplQjE4bk1vbnVPOWplQ016eGlLWElRWnRvWWZpQkxtMXNhVHFmWmJuM0JidXJINlE?oc=5"
+      "source": "ET HealthWorld",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNLUFOZS1oUE5UQ3JMZk9LUVFQdXd3UTlJTi1HMVBTbGlsMVdQU1Y4Y0RmbVQxYUtvMy1NQVhRQWNOVEk2SmJJcWx5M05Lb0w5cUd5OVpGV2VtODZBV3RERndqb1lnUTR0MnpvMXA1Tmp0ek5hVUtNZ09UVXJXV29LemtwQTRGYTNWOHJLc2lVdnFZYWUzOHhLT0pSaHQtaDdyTzk0WVcxSGZodnhZTXM1ZE9nQjd4LXBhYTcxSERzekxxcV9YNnJyeHNxY2VwT3dtS3JSd1gxQXNFUnFydDVYcnhfTVZGUdIB5gFBVV95cUxNLUFOZS1oUE5UQ3JMZk9LUVFQdXd3UTlJTi1HMVBTbGlsMVdQU1Y4Y0RmbVQxYUtvMy1NQVhRQWNOVEk2SmJJcWx5M05Lb0w5cUd5OVpGV2VtODZBV3RERndqb1lnUTR0MnpvMXA1Tmp0ek5hVUtNZ09UVXJXV29LemtwQTRGYTNWOHJLc2lVdnFZYWUzOHhLT0pSaHQtaDdyTzk0WVcxSGZodnhZTXM1ZE9nQjd4LXBhYTcxSERzekxxcV9YNnJyeHNxY2VwT3dtS3JSd1gxQXNFUnFydDVYcnhfTVZGUQ?oc=5"
     },
     {
       "name": "AESOP-IIT Delhi-UCL Joint Webinar on Urban Planning",
