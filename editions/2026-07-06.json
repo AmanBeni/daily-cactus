@@ -13,8 +13,8 @@
     "takeaway": "",
     "why": "",
     "source": "Tech - South China Morning Post",
-    "url": "https://www.scmp.com/tech/tech-trends/article/3359528/chinas-biren-seeks-us900m-fund-gpu-push-and-challenge-nvidia-amid-ai-boom?utm_source=rss_feed",
-    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/06/0fd81983-22c4-426d-8d87-2885c0ffee90_4ba8fbfc.jpg?itok=B7tERfnH&v=1783311295",
+    "url": "https://www.scmp.com/tech/article/3359733/huaweis-new-computing-cluster-worlds-first-ai-agent-phone-debut-china-ai-summit?utm_source=rss_feed",
+    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/07/0000d9e8-5d5c-439d-b87d-fe5879d32a13_6ca3e3db.jpg?itok=AixjClRQ&v=1783417133",
     "developing": true
   },
   "frontpage": [
@@ -29,24 +29,9 @@
       "takeaway": "",
       "why": "",
       "source": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQN2puT0hjRGRhZUowYlpjN3NwY0RVamFCbWNONURvckFQT2Q2VlZheWcteHFwTzU4Ulh3c0Y1cWtuVTZuaE5CR1J2LTNPNnNoaExVZFQzbkw0VWt2aElSZWtiS2VjS1hEclhqcHFmWm4yckFENVhBUDM2S3AtcG15T1hYVQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5",
       "image": null,
       "developing": true
-    },
-    {
-      "headline": "Indonesia does not just want UPI — it wants India's entire digital public infrastructure playbook",
-      "summary": "PM Modi's Indonesia visit has expanded well beyond UPI to encompass India's full DPI stack: digital identity, document wallets, open commerce rails, and the India Stack architecture. Indonesia is building national digital platforms and sees India's decade-long DPI journey as a working blueprint. Multiple Southeast Asian nations are in similar conversations, making DPI export a serious strand of Indian tech diplomacy with real commercial opportunities for Indian govtech firms.",
-      "signal": [
-        "India's DPI is becoming an exportable model — a rare case of India as a solutions exporter in tech governance, not just a market or service provider",
-        "DPI-adjacent roles in govtech, digital infrastructure, and international tech partnerships are gaining strategic significance beyond domestic deployment"
-      ],
-      "badge": "",
-      "takeaway": "",
-      "why": "",
-      "source": "India | The Indian Express",
-      "url": "https://indianexpress.com/article/india/pm-narendra-modis-three-nation-tour-defence-critical-minerals-on-table-at-india-indonesia-meeting-today-10774654/",
-      "image": "https://images.indianexpress.com/2026/07/Prime-Minister-Narendra-Modi-with-Indonesia-President-Prabowo-Subianto-after-arriving-in-Jakarta-on-Monday.-ANI.jpg",
-      "developing": false
     },
     {
       "headline": "India startup funding dipped 9% in H1 2026 — but global AI megadeals hit a record",
@@ -59,12 +44,33 @@
       "takeaway": "",
       "why": "",
       "source": "Inc42 Media",
-      "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/01/FTR-2-100.jpg",
+      "url": "https://inc42.com/buzz/robotics-startup-mowito-raises-3-mn-to-expand-us-presence/",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/stakcbox-funding-featured-1-1-1.jpg",
       "developing": false
     }
   ],
   "sections": [
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "India's solar irrigation success story is plateauing — it needs a policy second act",
+          "summary": "India has deployed hundreds of thousands of solar-powered irrigation pumps, replacing diesel and cutting farmer fuel costs in a genuine first-phase success. But the program is stalling. ET EnergyWorld reports that the next phase — integrating smart water management, linking pumps to grid feedback mechanisms, expanding to more marginal and rain-fed farmers — requires policy innovation well beyond simple subsidy deployment. The transition from install to sustainably manage is where most rural technology programs stall.",
+          "signal": [
+            "Solar irrigation is proven but needs a policy second act — a test case for whether India can move from pilot to platform in rural technology deployment",
+            "Demand management and smart metering for agricultural power is an underexplored product space at the agritech-energy intersection"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "DW.com",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU0xwLTVuUUJ0QlU1bFllRDZDcFdGdWJBSWtud00yWlpHRk1GeWY4bzJhNlBwTnNLNzh0UUo3UGRYOFJHQk9RTmRLTVo2LWRLZzNGMTNLTWZqbVpiay1Pbm9tVHRlWl9aQVVQR09EdWhQR0FidG9sQU9paXNBWm9IR0hPWGhRRTJRcFJoYWw3VV8yRlVqdXJVRHZ2bUnSAZwBQVVfeXFMTVVyT3FNaXlrRHoyUTE4cVFVVndIY2VBU1ZPaUxGcHlVVGgxNElydDJzcy13VXdUQ0V5STBRYWtzUTc2Y2w5M0MzYjZPODNoSV9TOUt4NXdMVzBZSjJDMGNHQUhtbGlPbEQybDlRZ1R3NlUyN3RKbUdka0NJRXc1LXlaZjVCdTJaNkZyZEJ4U1JLVU5TRnQ3dFRkNW56?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
     {
       "name": "Indian Startups",
       "slug": "indian-startups",
@@ -80,50 +86,8 @@
           "takeaway": "",
           "why": "",
           "source": "Inc42 Media",
-          "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
-          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/01/FTR-2-100.jpg",
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Global Economics",
-      "slug": "global-economics",
-      "stories": [
-        {
-          "headline": "RBI holds repo rate, projects India's GDP growth at 6.9% this fiscal year",
-          "summary": "The Reserve Bank of India's Monetary Policy Committee held the repo rate steady at its latest meeting, balancing domestic growth support against the globally hostile rate environment. The RBI simultaneously projected India's real GDP growth at 6.9% for the current fiscal year — consistent with the OECD's external validation of India as the world's fastest-growing major economy. The RBI also flagged rising life insurance policy surrenders as a financial stability data point worth watching.",
-          "signal": [
-            "RBI is threading a careful needle: hold rates to support growth while managing imported inflation — the 6.9% projection makes that calibration look credible",
-            "The confluence of RBI projection and OECD validation gives India a strong story in global investment forums heading into H2 2026"
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVkRwb0N3NElDNEJrRFAzeWU1NWpnaGpoLXlFb3BqdExLaVc0dWZIOHFlUlNsRVNUdFlCUlNKcDA3U0hqSEtTekktZnR5YlZHeXdIUWxueEQ4WDJwNktxQlhLZzF5RHlJdzUzbE44T21NSDVNRk56VEh4cFQ2ZElMZHJJZnVQQkJmUzZ4Z0hKMk40NWM3SzFkVUZJdnVkb2M2QWZCNm1FbDFXYmRTNUp3?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "India",
-      "slug": "india",
-      "stories": [
-        {
-          "headline": "Indonesia does not just want UPI — it wants India's entire digital public infrastructure playbook",
-          "summary": "PM Modi's Indonesia visit expanded well beyond UPI to encompass India's full DPI stack: digital identity, document wallets, open commerce rails, and India Stack architecture. Indonesia is building national digital platforms and sees India's decade-long DPI journey as a working blueprint. Multiple Southeast Asian nations are in similar conversations, making DPI export a serious strand of Indian tech diplomacy with real commercial openings for Indian govtech firms.",
-          "signal": [
-            "India's DPI is becoming an exportable model — a rare case of India as a solutions exporter in tech governance, not just a market",
-            "DPI-adjacent roles in govtech, digital infrastructure, and international tech partnerships are gaining strategic significance beyond domestic deployment"
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "India | The Indian Express",
-          "url": "https://indianexpress.com/article/india/pm-narendra-modis-three-nation-tour-defence-critical-minerals-on-table-at-india-indonesia-meeting-today-10774654/",
-          "image": "https://images.indianexpress.com/2026/07/Prime-Minister-Narendra-Modi-with-Indonesia-President-Prabowo-Subianto-after-arriving-in-Jakarta-on-Monday.-ANI.jpg",
+          "url": "https://inc42.com/buzz/robotics-startup-mowito-raises-3-mn-to-expand-us-presence/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/stakcbox-funding-featured-1-1-1.jpg",
           "developing": false
         }
       ]
@@ -143,30 +107,24 @@
           "takeaway": "",
           "why": "",
           "source": "News On AIR",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQN2puT0hjRGRhZUowYlpjN3NwY0RVamFCbWNONURvckFQT2Q2VlZheWcteHFwTzU4Ulh3c0Y1cWtuVTZuaE5CR1J2LTNPNnNoaExVZFQzbkw0VWt2aElSZWtiS2VjS1hEclhqcHFmWm4yckFENVhBUDM2S3AtcG15T1hYVQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5",
           "image": null,
           "developing": true
-        }
-      ]
-    },
-    {
-      "name": "Other Interests",
-      "slug": "other-interests",
-      "stories": [
+        },
         {
-          "headline": "Fred Again announces debut India tour — Delhi, Mumbai, and Bengaluru this December",
-          "summary": "British electronic music producer Fred Again has announced his first India tour, with concerts in Delhi, Mumbai, and Bengaluru this December. One of the most acclaimed electronic artists of the past three years — known for emotionally textured live sets built around real recorded moments and an unusually intimate crowd connection — his India debut is a notable moment for the country's live music scene. Artists of his caliber rarely tour India.",
+          "headline": "Trump will meet Zelensky and Syria's new president at the NATO summit in Turkey",
+          "summary": "On the sidelines of the NATO summit in Ankara, Trump has scheduled bilateral meetings with Ukrainian President Zelensky and Syrian President Ahmad al-Sharaa — the post-Assad government's leader. The Zelensky meeting will focus on the fragile ceasefire and US support conditions for Ukraine. The al-Sharaa meeting continues US engagement with a reconstituted Syria. The summit is hosted by Turkey, giving Erdogan significant diplomatic leverage as the Western alliance manages Trump's divergent instincts on collective defense.",
           "signal": [
-            "Worth putting in the calendar if electronic music is your thing — December in Delhi will work well for this kind of show",
-            "Honest read: cultural note, not strategy-relevant"
+            "Ukraine, Syria, and NATO's future are being contested simultaneously in Ankara this week — a concentrated moment of global foreign policy",
+            "India watches US-Russia dynamics carefully; any shifts in Trump's Ukraine posture have downstream implications for India's defence procurement and energy positioning"
           ],
           "badge": "",
           "takeaway": "",
           "why": "",
-          "source": "RSS: News",
-          "url": "https://pitchfork.com/story/carmen-villain-announces-new-album-memoria/",
-          "image": "https://media.pitchfork.com/photos/6a4be5984237380946eaedea/master/pass/Carmen-Villain.jpeg",
-          "developing": false
+          "source": "News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?oc=5",
+          "image": null,
+          "developing": true
         }
       ]
     }
@@ -176,8 +134,8 @@
       "name": "Delhi Mango Festival 2026",
       "when": "July 2026",
       "summary": "Dilli Haat Janakpuri, New Delhi — annual festival showcasing 400-plus varieties of Indian mangoes. One of Delhi's best summer events and easily done as a day trip from Jaipur. National — Delhi/NCR.",
-      "source": "Daily Pioneer",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOGQ4OHUzNGs4ZncyWVlSWWd2OGoxU0JVdU9HRGtlMWg0Ym1LTlROLUhZZ0x6ZjVwQXZCNEhkbXR4a3V3Y1hYT0RmemJHOWxkSzdremc1cndTUjlWWjF5bFlXOXlRZ0dtNjdUS2JZV1VsVWJ5aG1DQkV0UEx3d0hCVjhnaw?oc=5"
+      "source": "News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUtDSGF1UnJCZ2pBVGZSZncwUDN4bFkwSUtCOFh4bmZWdE43NkpJNTU1M2JNbDVnU1h4MGF4NFN1RUxDQ2x5em9nb3NIQ3BTSThadk1fY25CWkNRRUZPX20za2QzVXVKa1F0UVBFMVVidHExc0xNVV9MdFZnSjVpOFlLOGJZaldZVEtMSmlqU3A2V2ZFd0w3T2dlUXA?oc=5"
     }
   ]
 }

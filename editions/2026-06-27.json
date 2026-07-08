@@ -5,81 +5,51 @@
   "lead": null,
   "frontpage": [
     {
-      "headline": "OpenAI, SpaceX and others race to build their own chips and shrink Nvidia's grip",
-      "summary": "OpenAI has unveiled Jalapeño, a custom inference chip being designed with TSMC, as part of a wave of Big Tech firms building in-house silicon to reduce dependence on Nvidia GPUs. Google, Amazon, Meta and SpaceX are all on similar paths, collectively compressing Nvidia's pricing power on the inference side of the AI stack.",
-      "signal": [],
-      "badge": "",
-      "takeaway": "The inference chip market is fracturing fast — Nvidia's monopoly on AI hardware is being dissolved from below.",
-      "why": "Cheaper inference changes the economics of running AI products dramatically. If you are building on top of AI or advising companies that do, factor in a sustained drop in API costs over the next two to three years. India's semiconductor ambitions also get a clearer target: inference chips may be a more achievable wedge than training silicon.",
-      "source": "EdTech Innovation Hub",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYXNGQjNfd2x0OGIzSWpzR2R1X25BMTQ0bjFyREhIRUlrSmtwMlFqNVV3eUY4MlJuLUl3eDZQcDF6MlZtd2RDU0xmeGI1R19YRllyeXVJbVhlUV9QQWZmd2xaZGlMdGJMd3N2Ri02UlZGc1RiOVNKcUFXV05UczZQdE9iTDZMVUFydkw2ZFdQMm4wUmw1NDNQaDRUUGVWa0pKRVRyYnlsS09tTi1xcWp0Q3o2eVFGbnNCYV80?oc=5",
-      "image": null,
-      "developing": false
-    },
-    {
       "headline": "India startup funding tops $1.09 billion this week, up 290% year-on-year",
       "summary": "A CRED mega-round anchored an exceptional week for Indian startup funding, pushing the weekly total past $1 billion for the first time in years. Year-on-year the jump is 290%, though CRED's outsized round means the headline number flatters the broader ecosystem signal.",
       "signal": [],
       "badge": "",
       "takeaway": "Adjust for the CRED effect, but a 290% year-on-year surge still signals serious capital returning to Indian tech.",
       "why": "Consumer fintech at scale is back in favour with investors — CRED's raise is the clearest proof. The next two weeks of deal flow will show whether this is a one-off or the start of a fresh cycle. For someone building or advising in the ecosystem, this is a good moment to watch which sectors follow.",
-      "source": "Indiatimes",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMm5ub1YxblZTWm8yZTc3U3YzMktVeE9QXzRWbDMySzBXOEROS2hIVWZlRWQ3a1NaMk9ETHBhdWMzd2JIcFkxekx3SVJ0MkhNMEFpeWM0S2hwZHNBX3poVGR5ai1MX3doa2tXNmFfdWwyT29ldjZIOThPZ0NJVnJiSElhUHZkalNCaEFZNHVfTm5Bbm41VlAteDBQT01HbFVvSmtsazZQTExlbTlqWmtoNzdOQUh2VVBob0M0LWplTkhXRTdEYzNDOEg5cHFGTnJvekRvSEwzRjVHZzY5ZmgzUTYtQ3I3THRoZVd4UtIB8gFBVV95cUxPVmlKcVB4ZGRadU1fcV9SNkJyaGlPdm5nOTBIM0J6aDlySUpWVEFoYndpNXM4N0xnamFBc29UZnZwd1NoX2VKVDlqQ1JtSWI4TjctZDd2X0ZEMzBxSVZqcGNZbVBlLWd4aFRqOWtaaU03d0N1RWVEUHlYTjlXSlpaY2NrQk11NHFvM3JabTU5Q3JJbU5GMTBXUzNVdWZNZzZZbFhkU3pzOWFaWC1QQ1RQUEtyYTBlb25kWk1FWjhZd0Ywb2t3V01lMkJsSTZLUktNbks5MmxZZFNiNlNwZHV0ZUN2S2hhSFhJZHpmM2VLZTIzQQ?oc=5",
-      "image": null,
+      "source": "Inc42 Media",
+      "url": "https://inc42.com/buzz/lissun-in-talks-to-raise-%e2%82%b945-cr-funding-from-colossa-ventures/",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Lissun-Funding-ftr.jpg",
       "developing": false
     }
   ],
   "sections": [
     {
-      "name": "Health Tech",
-      "slug": "health-tech",
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
       "stories": [
         {
-          "headline": "CRISPR gene editing crosses from laboratory promise into clinical reality",
-          "summary": "A new analysis in GEN reviews the progress of CRISPR-based therapies moving into clinical trials and early approvals. Several treatments for blood disorders, certain cancers and genetic conditions are now in advanced trials, with the first commercially approved CRISPR therapy already on the market in the US.",
+          "headline": "Indian state designates five new renewable energy zones to fast-track green projects",
+          "summary": "An Indian state government has created five new designated renewable energy zones designed to streamline permitting, land acquisition and grid connectivity for solar and wind projects. The move is part of a broader push to accelerate India's renewable capacity additions ahead of its 2030 targets.",
           "signal": [],
           "badge": "",
-          "takeaway": "CRISPR is crossing the threshold from research tool to clinical medicine — the era of gene-editing treatments has started.",
-          "why": "India's CRISPR research base is growing, and the transition to clinical reality opens both a market opportunity in affordable gene therapy manufacturing and a policy challenge — regulatory frameworks for germline editing are still thin globally. Useful context for anyone tracking biotech or health investment.",
-          "source": "Euractiv",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeThBYUtQblJRRjZFaEpHaE1sYVI4bDl5VU5HYnJjMWU1TWtVNTNORjlOSmk4eUx2RkJLTHkwSVV0N2xlc3FlNjJmS0pxZS1vTm9ET2VmZlFNd1ZwcTczd2ViVDVQeldwVlNCWGRFajVwUlp0dV9hcU9zb3EwcmpSaG8xbHVnQXpxTm91NFNrUk5iTl9BNDZzbmdxd0I0ZXQ2dXd3?oc=5",
+          "takeaway": "Zone-based permitting is how India actually speeds up renewable energy — watch whether other states follow this template.",
+          "why": "The regulatory friction point in Indian renewables has always been land and grid access, not capital. Zone designations directly address that. If this model works, it is a template for other states. For anyone in energy or infrastructure, the replicability of this approach is the story.",
+          "source": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m",
           "image": null,
           "developing": false
         }
       ]
     },
     {
-      "name": "Agritech",
-      "slug": "agritech",
+      "name": "India",
+      "slug": "india",
       "stories": [
         {
-          "headline": "FAO awards Modi its Agricola Medal for food security and sustainable agriculture",
-          "summary": "The UN's Food and Agriculture Organisation has awarded its Agricola Medal to Prime Minister Narendra Modi, recognising India's advances in food security, digital agriculture tools, and sustainable farming initiatives. India has moved from chronic food deficit to agricultural exporter over the past decade.",
+          "headline": "India-UK free trade agreement aims for transformational growth, 1,000 advisors deployed",
+          "summary": "Commerce Minister Piyush Goyal described the India-UK Comprehensive Economic and Trade Agreement as a vehicle for transformational growth for both economies. The government is deploying 1,000 advisory personnel and upgrading its trade portal to help Indian businesses leverage the deal.",
           "signal": [],
           "badge": "",
-          "takeaway": "The FAO recognition is diplomatic, but India's agricultural transformation of the past decade is real and underreported.",
-          "why": "For agritech founders, the headline signals continued government openness to agricultural innovation — grants, policy support and procurement are easier to access when the political signal is favourable. Useful context on where India's soft power and government priority is being directed globally.",
-          "source": "AgFunderNews",
-          "url": "https://agfundernews.com/olam-agri-on-what-it-takes-to-build-self-reliant-food-systems-across-africa",
-          "image": "https://agfundernews.com/wp-content/uploads/2025/10/Olam-Agri1-150x150.webp",
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Indian Startups",
-      "slug": "indian-startups",
-      "stories": [
-        {
-          "headline": "Hyundai and TVS launch EV ride-hailing app Blue Move in Delhi NCR",
-          "summary": "Hyundai Motor and TVS Motor have jointly launched Blue Move, an electric vehicle ride-hailing platform piloting in Delhi NCR. The launch follows Vietnamese EV maker VinFast's recent entry into the same space, indicating a wave of OEM-led EV mobility platforms challenging Ola and Uber.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "OEMs are going direct-to-rider in Indian EV mobility — the platform layer is up for grabs.",
-          "why": "When hardware manufacturers build their own platforms, it usually signals that they do not trust pure-play aggregators to sell or sustain their vehicles at the required volume. For Indian mobility startups and investors, Blue Move signals that the OEM-platform model is becoming viable here. Watch whether aggregators or OEM-led platforms win urban EV mobility over the next 18 months.",
-          "source": "Inc42 Media",
-          "url": "https://inc42.com/buzz/kunal-kapoor-ketto-cofounders-launch-healthtech-startup-metago/",
-          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/metago_ftr.png",
+          "takeaway": "India-UK CETA is signed — now comes the harder work of actually using it, which is where most FTAs fail.",
+          "why": "For Indian businesses and startups, the advisory infrastructure is the actionable angle: 1,000 trade advisors and a new portal mean tangible support for identifying UK market opportunities. If you are building anything with potential UK enterprise customers, this is the moment to explore what CETA actually offers your sector.",
+          "source": "India | The Indian Express",
+          "url": "https://indianexpress.com/article/india/pm-narendra-modi-jakarta-diaspora-india-indonesia-relations-10776383/",
+          "image": "https://images.indianexpress.com/2026/07/PM-Narendra-Modi-with-Indonesias-President-Prabowo-Subianto-during-the-Indian-Community-reception-in-Jakarta.-PTI.jpg",
           "developing": false
         }
       ]
@@ -90,15 +60,15 @@
       "name": "First-Ever National Rural Development Conference",
       "when": "June 28-29, 2026",
       "summary": "Inaugural national conference on rural development held in Delhi, bringing together policymakers, practitioners and researchers on India's rural economy. Relevant for anyone working on agritech, rural fintech, or India's development agenda. Delhi, national.",
-      "source": "Daily Pioneer",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOGQ4OHUzNGs4ZncyWVlSWWd2OGoxU0JVdU9HRGtlMWg0Ym1LTlROLUhZZ0x6ZjVwQXZCNEhkbXR4a3V3Y1hYT0RmemJHOWxkSzdremc1cndTUjlWWjF5bFlXOXlRZ0dtNjdUS2JZV1VsVWJ5aG1DQkV0UEx3d0hCVjhnaw?oc=5"
+      "source": "News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUtDSGF1UnJCZ2pBVGZSZncwUDN4bFkwSUtCOFh4bmZWdE43NkpJNTU1M2JNbDVnU1h4MGF4NFN1RUxDQ2x5em9nb3NIQ3BTSThadk1fY25CWkNRRUZPX20za2QzVXVKa1F0UVBFMVVidHExc0xNVV9MdFZnSjVpOFlLOGJZaldZVEtMSmlqU3A2V2ZFd0w3T2dlUXA?oc=5"
     },
     {
       "name": "SGSITS Incubation Forum Cohort 3.0 — Startup Grant Program",
       "when": "Applications open, India",
       "summary": "Third cohort of SGSITS Incubation Forum's startup grant program for early-stage ventures in India. Worth a look if you are early-stage or advising founders who are. National.",
-      "source": "Analytics India Magazine",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWWJOdFhSN0VWajRKblg4X084RmhYcGczLWZoMkNoWHlZNTJJeGVCTjQ2TElSTTl3QV83bWhXczd4R3V4eFJjOXRXWXZDRmRFbFJHZjQwajhlX0dVMHA2ZXFnUnY5T1ZuOXJYNGgyeDFuM0FiNDBEelhnTkJEVF9YZ3dZWGM2X1JJcGdfWkJEcnNabnBKSmdYT1o3eVFhbGdJZjk2aUdmT3IzU3hIODVuUg?oc=5"
+      "source": "olympics.com",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxObWxlVkRiVUZILTVKb2lPdV9GT1BfOFQ4c2RDZFdEcDhoTkFPUDBfRFZuV1Y1ekUtODh0dWxSc2RJdWtEazlfbEJzQTYySlMzaXRRNDJoeVZfb3FnU1V3QlJ3NFBaM0t5am1IaFZYSHRNQUhOa0Q5Ull3ekxOVmxBVmtMM0dLdXhacmJOTnpmOEZQczVlX0k2V2hrU2l2d29PSmlvQTBpcTNSWE5PRE92N1RoS2dEdm5kMXZLd2lpWmV2Z3V5T0JyUkxBOVJOMl81NkVhQ0VRMWx5NF9TNmVOYlZWN3UzUy00U3ZOblIzR2gzekVMMzJHREJDTGRqZnZpanJhbm4zMndxRUdPc213NjV1QkVLUQ?oc=5"
     }
   ]
 }

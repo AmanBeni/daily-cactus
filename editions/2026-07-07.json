@@ -2,22 +2,7 @@
   "date": "2026-07-07",
   "edition": 22,
   "colophon": "54 sources scanned · 50 ok · 4 failed",
-  "lead": {
-    "headline": "Anthropic's CEO on Why AI in Pharma Is Not Hype",
-    "summary": "STAT spoke with Dario Amodei, Anthropic's CEO, about artificial intelligence's real-world impact on the pharmaceutical and biotech industry. His message: dismissing drug-discovery AI as hype is the wrong call. Major pharma companies are restructuring R&D pipelines around AI for concrete economic reasons — genuine compression of timelines in molecular modelling, lead identification, and early-stage clinical design. Amodei distinguishes where the technology is genuinely productive from where marketing has run ahead of the science, and explains why the economics are compelling enough that large drug houses are placing structural bets, not just running pilots.",
-    "signal": [
-      "AI-in-pharma has crossed from pilot-project phase to pipeline-restructuring phase at major drug companies — a cleaner signal for where enterprise AI strategy and generalist roles will emerge next.",
-      "India angle: India's large generic-pharma and contract-research (CRO) base is a natural launchpad for AI-driven discovery that could move domestic players up the value chain rather than keeping them in manufacturing.",
-      "For the reader's AI-generalist pivot: life-sciences is one of the highest-signal domains to track — Amodei's framing is a useful mental model for where real enterprise AI adoption is happening versus where the narrative is ahead of the reality."
-    ],
-    "badge": "ANALYSIS",
-    "takeaway": "",
-    "why": "",
-    "source": "STAT",
-    "url": "https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/?utm_campaign=rss",
-    "image": "https://www.statnews.com/wp-content/uploads/2026/07/ANT_BRIEFING_SF_JPEG_01-645x645.jpg",
-    "developing": false
-  },
+  "lead": null,
   "frontpage": [
     {
       "headline": "China's Biren Raises $900 Million to Build a Real Nvidia Rival",
@@ -30,24 +15,9 @@
       "takeaway": "",
       "why": "",
       "source": "Tech - South China Morning Post",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3359528/chinas-biren-seeks-us900m-fund-gpu-push-and-challenge-nvidia-amid-ai-boom?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/06/0fd81983-22c4-426d-8d87-2885c0ffee90_4ba8fbfc.jpg?itok=B7tERfnH&v=1783311295",
+      "url": "https://www.scmp.com/tech/article/3359733/huaweis-new-computing-cluster-worlds-first-ai-agent-phone-debut-china-ai-summit?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/07/0000d9e8-5d5c-439d-b87d-fe5879d32a13_6ca3e3db.jpg?itok=AixjClRQ&v=1783417133",
       "developing": false
-    },
-    {
-      "headline": "AI Executed a Ransomware Attack — But a Human Still Chose the Target",
-      "summary": "For the first known time, an AI agent autonomously carried out the technical execution of a real-world ransomware attack: reconnaissance, lateral movement, and encryption. New details show the human operator still chose the victim, built the infrastructure, and issued the initial instructions — the AI handled delivery. The distinction matters for now, but the direction is clear: attack sophistication is being democratised to anyone who can issue a prompt.",
-      "signal": [
-        "The human-in-the-loop safeguard for cyberattacks is narrowing fast; AI now handles the hardest technical execution, leaving only targeting to the criminal — the barrier to entry for serious attacks has collapsed.",
-        "For builders: the defensive implication is that attack volume and sophistication will rise steeply even among low-skill threat actors, changing the threat model for any organisation running networked systems."
-      ],
-      "badge": "SECURITY",
-      "takeaway": "",
-      "why": "",
-      "source": "AI News & Artificial Intelligence | TechCrunch",
-      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
-      "image": null,
-      "developing": true
     },
     {
       "headline": "Ukraine Warns of Interceptor Shortage After Russia's Largest Single-Day Drone-Missile Strike on Kyiv",
@@ -59,154 +29,13 @@
       "badge": "",
       "takeaway": "",
       "why": "",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c163/live/a90f6680-791c-11f1-9510-1546718f668b.jpg",
+      "source": "World - South China Morning Post",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/08/f59658b5-3fc1-4343-8c3b-4cacbed7c4d6_8c53d71e.jpg?itok=zCZYfEOj&v=1783465200",
       "developing": true
-    },
-    {
-      "headline": "AI Writing Tools Are Quietly Shifting What Users Actually Say",
-      "summary": "A new study finds that AI autocomplete and smart-drafting tools systematically nudge users' messages on sensitive political topics — abortion, climate, immigration — in measurable directional ways. The changes are individually small: a softened word here, a reframed clause there. But at scale, researchers say these shifts can move aggregate public opinion. The effect compounds because users accept AI suggestions without reviewing them most of the time.",
-      "signal": [
-        "AI autocomplete has structural influence over public discourse that dwarfs any individual media outlet — it embeds the framings of whoever trained the model into the speech of hundreds of millions of users.",
-        "For builders deploying AI-assisted communication tools: audit for directional bias now, before regulators require it; this study is the kind of evidence that triggers policy action."
-      ],
-      "badge": "ANALYSIS",
-      "takeaway": "",
-      "why": "",
-      "source": "Technology | The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/jul/06/ai-altering-meaning-of-users-drafts-on-issues-from-abortion-to-climate-study-finds",
-      "image": null,
-      "developing": false
-    },
-    {
-      "headline": "AMOC Collapse May Already Be Locked In, Scientists Warn",
-      "summary": "New research suggests that the Atlantic Meridional Overturning Circulation — the ocean current that keeps Western Europe temperate and drives global weather patterns including the South Asian monsoon — may already be committed to collapse based on carbon already emitted and Greenland ice already destabilised. The uncertainty is no longer whether the risk exists but whether past emissions have already crossed the tipping threshold. A full AMOC shutdown would cause rapid cooling across Europe, significant sea-level rise on the US East Coast, and severe disruption to monsoon systems across South Asia.",
-      "signal": [
-        "AMOC disruption is not a slow-warming story — it is a tipping point that could reorganise global climate rapidly. It is substantially undercovered relative to its importance.",
-        "India angle: South Asian monsoon disruption is a direct consequence of AMOC slowdown, threatening the agricultural and water systems on which hundreds of millions of people depend — an existential risk buried under more immediate climate headlines."
-      ],
-      "badge": "",
-      "takeaway": "",
-      "why": "",
-      "source": "New Scientist - Home",
-      "url": "https://www.newscientist.com/article/2533017-collapse-of-amoc-ocean-current-may-already-be-locked-in/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-      "image": "https://images.newscientist.com/wp-content/uploads/2026/07/06101937/SEI_303859873.jpg",
-      "developing": true
-    },
-    {
-      "headline": "The World Bank Has Quietly Abandoned Its Climate Targets",
-      "summary": "The Economist reports that the World Bank has stepped back from the climate-finance commitments it made under previous leadership, scaling down green-lending targets and pivoting toward more conventional development loans. The Bank had been the largest single multilateral source of climate finance for developing economies. Its retreat creates a real gap for Asia, Africa, and Latin America that depended on concessional lending to finance energy transitions and climate adaptation.",
-      "signal": [
-        "Multilateral climate finance is contracting at exactly the moment developing economies need it most — the World Bank's retreat sharpens the financing challenge for countries like India.",
-        "For strategy thinkers: the gap is creating openings for private capital, bilateral green deals, and institutions like the NDB — a structural shift in where climate finance will come from over the next decade."
-      ],
-      "badge": "",
-      "takeaway": "",
-      "why": "",
-      "source": "Finance & economics",
-      "url": "https://www.economist.com/finance-and-economics/2026/07/06/the-world-bank-has-ditched-its-climate-targets",
-      "image": null,
-      "developing": false
-    },
-    {
-      "headline": "India Has an Opening in Global AI Governance — and Is Not Using It",
-      "summary": "The Hindu examines India's emerging but underused role in international AI governance. While the US and EU are writing primary regulatory frameworks and China is promoting an alternative model, India — with democratic institutions, a billion-person AI-consuming population, and deep technical talent — has genuine standing to articulate a Global South perspective. The piece argues India has not yet pushed hard enough at key forums to translate that standing into actual influence on how governance frameworks are shaped.",
-      "signal": [
-        "AI governance is becoming the next major trade and technology battleground — India's absence from the drafting table means the frameworks it eventually has to comply with will be written without its interests.",
-        "Career signal: AI policy and governance is an emerging high-value domain for technically grounded strategy generalists — a space this reader is well positioned to enter."
-      ],
-      "badge": "",
-      "takeaway": "",
-      "why": "",
-      "source": "The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZVRMUVd1MnpZM2JmSExucTRpN0NwVi10dC1FRE9MSmlrcEgxSDJGc0l4ak5tc0hpb0ExS2thQURWWGp5U2Q1V00zalp6TjRCandHMmMzb0NkekxvVnc4RXVaSDlrS1RSVU94LWlmbWJSUzdyUG5hNWRqVUp0dXlvbVU1WWZrRGlwZHV0RWZ1V1diSjk2UDF3NXNBTWRCalJELUlNYjY1MjllVXlfcERuUdIBtwFBVV95cUxOSzJpbkhoYmdubzhwYWNVX2xaYlNYYzJFTkZiMUpjWEdWX1lZdzNTd1oycFoxVFhpOUszYXlKa2VONHB3YW93cXBOcDlHMmQ0RGdKUk0wVU5BLS1PWXBMeGpia05WMXFCazBZUXFhRmF1NTBmaHM2YmZyMjM4SkFWZnJQbUVjVEpXRk9XVjNNS2FDT3M3VGlnZGszQWRvOWl3VUx0MTBXVFFNc2VsbzBNeUJPY2w3MUU?oc=5",
-      "image": null,
-      "developing": false
-    },
-    {
-      "headline": "Suzuki Anchors a Rs 2,000 Crore Fund for Non-Metro India",
-      "summary": "Next Bharat Ventures has announced a Rs 2,000 crore (roughly $240M) impact fund anchored by Suzuki Motor Corporation as lead LP, targeting tier-2 and tier-3 India across agriculture, mobility, healthcare, and financial services. Additional Japanese corporate LPs are expected to join. Suzuki's strategic interest in rural Indian mobility — it dominates the small-car and two-wheeler segments in non-metro India — makes the fund's mandate coherent rather than just philanthropic.",
-      "signal": [
-        "Japanese corporate capital is making a patient, structural bet on Bharat — Suzuki's depth in rural Indian markets makes it a more credible anchor than a generic impact fund.",
-        "For founders building for non-metro India: this is an aligned capital source worth tracking; the fund's mandate covers agritech, rural health, and vernacular digital services that conventional VC underweights."
-      ],
-      "badge": "",
-      "takeaway": "",
-      "why": "",
-      "source": "YourStory RSS Feed",
-      "url": "https://yourstory.com/2026/07/suzuki-backed-next-bharat-ventures-announces-rs-2000-cr-impact-fund",
-      "image": "https://images.yourstory.com/cs/2/a09f22505c6411ea9c48a10bad99c62f/Imagespzl-1680421400903.jpg",
-      "developing": false
     }
   ],
   "sections": [
-    {
-      "name": "AI",
-      "slug": "ai",
-      "stories": [
-        {
-          "headline": "AI Executed a Ransomware Attack — But a Human Still Chose the Target",
-          "summary": "An AI agent carried out the technical execution — reconnaissance, lateral movement, encryption — of a real-world ransomware attack for the first known time. The human operator still chose the victim, set up the infrastructure, and gave the initial go-ahead. The distinction between AI-as-assistant and AI-as-executor has now been crossed in the wild.",
-          "signal": [
-            "The floor on cyberattack sophistication just dropped — anyone who can prompt an AI agent can now deploy professional-grade technical execution without technical skill.",
-            "For any organisation running networked systems: the threat model has changed; volume and complexity of attacks will rise steeply."
-          ],
-          "badge": "SECURITY",
-          "takeaway": "",
-          "why": "",
-          "source": "AI News & Artificial Intelligence | TechCrunch",
-          "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
-          "image": null,
-          "developing": true
-        },
-        {
-          "headline": "India Has an Opening in Global AI Governance — and Is Not Using It",
-          "summary": "India's democratic legitimacy, large AI-consuming population, and technical talent give it genuine standing to shape global AI governance, but it has not translated that position into meaningful influence at key international forums. The US and EU are writing the rules; China is offering an alternative. India's window to act as a Global South articulator is narrowing.",
-          "signal": [
-            "AI governance is the next major technology trade battleground — India's absence from the drafting table means it will inherit rules written without its interests.",
-            "An emerging career domain: AI policy and governance strategy roles will grow significantly in India over the next five years."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZVRMUVd1MnpZM2JmSExucTRpN0NwVi10dC1FRE9MSmlrcEgxSDJGc0l4ak5tc0hpb0ExS2thQURWWGp5U2Q1V00zalp6TjRCandHMmMzb0NkekxvVnc4RXVaSDlrS1RSVU94LWlmbWJSUzdyUG5hNWRqVUp0dXlvbVU1WWZrRGlwZHV0RWZ1V1diSjk2UDF3NXNBTWRCalJELUlNYjY1MjllVXlfcERuUdIBtwFBVV95cUxOSzJpbkhoYmdubzhwYWNVX2xaYlNYYzJFTkZiMUpjWEdWX1lZdzNTd1oycFoxVFhpOUszYXlKa2VONHB3YW93cXBOcDlHMmQ0RGdKUk0wVU5BLS1PWXBMeGpia05WMXFCazBZUXFhRmF1NTBmaHM2YmZyMjM4SkFWZnJQbUVjVEpXRk9XVjNNS2FDT3M3VGlnZGszQWRvOWl3VUx0MTBXVFFNc2VsbzBNeUJPY2w3MUU?oc=5",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "The ECB Is Formally Modelling How AI Changes Monetary Policy",
-          "summary": "The European Central Bank has published work examining whether the monetary policy tools designed for a labour-intensive economy still work in an AI-intensive one, where output can surge without generating wage pressure or inflation. The questions being asked: how do AI-driven productivity gains show up in standard macro indicators, and does the traditional rate-inflation relationship hold when AI is doing more of the work?",
-          "signal": [
-            "Central banks are beginning to formally account for AI in their macroeconomic models — this will eventually reshape how interest rate targets and inflation guidance are calibrated.",
-            "Useful context for understanding the long-run macro environment in which Indian startups and AI businesses will operate; productivity without wage pressure is deflationary in ways that complicate standard monetary frameworks."
-          ],
-          "badge": "ANALYSIS",
-          "takeaway": "",
-          "why": "",
-          "source": "European Central Bank",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ1BKV2RLcjZ3S1oweFV3dndWYmJoMUNIbVNMYVBYOXBXQnNNYTBDUXZGZzdXMnVBYzdrX2FqdXg4a0lDZkpSRWJ1R0NmQmJDZ1hLYW1uR1dlY0VzM1NZMERpNWVPNG5sSGMwTGYyNDV4TmdXYXFTQjY4cDhnYmdtTGlJUUNTQmtITkE?oc=5",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "The Gap Between Sam Altman's $300-per-American Promise and OpenAI's Actual Structure",
-          "summary": "MIT Technology Review dissects Sam Altman's oft-cited claim that OpenAI's success would eventually deliver a meaningful economic dividend to ordinary Americans — framed in various tellings as roughly $300 per family. The piece examines the mechanism: OpenAI is a capped-profit company with no direct path to distributing wealth to the public, and the gap between the democratising-AI narrative and the actual corporate structure is substantial.",
-          "signal": [
-            "OpenAI's public-benefit narrative is being stress-tested against its governance reality — useful context for evaluating any AI company's claims about societal benefit.",
-            "For founders and strategists: the distance between mission story and structural truth is a pattern worth studying when assessing AI companies as partners, employers, or investment targets."
-          ],
-          "badge": "ANALYSIS",
-          "takeaway": "",
-          "why": "",
-          "source": "Artificial intelligence – MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
     {
       "name": "Deep Tech",
       "slug": "deep-tech",
@@ -222,134 +51,8 @@
           "takeaway": "",
           "why": "",
           "source": "Tech - South China Morning Post",
-          "url": "https://www.scmp.com/tech/tech-trends/article/3359528/chinas-biren-seeks-us900m-fund-gpu-push-and-challenge-nvidia-amid-ai-boom?utm_source=rss_feed",
-          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/06/0fd81983-22c4-426d-8d87-2885c0ffee90_4ba8fbfc.jpg?itok=B7tERfnH&v=1783311295",
-          "developing": false
-        },
-        {
-          "headline": "AI Writing Tools Are Quietly Shifting What Users Actually Say",
-          "summary": "Researchers found AI autocomplete and drafting assistants systematically nudge messages on sensitive topics — abortion, climate, immigration — in measurable directional ways. Small changes at individual scale accumulate into aggregate opinion shifts. The effect is amplified because users accept suggestions without reviewing them most of the time.",
-          "signal": [
-            "AI autocomplete has the kind of structural influence on public discourse that no single media outlet has ever had — embedded in the writing of hundreds of millions of users daily.",
-            "Regulatory attention is coming; builders of AI communication tools should audit for directional bias proactively."
-          ],
-          "badge": "ANALYSIS",
-          "takeaway": "",
-          "why": "",
-          "source": "Technology | The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/jul/06/ai-altering-meaning-of-users-drafts-on-issues-from-abortion-to-climate-study-finds",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "Morgan Stanley: Global Robotaxi Market Hits $1 Trillion by 2040, Led by China",
-          "summary": "Morgan Stanley projects the global robotaxi sector will reach $1 trillion by 2040, with Baidu, Xpeng, and WeRide positioned as regional leaders. The key driver is plummeting Chinese hardware costs that are making autonomous vehicle economics viable ahead of schedule. The report repositions the robotaxi story from a US-California narrative to a Chinese-led one.",
-          "signal": [
-            "China's AV cost curve mirrors its solar and EV trajectory — a pattern of hardware-cost dominance that India needs a strategic response to.",
-            "India angle: with millions of auto-rickshaw and taxi drivers and large last-mile logistics demand, India is a natural robotaxi market — but lacks regulatory clarity and domestic AV capability to participate in the first wave."
-          ],
-          "badge": "DATA",
-          "takeaway": "",
-          "why": "",
-          "source": "Tech - South China Morning Post",
-          "url": "https://www.scmp.com/tech/tech-trends/article/3359602/global-robotaxi-market-set-hit-us1t-2040-china-tech-costs-plummet-morgan-stanley?utm_source=rss_feed",
-          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/06/24040872-2f3e-4a36-b430-7f75eca9f50d_8bd18c0e.jpg?itok=pjKWBf1G&v=1783331441",
-          "developing": false
-        },
-        {
-          "headline": "Quantum Proofs: Some Problems Are Irreducibly Hard Even to Check",
-          "summary": "Quanta Magazine covers new theoretical work on quantum proof systems showing that for certain problem classes, verifying a solution is as computationally hard as finding one — even with quantum resources. This defines fundamental limits for quantum computing and has downstream implications for cryptography and algorithm design.",
-          "signal": [
-            "Quantum computing's theoretical ceilings are being charted — which is genuine progress; knowing where the limits are focuses practical R&D on the right problems.",
-            "Useful grounding for evaluating quantum computing claims in fundraising decks and press releases."
-          ],
-          "badge": "DEEP DIVE",
-          "takeaway": "",
-          "why": "",
-          "source": "Quanta Magazine",
-          "url": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
-          "image": "https://www.quantamagazine.org/wp-content/uploads/2026/07/QuantumProof-cr-Ada-Zejun-Shen-Default.webp",
-          "developing": false
-        },
-        {
-          "headline": "IBM and National Labs Run Quantum Simulations of Fusion Materials — A First",
-          "summary": "Oak Ridge National Laboratory, Cleveland Clinic, and IBM completed what they describe as the first computations of fusion materials on a quantum computer. The work models how materials behave under the extreme conditions of nuclear fusion — a problem too complex for classical simulation. If quantum simulation can reliably model fusion materials, it could significantly accelerate engineering for practical fusion reactors.",
-          "signal": [
-            "Quantum computing's first commercially meaningful impact may arrive through materials science rather than cryptography — a reorientation of where near-term quantum value is most likely to appear.",
-            "The fusion-materials link matters: fusion energy timelines depend as much on materials engineering as on plasma physics, and quantum simulation could compress that timeline meaningfully."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "IBM Newsroom",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVWNkODlKdzJHdTAzNklEcmVJSW9ma28xdlVFQ1I5OG44d2RfQkRWVXlacWcyNEk1M2F2REFzTk5INDhNRzlrbzNqdzhwVkotdGNYaGhqMWsyakpEYS1IcXJNTWZiLXRUWktYdmVtNFJ6SWttckNnd3Vad21TWTB1U044OEZMbTliY1J1WUtsdGFBbXJHcnFYWExLLXp6RmlIajZ4bXhhQk1VNnZIajFTenZNZlEwUkhqaHJhMW5mdjBYbkV0MWpWcmhhaTN4LVZQWXh4dVctZE5nanNqVnFycjFpTF9kU3RWZkFFX3JuOWlTUQ?oc=5",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "Scotland Considers Blocking All New Data Centres, Defying UK's AI Ambitions",
-          "summary": "The Scottish government is weighing a moratorium on all new data centre construction, responding to an SNP national council motion. The underlying issue: a flagship Lanarkshire AI data centre project was privately acknowledged by government and developers to have a serious power-provision problem, despite being publicly promoted as renewables-powered. If enacted, the moratorium would put Scotland on a collision course with the UK government's ambitions to make Britain an AI infrastructure hub.",
-          "signal": [
-            "Data centre energy promises are becoming a political liability when they don't hold up — communities near proposed sites are now organised opponents.",
-            "For Indian AI infrastructure planning: the Scottish experience previews the community and regulatory backlash that large data centre projects will face wherever they are built without transparent energy accounting."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "Technology | The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/jul/07/scotland-could-freeze-datacentre-projects-in-challenge-to-uks-ai-strategy",
-          "image": null,
-          "developing": true
-        }
-      ]
-    },
-    {
-      "name": "Climate & Energy",
-      "slug": "climate-energy",
-      "stories": [
-        {
-          "headline": "Agrivoltaics Could Solve India's Solar Land Crunch — If Policy Follows",
-          "summary": "TERI examines agrivoltaics — mounting solar panels above farmland so it serves dual purposes — as a solution to the land constraints blocking India's large-scale solar expansion. Deployments in other countries show most crop yields are maintained or improved under partial shading, while generating significant power from the same area. The gap in India is not technology but policy: no clear framework exists for agrivoltaic land classification, grid offtake, or project financing.",
-          "signal": [
-            "Agrivoltaics is one of the most elegant land-use solutions available to India's energy transition — the technology is proven; what is missing is the policy architecture to deploy it at scale.",
-            "For founders: agrivoltaic project development, farmer-partnership models, and agrivoltaic-specific financing structures are genuine gaps in India's clean energy ecosystem."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "TERI",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZUhHSGxMNWVtSjJtelA0RmV4dXNPcTlrazFWLTVzZ3hkSGRfWThWSGdrRG9uX090eDVOSVVwcHRwQ05IRTN4dlh3OGt0YkUxOVM5Q0Y3Zk82NGlBUHNSQ3pyLU01VTFHZ0VHWjJRdmV1T2JzVWE3RGpvN2c0dzJSSXVJb1NtRVU0SExrbVNjUWx2SXZYa0xkbXRUSW53cEVmZ3N6MjM3Vy1RSTFmakNtYU5fcUs?oc=5",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "Can India and Europe Build Solar Without Chinese Components?",
-          "summary": "DW examines whether India and Europe can realistically build solar supply chains independent of Chinese-manufactured panels, inverters, and polysilicon. China currently controls over 80 percent of global solar manufacturing. Both India and the EU have announced domestic manufacturing incentives, but the cost gap with Chinese production remains large and timelines to meaningful domestic capacity are measured in years.",
-          "signal": [
-            "Solar de-risking from China is strategically correct but economically painful — the honest answer is that matching Chinese costs at scale within a decade requires sustained subsidy at a level neither India nor Europe has fully committed to.",
-            "India's PLI scheme for solar manufacturing is the right instrument; the open question is whether private capital follows the incentive at sufficient scale and speed."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU0xwLTVuUUJ0QlU1bFllRDZDcFdGdWJBSWtud00yWlpHRk1GeWY4bzJhNlBwTnNLNzh0UUo3UGRYOFJHQk9RTmRLTVo2LWRLZzNGMTNLTWZqbVpiay1Pbm9tVHRlWl9aQVVQR09EdWhQR0FidG9sQU9paXNBWm9IR0hPWGhRRTJRcFJoYWw3VV8yRlVqdXJVRHZ2bUnSAZwBQVVfeXFMTVVyT3FNaXlrRHoyUTE4cVFVVndIY2VBU1ZPaUxGcHlVVGgxNElydDJzcy13VXdUQ0V5STBRYWtzUTc2Y2w5M0MzYjZPODNoSV9TOUt4NXdMVzBZSjJDMGNHQUhtbGlPbEQybDlRZ1R3NlUyN3RKbUdka0NJRXc1LXlaZjVCdTJaNkZyZEJ4U1JLVU5TRnQ3dFRkNW56?oc=5",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "A Brooklyn Startup Is Turning Old Stoves Into Grid Batteries",
-          "summary": "Electra Research is repurposing discarded electric appliances — stoves, ovens — into modular battery storage units installed in warehouses near urban centres. The approach sidesteps two problems simultaneously: the high raw material cost of new battery storage and the land constraints that prevent utility-scale battery farms from being sited near dense cities where storage is most needed. It is early-stage, but the circular-economy framing is compelling.",
-          "signal": [
-            "Circular-economy energy storage is worth watching as a model for resource-constrained markets like India, where battery recycling infrastructure is thin and urban land is expensive.",
-            "Creative constraint as product design: the startup is solving an urban siting problem with a materials solution — a useful framing for founders working on infrastructure in density-constrained environments."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "Canary Media",
-          "url": "https://www.canarymedia.com/articles/electrification/electra-brooklyn-induction-stoves-batteries",
-          "image": null,
+          "url": "https://www.scmp.com/tech/article/3359733/huaweis-new-computing-cluster-worlds-first-ai-agent-phone-debut-china-ai-summit?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/07/0000d9e8-5d5c-439d-b87d-fe5879d32a13_6ca3e3db.jpg?itok=AixjClRQ&v=1783417133",
           "developing": false
         }
       ]
@@ -358,51 +61,6 @@
       "name": "Health Tech",
       "slug": "health-tech",
       "stories": [
-        {
-          "headline": "Anthropic's CEO: AI in Pharma Is Not Hype — Here Is What Is Actually Happening",
-          "summary": "In a STAT interview, Dario Amodei explains that major pharmaceutical companies are restructuring R&D pipelines around AI not as experimentation but as a structural change. The genuine applications are in molecular modelling, lead identification, and early clinical design. He distinguishes where AI is delivering from where marketing is running ahead of evidence.",
-          "signal": [
-            "AI-in-pharma has crossed from pilots to pipeline restructuring at major drug companies — a leading indicator of where enterprise AI strategy roles will grow.",
-            "India angle: India's CRO and generic-pharma base is positioned to benefit from AI-driven discovery if domestic players can build or acquire the relevant AI capability."
-          ],
-          "badge": "ANALYSIS",
-          "takeaway": "",
-          "why": "",
-          "source": "STAT",
-          "url": "https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/?utm_campaign=rss",
-          "image": "https://www.statnews.com/wp-content/uploads/2026/07/ANT_BRIEFING_SF_JPEG_01-645x645.jpg",
-          "developing": false
-        },
-        {
-          "headline": "Vertex Pays $10 Billion for Crinetics as Rare-Disease M&A Stays Hot",
-          "summary": "Vertex Pharmaceuticals is acquiring Crinetics Pharmaceuticals for $10 billion, adding Crinetics's lead drug for rare endocrine disorders to its rare-disease portfolio. The deal is one of the largest biotech acquisitions of the year and signals sustained appetite for rare-disease assets where pricing power and patent exclusivity are strongest.",
-          "signal": [
-            "Rare-disease biotech remains the premium M&A asset class in biopharma — high prices, defensible patents, and regulatory exclusivity make these targets compelling even at steep multiples.",
-            "The M&A wave in biotech is providing exits that recycle capital back into early-stage investment — a healthy signal for the broader ecosystem."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "STAT",
-          "url": "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/?utm_campaign=rss",
-          "image": "https://www.statnews.com/wp-content/uploads/2024/07/AP20023802262338-645x645.jpg",
-          "developing": false
-        },
-        {
-          "headline": "Telehealth GLP-1 Prescriptions: Fast, Easy, and Often Clinically Thin",
-          "summary": "A secret-shopper study by STAT found that online telehealth platforms prescribing GLP-1 weight-loss drugs — Ozempic, Wegovy, and generics — frequently dispense prescriptions without appropriate clinical oversight: no lab work, no comorbidity screening, minimal follow-up. Regulatory pressure on telehealth GLP-1 prescribers is building, which will reshape the market toward more compliant, clinically grounded platforms.",
-          "signal": [
-            "A regulatory correction in telehealth GLP-1 is coming — the winners will be platforms that built clinical rigour in before it was required, not after.",
-            "For health-tech founders: the gap between convenience and clinical safety is either a liability or a business opportunity depending on whether you close it proactively."
-          ],
-          "badge": "DATA",
-          "takeaway": "",
-          "why": "",
-          "source": "STAT",
-          "url": "https://www.statnews.com/2026/07/06/glp-1-telehealth-prescriptions-jama-yale-secret-shopper-study/?utm_campaign=rss",
-          "image": "https://www.statnews.com/wp-content/uploads/2026/07/jamastudy-2-645x645.jpg",
-          "developing": true
-        },
         {
           "headline": "Google AI Powers Aarogya Setu 2.0 for India's Digital Health Push",
           "summary": "India's Aarogya Setu app has been upgraded to Aarogya Setu 2.0 with Google AI capabilities, expanding digital health features including appointment booking, health records management, and AI-assisted symptom checking for India's mobile-first population. The upgrade deepens Google's health-tech presence in India alongside its existing ecosystem investments.",
@@ -413,9 +71,9 @@
           "badge": "",
           "takeaway": "",
           "why": "",
-          "source": "The News Mill",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOHMyZkVtSmlLV1J2NFR1TGI5UEFOTndQcjBoLWxRc01WZURyckdXMmF6ek9EaElHQjVQamtxWncyYkxrZGdHYWptN3ByMHNKdHRXUzlYWDdmWVpuSDdhUnpRbDdkak9uSEd6Y2FSSGxjMWw3aTlxcmhlYjEweWJHd3V2V053amUyRU8tMjlXNDVxWTlxV2NfTGFiNnFfMldtekxqbFF3?oc=5",
-          "image": null,
+          "source": "STAT",
+          "url": "https://www.statnews.com/2026/07/07/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson/?utm_campaign=rss",
+          "image": "https://www.statnews.com/wp-content/uploads/2025/06/AdobeStock_1206716114-645x645.jpeg",
           "developing": false
         }
       ]
@@ -434,9 +92,9 @@
           "badge": "",
           "takeaway": "",
           "why": "",
-          "source": "AgFunderNews",
-          "url": "https://agfundernews.com/olam-agri-on-what-it-takes-to-build-self-reliant-food-systems-across-africa",
-          "image": "https://agfundernews.com/wp-content/uploads/2025/10/Olam-Agri1-150x150.webp",
+          "source": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbWFUZUlLZU51WjVEQWZJVFlhUUdvVDdJVDRpenZkZ1A0ZktaT3pVRm4tTDVXOGQ2RkpGNXliWDFfMjVkejBJMjI5Q0lWaFJwcDRoci1IRHFmWTd6S0c3RU4yd0VrQnhhMWxxejdqbXVuR1pacVdSLU1oSl8xbXFWeWN5WF81aWhyU01iUFdwbU0xU1JKLXJKb1Zlakp2WllYQzdwWnM1cXhwSVZSSC1n?oc=5",
+          "image": null,
           "developing": false
         }
       ]
@@ -445,36 +103,6 @@
       "name": "Indian Startups",
       "slug": "indian-startups",
       "stories": [
-        {
-          "headline": "Suzuki Anchors a Rs 2,000 Crore Bharat-Scale Impact Fund",
-          "summary": "Next Bharat Ventures has announced a Rs 2,000 crore impact fund anchored by Suzuki Motor Corporation as lead LP, targeting non-metro India across agriculture, mobility, healthcare, and financial services. Suzuki's rural India distribution experience makes the fund's mandate more credible than a generic impact label.",
-          "signal": [
-            "Japanese corporate capital is making a patient bet on Bharat at a meaningful scale — Suzuki's anchor role signals strategic conviction, not philanthropic optics.",
-            "For founders building for non-metro India: this is one of the few well-capitalised funds genuinely aligned with tier-2 and tier-3 market opportunities."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "YourStory RSS Feed",
-          "url": "https://yourstory.com/2026/07/suzuki-backed-next-bharat-ventures-announces-rs-2000-cr-impact-fund",
-          "image": "https://images.yourstory.com/cs/2/a09f22505c6411ea9c48a10bad99c62f/Imagespzl-1680421400903.jpg",
-          "developing": false
-        },
-        {
-          "headline": "Graph AI in Talks for $14 Million Series A in India's Pharma-AI Space",
-          "summary": "Graph AI, an Indian pharma-focused AI startup, is reportedly in talks to raise $14 million in a Series A from Insight Partners and other investors. The startup applies AI to pharmaceutical workflows — a space getting global attention as drug companies accelerate R&D with AI. Insight Partners' involvement would be a signal of international VC confidence in Indian pharma-AI.",
-          "signal": [
-            "Pharma AI is attracting serious institutional capital in India — Graph AI's Series A would mark India's entry into a global race that has so far been dominated by US and EU-based startups.",
-            "The Insight Partners angle matters: it suggests international investors are now looking at India for pharma-AI, not just for outsourced services."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "Inc42 Media",
-          "url": "https://inc42.com/buzz/graph-ai-in-talks-to-raise-14-mn-from-insight-partners-others/",
-          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-25.jpg",
-          "developing": true
-        },
         {
           "headline": "India Startup Funding Slows as Investors Turn Selective",
           "summary": "A broader analysis of India's startup ecosystem shows a slowdown in venture funding driven by investor caution on valuations and increasing regulatory scrutiny across fintech, edtech, and consumer internet. India-specific factors include SEBI's tighter rules around pre-IPO funding and secondary market transactions, making deal structuring more conservative.",
@@ -485,60 +113,9 @@
           "badge": "ANALYSIS",
           "takeaway": "",
           "why": "",
-          "source": "Indiatimes",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMm5ub1YxblZTWm8yZTc3U3YzMktVeE9QXzRWbDMySzBXOEROS2hIVWZlRWQ3a1NaMk9ETHBhdWMzd2JIcFkxekx3SVJ0MkhNMEFpeWM0S2hwZHNBX3poVGR5ai1MX3doa2tXNmFfdWwyT29ldjZIOThPZ0NJVnJiSElhUHZkalNCaEFZNHVfTm5Bbm41VlAteDBQT01HbFVvSmtsazZQTExlbTlqWmtoNzdOQUh2VVBob0M0LWplTkhXRTdEYzNDOEg5cHFGTnJvekRvSEwzRjVHZzY5ZmgzUTYtQ3I3THRoZVd4UtIB8gFBVV95cUxPVmlKcVB4ZGRadU1fcV9SNkJyaGlPdm5nOTBIM0J6aDlySUpWVEFoYndpNXM4N0xnamFBc29UZnZwd1NoX2VKVDlqQ1JtSWI4TjctZDd2X0ZEMzBxSVZqcGNZbVBlLWd4aFRqOWtaaU03d0N1RWVEUHlYTjlXSlpaY2NrQk11NHFvM3JabTU5Q3JJbU5GMTBXUzNVdWZNZzZZbFhkU3pzOWFaWC1QQ1RQUEtyYTBlb25kWk1FWjhZd0Ywb2t3V01lMkJsSTZLUktNbks5MmxZZFNiNlNwZHV0ZUN2S2hhSFhJZHpmM2VLZTIzQQ?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Global Economics",
-      "slug": "global-economics",
-      "stories": [
-        {
-          "headline": "The World Bank Has Stepped Back From Its Climate Commitments",
-          "summary": "The Economist reports the World Bank has scaled back the climate-finance targets it adopted under previous leadership, pivoting back toward conventional development lending. The Bank was the largest single multilateral source of concessional climate finance for developing economies. Its retreat leaves a real gap for India, Africa, and Latin America that depended on this capital for energy transition and climate adaptation projects.",
-          "signal": [
-            "Multilateral climate finance is contracting at exactly the moment developing economies need it most — a significant complication for India's 500GW renewable target that relies partly on concessional capital.",
-            "The gap is being filled by private capital, bilateral green deals, and institutions like NDB — a structural shift in where climate finance will originate over the next decade."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "Finance & economics",
-          "url": "https://www.economist.com/finance-and-economics/2026/07/06/the-world-bank-has-ditched-its-climate-targets",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "Japan's Wages Beat Inflation for the Longest Streak Since 1992",
-          "summary": "Japanese nominal wages rose above 3 percent in May, the third consecutive month of outpacing inflation — the longest such streak since 1992. This is exactly the wage-inflation dynamic the Bank of Japan needs to see before raising rates further. A rate-hiking BOJ tightens global financial conditions through the yen carry trade, which historically triggers capital outflows from emerging markets.",
-          "signal": [
-            "Japan's wage-inflation loop is now self-sustaining; further BOJ rate hikes are likely — a meaningful tightening of global financial conditions going into the second half of 2026.",
-            "India angle: BOJ rate hikes typically strengthen the yen, unwind carry trades, and can create short-term capital outflows from Indian debt and equity markets."
-          ],
-          "badge": "DATA",
-          "takeaway": "",
-          "why": "",
-          "source": "Bloomberg Economics",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-06/japan-s-nominal-wages-top-3-again-in-longest-streak-since-1992",
-          "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iU.pGDaJKduQ/v3/1200x-1.png",
-          "developing": false
-        },
-        {
-          "headline": "Fed's Waller: Rate Guidance Must Stay Flexible, Not Binding",
-          "summary": "Federal Reserve Governor Christopher Waller argued that forward guidance — the Fed's practice of signalling future rate paths — is useful but must be deployed flexibly, not as a commitment. The statement reflects the post-pandemic lesson that rigid guidance misfires when the economy surprises. Markets read Waller's comments as leaning dovish: flexibility-preserving guidance typically precedes rate cuts.",
-          "signal": [
-            "The Fed is keeping rate cuts on the table without pre-committing — market pricing for 2026 cuts should be held with appropriate uncertainty.",
-            "India angle: US rate cuts ease RBI's room to cut and typically drive capital inflows into Indian debt; the dovish lean is a mild positive for Indian financial conditions."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "Bloomberg Economics",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-06/fed-s-waller-says-forward-guidance-needs-to-be-flexible",
-          "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i3PdEi1l_szg/v0/1200x-1.jpg",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/lissun-in-talks-to-raise-%e2%82%b945-cr-funding-from-colossa-ventures/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Lissun-Funding-ftr.jpg",
           "developing": false
         }
       ]
@@ -557,39 +134,9 @@
           "badge": "",
           "takeaway": "",
           "why": "",
-          "source": "India | The Indian Express",
-          "url": "https://indianexpress.com/article/india/pm-narendra-modis-three-nation-tour-defence-critical-minerals-on-table-at-india-indonesia-meeting-today-10774654/",
-          "image": "https://images.indianexpress.com/2026/07/Prime-Minister-Narendra-Modi-with-Indonesia-President-Prabowo-Subianto-after-arriving-in-Jakarta-on-Monday.-ANI.jpg",
-          "developing": false
-        },
-        {
-          "headline": "Anand Mahindra: India Should Be a Connector Economy in a Fragmented World",
-          "summary": "Mahindra Group chairman Anand Mahindra made a strategic case for India positioning itself as a connector economy — bridging fragmented trade blocs rather than aligning exclusively with the US or Chinese spheres. He argues India's democratic legitimacy, large domestic market, and non-aligned tradition give it a unique ability to facilitate commerce and diplomacy between worlds that are otherwise decoupling.",
-          "signal": [
-            "The connector economy framing is one of the more coherent strategic narratives for India's post-globalisation role — more textured than Visvaguru rhetoric and grounded in actual economic relationships.",
-            "For founders: India's connector position creates openings in cross-border fintech, neutral supply-chain services, and businesses that require a trusted non-aligned intermediary."
-          ],
-          "badge": "ANALYSIS",
-          "takeaway": "",
-          "why": "",
-          "source": "The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcjRMWVYzNEo5a2FZdE02WTdqSnFTY1BmYkxXSnBZSEhlZ3hsb3RwcjBKSWRMUThjX2JXWlg3R2ZWMlVPc0hoc2dnRS1xeW5VSS1uU1VnNnMtT2xpblM4eDA2R2pCR1pRTDloYmM4M2twcVlVMWZ1Qzhnb0hfeW1oTlN0LV9OZnI5V19fS25TVWhZTWlGQlNGcmNTUzRJcTNlSTdDUDZMakd2MERpX1RPaDlmMNIBugFBVV95cUxQalVpamVKNWtNZEdkSGJoQThDUzZBMUpJcTNVakgxaUtGOXZDdjZHQU1NM2J1MDY3a1pjdTVTUnJxdGJJSTVBR2JWZ001TTdkRUNLeVJQSWEzMTRBcXo5S1dCR2hkaTJJdktxSEoyaHIzT0N6MjFhRjl1M0JhVF9TRXpFMFJxUXp3STc5U3F2VUQwVVRQR0dvWnBOYXJNaGo0Mnh0TmdtV1k3Tmk0ZUU4eVFxN3BIaFRKNXc?oc=5",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "India's Trade Deficit with Japan Has Tripled in a Decade — FTA Review Underway",
-          "summary": "India's trade deficit with Japan has tripled over the past decade, raising questions about the existing India-Japan free trade agreement. A review is underway as Prime Minister Modi and Japanese PM Takaichi held their annual summit in New Delhi. India is seeking better market access for pharmaceuticals, textiles, and IT services; Japan wants improved conditions for its auto and electronics exports. The asymmetry reflects the difficulty of structuring FTAs where one side is primarily a goods exporter and the other has service-sector strengths.",
-          "signal": [
-            "India's FTA experience with Japan shows that goods liberalisation without reciprocal services access creates structural deficits — a lesson applicable to ongoing negotiations with the EU and UK.",
-            "The Japan FTA review is worth watching as a template for how India renegotiates trade deals where the original terms have not served its interests."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd1YxWjllOGcxcnNfb0dfSG1wYnc2SGJFTE5taXI4ZDk3enZvRTdLRzBxdjNRN2RfYm5NNE1DZzQ2aE95NV9mdXVUdGdDZ1pnOE12S3U0T29aQ3FidDA0Mk94UDlOdlBnOEpHQXJORlJkMk5vcElMeW1Nd3NaX0llUzVwa2lwX2xtbFg2dW5ZRkxtWEhTcVRPc3pIYlMtdVk3c3F5Y05QNG1CcUxhUWFLY3NmVkZ4cWNMTUhMd1ZtUHBfRnQ5dEd1UklMZnBINkowVE5FTTluZXFWcVE1MWdF0gHsAUFVX3lxTE5Kb1hVY3FBWmRUY0UyOW53ejlTV0ZJME82V2pRVWhYMlhCb1dEWXlBZUlkZE1uSzZHdkw5QnF0X1RUbzdPcnk5VEpacllkYW51YTlVbTdkdEp3V2Mtb29tdFVsQUx6ejVGX0x5VlBnUTlJMVgwYWt6U1FjdU5pbndpNVg4ZXlsNFJhcUFNNGs0MFNLcHl2QTUwOHlveTFfWkhMd2lsZFpmMkdxRElnYjU3OVhPbnV5bXZibEpoVnVNRGx5RVREM08yTkZQdlIzZEtfOTJtcDZCRHBnVk5ZbUtDNl9XQjhKVEhnaUsy?oc=5",
-          "image": null,
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/sport/cricket/laxman-to-oversee-indias-zimbabwe-tour-asian-games-campaign/article71195540.ece",
+          "image": "https://th-i.thgim.com/public/incoming/6h14l/article71195543.ece/alternates/LANDSCAPE_1200/IMG_TH09LAXMAN_2_1_K5DECJLU.jpg",
           "developing": false
         }
       ]
@@ -608,141 +155,9 @@
           "badge": "",
           "takeaway": "",
           "why": "",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c163/live/a90f6680-791c-11f1-9510-1546718f668b.jpg",
-          "developing": true
-        },
-        {
-          "headline": "China Tells Critics Not to Overread Its Pacific Missile Test. Critics Are Not Convinced.",
-          "summary": "China conducted a missile test in the Pacific with insufficient advance notice to neighbouring countries including Australia. Taiwan's government released the missile's flight path publicly. Beijing told critics not to overinterpret the test; Australia said the notice given was inadequate. The episode reignites debate about military transparency and the adequacy of international norms for missile tests in international waters.",
-          "signal": [
-            "China is testing not just missiles but international tolerance for reduced military transparency — the reactions from Australia and Taiwan set the precedent for how much pushback this kind of exercise generates.",
-            "India angle: India's own missile development and evolving international notification norms are directly relevant as India-China border tensions remain elevated."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "World news | The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/07/chinese-government-tells-critics-not-to-overinterpret-missile-test-in-pacific-as-criticism-grows",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "Canada Picks German Firm Over South Korea for Its Submarine Fleet",
-          "summary": "Canada has selected TKMS of Germany over South Korea's DSME to build its next submarine fleet in a multibillion-dollar competition. The choice was shaped by NATO interoperability, technology transfer terms, and political alignment. The deal is part of a broader rearming trend among mid-tier democracies committing to serious naval capability.",
-          "signal": [
-            "The global submarine market is heating up as middle-income NATO members make decade-long defence commitments — a structural increase in defence spending that creates industrial and strategic ripples.",
-            "India angle: Canada's technology transfer terms and selection criteria are worth studying as India renegotiates submarine procurement and domestic defence manufacturing goals under Make in India."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
           "source": "World - South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359647/canada-picks-german-company-build-new-submarine-fleet-deal-worth-billions?utm_source=rss_feed",
-          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/07/98297985-7f63-4ba8-981d-0346383b385d_bc3aa677.jpg?itok=Wwr9Gq6O&v=1783373870",
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Other Interests",
-      "slug": "other-interests",
-      "stories": [
-        {
-          "headline": "AMOC Collapse May Already Be Locked In, Scientists Warn",
-          "summary": "New research in New Scientist suggests the Atlantic Meridional Overturning Circulation — which keeps Europe temperate and regulates global monsoon patterns — may already be committed to shutdown based on carbon already emitted and Greenland ice already destabilised. A collapse would rapidly cool Europe, raise sea levels on the US East Coast, and severely disrupt South Asian monsoons.",
-          "signal": [
-            "AMOC disruption is a tipping-point story, not a gradual-warming one — it is significantly undercovered relative to the scale of its consequences.",
-            "India angle: South Asian monsoon disruption from AMOC slowdown is a direct threat to Indian agriculture and water security for hundreds of millions of people."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "New Scientist - Home",
-          "url": "https://www.newscientist.com/article/2533017-collapse-of-amoc-ocean-current-may-already-be-locked-in/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "image": "https://images.newscientist.com/wp-content/uploads/2026/07/06101937/SEI_303859873.jpg",
-          "developing": true
-        },
-        {
-          "headline": "We Now Have Objective Tests to Tell Whether Your Brain Habits Are Working",
-          "summary": "New Scientist explores a new generation of brain health assessments — cognitive, biomarker-based, and functional — sensitive enough to detect whether lifestyle interventions like exercise, sleep, and dietary changes are actually improving brain function, not just how you feel subjectively. The tests reveal that most commercial brain-training apps and supplements don't move the needle on any measurable marker, while exercise, sleep quality, and sustained cognitive challenge do.",
-          "signal": [
-            "Brain health measurement is moving from self-report to objective testing — this changes the evidence standard for neurotech and wellness products.",
-            "Practical takeaway: exercise, sleep quality, and sustained learning are the evidence-backed interventions; most commercial brain-training products are not."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "New Scientist - Home",
-          "url": "https://www.newscientist.com/article/2531178-how-healthy-is-your-brain-we-now-know-how-to-find-out/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "image": "https://images.newscientist.com/wp-content/uploads/2026/07/06124920/SEI_304236102.jpg",
-          "developing": false
-        },
-        {
-          "headline": "The Himalayan Pangolin Is Officially a Distinct Species — 189 Years After First Being Described",
-          "summary": "Genetic and morphological analysis has confirmed the Himalayan pangolin — first documented by British naturalist Brian Houghton Hodgson in 1837 — as a fully distinct species from the Chinese pangolin. The reclassification matters for conservation: the Himalayan pangolin now requires its own threat assessment, habitat mapping, and legal protection status, separate from its better-studied relative.",
-          "signal": [
-            "Species reclassification often reveals a more endangered animal than previously estimated — the Himalayan pangolin's new status should trigger updated protection under Indian wildlife law.",
-            "India angle: the Himalayan pangolin's range includes the Indian Himalayas and Northeast India — a genuinely local natural-world story with conservation implications."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "Conservation news",
-          "url": "https://news.mongabay.com/2026/07/himalayan-pangolin-emerges-as-distinct-species-189-years-after-first-described/",
-          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/07/07004345/1.-Pangolin-from-Nepal-768x512.jpeg",
-          "developing": false
-        },
-        {
-          "headline": "India Names Several First-Timers in T20 Squad for Zimbabwe Tour",
-          "summary": "The BCCI has named India's T20I squad for the Zimbabwe tour with multiple maiden international call-ups, signalling a fresh look at the next generation ahead of the 2026 T20 World Cup cycle. Notably, Sanju Samson has been left out. The tour is a low-pressure opportunity to evaluate new faces in international conditions.",
-          "signal": [
-            "Selection news as squad building: India's Zimbabwe tour squad reveals which young players the selectors are serious about for the next T20 World Cup cycle.",
-            "Samson's omission continues a puzzling pattern with one of India's most talented keeper-batters — worth watching whether the door reopens."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "ICC",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLTFFTWt1c041VlhUODhUdmNGbERaRTczUElhbXJhU2FvMVNaZnBGdTgzbE5Qay0tUzVCSTRKSDhZc3U3N1ZoVDUwb0twVnZSeUNUNUxxNHdpbW02bFNHNEw1WlJ6bGVrdnBCczJKLVpkcWRvb2FxZHlOWmZaZHBZMzFJU3AzMDhTMmtFX2hDMG5jNWgxbHc?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Beyond Your Beat",
-      "slug": "beyond-your-beat",
-      "stories": [
-        {
-          "headline": "Ronaldo's Final World Cup Ends in Tears as Spain Knock Out Portugal",
-          "summary": "Cristiano Ronaldo's FIFA World Cup 2026 campaign ended in a 1-0 defeat to Spain in the Round of 16, with Ronaldo visibly emotional at the final whistle. It is almost certainly the last World Cup appearance of one of football's two great careers of the past two decades. Spain's performance was clinical; Portugal's was not enough. The moment marks the formal close of the Messi-Ronaldo era on the sport's biggest stage.",
-          "signal": [
-            "A generational era in football closes — the last chapter of the Messi-Ronaldo duality played out in a World Cup being hosted in North America for the first time in 32 years.",
-            "FIFA 2026's US venue is commercially and strategically significant for global football's expansion into the American market — the tournament's broader story runs beyond any single match."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "espn.in",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZThlSGZGc0hjZ0gxN2Y3XzNLNE1XX1FXNHVjVEVBQnlzb2RlYXZsT3FSM0FJZmYzX3RyS0dtYzN5Q1V3RmdCeUEyc25mWnV2N2x6TmRpUmxXemhlRVlNMXFoT3hTeVNhcHJPTUM4blN5aXpsRGVlOXUzdHdlalB5dWI3UEZmX3ctb2VKYzlaLWJCbkt2RWYzb3JlTVM3aUdyUFFV?oc=5",
-          "image": null,
-          "developing": false
-        },
-        {
-          "headline": "Mumbai Rains Kill 13 as CM Fadnavis Declares It Force Majeure",
-          "summary": "Severe monsoon rains have killed 13 people in Mumbai and surrounding areas, with Chief Minister Devendra Fadnavis describing the situation as force majeure. The incident highlights Mumbai's chronic infrastructure vulnerability to extreme rainfall, a problem that recurs each monsoon season and has resisted decades of flood mitigation investment.",
-          "signal": [
-            "Mumbai's annual monsoon crisis is a governance and urban planning failure as much as a weather one — this year's casualties continue a pattern that city infrastructure consistently fails to address.",
-            "Climate context: extreme rainfall intensity in the Western Ghats belt is increasing — a trend that makes Mumbai's flood infrastructure problem worse each decade."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQ1pnRTdaek5YdVF1QkdsQVZjcnBPc1ltZ2l2a2tDS1lqaDhETFdaOHdVMFJPblFVZnRCOEdUalpzUk5NUlZsZVAzUjZsQk9xNHgxVTlqMERfV1JTVmhnWlRwOEJnN2xGMFJoWUg0MmpVWGk4b2tJYl9SQXJyaE94LWJDcTZ4NXlsaWthS042RU5uT1VRRVdnSnBJY1ZYaHpjcldpRVR0MENjZU9sM3kxUzBPT3ZEbGtuczN3TGpiT2MzYTlGcktMbHdJeXo5U3lnMjlfQXdYS1FkcnF1S19hNEk2TdIB8AFBVV95cUxOMGZscmNRRGU3aWh6MTFQXzdfX0xqQ0xCSFBlQkptMXJ0VUVfdjN4N0pUbnpac2ROZF9fUVZXb0tlOU9zbnhmWXZPS0loVTJlaU1mejlxQ3JEcUNBcFZ1Q2xhTnVzVVZLQnJtb0xoZGpGS21MM3FfRnNJTjUzODFtUEhicmhrSXlRMEVBRmtvcEJwejl5QS1IQnZjU2pCRThUR3Q1VEpNNk9Fb1pUSVRJSFFvOHU1QjV2T1lTRk54X2V3V0xnSjJvZVE4SG5FQnUxZTIwcUlCUm1vUHM5SFJDSFlOUmItTldpQWM2RHNNb0c?oc=5",
-          "image": null,
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/08/f59658b5-3fc1-4343-8c3b-4cacbed7c4d6_8c53d71e.jpg?itok=zCZYfEOj&v=1783465200",
           "developing": true
         }
       ]
@@ -753,15 +168,15 @@
       "name": "BHASHINI Rajasthan Language Model Training Hackathon",
       "when": "Open now — check BHASHINI portal for deadline",
       "summary": "India's national language AI initiative BHASHINI has launched a hackathon specifically to train models in Rajasthani languages — exceptionally relevant for a Jaipur-based participant. This is a hands-on opportunity to contribute to the country's multilingual AI infrastructure and build direct experience with language model training and evaluation. National scope with strong local relevance. Check the PIB announcement and BHASHINI portal for registration details.",
-      "source": "PIB",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5RUVV0V2RaMWFQUFEzT1RFdmdtRGZoVG1WMFM1X3RfQWh5c3VkbUdhanhYV3ZyV3hKZ1g4aGN0MndUeHEyVWtDX3FyZEM0WXBrU1RJMXpUSUxjVTdxU3l3VDdzdnJrTmNjb05IdXZXWUVlbzZHVUQ0emdJMA?oc=5"
+      "source": "Daily Pioneer",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOGQ4OHUzNGs4ZncyWVlSWWd2OGoxU0JVdU9HRGtlMWg0Ym1LTlROLUhZZ0x6ZjVwQXZCNEhkbXR4a3V3Y1hYT0RmemJHOWxkSzdremc1cndTUjlWWjF5bFlXOXlRZ0dtNjdUS2JZV1VsVWJ5aG1DQkV0UEx3d0hCVjhnaw?oc=5"
     },
     {
       "name": "Delhi Mango Festival 2026 — Dilli Haat Janakpuri",
       "when": "July 2026 — check Daily Pioneer for exact dates",
       "summary": "Over 400 mango varieties on display and for sale at Dilli Haat Janakpuri in Delhi. A genuine sensory event worth a day trip from Jaipur (roughly 280km). Local Delhi/NCR tier.",
-      "source": "Daily Pioneer",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOGQ4OHUzNGs4ZncyWVlSWWd2OGoxU0JVdU9HRGtlMWg0Ym1LTlROLUhZZ0x6ZjVwQXZCNEhkbXR4a3V3Y1hYT0RmemJHOWxkSzdremc1cndTUjlWWjF5bFlXOXlRZ0dtNjdUS2JZV1VsVWJ5aG1DQkV0UEx3d0hCVjhnaw?oc=5"
+      "source": "News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUtDSGF1UnJCZ2pBVGZSZncwUDN4bFkwSUtCOFh4bmZWdE43NkpJNTU1M2JNbDVnU1h4MGF4NFN1RUxDQ2x5em9nb3NIQ3BTSThadk1fY25CWkNRRUZPX20za2QzVXVKa1F0UVBFMVVidHExc0xNVV9MdFZnSjVpOFlLOGJZaldZVEtMSmlqU3A2V2ZFd0w3T2dlUXA?oc=5"
     },
     {
       "name": "Animal Health Startup Incubation Programme — India Open Call",
