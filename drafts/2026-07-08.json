@@ -1,0 +1,440 @@
+{
+  "date": "2026-07-08",
+  "lead": {
+    "id": "world-9",
+    "headline": "US Strikes Iran After Tankers Hit in the Strait of Hormuz",
+    "summary": "The United States has launched military strikes against Iran following attacks on oil tankers in the Strait of Hormuz — the narrow chokepoint through which roughly 20% of global oil supply passes. Washington said the strikes were intended to impose heavy costs; Iran warned it would take decisive measures in response. This is one of the sharpest direct US-Iran military exchanges in years, and it lands at a moment when Iran-related supply disruptions were already reshuffling global energy trade (Canada's trade surplus hit a four-year high this week partly because its energy exports are filling gaps left by Hormuz disruptions). For India, the stakes are immediate: a significant share of India's crude imports transit Hormuz, and a sustained escalation could spike Brent prices sharply, widen the trade deficit, and put pressure on the rupee. The India economy's resilience through earlier Iran-war stress was already being tested; this escalation removes the ambiguity.",
+    "signal": [
+      "India's single biggest near-term macro risk is now Hormuz disruption — the bulk of India's Middle East crude imports route through this strait, and even a partial closure scenario would push Brent well past $100.",
+      "Two hot fronts simultaneously — US-Iran and Russia-Ukraine — create a compound geopolitical risk environment for global supply chains, energy markets, and shipping insurance premiums.",
+      "For founders and strategists: energy-cost volatility is now a first-order risk variable for any India business with import-heavy supply chains or fuel-sensitive unit economics."
+    ],
+    "developing": true,
+    "badge": "BREAKING"
+  },
+  "frontpage": [
+    {
+      "id": "world-1",
+      "headline": "Kyiv Hit by Explosions as Ukraine Claims Drone Strikes on Russia's Shadow Fleet; NATO Meets in Turkey",
+      "summary": "A barrage of explosions struck Kyiv early Wednesday as Russia continued its aerial campaign on the Ukrainian capital. Simultaneously, Ukraine claimed drone strikes on vessels in Russia's shadow fleet — the network of tankers Russia uses to export sanctioned oil and fund its war machine. Targeting the fleet is a strategic evolution: it shifts Ukrainian pressure from the battlefield to Russia's revenue source. NATO leaders were convening for a summit in Turkey as the attacks unfolded, adding diplomatic urgency to the moment.",
+      "signal": [
+        "Attacking the shadow fleet is economic attrition, not just military escalation — if Ukraine can disrupt Russia's oil export workaround, it squeezes Kremlin finances more directly than most battlefield gains.",
+        "Two simultaneous fronts (Ukraine-Russia, US-Iran) mean global energy markets face a compound shock; shipping insurance premiums and oil prices will both move."
+      ],
+      "developing": true
+    },
+    {
+      "id": "india-4",
+      "headline": "Indonesia Agrees to Buy BrahMos Missiles from India, Deepening the Defence Partnership",
+      "summary": "Indonesia is set to purchase BrahMos supersonic cruise missiles from India — a landmark defence export deal announced during PM Modi's Jakarta visit, which also covered pharma cooperation, food security, and energy. The deal is notable on Indonesia's side because ASEAN members are careful about arms procurement optics; buying Indian hardware rather than US or Chinese hardware helps Jakarta maintain its non-aligned posture while upgrading its military capability. For India, it is another step in converting joint-venture defence technology into an export-led strategic relationship.",
+      "signal": [
+        "BrahMos is now sold to multiple Southeast Asian buyers — the Philippines and Indonesia — with more likely. India is building a defence-export footprint in a region that matters geopolitically.",
+        "Indian defence hardware is being seen as non-provocative by ASEAN buyers; that soft-power differentiation from US and Chinese suppliers is a strategic asset worth tracking."
+      ],
+      "developing": false
+    },
+    {
+      "id": "world-3",
+      "headline": "Top World Leaders Headed to New Delhi for India-AI Impact Summit Next Week",
+      "summary": "An India-AI Impact Summit is scheduled in New Delhi next week with top-level global representation expected. India is positioning itself as a convener of global AI governance conversations — building on its G20 AI frameworks and pushing for developing-world-oriented AI norms that differ from purely US or EU frameworks. The summit follows India's BRICS chairmanship and arrives as the domestic AI regulation debate is heating up.",
+      "signal": [
+        "India hosting a world-leader AI summit is a deliberate geopolitical play — a bid to be the third voice in global AI governance after the US and EU, speaking for the Global South.",
+        "For anyone working at the AI-policy intersection in India, this summit will likely accelerate the domestic regulation agenda and is worth closely tracking."
+      ],
+      "developing": false,
+      "badge": "EVENTS"
+    },
+    {
+      "id": "ai-7",
+      "headline": "Open Source AI's Gains Are Not Yet Cutting into Frontier Labs' Revenue",
+      "summary": "A TechCrunch analysis argues that the success of open source AI models — Meta's Llama family and others — is not coming at the expense of paid frontier labs like Anthropic or OpenAI. Open source and frontier AI appear to serve different phases of the enterprise adoption cycle: open source wins on experimentation, local deployment, and cost-sensitive applications; frontier labs win on the highest-stakes tasks where reliability, SLAs, compliance, and audit trails matter. The overall pie is expanding faster than open source is eating into frontier labs' share — for now. As open source models close the capability gap, that calculus will shift.",
+      "signal": [
+        "The smart AI stack architecture today: use open source for commodity tasks, frontier APIs for genuinely high-stakes work. The cost-vs-capability trade-off governs this choice.",
+        "Anthropic's moat, per this analysis, is trust and enterprise reliability at the edge — not raw capability alone. That is replicable eventually, but not quickly."
+      ],
+      "developing": false,
+      "badge": "ANALYSIS"
+    },
+    {
+      "id": "deep-tech-8",
+      "headline": "Blocked Data Centres Are the Hidden Chokepoint on the AI Revolution",
+      "summary": "Large-scale AI data centre projects worldwide are being challenged or cancelled as they fail to secure energy supply, planning permissions, grid connections, and local buy-in for their enormous power demands. The AI buildout is now gated by physical infrastructure — power, water, land, and planning — as much as by capital or model research. This is creating a structural ceiling on how fast AI can actually scale, independent of capability progress. The constraint is expected to last at least three to five years.",
+      "signal": [
+        "Energy supply and grid connection timelines, not GPU availability or model training costs, are becoming the binding constraint on AI infrastructure growth.",
+        "India angle: Google's announced India data centre expansion and India's broader AI compute ambitions face identical bottlenecks — grid stress from solar saturation plus AI power demand is a real collision course."
+      ],
+      "developing": false,
+      "badge": "ANALYSIS"
+    },
+    {
+      "id": "climate-energy-1",
+      "headline": "Quaise Energy Raises $134 Million to Drill Into the Earth's Heat",
+      "summary": "Quaise Energy, a Houston-based startup, has closed the first tranche of its Series B at $134 million to build the world's first superhot geothermal power plant in central Oregon. Unlike conventional geothermal, which requires proximity to volcanic zones, Quaise uses millimeter-wave energy — technology derived from fusion research — to vaporize rock and reach the extremely hot formations found deep beneath almost any point on Earth. Superhot geothermal could deliver 24/7 firm baseload power with a minimal land footprint, anywhere. The $134 million fundraise signals serious institutional confidence that this is commercial, not just lab science.",
+      "signal": [
+        "Superhot geothermal offers what solar and wind fundamentally cannot: firm, always-on power with no weather dependency. It is attracting serious capital alongside Fervo and others.",
+        "India angle: as India's grid strains under solar intermittency, 24/7 clean baseload alternatives are directly relevant to energy planning. Worth watching whether the deep-drilling approach applies in the Deccan Plateau."
+      ],
+      "developing": false
+    },
+    {
+      "id": "global-economics-2",
+      "headline": "Half of Americans Can't Afford Groceries and Gas as Cost-of-Living Crisis Deepens",
+      "summary": "A Harris poll conducted for The Guardian finds roughly half of Americans struggling to afford groceries and gas, with 57% believing the economy is worsening and 95% saying it has serious problems. This despite headline unemployment remaining low — the persistent gap between aggregate statistics and lived economic experience has become a defining political liability for incumbents across Western democracies. Iran-related oil price pressure could push US fuel costs higher still, deepening the squeeze at the exact moment household budgets are most stretched.",
+      "signal": [
+        "A stressed US consumer softens global demand — including for Indian IT services, exports, and goods that feed into American supply chains.",
+        "The official-statistics-vs-lived-experience gap is now a universal political economy pattern; it is as relevant to reading India's domestic politics as it is to reading the US."
+      ],
+      "developing": false
+    }
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": [
+        {
+          "id": "ai-7",
+          "headline": "Open Source AI's Rise Is Not Yet Hurting Frontier Labs — But the Gap Is Closing",
+          "summary": "TechCrunch analysis finds that open source AI (Llama, Mistral, etc.) and paid frontier labs serve different phases of the enterprise adoption cycle. Open source wins on experimentation and self-hosted deployment; frontier labs win where enterprise reliability, compliance, and SLAs are non-negotiable. The overall market is growing fast enough that both can win for now. But as open source quality keeps rising, the gap narrows and frontier labs will need a deeper value proposition than raw benchmark performance.",
+          "signal": [
+            "The optimal AI stack today is open source for commodity tasks, frontier APIs for the work that genuinely demands reliability and auditability.",
+            "Anthropic's moat is trust and enterprise-grade reliability — replicable eventually, but not quickly."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "ai-5",
+          "headline": "New App Wants to Protect You from AI Voice Scams — Including Fake Kidnap Calls",
+          "summary": "Savi has raised $7 million in seed funding and is launching an app for iPhone and Android to protect consumers from AI-generated voice scams. The target use cases include increasingly common virtual-kidnap scams, where criminals use AI-cloned voices of family members to extort ransom in real time. The app appears to work at the phone level, flagging or blocking suspected AI-generated audio. This is one of the first consumer-facing AI safety products targeting the voice-scam vector specifically.",
+          "signal": [
+            "AI voice cloning scams are now mainstream enough to attract dedicated seed-funded startups — the consumer protection market for AI-generated fraud is wide open.",
+            "Voice authentication and AI-detection tools at the consumer layer are a product-opportunity signal for founders in the safety-tech space."
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-3",
+          "headline": "India Needs a Formal AI Regulation Act, Not Just Advisory Guidelines",
+          "summary": "A Times of India opinion argues India should move beyond MEITY advisories and soft guidelines to enact a formal AI Regulation Act with binding requirements on fairness, accountability, and redress. The argument: as AI gets embedded in credit scoring, healthcare, and law enforcement, self-regulation is insufficient. The India-AI Impact Summit in Delhi next week makes the timing deliberate — this is a bid to shape the agenda before the summit's policy outputs are set.",
+          "signal": [
+            "India's AI policy window is open now — the domestic summit and global AI governance debates create a rare forcing function for legislative action.",
+            "For AI founders: a formal Act means compliance obligations, but also regulatory clarity — a net positive for serious builders trying to sell to regulated industries."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "id": "deep-tech-8",
+          "headline": "Blocked Data Centres Are the Hidden Chokepoint on the AI Revolution",
+          "summary": "AI data centre projects globally are being challenged or cancelled as they fail to secure energy, planning approvals, grid connections, and local buy-in. The AI buildout is now gated by physical infrastructure as much as by capital. This structural ceiling is expected to persist for three to five years and is reshaping where in the world AI compute will actually get built.",
+          "signal": [
+            "Energy and grid connection timelines are the new binding constraints on AI infrastructure — more so than GPU availability or training costs.",
+            "India specific: the same bottleneck applies to India's AI compute ambitions and Google's planned data centre expansion here."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "deep-tech-3",
+          "headline": "Huawei to Debut Next-Gen Compute Cluster and the World's First AI Agent Phone at China's WAIC",
+          "summary": "At the upcoming World Artificial Intelligence Conference in China, Huawei will unveil its next-generation AI computing cluster — designed to compete with Nvidia's top-tier hardware — and what is being billed as the world's first AI agent phone, a handset with AI agents natively embedded in the device. China is using WAIC as a showcase of domestic AI capability, and these announcements are intended to signal that Chinese AI hardware and devices are no longer a generation behind their US counterparts.",
+          "signal": [
+            "An AI-agent-native phone is the next platform bet — if hardware-embedded agents become the dominant interface layer, it reshapes app development, distribution, and stack ownership.",
+            "If Huawei's compute cluster is commercially viable, US chip export controls lose a significant share of their strategic bite."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-2",
+          "headline": "Ant Group's Robot Vision Model Tackles the Glass-Crash Problem",
+          "summary": "Robbyant, the embodied AI unit of Ant Group, has launched a new vision model that dramatically improves how robots perceive and handle fragile or transparent objects — specifically addressing the glass-crash failure mode where robots misread the exact position or material of delicate items and shatter them. Accurate fine-grained object perception in real-world environments is one of the hardest unsolved problems in bringing robots into homes, hospitals, and mixed-use spaces.",
+          "signal": [
+            "Embodied AI — software that lets robots act reliably in the physical world — is the next frontier after software agents. Ant Group entering the space signals serious Chinese tech investment in robotics.",
+            "Fine-grained object perception, once solved at commercial quality, unlocks household, elder-care, and surgical robotics use cases at scale."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "id": "climate-energy-1",
+          "headline": "Quaise Energy Raises $134 Million for Superhot Geothermal That Can Go Anywhere",
+          "summary": "Quaise Energy has raised $134 million in its Series B first tranche to build a superhot geothermal plant in Oregon. The company's technology uses millimeter-wave energy to vaporize rock and reach heat formations deep enough to be commercially useful almost anywhere on Earth — not just near volcanic zones. Superhot geothermal would be firm, always-on, low-footprint clean power. The fundraise signals institutional confidence in the technology's commercial viability.",
+          "signal": [
+            "Superhot geothermal is one of the few clean energy sources that can be both firm and geographically widespread — qualities solar and wind fundamentally lack.",
+            "India angle: as grid stress from solar intermittency grows, firm baseload clean alternatives become more valuable to India's energy planners."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-2",
+          "headline": "India Now Ranks Third in the World on Installed Renewable Energy Capacity",
+          "summary": "India has reached third place globally in total installed renewable energy capacity, behind only China and the United States. The milestone reflects years of sustained investment in solar and wind and is a credible data point for India's clean energy transition narrative on the international stage.",
+          "signal": [
+            "Third globally in renewables is a genuine achievement and adds credibility to India's clean energy diplomacy and climate commitments.",
+            "The flip side: scale is outrunning the grid's ability to absorb it — the EAC-PM paper below is the same story's shadow."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-10",
+          "headline": "Too Much Solar, Too Fast: India's Grid Is Under Severe Stress, EAC-PM Warns",
+          "summary": "A paper from the Economic Advisory Council to the PM warns that rapid solar penetration is placing India's power grid under severe stress. Solar peaks mid-day and collapses at dusk; demand does not follow that curve. Without massive storage deployment or demand-response infrastructure, grid stability is at risk. The paper calls for urgent policy action on battery storage, grid upgrades, and smarter demand management — the next phase of India's energy transition has to be grid and storage, not just generation.",
+          "signal": [
+            "India's renewable success is generating its own next problem: grid stability. Battery storage, grid-scale infrastructure, and demand-response software are the logical next investment and startup bets in India's energy stack.",
+            "This is a foundational policy priority for the next five years — watch for budget allocations toward grid modernisation as the leading indicator."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "climate-energy-7",
+          "headline": "Can India and Europe Build Solar Supply Chains Without Chinese Components?",
+          "summary": "Analysis of whether India and Europe can develop solar manufacturing that does not depend on Chinese panels, wafers, and polysilicon — China currently controls roughly 80% of the global solar supply chain. India has made some progress through its PLI scheme for domestic module manufacturing but still imports most cells and wafers from China. Europe lags further behind. Breaking this dependency is a strategic energy security priority for both, but doing so risks higher costs and slower deployment in the near term.",
+          "signal": [
+            "Solar de-risking from China is a decade-long project at minimum. Near-term policy has to manage the tension between deployment speed and supply chain sovereignty.",
+            "India's PLI for solar is directly relevant here — watch whether the next budget doubles down based on how solar trade geopolitics evolve."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "health-tech",
+      "stories": [
+        {
+          "id": "health-tech-4",
+          "headline": "Moderna Bets mRNA's Second Act Is Cancer and Autoimmune Disease",
+          "summary": "Having built the world's most visible mRNA platform during COVID, Moderna is now placing its biggest bets on personalised mRNA cancer vaccines (in partnership with Merck) and mRNA treatments for autoimmune conditions, while building an AI research platform to accelerate drug discovery across its pipeline. The pivot reflects both the decline of COVID booster revenue and the genuine scientific opportunity: mRNA can be rapidly designed and manufactured to target almost any protein, making it a potentially broad platform rather than a vaccine-specific technology.",
+          "signal": [
+            "Personalised mRNA cancer vaccines — where each patient's tumour mutations are sequenced and a custom vaccine manufactured — could be a step-change in oncology. Early trial data is promising enough to justify Moderna's pivot.",
+            "The AI-plus-mRNA combination is where the platform play gets interesting: if AI shortens the discovery-to-clinical cycle, Moderna's manufacturing lead becomes a deeper structural moat."
+          ],
+          "developing": false
+        },
+        {
+          "id": "health-tech-6",
+          "headline": "India's Pharma Industry Eyes a $120 Billion Future on Exports and Innovation",
+          "summary": "India is targeting expansion of its pharmaceutical sector to $120 billion, up from around $50 billion today. The strategy rests on two legs: continued dominance in generic drug exports (India supplies roughly 20% of global generics by volume) and a push toward higher-value innovation — biologics, biosimilars, and novel drug discovery. The piece highlights Wockhardt founder Habil Khorakiwala's 29-year drug discovery bet as an example of what patient Indian biotech investment can produce.",
+          "signal": [
+            "India's pharma sector has room to more than double. The bet is that domestic biotech and AI-powered discovery tools add a high-value innovation layer on top of the generics base.",
+            "For founders: the India pharma-AI intersection is underserved — the sector has massive clinical data, regulatory complexity, and genuine need for discovery and trial-design tools."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "id": "indian-startups-1",
+          "headline": "Mowito Raises $3 Million Pre-Seed to Help Robots Navigate the Real World",
+          "summary": "Bengaluru-based Mowito has raised $3 million in a pre-seed round led by Version One Ventures to build physical AI software — specifically navigation intelligence that lets robots move safely and efficiently through real-world, unstructured environments. The company plans to expand its US presence. Its focus on software (navigation) rather than full-stack hardware puts it in a capital-efficient position compared with most robotics startups.",
+          "signal": [
+            "Physical AI software — the intelligence layer that makes robots actually work in the real world — is a category where Indian software talent can genuinely compete globally.",
+            "Version One leading a pre-seed in this space signals North American VC interest in Indian deep-tech robotics, a category historically underfunded in India."
+          ],
+          "developing": false
+        },
+        {
+          "id": "indian-startups-2",
+          "headline": "AI Is Automating the Judgment Calls That Once Lived in Indian Logistics Managers' Heads",
+          "summary": "A YourStory analysis examines how AI is reshaping India's logistics startup ecosystem — not just through warehouse robotics but by automating complex routing decisions, demand forecasting, and supply chain adjustments that previously required experienced human judgment. The piece argues that India's improvised, relationship-heavy logistics networks are actually good training data for AI systems that need to handle variability and chaos — a potential competitive advantage for Indian logistics AI startups.",
+          "signal": [
+            "Logistics is one of India's largest employment sectors; AI automation here will be both economically significant and politically sensitive — worth tracking carefully.",
+            "The framing of India's chaotic logistics as an AI training advantage is worth taking seriously: harder environments may produce more robust models for global markets."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        }
+      ]
+    },
+    {
+      "slug": "global-economics",
+      "stories": [
+        {
+          "id": "global-economics-2",
+          "headline": "Half of Americans Can't Afford Groceries and Gas",
+          "summary": "A Harris poll for The Guardian finds roughly half of Americans struggling to afford groceries and gas, with 57% believing the economy is worsening and 95% saying it has serious problems. The gap between headline macro indicators and lived economic experience has become the defining political economy problem in Western democracies. Iran-related oil price pressure could push US fuel costs higher still.",
+          "signal": [
+            "A stressed US consumer softens global demand, including for Indian IT services and export goods that feed American supply chains.",
+            "The official-statistics-vs-lived-experience gap is a universal political pattern now — as relevant to reading India's domestic politics as to reading the US mid-terms."
+          ],
+          "developing": false
+        },
+        {
+          "id": "global-economics-8",
+          "headline": "AI Has Already Taken Over Stock Markets. The Bond Market Is Next.",
+          "summary": "The Economist argues that AI-driven trading has already transformed equity markets and is moving into bonds — a larger, more complex market that has historically resisted algorithmic trading. Credit risk modelling for AI-era companies is particularly hard: traditional tools were not designed to assess firms whose primary assets are models, data, and talent rather than physical collateral. AI-driven bond markets could accelerate risk repricing in ways that are difficult to stress-test.",
+          "signal": [
+            "AI in bond markets is a systemic risk story, not just a fintech opportunity story — sovereign debt pricing for emerging markets like India could be caught in the volatility.",
+            "For AI strategy thinkers: the bond market transition points to the gap between AI's speed of decision and the slower cadence of regulatory oversight — a structural fragility to watch."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        }
+      ]
+    },
+    {
+      "slug": "india",
+      "stories": [
+        {
+          "id": "world-3",
+          "headline": "India Hosts Major AI Impact Summit in Delhi Next Week with World Leaders",
+          "summary": "Top-level global representation is expected at an India-AI Impact Summit in New Delhi next week. India is positioning itself as a third voice in global AI governance — distinct from the US and EU frameworks — and pushing for inclusive norms that reflect developing-world interests. The summit follows India's G20 AI framework work and BRICS chairmanship, and arrives as India's domestic AI regulation debate reaches a critical moment.",
+          "signal": [
+            "India convening a world-leader AI summit is a genuine geopolitical play, not just a photo opportunity. The substantive policy outputs will matter for domestic AI regulation and global norms alike.",
+            "For AI founders and policy-adjacent professionals in India: this summit will likely set the near-term agenda. It is worth tracking closely or attending if possible."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-4",
+          "headline": "BrahMos Sale to Indonesia: India's Defence Export Story Gains Another Chapter",
+          "summary": "Indonesia's agreement to purchase BrahMos missiles, announced during PM Modi's Jakarta visit, extends India's defence export reach deeper into Southeast Asia. The deal is significant because ASEAN states are careful about arms procurement signalling; buying Indian hardware allows Jakarta to upgrade capability without triggering the geopolitical optics of closer US or Chinese alignment. Modi's Indonesia visit also covered pharma, food security, and energy cooperation.",
+          "signal": [
+            "India's defence exports are building a genuine Southeast Asia footprint — BrahMos to the Philippines and Indonesia, with more pipeline interest likely.",
+            "Indian defence hardware is being positioned as non-provocative to ASEAN buyers; that differentiation from US and Chinese suppliers is a strategic soft-power asset."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-6",
+          "headline": "India's Economy Survived the Iran War. El Nino Is Waiting.",
+          "summary": "India's economy demonstrated resilience through the oil price and shipping disruptions of the Iran conflict, credit to reserve buffers and supply chain adjustments. But analysts warn El Nino could deliver the next shock through agricultural disruption, food inflation, and rural income compression. India's monsoon-dependent agriculture is a vulnerability that financial buffers cannot fully hedge. With US-Iran escalating today, the near-term Hormuz risk adds another variable to this picture.",
+          "signal": [
+            "India's macro resilience is real but conditional: financial buffers handle oil shocks, but food inflation from a bad monsoon hits rural consumption and political stability directly.",
+            "El Nino years historically correlate with higher Indian food inflation — worth monitoring as a lead indicator for the second half of 2026, especially given today's Hormuz escalation."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "india-3",
+          "headline": "Modi in Jakarta: India Is the Engine of Global Growth",
+          "summary": "Speaking to the Indian diaspora in Jakarta, PM Modi described India's economy as a major driver of global growth — a claim backed this week by OECD data confirming India remains the world's fastest-growing major economy. The Jakarta visit combined business diplomacy, a landmark defence deal, and diaspora outreach, and is part of a deliberate India-ASEAN deepening strategy.",
+          "signal": [
+            "India's growth narrative is credible right now — OECD backing, defence export diplomacy, and summit convening form a coherent image-building strategy.",
+            "The India-Indonesia relationship is quietly becoming one of the most important bilateral partnerships in the Indo-Pacific — a strategic template worth watching."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "world",
+      "stories": [
+        {
+          "id": "world-1",
+          "headline": "Kyiv Under Fire; Ukraine Strikes Russia's Shadow Fleet; NATO Summit Opens in Turkey",
+          "summary": "Russia launched fresh drone and missile attacks on Kyiv early Wednesday while NATO leaders convened for a summit in Turkey. Ukraine simultaneously claimed drone strikes on Russia's shadow fleet tankers — the vessels Russia uses to sell sanctioned oil. Attacking the fleet represents a strategic shift toward economic attrition: hitting the Kremlin's revenue source rather than the front line.",
+          "signal": [
+            "Ukraine is now targeting the economic plumbing of Russia's war — shadow fleet tankers that fund the Kremlin. If sustained, this could be more impactful than most battlefield manoeuvres.",
+            "Two simultaneous armed conflicts (Ukraine-Russia, US-Iran) open a compound geopolitical risk window that markets and supply chains are only beginning to price."
+          ],
+          "developing": true
+        },
+        {
+          "id": "world-7",
+          "headline": "DOGE Cuts to USAID Ebola Programs Have Cost Lives, Experts Say",
+          "summary": "Cuts to USAID Ebola response programs, attributed to DOGE's efficiency mandate, have impaired the response to the DRC's Ebola outbreak. Experts cited in The Guardian report significant numbers of preventable deaths. The story also notes SpaceX shares fell after a failed launch. The Ebola case illustrates how blunt-instrument federal spending cuts to global health infrastructure produce non-linear humanitarian consequences — early containment is cheap; unchecked spread is not.",
+          "signal": [
+            "Cutting global health infrastructure has asymmetric consequences: Ebola containment at the source costs a fraction of outbreak response once it spreads.",
+            "The political fallout from DOGE-linked preventable deaths may have lasting impact on Musk's political influence and public trust in efficiency-driven government reform."
+          ],
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "other-interests",
+      "stories": [
+        {
+          "id": "other-interests-6",
+          "headline": "AI 'Humanizer' Tools That Strip AI Signatures from Text Are Alarming Scientists",
+          "summary": "A paper published in Nature describes tools that direct AI text-generation systems to remove the linguistic patterns that AI detectors use to flag machine-written content — making AI-generated research papers and grant applications effectively undetectable. The implications for academic integrity are severe: detection-based systems are broken if AI writing can be reliably laundered. The finding shifts the question from 'how do we detect AI writing' to 'how do we fundamentally redesign academic integrity and assessment in an AI world.'",
+          "signal": [
+            "Detection-based AI integrity systems are essentially defeated — Nature publishing this makes it official. Academic institutions, journals, and grant agencies need to redesign assessment from the ground up.",
+            "The policy question is no longer 'did AI write this?' but 'does it matter how it was written, and if so, how do we evaluate differently?' — a genuinely hard design problem."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "other-interests-7",
+          "headline": "Inflammation Shuts Down the Brain's New-Neuron Factory",
+          "summary": "New research finds that inflammation — from infection, chronic stress, or injury — causes the brain's stem cells to halt neurogenesis, the process of generating new neurons. This may explain well-established but poorly understood correlations between chronic inflammation and cognitive decline, depression, and impaired memory consolidation. It points toward inflammation management as a potential lever for brain health, linking lifestyle medicine, psychiatry, and dementia research in a single mechanism.",
+          "signal": [
+            "The inflammation-brain health link is becoming one of neuroscience's most important threads — it connects diet, sleep, chronic stress, and long-term cognitive outcomes in a mechanistic way.",
+            "Practically: chronic low-grade inflammation is a neurological risk, not just a metabolic one — the case for anti-inflammatory lifestyle choices just got a stronger mechanistic backing."
+          ],
+          "developing": false
+        },
+        {
+          "id": "other-interests-8",
+          "headline": "The Man Whose Algorithm Could Break the Internet Is Not Worried About It",
+          "summary": "An interview in New Scientist with Peter Shor, who in 1994 proved that a sufficiently powerful quantum computer could break RSA public-key encryption — the backbone of most internet security. Shor remains relaxed, arguing that quantum computers powerful enough to run his algorithm at meaningful scale are still many years away, and that the cryptography community is already deploying post-quantum encryption standards. He is the person who identified the threat, and he is watching it be addressed in real time.",
+          "signal": [
+            "Post-quantum cryptography is not a future problem — NIST standardised its first post-quantum algorithms in 2024 and government systems are migrating. The question is how fast private industry follows.",
+            "The 'harvest now, decrypt later' threat is real: data encrypted today with RSA could be stored and decrypted by a future quantum computer. Long-lived digital infrastructure needs to plan for this now."
+          ],
+          "developing": false,
+          "badge": "DEEP DIVE"
+        }
+      ]
+    },
+    {
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "id": "beyond-your-beat-3",
+          "headline": "World Cup Day 26: USA Eliminated, Spain Sends Ronaldo's Portugal Home",
+          "summary": "Two major results on Day 26 of the 2026 FIFA World Cup: the United States has been knocked out of the home tournament, and Spain has eliminated Portugal — apparently ending Cristiano Ronaldo's World Cup journey. If this is Ronaldo's last appearance at a World Cup, at 41, it closes one of football's great chapters. Spain's run continues.",
+          "signal": [
+            "The USA's elimination from a home World Cup is a significant sporting and commercial event — the pressure on US soccer to justify the hosting investment just intensified.",
+            "Ronaldo's exit, if final, is a genuine cultural moment in global sport — the end of the Messi-Ronaldo era's last stage."
+          ],
+          "developing": false
+        },
+        {
+          "id": "beyond-your-beat-2",
+          "headline": "US Prosecutors Arrest 24 in Major Crackdown on India-Based Organised Crime",
+          "summary": "US prosecutors announced the arrest of 24 individuals in a major investigation targeting India-based organised crime networks. The probe appears focused on transnational fraud and extortion operations — the kind of call-centre scam and tech-support fraud networks that have been well-documented as operating out of India. The scale of the action (24 arrests at once) suggests the investigation has been running for some time and targeted an organised leadership layer.",
+          "signal": [
+            "Large-scale US enforcement on India-based fraud networks signals continuing bilateral law enforcement cooperation on cybercrime — and a reputational issue India's legitimate tech sector has a stake in addressing.",
+            "The scale suggests a coordinated, intelligence-led operation rather than a surface sweep — likely the visible tip of a deeper dismantling of an organised fraud infrastructure."
+          ],
+          "developing": true
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunities-1",
+      "name": "Animal Health Startup Incubation Programme (India)",
+      "when": "Open call — check link for application deadline",
+      "summary": "An incubation programme for startups working in animal health — livestock care, veterinary tech, aquaculture. Sits at the agritech-health tech intersection. National (India). Worth tracking if you are building or advising in this space."
+    },
+    {
+      "id": "opportunities-9",
+      "name": "Delhi Mango Festival 2026 — Dilli Haat Janakpuri",
+      "when": "July 2026 — check link for exact dates",
+      "summary": "The annual Delhi Mango Festival at Dilli Haat Janakpuri, showcasing 400+ mango varieties. A genuinely enjoyable local food event worth the drive from Jaipur. Local (Delhi/NCR)."
+    },
+    {
+      "id": "opportunities-5",
+      "name": "DPIIT x FICCI Mercedes-Benz Startup Innovation Challenge",
+      "when": "Check link for deadline",
+      "summary": "A startup innovation challenge run by DPIIT in partnership with FICCI and Mercedes-Benz, targeting Indian startups with scalable innovation. National. Worth tracking if you are in or advising early-stage ventures looking for government-backed visibility."
+    }
+  ]
+}
