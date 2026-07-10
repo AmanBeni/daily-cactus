@@ -1,9 +1,32 @@
 {
   "date": "2026-06-25",
   "edition": 10,
-  "colophon": "54 sources scanned · 50 ok · 4 failed",
-  "lead": null,
+  "colophon": "54 sources scanned · 49 ok · 5 failed",
+  "lead": {
+    "headline": "Vishal Sikka's new AI startup Hang Ten Systems takes direct aim at the IT services model",
+    "summary": "Former Infosys CEO Vishal Sikka has launched Hang Ten Systems with $32M in seed funding from Mayfield and Aramco Ventures, drawing in veterans from SAP, Infosys, and his prior venture VianAI. The startup is explicitly positioned to challenge traditional IT services, betting that AI agents will do much of what offshore delivery centres do today.",
+    "signal": [],
+    "badge": "",
+    "takeaway": "The man who ran Infosys is now funding its disruption — Hang Ten is a direct bet that AI automation will cannibalize the $250B Indian IT services industry.",
+    "why": "This matters structurally for anyone tracking India's tech economy. Aramco Ventures backing an AI startup that targets IT services signals Gulf capital is looking beyond oil-funded tech outsourcing toward the replacement model. For a reader pivoting toward AI-generalist and founder's-office roles, Hang Ten is worth watching closely: Sikka has the credibility to articulate what the AI-first enterprise architecture looks like from the inside, and his fundraising narrative will shape how both investors and incumbents frame the transition over the next 18 months.",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+    "image": null,
+    "developing": false
+  },
   "frontpage": [
+    {
+      "headline": "France confirms its first-ever Ebola case in a doctor who worked in DRC",
+      "summary": "France's health ministry confirmed the country's first Ebola case in a doctor recently returned from the Democratic Republic of Congo. Contact tracing is underway; authorities say the risk to the broader European public is very low given the patient's known contacts and current containment protocols.",
+      "signal": [],
+      "badge": "",
+      "takeaway": "An Ebola case reaching France is notable not for immediate spread risk but because it tracks how well global outbreak containment is holding.",
+      "why": "Useful context, not personally actionable. The DRC has had repeated Ebola outbreaks and imported cases reaching Europe will keep occurring. The real signal to watch is whether contact tracing holds over the next two weeks — that is the test of the global public health infrastructure. If the chain does not extend beyond known contacts, the system is working.",
+      "source": "World - South China Morning Post",
+      "url": "https://www.scmp.com/news/world/africa/article/3360036/ebola-outbreak-fastest-growing-ever-600-die-dr-congo?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/10/5298b4ed-d50f-46af-a6c1-95fc36a621b1_61882b8a.jpg?itok=szIDIfpN&v=1783618654",
+      "developing": true
+    },
     {
       "headline": "Morgan Stanley nearly doubles its China humanoid robot forecast to 50,000 units this year",
       "summary": "Morgan Stanley has raised its 2026 humanoid robot shipment forecast for China from 28,000 to 50,000 units, citing commercial validation, government support, and a rapidly maturing supply chain. China's manufacturers have moved from showcase demos to industrial-scale production of bipedal robots faster than most Western analysts predicted.",
@@ -12,30 +35,12 @@
       "takeaway": "China is turning humanoid robotics from demo to deployment at a pace that is outrunning Western analyst forecasts.",
       "why": "This is the convergence story in hardware: AI software meeting Chinese manufacturing velocity. For someone tracking deep tech and global economics, China's humanoid robot trajectory is where the robotics narrative is actually moving — not Boston Dynamics or Tesla Optimus, which dominate Western media. India's industrial manufacturing ambitions will eventually have to reckon with cost-competitive robotic labour from China. The supply chain making this possible is worth understanding.",
       "source": "Tech - South China Morning Post",
-      "url": "https://www.scmp.com/tech/article/3359733/huaweis-new-computing-cluster-worlds-first-ai-agent-phone-debut-china-ai-summit?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/07/0000d9e8-5d5c-439d-b87d-fe5879d32a13_6ca3e3db.jpg?itok=AixjClRQ&v=1783417133",
+      "url": "https://www.scmp.com/tech/policy/article/3360027/game-changer-why-china-finally-letting-its-ai-firms-buy-nvidia-h200?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/09/63165aca-ab1a-4209-9750-553474c50323_4a96b4b4.jpg?itok=J0iDHMOo&v=1783606334",
       "developing": false
     }
   ],
   "sections": [
-    {
-      "name": "AI",
-      "slug": "ai",
-      "stories": [
-        {
-          "headline": "Anthropic alumni are building a startup to let scientists design their own AI models",
-          "summary": "A team of veterans from Anthropic has launched a startup aimed at helping scientists across disciplines build and deploy their own AI models without needing deep ML engineering expertise. The startup is targeting research labs and academic institutions as its first customers.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "When Anthropic alumni leave to build tooling for scientists, it signals that domain-specific AI — not general assistants — is where they see the biggest unsolved problem.",
-          "why": "This is infrastructure, not product. If scientists can build domain-specific models cheaply, it accelerates AI adoption in drug discovery, materials science, and climate modelling simultaneously. For a reader interested in health tech and deep tech, this is a foundational capability shift — the bottleneck is no longer the model, it is the domain expertise wrapped around it.",
-          "source": "AI News & Artificial Intelligence | TechCrunch",
-          "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
     {
       "name": "Health Tech",
       "slug": "health-tech",
@@ -47,8 +52,8 @@
           "badge": "",
           "takeaway": "India's pharma industry is moving upmarket from generics to biologics — a decade-long transition that will determine which companies remain relevant.",
           "why": "India currently dominates global generic drug supply but biologics require fundamentally different manufacturing capabilities: bioreactors, cold chains, and a more demanding regulatory pathway. Companies that navigate this successfully will be far more valuable than the next generation of generic manufacturers. For someone tracking India's health-tech ecosystem, the biosimilars transition is the structural story in pharma for the next five years.",
-          "source": "The Pharma Letter",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUzlmM1U1QkJCWVp3SVl1MFdzOTI2ZFotUVJqRVhNSnZuOV9UUURIT0hZeVVyNVpIV0VibmpUWmVralhjelBLU2VCbC1HN3g5WHFSVDVxajZMYW1ld0xLTHpQSWpEUlg5Z0loaXBsX2FOY3VXcDJYaHhPNkc3NGFPcGk5RXhxZ1RjemZTcF94eFc2VDA1WFJZa05qMFpWTjh6Uzg5bE15bTFtcmJuVjZhRklGQ2NZWmRYYUdJ?oc=5",
+          "source": "BioSpectrum India",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSEVTb0pjTzNNQUdWZkI2el9hdEdLcnI1MXEydk9Rc0RuallEYkFacHZMM2NYbTVGTE5VOUtraWY0dEdVeDc3WHZzM201NTNuRmFaak1tcXdEVnZGdFpjMHpXQll6SmR6VWh2ZG1vdDl4djNHeWhNNjBVSkR1aXpFRlZvTnByMEFJbU14d3RkM2VEUERsUENVT00wQ3Y1OGRFb2NQRjk1cjlxa3ZRV1JFYVduaEp3RmRXa2pzYktCME9hdlpNRVVNRGE1Rm9yODRHd1E?oc=5",
           "image": null,
           "developing": false
         }
@@ -65,20 +70,8 @@
           "badge": "",
           "takeaway": "Accel and Prosus backing an Indian space-tech seed round signals the category has moved from government-adjacent curiosity to investable startup territory.",
           "why": "India's space sector opened to private companies after ISRO's recent policy changes, and QOSMIC is one of the early recipients of institutional venture capital in that opening. For someone tracking Indian startup ecosystems, space-tech is worth watching: it intersects with defence, agriculture via remote sensing, and communications in ways that create a large addressable market without competing directly with Reliance or the Tatas.",
-          "source": "Inc42 Media",
-          "url": "https://inc42.com/buzz/lissun-in-talks-to-raise-%e2%82%b945-cr-funding-from-colossa-ventures/",
-          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Lissun-Funding-ftr.jpg",
-          "developing": false
-        },
-        {
-          "headline": "A Bengaluru startup is not trying to beat Nvidia on speed — it is building cheaper AI instead",
-          "summary": "A Bengaluru-based chip startup is developing AI inference hardware focused on cost reduction rather than raw performance, positioning against Nvidia's high-end GPUs by targeting the large segment of AI workloads that do not require top-of-the-market compute. The approach bets that most enterprise AI runs on inference, not training.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "Competing with Nvidia on cost rather than speed is a more defensible strategy for an Indian startup — and the inference market is enormous.",
-          "why": "Most discussions of the AI chip race focus on training compute, but the much larger commercial opportunity is inference: running models at scale cheaply. This startup's bet — that most enterprise AI does not need the fastest chip, just an affordable one — is credible and specifically suited to India's cost-sensitive enterprise market. Worth tracking for anyone interested in the Indian deep tech startup landscape.",
-          "source": "Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRzVUS2VGMGg5ODNTQmJ1Z01YVWdlTXo3b3dKdWRKa2x2MkN5WmRKVDhoVDQxOXdMV2JOdlZaVS1OeGFLaXBCc2pMbWtxd2JOUnpLcU5ZT1V4VEtnR3Jrazh6S1VEZlNoaTBncG5GYW1hSG8yd0tYb19KLXl3dzBxdlpjRTNUSzF1YXg0VzlnajRoS2o0STNtZC1ybFVHNi15SHRkMUM3eVA5eHVCZUJMWTU2OTJxSFJBS2dob0NXdGVoejN5WWZKVU9od0tMNTFCRTZFRFVn0gHbAUFVX3lxTE1kcjlQU1dWbDhpMTdTYjg1bTBMOEtzVUJhRGJRZkZRQlZYV0FXVjd1dG1KazhTVGdXYWRvRHVsd2JjSUlVX18tMGtzWTFQVXpELVF6RnZfcFhsMDFrdV9XSUhpRXJzUEIwVEtHcDVzRE52QzhBendweWhCdkJVVmc0Qk1YcFVrRTgyMFhucnNWUWpuSDVTZGE4M2dDWGFFcmtUb3VxV2otM2N0U3Y5TjRYZGdfZWZURExhN284VDc2aDU1b3REcnBCVXQ2WVRWNkdZV2FXOTZFbVhHcw?oc=5",
+          "source": "Sifted",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRGJfZnBxZzZWNFJ2Sm1uWXZWZXB4NEFrckpxaEJKZWRVazJzWjd3eWg1amZ3c1JrNVRfT05qUjVTeHR3OEhjX0V6NGJDQUhwTWNMMFNYaUU2RjFKeTloNjdMajhWRkNQZ3d6Szh6RVZMRnVvT09LRF83cUJwVl96SkppY3o?oc=5",
           "image": null,
           "developing": false
         }
@@ -90,8 +83,8 @@
       "name": "PW AI Startup Challenge 2026",
       "when": "Applications open now — deadline not specified, check link",
       "summary": "An India-national AI startup competition run by Physics Wallah. Aimed at AI founders and builders. Worth applying if you are working on an AI product — national in scope, open to applicants across India.",
-      "source": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUtDSGF1UnJCZ2pBVGZSZncwUDN4bFkwSUtCOFh4bmZWdE43NkpJNTU1M2JNbDVnU1h4MGF4NFN1RUxDQ2x5em9nb3NIQ3BTSThadk1fY25CWkNRRUZPX20za2QzVXVKa1F0UVBFMVVidHExc0xNVV9MdFZnSjVpOFlLOGJZaldZVEtMSmlqU3A2V2ZFd0w3T2dlUXA?oc=5"
+      "source": "Carbon Herald",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmZ3SmRIMzFOTmVRdFYyVmgzUjBpcFdTOTd3aDZDM3k5RUZWYXhVM1hiMWFsV0NUdjRscVhYTVBIVnNZN2JEV1QxTTY4eW9uaW5vUnBDcXE1eFdOaWZUeEM0SjlRUmgyaUFEdkpCcTZqZDh4UDZDVzBtcHg3WGN0bm5meEZmZGtOb1ozczhPTlp5YnZDQ29hSXFYd0ZpbUZtQkJEd0kyYTdSMmZkUmc?oc=5"
     }
   ]
 }

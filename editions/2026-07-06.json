@@ -1,7 +1,7 @@
 {
   "date": "2026-07-06",
   "edition": 21,
-  "colophon": "54 sources scanned · 50 ok · 4 failed",
+  "colophon": "54 sources scanned · 49 ok · 5 failed",
   "lead": {
     "headline": "China's newest AI chip startup bets on 3D stacking to leapfrog US export controls",
     "summary": "A Chinese AI chip startup led by semiconductor veteran Wei Shaojun has emerged from stealth, betting on 3D chip stacking as its primary strategy for building advanced AI processors without access to ASML's EUV lithography machines, which are blocked by US export controls. The startup joins Huawei in treating 3D stacking — layering multiple chiplets vertically to achieve higher effective transistor density without printing at smaller nodes — as the main technical workaround for the sanctions. The approach can partially replicate leading-edge chip performance, though it introduces significant thermal and manufacturing complexity. This signals that China's chip independence effort is maturing beyond Huawei's improvisation into a broader startup ecosystem deliberately engineered around the sanctions constraint.",
@@ -13,8 +13,8 @@
     "takeaway": "",
     "why": "",
     "source": "Tech - South China Morning Post",
-    "url": "https://www.scmp.com/tech/article/3359733/huaweis-new-computing-cluster-worlds-first-ai-agent-phone-debut-china-ai-summit?utm_source=rss_feed",
-    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/07/0000d9e8-5d5c-439d-b87d-fe5879d32a13_6ca3e3db.jpg?itok=AixjClRQ&v=1783417133",
+    "url": "https://www.scmp.com/tech/policy/article/3360027/game-changer-why-china-finally-letting-its-ai-firms-buy-nvidia-h200?utm_source=rss_feed",
+    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/09/63165aca-ab1a-4209-9750-553474c50323_4a96b4b4.jpg?itok=J0iDHMOo&v=1783606334",
     "developing": true
   },
   "frontpage": [
@@ -43,34 +43,13 @@
       "badge": "",
       "takeaway": "",
       "why": "",
-      "source": "Inc42 Media",
-      "url": "https://inc42.com/buzz/robotics-startup-mowito-raises-3-mn-to-expand-us-presence/",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/stakcbox-funding-featured-1-1-1.jpg",
+      "source": "The Quantum Insider",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWlsa1lqRVhCc0NGclg3T3I1dDE1NEtrWWlIR2gtMXN0U3hDQ2dTOVBCeWU0MnBGclRpalgzM3ZmbGZZNzFFQ1hnLVdBY2tMWkFmUGRmQjYyRk5rWUJwVDFfNTNVM2htWHh1SXNBUHpQZWoxZ1QwLUJMdHNmMDlQMG9ERnpzbUF0bnlBd1pIQmZ0TE9qZ3VYTWJBcmxoMEZnTXB6RW1pQ0FpZ252bWlmX2xfWnZPSEFaNl93REwtS2Zkc0ZQOUpFOGVmYmxkUFBFdk1xcWJDSDAyRFE?oc=5",
+      "image": null,
       "developing": false
     }
   ],
   "sections": [
-    {
-      "name": "Climate & Energy",
-      "slug": "climate-energy",
-      "stories": [
-        {
-          "headline": "India's solar irrigation success story is plateauing — it needs a policy second act",
-          "summary": "India has deployed hundreds of thousands of solar-powered irrigation pumps, replacing diesel and cutting farmer fuel costs in a genuine first-phase success. But the program is stalling. ET EnergyWorld reports that the next phase — integrating smart water management, linking pumps to grid feedback mechanisms, expanding to more marginal and rain-fed farmers — requires policy innovation well beyond simple subsidy deployment. The transition from install to sustainably manage is where most rural technology programs stall.",
-          "signal": [
-            "Solar irrigation is proven but needs a policy second act — a test case for whether India can move from pilot to platform in rural technology deployment",
-            "Demand management and smart metering for agricultural power is an underexplored product space at the agritech-energy intersection"
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU0xwLTVuUUJ0QlU1bFllRDZDcFdGdWJBSWtud00yWlpHRk1GeWY4bzJhNlBwTnNLNzh0UUo3UGRYOFJHQk9RTmRLTVo2LWRLZzNGMTNLTWZqbVpiay1Pbm9tVHRlWl9aQVVQR09EdWhQR0FidG9sQU9paXNBWm9IR0hPWGhRRTJRcFJoYWw3VV8yRlVqdXJVRHZ2bUnSAZwBQVVfeXFMTVVyT3FNaXlrRHoyUTE4cVFVVndIY2VBU1ZPaUxGcHlVVGgxNElydDJzcy13VXdUQ0V5STBRYWtzUTc2Y2w5M0MzYjZPODNoSV9TOUt4NXdMVzBZSjJDMGNHQUhtbGlPbEQybDlRZ1R3NlUyN3RKbUdka0NJRXc1LXlaZjVCdTJaNkZyZEJ4U1JLVU5TRnQ3dFRkNW56?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
     {
       "name": "Indian Startups",
       "slug": "indian-startups",
@@ -85,9 +64,9 @@
           "badge": "",
           "takeaway": "",
           "why": "",
-          "source": "Inc42 Media",
-          "url": "https://inc42.com/buzz/robotics-startup-mowito-raises-3-mn-to-expand-us-presence/",
-          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/stakcbox-funding-featured-1-1-1.jpg",
+          "source": "The Quantum Insider",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWlsa1lqRVhCc0NGclg3T3I1dDE1NEtrWWlIR2gtMXN0U3hDQ2dTOVBCeWU0MnBGclRpalgzM3ZmbGZZNzFFQ1hnLVdBY2tMWkFmUGRmQjYyRk5rWUJwVDFfNTNVM2htWHh1SXNBUHpQZWoxZ1QwLUJMdHNmMDlQMG9ERnpzbUF0bnlBd1pIQmZ0TE9qZ3VYTWJBcmxoMEZnTXB6RW1pQ0FpZ252bWlmX2xfWnZPSEFaNl93REwtS2Zkc0ZQOUpFOGVmYmxkUFBFdk1xcWJDSDAyRFE?oc=5",
+          "image": null,
           "developing": false
         }
       ]
@@ -110,21 +89,6 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5",
           "image": null,
           "developing": true
-        },
-        {
-          "headline": "Trump will meet Zelensky and Syria's new president at the NATO summit in Turkey",
-          "summary": "On the sidelines of the NATO summit in Ankara, Trump has scheduled bilateral meetings with Ukrainian President Zelensky and Syrian President Ahmad al-Sharaa — the post-Assad government's leader. The Zelensky meeting will focus on the fragile ceasefire and US support conditions for Ukraine. The al-Sharaa meeting continues US engagement with a reconstituted Syria. The summit is hosted by Turkey, giving Erdogan significant diplomatic leverage as the Western alliance manages Trump's divergent instincts on collective defense.",
-          "signal": [
-            "Ukraine, Syria, and NATO's future are being contested simultaneously in Ankara this week — a concentrated moment of global foreign policy",
-            "India watches US-Russia dynamics carefully; any shifts in Trump's Ukraine posture have downstream implications for India's defence procurement and energy positioning"
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "News On AIR",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGZvTHJaYXNub21HSm5iRGlkbUZqb1NvNUZhalFEWS1naUdCZDNjSmpqaXVHYjIyQlhab0VWOWI4UHo0M3pPWS1FZnJSamsxZEZObGdZTXNFMU5mUFhNOGNXTzNfQllMb0dPakhVRXBldGZSdThfekNqMUJzc3V0b0pFQWFNS013cW5Db08tQlpuWWh5THNFejM3V01IdmQyeE01Wmcxa28wa0tRNDFXSVNmNl92T2oyMVNvMFNzU0dwak5qY3QzaUVXbw?oc=5",
-          "image": null,
-          "developing": true
         }
       ]
     }
@@ -134,8 +98,8 @@
       "name": "Delhi Mango Festival 2026",
       "when": "July 2026",
       "summary": "Dilli Haat Janakpuri, New Delhi — annual festival showcasing 400-plus varieties of Indian mangoes. One of Delhi's best summer events and easily done as a day trip from Jaipur. National — Delhi/NCR.",
-      "source": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUtDSGF1UnJCZ2pBVGZSZncwUDN4bFkwSUtCOFh4bmZWdE43NkpJNTU1M2JNbDVnU1h4MGF4NFN1RUxDQ2x5em9nb3NIQ3BTSThadk1fY25CWkNRRUZPX20za2QzVXVKa1F0UVBFMVVidHExc0xNVV9MdFZnSjVpOFlLOGJZaldZVEtMSmlqU3A2V2ZFd0w3T2dlUXA?oc=5"
+      "source": "Carbon Herald",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmZ3SmRIMzFOTmVRdFYyVmgzUjBpcFdTOTd3aDZDM3k5RUZWYXhVM1hiMWFsV0NUdjRscVhYTVBIVnNZN2JEV1QxTTY4eW9uaW5vUnBDcXE1eFdOaWZUeEM0SjlRUmgyaUFEdkpCcTZqZDh4UDZDVzBtcHg3WGN0bm5meEZmZGtOb1ozczhPTlp5YnZDQ29hSXFYd0ZpbUZtQkJEd0kyYTdSMmZkUmc?oc=5"
     }
   ]
 }

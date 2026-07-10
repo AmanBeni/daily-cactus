@@ -1,8 +1,23 @@
 {
   "date": "2026-07-07",
   "edition": 22,
-  "colophon": "54 sources scanned · 50 ok · 4 failed",
-  "lead": null,
+  "colophon": "54 sources scanned · 49 ok · 5 failed",
+  "lead": {
+    "headline": "Anthropic's CEO on Why AI in Pharma Is Not Hype",
+    "summary": "STAT spoke with Dario Amodei, Anthropic's CEO, about artificial intelligence's real-world impact on the pharmaceutical and biotech industry. His message: dismissing drug-discovery AI as hype is the wrong call. Major pharma companies are restructuring R&D pipelines around AI for concrete economic reasons — genuine compression of timelines in molecular modelling, lead identification, and early-stage clinical design. Amodei distinguishes where the technology is genuinely productive from where marketing has run ahead of the science, and explains why the economics are compelling enough that large drug houses are placing structural bets, not just running pilots.",
+    "signal": [
+      "AI-in-pharma has crossed from pilot-project phase to pipeline-restructuring phase at major drug companies — a cleaner signal for where enterprise AI strategy and generalist roles will emerge next.",
+      "India angle: India's large generic-pharma and contract-research (CRO) base is a natural launchpad for AI-driven discovery that could move domestic players up the value chain rather than keeping them in manufacturing.",
+      "For the reader's AI-generalist pivot: life-sciences is one of the highest-signal domains to track — Amodei's framing is a useful mental model for where real enterprise AI adoption is happening versus where the narrative is ahead of the reality."
+    ],
+    "badge": "ANALYSIS",
+    "takeaway": "",
+    "why": "",
+    "source": "BW Businessworld",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjRIcEZVeWNPMU41WXR3RkRuQWx4ZS1Pdy1xQWt0aFlDQnNNSFZHS3ZlaUFtRkl0NG01WndkTV84ejBhMndJRS1mNWxjM1JJSDRkR3pleU1jdVV0MWpnOFhzN1NmaC1OMkNSQWtFdlhORGgxd3pGMkYtTDdqYlZqYkQydWVNTzJBdWFOb2N4MVc2dDRtZ2d0dnJfbWlQNGZMVDVCOEFLTFpsQVZSOXkyZTMweTFtYUtzQTVJMkkwWWg4WkNQaENTbzVpQlQ?oc=5",
+    "image": null,
+    "developing": false
+  },
   "frontpage": [
     {
       "headline": "China's Biren Raises $900 Million to Build a Real Nvidia Rival",
@@ -15,24 +30,9 @@
       "takeaway": "",
       "why": "",
       "source": "Tech - South China Morning Post",
-      "url": "https://www.scmp.com/tech/article/3359733/huaweis-new-computing-cluster-worlds-first-ai-agent-phone-debut-china-ai-summit?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/07/0000d9e8-5d5c-439d-b87d-fe5879d32a13_6ca3e3db.jpg?itok=AixjClRQ&v=1783417133",
+      "url": "https://www.scmp.com/tech/policy/article/3360027/game-changer-why-china-finally-letting-its-ai-firms-buy-nvidia-h200?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/09/63165aca-ab1a-4209-9750-553474c50323_4a96b4b4.jpg?itok=J0iDHMOo&v=1783606334",
       "developing": false
-    },
-    {
-      "headline": "Ukraine Warns of Interceptor Shortage After Russia's Largest Single-Day Drone-Missile Strike on Kyiv",
-      "summary": "Russia launched 68 missiles and 351 strike drones at Kyiv and surrounding regions in what Zelensky called a massive attack, killing 23 people. Ukraine's air defences held in places but Zelensky publicly acknowledged an interceptor missile shortage — a rare and stark admission that is either a genuine supply crisis or a deliberate appeal to Western capitals for emergency resupply. The disclosure lands at a diplomatically sensitive moment: US-brokered ceasefire talks are reportedly gaining momentum, making Ukraine's public signalling of vulnerability a loaded move.",
-      "signal": [
-        "Ukraine is publicly signalling weakness mid-negotiation — either a real supply crisis or a calculated pressure move on NATO allies ahead of a potential ceasefire framework.",
-        "India angle: India's abstention posture on the war will be tested as it approaches resolution; both the US and Russia will expect India's diplomatic support for their preferred settlement structure."
-      ],
-      "badge": "",
-      "takeaway": "",
-      "why": "",
-      "source": "World - South China Morning Post",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/08/f59658b5-3fc1-4343-8c3b-4cacbed7c4d6_8c53d71e.jpg?itok=zCZYfEOj&v=1783465200",
-      "developing": true
     }
   ],
   "sections": [
@@ -51,8 +51,29 @@
           "takeaway": "",
           "why": "",
           "source": "Tech - South China Morning Post",
-          "url": "https://www.scmp.com/tech/article/3359733/huaweis-new-computing-cluster-worlds-first-ai-agent-phone-debut-china-ai-summit?utm_source=rss_feed",
-          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/07/0000d9e8-5d5c-439d-b87d-fe5879d32a13_6ca3e3db.jpg?itok=AixjClRQ&v=1783417133",
+          "url": "https://www.scmp.com/tech/policy/article/3360027/game-changer-why-china-finally-letting-its-ai-firms-buy-nvidia-h200?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/09/63165aca-ab1a-4209-9750-553474c50323_4a96b4b4.jpg?itok=J0iDHMOo&v=1783606334",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "Agrivoltaics Could Solve India's Solar Land Crunch — If Policy Follows",
+          "summary": "TERI examines agrivoltaics — mounting solar panels above farmland so it serves dual purposes — as a solution to the land constraints blocking India's large-scale solar expansion. Deployments in other countries show most crop yields are maintained or improved under partial shading, while generating significant power from the same area. The gap in India is not technology but policy: no clear framework exists for agrivoltaic land classification, grid offtake, or project financing.",
+          "signal": [
+            "Agrivoltaics is one of the most elegant land-use solutions available to India's energy transition — the technology is proven; what is missing is the policy architecture to deploy it at scale.",
+            "For founders: agrivoltaic project development, farmer-partnership models, and agrivoltaic-specific financing structures are genuine gaps in India's clean energy ecosystem."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/solar/ohio-power-siting-board-solar-case",
+          "image": null,
           "developing": false
         }
       ]
@@ -62,103 +83,19 @@
       "slug": "health-tech",
       "stories": [
         {
-          "headline": "Google AI Powers Aarogya Setu 2.0 for India's Digital Health Push",
-          "summary": "India's Aarogya Setu app has been upgraded to Aarogya Setu 2.0 with Google AI capabilities, expanding digital health features including appointment booking, health records management, and AI-assisted symptom checking for India's mobile-first population. The upgrade deepens Google's health-tech presence in India alongside its existing ecosystem investments.",
+          "headline": "Anthropic's CEO: AI in Pharma Is Not Hype — Here Is What Is Actually Happening",
+          "summary": "In a STAT interview, Dario Amodei explains that major pharmaceutical companies are restructuring R&D pipelines around AI not as experimentation but as a structural change. The genuine applications are in molecular modelling, lead identification, and early clinical design. He distinguishes where AI is delivering from where marketing is running ahead of evidence.",
           "signal": [
-            "India's digital health infrastructure is being built at scale with global tech partners — a distribution platform serving 500 million-plus smartphone users.",
-            "For health-tech startups: Aarogya Setu 2.0 is a government-backed channel; services that can integrate with it gain reach that would otherwise take years and significant capital to build."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "STAT",
-          "url": "https://www.statnews.com/2026/07/07/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson/?utm_campaign=rss",
-          "image": "https://www.statnews.com/wp-content/uploads/2025/06/AdobeStock_1206716114-645x645.jpeg",
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Agritech",
-      "slug": "agritech",
-      "stories": [
-        {
-          "headline": "Olam Agri: Building Self-Reliant Food Systems in Africa Takes More Than Farming",
-          "summary": "AgFunderNews profiles Olam Agri's approach to building durable food security in African markets — the argument being that agricultural production alone is insufficient without investment in logistics, storage, policy frameworks, and private-sector coordination. Olam's experience across 30-plus African countries offers a systems-level view of what it actually takes to build food self-reliance in frontier and emerging markets.",
-          "signal": [
-            "Food system resilience is a supply-chain and governance problem as much as an agricultural one — a useful framing for anyone thinking about agritech or food security from a strategy angle.",
-            "India angle: India's own food security challenges, particularly post-harvest losses and cold-chain gaps, map closely onto the systems-thinking Olam is applying in Africa."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "TradingView",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbWFUZUlLZU51WjVEQWZJVFlhUUdvVDdJVDRpenZkZ1A0ZktaT3pVRm4tTDVXOGQ2RkpGNXliWDFfMjVkejBJMjI5Q0lWaFJwcDRoci1IRHFmWTd6S0c3RU4yd0VrQnhhMWxxejdqbXVuR1pacVdSLU1oSl8xbXFWeWN5WF81aWhyU01iUFdwbU0xU1JKLXJKb1Zlakp2WllYQzdwWnM1cXhwSVZSSC1n?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "Indian Startups",
-      "slug": "indian-startups",
-      "stories": [
-        {
-          "headline": "India Startup Funding Slows as Investors Turn Selective",
-          "summary": "A broader analysis of India's startup ecosystem shows a slowdown in venture funding driven by investor caution on valuations and increasing regulatory scrutiny across fintech, edtech, and consumer internet. India-specific factors include SEBI's tighter rules around pre-IPO funding and secondary market transactions, making deal structuring more conservative.",
-          "signal": [
-            "The easy-money vintage for Indian startups is over; investors are more demanding on unit economics, governance, and regulatory compliance than they were in 2020-2022.",
-            "This is actually a better environment to build in — competition for engineering talent is lower, valuations are more rational, and disciplined operators are rewarded."
+            "AI-in-pharma has crossed from pilots to pipeline restructuring at major drug companies — a leading indicator of where enterprise AI strategy roles will grow.",
+            "India angle: India's CRO and generic-pharma base is positioned to benefit from AI-driven discovery if domestic players can build or acquire the relevant AI capability."
           ],
           "badge": "ANALYSIS",
           "takeaway": "",
           "why": "",
-          "source": "Inc42 Media",
-          "url": "https://inc42.com/buzz/lissun-in-talks-to-raise-%e2%82%b945-cr-funding-from-colossa-ventures/",
-          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Lissun-Funding-ftr.jpg",
+          "source": "BW Businessworld",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjRIcEZVeWNPMU41WXR3RkRuQWx4ZS1Pdy1xQWt0aFlDQnNNSFZHS3ZlaUFtRkl0NG01WndkTV84ejBhMndJRS1mNWxjM1JJSDRkR3pleU1jdVV0MWpnOFhzN1NmaC1OMkNSQWtFdlhORGgxd3pGMkYtTDdqYlZqYkQydWVNTzJBdWFOb2N4MVc2dDRtZ2d0dnJfbWlQNGZMVDVCOEFLTFpsQVZSOXkyZTMweTFtYUtzQTVJMkkwWWg4WkNQaENTbzVpQlQ?oc=5",
+          "image": null,
           "developing": false
-        }
-      ]
-    },
-    {
-      "name": "India",
-      "slug": "india",
-      "stories": [
-        {
-          "headline": "Modi's Three-Nation Tour: Defence and Critical Minerals Dominate India-Indonesia Talks",
-          "summary": "Prime Minister Modi's India-Indonesia bilateral today puts defence cooperation and critical minerals on the agenda. Indonesia holds some of the world's largest nickel reserves — essential for battery manufacturing — and has been fielding multiple suitors simultaneously. India's engagement signals both a strategic partnership play and a supply-chain interest in securing battery-grade materials for its EV and clean-energy ambitions.",
-          "signal": [
-            "Critical minerals diplomacy is becoming a core track of Indian foreign policy — the Indonesia meeting is a concrete example of energy-transition strategy reshaping geopolitical relationships.",
-            "For EV and battery founders: India's bilateral mineral agreements will eventually shape domestic raw material access and cost structures."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "url": "https://www.thehindu.com/sport/cricket/laxman-to-oversee-indias-zimbabwe-tour-asian-games-campaign/article71195540.ece",
-          "image": "https://th-i.thgim.com/public/incoming/6h14l/article71195543.ece/alternates/LANDSCAPE_1200/IMG_TH09LAXMAN_2_1_K5DECJLU.jpg",
-          "developing": false
-        }
-      ]
-    },
-    {
-      "name": "World",
-      "slug": "world",
-      "stories": [
-        {
-          "headline": "Ukraine Warns of Interceptor Shortage After Russia's Massive Kyiv Strike",
-          "summary": "Russia launched 68 missiles and 351 drones at Kyiv, killing 23. Zelensky publicly acknowledged Ukraine is running low on interceptor missiles — a rare admission mid-negotiations that doubles as a plea to Western arms suppliers.",
-          "signal": [
-            "Public acknowledgement of an interceptor shortage during ceasefire talks is a loaded signal — either a genuine crisis or a calculated appeal to NATO allies.",
-            "India angle: India's abstention posture on the war will face pressure as a settlement framework takes shape, with both sides expecting diplomatic support."
-          ],
-          "badge": "",
-          "takeaway": "",
-          "why": "",
-          "source": "World - South China Morning Post",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
-          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/08/f59658b5-3fc1-4343-8c3b-4cacbed7c4d6_8c53d71e.jpg?itok=zCZYfEOj&v=1783465200",
-          "developing": true
         }
       ]
     }
@@ -168,22 +105,22 @@
       "name": "BHASHINI Rajasthan Language Model Training Hackathon",
       "when": "Open now — check BHASHINI portal for deadline",
       "summary": "India's national language AI initiative BHASHINI has launched a hackathon specifically to train models in Rajasthani languages — exceptionally relevant for a Jaipur-based participant. This is a hands-on opportunity to contribute to the country's multilingual AI infrastructure and build direct experience with language model training and evaluation. National scope with strong local relevance. Check the PIB announcement and BHASHINI portal for registration details.",
-      "source": "Daily Pioneer",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOGQ4OHUzNGs4ZncyWVlSWWd2OGoxU0JVdU9HRGtlMWg0Ym1LTlROLUhZZ0x6ZjVwQXZCNEhkbXR4a3V3Y1hYT0RmemJHOWxkSzdremc1cndTUjlWWjF5bFlXOXlRZ0dtNjdUS2JZV1VsVWJ5aG1DQkV0UEx3d0hCVjhnaw?oc=5"
+      "source": "olympics.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMF85bDR4MjhjcWxsWk1EZF80Zk0zd0ZDLVBhb2lIOWcwc1RpbDdyV3pTaFJGTTk5VHMwUldLdEIzN3hCbUlyc2hxLTA3RHAtRUpYeEVoYlZzXzlQdE9fMnZmYVBUamVCRVRpRTZsR19JQzI0TmkzVlpWTDFUaU1FQUc4eWVCdjB1ZVJFMjA3dGM0aE5kODd5R1lYMWR1RGpJWS1ocw?oc=5"
     },
     {
       "name": "Delhi Mango Festival 2026 — Dilli Haat Janakpuri",
       "when": "July 2026 — check Daily Pioneer for exact dates",
       "summary": "Over 400 mango varieties on display and for sale at Dilli Haat Janakpuri in Delhi. A genuine sensory event worth a day trip from Jaipur (roughly 280km). Local Delhi/NCR tier.",
-      "source": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUtDSGF1UnJCZ2pBVGZSZncwUDN4bFkwSUtCOFh4bmZWdE43NkpJNTU1M2JNbDVnU1h4MGF4NFN1RUxDQ2x5em9nb3NIQ3BTSThadk1fY25CWkNRRUZPX20za2QzVXVKa1F0UVBFMVVidHExc0xNVV9MdFZnSjVpOFlLOGJZaldZVEtMSmlqU3A2V2ZFd0w3T2dlUXA?oc=5"
+      "source": "Carbon Herald",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmZ3SmRIMzFOTmVRdFYyVmgzUjBpcFdTOTd3aDZDM3k5RUZWYXhVM1hiMWFsV0NUdjRscVhYTVBIVnNZN2JEV1QxTTY4eW9uaW5vUnBDcXE1eFdOaWZUeEM0SjlRUmgyaUFEdkpCcTZqZDh4UDZDVzBtcHg3WGN0bm5meEZmZGtOb1ozczhPTlp5YnZDQ29hSXFYd0ZpbUZtQkJEd0kyYTdSMmZkUmc?oc=5"
     },
     {
       "name": "Animal Health Startup Incubation Programme — India Open Call",
       "when": "Open call — check fundsforNGOs for deadline",
       "summary": "A national incubation programme for Indian startups working in animal health — relevant for founders at the intersection of agritech, veterinary tech, or rural livelihoods. Check the fundsforNGOs listing for eligibility, support package, and application deadline. National tier.",
-      "source": "fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVlNpR2VYZUdpLUZhOUx2XzM5dXhGZ29NdEtSTlhQOWRwQXdhVlQ4OGtuVU5LaVVLa2hnVkpuNVhQQVRIWlh3VnU3OWZ0Z0V2VENXYWtUZDhEZlBYSHBRTm43aUU0TXcyMElQN3hsTVU2SS1DbEoyRHlQc1U0elowb1o1U3FsX3lyUFhJQzRELVJULVlKdVJrUtIBngFBVV95cUxPc1JfcXNiSkdhVFpGRG5EYVAtWFVSVUlTT3p0U1N4NDBBU2cyTXlyRzNaNnRjYkdRSVZYbFlNcmdvSkowUlNIa2tRUEtYSWZWRXJOWld1Rm01dGJFV2E4RXRvY0ZxNS10NkpxNEFnVUlJcHYwWWdpM0lzYURwcF9oZlFJN25FQmdJamsxUnJ2TFdHLWV1VENyN0p1UGRoZw?oc=5"
+      "source": "Rediff",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHJhUVM0ejN3VHJJSU9rM0dQZ3JjVHRqQlhjeS05Z2dQME5ZUkk5NXl1NFByRHFQR2pKT3ZjV1p5d3AzOHp6aUZSOHF0V08xTG01LXJzMGR5VDR3TVlvWEhrTVIxeEFJUFFaVmxIdHc0MWlCVTd6MG9YYTFsVEF4ekR6RFZjZEtQLVptY1RBeU9Ua0drVmdTS0NYeTBzdDNWNElhb1NJYjNUdU8yUTNQNHZaR1dCdGNqdVRkajlMQkFXa2JyY01JSE1R0gHMAUFVX3lxTE1kbWo2SUN6Y2poZGE5d1RtMklaY0JkTzVTOHhCM0loa3RSaVRBSEVHb01qTWdrZWhXMldkMGRadVBDMUZsYU00eHJDX2JITV9MWFZBNnJ1bEZINXpudkZLOHdlaTdvNmJZcGRiTjZnc2FFSW1tcTh4LTlMVTlmYUFhdjVQUTEwMUo1VVJaUTN2U0ZaaDZseTEteFphZ3ppSjZDOUswbGJUbkpIQ2tzSDd2a0VGUy1qYzhGTEFLbnp2aVFFMmFKYzI3MFFMQw?oc=5"
     }
   ]
 }

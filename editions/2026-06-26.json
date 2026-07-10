@@ -1,64 +1,23 @@
 {
   "date": "2026-06-26",
   "edition": 11,
-  "colophon": "54 sources scanned · 50 ok · 4 failed",
-  "lead": {
-    "headline": "Amazon raises its India AI and cloud bet to $48 billion",
-    "summary": "Amazon announced additional funding that brings its total committed investment in India's AI and cloud infrastructure to $48 billion. The announcement follows similar mega-commitments from Google and Microsoft in recent months, cementing the hyperscaler race for India's fast-growing cloud market as a structural trend rather than a promotional one.",
-    "signal": [],
-    "badge": "",
-    "takeaway": "India is now the primary battleground for global AI infrastructure investment — the $48 billion Amazon commitment makes this structural, not speculative.",
-    "why": "For someone pivoting to AI roles in India, this signals where the highest-value job and startup creation is happening. AWS, Azure, and Google Cloud are all building out India data center capacity simultaneously, which means demand for AI talent, cloud architects, and ecosystem builders will compound over the next three to five years. The downstream effect on Indian AI startups like Sarvam is the second-order story: this infrastructure is what enables them to scale.",
-    "source": "Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFkxYzc4RVJGX2hJdERZd0pWWVRGenZGYUhnSWwwbGJaM3d4YlpoSGtrMG1Xc1V6bVl3cWZiN2NkYzFHQllUY1NTR2Q4enh6dFVKeEFMWHhodGNranVrOUYwR3FIdWpwUHkwZFZFZk9HRm1OVmFsZm4zcWdXcGR0djJUQjBCWUQ3ekp1WXI5RzZkTTEwZEVDdm1FMVZDOVdJU2pRUGdVTnlnVUZ1VzV2NA?oc=5",
-    "image": null,
-    "developing": false
-  },
+  "colophon": "54 sources scanned · 49 ok · 5 failed",
+  "lead": null,
   "frontpage": [
     {
-      "headline": "Indian government to take 1-2% stake in Sarvam AI after its $300 million unicorn raise",
-      "summary": "The Indian central government is reportedly negotiating to acquire a 1-2% stake in Sarvam AI following the completion of its $300 million funding round, which values the Indic-language AI model startup at unicorn status. The move would give the government formal equity representation in India's most prominent domestically-built foundation model company.",
+      "headline": "AI recovers lost books by ancient philosophers from scrolls burnt by Vesuvius in 79 CE",
+      "summary": "Researchers have fully decoded carbonized scrolls from the Roman library at Herculaneum — destroyed when Vesuvius erupted nearly 2,000 years ago — using X-ray scans and AI text-recognition software. The recovered texts include lost works by ancient philosophers that have been inaccessible since antiquity.",
       "signal": [],
       "badge": "",
-      "takeaway": "India is building an AI industrial policy that includes direct government equity in key foundation model companies — treating them as strategic infrastructure.",
-      "why": "This is structurally significant for India's AI ecosystem. Sarvam was founded to build Indic language models as a public good; a government stake signals it is now considered national infrastructure, not just a startup. The read-through: India's AI opportunity is partly shaped by policy architecture spanning DPI and now foundation model ownership — understanding that stack is a genuine edge in founder's office and strategy roles.",
-      "source": "Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRzVUS2VGMGg5ODNTQmJ1Z01YVWdlTXo3b3dKdWRKa2x2MkN5WmRKVDhoVDQxOXdMV2JOdlZaVS1OeGFLaXBCc2pMbWtxd2JOUnpLcU5ZT1V4VEtnR3Jrazh6S1VEZlNoaTBncG5GYW1hSG8yd0tYb19KLXl3dzBxdlpjRTNUSzF1YXg0VzlnajRoS2o0STNtZC1ybFVHNi15SHRkMUM3eVA5eHVCZUJMWTU2OTJxSFJBS2dob0NXdGVoejN5WWZKVU9od0tMNTFCRTZFRFVn0gHbAUFVX3lxTE1kcjlQU1dWbDhpMTdTYjg1bTBMOEtzVUJhRGJRZkZRQlZYV0FXVjd1dG1KazhTVGdXYWRvRHVsd2JjSUlVX18tMGtzWTFQVXpELVF6RnZfcFhsMDFrdV9XSUhpRXJzUEIwVEtHcDVzRE52QzhBendweWhCdkJVVmc0Qk1YcFVrRTgyMFhucnNWUWpuSDVTZGE4M2dDWGFFcmtUb3VxV2otM2N0U3Y5TjRYZGdfZWZURExhN284VDc2aDU1b3REcnBCVXQ2WVRWNkdZV2FXOTZFbVhHcw?oc=5",
-      "image": null,
-      "developing": false
-    },
-    {
-      "headline": "Proactive climate resilience could save India's renewable energy sector $28 billion",
-      "summary": "A joint report by Zurich Insurance and Kotak finds that targeted climate resilience investment — flood barriers, grid hardening, better weather modeling — could prevent up to $28 billion in losses across India's renewable energy pipeline over the next decade. The pipeline at risk spans solar parks, wind farms, and transmission infrastructure exposed to extreme weather.",
-      "signal": [],
-      "badge": "",
-      "takeaway": "India's clean energy buildout has a $28 billion resilience gap — the question is who funds it and what financial and tech products emerge to close it.",
-      "why": "The intersection of insurance, climate tech, and infrastructure finance is where new products are being built. For this reader evaluating India climate-tech plays, risk modeling and resilience infrastructure are under-invested relative to generation capacity. The Jaipur angle: Rajasthan's solar farms face similar physical risks from dust storms and heat extremes — local exposure to a global problem.",
-      "source": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbkJTWnBOV2FCNGxDV1RMWjlfRWM3MTNjZHNxQlZEX25xN09DLVhDWGdEbmdxUGRwSVlrMS1vS2poWU1ReER0UWRkdml5LWxweFg5OEluU1F4bTE5bUR5aFpGMUlEQ2llb3RiZ1I5MlVoY2x0U0R4dGVRS2xGWFR2Vlh2d2IycTFrQ0NvYlFqbWJBbnM?oc=5",
-      "image": null,
+      "takeaway": "AI has now recovered knowledge literally buried under a volcano for two millennia — one of the more genuinely remarkable applications of the technology.",
+      "why": "Worth pausing on as a moment of wonder rather than strategic analysis. This is a beautiful example of AI doing something humans simply could not do otherwise. If you follow philosophy or ancient history, the recovered texts will likely circulate as translations over the coming year. No career angle needed — just a good story.",
+      "source": "BOOK RIOT",
+      "url": "https://bookriot.com/best-middle-grade-books-of-2026-so-far/",
+      "image": "https://bookriot.com/wp-content/uploads/2026/02/All-That-Chandni-Knows-by-Khushboo-Patel-e1771349180396-300x0.jpg.optimal.jpg",
       "developing": false
     }
   ],
   "sections": [
-    {
-      "name": "Health Tech",
-      "slug": "health-tech",
-      "stories": [
-        {
-          "headline": "India is rebranding its pharma sector from cheap generics to cutting-edge drug maker",
-          "summary": "India is actively repositioning its pharmaceutical industry — long the world's pharmacy for affordable generics — toward innovation, biologics, and high-value specialty drugs. Government incentives for R&D and a push to attract global pharma partnerships beyond contract manufacturing are part of the strategy.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "India's pharma ambition is upgrading from cost-leader to innovation partner — the next decade tests whether the R&D pipeline can support that claim.",
-          "why": "India's generic advantage is being competed away as other low-cost manufacturing hubs emerge. The innovation pivot is strategically necessary and creates investment opportunities if you can identify which Indian pharma companies have genuine R&D depth versus those repositioning on reputation alone.",
-          "source": "AI CERTs",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcDNKeVZjTHdaZUNZZ0NxU1gyZHR6R3NWUklxSXpzdmJJY1UyV2hZQlNwU2dTVlcyV3ZGVDJMdG1JTll2ajhPcWRKYllORzZncUE4WWJJRTUxNlk2aEt3TENKWWN1al9NcFJyQV9lQzZsckV6SWFRaXpscU9IVk1kN2FwbDR1VUFydndkeEZJNy0xWG9P?oc=5",
-          "image": null,
-          "developing": false
-        }
-      ]
-    },
     {
       "name": "Agritech",
       "slug": "agritech",
@@ -70,9 +29,57 @@
           "badge": "",
           "takeaway": "India is expanding food welfare commitments even as it grapples with food security's structural vulnerabilities — the two are in tension.",
           "why": "Policy context for understanding the agritech opportunity space. Larger subsidized grain distribution could dampen commercial food tech demand signals in the short term, but increases pressure on yield efficiency and logistics — areas where agritech intervention is most valuable. Food security will remain politically salient regardless of which party holds power.",
-          "source": "The News Mill",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQzBMR3BwMzlFc1pjY0IyZTZZTnlKUDlIWklBUmJveURfWF83dkpXSE81ZlFWTmZEUVlDRzg1TnBPNUpUZGlKNkx2RzgwM1JRYnhON1dNQUxYbl80NVo4eUozRGxtRGF5NDNkUjllU0tydnVIXzRyOFFYcXp2cHhwUWVhMVpzZzdtLVA2RHhyWGNpLVlvaVRYUnhrZWZNVDlrWW41VTFMQy1LaWc1bDUwbQ?oc=5",
+          "source": "ucanews.com",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdWY5MmI4VDU4NmhndS16cW9yTE1DaWlJWngwRzQyckhiWFJQdVh0c2QtTVJWbS1yVjJMQkxSU0FsUUlGODk1LUU3aV9CMkJGVVhMZW9SN1Z1cjR3YzFHQjFNb3ZnaDZuWUJkUjdVOGRHWl92cm9IM3dLVmlpUWo0UVdJcGVpejJkbzgybktSYk1TbF9ySGwxWmVFeWlzdGJma3p6azBuRlfSAacBQVVfeXFMT2JpeXpncmQ3cGU0dUI1NGJVNzUwbWlfNEo3VVpxcjE5VU9UZWhaYTJwaDYtRmgzSk9FNVR1QV8xNUJLNWc0M3hBeDRTYVBCbWY4WUh1TXRVUG1mS2ZXdGlKQ2o1aTZ0Q2liN1FhS1BzMGlTZWZCQUNrdHpoUVZEeW9xSFRqRGxIY09XOFRqa3VrTWxmaHFFR290WWdwdF9wTDU0S1BfaE0?oc=5",
           "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "IRDAI's reform push threatens to restructure how Indian insurtech startups make money",
+          "summary": "India's insurance regulator IRDAI is advancing reforms targeting commission structures and product distribution — the exact mechanisms that most insurtech startups are built around. The reforms aim to improve consumer outcomes but could squeeze the intermediary margins that have funded the sector's growth.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "India's insurtech business model is about to be stress-tested by the regulator that oversees its market.",
+          "why": "Important for anyone tracking Indian financial services startups. The IRDAI reform is a classic Indian regulatory moment: well-intentioned but disruptive to incumbents and startups alike. Companies with direct distribution or genuine tech infrastructure plays will be relatively insulated; pure intermediaries face margin compression.",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/07/how-startups-are-using-blockchain-for-the-fintech-revolution-in-india",
+          "image": "https://images.yourstory.com/cs/121/98e25df018b511e988ceff9061f4e5e7/Imageriqm-1669789554164.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Indian startup QOSMIC raises $3.3 million to build laser-based space communication links",
+          "summary": "QOSMIC has raised $3.3 million in seed funding to develop laser-based optical communication infrastructure for space, enabling high-bandwidth data transmission between satellites and ground stations. The startup enters a market heating up globally as LEO satellite constellations multiply.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "India now has a seed-stage player in optical space communication — a category that will matter significantly as satellite constellations scale.",
+          "why": "Interesting for deep tech tracking in India. Laser-based optical links are faster and more secure than radio-frequency alternatives. India's post-liberalization space sector has created room for exactly this kind of startup to emerge. Small raise, but it signals the ecosystem is deepening beyond software.",
+          "source": "Sifted",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRGJfZnBxZzZWNFJ2Sm1uWXZWZXB4NEFrckpxaEJKZWRVazJzWjd3eWg1amZ3c1JrNVRfT05qUjVTeHR3OEhjX0V6NGJDQUhwTWNMMFNYaUU2RjFKeTloNjdMajhWRkNQZ3d6Szh6RVZMRnVvT09LRF83cUJwVl96SkppY3o?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "stories": [
+        {
+          "headline": "CBI raids 80+ locations to crack down on digital arrest fraud network",
+          "summary": "India's Central Bureau of Investigation conducted searches at over 80 locations targeting operators behind digital arrest scams, where victims are psychologically held captive via video call and coerced into transferring money. The accused used shell companies and mule bank accounts to launder roughly Rs 2 crore in suspected fraud proceeds.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "India's cybercrime enforcement is scaling up to match the sophistication of digital fraud operations.",
+          "why": "Digital arrest scams have disproportionately targeted educated, middle-class Indians — the psychological manipulation is sophisticated. The CBI action signals this is now a national enforcement priority. Relevant background rather than directly actionable.",
+          "source": "India | The Indian Express",
+          "url": "https://indianexpress.com/article/india/rainfall-in-eastern-river-basins-down-20-percent-since-1951-study-10779768/",
+          "image": "https://images.indianexpress.com/2026/07/indus-river_7ba7db_20260709230237.jpg",
           "developing": false
         }
       ]
@@ -83,15 +90,15 @@
       "name": "SGSITS Incubation Forum Cohort 3.0 — Startup Grant Program",
       "when": "Application deadline upcoming — verify at SGSITS or fundsforNGOs",
       "summary": "SGSITS, a prominent technical institute in Indore, Madhya Pradesh, is running its third cohort of a startup incubation and grant program. Open to early-stage Indian startups and student entrepreneurs. National reach; Indore is accessible from Jaipur. Worth checking if you have an early-stage idea or are supporting a founder.",
-      "source": "Carbon Herald",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmZ3SmRIMzFOTmVRdFYyVmgzUjBpcFdTOTd3aDZDM3k5RUZWYXhVM1hiMWFsV0NUdjRscVhYTVBIVnNZN2JEV1QxTTY4eW9uaW5vUnBDcXE1eFdOaWZUeEM0SjlRUmgyaUFEdkpCcTZqZDh4UDZDVzBtcHg3WGN0bm5meEZmZGtOb1ozczhPTlp5YnZDQ29hSXFYd0ZpbUZtQkJEd0kyYTdSMmZkUmc?oc=5"
+      "source": "Inc42",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX25kUWhIRXF4dGEtWGxQTDJNV0g4blZOTXV5d280OXE1UnpGVWotM2pnSGwwd0FIOTQ3LTl0Mk56b1lRY2dDWFY0WThmb3dwS1p5NmpNaFBkODMwYXdMZ0t1a1Eta2o1eWZSRVJ3TjJsMW9JV2cyVWRNZXB4ZHpPVmVtTXZsYjFhWGktRmNmRFNJdjZqUk9mLTFKcHY?oc=5"
     },
     {
       "name": "AESOP-IIT Delhi-UCL Joint Webinar on Urban Planning",
       "when": "Webinar 2 of series — check IIT Delhi or UCL events pages for date",
       "summary": "A joint academic webinar organized by AESOP (Association of European Schools of Planning), IIT Delhi, and University College London, exploring urban planning themes at the India-Europe intersection. Free to attend for researchers and practitioners with interest in urban development, smart cities, or Indo-European academic collaboration. Delhi-based but accessible globally as a webinar.",
-      "source": "India's World",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTFdkLWUzOXA3YlVsNGNPMDliTHZPSWlfX3QxZTM1c1k2ZVJZVXJaQ2Q5YjZiNmkzR2dqZEh1Mk5hVVY5Z3Z6TUxpeFZ6ekc2Rm9kY2FrWjVJSGxZUUdLSmJ0aUdzdjRkdDVBSFM0b2JkT05zcFZQZXFTcWxLc2RTdnhQUEhYMDVJQVow?oc=5"
+      "source": "Time Out Worldwide",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQjBZQ3M5enNEbnVyUGIzNHhKdW1Zb0c1cjVZd1pjbDgtcDhtVEZ2LXRQc3o0Y09PZHNBMVQ2T2V0SkduX3FiTHozTDN6N2NZNXUtWm1yVHZmU2l4LWNLZWt4VkxwZjBRYWZLUl9LVHNTdlJQaDlBR0lSV0pveVJVN0xKaWJWcFFPeF9lRUpwTk5uVktwTDlmZnhtMDNJalJTNWtTeWl6a1hKNHhJaVUtS1YzT0FZcEU0?oc=5"
     }
   ]
 }

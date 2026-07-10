@@ -1,0 +1,731 @@
+{
+  "date": "2026-07-10",
+  "edition": 25,
+  "colophon": "54 sources scanned · 49 ok · 5 failed",
+  "lead": {
+    "headline": "Khamenei Is Dead and Iran Is Striking US Military Targets in the Gulf",
+    "summary": "Iran's supreme leader Ali Khamenei, who held power since 1989, has died — and Tehran has followed his passing with military strikes, claiming to have hit US military targets in the Gulf. State-run Iranian media announced his death after mass funeral processions; burial ceremonies are now underway. Simultaneously, Iran claimed responsibility for attacks on American military assets in the region, raising fears of a major escalation at precisely the moment Iran's post-Khamenei succession is unresolved. The question of who controls the Islamic Revolutionary Guard Corps — and whether the next supreme leader pursues confrontation or stabilisation — is now the most consequential open variable in West Asian geopolitics. India has significant exposure: hundreds of thousands of Indian workers in Gulf countries, historical energy ties with Iran, and PM Modi's carefully calibrated West Asia diplomacy all face new stress simultaneously.",
+    "signal": [
+      "Khamenei's death opens an unpredictable succession scramble; whoever controls the IRGC controls Iran's next posture",
+      "Iran-US military exchanges in the Gulf put Indian oil supply chains, diaspora workers, and India's West Asia diplomacy under simultaneous pressure",
+      "Markets will move: oil, shipping insurance, and Indian rupee are all sensitive to Gulf escalation"
+    ],
+    "badge": "BREAKING",
+    "takeaway": "",
+    "why": "",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?oc=5",
+    "image": null,
+    "developing": true
+  },
+  "frontpage": [
+    {
+      "headline": "Anthropic Found the Room Where Claude Does Its Thinking",
+      "summary": "Anthropic has published research revealing a hidden conceptual workspace inside large language models — a representational layer where the model appears to actively deliberate before producing output. Using interpretability tools, researchers found that Claude forms structured intermediate mental states: abstract concepts that build toward an answer before any tokens are generated. This is not thinking in the human sense, but it is the clearest empirical window yet into the mechanics of a frontier AI model at work. MIT Technology Review has the story, which extends Anthropic's mechanistic interpretability programme aimed at making AI systems transparent and safer. The finding matters practically: if internal model states are legible, it becomes possible to detect deception, confusion, or misalignment before they surface in outputs.",
+      "signal": [
+        "First clear evidence of structured internal deliberation in an LLM — an observable representational space, not a metaphor",
+        "Interpretability is graduating from research curiosity to practitioner skill; debugging, alignment, and AI auditing all depend on this foundation"
+      ],
+      "badge": "DEEP DIVE",
+      "takeaway": "",
+      "why": "",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/Screenshot-2026-07-09-at-20.29.29.png?w=180",
+      "developing": false
+    },
+    {
+      "headline": "China Just Let Its AI Firms Buy Nvidia's H200 — Here Is What Changed",
+      "summary": "After months of a US-China standoff over chip access, China has quietly permitted its AI companies to purchase Nvidia's H200 — a high-end chip that sits just below the flagship in the export control hierarchy. South China Morning Post reports Chinese AI labs and cloud providers are now rushing to procure. The move comes after US moves in early 2026 to further restrict Chinese access to cutting-edge compute, making the H200 clearance a carve-out rather than a ceasefire in the chip war. Washington took tighter control earlier this year; Beijing's response appears to have been quiet diplomatic signalling rather than retaliation.",
+      "signal": [
+        "The H200 opening is a carve-out, not a treaty — expect the next export control tightening to close this window",
+        "India angle: Indian AI companies retain more open Nvidia hardware access than Chinese peers for now — a short-term competitive advantage worth noting"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Tech - South China Morning Post",
+      "url": "https://www.scmp.com/tech/policy/article/3360027/game-changer-why-china-finally-letting-its-ai-firms-buy-nvidia-h200?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/09/63165aca-ab1a-4209-9750-553474c50323_4a96b4b4.jpg?itok=J0iDHMOo&v=1783606334",
+      "developing": true
+    },
+    {
+      "headline": "India and Australia Sign Defence Pacts and Fast-Track Their Trade Deal",
+      "summary": "PM Modi's Australia visit concluded with a package of defence cooperation agreements covering logistics, technology sharing, and supply chain cooperation, and a commitment to accelerate the bilateral free trade deal, stalled for years. In the headline move, Australia agreed to sell uranium to India after more than a decade of negotiations — unlocking a significant new source of nuclear fuel for India's expanding civil nuclear programme. The defence pacts embed the relationship firmly in Quad alignment against Chinese influence in the Indo-Pacific.",
+      "signal": [
+        "Uranium access diversifies India's nuclear fuel supply beyond Russia, France, and the US — a quiet but durable energy security win",
+        "Fast-tracked FTA opens channels for Indian pharma, textiles, and IT services looking at the Australian market"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "India | The Indian Express",
+      "url": "https://indianexpress.com/article/india/india-australia-ink-defence-pacts-fast-track-trade-deal-10779742/",
+      "image": "https://images.indianexpress.com/2026/07/p1-modi-5cls.jpg",
+      "developing": false
+    },
+    {
+      "headline": "The DR Congo Ebola Outbreak Is Now the Fastest-Growing in History",
+      "summary": "African health authorities declared the Democratic Republic of Congo Ebola outbreak the most rapidly expanding ever recorded, with 600 deaths confirmed as of Thursday. The WHO has escalated its response. Unlike previous outbreaks largely contained in remote forest communities, this one is spreading in semi-urban areas, which dramatically raises transmission risk. The DRC's conflict-affected health infrastructure — already under extreme strain — makes containment far harder than in prior episodes.",
+      "signal": [
+        "Fastest-growing Ebola outbreak in history is a global health alarm; semi-urban spread changes the containment calculus entirely",
+        "Indian healthcare exporters, NGOs, and diaspora active in sub-Saharan Africa should be monitoring this closely"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "World - South China Morning Post",
+      "url": "https://www.scmp.com/news/world/africa/article/3360036/ebola-outbreak-fastest-growing-ever-600-die-dr-congo?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/10/5298b4ed-d50f-46af-a6c1-95fc36a621b1_61882b8a.jpg?itok=szIDIfpN&v=1783618654",
+      "developing": true
+    },
+    {
+      "headline": "Ukraine Targets Russian Ships Near Crimea to Strangle Fuel Routes",
+      "summary": "Ukraine conducted strikes on Russian naval assets near Crimea, the latest step in a sustained sea-denial campaign aimed at making the peninsula logistically untenable. The BBC reports the attacks are part of a deliberate strategy to choke fuel and materiel routes into and out of Russian-controlled Crimea, degrading Russia's ability to sustain military operations in southern Ukraine.",
+      "signal": [
+        "Ukraine's sea-denial strategy is underrated; if Crimea becomes logistically unsustainable it changes Russia's entire southern front calculus",
+        "Black Sea shipping lanes matter to global grain and energy markets — any escalation there has commodity spillover effects"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db10/live/4259e690-7ac5-11f1-b541-536d253827b8.png",
+      "developing": true
+    },
+    {
+      "headline": "South Korea Plans to Use Its AI Chip Windfall to Help Young People",
+      "summary": "South Korea's labor minister disclosed plans to redirect part of a surging tax windfall — generated by Samsung and SK Hynix's booming AI chip sales to global data centre builders — into youth employment and skills programmes. The country's semiconductor sector is experiencing historic demand from the AI infrastructure build-out, generating corporate tax revenue the government now wants to socialise. South Korea's youth unemployment remains structurally high even as GDP grows strongly.",
+      "signal": [
+        "The sovereign AI dividend model — taxing AI-driven profits to fund social programmes — is a policy template India and others will study",
+        "South Korea's chip boom shows how deep a country can be in the AI supply chain without owning frontier models; instructive for India's semiconductor strategy"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Bloomberg Economics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-09/south-korea-eyes-ai-windfall-fund-to-aid-growth-jobs-for-youth",
+      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ifZ_VBRfPNuA/v0/1200x-1.jpg",
+      "developing": false
+    },
+    {
+      "headline": "India Inc Expected AI to Cut Consulting Bills. It Has Not.",
+      "summary": "A Livemint investigation finds that Indian corporations that deployed AI tools — expecting to reduce spend on consulting and professional services — have seen those bills largely stay flat or rise. AI is creating new categories of advisory work: AI strategy, governance, integration, and change management. Consulting firms have absorbed AI tools into higher-value offerings and are charging accordingly. The AI-displaces-consultants thesis is proving premature in the Indian enterprise market.",
+      "signal": [
+        "AI is expanding the consulting market, not shrinking it — a useful reality check for any CFO being sold an ROI story",
+        "For an AI-generalist or founder's-office role: companies that cannot navigate AI internally need people who can; this is a hiring signal, not a warning"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQbURJZElIdWdhWXBJUlF3WDU0d2NkMXozUkhEOHRYU3RxSWhLUUlwYlBpWldiajBhS3Y4eVNCUlpaSHhNYXgxc1FoOU0yVjZLMGh2dG5CVG1Way1ZYlplS0IyNVRmQjI4SWt5cTAtZV9SS2tKcVhGam5haF80LU1uVkRjYXNiNmdhbHVmaTdLY2VmME9iRkRBdW9xT2I5cE9GWjZoMTlUZXBoVDktWTRKOWIweW1YWkpQY2dFOXBNd2I1a01STW04M0xPUlZ2UFZvQXNKOHpxaUM3LVMwczJlQldtRzVkcXZzMnAwRlBRNmcwaktLQ3I0YU1R0gH_AUFVX3lxTE5NNkdtRmVHaUVhMU9PQVd1SFgwd1VqXzhJX2JTaUkyeUx0cHdSQTdmZWdTcTROVDFzVXBGSkpremVZSG0zdnFyQnctUlRuRmVEcXpvdE5vUXVSLTlWSEplaVBlb0tHczVONlZjM3JSZ0pxaWJxWW5oV0h5MGtzVm5ORXhsMllvanVwZ3JLUjJMTEZONVlmVS03dE90djY1WFFnX2NfLW9YM1ZudThNZl9CQmV1RUJ6YU1qTzIxVzJPNW5xY2NyRzlyZHhKdGo0Q3RtWkFsRDIyT09BbnJlRXJDWnZJNzZTX0tuM3g1T2syQUdSLTZ2cGg3S203b2VCYw?oc=5",
+      "image": null,
+      "developing": false
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "stories": [
+        {
+          "headline": "Anthropic Found the Room Where Claude Does Its Thinking",
+          "summary": "Anthropic has published research revealing a hidden conceptual workspace inside large language models — a representational layer where the model actively deliberates before producing output. Researchers found that Claude forms structured intermediate mental states: abstract concepts that build toward an answer before any tokens are generated. The finding matters practically: if internal model states are legible, it becomes possible to detect deception, confusion, or misalignment before they surface in outputs. This is the clearest empirical window yet into the mechanics of a frontier AI model at work.",
+          "signal": [
+            "First clear evidence of structured internal deliberation in an LLM — an observable representational space, not a metaphor",
+            "Interpretability is graduating from research curiosity to practitioner skill; debugging, alignment, and AI auditing all depend on this"
+          ],
+          "badge": "DEEP DIVE",
+          "takeaway": "",
+          "why": "",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/Screenshot-2026-07-09-at-20.29.29.png?w=180",
+          "developing": false
+        },
+        {
+          "headline": "An AI Agent Ran Its Own $100 Million Fundraise — and It Worked",
+          "summary": "Lyzr, an enterprise AI-agent startup, closed a $100 million funding round managed end-to-end by its own AI agent — handling investor outreach, scheduling, and coordination. The stunt doubles as proof-of-product: if your agent can run a high-stakes capital raise, it can handle most complex enterprise workflows. Lyzr builds AI agents for business processes, and this self-referential fundraise sits somewhere between the cleverest marketing play of 2026 and a genuine benchmark for autonomous agent capability.",
+          "signal": [
+            "Agents handling their own companies' high-stakes operations is a new category; dog-fooding benchmarks are becoming standard fundraising theater",
+            "For AI generalists: the bar for agent trust in real workflows has been set publicly — enterprise buyers will now use this as a reference point"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India Inc Expected AI to Cut Consulting Bills. It Has Not.",
+          "summary": "A Livemint investigation finds that Indian corporations that deployed AI tools have seen consulting and professional services bills largely stay flat or rise. AI is creating new categories of advisory work — strategy, governance, integration — and consulting firms have absorbed the tools into higher-value offerings. The AI-displaces-consultants thesis is proving premature in the Indian enterprise context.",
+          "signal": [
+            "AI is expanding the consulting market, not shrinking it — a useful reality check for any CFO being sold an ROI story",
+            "For an AI-generalist or founder's-office role: this is a hiring signal; companies that cannot navigate AI internally need people who can"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "livemint.com",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQbURJZElIdWdhWXBJUlF3WDU0d2NkMXozUkhEOHRYU3RxSWhLUUlwYlBpWldiajBhS3Y4eVNCUlpaSHhNYXgxc1FoOU0yVjZLMGh2dG5CVG1Way1ZYlplS0IyNVRmQjI4SWt5cTAtZV9SS2tKcVhGam5haF80LU1uVkRjYXNiNmdhbHVmaTdLY2VmME9iRkRBdW9xT2I5cE9GWjZoMTlUZXBoVDktWTRKOWIweW1YWkpQY2dFOXBNd2I1a01STW04M0xPUlZ2UFZvQXNKOHpxaUM3LVMwczJlQldtRzVkcXZzMnAwRlBRNmcwaktLQ3I0YU1R0gH_AUFVX3lxTE5NNkdtRmVHaUVhMU9PQVd1SFgwd1VqXzhJX2JTaUkyeUx0cHdSQTdmZWdTcTROVDFzVXBGSkpremVZSG0zdnFyQnctUlRuRmVEcXpvdE5vUXVSLTlWSEplaVBlb0tHczVONlZjM3JSZ0pxaWJxWW5oV0h5MGtzVm5ORXhsMllvanVwZ3JLUjJMTEZONVlmVS03dE90djY1WFFnX2NfLW9YM1ZudThNZl9CQmV1RUJ6YU1qTzIxVzJPNW5xY2NyRzlyZHhKdGo0Q3RtWkFsRDIyT09BbnJlRXJDWnZJNzZTX0tuM3g1T2syQUdSLTZ2cGg3S203b2VCYw?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India Is Shifting Its Stance on AI Regulation",
+          "summary": "According to IAPP's Asia-Pacific notes, India has signalled a shift toward more structured AI governance after initially adopting a softer, principles-based approach. The change reflects both global pressure from the EU AI Act and US executive orders, and domestic concerns about deepfakes and AI misuse in elections and finance. India's MEITY has been quietly developing a more formalised framework, though its exact shape remains unclear.",
+          "signal": [
+            "India's light-touch AI policy is tightening — companies building or deploying AI in India should track MEITY's next moves",
+            "Regulatory clarity, even if initially burdensome, could accelerate enterprise AI adoption by reducing legal ambiguity"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "IAPP",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMUZPS0VBUVFWaVVwTG41V1pPWFg1WjZvd1NNZnRfWnBTMjFWTEZjSnVfUFdvU1Y0VGNMS3R6MW1wQlBsM1dkRURneElEbldZdEo5NER0b3Q2UmVMQVBEeEk4T056aGZwLW9HcjI0VmJmOS1xNEtWTXU3OWJTV1pkMU9WOUthdVktd2FQS3pJdzh1WVJ4VjFGaFpsaw?oc=5",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "OpenAI's GPT-5.6 Remains Microsoft Copilot's Preferred Model Despite Breakup Chatter",
+          "summary": "OpenAI announced that its GPT-5.6 family will continue powering Microsoft's Copilot 365 suite. The announcement is notable amid speculation about the Microsoft-OpenAI relationship cooling and Microsoft's reported pursuit of alternative model partnerships. Both companies appear to be maintaining the integration; GPT-5.6 reportedly offers improved reasoning for document-heavy workplace tasks.",
+          "signal": [
+            "Microsoft-OpenAI partnership remains intact at the product level; the breakup narrative is currently noise",
+            "Copilot is Microsoft's mass-market AI play — GPT-5.6's performance on enterprise tasks will determine whether growth momentum continues"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "OpenAI's No. 2 Is Stepping Down After a Longer-Than-Expected Medical Leave",
+          "summary": "Fidji Simo, who joined OpenAI as CEO of Applications in 2023 and rose to become effectively the company's second-in-command, is stepping down after a medical leave ran longer than anticipated. The departure leaves a significant leadership gap at a moment when OpenAI is navigating shifting revenue structures, a changing Microsoft relationship, and intense competition from Anthropic, Google, and newer entrants.",
+          "signal": [
+            "OpenAI is mid-reorganisation without a clear No. 2; who Altman elevates next will signal the company's product-versus-safety balance",
+            "Leadership churn at the world's most prominent AI lab is worth tracking for anyone following the AI governance or investment story"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+          "image": null,
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "headline": "China Just Let Its AI Firms Buy Nvidia's H200 — Here Is What Changed",
+          "summary": "After months of a US-China standoff, China has quietly permitted its AI companies to purchase Nvidia's H200. South China Morning Post reports Chinese AI labs and cloud providers are now rushing to procure. The move comes after US moves in early 2026 to further restrict Chinese access to cutting-edge compute, making the H200 clearance a carve-out rather than a ceasefire in the chip war.",
+          "signal": [
+            "H200 clearance is a carve-out, not a treaty — expect the next export control tightening to close this window",
+            "India angle: Indian AI companies retain more open Nvidia hardware access than Chinese peers for now — a short-term competitive advantage"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/policy/article/3360027/game-changer-why-china-finally-letting-its-ai-firms-buy-nvidia-h200?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/09/63165aca-ab1a-4209-9750-553474c50323_4a96b4b4.jpg?itok=J0iDHMOo&v=1783606334",
+          "developing": true
+        },
+        {
+          "headline": "We Cannot Wait for Better Post-Quantum Signatures",
+          "summary": "Cloudflare's blog makes the case that the transition to post-quantum cryptographic signatures cannot wait for better algorithms to emerge. The current NIST-standardised options carry performance tradeoffs — larger key sizes, slower verification — but deploying them now is more urgent than optimising later. The piece highlights harvest-now-decrypt-later attacks: adversaries may already be storing encrypted and signed data today to decrypt once quantum computers become capable. The migration window is shorter than most organisations realise.",
+          "signal": [
+            "Harvest-now-decrypt-later attacks are real and active; organisations handling sensitive data need a post-quantum migration timeline today, not eventually",
+            "For tech strategy roles: post-quantum migration is becoming a compliance and procurement question, not just an engineering concern"
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "The Cloudflare Blog",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tV2Y5ZDVGLVRiNzRVaV9kZDRaX3pTTnZqV2dfbnk5TFk1QUdfbTBKMC1KLTMxNXVMYzl5TWpqLVp6TjZJdi0wQnRPQjNJLVFINXF1RUhxdjVjcVdVbHpWVA?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Meta Rolled Out an AI Image Generator on Instagram Without Clearly Warning Users",
+          "summary": "Meta rolled out a new AI image generator inside Instagram without surfacing clear opt-in consent, prompting backlash from digital rights advocates. The tool uses Meta's models to generate images within the platform, and its default settings allow broader data use than most users realise. Privacy groups are urging users to review settings and warning that generated images may be used for model training.",
+          "signal": [
+            "Default-permissive AI features in consumer apps are a recurring pattern — users who do not check settings are implicitly opting in to more than they think",
+            "EU regulators are watching; this could accelerate platform AI governance rules that cascade into Indian market requirements"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Technology | The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/09/instagram-ai-image-generator-privacy",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "A Humanoid Robot Just Got Near-Human Hand Dexterity",
+          "summary": "Norwegian robotics startup 1X Technologies has released video and technical data showing its Neo humanoid robot performing fine-motor tasks — grasping, manipulating, and assembling small objects — at a level described as approaching human-level hand dexterity. The achievement uses end-to-end neural networks trained on human demonstration data. If independently validated, it marks a significant milestone for embodied AI.",
+          "signal": [
+            "Dextrous manipulation has been the bottleneck for useful humanoid robots; 1X's advance narrows the gap on the hardest remaining physical AI challenge",
+            "Industrial and warehouse automation markets are watching — near-human hands unlock a far wider range of tasks than previous robot grippers"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Forbes",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaDhHbzRZbl8zVkdnZVFFdk54LWxVVHdDaXVuVVpRR1FCVmFQeEpCM3VQa0lyLWVsdWY1clhwNkdSUVBaUkFzOE53RDM1TmJHd2NJZ3VkUHZMNkozelJXb0VMemZIYW5LUWRodnNJMzdFS2RlWjV3cG1FVlBJdWpRVUVPUTU1dmRPbjJwSUVJMU1lYnRCanlRYlIxbmJTeFY5NzE4c1pWODh6UTVlWFBHRklzQmNOMjhVNGQ0?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "Guangxi Flooding, Beautiful China, and a New EU-China Climate Mechanism",
+          "summary": "Carbon Brief's China Briefing covers three threads: severe flooding in Guangxi province affecting millions of people and farmland after an unusually wet monsoon season; the formal launch of China's Beautiful China ecological plan, a national natural resource protection and restoration programme; and a new EU-China cooperation mechanism on carbon markets and green standards. The Guangxi floods are already prompting food-supply concerns in the province.",
+          "signal": [
+            "Guangxi floods extend the pattern of record monsoon extremes across Asia; China's agricultural south is increasingly climate-vulnerable",
+            "The EU-China carbon mechanism is worth watching: aligned emissions accounting standards could eventually affect how Indian companies compete for green-premium contracts in EU markets"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Carbon Brief",
+          "url": "https://www.carbonbrief.org/china-briefing-9-july-2026-guangxi-floods-beautiful-china-plan-new-eu-china-mechanism/",
+          "image": "https://www.carbonbrief.org/wp-content/uploads/2026/07/image-1-1024x608.png",
+          "developing": true
+        },
+        {
+          "headline": "Is Climate Change Now Writing India's Weather Map?",
+          "summary": "An NDTV analysis examines whether India's shifting weather — erratic monsoons, record heat waves, late-onset rains, and regional flooding — is now structurally driven by climate change rather than natural variability. The piece draws on meteorological data showing increased frequency and intensity of extreme events across Rajasthan, Kerala, and the northeast. Scientists quoted say the Indian subcontinent is among the highest-risk regions globally for compounding climate impacts.",
+          "signal": [
+            "Rajasthan is specifically named as a high-vulnerability zone — directly relevant for anyone building or investing in climate-resilient infrastructure there",
+            "India's adaptation deficit — insurance penetration, early warning systems, building codes — is as important a policy gap as mitigation"
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "NDTV",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT1VIM3lJdmRTRUNVUGd1Um0tbUNqVHdOeHh4SVpqM1BuWHBEWE9NelAxd3B5ZWlKWnRGYUVDaU1RclRwajV1cVk1NVl1TE5BR0pGZGkyMy15UFNFbVFiXzV6QnUtUUt3UHNJOENoaTZUOGFNcW1FWmJhbXo0N2FqSC1sWTRXMGZCSWNVMTBUV3I4dkpnTGhhSWllWnEyRkdFSjR1RHE5R3NrQ2NVNHNv0gG3AUFVX3lxTE1KTDV4ME52aENXM25QOVVPVUd1LWZZNTJWUkxZMnM5ZEpSRW93OTFQTkg4RGhxbm5zdWZxeGd6dl9BcWVwUGo3WDZvZW5mVXVEUHZoTDlvT1loekUyT3VWcktyR2JNSnBVakhraGhNSm9wdFg0UkV6aTdkR2hFcVA2OVhIeTQ1dVhhUU5ObDVhOUdRd2VHcG1sQXl4VVIwa2VpU19rWFFKdkRTTWZ2ZGlVcXkyZklvVQ?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "World Bank Backs India's Solar Rooftop Push",
+          "summary": "The World Bank has announced support for India's national solar rooftop initiative, which aims to install rooftop solar on millions of homes and commercial buildings. The programme has struggled with last-mile financing and consumer adoption; World Bank backing likely involves concessional loans and technical assistance. India's rooftop solar capacity needs to grow substantially to meet its renewable energy targets.",
+          "signal": [
+            "World Bank backing provides concessional capital and credibility — watch for supply chain and distribution opportunities opening in rooftop solar",
+            "Rooftop solar at scale creates a significant fintech lending opportunity; household solar loans could be the next micro-credit expansion in India"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Mirage News",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRnBST3hDMUU5MldvN1JwUFRzc3NBLTE1NGRXUHRWWUVqNDZRTU9JNHA5MUxuSEJnLS1KeGZBVXBndTVmbkI1dUZDUTZXbEVDb1FtM1pocVhoTmZ2VXItNVZSRTJ1TDJDcHN1NS1OYnIzaWRVVG1scWJLWW5OR2J0R084YWVQQksyeEZIWg?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Europe's Third Heatwave of 2026 May Have Killed More Than 20,000 People in June",
+          "summary": "The UK is mid-heatwave — its third this year — as estimates emerge that June 2026's record heat across western Europe caused more than 20,000 deaths, potentially the highest heat death toll in recorded history for a single month. The Guardian reports Britain has expanded its heat health alert system while continental Europe tallies the casualties. June 2026 is now being described as the hottest June ever recorded globally.",
+          "signal": [
+            "20,000-plus deaths from heat in a single European month is a civilisational signal; adaptation infrastructure has clearly not kept up with climate reality",
+            "Global insurers and reinsurers face growing heat mortality exposure; Indian players expanding internationally should be following this closely"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Environment | The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/jul/09/uk-swelters-third-heatwave-western-europe-counts-cost-hottest-ever-june",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Health Tech",
+      "slug": "health-tech",
+      "stories": [
+        {
+          "headline": "India's Pharma Sector Is a Strategic Variable in Global Medicine Supply",
+          "summary": "BW Businessworld outlines how India's pharmaceutical industry — the world's third-largest by volume and a dominant supplier of generic medicines globally — has become a strategic asset in post-COVID discussions about drug supply resilience. With roughly 20% of global generic exports and significant API manufacturing capacity, India is being courted by the US, EU, and multilateral health bodies as an alternative to Chinese supply chains for essential medicines.",
+          "signal": [
+            "India's pharma strategic relevance is rising — but dependence on Chinese APIs remains the single biggest vulnerability in that narrative",
+            "The generics, API, and CDMO space in India is attracting both government attention and investor capital; this is the pharma version of the semiconductor supply chain story"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BW Businessworld",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjRIcEZVeWNPMU41WXR3RkRuQWx4ZS1Pdy1xQWt0aFlDQnNNSFZHS3ZlaUFtRkl0NG01WndkTV84ejBhMndJRS1mNWxjM1JJSDRkR3pleU1jdVV0MWpnOFhzN1NmaC1OMkNSQWtFdlhORGgxd3pGMkYtTDdqYlZqYkQydWVNTzJBdWFOb2N4MVc2dDRtZ2d0dnJfbWlQNGZMVDVCOEFLTFpsQVZSOXkyZTMweTFtYUtzQTVJMkkwWWg4WkNQaENTbzVpQlQ?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India's DPCO Amendment Could Reshape the MedTech Sector",
+          "summary": "India's latest amendment to the Drugs Price Control Order is being scrutinised for its implications beyond pharmaceuticals — specifically its potential impact on medical devices and health technology companies. The amendment changes how certain products are classified and priced, which could affect margins for Indian and multinational MedTech players operating in the domestic market.",
+          "signal": [
+            "DPCO amendments have historically triggered repricing cycles across medical devices; MedTech founders and investors in India should read the fine print carefully",
+            "Regulatory pricing risk in Indian health tech is distinct from market risk and should be modelled separately in any India strategy"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "expresshealthcare.in",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZVhnYlQ1RFloM09FZXFZbkhiNHQxUXl1eThIMTdESk44Z1lkRDRSamx4WVg2dnFlbFk0ZkZRbUZxaDUzQWF1R1lSa1h5b1Q4WFd0RC1MeUtLZE1RbF9RTWczWDIxY1lhbU5NSXdGV1ZTcHhpUmp6YTVQc0ZyZ0dLMzVCVTRjOUJmVVRIT0VmTEdXMmF0bV9rT2NXM3FjbkFOVEIwdTlQWFZ5d0FaVVFZVV9sdnBwZmhFdVVqYUV5QXE?oc=5",
+          "image": null,
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "Agritech",
+      "slug": "agritech",
+      "stories": [
+        {
+          "headline": "India's Ethanol Blending Programme Has a Hidden Cost: Food Security and Water",
+          "summary": "A study published via EurekAlert finds that India's push to blend petrol with ethanol — driven by goals to cut oil imports and reduce emissions — has had measurable negative effects on food security and water use. The programme diverts sugar cane and maize from food uses, raising food prices and increasing water consumption in already water-stressed agricultural regions. The sustainability math is more complicated than the policy narrative admits.",
+          "signal": [
+            "Food-fuel trade-offs are the hidden underside of India's energy transition mandates — a live tension for agritech founders and agri-policymakers",
+            "As India scales blending targets toward E20, pressure on food systems will intensify; this is a design problem that needs solving at the programme level"
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "EurekAlert!",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lZHFVQ0dyS2xOUHJHcFJhWXA5dUp6TDVPZHhYb1F4SGREdGFlYlNjYzI3bEo0eGpXRGdGOHQ4YXNhQlZ4d2dId1BvMXBGLTI4NG9vZHFZNFZBekxx?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India's Women-Led Farming Networks Could Be a Template for Global Food Security",
+          "summary": "A UCA News piece profiles India's growing ecosystem of women-led farming cooperatives and self-help group-based agriculture, which have in several states improved household income, soil health, and crop diversity. The model combines traditional knowledge with microfinance and market linkages. International food security organisations are examining the model for replication in other developing countries.",
+          "signal": [
+            "Women-led agri cooperatives in India outperform conventional models on multiple metrics — this is an evidence base, not a feel-good story",
+            "For agritech builders: these communities already have financial infrastructure through SHGs and MFIs — that is a ready distribution channel, not just an audience"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "ucanews.com",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdWY5MmI4VDU4NmhndS16cW9yTE1DaWlJWngwRzQyckhiWFJQdVh0c2QtTVJWbS1yVjJMQkxSU0FsUUlGODk1LUU3aV9CMkJGVVhMZW9SN1Z1cjR3YzFHQjFNb3ZnaDZuWUJkUjdVOGRHWl92cm9IM3dLVmlpUWo0UVdJcGVpejJkbzgybktSYk1TbF9ySGwxWmVFeWlzdGJma3p6azBuRlfSAacBQVVfeXFMT2JpeXpncmQ3cGU0dUI1NGJVNzUwbWlfNEo3VVpxcjE5VU9UZWhaYTJwaDYtRmgzSk9FNVR1QV8xNUJLNWc0M3hBeDRTYVBCbWY4WUh1TXRVUG1mS2ZXdGlKQ2o1aTZ0Q2liN1FhS1BzMGlTZWZCQUNrdHpoUVZEeW9xSFRqRGxIY09XOFRqa3VrTWxmaHFFR290WWdwdF9wTDU0S1BfaE0?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "AI Is Rewriting the Rules for India's 63 Million Small Businesses",
+          "summary": "A YourStory feature documents how no-code AI platforms and LLM-powered tools have dramatically lowered the barrier for India's MSMEs to establish a digital presence, automate operations, and reach new customers. What used to take months of developer time and significant capex now takes hours. The piece profiles specific businesses in tier-2 and tier-3 cities that have transformed their operations without a single technical hire.",
+          "signal": [
+            "AI-driven MSME digitisation is happening faster than formal tech sector estimates — the untapped market is enormous",
+            "For founders: India's MSME segment is underserved by sophisticated AI tools; localised, vertical-specific solutions are a large, relatively uncrowded opportunity"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/07/no-code-no-developer-no-waiting-how-ai-is-rewriting-the-rules-for-indias-msmes",
+          "image": "https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/Article3Image-1783518332887.jpeg",
+          "developing": false
+        },
+        {
+          "headline": "Indian Fintechs Are Quietly Using Blockchain to Rebuild Payment Infrastructure",
+          "summary": "A YourStory op-ed by Giottus CEO Vikram Subburaj describes how Indian fintech startups are integrating blockchain not for crypto speculation but for verification, wallet infrastructure, and preparation for CBDC use cases. Banks and NBFCs are partnering with blockchain-native startups to handle transaction verification and cross-border settlement at lower cost. India's digital rupee programme gives these companies a rare regulatory tailwind.",
+          "signal": [
+            "CBDC readiness is the sleeper use case here — India's digital rupee programme gives blockchain fintechs a policy tailwind that most markets lack",
+            "The value is in verification and settlement rails, not token speculation; this is infrastructure, not a market play"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/07/how-startups-are-using-blockchain-for-the-fintech-revolution-in-india",
+          "image": "https://images.yourstory.com/cs/121/98e25df018b511e988ceff9061f4e5e7/Imageriqm-1669789554164.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Tetr College Students Raise Rs 1 Crore Seed Round From High-Profile Founders",
+          "summary": "Students at Tetr, India's alternative higher education programme, have collectively raised Rs 1 crore in seed funding from founders behind Noise, Libas, and Palo Alto Networks. The fundraise signals the maturation of Tetr's cohort model and the credibility it has built within India's startup ecosystem as a founder-pipeline.",
+          "signal": [
+            "Tetr is quietly building a founder-pipeline from scratch; seed funding from recognisable names at this stage is meaningful validation",
+            "Alternative education combined with active founder community is an emerging asset class in the Indian startup ecosystem — worth tracking"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Indian Startup Times",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUEl2WUxKeG9MZGpLNzJpVGR3ZDNERXVpdUpzVy1xUmpoc00xQ2J1dmdsd1V6U19yWDlPTTU1eGN1S3pBLVhoOXJacEF5cVVQY21femFUV0dpalVZems3UjRzQlIwblc4VUxIWlZyQXZuTTVEUTQwbWdlMnlfemN2TUIzZXFaenhyc2tZQnhVeXgyRy1lbDdmaVBXNmNiOTBROEF0VDV0V1dib0FsLS1VZjZ2WnREMHVEWFRuMDVwOTlxM1RLaUhQcDBacFZQRzBKLUlRVXZQRHJNb0VCYnZ5T2h3Z3haUHZKRzBsajh3aTBocHM3WDhuT3g1aUpvZw?oc=5",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "stories": [
+        {
+          "headline": "South Korea Plans to Use Its AI Chip Windfall to Help Young People",
+          "summary": "South Korea's labor minister disclosed plans to redirect part of a surging tax windfall from Samsung and SK Hynix's booming AI chip sales into youth employment and skills programmes. The country's semiconductor sector is experiencing historic demand from global AI infrastructure build-out. South Korea's youth unemployment remains structurally elevated even as GDP grows strongly.",
+          "signal": [
+            "The sovereign AI dividend model — taxing AI-driven profits to fund social programmes — is a policy template India and others will study",
+            "South Korea's chip boom shows how deep a country can be in the AI supply chain without owning frontier models; instructive for India's semiconductor ambitions"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-09/south-korea-eyes-ai-windfall-fund-to-aid-growth-jobs-for-youth",
+          "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ifZ_VBRfPNuA/v0/1200x-1.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Fed Chair Warsh Sets Up Five Task Forces to Rethink How the Fed Operates",
+          "summary": "Federal Reserve Chairman Kevin Warsh announced the leadership of five new internal task forces that will review the Fed's approach to key aspects of monetary policy — widely seen as the first step toward potentially restructuring how the central bank operates. Bloomberg reports the task forces cover inflation targeting, balance sheet policy, and communication frameworks. Warsh, a Trump appointee known for market-friendliness, has signalled he wants a more rules-based Fed.",
+          "signal": [
+            "A rules-based Fed restructure would reduce policy discretion and shift market dynamics; dollar strength, EM assets, and Indian capital flows are all sensitive to the outcome",
+            "Watch for task force proposals in late 2026 — that is when this becomes a major macro event for 2027 global markets"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-09/fed-s-warsh-names-leadership-for-five-new-task-forces",
+          "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iqJZhMSNxrVQ/v1/1200x-1.jpg",
+          "developing": true
+        },
+        {
+          "headline": "RBI Launches Three Surveys to Sharpen Its Read Before the Next Rate Decision",
+          "summary": "The Reserve Bank of India has launched surveys on consumer confidence, expectations, and business conditions ahead of its monetary policy committee deliberations. The surveys suggest the RBI is seeking fine-grained signals on whether domestic demand is holding up and whether inflation expectations are anchored. India's last rate decision maintained a cautious posture amid global uncertainty.",
+          "signal": [
+            "RBI in data-gathering mode signals rate decision uncertainty — a cut is possible if demand softens and inflation stays contained",
+            "Survey results will be a leading indicator of the RBI's next move; useful for anyone managing rupee exposure or Indian fixed-income positions"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV3BXRnRMalZEVjNNUVc0WEhrRkJ2ZmtmVjVoUzFsOUhtRTc3NWVSNjVvVFRBc1Uya2R6SUhxZ0lDeTg0eDZiN2xuXzlPSnd3U3FaaVI1azVvNEVqWWpSaktsU3BrRzNXSDFVX0wtRzU3NVkzZnc5XzcyMXd3a0loMjItLWtxSV8zR09telMybDBYREs0czRJNzkzRHNZR1U3em45TVhueHU2a1FWVXlzMDRjd3F1SmxrUDl2VUxn0gHEAUFVX3lxTE5hR1RzclpuOXFKME1pZUR5Vi1IWXJPelR6ckJrYWI2b3Q5aG1JTHBUUFppMnlDTi0xcjdZVFpQck16TDl3TzQ2RUZ4UlJzaTRQQy1zVlFJNDhveE1CM1J0WVpDeEVOWWhTN2trcEItU20ycjRPUXZtRTRwb0VXWFN1TFdySnZEOGx2X1N3ci1Pby16a3pQbkFLVzItb2ZIOFVRc2NXalhjVXRKc3dPdXVYMFpQS1RxSDRVMjMxb3gwNzVxQ1U?oc=5",
+          "image": null,
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "stories": [
+        {
+          "headline": "India and Australia Sign Defence Pacts and Fast-Track Their Trade Deal",
+          "summary": "PM Modi's Australia visit concluded with defence cooperation agreements covering logistics, technology sharing, and supply chain cooperation, and a commitment to accelerate the bilateral free trade deal. The visit also produced Australia's agreement to sell uranium to India after more than a decade of negotiations. The relationship is now firmly in Quad alignment.",
+          "signal": [
+            "Uranium access diversifies India's nuclear fuel supply beyond existing partners — a quiet but durable energy security win",
+            "Fast-tracked FTA opens channels for Indian pharma, textiles, and IT services in the Australian market"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India | The Indian Express",
+          "url": "https://indianexpress.com/article/india/india-australia-ink-defence-pacts-fast-track-trade-deal-10779742/",
+          "image": "https://images.indianexpress.com/2026/07/p1-modi-5cls.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Australia Will Sell Uranium to India After an 11-Year Wait",
+          "summary": "After more than a decade of negotiations, Australia has cleared the path for uranium exports to India, removing a longstanding gap in India's civil nuclear supply chain. Australia holds roughly 30% of the world's known uranium reserves and is now open for business with New Delhi — a complement to India's existing supply agreements with Russia, the US, and France. The deal was finalised during PM Modi's visit.",
+          "signal": [
+            "Adds a fourth major pillar to India's nuclear fuel supply chain — meaningful for India's net-zero 2070 nuclear expansion plans",
+            "Geopolitically, Australia's uranium sale to India is a statement of Quad alignment; Canberra is deepening its strategic bet on this relationship"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "TheWire.in",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcE0tRTNwSkhFRTJkeXFkOExvOVJSblg2RFFIbzFWSEx4RDJPNlEtTUNPV2xPcVdUWHRLVW1PXzBWTi1KYkI1d09ObWdYNVRSV0pzVDBudGNqYksxNjdOWHZkSTVZRHJoV1NCUnY0MDFfdHN2TVoyZEFEME5XSDhvSXVNRmh4dTJCVVZEOFdzeHJ2SGNxWC1YTUpn0gGfAUFVX3lxTE5nRFc3VGtzaWVaQ2pTRmVnNFNZcjMwZU80ZnNUVkZwY1RERzVWUTBZc3V5V3p4UkFTQ1ljRHgxQkF6eE9zMWFGTW9ibzFjX3U5anJRZF9xcmN2ZnU5cUMzSGJDZlpaS29UZURZMHBpMmF4bFFuNEJfODh3Q3UyTGx0Q3BlV2ozaS1ERDR0T0d4ZXR1amF0QTFNbUlJeW9HRQ?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Bloomberg Opens Global Trading in Indian Government Bonds",
+          "summary": "Bloomberg has introduced global trading in Indian government bonds, a significant step in the internationalisation of India's debt markets. This follows JPMorgan's inclusion of Indian bonds in its EM index in 2024 and extends the pool of foreign investors who can easily access Indian sovereign debt — which should over time lower India's borrowing costs and deepen domestic capital markets.",
+          "signal": [
+            "India's bond market is internationalising faster than most appreciate — a structural shift with 5-to-10-year implications for capital flows into India",
+            "Cheaper sovereign borrowing feeds into fiscal space for infrastructure and welfare spending; this is macro-important even if it moves slowly"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWFI0VHRYMjNySFhpbmhhUjJYU21ncDd4ckR6V0xxa1dYbXhCbnNOUVF5bTFWMnoybmNhbXI3QXdtcTVqYmJQWVVoTjRjcHpkYjdxX3NXMm9fdy1jU0RHeXJURUxXV2xHeVpMRmpXZndsejB2ZTk5X20wRHJIT3lJaGVXYjNtckN2U2ZUSGJKdm9TZFVUSllfa1hiQWFMVmE2YnRidlRvT3ktdnN3RXpKS29hM0ttdjdLeXlWUTctQ1BVRndPNzd4bUxUZ1lfVzgy0gHWAUFVX3lxTE10X0M4VEpCZ05Ld21QT3pUNUVTLWtCSElpdVVKUlpxT2NxR1ZjR3JoR0xzeDBNSmZncUFSdmctc05jYllGdHF3WHhYTmozVVBjcjJFVW03eDY5VXNpNi1McWM1bFhrRnp1Q3ktOWdlNDdEeGV4WE5kRTAzQWtQVXA3aUkybmpwTGx5RmdLajVVMVRHOUpjbHF2OGtncDhFX1ZLaVRrQnI0ck1uTzZlNUg3U19CTUw2eVRBWkk0dlpQNTk2WVNGaF9RdWk0T0M2STh1ZFlZWlE?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Rainfall in India's Eastern River Basins Has Fallen 20% Since 1951",
+          "summary": "A study on water availability in India's Indus river system finds that rainfall in eastern tributaries has declined 20% since 1951, reducing water availability for hundreds of millions across Punjab, Haryana, and Rajasthan. The trend reflects climate change, land-use shifts, and changes in Himalayan snow-melt patterns. The paper warns of compounding pressure on groundwater, which is already critically overdrawn in northwest India.",
+          "signal": [
+            "Northwest India's water stress is structural and worsening — a 20% rainfall decline over 75 years is a baseline shift, not a blip",
+            "Jaipur sits in this zone; local agriculture, urban water supply, and long-term urban livability are all affected by this trajectory"
+          ],
+          "badge": "DATA",
+          "takeaway": "",
+          "why": "",
+          "source": "India | The Indian Express",
+          "url": "https://indianexpress.com/article/india/rainfall-in-eastern-river-basins-down-20-percent-since-1951-study-10779768/",
+          "image": "https://images.indianexpress.com/2026/07/indus-river_7ba7db_20260709230237.jpg",
+          "developing": false
+        },
+        {
+          "headline": "India's Leading Political Research Institute May Lose Central Government Funding",
+          "summary": "The Indian Express reports that the Centre for the Study of Developing Societies — home to India's most rigorous psephology and political science research, including the Lokniti programme — is likely to face funding cuts from the central government. CSDS's Lokniti surveys are considered the gold standard for Indian electoral data. Funding cuts could compromise the institution's autonomy or force a restructuring of its research programme.",
+          "signal": [
+            "India's independent research infrastructure is under quiet pressure; CSDS is prominent enough that its defunding would be noticed internationally",
+            "The pattern of funding withdrawal from independent institutions has precedent — watch for other think tanks in a similar position"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India | The Indian Express",
+          "url": "https://indianexpress.com/article/india/csds-funding-cuts-icssr-probe-maharashtra-voter-data-10779711/",
+          "image": "https://images.indianexpress.com/2026/07/CSDS-offive-new-delhi.jpg",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "stories": [
+        {
+          "headline": "OECD Confirms India Is Still the World's Fastest-Growing Major Economy",
+          "summary": "The OECD's latest report reaffirms India's position as the fastest-growing major economy globally, outpacing China and other large emerging markets. The detail matters: growth is broadly distributed across manufacturing, services, and digital sectors, with India's demographic dividend cited as a key structural advantage for the next decade.",
+          "signal": [
+            "Routine confirmation, but the underlying data — manufacturing share, services growth, digital consumption — is worth reading past the headline number",
+            "India's growth story is supply-side constrained (infrastructure, skill gaps) more than demand-side; the pinch points are where strategic bets should go"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Modi Sets an Inclusivity Agenda for India's BRICS Chairmanship",
+          "summary": "PM Modi announced India's priorities under its BRICS chairmanship, emphasising building a more inclusive world order — diplomatic shorthand for a multipolar governance structure that reduces US-centric dominance without ceding leadership to China. India's agenda reportedly focuses on development finance, technology cooperation, and reforming international institutions.",
+          "signal": [
+            "Watch what India proposes on global AI governance and digital public infrastructure within BRICS — this forum could become a norm-setting platform",
+            "India as both Quad ally and BRICS chair defines the Modi foreign policy doctrine in miniature; hard to sustain, but so far it has worked"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQN2puT0hjRGRhZUowYlpjN3NwY0RVamFCbWNONURvckFQT2Q2VlZheWcteHFwTzU4Ulh3c0Y1cWtuVTZuaE5CR1J2LTNPNnNoaExVZFQzbkw0VWt2aElSZWtiS2VjS1hEclhqcHFmWm4yckFENVhBUDM2S3AtcG15T1hYVQ?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "The DR Congo Ebola Outbreak Is Now the Fastest-Growing in History",
+          "summary": "African health authorities declared the Democratic Republic of Congo Ebola outbreak the most rapidly expanding ever recorded, with 600 deaths confirmed as of Thursday. Unlike previous outbreaks largely contained in remote communities, this one is spreading in semi-urban areas. The WHO has escalated its response.",
+          "signal": [
+            "Fastest-growing Ebola outbreak in history; semi-urban spread changes the containment calculus entirely",
+            "Watch WHO's emergency declaration status as a gauge of how far the international response escalates"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World - South China Morning Post",
+          "url": "https://www.scmp.com/news/world/africa/article/3360036/ebola-outbreak-fastest-growing-ever-600-die-dr-congo?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/10/5298b4ed-d50f-46af-a6c1-95fc36a621b1_61882b8a.jpg?itok=szIDIfpN&v=1783618654",
+          "developing": true
+        },
+        {
+          "headline": "Ukraine Targets Russian Ships Near Crimea to Strangle Fuel Routes",
+          "summary": "Ukraine conducted strikes on Russian naval assets near Crimea as part of a sustained sea-denial campaign aimed at making the peninsula logistically untenable. The BBC reports the strategy is designed to choke fuel and supply routes into and out of Russian-controlled Crimea.",
+          "signal": [
+            "Ukraine's sea-denial strategy is quietly effective; if Crimea becomes logistically unsustainable it reshapes Russia's entire southern front calculus",
+            "Black Sea shipping lanes matter to global grain and energy markets — escalation there has commodity spillover effects"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db10/live/4259e690-7ac5-11f1-b541-536d253827b8.png",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "Other Interests",
+      "slug": "other-interests",
+      "stories": [
+        {
+          "headline": "Physicists Are Rewriting the Mathematics of Thermodynamics After 200 Years",
+          "summary": "New Scientist reports that physicists are applying gauge theory — the same mathematical framework underpinning our understanding of quantum fields — to the laws of thermodynamics, potentially giving them a more rigorous first-principles foundation. For 200 years, thermodynamics has rested on four empirical laws without a deeper derivation. The new work suggests those laws may emerge from more fundamental geometric structures.",
+          "signal": [
+            "A pure science advance, but gauge unification of thermodynamics is the kind of insight that has historically preceded new engineering capabilities — worth a peripheral eye",
+            "If thermodynamics gains a quantum-geometric foundation, it could reshape how we model energy in complex systems from engines to biological cells"
+          ],
+          "badge": "DEEP DIVE",
+          "takeaway": "",
+          "why": "",
+          "source": "New Scientist - Home",
+          "url": "https://www.newscientist.com/article/2533428-mathematics-of-thermodynamics-is-being-rewritten-after-200-years/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "image": "https://images.newscientist.com/wp-content/uploads/2026/07/08225705/SEI_304523689.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Scientists Watched Special Relativity Warp a Chemical Bond in Real Time",
+          "summary": "New Scientist reports an experiment with a charged bismuth-carbon molecule that directly observed how Einstein's special relativity reshapes chemical bond geometry and strength. The high speeds of inner electrons in heavy atoms like bismuth cause measurable relativistic effects that alter standard chemistry — an effect long predicted but now directly observed. The experiment closes a theory-experiment gap that has existed for decades.",
+          "signal": [
+            "Direct experimental confirmation of relativistic chemistry is a genuine scientific milestone — the universe behaving exactly as century-old equations predicted",
+            "Useful context rather than actionable — but a reminder that physics at its edges is still producing surprises"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "New Scientist - Home",
+          "url": "https://www.newscientist.com/article/2533629-special-relativity-can-warp-chemical-bonds-now-weve-seen-it-happen/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "image": "https://images.newscientist.com/wp-content/uploads/2026/07/09111608/SEI_304616192.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Four Tet Dropped a Surprise Album Under His Cryptic Wingdings Alias",
+          "summary": "Producer Kieran Hebden, recording under his abstract Wingdings alias (whose name is literally rendered in the Wingdings font), has made a new album available to stream after a limited vinyl release in June. Wingdings projects tend to be more textural and ambient than Four Tet's main output — slower, drone-adjacent, less rhythmic. Worth your morning commute if experimental electronic music is your thing.",
+          "signal": [
+            "Worth thirty minutes if ambient and experimental electronics are your thing — no further analysis required",
+            "Wingdings releases are rare; this is the kind of find a good morning paper surfaces and an algorithm probably will not"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "RSS: News",
+          "url": "https://pitchfork.com/story/listen-to-four-tets-surprise-new-wingdings-album/",
+          "image": "https://media.pitchfork.com/photos/6a4fedf5f4fd7304a9e6dfd7/master/pass/GettyImages-2155763682.jpg",
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": []
+}

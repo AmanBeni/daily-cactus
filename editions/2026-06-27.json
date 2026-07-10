@@ -1,55 +1,55 @@
 {
   "date": "2026-06-27",
   "edition": 12,
-  "colophon": "54 sources scanned · 50 ok · 4 failed",
+  "colophon": "54 sources scanned · 49 ok · 5 failed",
   "lead": null,
   "frontpage": [
     {
-      "headline": "India startup funding tops $1.09 billion this week, up 290% year-on-year",
-      "summary": "A CRED mega-round anchored an exceptional week for Indian startup funding, pushing the weekly total past $1 billion for the first time in years. Year-on-year the jump is 290%, though CRED's outsized round means the headline number flatters the broader ecosystem signal.",
+      "headline": "White House asks OpenAI to delay its next model launch — and OpenAI complies",
+      "summary": "The Trump administration asked OpenAI to stagger the release of its next AI model, citing national security and geopolitical timing concerns. OpenAI adjusted its release schedule in response. This is reportedly the first time a US administration has directly intervened in a frontier AI model's commercial launch timing.",
       "signal": [],
       "badge": "",
-      "takeaway": "Adjust for the CRED effect, but a 290% year-on-year surge still signals serious capital returning to Indian tech.",
-      "why": "Consumer fintech at scale is back in favour with investors — CRED's raise is the clearest proof. The next two weeks of deal flow will show whether this is a one-off or the start of a fresh cycle. For someone building or advising in the ecosystem, this is a good moment to watch which sectors follow.",
-      "source": "Inc42 Media",
-      "url": "https://inc42.com/buzz/lissun-in-talks-to-raise-%e2%82%b945-cr-funding-from-colossa-ventures/",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Lissun-Funding-ftr.jpg",
+      "takeaway": "The US government now treats frontier AI releases as foreign policy events — product launches need a geopolitical clearance.",
+      "why": "If model releases become government-gated, the innovation rhythm for everyone building on top of frontier models changes. For Indian developers specifically, dependence on US-controlled model APIs carries a new kind of supply-chain risk — one more reason why China's open-weight push and India's own AI models program matter.",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "image": null,
       "developing": false
     }
   ],
   "sections": [
     {
-      "name": "Climate & Energy",
-      "slug": "climate-energy",
+      "name": "Health Tech",
+      "slug": "health-tech",
       "stories": [
         {
-          "headline": "Indian state designates five new renewable energy zones to fast-track green projects",
-          "summary": "An Indian state government has created five new designated renewable energy zones designed to streamline permitting, land acquisition and grid connectivity for solar and wind projects. The move is part of a broader push to accelerate India's renewable capacity additions ahead of its 2030 targets.",
+          "headline": "India's pharma industry is tariff-proof but faces a deeper China dependency problem",
+          "summary": "An analysis in The Diplomat argues that India's generic pharma sector has successfully positioned itself beyond US tariff risk, but remains acutely dependent on Chinese active pharmaceutical ingredients. The piece traces how this dependency emerged and why substituting it is harder than Indian manufacturers admit.",
           "signal": [],
           "badge": "",
-          "takeaway": "Zone-based permitting is how India actually speeds up renewable energy — watch whether other states follow this template.",
-          "why": "The regulatory friction point in Indian renewables has always been land and grid access, not capital. Zone designations directly address that. If this model works, it is a template for other states. For anyone in energy or infrastructure, the replicability of this approach is the story.",
-          "source": "Canary Media",
-          "url": "https://www.canarymedia.com/articles/geothermal/quaise-energy-raises-134m",
+          "takeaway": "India's pharma resilience story has a hidden vulnerability: the supply chain runs through China, not around it.",
+          "why": "For anyone tracking India's industrial strategy or healthcare supply chains, this is the honest version of the India as global pharmacy narrative. The API dependency is a strategic risk that both government and investors are underweighting. It is also an opportunity: whoever solves domestic API manufacturing in India at scale builds a genuinely strategic asset.",
+          "source": "BW Businessworld",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjRIcEZVeWNPMU41WXR3RkRuQWx4ZS1Pdy1xQWt0aFlDQnNNSFZHS3ZlaUFtRkl0NG01WndkTV84ejBhMndJRS1mNWxjM1JJSDRkR3pleU1jdVV0MWpnOFhzN1NmaC1OMkNSQWtFdlhORGgxd3pGMkYtTDdqYlZqYkQydWVNTzJBdWFOb2N4MVc2dDRtZ2d0dnJfbWlQNGZMVDVCOEFLTFpsQVZSOXkyZTMweTFtYUtzQTVJMkkwWWg4WkNQaENTbzVpQlQ?oc=5",
           "image": null,
           "developing": false
         }
       ]
     },
     {
-      "name": "India",
-      "slug": "india",
+      "name": "Other Interests",
+      "slug": "other-interests",
       "stories": [
         {
-          "headline": "India-UK free trade agreement aims for transformational growth, 1,000 advisors deployed",
-          "summary": "Commerce Minister Piyush Goyal described the India-UK Comprehensive Economic and Trade Agreement as a vehicle for transformational growth for both economies. The government is deploying 1,000 advisory personnel and upgrading its trade portal to help Indian businesses leverage the deal.",
+          "headline": "Claire North explains why she opened a space opera with a world-ending supernova 100 years away",
+          "summary": "Claire North, whose novel Slow Gods is the New Scientist Book Club's July pick, discusses the premise: a civilisation given 100 years of warning before their planet is destroyed. The essay explores how a society organises itself around certain doom and what it reveals about human nature, urgency, and denial.",
           "signal": [],
           "badge": "",
-          "takeaway": "India-UK CETA is signed — now comes the harder work of actually using it, which is where most FTAs fail.",
-          "why": "For Indian businesses and startups, the advisory infrastructure is the actionable angle: 1,000 trade advisors and a new portal mean tangible support for identifying UK market opportunities. If you are building anything with potential UK enterprise customers, this is the moment to explore what CETA actually offers your sector.",
-          "source": "India | The Indian Express",
-          "url": "https://indianexpress.com/article/india/pm-narendra-modi-jakarta-diaspora-india-indonesia-relations-10776383/",
-          "image": "https://images.indianexpress.com/2026/07/PM-Narendra-Modi-with-Indonesias-President-Prabowo-Subianto-during-the-Indian-Community-reception-in-Jakarta.-PTI.jpg",
+          "takeaway": "A novel about 100 years of certain doom turns out to be about how humans handle knowledge of slow catastrophe — a theme very much of our age.",
+          "why": "Worth picking up if you like science fiction that takes seriously the psychology of long-horizon existential risk. The resonance with climate change, AI risk, and other slow-moving civilisational challenges is not accidental.",
+          "source": "Conservation news",
+          "url": "https://news.mongabay.com/2026/07/can-conservation-change-how-the-world-sees-the-strait-of-hormuz-commentary/",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2022/09/13142321/Moray-eel-768x512.jpg",
           "developing": false
         }
       ]
@@ -60,15 +60,15 @@
       "name": "First-Ever National Rural Development Conference",
       "when": "June 28-29, 2026",
       "summary": "Inaugural national conference on rural development held in Delhi, bringing together policymakers, practitioners and researchers on India's rural economy. Relevant for anyone working on agritech, rural fintech, or India's development agenda. Delhi, national.",
-      "source": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUtDSGF1UnJCZ2pBVGZSZncwUDN4bFkwSUtCOFh4bmZWdE43NkpJNTU1M2JNbDVnU1h4MGF4NFN1RUxDQ2x5em9nb3NIQ3BTSThadk1fY25CWkNRRUZPX20za2QzVXVKa1F0UVBFMVVidHExc0xNVV9MdFZnSjVpOFlLOGJZaldZVEtMSmlqU3A2V2ZFd0w3T2dlUXA?oc=5"
+      "source": "Carbon Herald",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmZ3SmRIMzFOTmVRdFYyVmgzUjBpcFdTOTd3aDZDM3k5RUZWYXhVM1hiMWFsV0NUdjRscVhYTVBIVnNZN2JEV1QxTTY4eW9uaW5vUnBDcXE1eFdOaWZUeEM0SjlRUmgyaUFEdkpCcTZqZDh4UDZDVzBtcHg3WGN0bm5meEZmZGtOb1ozczhPTlp5YnZDQ29hSXFYd0ZpbUZtQkJEd0kyYTdSMmZkUmc?oc=5"
     },
     {
       "name": "SGSITS Incubation Forum Cohort 3.0 — Startup Grant Program",
       "when": "Applications open, India",
       "summary": "Third cohort of SGSITS Incubation Forum's startup grant program for early-stage ventures in India. Worth a look if you are early-stage or advising founders who are. National.",
-      "source": "olympics.com",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxObWxlVkRiVUZILTVKb2lPdV9GT1BfOFQ4c2RDZFdEcDhoTkFPUDBfRFZuV1Y1ekUtODh0dWxSc2RJdWtEazlfbEJzQTYySlMzaXRRNDJoeVZfb3FnU1V3QlJ3NFBaM0t5am1IaFZYSHRNQUhOa0Q5Ull3ekxOVmxBVmtMM0dLdXhacmJOTnpmOEZQczVlX0k2V2hrU2l2d29PSmlvQTBpcTNSWE5PRE92N1RoS2dEdm5kMXZLd2lpWmV2Z3V5T0JyUkxBOVJOMl81NkVhQ0VRMWx5NF9TNmVOYlZWN3UzUy00U3ZOblIzR2gzekVMMzJHREJDTGRqZnZpanJhbm4zMndxRUdPc213NjV1QkVLUQ?oc=5"
+      "source": "blog.google",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVUhvZm9Cc1dvQXlsNGEwMGp2MUVVcUtHcEtpbm1VeS1ianYtcVpkUTNEYmQxc2l3aFBRYmRjazRWSFVfZ0dVRGZOU3AyeDZoSEdsYkNkV3RyUzNTTWkxSDQxdzdONEZTTTFzTzZNY3FWdV9ib3NWNmJDVUN5dG1NTm5FU2dGamNpOHV0MmVqYXk2Tkkwb3VNTGZwcWx2V1dn?oc=5"
     }
   ]
 }

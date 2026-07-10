@@ -1,32 +1,9 @@
 {
   "date": "2026-06-24",
   "edition": 9,
-  "colophon": "54 sources scanned · 50 ok · 4 failed",
-  "lead": {
-    "headline": "Anthropic plants an always-on AI inside Slack that learns how your company actually thinks",
-    "summary": "Anthropic launched Claude Tag, a persistent AI presence that lives in Slack, reads conversations it is invited to, and builds an evolving picture of how a company communicates, decides, and uses jargon. Unlike point-in-time chatbots, it can be summoned mid-thread to answer questions using context absorbed over weeks. Anthropic calls it a coworker, not a tool.",
-    "signal": [],
-    "badge": "",
-    "takeaway": "Anthropic is not just selling AI access — it is competing to own the institutional-knowledge layer before any rival does.",
-    "why": "This is the enterprise AI play that matters most right now: whoever holds organisational context holds the relationship. For someone pivoting into founder's-office or AI-strategy roles, this model — where AI earns its keep by knowing your company, not just the internet — is immediately relevant. Every major enterprise software vendor will respond with a competing version within months; understanding the architecture now is table stakes.",
-    "source": "AI News & Artificial Intelligence | TechCrunch",
-    "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
-    "image": null,
-    "developing": false
-  },
+  "colophon": "54 sources scanned · 49 ok · 5 failed",
+  "lead": null,
   "frontpage": [
-    {
-      "headline": "US Congress passes war powers resolution against Trump's Iran conflict — a historic first",
-      "summary": "Both chambers of Congress voted to pass a resolution directing President Trump to halt US military action against Iran, the first time such a measure has cleared both houses in history. The move is constitutionally symbolic — the President can veto it — but signals a growing legislative majority uncomfortable with the conflict. The Senate vote followed the House earlier in the week.",
-      "signal": [],
-      "badge": "",
-      "takeaway": "Congress has drawn a line; the Iran conflict now carries a domestic political ceiling even if it continues operationally.",
-      "why": "The US-Iran war affects India's oil import costs, regional shipping, and diplomatic positioning. A legislative rebuke does not end the conflict but raises the domestic political cost of escalation and opens space for a negotiated off-ramp. India, which has long managed careful neutrality, watches any diplomatic shift closely.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83f6/live/e1bcc750-7a4a-11f1-8540-110da73337d9.jpg",
-      "developing": true
-    },
     {
       "headline": "A Bengaluru startup is not racing Nvidia on speed — just on price",
       "summary": "The Ken profiles a Bengaluru AI chip company building inference-optimised silicon designed to undercut Nvidia on cost rather than compete on raw performance. The thesis: most production AI workloads run on inference, not training, and they do not need the fastest chip — just a cheap enough one. The startup is pitching Indian and global cloud players.",
@@ -34,27 +11,27 @@
       "badge": "",
       "takeaway": "India's best shot at the chip market may be the inference layer, where price beats petaflops.",
       "why": "For anyone tracking Indian deep tech, this is the clearest articulation yet of a viable wedge strategy. If the startup gets traction, it validates a model where Indian hardware companies compete not on frontier benchmarks but on cost-per-token at scale. Worth watching who funds the next round and whether the IP is defensible.",
-      "source": "Inc42 Media",
-      "url": "https://inc42.com/buzz/robotics-startup-mowito-raises-3-mn-to-expand-us-presence/",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/stakcbox-funding-featured-1-1-1.jpg",
+      "source": "The Quantum Insider",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWlsa1lqRVhCc0NGclg3T3I1dDE1NEtrWWlIR2gtMXN0U3hDQ2dTOVBCeWU0MnBGclRpalgzM3ZmbGZZNzFFQ1hnLVdBY2tMWkFmUGRmQjYyRk5rWUJwVDFfNTNVM2htWHh1SXNBUHpQZWoxZ1QwLUJMdHNmMDlQMG9ERnpzbUF0bnlBd1pIQmZ0TE9qZ3VYTWJBcmxoMEZnTXB6RW1pQ0FpZ252bWlmX2xfWnZPSEFaNl93REwtS2Zkc0ZQOUpFOGVmYmxkUFBFdk1xcWJDSDAyRFE?oc=5",
+      "image": null,
       "developing": false
     }
   ],
   "sections": [
     {
-      "name": "AI",
-      "slug": "ai",
+      "name": "Deep Tech",
+      "slug": "deep-tech",
       "stories": [
         {
-          "headline": "Anthropic plants an always-on AI inside Slack that learns how your company actually thinks",
-          "summary": "Anthropic launched Claude Tag, a persistent AI presence that lives in Slack, reads conversations it is invited to, and builds an evolving picture of how a company communicates, decides, and uses jargon. Unlike point-in-time chatbots, it can be summoned mid-thread to answer questions using context absorbed over weeks. Anthropic calls it a coworker, not a tool.",
+          "headline": "A rumour that ASML shipped EUV machines to China was false — but the denial revealed how nervous everyone is",
+          "summary": "A rumour circulated that ASML had shipped extreme ultraviolet lithography machines to China, the key equipment for cutting-edge chip manufacturing subject to strict US export controls. ASML denied it. But the speed and care of the denial reflects genuine anxiety in the industry about controls being circumvented.",
           "signal": [],
           "badge": "",
-          "takeaway": "Anthropic is not just selling AI access — it is competing to own the institutional-knowledge layer before any rival does.",
-          "why": "This is the enterprise AI play that matters most right now: whoever holds organisational context holds the relationship. For someone pivoting into founder's-office or AI-strategy roles, this model — where AI earns its keep by knowing your company, not just the internet — is immediately relevant. Every major enterprise software vendor will respond with a competing version within months; understanding the architecture now is table stakes.",
-          "source": "AI News & Artificial Intelligence | TechCrunch",
-          "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
-          "image": null,
+          "takeaway": "The fact that this rumour was taken seriously at all shows how anxious the semiconductor world has become about China's chip access.",
+          "why": "Background context. India's semiconductor ambitions depend partly on how the ASML-China standoff plays out, since the same equipment and IP controls shape what fabs are buildable in India under US partnership. A circumvented control changes the calculus for everyone.",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/article/3359974/token-economy-emerging-ai-use-soars-china-experts-tell-conference?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/09/af6dcf63-9432-41ee-a071-9384667bbcb2_9e70c031.jpg?itok=qpaeHjDR&v=1783585738",
           "developing": false
         }
       ]
@@ -70,9 +47,21 @@
           "badge": "",
           "takeaway": "India's best shot at the chip market may be the inference layer, where price beats petaflops.",
           "why": "For anyone tracking Indian deep tech, this is the clearest articulation yet of a viable wedge strategy. If the startup gets traction, it validates a model where Indian hardware companies compete not on frontier benchmarks but on cost-per-token at scale. Worth watching who funds the next round and whether the IP is defensible.",
-          "source": "Inc42 Media",
-          "url": "https://inc42.com/buzz/robotics-startup-mowito-raises-3-mn-to-expand-us-presence/",
-          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/stakcbox-funding-featured-1-1-1.jpg",
+          "source": "The Quantum Insider",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaWlsa1lqRVhCc0NGclg3T3I1dDE1NEtrWWlIR2gtMXN0U3hDQ2dTOVBCeWU0MnBGclRpalgzM3ZmbGZZNzFFQ1hnLVdBY2tMWkFmUGRmQjYyRk5rWUJwVDFfNTNVM2htWHh1SXNBUHpQZWoxZ1QwLUJMdHNmMDlQMG9ERnpzbUF0bnlBd1pIQmZ0TE9qZ3VYTWJBcmxoMEZnTXB6RW1pQ0FpZ252bWlmX2xfWnZPSEFaNl93REwtS2Zkc0ZQOUpFOGVmYmxkUFBFdk1xcWJDSDAyRFE?oc=5",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Square Yards becomes a unicorn with a Rs 900 crore raise",
+          "summary": "Real estate and mortgage platform Square Yards raised Rs 900 crore (approximately $95 million) in a mix of debt and equity transactions, crossing the unicorn threshold. The company plans to expand its business and upgrade its technology infrastructure. YourStory also highlights a father-daughter founding team within the company running a separate initiative fighting period poverty.",
+          "signal": [],
+          "badge": "",
+          "takeaway": "Square Yards is India's first real estate tech unicorn of 2026 — proptech is still producing big outcomes despite a cooling funding environment.",
+          "why": "Real estate, India's largest asset class, has been surprisingly under-digitised at the transaction and mortgage layer. Square Yards' valuation validates the thesis that proptech can scale. A useful data point for anyone tracking which sectors are still generating unicorns in the current environment.",
+          "source": "Indian Startup Times",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUEl2WUxKeG9MZGpLNzJpVGR3ZDNERXVpdUpzVy1xUmpoc00xQ2J1dmdsd1V6U19yWDlPTTU1eGN1S3pBLVhoOXJacEF5cVVQY21femFUV0dpalVZems3UjRzQlIwblc4VUxIWlZyQXZuTTVEUTQwbWdlMnlfemN2TUIzZXFaenhyc2tZQnhVeXgyRy1lbDdmaVBXNmNiOTBROEF0VDV0V1dib0FsLS1VZjZ2WnREMHVEWFRuMDVwOTlxM1RLaUhQcDBacFZQRzBKLUlRVXZQRHJNb0VCYnZ5T2h3Z3haUHZKRzBsajh3aTBocHM3WDhuT3g1aUpvZw?oc=5",
+          "image": null,
           "developing": false
         }
       ]
@@ -82,18 +71,6 @@
       "slug": "world",
       "stories": [
         {
-          "headline": "US Congress passes war powers resolution against Trump's Iran conflict — a historic first",
-          "summary": "Both chambers of Congress voted to pass a resolution directing President Trump to halt US military action against Iran, the first time such a measure has cleared both houses in history. The move is constitutionally symbolic — the President can veto it — but signals a growing legislative majority uncomfortable with the conflict. The Senate vote followed the House earlier in the week.",
-          "signal": [],
-          "badge": "",
-          "takeaway": "Congress has drawn a line; the Iran conflict now carries a domestic political ceiling even if it continues operationally.",
-          "why": "The US-Iran war affects India's oil import costs, regional shipping, and diplomatic positioning. A legislative rebuke does not end the conflict but raises the domestic political cost of escalation and opens space for a negotiated off-ramp. India, which has long managed careful neutrality, watches any diplomatic shift closely.",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83f6/live/e1bcc750-7a4a-11f1-8540-110da73337d9.jpg",
-          "developing": true
-        },
-        {
           "headline": "Trump asked 'what about India?' when JD Vance floated Indian peacekeepers for Ukraine",
           "summary": "When Vice President JD Vance raised the possibility of deploying Indian peacekeeping troops as part of a Ukraine ceasefire arrangement, President Trump interjected to question India's role. NDTV reports the exchange in the context of ongoing US-Ukraine diplomacy, reflecting active discussions about neutral third-party monitors for any eventual peace deal.",
           "signal": [],
@@ -101,8 +78,8 @@
           "takeaway": "India's name is now in the room when Ukraine peace is discussed — useful leverage, but also a pressure point.",
           "why": "India's strategic neutrality on Ukraine has been an asset. Being formally drafted into a peacekeeper role would change that calculus significantly and risk complicating relations with Russia. Track whether this develops into a formal ask through diplomatic channels.",
           "source": "World - South China Morning Post",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
-          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/08/f59658b5-3fc1-4343-8c3b-4cacbed7c4d6_8c53d71e.jpg?itok=zCZYfEOj&v=1783465200",
+          "url": "https://www.scmp.com/opinion/world-opinion/article/3359838/trumps-climate-jibes-china-and-eu-just-make-him-look-out-date?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/08/cf9d7958-9b90-4206-b8b1-7c5618f35572_5894a018.jpg?itok=TFUfbRnO&v=1783500498",
           "developing": true
         }
       ]
@@ -113,29 +90,29 @@
       "name": "Qualcomm India Snapdragon Multiverse Hackathon",
       "when": "Registrations open — 2026",
       "summary": "Qualcomm India is running a hackathon to build multi-device AI solutions using Snapdragon hardware. Designed for developers and founders interested in on-device intelligence, edge AI, and hardware-software co-design. Qualcomm hackathons typically include mentorship, hardware access, and paths to visibility with the company's ecosystem.",
-      "source": "fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVlNpR2VYZUdpLUZhOUx2XzM5dXhGZ29NdEtSTlhQOWRwQXdhVlQ4OGtuVU5LaVVLa2hnVkpuNVhQQVRIWlh3VnU3OWZ0Z0V2VENXYWtUZDhEZlBYSHBRTm43aUU0TXcyMElQN3hsTVU2SS1DbEoyRHlQc1U0elowb1o1U3FsX3lyUFhJQzRELVJULVlKdVJrUtIBngFBVV95cUxPc1JfcXNiSkdhVFpGRG5EYVAtWFVSVUlTT3p0U1N4NDBBU2cyTXlyRzNaNnRjYkdRSVZYbFlNcmdvSkowUlNIa2tRUEtYSWZWRXJOWld1Rm01dGJFV2E4RXRvY0ZxNS10NkpxNEFnVUlJcHYwWWdpM0lzYURwcF9oZlFJN25FQmdJamsxUnJ2TFdHLWV1VENyN0p1UGRoZw?oc=5"
+      "source": "Rediff",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHJhUVM0ejN3VHJJSU9rM0dQZ3JjVHRqQlhjeS05Z2dQME5ZUkk5NXl1NFByRHFQR2pKT3ZjV1p5d3AzOHp6aUZSOHF0V08xTG01LXJzMGR5VDR3TVlvWEhrTVIxeEFJUFFaVmxIdHc0MWlCVTd6MG9YYTFsVEF4ekR6RFZjZEtQLVptY1RBeU9Ua0drVmdTS0NYeTBzdDNWNElhb1NJYjNUdU8yUTNQNHZaR1dCdGNqdVRkajlMQkFXa2JyY01JSE1R0gHMAUFVX3lxTE1kbWo2SUN6Y2poZGE5d1RtMklaY0JkTzVTOHhCM0loa3RSaVRBSEVHb01qTWdrZWhXMldkMGRadVBDMUZsYU00eHJDX2JITV9MWFZBNnJ1bEZINXpudkZLOHdlaTdvNmJZcGRiTjZnc2FFSW1tcTh4LTlMVTlmYUFhdjVQUTEwMUo1VVJaUTN2U0ZaaDZseTEteFphZ3ppSjZDOUswbGJUbkpIQ2tzSDd2a0VGUy1qYzhGTEFLbnp2aVFFMmFKYzI3MFFMQw?oc=5"
     },
     {
       "name": "PW AI Startup Challenge 2026 (India)",
       "when": "Open now — 2026",
       "summary": "Physics Wallah is running a startup challenge for teams building in the AI or education space in India. Worth applying if your idea has an ed-tech or AI angle targeting the Indian market — PW's distribution and brand give winners meaningful exposure.",
-      "source": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUtDSGF1UnJCZ2pBVGZSZncwUDN4bFkwSUtCOFh4bmZWdE43NkpJNTU1M2JNbDVnU1h4MGF4NFN1RUxDQ2x5em9nb3NIQ3BTSThadk1fY25CWkNRRUZPX20za2QzVXVKa1F0UVBFMVVidHExc0xNVV9MdFZnSjVpOFlLOGJZaldZVEtMSmlqU3A2V2ZFd0w3T2dlUXA?oc=5"
+      "source": "Carbon Herald",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmZ3SmRIMzFOTmVRdFYyVmgzUjBpcFdTOTd3aDZDM3k5RUZWYXhVM1hiMWFsV0NUdjRscVhYTVBIVnNZN2JEV1QxTTY4eW9uaW5vUnBDcXE1eFdOaWZUeEM0SjlRUmgyaUFEdkpCcTZqZDh4UDZDVzBtcHg3WGN0bm5meEZmZGtOb1ozczhPTlp5YnZDQ29hSXFYd0ZpbUZtQkJEd0kyYTdSMmZkUmc?oc=5"
     },
     {
       "name": "IndiaAI Startups Global — International Acceleration Program, 2nd Cohort",
       "when": "Applications open — 2026",
       "summary": "IndiaAI's global acceleration program connects Indian AI startups with international markets, mentors, and investors. The 2nd cohort is active. Government-backed with real international reach — if you are building an AI product and want global exposure with institutional support, this is one of the more credible pathways available right now.",
-      "source": "India's World",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTFdkLWUzOXA3YlVsNGNPMDliTHZPSWlfX3QxZTM1c1k2ZVJZVXJaQ2Q5YjZiNmkzR2dqZEh1Mk5hVVY5Z3Z6TUxpeFZ6ekc2Rm9kY2FrWjVJSGxZUUdLSmJ0aUdzdjRkdDVBSFM0b2JkT05zcFZQZXFTcWxLc2RTdnhQUEhYMDVJQVow?oc=5"
+      "source": "Time Out Worldwide",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQjBZQ3M5enNEbnVyUGIzNHhKdW1Zb0c1cjVZd1pjbDgtcDhtVEZ2LXRQc3o0Y09PZHNBMVQ2T2V0SkduX3FiTHozTDN6N2NZNXUtWm1yVHZmU2l4LWNLZWt4VkxwZjBRYWZLUl9LVHNTdlJQaDlBR0lSV0pveVJVN0xKaWJWcFFPeF9lRUpwTk5uVktwTDlmZnhtMDNJalJTNWtTeWl6a1hKNHhJaVUtS1YzT0FZcEU0?oc=5"
     },
     {
       "name": "SAP Labs India 2026 Startup Studio Cohort",
       "when": "Open now — 2026",
       "summary": "SAP Labs India's Startup Studio is taking applications for its 2026 cohort, focused on enterprise AI and deep-tech innovation. Selected startups get access to SAP's enterprise customer network, technology stack, and senior mentors. Strong fit for B2B AI founders who want to sell into large enterprises and need credibility to open those doors.",
-      "source": "PIB",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SSmhvdklWMTdTS19OQXVsMkhiQnFBVmhEUTlXeWxRVm5zb09wOVI2R2RkNVd6eU5FdHZaMGpGLW9HLUVkUkI5MnFMTGprcVBBVWVjc3JlaEZya0tGeTFhTVpHX1NYdE0w?oc=5"
+      "source": "olympics.com",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxObWxlVkRiVUZILTVKb2lPdV9GT1BfOFQ4c2RDZFdEcDhoTkFPUDBfRFZuV1Y1ekUtODh0dWxSc2RJdWtEazlfbEJzQTYySlMzaXRRNDJoeVZfb3FnU1V3QlJ3NFBaM0t5am1IaFZYSHRNQUhOa0Q5Ull3ekxOVmxBVmtMM0dLdXhacmJOTnpmOEZQczVlX0k2V2hrU2l2d29PSmlvQTBpcTNSWE5PRE92N1RoS2dEdm5kMXZLd2lpWmV2Z3V5T0JyUkxBOVJOMl81NkVhQ0VRMWx5NF9TNmVOYlZWN3UzUy00U3ZOblIzR2gzekVMMzJHREJDTGRqZnZpanJhbm4zMndxRUdPc213NjV1QkVLUQ?oc=5"
     }
   ]
 }
