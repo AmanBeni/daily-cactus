@@ -480,6 +480,31 @@ def main() -> None:
 
     DIGEST.write_text(json.dumps(digest, indent=2, ensure_ascii=False))
 
+    # Option B, Stage 1: a LEAN digest for Routine A (the selector). A only
+    # needs to CHOOSE ids, so it gets titles + a ~300-char teaser + buzz/img —
+    # not the 2500-char extracts. Keeps the selector run cheap. Additive: the
+    # single-routine flow and Routine B are unaffected (they read the rich
+    # digest.json / feeds/selected respectively).
+    LEAN_TEASER = 300
+    lean_sections = []
+    for sec in digest_sections:
+        lean_stories = []
+        for s in sec.get("stories", []):
+            teaser = (s.get("extract") or s.get("summary") or "")[:LEAN_TEASER]
+            lean = {"id": s.get("id"), "title": s.get("title"),
+                    "source": s.get("source"), "teaser": teaser}
+            if s.get("buzz"):
+                lean["buzz"] = s["buzz"]
+            if s.get("img"):
+                lean["img"] = True
+            lean_stories.append(lean)
+        lean_sections.append({"name": sec.get("name"), "slug": sec.get("slug"),
+                              "stories": lean_stories})
+    lean_digest = {"date": digest["date"], "colophon": digest["colophon"],
+                   "sections": lean_sections}
+    (ROOT / "feeds" / "digest_lean.json").write_text(
+        json.dumps(lean_digest, indent=2, ensure_ascii=False))
+
     # A2: per-date refs snapshot + rolling union (back-compat) + prune.
     REFS_DIR.mkdir(parents=True, exist_ok=True)
     (REFS_DIR / f"{now.date().isoformat()}.json").write_text(

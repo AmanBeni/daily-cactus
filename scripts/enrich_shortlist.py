@@ -87,7 +87,11 @@ def _extract_readability(html: str) -> str | None:
     return _strip_html(doc.summary())
 
 
-def fetch_extract(url: str) -> str | None:
+def fetch_extract(url: str, max_chars: int = EXTRACT_CHARS) -> str | None:
+    """max_chars is optional (Option B / scripts/fetch_selected.py reuses this
+    same fetch+extract path with a much larger cap for full-article text);
+    every existing call site omits it and keeps today's EXTRACT_CHARS behavior
+    unchanged."""
     if not url:
         return None
     html = _fetch_html(url)
@@ -97,7 +101,7 @@ def fetch_extract(url: str) -> str | None:
         try:
             text = fn(html)
             if text and text.strip():
-                return text.strip()[:EXTRACT_CHARS]
+                return text.strip()[:max_chars]
         except Exception:
             continue
     return None
