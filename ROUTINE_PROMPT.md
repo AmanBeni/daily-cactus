@@ -33,11 +33,15 @@ url, image, source, colophon, edition number, and markets bar automatically.
 - **Numbers-first.** Open summaries with the concrete fact, not the setup. If a
   story has a number — funding size, %, dates, scale — lead with it. Never just
   restate the headline in sentence form.
-- **No `extract` = write shorter, not fuller.** With only a headline + short
-  RSS blurb, write a SHORTER, honest summary of just what's known — never pad
-  with assumed background or speculation (e.g. never invent "this typically
-  signals an IPO"). Numbers/claims must come from the digest text, never from
-  assumed knowledge.
+- **No `extract` = write shorter, not fuller; never hallucinate.** With only a
+  headline + short RSS blurb, write a SHORTER, honest summary of just what's
+  known — never pad with assumed background or speculation (e.g. never invent
+  "this typically signals an IPO"). Numbers/claims must come from the digest
+  text, never from assumed knowledge. If a story has ONLY a headline (no
+  `extract`, and an empty or trivial `summary` — the article was unreachable),
+  restate just the headline in one sentence and append the flag **`(source
+  unreachable — headline only)`** rather than inventing detail; if that isn't
+  meaningful, drop the story.
 - **Chart/data mentions.** If a story's `extract` describes a chart, graph, or
   data finding, state its conclusion in the summary (e.g. "a chart shows X down
   40% since 2023"). Never fetch images — text-derived only.

@@ -16,9 +16,12 @@ paraphrase.
 
 ## Do exactly this, in order. Nothing else.
 1. **Read two files:** `feeds/selected/<today>.json` (today's selected stories
-   — each carries `headline`, `source`, `published`, `image`, and `fulltext`:
-   the WHOLE article text where the fetch succeeded, empty string where it
-   didn't) and `TASTE.md` (short, standing notes on what to do more/less of).
+   — each carries `headline`, `source`, `published`, `image`, `fulltext`, and
+   `text_source` which tells you how much you actually have: `"full"` = the whole
+   article; `"digest-extract"` = only a short (~200-2500 char) snippet because
+   the site blocked the full fetch; `"none"` = the article was UNREACHABLE, you
+   have only the headline) and `TASTE.md` (short, standing notes on what to do
+   more/less of).
    Do not read any other file. Do not list the repo. Do not fetch anything. Do
    not web-search.
    - **GUARD — fallback if Stage 1.5 didn't run or is stale:** if
@@ -52,12 +55,21 @@ url, image, source, colophon, edition number, and markets bar automatically.
   not the setup. You now have the whole article — mine it for every number
   that matters (funding size, %, dates, scale, comparisons) rather than the
   lede alone. Never just restate the headline in sentence form.
-- **Empty `fulltext` = write shorter, not fuller.** A story whose fetch failed
-  carries `fulltext: ""` — you only have its `headline` (and whatever the
-  GUARD's digest fallback carries). Write a SHORTER, honest summary of just
-  what's known — never pad with assumed background or speculation (e.g. never
-  invent "this typically signals an IPO"). Numbers/claims must come from the
-  text you were given, never assumed knowledge.
+- **Never hallucinate an unreachable article.** Match how you write to
+  `text_source`, and NEVER fill gaps with assumed knowledge or speculation
+  (e.g. never invent "this typically signals an IPO"):
+  - `text_source: "none"` (unreachable) — you have only the headline. Write ONE
+    plain sentence restating just what the headline says, then append the flag
+    **`(source unreachable — headline only)`** at the end of the summary. Do NOT
+    add any fact, number, name, or framing that isn't in the headline itself. If
+    even that isn't meaningful, drop the story rather than pad it.
+  - `text_source: "digest-extract"` (partial) — summarise ONLY what the short
+    snippet actually states; do not extrapolate beyond it. If the snippet is too
+    thin to say anything substantive, append **`(summary from limited source
+    text)`** so the reader knows it's partial.
+  - `text_source: "full"` — write the rich, numbers-first summary below.
+  Every number, name, and claim must come from the text you were given — never
+  from assumed knowledge.
 - **Chart/data mentions.** If the full text describes a chart, graph, or data
   finding, state its conclusion in the summary (e.g. "a chart shows X down 40%
   since 2023"). Never fetch images — text-derived only.
