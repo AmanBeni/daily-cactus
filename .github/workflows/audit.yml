@@ -1,0 +1,43 @@
+# B8 — monthly per-feed source audit. Zero token cost: summarizes
+# feeds/feed_stats.jsonl (appended daily by scripts/build_digest.py) into a
+# fetched->shortlisted hit-rate table and posts it as a GitHub issue, so
+# dead-weight feeds get pruned and replacements trialed on evidence.
+
+name: Monthly Feed Audit
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build hit-rate report
+        run: python3 scripts/audit_feeds.py --days 30 > audit_report.md
+
+      - name: Post as an issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('audit_report.md', 'utf8');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Monthly feed audit: ${new Date().toISOString().slice(0,7)}`,
+              body: body || 'No feed_stats.jsonl data for the last 30 days.',
+              labels: ['audit'],
+            });

@@ -31,8 +31,9 @@ OUT = ROOT / "feeds" / "latest.json"
 UA = ("Mozilla/5.0 (compatible; DailyCactusBot/1.0; "
       "+https://amanbeni.github.io/daily-cactus/)")
 
-MAX_PER_FEED = 8       # generous cap; Claude does the real editorial selection.
-                       # Deliberately NOT lowered: candidate breadth protects
+MAX_PER_FEED = 12      # generous cap; Claude does the real editorial selection.
+                       # Raised 8->12 (owner, Jul 2026): sections looked starved
+                       # (2-story agritech days) — candidate breadth protects
                        # against missing a good story buried lower in a feed.
 SUMMARY_CHARS = 200    # lighter candidates -> fewer input tokens, no stories lost
                        # (the editor only needs the gist to rank; it rewrites anyway)
@@ -161,6 +162,15 @@ def main() -> None:
                     title = strip_html(e.get("title", "")) or "(untitled)"
                     entry_src = src
                     if is_gnews:
+                        if not et:
+                            # A5: undated Google News items bypass the recency
+                            # cutoff above entirely — drop rather than let a
+                            # stale/undated item slip through unchecked. Trusted
+                            # publisher feeds are NOT dropped here (their undated
+                            # items are merely penalized downstream, since a
+                            # missing date there is more likely a feed quirk
+                            # than a sign the item is actually old).
+                            continue
                         title, entry_src = gnews_fields(e, title)
                         summary = ""              # gnews summaries are noisy link-lists
                     else:
@@ -172,6 +182,7 @@ def main() -> None:
                         "published": et.isoformat() if et else None,
                         "summary": summary,
                         "image_url": extract_image(e),
+                        "feed_url": url,   # B8: source audit — which feed this came from
                     })
                     count += 1
                 ok += 1
@@ -187,6 +198,10 @@ def main() -> None:
             "angle": section.get("angle", ""),
             "max_stories": section.get("max_stories"),
             "beta": section.get("beta", False),
+            "weekend_only": section.get("weekend_only", False),  # B6
+            "window_hours": window,   # A5: carried through so build_digest can
+                                      # enforce a per-section hard age cutoff
+                                      # redundant to this fetch-time cutoff.
             "feeds_ok": ok,
             "feeds_failed": failed,
             "entries": sec_entries,

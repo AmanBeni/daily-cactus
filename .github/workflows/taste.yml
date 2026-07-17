@@ -1,0 +1,80 @@
+# B4 — weekly feedback fold. Renderer 👍/👎 links open a prefilled GitHub issue
+# per story (title carries the vote + story id, labels: feedback,up|feedback,down
+# — see site/app.js). This job runs every Sunday, collects the week's
+# 'feedback'-labeled issues, folds a plain heuristic per-section signal into
+# TASTE.md (scripts/fold_taste.py — NO model calls, zero token cost), commits
+# the result, and closes the processed issues.
+
+name: Weekly Taste Fold
+
+on:
+  schedule:
+    - cron: '0 18 * * 0'   # Sunday 18:00 UTC == Sunday 23:30 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  fold:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Collect the week's feedback issues
+        id: collect
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const since = new Date(Date.now() - 7 * 24 * 3600 * 1000).toISOString();
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'feedback',
+              state: 'open',
+              since,
+            });
+            // Title convention from site/app.js: "👍 <story-id>" / "👎 <story-id>"
+            const events = [];
+            for (const issue of issues) {
+              const m = issue.title.match(/(👍|👎)\s*([a-z0-9-]+)/i);
+              if (!m) continue;
+              events.push({ story_id: m[2], vote: m[1] === '👍' ? 'up' : 'down', number: issue.number });
+            }
+            require('fs').writeFileSync('feedback_events.json', JSON.stringify(events));
+            core.setOutput('count', events.length);
+            core.setOutput('numbers', JSON.stringify(issues.map(i => i.number)));
+            return events.length;
+
+      - name: Fold into TASTE.md
+        run: python3 scripts/fold_taste.py < feedback_events.json
+
+      - name: Commit TASTE.md
+        run: |
+          git config user.name  "Daily Cactus Bot"
+          git config user.email "bot@dailycactus.local"
+          git add TASTE.md
+          git diff --staged --quiet || git commit -m "Weekly taste fold ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Close processed feedback issues
+        if: steps.collect.outputs.count != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const numbers = JSON.parse('${{ steps.collect.outputs.numbers }}');
+            for (const number of numbers) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: number,
+                state: 'closed',
+              });
+            }

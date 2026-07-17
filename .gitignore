@@ -1,3 +1,8 @@
+# Secrets / local-only (NEVER commit) — token file for the deploy
+GITHUB_TOKEN.local.md
+*.local.md
+*.local
+
 # Local Claude Code settings (machine-specific; do not publish)
 .claude/
 

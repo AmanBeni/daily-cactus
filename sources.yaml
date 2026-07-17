@@ -18,19 +18,21 @@ sections:
 
   - name: "AI"
     slug: ai
-    max_stories: 6
+    max_stories: 10       # owner's main domain — raised 6->10 (Jul 2026)
     window_hours: 72
     angle: "Capabilities, research, industry moves, India AI policy & tools. Separate substance from press releases."
     feeds:
       - https://www.technologyreview.com/topic/artificial-intelligence/feed   # [OK]
       - https://techcrunch.com/category/artificial-intelligence/feed/          # [VERIFIED]
-      - https://analyticsindiamag.com/feed/                                    # [TRY] India AI angle
-      - https://importai.substack.com/feed                                     # [TRY] flaky
+      # analyticsindiamag.com/feed dropped (Jul 2026 B7 audit): parse failure,
+      # confirmed dead — no valid entries returned.
+      - https://importai.substack.com/feed                                     # [VERIFIED] Jul 2026 — works now, despite HANDOFF's old "flaky" note
       - https://news.google.com/rss/search?q=(%22artificial+intelligence%22+OR+AI+OR+%22machine+learning%22+OR+OpenAI+OR+Anthropic+OR+DeepMind)+(India+OR+research+OR+breakthrough+OR+launch+OR+policy+OR+funding+OR+regulation+OR+acquisition)+when:3d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Deep Tech"
     slug: deep-tech
-    max_stories: 5
+    max_stories: 6        # +1 (Jul 2026 breadth raise); India-specific deep tech
+                          # now has its own section below
     window_hours: 72
     angle: "Semiconductors, space, robotics, drones/defence tech, quantum, advanced materials. Engineering reality over vaporware."
     feeds:
@@ -43,7 +45,7 @@ sections:
 
   - name: "Climate & Energy"
     slug: climate-energy
-    max_stories: 6
+    max_stories: 7        # +1 (Jul 2026 breadth raise)
     window_hours: 72
     angle: "Energy transition, grids, climate science & adaptation, carbon markets, biodiversity, water. India angle is gold."
     feeds:
@@ -54,7 +56,7 @@ sections:
 
   - name: "Health Tech"
     slug: health-tech
-    max_stories: 4
+    max_stories: 5        # +1 (Jul 2026 breadth raise)
     window_hours: 96
     angle: "Digital health, biotech, devices, drug discovery. Deployment and evidence over lab hype."
     feeds:
@@ -64,29 +66,41 @@ sections:
 
   - name: "Agritech"
     slug: agritech
-    max_stories: 4
+    max_stories: 6        # raised 4->6 (Jul 2026 — the "only two articles" fix)
     window_hours: 96
     angle: "India-first farm tech, food security, alt-proteins, regenerative & precision agriculture. Deployment over demos."
     feeds:
       - https://agfundernews.com/feed                     # [OK]
       - https://news.mongabay.com/feed/                   # [VERIFIED] nature/agri
+      - https://www.downtoearth.org.in/rss/agriculture    # [TRY] India agri policy/ground reports
       - https://news.google.com/rss/search?q=(agritech+OR+foodtech+OR+%22agri+fintech%22+OR+%22food+security%22+OR+%22alternative+protein%22+OR+%22regenerative+agriculture%22+OR+%22precision+agriculture%22+OR+FPO)+India+when:4d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
   - name: "Indian Startups"
     slug: indian-startups
-    max_stories: 6
+    max_stories: 9        # owner's working arena — raised 6->9 (Jul 2026)
     window_hours: 48
     angle: "Funding, M&A, IPOs, shutdowns, regulation, VC theses, D2C/quick-commerce. Numbers over narratives."
     feeds:
       - https://inc42.com/feed/                           # [OK]
       - https://yourstory.com/feed                        # [OK]
-      - https://entrackr.com/feed/                        # [TRY]
-      - https://the-ken.com/feed/                         # [TRY] likely paywalled
+      # entrackr.com/feed dropped (Jul 2026 B7 audit): 404, confirmed dead.
+      - https://the-ken.com/feed/                         # [VERIFIED] Jul 2026 — works now, despite old "likely paywalled" note
+      - https://restofworld.org/feed/latest/               # [VERIFIED] Jul 2026 — B7 replacement, global emerging-market tech/venture angle
       - https://news.google.com/rss/search?q=(startup+OR+unicorn+OR+founder+OR+%22venture+capital%22+OR+%22seed+funding%22+OR+D2C+OR+%22quick+commerce%22)+(funding+OR+raises+OR+acquires+OR+IPO+OR+shuts+OR+%22lays+off%22+OR+%22Series+A%22+OR+SEBI+OR+RBI+OR+MeitY+OR+DPIIT)+India+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+
+  - name: "India Deep Tech"
+    slug: india-deep-tech
+    max_stories: 6
+    window_hours: 96
+    angle: "NEW (Jul 2026). Indian deep-tech startups & ecosystem — space, defence, drones, semiconductors, robotics, quantum, climate hardware, biomanufacturing. Funding, iDEX/IN-SPACe/DRDO-ISRO tie-ups, production milestones, policy. The owner wants to WORK in this ecosystem: who's building, who's hiring, who just got funded matters. Deployment and hardware reality over press releases."
+    feeds:
+      - https://inc42.com/industry/deeptech/feed/         # [TRY] Inc42 deeptech vertical
+      - https://news.google.com/rss/search?q=(%22deep+tech%22+OR+deeptech+OR+spacetech+OR+%22defence+startup%22+OR+%22space+startup%22+OR+semiconductor+OR+robotics+OR+drone+OR+quantum)+(startup+OR+raises+OR+funding+OR+iDEX+OR+%22IN-SPACe%22+OR+ISRO+OR+DRDO)+India+when:4d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] India deep-tech startups
+      - https://news.google.com/rss/search?q=(Agnikul+OR+Skyroot+OR+Pixxel+OR+%22ideaForge%22+OR+Tonbo+OR+%22Bellatrix%22+OR+Sarvam+OR+%22Mindgrove%22+OR+InCore+OR+QNu+OR+Digantara+OR+GalaxEye)+when:7d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] named Indian deep-tech companies (edit this roster freely)
 
   - name: "Global Economics"
     slug: global-economics
-    max_stories: 5
+    max_stories: 6        # +1 (Jul 2026 breadth raise)
     window_hours: 48
     angle: "Macro, trade, markets, central banks, geopolitics, supply chains. What it means for India and tech."
     feeds:
@@ -98,7 +112,7 @@ sections:
 
   - name: "India"
     slug: india
-    max_stories: 5
+    max_stories: 6        # +1 (Jul 2026 breadth raise)
     angle: "Top national news + digital public infrastructure (UPI/ONDC/Aadhaar). Policy and economy over politics-as-soap-opera."
     feeds:
       - https://www.thehindu.com/news/national/feeder/default.rss  # [OK]
@@ -160,6 +174,19 @@ sections:
     feeds:
       - https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en   # [GNEWS] top stories (all topics)
       - https://news.google.com/rss/search?q=(cricket+OR+football+OR+Olympics+OR+tennis+OR+sports+OR+film+OR+award+OR+championship)+when:1d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] sports & culture
+
+  - name: "Weekend Longform"
+    slug: longform
+    max_stories: 4
+    weekend_only: true     # B6: fetched daily, but build_digest.py only includes
+                            # it in the digest when today is Saturday (IST)
+    window_hours: 168      # a week's worth — these are evergreen, not breaking
+    angle: "One or two genuinely worth-20-minutes long reads. Verified feeds only (Jul 2026): Aeon, Guardian Long Read, Longreads, Nautilus."
+    feeds:
+      - https://aeon.co/feed.rss                                    # [VERIFIED] Jul 2026
+      - https://www.theguardian.com/news/series/the-long-read/rss   # [VERIFIED] Jul 2026
+      - https://longreads.com/feed/                                 # [VERIFIED] Jul 2026
+      - https://nautil.us/feed/                                     # [VERIFIED] Jul 2026
 
   - name: "Remainder"
     slug: remainder

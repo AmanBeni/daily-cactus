@@ -1,9 +1,16 @@
 # Publishes the routine's output to GitHub Pages.
 #
-# In v4 the routine writes a tiny DRAFT (drafts/YYYY-MM-DD.json) of story IDs +
+# In v4+ the routine writes a tiny DRAFT (drafts/YYYY-MM-DD.json) of story IDs +
 # prose. This workflow expands it into the full site/editions/YYYY-MM-DD.json
-# (injecting url/image/source verbatim from feeds/refs.json), deploys site/ to
-# gh-pages, then rebuilds the date-picker manifest ON gh-pages.
+# (injecting url/image/source verbatim from the per-date feeds/refs/<date>.json
+# snapshot — see A2), deploys site/ to gh-pages, then rebuilds the date-picker
+# manifest ON gh-pages.
+#
+# A3 — editions are immutable. Before assembling, this workflow checks out
+# gh-pages' editions/ directory into ./existing_editions/editions/ so
+# assemble_edition.py can tell which dates are ALREADY published and skip
+# them by default. Only a brand-new draft (or one passed to a manual
+# workflow_dispatch --force run) gets written.
 #
 # Why the manifest rebuild lives here (not in its own workflow): a workflow
 # triggered by a push to gh-pages must physically exist on gh-pages — but
@@ -23,9 +30,16 @@ on:
     paths:
       - 'drafts/**'
       - 'site/**'
+  workflow_dispatch:
+    inputs:
+      force_date:
+        description: 'Rebuild a specific past edition (YYYY-MM-DD), or "all". Leave blank for normal immutable behavior.'
+        required: false
+        default: ''
 
 permissions:
   contents: write
+  issues: write   # A6: health-check issue on assemble failure
 
 jobs:
   deploy:
@@ -39,10 +53,26 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Checkout existing gh-pages editions (for immutability check)
+        uses: actions/checkout@v4
+        continue-on-error: true   # first-ever publish: gh-pages may not exist yet
+        with:
+          ref: gh-pages
+          path: existing_editions
+
       - name: Assemble edition(s) from draft(s)
-        # Expands every drafts/*.json into site/editions/*.json. Fails loudly on
+        # Expands new drafts/*.json into site/editions/*.json. Skips dates that
+        # already have a published edition (A3) unless --force. Fails loudly on
         # malformed JSON so a broken paper is never deployed.
-        run: python scripts/assemble_edition.py
+        id: assemble
+        env:
+          EXISTING_EDITIONS_DIR: existing_editions/editions
+        run: |
+          if [ -n "${{ github.event.inputs.force_date }}" ]; then
+            python scripts/assemble_edition.py --force ${{ github.event.inputs.force_date }}
+          else
+            python scripts/assemble_edition.py
+          fi
 
       - name: Deploy site/ to gh-pages
         uses: peaceiris/actions-gh-pages@v4
@@ -52,6 +82,19 @@ jobs:
           publish_branch: gh-pages
           keep_files: true          # keep past editions/*.json across deploys
           commit_message: "Publish edition from ${{ github.ref_name }}"
+
+      - name: Open a health issue on assemble failure
+        if: failure() && steps.assemble.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Daily Cactus publish health: ${new Date().toISOString().slice(0,10)}`,
+              body: 'assemble_edition.py failed — a draft was likely malformed. See the Actions run log. No broken paper was deployed (assemble fails loudly before the deploy step).',
+              labels: ['health'],
+            });
 
   manifest:
     # Rebuild editions/index.json (the date-picker list the renderer reads) from
