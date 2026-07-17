@@ -18,10 +18,27 @@ so you only ever edit your feed list in one place.
 import json
 import re
 import html
+import ssl
 import datetime
 import pathlib
+import urllib.request
 import feedparser
 import yaml
+
+# B7 audit (Jul 2026) fix: some feed parse failures logged as "invalid XML"
+# turned out to be a TLS handshake/cert issue in disguise — feedparser's bozo
+# exception doesn't distinguish "the runner's default trust store rejected
+# this cert chain" from "the XML itself is malformed," and a handshake that
+# dies mid-response can leave feedparser holding a truncated, unparseable
+# document. Force a current, complete CA bundle (certifi's) as the process
+# default rather than trusting whatever the runner ships, so a feed's real
+# health isn't confounded by the environment's trust store.
+try:
+    import certifi
+    _SSL_CTX = ssl.create_default_context(cafile=certifi.where())
+    ssl._create_default_https_context = lambda: _SSL_CTX
+except ImportError:
+    _SSL_CTX = None
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources.yaml"
@@ -116,6 +133,32 @@ def gnews_fields(entry, title: str):
     return title, (outlet or "Google News")
 
 
+def _fetch_feed(url: str):
+    """B7 audit fix: fetch the feed ourselves via urllib and hand feedparser
+    the raw bytes, instead of letting feedparser.parse(url) do its own fetch.
+
+    Root cause found live (Jul 2026): several "invalid XML" bozo failures
+    (nature.com confirmed by direct A/B test) were NOT malformed feeds at all
+    — fetching the identical URL with plain urllib and feeding the resulting
+    bytes to feedparser.parse(data) parsed cleanly (75 entries), while
+    feedparser.parse(url) on the same feed intermittently corrupted a
+    multi-byte UTF-8 sequence (a "©" byte pair) and failed with a bogus
+    "not well-formed" error. That points at feedparser's own gzip-aware
+    fetcher mishandling a compressed response from certain CDNs (nature.com
+    sits behind Fastly/Varnish, whose response varies by Accept-Encoding).
+    Fetching without requesting compression sidesteps that path entirely.
+
+    Falls back to feedparser's own url-fetch if our urllib request raises
+    (keeps existing behavior — e.g. odd redirect handling — as a safety net)."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=20, context=_SSL_CTX) as resp:
+            raw = resp.read()
+        return feedparser.parse(raw)
+    except Exception:
+        return feedparser.parse(url, agent=UA)
+
+
 def best_summary(entry) -> str:
     """Prefer the entry summary; fall back to content body (some feeds, e.g.
     Indian Express, ship empty summaries with the text in content)."""
@@ -142,7 +185,7 @@ def main() -> None:
         for url in section.get("feeds", []) or []:
             feeds_total += 1
             try:
-                parsed = feedparser.parse(url, agent=UA)
+                parsed = _fetch_feed(url)
                 # bozo with zero entries = a real failure; bozo WITH entries is
                 # usually just a sloppy-but-parseable feed, which we accept.
                 if parsed.get("bozo") and not parsed.get("entries"):

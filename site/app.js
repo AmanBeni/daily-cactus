@@ -151,6 +151,26 @@ function bodyHTML(s, tabVar) {
   return out;
 }
 
+// Fix 6 (RUN_AUDIT_2026-07-17): a story chosen for the front page also lives
+// in its home section's digest entries, and previously rendered as a second,
+// near-identical full card there. Section rendering now checks each story's
+// url against the front-page anchor map (built in Pass 1 below) and, on a
+// match, renders this compact one-line cross-reference instead of a full
+// card — back-compatible with old editions (no url on a story just means the
+// check never matches, same as before this fix).
+function crossRefHTML(s, anchorId, frontAnchorId) {
+  const url = s.url ? esc(s.url) : "";
+  const headline = url
+    ? `<a href="${url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">${esc(s.headline)}</a>`
+    : esc(s.headline);
+  const jump = frontAnchorId
+    ? `<a class="sk" href="#${esc(frontAnchorId)}">&uarr; on the front page</a>`
+    : `<span>&uarr; on the front page</span>`;
+  return `<div class="story card crossref" id="${esc(anchorId)}">
+    <span class="crossref-headline">${headline}</span> ${jump}
+  </div>`;
+}
+
 function alsoRailHTML(also) {
   if (!also || !also.length) return "";
   const items = also.map((a) => {
@@ -301,6 +321,16 @@ function renderEdition(ed) {
     (sec.stories || []).forEach((s, i) => register(s, sectionIds[si][i])));
   const oppIds = (ed.opportunities || []).map((o, i) => storyId(date, "opportunities", i));
 
+  // Fix 6: does this url's FIRST-registered anchor live on the front page?
+  // (register() above ran lead/frontpage before sections, so urlAnchors
+  // already resolves a front-page url to its front-page anchor even when a
+  // section story with the same url registers second and is a no-op.)
+  const frontAnchorFor = (url) => {
+    if (!url) return null;
+    const a = urlAnchors.get(url);
+    return a && a.startsWith(`${date}/front/`) ? a : null;
+  };
+
   // Pass 2: build HTML
   let html = "";
   html += briefHTML(ed.brief, urlAnchors);
@@ -321,7 +351,12 @@ function renderEdition(ed) {
     html += sectionHeadHTML(sec.name, sec.slug, si);
     html += `<div class="grid2" style="margin-top:16px">`;
     sec.stories.forEach((s, i) => {
-      html += storyCardHTML(s, { lead: false, slug: sec.slug, sectionName: null, id: sectionIds[si][i], anchorId: sectionIds[si][i], date });
+      const frontAnchorId = frontAnchorFor(s.url);
+      if (frontAnchorId) {
+        html += crossRefHTML(s, sectionIds[si][i], frontAnchorId);
+      } else {
+        html += storyCardHTML(s, { lead: false, slug: sec.slug, sectionName: null, id: sectionIds[si][i], anchorId: sectionIds[si][i], date });
+      }
     });
     html += `</div>`;
     html += alsoRailHTML(sec.also);

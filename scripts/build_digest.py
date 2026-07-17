@@ -46,6 +46,12 @@ import datetime
 import pathlib
 import sys
 
+try:
+    from resolve_gnews import resolve as resolve_gnews_url   # Fix 1
+except Exception:                                             # noqa: BLE001
+    def resolve_gnews_url(url):                                # never block
+        return url
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LATEST = ROOT / "feeds" / "latest.json"
 DIGEST = ROOT / "feeds" / "digest.json"
@@ -358,6 +364,15 @@ def shortlist_section(section, now, used_urls, used_keys, ref_year):
     lean, refs = [], {}
     for e in chosen:
         url = e.get("link") or e.get("url")
+        # Fix 1: resolve Google News redirect links to the real publisher URL
+        # HERE — only for the final shortlisted survivors (bounded, ≤ SECTION_
+        # HARD_CAP per section), not the raw ~500 candidates. This fixes BOTH
+        # full-text enrichment (which fetches this same url next) and the
+        # reader's "Read original" link. Hashing the RESOLVED url also makes
+        # the id stable across days for the same real article even though
+        # Google mints a fresh opaque redirect token per query/day.
+        if url and "news.google.com/rss/articles" in url:
+            url = resolve_gnews_url(url)
         sid = make_id(slug, url)
         summary = (e.get("summary") or "")[:SUMMARY_CHARS]
         source = e.get("source") or section.get("name", "")

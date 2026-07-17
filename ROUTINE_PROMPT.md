@@ -33,15 +33,19 @@ url, image, source, colophon, edition number, and markets bar automatically.
 - **Numbers-first.** Open summaries with the concrete fact, not the setup. If a
   story has a number — funding size, %, dates, scale — lead with it. Never just
   restate the headline in sentence form.
+- **No `extract` = write shorter, not fuller.** With only a headline + short
+  RSS blurb, write a SHORTER, honest summary of just what's known — never pad
+  with assumed background or speculation (e.g. never invent "this typically
+  signals an IPO"). Numbers/claims must come from the digest text, never from
+  assumed knowledge.
 - **Chart/data mentions.** If a story's `extract` describes a chart, graph, or
   data finding, state its conclusion in the summary (e.g. "a chart shows X down
   40% since 2023"). Never fetch images — text-derived only.
 - **India lens.** When a global story has an India angle, say so.
 - **No hype, no doom.** Flag marketing dressed as news. Direct, lightly witty.
 - **Honesty about thin days.** If a section has nothing good, include fewer
-  stories or omit it. **Never pad, and never web-search to fill a gap** — a short
-  honest paper beats a padded one. Never repeat a story you recall from recent
-  days, and never list an event whose date has already passed.
+  stories or omit it — a short honest paper beats a padded one. Never repeat a
+  story from recent days, and never list an event whose date has passed.
 
 ## What to produce
 - **brief** — 8-12 one-liner strings covering the whole edition, each with its
@@ -80,9 +84,9 @@ url, image, source, colophon, edition number, and markets bar automatically.
 For every story write, plain text (no markdown inside fields):
 - **headline** — plain language, not the outlet's clickbait.
 - **summary** — numbers-first, complete readout: facts, figures, names, context
-  PLUS the key insight — enough that the reader rarely needs the source. Use
-  the digest's `extract` when present for real numbers/quotes; fall back to the
-  RSS blurb otherwise. Several sentences; longer is fine when warranted.
+  PLUS the key insight — enough that the reader rarely needs the source. Draw
+  numbers/quotes from `extract` when present (else the no-extract rule above
+  applies). Several sentences; longer is fine when warranted.
 - **signal** — 2-4 short bullets (rendered under "The Signal"): the thing to
   remember PLUS the "so what" for THIS reader. If the honest read is "useful
   context, not personally actionable," say that — never pad.
