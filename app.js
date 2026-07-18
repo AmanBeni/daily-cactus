@@ -54,15 +54,15 @@ const PENCIL_RULES = [
 
 // ---------- image error handling (declared on window: inline onerror needs it) ----------
 window.daily = window.daily || {};
+// P5: a broken image used to be replaced by a grey "no photo" cactus box on the
+// lead. An empty frame looks worse than no frame — remove it entirely and let
+// the text reflow to full width (see .no-figure in style.css).
 window.daily.imgErr = function (img, isLead) {
   const fig = img.closest(".figure");
   if (!fig) return;
-  if (isLead) {
-    fig.classList.remove("tape");
-    fig.innerHTML = cactusPlaceholderSVG();
-  } else {
-    fig.style.display = "none";
-  }
+  const card = fig.closest(".story");
+  fig.remove();
+  if (isLead && card) card.classList.add("no-figure");
 };
 window.daily.thumb = function (btn) {
   if (btn.dataset.sent === "1") return;
@@ -73,6 +73,8 @@ window.daily.thumb = function (btn) {
   window.open(url, "_blank", "noopener");
 };
 
+// Retained for the masthead/colophon cactus. NO LONGER used as a photo
+// placeholder (P5 — an empty "no photo" frame looked worse than no frame).
 function cactusPlaceholderSVG() {
   return `<svg viewBox="0 0 40 64" width="46" height="72" aria-hidden="true" opacity=".55" style="margin:auto">
     <use href="#cactus-doodle"/></svg><small>no photo</small>`;
@@ -122,13 +124,31 @@ function marketsHTML(markets) {
 }
 
 // ---------- story-card pieces ----------
+// P5: no image => render NOTHING (lead included). The drawn-cactus symbol is
+// still used by the masthead/colophon, just never as a photo placeholder.
 function figureHTML(s, lead) {
   if (s.image) {
     const err = lead ? "daily.imgErr(this,true)" : "daily.imgErr(this,false)";
     return `<div class="figure tape"><img src="${esc(s.image)}" alt="" loading="lazy" onerror="${err}"></div>`;
   }
-  if (lead) return `<div class="figure">${cactusPlaceholderSVG()}</div>`;
   return "";
+}
+
+// P6: the editor appends a provenance note to summaries it could not fully
+// source — "(source unreachable — headline only)" / "(summary from limited
+// source text)". Render those as a muted editorial aside, not body prose, so
+// the reader can see at a glance that the entry is thin ON PURPOSE rather than
+// badly written. Escape FIRST, then wrap, so this can never inject markup; the
+// pattern is anchored to the two known flags so ordinary trailing parentheses
+// (e.g. "(NYSE: ABC)") are left alone.
+const _SRC_FLAG_RE =
+  /\s*(\((?:source unreachable[^)]*|summary from limited source text)\))\s*$/i;
+function summaryHTML(summary) {
+  const raw = String(summary == null ? "" : summary);
+  const m = raw.match(_SRC_FLAG_RE);
+  if (!m) return esc(raw);
+  const body = raw.slice(0, m.index);
+  return `${esc(body)} <span class="src-flag">${esc(m[1])}</span>`;
 }
 
 function keyStatHTML(s) {
@@ -190,6 +210,8 @@ function storyCardHTML(s, opts) {
   const tag = opts.lead ? "article" : "article";
   const cls = ["story", "card"];
   if (opts.lead) cls.push("lead-story");
+  // P5: mark an image-less lead so it reflows to one full-width text column
+  if (opts.lead && !s.image) cls.push("no-figure");
   const kicker = [];
   if (opts.showTab !== false) {
     const row1 = [];
@@ -214,7 +236,7 @@ function storyCardHTML(s, opts) {
         ${kicker.join("")}
         <h5>${headlineHTML}</h5>
         ${keyStatHTML(s)}
-        <p class="summary">${esc(s.summary)}</p>
+        <p class="summary">${summaryHTML(s.summary)}</p>
         ${bodyHTML(s, tabVar)}
         ${meta}`;
 
