@@ -101,6 +101,85 @@ def test_buzz_bonus_capped():
           bd.score(buzzy, now) - bd.score(base, now) <= 3.21)
 
 
+# --- P1: cross-day dedup via published editions -----------------------------
+def test_load_published_urls_graceful_on_network_failure():
+    import datetime as _dt
+    old_url = bd.EDITIONS_BASE_URL
+    bd.EDITIONS_BASE_URL = "https://this-domain-should-not-resolve.invalid/editions"
+    try:
+        urls, keys = bd.load_published_urls(_dt.datetime.now(_dt.timezone.utc))
+        check("load_published_urls degrades to empty sets on network failure "
+              "(never raises)", urls == set() and keys == set())
+    finally:
+        bd.EDITIONS_BASE_URL = old_url
+
+
+# --- P2(e): same-event clustering --------------------------------------------
+def test_event_signature_clusters_same_event():
+    a = bd.event_signature("India-AI Impact Summit Kicks Off in New Delhi")
+    b = bd.event_signature("PM Modi Inaugurates India-AI Impact Summit With 20 World Leaders")
+    c = bd.event_signature("Day 2 of India-AI Impact Summit Focuses on AI Safety")
+    check("differently-worded headlines about the same event share a signature",
+          a == b == c and a != "")
+
+
+def test_event_signature_distinct_for_unrelated_stories():
+    sig1 = bd.event_signature("India-AI Impact Summit Kicks Off in New Delhi")
+    sig2 = bd.event_signature("Sarvam AI Becomes Newest Unicorn With $234M Round")
+    check("unrelated stories get a distinct (or empty) signature", sig1 != sig2)
+
+
+def test_event_cap_caps_flooding_without_collapsing_unrelated():
+    now = datetime.datetime(2026, 7, 18, tzinfo=datetime.timezone.utc)
+    raw = [
+        {"title": "India-AI Impact Summit Kicks Off in New Delhi", "link": "https://a.com/1", "source": "A", "summary": "", "published": now.isoformat()},
+        {"title": "PM Modi Inaugurates India-AI Impact Summit With 20 World Leaders", "link": "https://a.com/2", "source": "B", "summary": "", "published": now.isoformat()},
+        {"title": "Day 2 of India-AI Impact Summit Focuses on AI Safety", "link": "https://a.com/3", "source": "C", "summary": "", "published": now.isoformat()},
+        {"title": "India-AI Impact Summit Closes With AI Commons Proposal", "link": "https://a.com/4", "source": "D", "summary": "", "published": now.isoformat()},
+        {"title": "OpenAI Raises $40B At $300B Valuation", "link": "https://b.com/1", "source": "E", "summary": "", "published": now.isoformat()},
+        {"title": "Sarvam AI Becomes Newest Unicorn With $234M Round", "link": "https://b.com/2", "source": "F", "summary": "", "published": now.isoformat()},
+    ]
+    section = {"slug": "ai", "name": "AI", "max_stories": 10, "window_hours": 96, "entries": raw}
+    lean, refs, dropped, cross_day, feed_stats = bd.shortlist_section(section, now, set(), set(), 2026)
+    kept_titles = {s["title"] for s in lean}
+    check("4 same-event stories capped to EVENT_CAP_PER_SECTION",
+          sum(1 for t in kept_titles if "India-AI Impact Summit" in t) == bd.EVENT_CAP_PER_SECTION)
+    check("unrelated stories in the same batch are untouched",
+          "OpenAI Raises $40B At $300B Valuation" in kept_titles and
+          "Sarvam AI Becomes Newest Unicorn With $234M Round" in kept_titles)
+
+
+# --- P2(c): article-date trust over feed date --------------------------------
+def test_stale_article_date_drops_story():
+    now = datetime.datetime(2026, 7, 18, tzinfo=datetime.timezone.utc)
+    refs_today = {"india-x": {"url": "https://example.com/x", "published": now.isoformat(),
+                               "source": "example.com", "title": "Old event, fresh feed date"}}
+    digest_sections = [{"slug": "india", "stories": [
+        {"id": "india-x", "title": "Old event, fresh feed date", "article_date": "2026-02-14"}
+    ]}]
+    dropped = bd.apply_article_date_corrections(digest_sections, refs_today, {"india": 96}, now)
+    check("a story whose article_date is >7d older than the feed date, and now "
+          "past the section's max-age cutoff, is dropped",
+          dropped == 1 and digest_sections == [])
+    check("the dropped story's ref is also removed (no dangling link)",
+          "india-x" not in refs_today)
+
+
+def test_fresh_article_date_agreement_keeps_story():
+    now = datetime.datetime(2026, 7, 18, tzinfo=datetime.timezone.utc)
+    refs_today = {"india-y": {"url": "https://example.com/y", "published": now.isoformat(),
+                               "source": "example.com", "title": "Fresh story"}}
+    digest_sections = [{"slug": "india", "stories": [
+        {"id": "india-y", "title": "Fresh story", "article_date": now.date().isoformat()}
+    ]}]
+    dropped = bd.apply_article_date_corrections(digest_sections, refs_today, {"india": 96}, now)
+    check("a story whose article_date agrees with the feed date is kept",
+          dropped == 0 and len(digest_sections[0]["stories"]) == 1)
+    check("article_date is stripped from the surviving story (not part of the "
+          "lean digest contract the model reads)",
+          "article_date" not in digest_sections[0]["stories"][0])
+
+
 def main():
     for name, fn in list(globals().items()):
         if name.startswith("test_") and callable(fn):

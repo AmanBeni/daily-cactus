@@ -41,6 +41,15 @@ jobs:
         id: fetch
         run: python scripts/fetch_feeds.py
 
+      - name: Fetch opportunities (Unstop, 10times, Luma, Devpost)
+        # P7: real event/opportunity sources -> feeds/opportunities.json,
+        # merged into the 'opportunities' section by build_digest.py below.
+        # These are mostly undocumented endpoints that WILL break eventually —
+        # each source fails independently and this step never blocks the rest
+        # of the pipeline (build_digest degrades gracefully if the file is
+        # missing/empty; see merge_opportunities_feed).
+        run: python scripts/fetch_opportunities.py || echo "fetch_opportunities failed, continuing"
+
       - name: Build lean digest (dedup, rank, shortlist, enrich)
         # Turns the raw ~500-story latest.json into feeds/digest.json (the
         # small, url/image-free file the routine reads) + per-date
@@ -62,7 +71,7 @@ jobs:
         run: |
           git config user.name  "Daily Cactus Bot"
           git config user.email "bot@dailycactus.local"
-          git add feeds/latest.json feeds/digest.json feeds/digest_lean.json feeds/refs.json feeds/refs/ feeds/markets.json feeds/feed_stats.jsonl
+          git add feeds/latest.json feeds/digest.json feeds/digest_lean.json feeds/refs.json feeds/refs/ feeds/markets.json feeds/feed_stats.jsonl feeds/opportunities.json
           # Only commit if something actually changed
           git diff --staged --quiet || git commit -m "Fetch feeds $(date -u +%Y-%m-%dT%H:%MZ)"
           git push

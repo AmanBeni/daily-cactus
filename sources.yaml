@@ -182,17 +182,20 @@ sections:
     beta: true
     window_hours: 1080   # 45 days — global must-attend events are announced far ahead.
     angle: "BETA. Events & opportunities worth showing up to / applying to, in THREE tiers: (1) NATIONAL India events that matter; (2) LOCAL — Jaipur + Delhi/NCR + nearby (0-4 great ones); (3) GLOBAL — only the creamiest, must-attend. Plus fellowships/cohorts/hackathons. Includes OFFLINE events (summits, expos, exhibitions, seminars, festivals, sport). Examples: G7 in India, Olympics, India Art Fair, Jaipur Literature Festival. Only list items with a concrete date AND a working link; label clearly as beta."
+    # P7 (Jul 2026): the five Google News queries this section used to carry
+    # were replaced with scripts/fetch_opportunities.py (Unstop/10times/Luma/
+    # Devpost — see .github/workflows/fetch.yml), which build_digest.py merges
+    # in directly with REAL structured event_date/deadline fields. Verified
+    # live: the news queries returned only retrospective coverage ("Summit
+    # concludes...") and zero forward-dated items with a registration link —
+    # 3 consecutive editions published zero opportunities as a result.
+    # ONE query is kept below, clearly discovery-only: it catches named
+    # literary/cultural festivals (JLF, India Art Fair) that none of the four
+    # structured sources cover (they're hackathon/tech-conference/meetup
+    # boards) — never treat it as authoritative on dates, only as a lead to
+    # verify before restating a date the model itself derives from title text.
     feeds:
-      # Tier 1a — national India events (generic)
-      - https://news.google.com/rss/search?q=(summit+OR+conference+OR+expo+OR+conclave+OR+%22trade+fair%22+OR+convention)+India+when:30d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
-      # Tier 1b — national marquee, named (tech + culture)
-      - https://news.google.com/rss/search?q=(%22Jaipur+Literature+Festival%22+OR+JLF+OR+%22Magnetic+Fields%22+OR+%22NH7+Weekender%22+OR+%22India+Art+Fair%22+OR+TechSparks+OR+Nasscom+OR+%22CII+summit%22+OR+%22FICCI%22)+when:30d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
-      # Tier 2 — local: Jaipur + Delhi/NCR + nearby
-      - https://news.google.com/rss/search?q=(conference+OR+summit+OR+expo+OR+meetup+OR+festival+OR+exhibition+OR+workshop+OR+concert)+(Jaipur+OR+Delhi+OR+Gurugram+OR+Noida+OR+Rajasthan+OR+NCR)+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
-      # Tier 3 — global must-attend (named only)
-      - https://news.google.com/rss/search?q=(Davos+OR+G7+OR+G20+OR+CES+OR+%22World+Economic+Forum%22+OR+Olympics+OR+%22FIFA+World+Cup%22+OR+Cannes+OR+%22Venice+Biennale%22+OR+%22Art+Basel%22)+when:45d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
-      # Fellowships / cohorts / hackathons
-      - https://news.google.com/rss/search?q=(fellowship+OR+cohort+OR+accelerator+OR+%22open+call%22+OR+hackathon)+India+startup+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
+      - https://news.google.com/rss/search?q=(%22Jaipur+Literature+Festival%22+OR+JLF+OR+%22Magnetic+Fields%22+OR+%22NH7+Weekender%22+OR+%22India+Art+Fair%22+OR+%22Venice+Biennale%22+OR+%22Art+Basel%22)+when:30d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] discovery-only — NEVER authoritative on dates
 
   - name: "Beyond Your Beat"
     slug: beyond-your-beat

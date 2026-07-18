@@ -42,9 +42,11 @@ import hashlib
 import json
 import os
 import re
+import ssl
 import datetime
 import pathlib
 import sys
+import urllib.request
 
 try:
     from resolve_gnews import resolve as resolve_gnews_url   # Fix 1
@@ -52,8 +54,15 @@ except Exception:                                             # noqa: BLE001
     def resolve_gnews_url(url):                                # never block
         return url
 
+try:
+    import certifi
+    _SSL_CTX = ssl.create_default_context(cafile=certifi.where())
+except ImportError:
+    _SSL_CTX = None
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LATEST = ROOT / "feeds" / "latest.json"
+OPPORTUNITIES_FEED = ROOT / "feeds" / "opportunities.json"   # P7: fetch_opportunities.py output
 DIGEST = ROOT / "feeds" / "digest.json"
 REFS = ROOT / "feeds" / "refs.json"           # rolling union, back-compat only
 REFS_DIR = ROOT / "feeds" / "refs"            # per-date snapshots (A2)
@@ -72,6 +81,70 @@ REFS_RETAIN_DAYS = 30        # A2: keep this many days of per-date ref snapshots
 DEFAULT_MAX_AGE_HOURS = 96   # A5: fallback hard cutoff when a section doesn't
                              # carry its own window_hours (belt-and-braces vs.
                              # fetch_feeds' own per-section cutoff)
+
+# P1 fix: drafts/*.json only exist on claude/* branches and never reach main
+# (automerge.yml, which used to merge them, was deleted — see ISSUES_BACKLOG.md),
+# so load_recent_used() below was a silent no-op. PUBLISHED EDITIONS on
+# gh-pages are the one thing that's always current and always true, so we read
+# the last CROSS_DAY_WINDOW_DAYS of them over plain HTTP instead. This is
+# additive: load_recent_used() (drafts/*.json) still runs too, for local runs
+# where drafts exist in the working tree.
+EDITIONS_BASE_URL = "https://amanbeni.github.io/daily-cactus/editions"
+EDITIONS_FETCH_TIMEOUT = 8   # seconds — never let a slow/dead Pages host stall CI
+
+# P2(d): domains verified to re-date their RSS feed — i.e. report a fresh
+# `published` timestamp for old content. Confirmed live (2026-07-18):
+# newsonair.gov.in served `published: 2026-07-17` (today) for an article whose
+# real byline is 2026-02-14, about a summit that already happened. A story
+# from one of these sources is required to carry a recovered `article_date`;
+# lacking one, relative-date phrasing ("this month" etc.) in its extract is
+# grounds to drop it (see apply_article_date_corrections). Easy to extend —
+# just add the domain (matched by substring against the story's URL).
+DISTRUSTED_SOURCE_DOMAINS = {
+    "newsonair.gov.in",
+}
+
+# P2(a)/(c): phrases that only make sense resolved against the ARTICLE's own
+# publication date, never a (possibly lying) feed date. Used only to decide
+# whether a distrusted-source story with no recoverable article_date is unsafe
+# to publish — the actual ban on the model resolving these into calendar dates
+# lives in ROUTINE_PROMPT.md / ROUTINE_PROMPT_B.md.
+_RELATIVE_DATE_RE = re.compile(
+    r"\b(this month|next week|next month|today|yesterday|tomorrow|last week|"
+    r"this week|last month|this year|next year)\b", re.I)
+
+# P2(e): same-event flooding — cap how many stories sharing an event signature
+# survive a single section's shortlist. Conservative (2, not 1): the goal is
+# to stop a 5-article pile-up, not to collapse two genuinely distinct angles
+# on a multi-day event down to one.
+EVENT_CAP_PER_SECTION = 2
+
+# A quoted phrase ("..." / “...”) is usually a named thing (an event, a quote,
+# a product) — the strongest possible clustering signal.
+_QUOTED_RE = re.compile(r'["“‘]([^"”’]{4,60})["”’]')
+_WORD_RE = re.compile(r"[A-Za-z0-9&-]+")
+# Fallback: headlines are usually Title Case throughout, so capitalization
+# alone doesn't distinguish a proper noun from an ordinary headline verb
+# ("Kicks", "Raises", "Closes"). This stoplist of common headline
+# verbs/connectors lets us find the longest run of capitalized words that
+# ARE NOT one of these — in practice that run is the event/org/person name.
+_HEADLINE_STOPWORDS = {
+    "the", "a", "an", "in", "on", "at", "for", "with", "from", "of", "to",
+    "and", "is", "are", "as", "by", "after", "before", "over", "under",
+    "amid", "about", "into", "onto", "day", "days", "week", "weeks", "month",
+    "year", "world", "global", "national", "kicks", "kicked", "off", "opens",
+    "opened", "open", "closes", "closed", "close", "begins", "began", "begin",
+    "ends", "ended", "end", "focuses", "focused", "focus", "inaugurates",
+    "inaugurated", "hosts", "hosted", "holds", "held", "attends", "attended",
+    "becomes", "became", "raises", "raised", "launches", "launched",
+    "announces", "announced", "reveals", "revealed", "says", "said",
+    "reports", "reported", "sees", "seen", "gets", "get", "makes", "made",
+    "takes", "took", "wins", "won", "marks", "marked", "set", "sets", "plans",
+    "planned", "eyes", "aims", "aimed", "seeks", "sought", "joins", "joined",
+    "leads", "led", "unveils", "unveiled", "confirms", "confirmed", "second",
+    "first", "final", "newest", "biggest", "largest", "top", "latest", "big",
+    "new", "major",
+}
 
 TOKEN_BUDGET_CHARS = 25_000 * 4   # ~25k tokens, rough chars/4 heuristic (B1)
 
@@ -183,10 +256,97 @@ def load_json_safe(path, default=None):
         return default
 
 
+def _http_get_json(url, timeout=EDITIONS_FETCH_TIMEOUT):
+    """Best-effort HTTP GET -> parsed JSON. Never raises: any network error,
+    non-2xx, or malformed JSON just logs a warning and returns None so callers
+    degrade to 'skip this one' rather than crashing the digest build."""
+    try:
+        req = urllib.request.Request(
+            url, headers={"User-Agent": "DailyCactusBot/1.0 (cross-day dedup)"})
+        with urllib.request.urlopen(req, timeout=timeout, context=_SSL_CTX) as resp:
+            raw = resp.read()
+        return json.loads(raw.decode("utf-8", errors="replace"))
+    except Exception as ex:                                   # noqa: BLE001
+        print(f"cross-day dedup: warning — failed to fetch {url}: {ex!r}")
+        return None
+
+
+def load_published_urls(now, days=CROSS_DAY_WINDOW_DAYS):
+    """P1: the REAL fix for dead cross-day dedup. Reads the last `days` of
+    PUBLISHED EDITIONS straight from GitHub Pages over HTTP — editions are the
+    one record that's always current (drafts/*.json live only on claude/*
+    branches and never reach main; see ISSUES_BACKLOG.md P1). Collects every
+    story's `url` (lead/frontpage/sections[].stories/also/opportunities) plus
+    a normalized title-key, so a same-story-different-URL repeat is also
+    caught. Fully graceful: a network failure, missing index, or malformed
+    JSON anywhere in this path logs a warning and returns empty sets — dedup
+    is skipped for this run, never a crash."""
+    used_urls, used_keys = set(), set()
+
+    index = _http_get_json(f"{EDITIONS_BASE_URL}/index.json")
+    if not isinstance(index, dict):
+        print("cross-day dedup: warning — editions index unavailable/malformed, "
+              "skipping remote (published-editions) dedup this run")
+        return used_urls, used_keys
+    entries = index.get("editions")
+    if not isinstance(entries, list):
+        print("cross-day dedup: warning — editions index has no 'editions' list, skipping")
+        return used_urls, used_keys
+
+    cutoff = now.date() - datetime.timedelta(days=days)
+    dates = []
+    for e in entries:
+        if not isinstance(e, dict):
+            continue
+        try:
+            d = datetime.date.fromisoformat(e.get("date", ""))
+        except (ValueError, TypeError):
+            continue
+        if d >= cutoff:
+            dates.append(e["date"])
+
+    fetched = 0
+    for date_str in dates:
+        edition = _http_get_json(f"{EDITIONS_BASE_URL}/{date_str}.json")
+        if not isinstance(edition, dict):
+            continue
+        fetched += 1
+        items = []
+        if isinstance(edition.get("lead"), dict):
+            items.append(edition["lead"])
+        items += [x for x in (edition.get("frontpage") or []) if isinstance(x, dict)]
+        for sec in edition.get("sections", []) or []:
+            if not isinstance(sec, dict):
+                continue
+            for st in sec.get("stories", []) or []:
+                if not isinstance(st, dict):
+                    continue
+                items.append(st)
+                items += [a for a in (st.get("also") or []) if isinstance(a, dict)]
+        items += [x for x in (edition.get("opportunities") or []) if isinstance(x, dict)]
+
+        for it in items:
+            url = it.get("url")
+            if url:
+                used_urls.add(url)
+            title = it.get("headline") or it.get("name") or it.get("line")
+            if title:
+                k = title_key(title)
+                if k:
+                    used_keys.add(k)
+
+    print(f"cross-day dedup: fetched {fetched}/{len(dates)} published edition(s) "
+          f"from gh-pages ({days}-day window) -> {len(used_urls)} urls, "
+          f"{len(used_keys)} title-keys to exclude")
+    return used_urls, used_keys
+
+
 def load_recent_used(now, days=CROSS_DAY_WINDOW_DAYS):
     """A4: collect URLs + normalized title-keys used in the last N days of
-    drafts, resolved against that draft's own refs snapshot (or the union
-    fallback). Zero-cost recall filter to stop a story repeating."""
+    LOCAL drafts/*.json (working-tree only — see load_published_urls for the
+    real, always-on source), resolved against that draft's own refs snapshot
+    (or the union fallback). Kept as an additional source so a local run with
+    drafts on disk still benefits even without network access."""
     used_urls, used_keys = set(), set()
     if not DRAFTS_DIR.exists():
         return used_urls, used_keys
@@ -288,6 +448,92 @@ def score(entry, now, max_age_hours=None) -> float:
     return s
 
 
+def event_signature(title: str) -> str:
+    """P2(e): a lightweight signature to catch same-event flooding that plain
+    title-jaccard near-dup misses (differently-worded headlines about the same
+    multi-day event, e.g. 'Summit Opens in Delhi' vs 'PM Modi Inaugurates AI
+    Summit' vs 'Leaders Arrive for Day 2 of AI Summit'). Prefers a quoted
+    phrase (usually a named event/product); falls back to the longest
+    Title-Case word-run (a proper-noun phrase). Returns '' when nothing
+    distinctive is found — an empty signature never clusters anything, so this
+    can only be conservative (a miss), never collapse unrelated stories."""
+    if not title:
+        return ""
+    qm = _QUOTED_RE.search(title)
+    if qm:
+        return norm_title(qm.group(1))
+    best, current = [], []
+    for w in _WORD_RE.findall(title):
+        is_entity_word = w[:1].isupper() and w.lower() not in _HEADLINE_STOPWORDS and len(w) > 1
+        if is_entity_word:
+            current.append(w)
+            if len(current) > len(best):
+                best = current[:]
+        else:
+            current = []
+    return norm_title(" ".join(best)) if len(best) >= 2 else ""
+
+
+def apply_article_date_corrections(digest_sections, refs_today, section_max_age, now):
+    """P2(c)+(d): trust a recovered `article_date` (set during enrichment, see
+    enrich_shortlist.py) over the feed's `published` date when they disagree
+    by more than 7 days — this is exactly the 'lying feed date' bug (the
+    India-AI Impact Summit story: feed said 2026-07-17, the real byline was
+    2026-02-14, five months stale). When they disagree, re-apply the section's
+    own max-age cutoff against the ARTICLE date and drop the story if it's now
+    stale. Separately: a story from a DISTRUSTED_SOURCE_DOMAINS source with NO
+    recoverable article_date, whose extract still shows relative-date phrasing
+    ("this month" etc.), is dropped outright — we have no way to verify it and
+    the source has already been caught fabricating dates. Mutates
+    digest_sections + refs_today in place. Returns the number of stories
+    dropped, for the caller to log."""
+    dropped = 0
+    for section in digest_sections:
+        max_age_hours = section_max_age.get(section.get("slug"), DEFAULT_MAX_AGE_HOURS)
+        kept = []
+        for story in section.get("stories", []):
+            sid = story.get("id")
+            ref = refs_today.get(sid, {}) or {}
+            url = ref.get("url") or ""
+            article_date_s = story.get("article_date")
+
+            if article_date_s:
+                try:
+                    a_date = datetime.date.fromisoformat(article_date_s)
+                except (ValueError, TypeError):
+                    a_date = None
+                feed_dt = parse_dt(ref.get("published"))
+                if a_date and feed_dt:
+                    disagreement_days = (feed_dt.date() - a_date).days
+                    if disagreement_days > 7:
+                        age_hours = (now.date() - a_date).days * 24
+                        if age_hours > max_age_hours:
+                            print(f"stale-by-article-date: {story.get('title')!r} "
+                                  f"(article {a_date.isoformat()} vs feed "
+                                  f"{feed_dt.date().isoformat()}, {disagreement_days}d apart)")
+                            dropped += 1
+                            refs_today.pop(sid, None)
+                            continue
+            elif any(dom in url for dom in DISTRUSTED_SOURCE_DOMAINS):
+                extract = story.get("extract") or ""
+                if _RELATIVE_DATE_RE.search(extract):
+                    print(f"distrust-drop (no article_date, relative-date phrasing, "
+                          f"distrusted source): {story.get('title')!r}")
+                    dropped += 1
+                    refs_today.pop(sid, None)
+                    continue
+            # Internal decision signal only — never part of the lean digest
+            # contract the model reads (CLAUDE.md: id/title/source/summary/
+            # extract?/buzz?, nothing else). Drop it from the surviving story.
+            story.pop("article_date", None)
+            kept.append(story)
+        section["stories"] = kept
+    # A section can end up empty after corrections — drop it like the initial
+    # shortlist step already does for a section with nothing.
+    digest_sections[:] = [s for s in digest_sections if s.get("stories")]
+    return dropped
+
+
 def compute_buzz(sections):
     """B2: count near-dup cluster size across ALL sections BEFORE dedup, so
     the same story picked up by several outlets/queries scores as corroborated
@@ -302,9 +548,33 @@ def compute_buzz(sections):
             e["_buzz"] = counts[title_key(e.get("title", ""))]
 
 
+def _opportunity_is_past(e, ref_year, today):
+    """P7: prefer REAL structured dates (event_date/deadline, ISO strings) —
+    now supplied by scripts/fetch_opportunities.py's Unstop/10times/Luma/
+    Devpost feeds — over the old regex guess against title/summary text. Falls
+    back to the regex guess only when neither structured field is present
+    (legacy Google-News-sourced candidates)."""
+    had_structured = False
+    for key in ("deadline", "event_date"):
+        raw = e.get(key)
+        if not raw:
+            continue
+        had_structured = True
+        try:
+            d = datetime.date.fromisoformat(str(raw)[:10])
+        except ValueError:
+            continue
+        if d < today:
+            return True
+    if had_structured:
+        return False
+    ed = extract_event_date((e.get("title", "") or "") + " " + (e.get("summary", "") or ""), ref_year)
+    return bool(ed and ed < today)
+
+
 def shortlist_section(section, now, used_urls, used_keys, ref_year):
     """Dedup (within-day + cross-day) + rank + diversity-cap one section.
-    Returns (lean, refs, dropped_count, feed_stats)."""
+    Returns (lean, refs, dropped_count, cross_day_dropped_count, feed_stats)."""
     raw = section.get("entries", []) or []
     max_stories = section.get("max_stories") or 4
     keep = min(max_stories * BUFFER_MULT, SECTION_HARD_CAP)
@@ -312,6 +582,7 @@ def shortlist_section(section, now, used_urls, used_keys, ref_year):
     is_opportunities = (section.get("slug") == "opportunities")
 
     seen_urls, seen_keys, pool = set(), set(), []
+    cross_day_dropped = 0
     for e in raw:
         url = e.get("link") or e.get("url")
         if not url:
@@ -319,12 +590,11 @@ def shortlist_section(section, now, used_urls, used_keys, ref_year):
         k = title_key(e.get("title", ""))
         if url in seen_urls or (k and k in seen_keys):
             continue
-        if url in used_urls or (k and k in used_keys):     # A4 cross-day dedup
+        if url in used_urls or (k and k in used_keys):     # A4/P1 cross-day dedup
+            cross_day_dropped += 1
             continue
-        if is_opportunities:                                # A5 event hygiene
-            ed = extract_event_date((e.get("title", "") or "") + " " + (e.get("summary", "") or ""), ref_year)
-            if ed and ed < now.date():
-                continue                                     # hard-drop past events
+        if is_opportunities and _opportunity_is_past(e, ref_year, now.date()):  # A5/P7
+            continue                                        # hard-drop past events
         seen_urls.add(url)
         if k:
             seen_keys.add(k)
@@ -333,7 +603,7 @@ def shortlist_section(section, now, used_urls, used_keys, ref_year):
     pool = [e for e in pool if score(e, now, None if is_opportunities else max_age_hours) > float("-inf")]
     pool.sort(key=lambda e: score(e, now, None if is_opportunities else max_age_hours), reverse=True)
 
-    chosen, chosen_tokens, per_source = [], [], {}
+    chosen, chosen_tokens, per_source, event_counts = [], [], {}, {}
     for e in pool:
         if len(chosen) >= keep:
             break
@@ -343,9 +613,14 @@ def shortlist_section(section, now, used_urls, used_keys, ref_year):
         src = (e.get("source") or "").strip().lower()
         if src and per_source.get(src, 0) >= MAX_PER_SOURCE:
             continue
+        sig = event_signature(e.get("title", ""))            # P2(e) flooding cap
+        if sig and event_counts.get(sig, 0) >= EVENT_CAP_PER_SECTION:
+            continue
         chosen.append(e)
         chosen_tokens.append(toks)
         per_source[src] = per_source.get(src, 0) + 1
+        if sig:
+            event_counts[sig] = event_counts.get(sig, 0) + 1
 
     dropped = len(raw) - len(chosen)
 
@@ -393,7 +668,50 @@ def shortlist_section(section, now, used_urls, used_keys, ref_year):
             "title": e.get("title", ""),
             "published": e.get("published"),
         }
-    return lean, refs, dropped, feed_stats
+    return lean, refs, dropped, cross_day_dropped, feed_stats
+
+
+def merge_opportunities_feed(sections_raw):
+    """P7: fold scripts/fetch_opportunities.py's real-event-source candidates
+    (Unstop/10times/Luma/Devpost — see feeds/opportunities.json) into the
+    `opportunities` section's entries, in the same shape as every other
+    candidate (title/link/source/published/summary/image_url/feed_url) plus
+    the structured `event_date`/`deadline` ISO fields that let
+    `_opportunity_is_past` drop expired items on REAL dates instead of a title
+    regex guess. Graceful: a missing/malformed feed file just means this run
+    falls back to whatever Opportunities candidates sources.yaml's feeds
+    already produced (unchanged behavior)."""
+    payload = load_json_safe(OPPORTUNITIES_FEED, default=None)
+    if not isinstance(payload, dict):
+        print("fetch_opportunities feed: none found or malformed — skipping merge")
+        return
+    items = payload.get("items")
+    if not isinstance(items, list) or not items:
+        print("fetch_opportunities feed: empty — skipping merge")
+        return
+    for section in sections_raw:
+        if section.get("slug") != "opportunities":
+            continue
+        entries = section.setdefault("entries", [])
+        added = 0
+        for it in items:
+            if not isinstance(it, dict) or not it.get("link") or not it.get("title"):
+                continue
+            entries.append({
+                "title": it.get("title"),
+                "link": it.get("link"),
+                "source": it.get("source") or "",
+                "published": it.get("published"),
+                "summary": it.get("summary") or "",
+                "image_url": it.get("image_url"),
+                "feed_url": it.get("feed_url") or f"opportunities:{it.get('source', 'unknown')}",
+                "event_date": it.get("event_date"),
+                "deadline": it.get("deadline"),
+            })
+            added += 1
+        print(f"fetch_opportunities feed: merged {added} candidate(s) into 'opportunities' section")
+        return
+    print("fetch_opportunities feed: no 'opportunities' section found in sources.yaml — skipping merge")
 
 
 def build_colophon(stats: dict) -> str:
@@ -439,20 +757,29 @@ def main() -> None:
     if not is_saturday_ist:
         sections_raw = [s for s in sections_raw if not s.get("weekend_only")]
 
+    merge_opportunities_feed(sections_raw)           # P7
+
     compute_buzz(sections_raw)                      # B2, before any dedup
-    used_urls, used_keys = load_recent_used(now)     # A4
+
+    used_urls, used_keys = load_recent_used(now)              # A4: local drafts/*.json
+    pub_urls, pub_keys = load_published_urls(now)              # P1: real fix — published editions
+    used_urls |= pub_urls
+    used_keys |= pub_keys
 
     digest_sections = []
     refs_today = {}
     total_candidates = 0
     drop_log = []
     all_feed_stats = []
+    total_cross_day_dropped = 0
 
     for section in sections_raw:
-        lean, refs, dropped, feed_stats = shortlist_section(section, now, used_urls, used_keys, ref_year)
+        lean, refs, dropped, cross_day_dropped, feed_stats = shortlist_section(
+            section, now, used_urls, used_keys, ref_year)
         refs_today.update(refs)
         total_candidates += len(lean)
-        drop_log.append((section.get("name"), len(lean), dropped))
+        total_cross_day_dropped += cross_day_dropped
+        drop_log.append((section.get("name"), len(lean), dropped, cross_day_dropped))
         all_feed_stats.extend(feed_stats)
         if not lean:
             continue
@@ -469,6 +796,19 @@ def main() -> None:
         digest_sections = enrich_sections(digest_sections, refs_today)
     except Exception as ex:                          # noqa: BLE001
         print(f"enrichment skipped: {ex!r}")
+
+    # P2(c)/(d): now that enrichment may have recovered each story's own
+    # article_date, trust it over a feed's `published` when they disagree —
+    # this is the layer that would have caught the summit story even if (a)/
+    # (e) hadn't already stopped it upstream.
+    try:
+        section_max_age = {s.get("slug"): (s.get("window_hours") or DEFAULT_MAX_AGE_HOURS)
+                            for s in sections_raw}
+        article_date_dropped = apply_article_date_corrections(
+            digest_sections, refs_today, section_max_age, now)
+    except Exception as ex:                          # noqa: BLE001
+        print(f"article-date correction pass skipped: {ex!r}")
+        article_date_dropped = 0
 
     digest_sections, size_chars = trim_digest_to_budget(digest_sections)
 
@@ -522,8 +862,14 @@ def main() -> None:
     print(f"Wrote {DIGEST.relative_to(ROOT)} ({total_candidates} candidates, "
           f"~{est_tokens} est. tokens) and refs/{now.date().isoformat()}.json "
           f"({len(refs_today)} refs)")
-    for name, kept, dropped in drop_log:
-        print(f"  {name:<18} kept {kept:>2}  dropped {dropped:>3}")
+    for name, kept, dropped, cross_day in drop_log:
+        print(f"  {name:<18} kept {kept:>2}  dropped {dropped:>3}  (of which cross-day repeats: {cross_day:>3})")
+    print(f"P1 cross-day dedup: {total_cross_day_dropped} candidate(s) dropped as repeats "
+          f"of a story published in the last {CROSS_DAY_WINDOW_DAYS} days")
+    if article_date_dropped:
+        print(f"P2 article-date corrections: {article_date_dropped} stor"
+              f"{'y' if article_date_dropped == 1 else 'ies'} dropped as stale-by-article-date "
+              f"or distrusted-source-with-relative-dating")
     if total_candidates == 0:
         # A6: distinct marker the workflow greps for to open a health issue.
         print("DIGEST_EMPTY: no candidates survived shortlisting")

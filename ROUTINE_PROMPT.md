@@ -124,6 +124,14 @@ why-go, and note the city or "global" so the tier is clear (no `signal`).
 ```
 
 ## Hard rules
+- **Never resolve a relative date.** If the digest text expresses timing
+  relatively — "this month", "next week", "today", "yesterday", "tomorrow",
+  "last week", "on Tuesday" with no date attached — do NOT convert it into a
+  specific date or month yourself. Either quote the phrase as-is, attribute it
+  ("the article says the summit runs 'from the 16th to the 20th of this
+  month'"), or omit the timing entirely. State an absolute date ONLY when the
+  digest text itself states one absolutely. (A feed's `published` date can be
+  wrong — never use it to resolve a relative phrase.)
 - The `id` of every item MUST be copied verbatim from `feeds/digest.json`, and it
   MUST be the EXACT entry you wrote about. The article link is taken from that id,
   so a mismatched id shows a wrong, unrelated link. If you are not certain an id
