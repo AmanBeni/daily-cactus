@@ -116,29 +116,48 @@ def load_digest_fallback() -> dict:
     return out
 
 
-def collect_ids(sel: dict) -> list:
-    """Flatten every id referenced anywhere in the selection, de-duped,
-    order-preserving (lead first, then frontpage, then section/also,
-    opportunities, longform)."""
-    ids = []
-    if sel.get("lead"):
-        ids.append(sel["lead"])
-    ids += [i for i in (sel.get("frontpage") or []) if i]
+def collect_ids(sel: dict) -> tuple:
+    """Flatten every id in the selection, de-duped and order-preserving.
+
+    Returns (ids, lite_ids). `lite_ids` are the `also`-rail picks: they become
+    ONE-LINERS in the paper, so fetching a whole article for them is wasted
+    bandwidth and wasted writer context. They still get an entry (headline +
+    the digest snippet) — just not the expensive full fetch. Anything that
+    becomes a full card (lead, frontpage, section stories, opportunities,
+    longform) still gets the whole article."""
+    card_ids, also_ids, ids = set(), set(), []
+
+    def add(i, is_also=False):
+        if not i:
+            return
+        ids.append(i)
+        (also_ids if is_also else card_ids).add(i)
+
+    add(sel.get("lead"))
+    for i in (sel.get("frontpage") or []):
+        add(i)
     for sec in sel.get("sections", []) or []:
-        ids += [i for i in (sec.get("stories") or []) if i]
-        ids += [i for i in (sec.get("also") or []) if i]
-    ids += [i for i in (sel.get("opportunities") or []) if i]
-    ids += [i for i in (sel.get("longform") or []) if i]
+        for i in (sec.get("stories") or []):
+            add(i)
+        for i in (sec.get("also") or []):
+            add(i, is_also=True)
+    for i in (sel.get("opportunities") or []):
+        add(i)
+    for i in (sel.get("longform") or []):
+        add(i)
 
     seen, out = set(), []
     for i in ids:
         if i not in seen:
             seen.add(i)
             out.append(i)
-    return out
+    # lite = appears ONLY in an also rail. If the same id is also a full card
+    # somewhere, it needs the whole article.
+    lite = also_ids - card_ids
+    return out, lite
 
 
-def fetch_one(sid: str, refs: dict, fallbacks: dict, start: float) -> dict:
+def fetch_one(sid: str, refs: dict, fallbacks: dict, start: float, lite: bool = False) -> dict:
     """Never raises. Tries full article text; on failure degrades to the
     digest snippet (2500-char extract / RSS summary) rather than empty, so a
     published story is never left with only its headline. `text_source` records
@@ -156,6 +175,15 @@ def fetch_one(sid: str, refs: dict, fallbacks: dict, start: float) -> dict:
         pass
 
     fulltext, source_kind = "", "none"
+    if lite:
+        # also-rail one-liner: the digest snippet is plenty, skip the fetch
+        snippet = (fallbacks.get(sid) or "").strip()
+        return {
+            "headline": ref.get("title", ""), "source": ref.get("source", ""),
+            "url": url, "published": ref.get("published"), "image": ref.get("image"),
+            "fulltext": snippet, "text_source": "digest-extract" if snippet else "none",
+            "lite": True,
+        }
     if url and (time.time() - start) < TOTAL_TIME_BUDGET:
         try:
             fulltext = fetch_extract(url, max_chars=FULLTEXT_CHARS) or ""
@@ -199,7 +227,7 @@ def main() -> None:
 
     date = sel.get("date") or date_arg
     refs = load_refs_for_date(date)
-    ids = collect_ids(sel)
+    ids, lite_ids = collect_ids(sel)
 
     if not ids:
         write_placeholder(date, "selections file had no ids")
@@ -210,7 +238,7 @@ def main() -> None:
     got_fulltext = got_fallback = got_none = 0
     stories = {}
     for sid in ids:
-        entry = fetch_one(sid, refs, fallbacks, start)
+        entry = fetch_one(sid, refs, fallbacks, start, lite=(sid in lite_ids))
         if entry["text_source"] == "full":
             got_fulltext += 1
         elif entry["text_source"] == "digest-extract":

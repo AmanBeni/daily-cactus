@@ -58,9 +58,13 @@ supply story IDs and structure — no headlines, no summaries, no prose.**
 - **sections** — for each digest section worth including, pick the stories that
   clear the bar (up to that section's cap — check the digest for how many
   survived shortlisting; you don't need to hit the cap on a thin day). Add an
-  optional **also** list: 2-4 ids for headline-grade stories worth a one-line
-  mention but not a full read (breadth without bloating Stage 1.5's fetch list).
-  Omit a section entirely if nothing clears the bar.
+  an **also** list: 2-4 ids for headline-grade stories worth a one-line
+  mention but not a full read. USE THIS RAIL — on 2026-07-18 it came back
+  empty for every section, which wastes its whole purpose. It is the cheap way
+  to give the reader breadth: `also` picks are NOT full-article-fetched and
+  become one-liners, so they cost almost nothing. Any section with more
+  worthwhile stories than full-card slots should put the remainder here rather
+  than dropping them. Omit a section entirely only if nothing clears the bar.
 - **opportunities** — ids from the digest's `opportunities` section: real
   things worth showing up to / applying to (events, fellowships, hackathons),
   national + local (Jaipur/Delhi-NCR) + a few must-attend global ones. Only

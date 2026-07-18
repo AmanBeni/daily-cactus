@@ -1,0 +1,59 @@
+# Housekeeping: delete stale routine branches.
+#
+# Every routine run pushes its draft/selection to a fresh `claude/*` branch and
+# nothing ever deletes them — 23 had accumulated by 2026-07-18, and Option B
+# creates TWO per day (selector + writer). The drafts on them are disposable:
+# what actually matters is the PUBLISHED EDITION on gh-pages, which is
+# immutable and independent of these branches.
+#
+# Safety: only ever touches refs matching `claude/*`, never main/gh-pages, and
+# only those with no commit in the last RETAIN_DAYS days (so an in-flight run
+# or a branch you're still inspecting is never removed).
+name: Prune stale routine branches
+
+on:
+  schedule:
+    - cron: '30 2 * * 0'      # Sundays, 08:00 IST — well clear of the daily run
+  workflow_dispatch:
+    inputs:
+      retain_days:
+        description: 'Delete claude/* branches with no commit in the last N days'
+        required: false
+        default: '7'
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete stale claude/* branches
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const retainDays = parseInt('${{ github.event.inputs.retain_days || '7' }}', 10);
+            const cutoff = Date.now() - retainDays * 24 * 60 * 60 * 1000;
+            const protectedNames = new Set(['main', 'gh-pages']);
+
+            const branches = await github.paginate(
+              github.rest.repos.listBranches, { owner: context.repo.owner, repo: context.repo.repo, per_page: 100 }
+            );
+
+            let deleted = 0, kept = 0;
+            for (const b of branches) {
+              if (protectedNames.has(b.name) || !b.name.startsWith('claude/')) { continue; }
+              // Age is judged by the branch tip's commit date, so a branch that
+              // is still being written to is never eligible.
+              const commit = await github.rest.repos.getCommit({
+                owner: context.repo.owner, repo: context.repo.repo, ref: b.commit.sha,
+              });
+              const when = new Date(commit.data.commit.committer.date).getTime();
+              if (when >= cutoff) { kept++; core.info(`keep  ${b.name} (recent)`); continue; }
+              await github.rest.git.deleteRef({
+                owner: context.repo.owner, repo: context.repo.repo, ref: `heads/${b.name}`,
+              });
+              deleted++;
+              core.info(`prune ${b.name}`);
+            }
+            core.notice(`Pruned ${deleted} stale claude/* branch(es); kept ${kept} recent. main/gh-pages untouched.`);

@@ -325,3 +325,34 @@ was already deployed earlier; the renderer now styles those flags properly.
 
 **Back-compat:** the real published 2026-07-18 edition renders cleanly at 1440px
 — 54 stories, 3 columns, 0 empty figures, no console errors.
+
+## Batch C — DONE (2026-07-19)
+
+**P8 also-rail (fixed, both ends).** (1) `fetch_selected.collect_ids()` now
+returns `(ids, lite_ids)`: an id that appears ONLY in an `also` rail is "lite"
+and SKIPS the full-article fetch — it becomes a one-liner, so a whole article
+was pure waste of bandwidth and writer context. It still gets an entry from the
+digest snippet. An id that is also a full card anywhere keeps its full fetch
+(unit-tested). (2) `ROUTINE_PROMPT_A.md` now pushes the rail explicitly — it
+returned EMPTY for every section on 2026-07-18, defeating its purpose; sections
+with more worthwhile stories than card slots must put the remainder here rather
+than drop them.
+
+**P10 branch pile-up (fixed).** New `.github/workflows/prune_branches.yml`:
+weekly (Sun 08:00 IST) + manual, deletes `claude/*` branches with no commit in
+the last 7 days. Only ever matches `claude/*`; main and gh-pages are explicitly
+protected; age is judged from the branch tip's commit date so an in-flight run
+is never touched. Editions on gh-pages are immutable and independent of these
+branches, so nothing of value is lost.
+
+**P10 HBR feed** — left as-is, already labelled `[FLAKY]`. It is a real,
+intermittent upstream SSL fault (not our bug) and the only remaining feed
+failure; it degrades gracefully.
+
+**Still open / to verify on the next run:**
+- P3: confirm full-article text now reaches the writer (the Databricks-style
+  "why" should appear). The select.yml push bug was fixed in cf0f5e9 but has
+  not yet been exercised by a real run.
+- P9: confirm Routine A honours the 45-id cap (it picked 63 on 2026-07-18).
+- Re-measure the share of summaries containing a number (was 31/54) now that
+  full text should be arriving.
