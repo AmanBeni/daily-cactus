@@ -241,6 +241,23 @@ function storyCardHTML(s, opts) {
         ${meta}`;
 
   if (opts.lead) {
+    // A lead WITH a photo: text left, photo right (the classic arrangement).
+    // A lead WITHOUT a photo: rather than leave ~950px of dead space beside a
+    // capped text column, move The Signal / Editor's Read into that right-hand
+    // column. The lead keeps its two-column shape either way — the analysis
+    // fills the slot the photo would have occupied.
+    if (!s.image) {
+      const leftBlock = `
+        ${kicker.join("")}
+        <h5>${headlineHTML}</h5>
+        ${keyStatHTML(s)}
+        <p class="summary">${summaryHTML(s.summary)}</p>
+        ${meta}`;
+      return `<${tag} class="${cls.join(" ")}" id="${esc(opts.anchorId)}" style="--tabc:var(--${tabVar})">
+        <div class="lead-main">${leftBlock}</div>
+        <div class="lead-side">${bodyHTML(s, tabVar)}</div>
+      </${tag}>`;
+    }
     return `<${tag} class="${cls.join(" ")}" id="${esc(opts.anchorId)}" style="--tabc:var(--${tabVar})">
       <div>${textBlock}</div>
       ${figureHTML(s, true)}

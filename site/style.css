@@ -39,7 +39,7 @@ a{color:inherit}
    Now fluid up to 1600px. Prose blocks inside cards keep their own ch-based
    caps (see .story p / .signal below) so wider cards never mean unreadably
    long lines — the card grows, the text column doesn't. */
-.wrap{max-width:min(1600px,94vw);margin:0 auto;padding:32px clamp(16px,2.5vw,40px) 96px}
+.wrap{max-width:min(2200px,96vw);margin:0 auto;padding:32px clamp(16px,2vw,40px) 96px}
 
 /* ---------- masthead ---------- */
 .masthead{text-align:center;margin-bottom:8px}
@@ -84,6 +84,10 @@ nav#nav .sep{color:var(--rule)}
 .grid2{display:grid;grid-template-columns:1fr;gap:24px;margin-top:24px}
 @media(min-width:900px){.grid2{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1400px){.grid2{grid-template-columns:repeat(3,1fr)}}
+/* 4th column on a genuinely wide monitor — without it, 3 cards stretched across
+   2200px give ~700px-wide cards and ~90-char lines. More columns keeps each
+   card's measure comfortable while actually using the width. */
+@media(min-width:1900px){.grid2{grid-template-columns:repeat(4,1fr)}}
 
 .story.lead-story{grid-column:1/-1;display:grid;grid-template-columns:1.25fr .85fr;
   gap:24px;align-items:start}
@@ -92,12 +96,17 @@ nav#nav .sep{color:var(--rule)}
 @media(max-width:899px){.story.lead-story{grid-template-columns:1fr}}
 /* P5: a lead with NO image must reflow to one full-width text column rather
    than leaving an empty half. app.js adds .no-figure when it renders no photo. */
-.story.lead-story.no-figure{grid-template-columns:1fr}
+/* A lead with no photo KEEPS the two-column shape: prose left, The Signal /
+   Editor's Read right (app.js emits .lead-main + .lead-side). Previously this
+   collapsed to one column and left ~950px of dead space at 1920px. */
+.story.lead-story.no-figure{grid-template-columns:1.05fr .95fr}
+@media(max-width:899px){.story.lead-story.no-figure{grid-template-columns:1fr}}
 /* NB: Georgia's `ch` (width of "0") is ~1.23x its average glyph width, so a
    78ch cap measured ~96 real characters per line at 1920px — well past the
-   66-75 comfortable range. 58ch lands at ~72. Measured, not guessed. */
-.story.lead-story.no-figure .summary,
-.story.lead-story.no-figure p{max-width:58ch}
+   66-75 comfortable range. Measured, not guessed. */
+.story.lead-story .lead-main .summary,
+.story.lead-story .lead-main p{max-width:57ch}
+.story.lead-story .lead-side .signal{max-width:none}
 
 .story{scroll-margin-top:64px}
 .story h5{font-family:var(--serif);font-size:22px;line-height:1.25;margin:8px 0;
@@ -208,8 +217,18 @@ a.sk:hover{background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.
 .brief-card{margin-top:24px}
 .brief-card h4{font-family:var(--stamp);font-size:13px;letter-spacing:2.5px;
   text-transform:uppercase;margin:0 0 8px}
+/* The brief is 8-12 short one-liners. On a wide screen a single 76ch column
+   left ~770px empty beside it, so it flows into 2 (then 3) columns instead —
+   fills the width AND makes the whole brief scannable in fewer eye-sweeps.
+   break-inside:avoid keeps an item from splitting across a column. */
 .brief-card ol{margin:0;padding-left:22px;max-width:76ch}
-.brief-card li{margin-bottom:8px;font-size:15.5px}
+@media(min-width:1200px){
+  .brief-card ol{max-width:none;columns:2;column-gap:48px}
+}
+@media(min-width:1900px){
+  .brief-card ol{columns:3;column-gap:52px}
+}
+.brief-card li{margin-bottom:8px;font-size:15.5px;break-inside:avoid}
 .brief-card li::marker{font-family:var(--stamp);color:var(--red)}
 
 /* ---------- opportunities ---------- */
