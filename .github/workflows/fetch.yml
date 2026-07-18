@@ -62,7 +62,7 @@ jobs:
         run: |
           git config user.name  "Daily Cactus Bot"
           git config user.email "bot@dailycactus.local"
-          git add feeds/latest.json feeds/digest.json feeds/refs.json feeds/refs/ feeds/markets.json feeds/feed_stats.jsonl
+          git add feeds/latest.json feeds/digest.json feeds/digest_lean.json feeds/refs.json feeds/refs/ feeds/markets.json feeds/feed_stats.jsonl
           # Only commit if something actually changed
           git diff --staged --quiet || git commit -m "Fetch feeds $(date -u +%Y-%m-%dT%H:%MZ)"
           git push

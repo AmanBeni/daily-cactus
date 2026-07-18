@@ -112,8 +112,18 @@ jobs:
           git config user.name  "Daily Cactus Bot"
           git config user.email "bot@dailycactus.local"
           git add feeds/selected/
-          git diff --staged --quiet || git commit -m "Full-text fetch for $(echo ${{ steps.changed.outputs.dates }} | tr ' ' ',')"
-          git diff --staged --quiet && echo "Nothing new to commit." || git push
+          # NB: must be if/else, not two chained `git diff --staged` tests. The
+          # commit consumes the staged changes, so a second `--quiet` check then
+          # reports "clean" and short-circuits the push away — that bug silently
+          # dropped the 2026-07-18 full-text file (committed on the runner, never
+          # pushed), forcing Routine B onto its digest.json fallback.
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Full-text fetch for $(echo ${{ steps.changed.outputs.dates }} | tr ' ' ',')"
+            git push
+            echo "Pushed feeds/selected to main."
+          fi
 
       - name: Open a health issue on fetch failure
         if: always() && steps.fetch.outputs.failed == '1'

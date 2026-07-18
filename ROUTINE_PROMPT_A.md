@@ -75,8 +75,12 @@ supply story IDs and structure — no headlines, no summaries, no prose.**
   event, a big cultural or world moment) into `sections` under
   `"slug": "beyond-your-beat"` if they clear the bar; skip if nothing does.
 
-Total selection across everything should typically land around 25-40 ids —
-enough for a substantive, honest paper, not everything in the digest.
+**HARD CAP: never select more than 45 ids in total** (lead + frontpage +
+every section's `stories` and `also` + opportunities + longform, counted
+together). Aim for 30-40 on a normal day. This is a real budget, not a
+guideline: a later step fetches the FULL article for every id you pick, and the
+writing routine re-reads all of it, so over-selecting directly inflates cost.
+If more than 45 clear the bar, keep the strongest — that IS the editing job.
 
 ## The selection schema (write EXACTLY this shape)
 ```json
