@@ -292,3 +292,36 @@ before this fix), all forward-dated. 5 samples with links:
 - `ROUTINE_PROMPT_A.md` (Option B's Stage-1 selector prompt) was NOT touched —
   the brief scoped the relative-date rule to `ROUTINE_PROMPT.md` and
   `ROUTINE_PROMPT_B.md` only.
+
+---
+
+## Batch B — DONE (2026-07-19), verified in-browser
+
+**P4 layout (fixed).** `.wrap` was a hard `max-width:1060px`; now
+`min(1600px,94vw)` with fluid padding. Grid is 1 col (<900px) → 2 col
+(900-1400) → 3 col (>1400). The lead spans the full row and now stacks at
+899px (was 720px) so it never sits in a cramped split.
+Readability guard, MEASURED not assumed: a first attempt capped the image-less
+lead at `78ch`, which rendered ~96 real characters per line at 1920px — Georgia's
+`ch` (width of "0") is ~1.23x its average glyph width. Retuned to `58ch` = **73
+real chars**. Section cards measure **58 chars**. Both inside the 66-75 target.
+Verified: 1920px → 3 cols, 1440 → 3, 1100 → 2, 375 → 1; **no horizontal scroll
+at any width**; wrap maxes at 1600px.
+
+**P5 empty photo frame (fixed).** `figureHTML()` now renders NOTHING when a
+story has no image (lead included), and `imgErr()` REMOVES a broken figure
+instead of swapping in the grey "no photo" cactus box. An image-less lead gets
+`.no-figure` and reflows to a single full-width text column. The cactus SVG is
+retained for the masthead/colophon only. Verified: **0 empty figures** on both
+the fixture and the real 2026-07-18 edition (54 stories).
+
+**P6 unreachable flags (renderer done).** `summaryHTML()` detects the trailing
+provenance flags and wraps them in `<span class="src-flag">` (muted + italic).
+Escape-first-then-wrap, so it cannot inject markup. Unit-tested: both flags
+wrap; `"Apple beats Nvidia (NYSE: AAPL)"` is NOT falsely flagged; an
+`<img onerror=...>` payload is neutralised. Renders 2/2 flags in the fixture.
+NOTE: the prompt side of P6 (make flagging the default, dropping the exception)
+was already deployed earlier; the renderer now styles those flags properly.
+
+**Back-compat:** the real published 2026-07-18 edition renders cleanly at 1440px
+— 54 stories, 3 columns, 0 empty figures, no console errors.
