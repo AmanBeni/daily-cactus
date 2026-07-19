@@ -5,6 +5,8 @@
 > don't accumulate. Keep this file under 40 lines; it rides every routine turn.
 
 ## More of
+<!-- AUTO-FEEDBACK:START -->
+<!-- AUTO-FEEDBACK:END -->
 - Numbers: funding size, %, dates, scale — every summary that can carry a
   concrete figure must.
 - India angle on global stories, stated explicitly, only when genuinely there.
