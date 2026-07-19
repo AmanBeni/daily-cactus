@@ -1,0 +1,633 @@
+{
+  "date": "2026-07-19",
+  "brief": [
+    { "id": "india-deep-tech-ce954dbe30", "line": "Skyroot's Vikram-1 becomes India's first private orbital rocket, joining only the US and China" },
+    { "id": "india-a7b544c503", "line": "US scraps open-ended F-1 status, hard deadline now hits 300,000+ Indian students from Sept 15" },
+    { "id": "world-5212a67cda", "line": "Ukrainian drones kill 8 in strikes on Russia's Wildberries warehouses" },
+    { "id": "ai-80ddfeeeb7", "line": "China's Kimi K3 tops a coding leaderboard, rattles US AI industry and stocks" },
+    { "id": "indian-startups-94c8f32cd7", "line": "Indian startups raise $346M in a week, up 332% YoY, on Udaan and Emergent" },
+    { "id": "world-1ed149e757", "line": "Activist Sonam Wangchuk forcibly hospitalized after 20-day hunger strike" },
+    { "id": "climate-energy-dbd81bc235", "line": "India's H1 2026 renewable capacity additions jump 25% to 13.3 GW" },
+    { "id": "beyond-your-beat-938f73616c", "line": "India launches its first domestically-built hydrogen train in Haryana" },
+    { "id": "india-deep-tech-42f2229f7d", "line": "Agnikul plans India's first sea recovery of a reusable rocket booster" },
+    { "id": "india-0d77a47f19", "line": "1991's secret gold airlift, and the software boom liberalisation didn't actually create" },
+    { "id": "indian-startups-ab8f319952", "line": "Nuclear-SMR startup Valar Atomics in talks to raise at a $6B valuation" },
+    { "id": "global-economics-a62b9c3b42", "line": "South Korea's chip exports jump 71% YoY as its central bank hikes rates on AI-boom risk" }
+  ],
+  "lead": {
+    "id": "india-deep-tech-ce954dbe30",
+    "headline": "Skyroot's Vikram-1 becomes India's first private orbital rocket, joining only the US and China",
+    "summary": "Skyroot Aerospace's Vikram-1 lifted off from Sriharikota at 12:05pm IST on July 18 and reached low Earth orbit (450km/280 miles) in a 16-minute flight, making India just the third country, after the US and China, with a private company capable of orbital launches. The seven-storey, four-stage rocket carries up to 350kg to LEO and deployed six payloads on this test flight, including a robotic debris-removal arm, an Earth-observation satellite, a German tech-demo payload, and two symbolic pieces: a lab-grown-diamond lotus and a gold micro-sculpture rocket honoring Vikram Sarabhai, CV Raman and APJ Abdul Kalam. Skyroot became India's first space-tech unicorn this year at a $1.1B valuation and says it can build one rocket a month at its Hyderabad factory; one more test flight is planned this year before commercial service starts. CEO Pawan Kumar Chandana frames the pitch as a 'cab service to space,' booking a dedicated small-sat launch instead of waiting months or years for a shared ride on a bigger rocket, and expects 70-80% of demand to come from the global market rather than India's own space program.",
+    "signal": [
+      "India crosses a genuine capability threshold: private orbital launch, following only the US and China.",
+      "Skyroot's dedicated small-sat model (like Rocket Lab in the US) targets a mostly global customer base (70-80%), not domestic demand.",
+      "Reinforces the deep-tech-startup thesis: a 2018 ISRO-alumni spinout is now a unicorn with monthly production capacity."
+    ],
+    "key_stat": "$1.1B unicorn - 3rd country with private orbital launch",
+    "editors_read": "This is the proof point India's private-space bulls have been waiting for: a working orbital vehicle, not just plans. Watch whether Skyroot can convert this into recurring commercial contracts, the harder problem than the launch itself, and whether India's launchpad capacity scales alongside more entrants like Agnikul. For a reader tracking India's deep-tech ecosystem, this is the clearest recent evidence that hard-tech, not just SaaS, can produce Indian unicorns, worth watching who Skyroot hires and whether the supplier/customer ecosystem around it thickens.",
+    "developing": false,
+    "badge": ""
+  },
+  "frontpage": [
+    {
+      "id": "india-a7b544c503",
+      "headline": "US ends open-ended F-1 status, threatening 300,000+ Indian students",
+      "summary": "The US Department of Homeland Security has scrapped 'duration of status' for F-1 student and J exchange visas, replacing indefinite stay-while-enrolled with a fixed admission period (up to four years initially), effective September 15, after this fall's admissions cycle is largely done. Students needing longer programs (PhD, medical, research) must now formally petition USCIS for an extension, and the post-graduation grace period to leave or change status is halved from 60 to 30 days. As of January 2025 about 300,000 Indian students were in the US, mostly in STEM master's programs, and 90,129 Indians got F visas in 2024. The 12-month OPT and 24-month STEM OPT extension remain in place, but immigration lawyers say the interaction between the new fixed admission window and OPT timing has not yet been fully addressed in the rule. DHS frames it as closing a loophole that let people perpetually re-enrol to stay indefinitely; attorneys warn it adds filing costs, planning risk, and could dent the US's draw for global talent.",
+      "signal": [
+        "Doesn't block this fall's intake, but from mid-September onward every Indian F-1 student inherits a hard clock and new USCIS paperwork.",
+        "OPT/STEM-OPT survive on paper, but lawyers flag unresolved edge cases exactly where the fixed admission window meets the OPT period.",
+        "For anyone weighing a US master's or PhD as part of a pivot: budget for extension filings and a tighter timeline versus other destinations."
+      ],
+      "editors_read": "This tightens the US's biggest international-student pipeline right as competition for global AI/tech talent intensifies. Watch whether the messy OPT-timing interaction becomes a real crisis for students already mid-program, and whether it nudges more Indian STEM talent toward the UK, Canada or staying home, where India's own AI-infrastructure and deep-tech hiring is still thin. For a reader weighing US grad school as part of an AI-generalist pivot, this is a real data point against that path, not just noise.",
+      "developing": true
+    },
+    {
+      "id": "world-5212a67cda",
+      "headline": "Ukrainian drones kill 8, hit Russia's Amazon-equivalent Wildberries",
+      "summary": "Ukrainian drone strikes on two Wildberries warehouses killed 8 and injured 62 total: 7 dead and 25 injured in Tambov, 1 dead and 37 injured in Elektrostal near Moscow, with 28 and 48 drones respectively shot down over the two regions. Wildberries, Russia's largest online retailer (merged with ad firm Russ into the RWB group, valued at roughly $12.6bn by Forbes Russia in 2026), is described by Ukraine's security chair Serhii Kuzan as a 'vital component' of Russian military logistics, used by volunteers to buy walkie-talkies, body armor and drone parts. Zelensky said the strikes hit 'major logistics facilities' supplying sanctioned components, and confirmed parallel strikes on a Russian oil facility and targets in Crimea, the Black Sea and the Sea of Azov. Ukraine claims nearly 43% of Russia's oil refining capacity has been disabled this year by long-range strikes, unverified by the BBC; Putin admitted in June the strikes have caused domestic fuel shortages.",
+      "signal": [
+        "Ukraine is explicitly targeting dual-use civilian logistics/e-commerce infrastructure, not just military sites, a notable escalation in target selection.",
+        "Russia's fuel-shortage admission from Putin himself suggests these strikes have real economic bite, not just symbolic value.",
+        "Useful context for anyone tracking oil markets or India's discounted-Russian-crude trade: supply-disruption risk is rising."
+      ]
+    },
+    {
+      "id": "ai-80ddfeeeb7",
+      "headline": "China's Kimi K3 rattles the US AI industry, tops a coding leaderboard",
+      "summary": "Moonshot AI's Kimi K3, released Thursday, hit #1 on the widely-watched Arena coding-model ranking within hours, the first time a Chinese model has topped that leaderboard, and independent evaluators (Arena.ai, Vals AI) rate it competitive with frontier proprietary models, even as Moonshot itself says it 'still trails' Claude Fable 5 and GPT 5.6 Sol. The release landed alongside Xi Jinping's speech at Shanghai's World AI Conference and knocked the Nasdaq down about 1% Friday as chip stocks, including Nvidia, sold off. It's triggering a rerun of the DeepSeek-R1 moment from January 2025, but louder: former Trump AI czar David Sacks used it to attack US AI regulation, saying banning data centers is 'how you lose the AI race,' and called Anthropic's Claude a 'woke lobotomized model'; ex-Uber CEO Travis Kalanick reprised distillation complaints; OpenAI's Dean Ball called Kimi 'a very good model' not explainable by distillation alone, and predicted Washington will quietly manufacture 'regulatory risk' around Chinese open models rather than ban them outright. Arena's Anastasios Angelopoulos said the release could force investors to question whether US closed-source labs can keep charging premium prices when a free, customizable Chinese alternative performs this well.",
+      "signal": [
+        "The open-weight versus closed-source cost argument just got a serious data point: Kimi K3 is free, customizable and reportedly competitive.",
+        "Washington's likely playbook per Ball: not an outright ban, but manufactured regulatory risk to scare regulated enterprises off Chinese models.",
+        "For an AI-generalist pivot: the moat story for US labs is getting shakier in public discourse, which matters for how you read valuations and hiring at those labs versus the open-source ecosystem."
+      ],
+      "editors_read": "This is less about one model's benchmark score and more about the second consecutive DeepSeek-style shock to the assumption that US labs have a durable technical lead. If regulatory FUD becomes the US's actual strategy rather than open competition, that is itself a signal worth tracking for anyone building on or evaluating AI infrastructure choices, since it could reshape which models are viable to build on inside regulated industries regardless of raw capability.",
+      "developing": true
+    },
+    {
+      "id": "indian-startups-94c8f32cd7",
+      "headline": "Indian startups raise $346M in a week, up 332% YoY, on two mega-deals",
+      "summary": "Indian startups raised $346.2M across 20 deals in the week to July 18, up 331.7% year-on-year and 51.7% week-on-week, one of 2026's strongest weeks, but concentrated in just two rounds: B2B platform Udaan's $160M (equity plus debt and debt-to-equity conversion) and AI company Emergent's $130M Series C (Creaegis, Claypond Capital, MNI Ventures), which made Emergent a new unicorn. Late-stage deals were 85.3% of the week's total. Smaller rounds: Neo Wealth & Asset Management raised $36.3M (about Rs 350cr) Series C led by Peak XV; also funded were Quick Clean, Vorflux, Reo.Dev, Naturis Cosmetics and E3 Electric AI, plus seed-stage Anmasa, BiofuelCircle and cooling-tech startup KuhlTherm, which builds precision liquid cooling for HPC/AI data centers.",
+      "signal": [
+        "Capital is concentrating into fewer, bigger, later-stage bets, not broad-based recovery; early-stage founders face a higher bar for proof of execution before cheques get written.",
+        "AI infrastructure and enterprise plays (Emergent, KuhlTherm's data-center cooling) are pulling disproportionate investor attention over consumer AI."
+      ]
+    },
+    {
+      "id": "world-1ed149e757",
+      "headline": "Activist Sonam Wangchuk forcibly hospitalized after 20-day hunger strike",
+      "summary": "Educationist and activist Sonam Wangchuk, on hunger strike for 20 days on water and salt only, having lost more than 9kg, was forcibly removed by police from his Delhi protest site on Saturday and taken to Safdarjung Hospital, which says he is alert and stable but dehydrated. He had been supporting the Cockroach Janta Party (CJP), an online satirical movement demanding Education Minister Dharmendra Pradhan's resignation over a leaked NEET medical-entrance exam paper; CJP founder Abhijeet Dipke has now begun his own indefinite fast and vowed the planned July 20 march to Parliament will proceed, now also demanding PM Modi's resignation. Opposition MPs called the removal 'shocking coercive state violence'; Delhi's former CM Arvind Kejriwal had visited Wangchuk days earlier urging government engagement. The removal followed a Delhi High Court order requiring the government to monitor Wangchuk's health.",
+      "signal": [
+        "A protest that started as an online satire movement over exam-paper leaks has escalated to forced hospitalization and resignation demands aimed at the PM, worth tracking whether Monday's march happens and how the state responds.",
+        "A real governance and civil-liberties signal, not a story with a direct career or business angle for this reader."
+      ],
+      "developing": true
+    },
+    {
+      "id": "climate-energy-dbd81bc235",
+      "headline": "India's H1 2026 renewable capacity additions up 25% to 13.3 GW",
+      "summary": "India added about 13.3 GW of renewable capacity in January-June 2026, up from about 10.6 GW in the same period last year, a 25% rise, driven mainly by utility-scale and rooftop solar, cheaper and faster to install than wind, with steady policy support from auctions and clear targets cited as a factor. Challenges flagged: land access, transmission readiness, grid connectivity and storage remain bottlenecks that could cap how much of this new capacity actually reaches consumers.",
+      "signal": [
+        "Encouraging trendline, but the source is light on hard numbers beyond the topline GW figures, treat as directional.",
+        "The land, grid and storage caveat is the real story to watch: capacity additions without matching grid buildout is where India's renewable story has stumbled before."
+      ]
+    },
+    {
+      "id": "beyond-your-beat-938f73616c",
+      "headline": "India launches its first domestically built hydrogen train",
+      "summary": "PM Modi inaugurated the 'NaMo Green Rail,' India's first domestically-built hydrogen-powered train, at Jind railway station in Haryana. It runs two hydrogen-powered driving cars plus eight passenger coaches, tops out at 75 kph, and carries up to about 2,600 passengers; the pilot includes hydrogen storage and refuelling infrastructure to test the technology across the rail network. Hydrogen fuel cells combine hydrogen and oxygen to generate electricity, emitting only water vapor, positioned as a diesel alternative on routes that aren't electrified, part of India's push toward net-zero by 2070.",
+      "signal": [
+        "A symbolic milestone more than an economic one so far: one pilot train, not yet a fleet decision.",
+        "Worth watching whether Indian Railways commits to hydrogen at scale versus sticking with electrification."
+      ]
+    },
+    {
+      "id": "global-economics-3b5db83d59",
+      "headline": "RBI Governor flags West Asia tensions and a weak monsoon as growth risks",
+      "summary": "The RBI Governor warned that tensions in West Asia and an uncertain monsoon threaten India's growth outlook, per KNN India (source unreachable, headline only).",
+      "signal": [
+        "Headline-only; worth checking a fuller readout of the Governor's remarks before drawing conclusions."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": [
+        {
+          "id": "ai-7b07860f68",
+          "headline": "AI earnings season shows real revenue, and India's chip shortage is its AI bottleneck",
+          "summary": "This earnings season is producing what enterprise AI buyers have waited two years for: recognized AI revenue in quarterly results, not pipeline projections, per tech strategist Dan Ives on CNBC. Simultaneously, competition is shifting from ever-larger foundation models toward cheaper, more efficient inference, which should lower total cost of ownership for enterprise AI deployments and give CIOs renegotiating leverage. Separately, Bloomberg's Emerging series framed India's AI position as a trilemma: deep engineering talent and data scale, but no control over advanced AI chips, a bottleneck flagged by Fractal Analytics co-founder Srikanth Velamakanni and IIT-Bombay's Ganesh Ramakrishnan. Without chip access, India can't guarantee independent frontier AI service delivery regardless of software or talent quality.",
+          "signal": [
+            "If you're evaluating or building on AI vendor contracts, the efficiency shift is a real negotiating lever now: ask for a roadmap on cost-per-inference, not just capability.",
+            "India's AI-sovereignty story keeps hitting the same wall: talent and data don't substitute for chip access, relevant if your pivot touches India's AI-infra layer."
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-80ddfeeeb7",
+          "headline": "China's Kimi K3 rattles the US AI industry, tops a coding leaderboard",
+          "summary": "Moonshot AI's Kimi K3, released Thursday, hit #1 on the widely-watched Arena coding-model ranking within hours, the first time a Chinese model has topped that leaderboard, and independent evaluators (Arena.ai, Vals AI) rate it competitive with frontier proprietary models, even as Moonshot itself says it 'still trails' Claude Fable 5 and GPT 5.6 Sol. The release landed alongside Xi Jinping's speech at Shanghai's World AI Conference and knocked the Nasdaq down about 1% Friday as chip stocks, including Nvidia, sold off. Former Trump AI czar David Sacks used it to attack US AI regulation, calling Anthropic's Claude a 'woke lobotomized model'; ex-Uber CEO Travis Kalanick reprised distillation complaints; OpenAI's Dean Ball called Kimi 'a very good model' not explainable by distillation alone, and predicted Washington will quietly manufacture 'regulatory risk' around Chinese open models rather than ban them outright. Arena's Anastasios Angelopoulos said the release could force investors to question whether US closed-source labs can keep charging premium prices when a free, customizable Chinese alternative performs this well.",
+          "signal": [
+            "The open-weight versus closed-source cost argument just got a serious data point.",
+            "Washington's likely playbook: manufactured regulatory risk rather than an outright ban on Chinese models."
+          ],
+          "developing": true
+        },
+        {
+          "id": "ai-d20ffc9f0f",
+          "headline": "VC Neil Rimer: AI wealth concentration ends in redistribution, voluntary or not",
+          "summary": "Index Ventures co-founder Neil Rimer, whose firm has raised about $15B from investors and whose Figma IPO and Google-Wiz deal alone netted it roughly $9B last year, argues AI-driven wealth concentration will eventually be redistributed, voluntarily or involuntarily. Context: Giving Pledge signings collapsed from 113 families in its first year to just 4 in all of 2024; total US charitable giving hit a record $592.5B in 2024 even as the share of Americans who donate fell to about 50% (from two-thirds in 2000) for five straight years. Anthropic matches employee donations up to 25% of equity, but a financial planner told Business Insider most newly-wealthy Anthropic employees are focused on angel investing and new startups, not philanthropy. Forbes counted 45 new AI billionaires in 2026 worth $2.9 trillion combined, before Anthropic or OpenAI have even IPO'd; once they do, their combined employees could reportedly buy nearly a third of San Francisco-area homes. The top 1% of US households hold 31.7% of wealth, a record since 1989, and America's largest fortunes are worth 14% of GDP today versus 4% for the top four in 1910. California's ballot this year includes a proposed one-time 5% wealth tax on billionaires; some, including Sergey Brin and Larry Page, have already moved primary residency to Florida.",
+          "signal": [
+            "Useful context on the scale of AI wealth creation, but not personally actionable beyond understanding the macro backdrop to AI-industry hiring and compensation.",
+            "Worth remembering next time an AI lab's compensation or equity-matching policy comes up: it's part of a live political argument about whether tech wealth gets shared voluntarily or taxed."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "ai-26fa6367e1",
+          "headline": "Anand Mahindra: AI will transform, not replace, India's IT services industry",
+          "summary": "Tech Mahindra chairman Anand Mahindra told the company's AGM that AI won't gut Indian IT services because enterprises will need trusted partners to integrate AI securely amid legacy systems, fragmented data and regulation, a familiar every-tech-shift-creates-new-opportunity argument. He compared it to the smartphone era: value comes from the ecosystem built around a technology, not the technology alone, and argued a firm's durable edge will increasingly come from proprietary data, domain expertise and workflows, exactly what an AI integrator like Tech Mahindra sells.",
+          "signal": [
+            "Read this as an IT-services incumbent's argument for its own relevance, not a neutral forecast, worth weighing against layoff and hiring data from the sector.",
+            "If your pivot involves India's IT-services complex, 'AI as integration opportunity, not existential threat' is the industry's consensus talking point right now."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "ai-492244d94d", "line": "Delta Electronics proposes an AI plus renewable-energy microgrid testing centre (ARIVAM) in Tamil Nadu" },
+        { "id": "ai-fd74210b3d", "line": "NTA warns of legal action over fake AI-generated OMR sheets in the NEET re-exam row" }
+      ]
+    },
+    {
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "id": "india-deep-tech-ce954dbe30",
+          "headline": "Skyroot's Vikram-1 becomes India's first private orbital rocket, joining only the US and China",
+          "summary": "Skyroot Aerospace's Vikram-1 lifted off from Sriharikota at 12:05pm IST on July 18 and reached low Earth orbit in a 16-minute flight, making India just the third country, after the US and China, with a private company capable of orbital launches. The seven-storey rocket carries up to 350kg to LEO and deployed six payloads, including a debris-removal robotic arm, an Earth-observation satellite, and a diamond-and-gold symbolic tribute to Vikram Sarabhai, CV Raman and APJ Abdul Kalam. Skyroot is India's first space-tech unicorn ($1.1B valuation) and says it can build one rocket a month at its Hyderabad factory. CEO Pawan Kumar Chandana frames the pitch as a 'cab service to space': a dedicated small-sat launch instead of a months-long wait for a shared rideshare slot, with 70-80% of expected demand coming from global, not domestic, customers.",
+          "signal": [
+            "India crosses a genuine capability threshold, joining only the US and China in private orbital launch.",
+            "The dedicated small-sat model targets mostly global demand, not India's own space program."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-c6c5aeb54a",
+          "headline": "Vikram-1's payload manifest: a debris-removal arm, a German tech demo, ISRO praise",
+          "summary": "Beyond the headline launch, Vikram-1's Aagaman mission carried a distinct set of customer payloads deployed at 450km altitude: a technology demonstration from Germany's DCUBED, the Solaras S3 nanosatellite pathfinder from Indian startup Grahaa Space, and Embrace, a robotic arm built by Indian company Cosmoserve Space specifically to capture space debris. Skyroot's own SCOPE satellite collected flight-performance data. Lt. Gen. AK Bhatt (retd.), Director General of the Indian Space Association, called it 'a defining milestone,' saying Skyroot has 'shattered legacy boundaries' by proving domestic industry can handle end-to-end space missions; the launch hit its target orbit about 17 minutes after liftoff on a solid-fuel first stage.",
+          "signal": [
+            "The debris-removal payload from Cosmoserve is arguably the more consequential long-term story than the launch itself: orbital debris management is a real, underbuilt market.",
+            "Shows India's private space stack going multi-layer fast: launcher, satellite maker and debris-tech firm all flying together on one mission."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-51a55daca0",
+          "headline": "Why Vikram-1 is different: a 3D-printed rocket engine cuts cost and parts by 80%",
+          "summary": "Skyroot's engine, Raman, is fully 3D-printed rather than forged and welded from dozens of parts: a laser fuses metal powder layer by layer into one piece. When Skyroot test-fired Raman in 2020, the company said the printed injector halved mass and cut components and lead time by 80% versus conventional manufacture, because a single printed piece eliminates the bolts, seals and joints where traditional engines tend to leak or fail.",
+          "signal": [
+            "The manufacturing method is the durable competitive edge here, not any single launch: faster, cheaper iteration cycles compound over many rocket builds.",
+            "Relevant if you're evaluating India's deep-tech manufacturing base more broadly: additive manufacturing maturity is a transferable capability beyond aerospace."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-42f2229f7d",
+          "headline": "Agnikul plans India's first sea recovery of a reusable rocket booster",
+          "summary": "Chennai-based Agnikul Cosmos has announced Mission 02, no launch date set yet, which will attempt India's first recovery of an orbital-class rocket booster from the sea, plus a convertible upper stage that stays active in orbit for further experiments instead of becoming debris after deploying its satellite. If it works, India joins a short list of reusable-launch players: SpaceX (Falcon 9, dozens of reuses), China (first successful sea-recovered orbital booster) and Japan's JAXA (still researching via RV-X and CALLISTO). Agnikul's Mission 01 flew from its own private launchpad at Sriharikota on 30 May 2024, using the company's single-piece 3D-printed semi-cryogenic Agnilet engine.",
+          "signal": [
+            "Reusability is the next real cost-reduction lever after Vikram-1's orbital-launch milestone: Agnikul, not Skyroot, is now the one to watch on that front.",
+            "No firm launch date yet, treat this as a roadmap item, not an imminent event."
+          ],
+          "developing": true
+        },
+        {
+          "id": "india-deep-tech-298fdc5e67",
+          "headline": "Singapore's pQCee raises $3.9M seed for post-quantum cybersecurity",
+          "summary": "Quantum-safe cybersecurity firm pQCee raised $3.9M in a seed round co-led by SGInnovate and Lotus One Investment, following a $2.8M round in 2022, to fund expansion into the US, Europe and the Middle East. Its products, SafeQuard encryption and QKDLite key-management middleware, are used by critical infrastructure, government and financial-sector clients to defend against 'harvest-now-decrypt-later' attacks, where data is stolen today to be decrypted once quantum computers are powerful enough. Partners include Thales, Microsoft, PQShield and Feitian; some regulations require critical systems to complete post-quantum migration by as early as 2030.",
+          "signal": [
+            "Not an Indian company, but relevant to this beat: post-quantum migration is turning into a real, regulation-driven enterprise spend category, not a lab curiosity."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "india-deep-tech-9eaa66b058", "line": "ISRO chairman says India's space-startup boom is creating jobs and boosting the space economy (source unreachable, headline only)" }
+      ]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "id": "deep-tech-a87a47c603",
+          "headline": "China's Biren bets on light-based 'supernodes' to match Nvidia at scale",
+          "summary": "Chinese chip design firm Biren Technology unveiled 'supernode' systems using near-packaged optics, integrating optical fibre closer to the chips, to link AI chips across a cluster, bypassing traditional interconnect limits; the architecture could scale up to 1,024 cards per cluster. It's part of a broader Chinese push to scale raw compute as models grow toward trillions of parameters and agentic AI adoption spreads.",
+          "signal": [
+            "Optical interconnect at this scale is a genuine engineering answer to the how-do-you-scale-past-Nvidia's-networking problem."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-20f2cbc347",
+          "headline": "Alibaba open-sources its chip software stack to challenge Nvidia's CUDA lock-in",
+          "summary": "Alibaba's chip unit T-Head is open-sourcing its proprietary software stack, SAIL, to lower the barrier for developers to move off Nvidia's CUDA ecosystem, which currently locks in most AI programmers to Nvidia hardware. T-Head says developers can adapt SAIL to mainstream AI frameworks in under seven days. This follows Huawei's 2025 open-sourcing of its own CANN platform for Ascend chips, a second major Chinese chipmaker now trying to erode the software moat that keeps AI developers tied to Nvidia.",
+          "signal": [
+            "The real China-US AI race increasingly runs through software and developer lock-in, not just raw chip performance."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-55bc1056c7",
+          "headline": "China AI summit: Global South needs equal compute access to avoid a digital divide",
+          "summary": "At Shanghai's World AI Conference, Tsinghua's Xue Lan called for international consensus and better interoperability between national AI governance systems to avoid fragmentation; Mongolia's former president Nambaryn Enkhbayar argued governance shouldn't restrict early-stage AI adoption in developing economies before they've had a chance to participate in the AI economy.",
+          "signal": [
+            "Useful context, not personally actionable: a geopolitical framing debate rather than a concrete policy shift yet."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-fbf6b10c99",
+          "headline": "China produced 40,000+ humanoid robots in H1 2026, projects 100,000+ for the year",
+          "summary": "At Shanghai's World AI Conference, China's humanoid-robotics leaders said the country produced about 20,000 humanoid robots last year, already surpassed 40,000 in H1 2026, and expects to exceed 100,000 for the full year. AgiBot co-founder Peng Zhihui said only China and the US currently combine advanced AI models, robot hardware and large-scale manufacturing needed to compete in embodied AI; the Shanghai-based Humanoid Robotics Innovation Center's chief scientist Jiang Lei claimed China already leads in manufacturing, datasets and training environments for embodied intelligence. More than 30 AgiBot robots were demonstrated, including wall-climbing and precision welding.",
+          "signal": [
+            "The 20,000 to 40,000-plus to 100,000 production ramp is the concrete number to remember: clear evidence China is scaling humanoid manufacturing, not just demoing prototypes.",
+            "Matches the deployment-over-demos bar: closer to real manufacturing scale-up than a lab showcase."
+          ],
+          "developing": true
+        }
+      ],
+      "also": [
+        { "id": "deep-tech-b182155169", "line": "India's semiconductor push: a look at why chips have become the defining strategic resource (thin source)" }
+      ]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "id": "climate-energy-dbd81bc235",
+          "headline": "India's H1 2026 renewable capacity additions up 25% to 13.3 GW",
+          "summary": "India added about 13.3 GW of renewable capacity in January-June 2026, up from about 10.6 GW a year earlier, a 25% rise, driven mainly by utility-scale and rooftop solar, with steady policy support cited as a factor. Land access, transmission readiness, grid connectivity and storage remain bottlenecks that could cap how much of this new capacity actually reaches consumers.",
+          "signal": [
+            "Encouraging trendline, but light on hard numbers beyond the topline GW figures.",
+            "The land/grid/storage caveat is the real story to watch."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-f991596925",
+          "headline": "Agrivoltaics could lift farmer income 40%+, but India has built only ~50 pilots",
+          "summary": "PM-KUSUM (2019-March 2026) added 10,203 MW of solar via over a million farm water pumps against a 34,800 MW target, cutting a wheat farmer's diesel-irrigation cost (about Rs 6,790/acre) by Rs 5,000-6,500/acre/year by generating power locally at Rs 3-4/unit versus a Rs 6-7 grid price. The bigger opportunity is agrivoltaics, panels mounted above working farmland so crops keep growing underneath, where field reports show farmer income can rise from about Rs 60,000 to over Rs 1 lakh per acre. India's technical potential is estimated at 3,000-14,000 GW, but only about 50 pilot installations exist nationwide as of mid-2026. A CEEW-CSTEP-IISD report (April 2026) estimates solarising just 10% of agricultural power demand could save states Rs 6,305cr (Madhya Pradesh), Rs 3,113cr (Karnataka) and Rs 2,543cr (Rajasthan) over 25 years. The blockers are execution, not economics: no standardised design norms, financing schedules that don't match seasonal farm income, and DISCOM payment-risk that's made developers cautious, Madhya Pradesh's guaranteed-payment escrow accounts sped up implementation where tried. PM-KUSUM 2.0, a Rs 50,000cr budget with a dedicated 10 GW agrivoltaics component, is now being designed.",
+          "signal": [
+            "The gap between technical potential (thousands of GW) and actual deployment (~50 pilots) is stark: an execution and financing problem, not a technology or economics one.",
+            "Worth watching PM-KUSUM 2.0's design details for whether it fixes the standardisation and DISCOM-payment issues that stalled Phase 1."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-883253ddb8",
+          "headline": "India's new rice carbon credit rules need a farmer-payment structure to actually pay farmers",
+          "summary": "On June 30, the Bureau of Energy Efficiency published a methodology under the Indian Carbon Market for cutting methane from rice cultivation, covering alternate wetting/drying, direct-seeded rice and better nitrogen management. It's a real policy step, but the authors argue it says nothing about how farmers get paid before credits are sold, who controls the carbon asset, or how revenue is split, and propose a three-part payment structure (adoption payment, performance payment, final carbon dividend) plus a farmer revenue share of at least 60% of net carbon revenue, transparent disclosure of sale price and deductions, and a Farmer Carbon Rights Charter spelling out who owns and can sell the credits.",
+          "signal": [
+            "A useful test case for a broader pattern: India keeps building policy and market infrastructure for climate finance before building the farmer-payment plumbing underneath it."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-6ee9fba206",
+          "headline": "Delhi's Rs 15,000cr EV policy bans new petrol two-wheelers from 2028",
+          "summary": "Delhi's EV Policy 2026 allocates Rs 15,000cr (about $1.75B) over four years, ends new petrol two-wheeler registrations from 2028, mandates new auto-rickshaws be electric, and adds 30,000+ public charging points. Owners scrapping pre-April-2020 vehicles for an EV get about Rs 100,000 (about $1,060); battery EVs up to Rs 30 lakh are exempt from road tax and registration. It layers on top of the national PM E-DRIVE scheme, which has already supported 2.8 million EVs and includes Rs 4,391cr for 14,000+ electric buses. The driver is Delhi's severe winter smog from crop burning, vehicle exhaust and construction dust, tracked via the CPCB's PRANA portal across 130+ non-attainment cities.",
+          "signal": [
+            "Two- and three-wheelers are the real target, majority of Delhi's vehicles and disproportionate tailpipe pollution, where EV policy has the most near-term air-quality payoff.",
+            "Success depends on charging-infrastructure buildout and affordability for lower-income drivers, per ICCT, the policy design looks right, execution is the open question."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-421d65c09d",
+          "headline": "Most 'zombie' carbon credits locked out of new UN market after China, India snub",
+          "summary": "A report says most legacy zombie credits have been excluded from the new UN carbon market after China and India declined to recognise them (source unreachable, headline only).",
+          "signal": [
+            "Headline-only; worth a fuller read before drawing conclusions on what this means for India's carbon-market positioning."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "climate-energy-8cda5bfdff", "line": "GlobalData report projects 'transformational' growth for India's renewable sector 2027-2030 as hybrid solar-plus-storage tenders scale up" },
+        { "id": "climate-energy-4559fb6975", "line": "India extends its exemption from local solar-cell sourcing rules for open-access and net-metering projects to December" }
+      ]
+    },
+    {
+      "slug": "health-tech",
+      "stories": [
+        {
+          "id": "health-tech-1ec10d43f4",
+          "headline": "NHA's Ayushman Bharat review: digital-health adoption and financial sustainability are next up",
+          "summary": "The National Health Authority's two-day national review (Chintan Shivir, July 17-18) on Ayushman Bharat's PM-JAY insurance scheme and Digital Mission (ABDM) focused day two on financial sustainability, health analytics, AI and digital transformation. Kerala presented converging state health schemes with PM-JAY; Tamil Nadu showed reinvesting insurance-claim revenue into public hospital infrastructure. Sarvam AI presented AI tools for clinical decision support under the scheme. The meeting also discussed the National Health Claims Exchange, meant to speed up claim settlement and improve hospital working capital, and gave out 15 state and UT awards for scheme implementation.",
+          "signal": [
+            "The National Health Claims Exchange is the concrete infrastructure piece to watch: faster claims settlement directly affects hospital cash flow.",
+            "Sarvam AI's presence here is a data point on India's homegrown AI stack getting embedded into public health infrastructure, not just consumer apps."
+          ],
+          "developing": false
+        },
+        {
+          "id": "health-tech-1fe868f223",
+          "headline": "India approves AstraZeneca's Fasenra for a rare blood-eosinophil disorder",
+          "summary": "India's drug regulator CDSCO has approved AstraZeneca's Fasenra (benralizumab) for patients 12 and older with Hypereosinophilic Syndrome without an identifiable secondary cause, expanding the biologic's approved use in India. Marketing still requires further statutory approvals before commercialisation.",
+          "signal": [
+            "Niche regulatory news, useful if you track pharma market-access timelines in India, not broadly actionable otherwise."
+          ],
+          "developing": false
+        }
+      ],
+      "also": []
+    },
+    {
+      "slug": "agritech",
+      "stories": [
+        {
+          "id": "agritech-92caa306d5",
+          "headline": "Singapore's Rize raises $31M for sustainable rice farming, eyes India expansion",
+          "summary": "Singapore-based agritech Rize raised $31M in a Series B, equity from BNP Paribas AM Alts, Temasek, the Rockefeller Foundation and Breakthrough Energy Ventures, debt from UOB, Vietnam's BIDV and Temasek Foundation, following a $14M Series A in 2024. Founded by Bengaluru-based Dhruv Sawhney, Rize works with farmers on tech-led sustainable rice cultivation to cut greenhouse-gas emissions while improving yields; it currently operates in Vietnam and Indonesia and is evaluating India as its next market.",
+          "signal": [
+            "Founder is Indian and the methane-cutting rice thesis maps directly onto India's own new rice-carbon-credit push covered elsewhere today, worth watching if Rize actually enters India."
+          ],
+          "developing": false
+        },
+        {
+          "id": "agritech-6e2cda79d6",
+          "headline": "Monsoon deficit widens to 24% even as a fresh spell floods North-West and Central India",
+          "summary": "India's monsoon deficit widened to 24% as of July 18, worst in the East and North-East (36% shortfall), followed by the South Peninsula (28%), North-West (24%) and Central India (13%). Despite the overall deficit, a weakening low-pressure system is still set to bring heavy-to-very-heavy rain across Jammu-Kashmir-Ladakh, Himachal Pradesh, Uttarakhand, Delhi-NCR, Punjab, West UP, Madhya Pradesh and Chhattisgarh over the coming week, per IMD; the South Peninsula and much of Maharashtra are expected to miss out.",
+          "signal": [
+            "The regional unevenness, parts of India flooding while the aggregate deficit still grows, is the real story; national monsoon averages hide a much bigger regional divergence."
+          ],
+          "developing": false
+        },
+        {
+          "id": "agritech-f0745e7d28",
+          "headline": "Weak monsoon could push India's sugar prices past Rs 50/kg for the first time",
+          "summary": "Ex-mill sugar prices in Uttar Pradesh have already risen to Rs 4,400-4,500 per quintal, up about Rs 300 in a month; traders expect Rs 5,000-5,100 per quintal by the new season's start in October, which would push wholesale prices to a record Rs 55/kg. The driver is a lowered 2025-26 production estimate, revised down from 30 million tonnes to 28-28.5 million tonnes after weak monsoon rain, against India's monthly consumption of 2.2-2.5 million tonnes and closing stocks projected at just 1-1.5 million tonnes by end-September.",
+          "signal": [
+            "A direct, near-term consumer-inflation angle: if this holds, sugar joins the list of food items where a weak monsoon shows up in retail prices within months."
+          ],
+          "developing": false
+        }
+      ],
+      "also": []
+    },
+    {
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "id": "indian-startups-94c8f32cd7",
+          "headline": "Indian startups raise $346M in a week, up 332% YoY, on two mega-deals",
+          "summary": "Indian startups raised $346.2M across 20 deals in the week to July 18, up 331.7% year-on-year and 51.7% week-on-week, concentrated in Udaan's $160M raise and AI company Emergent's $130M Series C, which made Emergent a new unicorn. Late-stage deals were 85.3% of the week's total. Smaller rounds included Neo Wealth & Asset Management's $36.3M Series C, and seed-stage cooling-tech startup KuhlTherm, which builds precision liquid cooling for HPC/AI data centers.",
+          "signal": [
+            "Capital is concentrating into fewer, bigger, later-stage bets, not broad-based recovery.",
+            "AI infrastructure and enterprise plays are pulling disproportionate investor attention over consumer AI."
+          ],
+          "developing": false
+        },
+        {
+          "id": "indian-startups-0ebf4c03e0",
+          "headline": "Bengaluru's H2LooP raises $2M to build AI coding tools for embedded and firmware software",
+          "summary": "H2LooP has raised $2M to build hardware-aware AI models for firmware and embedded systems, aiming to take the tools into chips, cars and defence applications.",
+          "signal": [
+            "A narrow but real niche: most AI coding tools target web/app software, not the embedded and firmware layer that actually runs chips and vehicles."
+          ],
+          "developing": false
+        },
+        {
+          "id": "indian-startups-ab8f319952",
+          "headline": "Nuclear SMR startup Valar Atomics in talks to raise at a $6B valuation",
+          "summary": "Valar Atomics, a three-year-old startup building small modular nuclear reactors, is reportedly raising a $1B equity round at a roughly $6B valuation, led by Sequoia, up from a $2B valuation on a $450M raise earlier this year. Valar recently demonstrated its reactor providing a small amount of power to an Nvidia AI chip and announced a partnership with Nvidia to explore nuclear-powered AI data centers. Backers include Anduril's Palmer Luckey and Palantir's Shyam Sankar; rivals include Kairos Power, Bill Gates-backed TerraPower, and NuScale Power, the only SMR developer with US regulatory design approval. Valar has also sued the US Nuclear Regulatory Commission, arguing it wrongly applies full-scale licensing rules to small test reactors.",
+          "signal": [
+            "Nuclear-for-AI-datacenters is becoming a real fundraising category, not a thought experiment, the Nvidia partnership and proof-of-concept demo are the concrete signal here.",
+            "Not an Indian company, but directly relevant if your pivot touches AI infrastructure or energy: this multi-tranche, escalating-valuation structure is increasingly common across the AI capex boom."
+          ],
+          "developing": true
+        }
+      ],
+      "also": [
+        { "id": "indian-startups-3f361b9b20", "line": "D2C brand Naturis Cosmetics raises Rs 100cr led by Sharrp Ventures for manufacturing and R&D expansion" }
+      ]
+    },
+    {
+      "slug": "global-economics",
+      "stories": [
+        {
+          "id": "global-economics-3b5db83d59",
+          "headline": "RBI Governor flags West Asia tensions and a weak monsoon as growth risks",
+          "summary": "The RBI Governor warned that tensions in West Asia and an uncertain monsoon threaten India's growth outlook, per KNN India (source unreachable, headline only).",
+          "signal": [
+            "Headline-only; worth checking a fuller readout before drawing conclusions."
+          ],
+          "developing": false
+        },
+        {
+          "id": "global-economics-a62b9c3b42",
+          "headline": "Fed's Warsh says AI isn't inflationary; South Korea's central bank disagrees",
+          "summary": "Fed chair Kevin Warsh told lawmakers AI-driven investment is straining supply, chips, energy, labor, short-term but isn't a long-term inflation threat, because supply responds. South Korea offers a live counter-test: chip exports (SK Hynix, Samsung) jumped 70.9% year-on-year in June, the biggest jump since 1978, after a 53.4% May surge, on AI-fuelled demand. The Bank of Korea hiked rates 25bp to 2.75% on July 18, its first hike since January 2023, flagging 'the AI investment outlook' as the key swing factor for growth and inflation. Korea's household debt sits near $1.4 trillion; the Kospi has surged to 6,800, down from a mid-June peak above 9,000, a volatility pattern the piece compares to a meme stock more than a mature index.",
+          "signal": [
+            "A genuinely useful real-world test of the is-AI-capex-inflationary debate, worth revisiting in a few months to see whose read holds up.",
+            "Korea's stock-market volatility under an AI-capex-driven rally is a preview of what over-concentrated AI-theme markets can look like, relevant if you're watching Indian markets' own AI-adjacent stocks."
+          ],
+          "developing": true,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "global-economics-26577bf703",
+          "headline": "Kerala aims to attract $1B in shipbuilding investment from multiple investors",
+          "summary": "Kerala's government says it's targeting Rs 100bn, about $1B, in shipbuilding investment from multiple investors, clarifying this isn't a single-source deal.",
+          "signal": [
+            "Thin on detail, no investor names, timeline or specific shipyard plans yet, a state-government ambition statement more than a firm commitment so far."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "global-economics-4ceb2bf0c1", "line": "The Ukraine and Iran wars have reminded Turkey's Western allies of the value of its military and diplomatic clout" },
+        { "id": "global-economics-2c67fdce50", "line": "RBI's currency printer invites bids for polymer banknote substrate material with security features" }
+      ]
+    },
+    {
+      "slug": "india",
+      "stories": [
+        {
+          "id": "india-a7b544c503",
+          "headline": "US ends open-ended F-1 status, threatening 300,000+ Indian students",
+          "summary": "The US Department of Homeland Security has scrapped 'duration of status' for F-1 and J visas, replacing indefinite stay-while-enrolled with a fixed admission period, up to four years initially, effective September 15. Students needing longer programs must now formally petition USCIS for an extension, and the post-graduation grace period is halved from 60 to 30 days. About 300,000 Indian students were in the US as of January 2025, mostly in STEM master's programs. OPT and STEM OPT remain in place, but lawyers say the interaction between the new fixed window and OPT timing is unresolved.",
+          "signal": [
+            "From mid-September, every Indian F-1 student inherits a hard clock and new USCIS paperwork.",
+            "For anyone weighing a US master's or PhD as part of a pivot, budget for extension filings and a tighter timeline."
+          ],
+          "developing": true
+        },
+        {
+          "id": "india-9953f9cbfa",
+          "headline": "Mumbai-Ahmedabad bullet train: second tunnel-boring machine starts India's first undersea rail tunnel",
+          "summary": "NHSRCL's second Tunnel Boring Machine has started excavating from Sawli (Ghansoli) toward Vikhroli for the Mumbai-Ahmedabad bullet train corridor; 7km of this 10km section runs beneath Thane Creek, making it India's first undersea railway tunnel. The TBM has a 13.6-metre cutterhead, four storeys tall, weighs about 3,200 tonnes, roughly 500 elephants, and is 96 metres long, near a football field, among the largest ever deployed for rail tunnelling in India. It's a Mixshield-type slurry TBM using pressurised bentonite slurry to stabilise the tunnel face, with double-layer EPDM gaskets plus hydrophilic seals against water ingress. This is part of a 21km underground tunnel between Sawli and Bandra Kurla Complex; the first TBM began its 6km drive on July 5, and a 5km NATM section is already complete.",
+          "signal": [
+            "A genuine engineering-scale marker of how far the bullet-train project has actually progressed, beyond the usual funding and timeline headlines."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-5c7be9b2dd",
+          "headline": "Sitharaman: India growing despite Hormuz and Ukraine disruption, third-largest startup ecosystem",
+          "summary": "Finance Minister Nirmala Sitharaman told a Madurai entrepreneurship summit that India remains the fastest-growing major economy despite Hormuz Strait tensions and the Ukraine and Israel-Iran conflicts disrupting oil and fertiliser supply chains. She cited 2.4 lakh-plus DPIIT-recognised startups creating 23 lakh jobs, the world's third-largest startup ecosystem, 2,100 global capability centres expanding into Tier-2/3 cities, and India projected to contribute one-sixth of global growth ahead.",
+          "signal": [
+            "The 2,100 GCCs expanding to Tier-2/3 cities is the concrete data point worth remembering for anyone assessing where India's white-collar hiring growth is actually happening."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-0d77a47f19",
+          "headline": "How a secret 1991 gold airlift to keep India solvent preceded its software export boom",
+          "summary": "In May-July 1991, with foreign reserves down to a few weeks of import cover, India secretly shipped gold abroad twice: 20 tonnes from the State Bank of India to Switzerland, about $200M, structured as a sale-with-buyback, in May, then 46.91 tonnes airlifted by the RBI to the Bank of England and Bank of Japan, about $405M, in July, commonly and inaccurately remembered as '47 tonnes to the Bank of England.' Total for the year: roughly 67 tonnes. The IMF-linked emergency lending came with conditions that forced P.V. Narasimha Rao's government to dismantle industrial licensing, cut tariffs, devalue the rupee twice, and open sectors to foreign investment. India's software exports went from about $131M in 1990 to about $6B in 2000-01 to about $8B in 2001-02, making India the largest software exporter outside the OECD by 2000, but the piece notes software already had scaffolding before the crisis, a 1984 Computer Policy, software tech parks from 1990, a 1991 NASSCOM tax exemption specific to the industry, so liberalisation accelerated an existing industry rather than creating it from nothing. The RBI has since bought back gold, 200 tonnes from the IMF in 2009 and about 200 tonnes moved home from the Bank of England in 2024; total holdings now exceed 800 tonnes.",
+          "signal": [
+            "The nuance matters more than the popular version: 1991 liberalisation didn't create the software industry, it accelerated one that narrower, sector-specific policy had already been building since 1984.",
+            "A useful historical frame for thinking about what crisis-forces-good-policy actually looks like versus what gets mythologized after the fact."
+          ],
+          "developing": false,
+          "badge": "DEEP DIVE"
+        }
+      ],
+      "also": [
+        { "id": "india-aa2972cfe9", "line": "Essay argues India supplies an outsized share of the world's attention-economy raw material without owning or governing the industry it feeds" },
+        { "id": "india-15c482d054", "line": "Amarnath and Vaishno Devi pilgrimages temporarily suspended from July 19 due to bad-weather forecasts" }
+      ]
+    },
+    {
+      "slug": "world",
+      "stories": [
+        {
+          "id": "world-5212a67cda",
+          "headline": "Ukrainian drones kill 8, hit Russia's Amazon-equivalent Wildberries",
+          "summary": "Ukrainian drone strikes on two Wildberries warehouses killed 8 and injured 62 total, in Tambov and Elektrostal near Moscow, with dozens of drones shot down over both regions. Wildberries, Russia's largest online retailer, is described by Ukraine's security chair Serhii Kuzan as a 'vital component' of Russian military logistics used by volunteers to buy walkie-talkies, body armor and drone parts. Zelensky said the strikes hit 'major logistics facilities' supplying sanctioned components, and confirmed parallel strikes on a Russian oil facility and targets in Crimea and the Black Sea. Ukraine claims nearly 43% of Russia's oil refining capacity has been disabled this year by long-range strikes, unverified by the BBC; Putin admitted in June the strikes have caused domestic fuel shortages.",
+          "signal": [
+            "Ukraine is explicitly targeting dual-use civilian logistics infrastructure, not just military sites.",
+            "Russia's fuel-shortage admission suggests real economic bite, not just symbolic value."
+          ],
+          "developing": false
+        },
+        {
+          "id": "world-e492fd47f9",
+          "headline": "Russians return to cash as mobile-internet shutdowns and tax hikes squeeze the wartime economy",
+          "summary": "Russia added 1.56 trillion roubles, about $20B, of cash into circulation this year, the biggest same-period rise outside the Covid pandemic, as Ukrainian drone strikes trigger repeated mobile-internet shutdowns that disable card payments, and businesses increasingly dodge tax after the Kremlin raised VAT from 20% to 22% in January. Sberbank's CFO Taras Skvortsov warned of 'very serious signs' of under-the-table wage payments; a May survey found 6% of entrepreneurs had turned to grey schemes. Russia's 2026 GDP growth forecast has been cut to 0.4%, its weakest since 2022, even as oil and gas revenue got a boost from the Iran-war oil price spike. Russians withdrew 550bn roubles from bank accounts in May, including 200bn from fixed-term deposits, despite 10% interest rates on offer.",
+          "signal": [
+            "Concrete evidence the Ukrainian drone campaign's economic damage is compounding: it's now degrading Russia's tax base, not just its oil refining, four-plus years into the war."
+          ],
+          "developing": false
+        },
+        {
+          "id": "world-1ed149e757",
+          "headline": "Activist Sonam Wangchuk forcibly hospitalized after 20-day hunger strike",
+          "summary": "Educationist and activist Sonam Wangchuk, on hunger strike for 20 days on water and salt only, having lost more than 9kg, was forcibly removed by police from his Delhi protest site on Saturday and taken to Safdarjung Hospital, which says he is alert and stable but dehydrated. He had been supporting the Cockroach Janta Party, an online satirical movement demanding Education Minister Dharmendra Pradhan's resignation over a leaked NEET exam paper; CJP founder Abhijeet Dipke has begun his own indefinite fast and vowed Monday's march to Parliament will proceed, now also demanding PM Modi's resignation.",
+          "signal": [
+            "A protest that started as an online satire movement has escalated to forced hospitalization and resignation demands aimed at the PM."
+          ],
+          "developing": true
+        },
+        {
+          "id": "world-2ed1ebfc78",
+          "headline": "Germany scales back renewable subsidies as its grid strains under solar growth",
+          "summary": "Germany plans to phase out fixed 20-year feed-in tariffs for new renewable generators from 2027, replacing them with support tied to whether projects respond to actual demand and grid congestion, per a draft law from the Economy Ministry. The government still targets an 80% renewables share of electricity consumption by 2030, up from about 58% now, and plans further wind auctions, but power lines haven't kept pace with renewable buildout, forcing curtailment with compensation paid to producers; the state expects to spend about 16 billion euros on renewable support this year plus up to 3 billion euros more on curtailment payments, drawing criticism as Chancellor Merz's government tries to cut spending elsewhere.",
+          "signal": [
+            "A useful cautionary data point for India's own renewable-buildout story: fast capacity growth without matching grid investment eventually forces a policy correction, exactly the risk flagged in India's own transmission bottleneck."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "world-4dd97bbf5c", "line": "US says an Iranian attack in Jordan killed two American military personnel" }
+      ]
+    },
+    {
+      "slug": "other-interests",
+      "stories": [
+        {
+          "id": "other-interests-dc2961aafc",
+          "headline": "Heavy TV watching in midlife linked to shrunken brain regions 20 years later",
+          "summary": "A USC-led study of about 1,700 adults (ARIC study, enrolled 1987-89, average age 53) found that people who reported watching TV 'very often' in midlife had smaller frontal and occipital lobes, more white-matter hyperintensities, a marker of small-vessel brain damage linked to stroke and dementia risk, and reduced gray matter in regions tied to early Alzheimer's, on brain MRIs taken 20-plus years later. Crucially, the effect wasn't about sitting itself: people who sat a lot at cognitively demanding desk jobs showed the opposite pattern, larger frontal and occipital lobes and less white-matter damage, suggesting what you do while sedentary matters more than how long you sit. The effects were concentrated mostly in men; researchers can't fully explain the sex difference yet.",
+          "signal": [
+            "The sedentary-behaviour health message needs an update: passive screen time looks meaningfully worse than active-but-sedentary cognitive work, at least in this cohort.",
+            "Self-reported TV habits and no baseline MRI are real limitations, treat this as a strong association, not proven causation."
+          ],
+          "developing": false,
+          "badge": "DATA"
+        },
+        {
+          "id": "other-interests-7496cb735a",
+          "headline": "Fog-harvesting nets pull up to 12,000 litres a day from Chile's Atacama Desert",
+          "summary": "In one of Earth's driest deserts, Chilean groups have refined fog harvesting, large mesh nets that intercept fog-borne water droplets, since the 1950s. Chungungo's 1987 installation of 100 collectors supplied about 33 litres a day to about 300 residents; the Atacama Fog Catchers Group has since scaled results from about 400 litres a day in the 1990s to 1,000 litres a day by 2004 and up to 12,000 litres a day at peak. A 2023 study of Alto Hospicio found the best sites, 700-1,100m elevation, within 1km of the town, could yield 200-4,900 litres a day from 1,000 square metres of mesh. The water goes to drinking and growing potatoes, lettuce, lemons, peaches and figs; researchers argue local governments should back pilot programs and standards before scaling, and that community buy-in matters as much as the physics.",
+          "signal": [
+            "A nice case study in appropriate-scale, low-tech climate adaptation, worth remembering as a contrast to capital-intensive climate-tech solutions when a problem is genuinely local and small-scale."
+          ],
+          "developing": false
+        },
+        {
+          "id": "other-interests-fbb930e6bf",
+          "headline": "India's concert boom runs on students who spend Rs 5.85 for every Rs 1 of ticket",
+          "summary": "A government-backed white paper on Coldplay's Ahmedabad shows found fans spent an extra Rs 585 on travel, food and shopping for every Rs 100 spent on tickets. India hosted about 34,000 live events in 2025, up 17% year-on-year; people under 30 are about 52% of all live-event attendees, and over 70% of Gen Z and millennials in Tier-1 cities attended a ticketed live event in 2023-24, with general tickets running Rs 1,500-3,500 and premium tickets Rs 15,000-25,000. The live-entertainment industry crossed Rs 100 billion in 2024. Behind high prices: India's shortage of purpose-built venues forces organisers into costly multipurpose-venue workarounds, and a fragmented multi-agency approvals process causes cancellations, Coldplay-scale resale tickets have gone for 200x-plus face value, while cancelled shows leave students eating non-refundable travel costs.",
+          "signal": [
+            "The venue-scarcity and approvals-fragmentation problems are the real structural story here, genuine market-infrastructure gaps, not just concerts got expensive.",
+            "A good read on how much discretionary spend Gen Z India will commit to experiences over goods, relevant if your pivot touches consumer or D2C strategy."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "other-interests-ce0257abb3", "line": "Interview with Odisha's 'Waterman' Ranjan Panda on why rural and urban India see rivers so differently" },
+        { "id": "other-interests-9976873c45", "line": "Archaeologists in Thailand find 33 gold, silver and bronze treasures beneath a 1,300-year-old reclining Buddha statue" }
+      ]
+    },
+    {
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "id": "beyond-your-beat-a97b1f72e0",
+          "headline": "Spain face Argentina in the FIFA World Cup 2026 final",
+          "summary": "Spain play Argentina in the FIFA World Cup 2026 final (source unreachable, headline only).",
+          "signal": [
+            "Headline-only; no further detail available from the source."
+          ],
+          "developing": false
+        },
+        {
+          "id": "beyond-your-beat-1d2f5aea50",
+          "headline": "'Article 370' wins Best Film at India's 72nd National Film Awards",
+          "summary": "'Article 370,' starring Yami Gautam and directed by Aditya Suhas Jambhale, won Best Feature Film at India's 72nd National Film Awards; Gautam also won Best Actress. Best Actor was shared between Mammootty ('Bramayugam') and Kartik Aaryan ('Chandu Champion'); Rajkumar Periasamy won Best Director for the Tamil film 'Amaran.' 'Kalki 2898 AD' won Best Popular Film, and 'Captain Miller' won for promoting national, social and environmental values. Technical awards spanned cinematography (Shehnad Jalal, 'Bramayugam'), editing (R. Kalaivannan, 'Amaran'), and a three-way screenplay split across 'Pushpa: The Rule Part 2,' 'Swargandharva Sudhir Phadke' and 'Lucky Baskhar.' Regional-language honors covered films in Assamese, Bengali, Gujarati, Hindi, Kannada, Konkani, Malayalam, Manipuri, Marathi, Odia, Tamil and Telugu, plus Garhwali and Tulu categories.",
+          "signal": [
+            "Mostly a cultural-calendar item; the spread of regional-language honors is the more interesting signal about the health and diversity of India's film industry beyond Bollywood."
+          ],
+          "developing": false
+        }
+      ],
+      "also": []
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunities-fe5702f23c",
+      "name": "Innovate 4 Impact: AI SDG Global Hackathon 2026",
+      "when": "Register by 25 July 2026",
+      "summary": "An AI-for-SDGs themed hackathon hosted by the IEEE WIE Affinity Group at Bharati Vidyapeeth's College of Engineering, Pune. National reach. The listing is thin on further detail, prizes, format, check the Unstop page before committing."
+    },
+    {
+      "id": "opportunities-e25a13ac77",
+      "name": "MemoryVerse AI '26",
+      "when": "Register by 31 July 2026",
+      "summary": "An AI-themed hackathon hosted by Wooble. National/online reach. The listing gives no further detail on format, prizes or location, check the Unstop page directly before applying."
+    },
+    {
+      "id": "opportunities-2b3391e34c",
+      "name": "India Agentic AI Forum",
+      "when": "20 August 2026",
+      "summary": "A forum on agentic AI, listed on 10times, national scope, with no further programme detail available. Worth a look if agentic AI is squarely in your pivot, but verify the agenda and venue before planning around it."
+    }
+  ],
+  "longform": []
+}
