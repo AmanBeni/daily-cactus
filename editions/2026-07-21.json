@@ -1,0 +1,823 @@
+{
+  "date": "2026-07-21",
+  "edition": 36,
+  "colophon": "57 sources scanned · 37 ok · 20 failed",
+  "lead": {
+    "headline": "India's first privately developed rocket reaches orbit on debut launch",
+    "summary": "Skyroot Aerospace's Vikram-1 lifted off from Sriharikota on India's southeast coast Saturday and reached a 280-mile (450km) orbit at a 60-degree inclination, matching preflight predictions and confirmed by US military tracking. The rocket stands about 72 feet (22m) tall and can carry up to 770 pounds (350kg) to low-Earth orbit, making it somewhat larger than Rocket Lab's Electron, the world's most successful dedicated small-satellite launcher. Three solid-fueled stages fired in succession before a 3D-printed, liquid-fueled fourth stage pushed the payload to orbital velocity of roughly 17,000 mph. The only hiccup: the spent third stage appeared to linger near the fourth stage during separation instead of backing away, though it didn't affect the outcome. This is India's first fully commercial satellite launcher to reach orbit.",
+    "signal": [
+      "India joins a very short list of countries with a private company capable of independent orbital launch",
+      "Skyroot is now positioned to compete for small-satellite rideshare business globally, not just domestic ISRO overflow work",
+      "For the reader's deep-tech interest: a concrete signal that India's private space sector has moved from suborbital tests to real orbital payloads"
+    ],
+    "badge": "",
+    "takeaway": "",
+    "why": "",
+    "source": "Science - Ars Technica",
+    "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2285958264-500x500.jpg",
+    "developing": false,
+    "key_stat": "350kg to orbit · India's first private orbital launch",
+    "editors_read": "This is the moment Indian private space stops being a promise and becomes a track record — Skyroot now has to prove it can fly Vikram-1 repeatedly and cheaply, which is the harder problem than reaching orbit once. Watch for follow-on funding and whether ISRO or global satellite operators start booking commercial slots; that's the real test of whether this becomes an industry or stays a headline."
+  },
+  "frontpage": [
+    {
+      "headline": "US launches 10th consecutive night of strikes on Iran; Tehran calls it 'full-scale war'",
+      "summary": "The US military struck Iranian \"military command centres, maritime capabilities, missile and drone launch sites, and air defense systems\" for a 10th straight night, aiming to degrade Iran's ability to threaten shipping in the Strait of Hormuz. Trump vowed retaliation after Iranian strikes killed three US soldiers at Jordan's Muwaffaq Salti base over the weekend — Pte Isabella Gonzales, 19, and Lt Tyler James Feehan, 25, have been identified; a third serviceman went missing before unidentified remains were found nearby. In response to the latest US strikes, Iran said it hit two oil tankers transiting the Strait of Hormuz plus US assets in Bahrain and Kuwait; President Masoud Pezeshkian called it a \"full-scale war.\" Jordan shot down three Iranian missiles, Kuwait intercepted Iranian drones, and Bahrain said its air-navigation systems were targeted (traffic unaffected). Despite the escalation, diplomatic messages are reportedly still being exchanged through intermediaries, and commercial shipping continues to transit Hormuz, per US Central Command.",
+      "signal": [
+        "10 consecutive nights signals a sustained air war, not a one-off retaliatory strike — watch whether Hormuz transit is actually disrupted, not just threatened",
+        "Confirmed US soldier deaths raise domestic political pressure on Trump to keep escalating",
+        "Diplomatic channels reportedly remain open despite the rhetoric — the 'full-scale war' framing may outpace the actual off-ramps still in play"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/900b/live/19b1fef0-847d-11f1-8f17-6fca617ac634.jpg",
+      "developing": true,
+      "editors_read": "This is no longer an isolated strike campaign — it's a 10-night sustained air war with both sides now using full-war language, even as backchannel diplomacy continues, suggesting neither side has fully committed to escalation without limits. For India, the exposure runs through energy and shipping: Hormuz disruption pressure is already visible in Saudi Arabia's tanker rerouting to the Red Sea (see the Houthi story below), and a wider closure would hit Indian crude imports and Indian shipping crews directly."
+    },
+    {
+      "headline": "Trump imposes 50% tariffs on Canadian goods via untested 1930s law",
+      "summary": "Trump signed orders imposing new 50% tariffs on a range of Canadian goods — including wine, hockey sticks and cement — citing \"discriminatory treatment\" of American alcohol, auto and dairy products. The tariffs take effect in 30 days and, crucially, hit products covered under the USMCA free-trade agreement, though energy, potash, and goods already under sector-specific tariffs are exempted. Trump invoked Section 338 of the Tariff Act of 1930 — a provision never previously used for this purpose — after the Supreme Court struck down many of his earlier tariffs this year. Canadian PM Mark Carney said Ottawa is ready to \"intensify\" talks and has proposed ways to resolve disputes and modernise USMCA.",
+      "signal": [
+        "First real test of Section 338 as a tariff tool after the Supreme Court pushback — sets a precedent for routing around judicial limits",
+        "Directly hits USMCA-protected goods, undermining the free-trade-agreement premise Canada was relying on",
+        "A relevant precedent for India's own ongoing US trade talks, given the legal workaround being established here"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "World - South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3361268/trump-imposes-50-tariffs-canadian-goods-citing-disputes-over-cars-alcohol-and-cheese?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/21/f4447672-44bf-4481-ae11-34854daa7032_826843e6.jpg?itok=f34PvzNp&v=1784584672",
+      "developing": true,
+      "editors_read": "Using a 90-year-old, never-invoked statute is a direct workaround of the Supreme Court's earlier tariff ruling, and it specifically targets USMCA-covered goods — a signal Trump sees the trade agreement itself, not just individual disputes, as negotiable. Watch whether other trading partners read this as a template for how far unilateral tariff authority can stretch even after a court setback."
+    },
+    {
+      "headline": "Anthropic's $1.5B book-piracy settlement gets final court approval",
+      "summary": "A federal judge gave final approval to Anthropic's $1.5 billion settlement of a class-action copyright suit brought by authors and publishers — believed to be the largest settlement in US copyright law history. The payout works out to $3,000 per work across an estimated 500,000 works. The underlying ruling, from Judge William Alsup, found that training an AI model on copyrighted text counts as fair use — a win for the industry — but separately found that Anthropic's use of pirated sources (Library Genesis, Pirate Library Mirror) to build part of its training library was illegal on its own terms; that piracy question was headed to trial before Anthropic settled. Because it's a settlement, the case won't reach an appeals court, so Alsup's fair-use ruling stays a single district-court decision rather than binding precedent. Other suits continue: a group including Hachette, Cengage, Elsevier and author Scott Turow sued Google last week over Gemini's training data, and similar suits are pending against Meta, Midjourney and OpenAI.",
+      "signal": [
+        "The 'training on copyrighted text is fair use' precedent stands but isn't binding elsewhere — every other AI copyright suit is still live",
+        "Piracy sourcing, not training itself, was the costly part — a distinction other labs facing suits will study closely",
+        "Underscores that data provenance, not model architecture, is becoming the industry's real legal liability"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "image": null,
+      "developing": false
+    },
+    {
+      "headline": "4 Indian sailors among 10 killed as missile hits ship in Russia-Ukraine war",
+      "summary": "A missile strike on a cargo ship killed 10 people, including 4 Indian sailors, amid the Russia-Ukraine war. (source unreachable — headline only)",
+      "signal": [
+        "Indian nationals remain exposed on Black Sea/Ukraine-adjacent shipping routes as the war continues",
+        "Limited detail available here — worth checking follow-up coverage for MEA response and the ship's flag and route"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "India | The Indian Express",
+      "url": "https://indianexpress.com/article/india/russia-ukraine-war-4-indian-sailors-among-10-killed-as-missile-hits-ship-10795640/",
+      "image": "https://images.indianexpress.com/2026/07/odesa-ukraine_20260720173645.jpg",
+      "developing": false
+    },
+    {
+      "headline": "China's Kimi K3 narrows the US-China AI gap to 'a matter of weeks,' analysts say",
+      "summary": "Beijing-based Moonshot released Kimi K3, a 2.8 trillion-parameter open-weight model with native vision and long-horizon coding and reasoning capabilities, late last week. It has topped GPT-5.6 Sol and Claude Fable 5 on some benchmarks, including Arena AI's front-end coding ranking, while remaining cheaper than US alternatives (though pricier than other Chinese models). AEI fellow Ryan Fedasiuk, who previously held the conventional view that Chinese models lag six to eight months behind US ones, wrote that \"that gap has now closed to something approaching a matter of weeks.\"",
+      "signal": [
+        "If the lag really is down to weeks, the compute-moat thesis US labs have leaned on looks shakier than assumed",
+        "Open-weight, near-frontier performance makes it harder for OpenAI and Anthropic to justify premium pricing — echoes the DeepSeek moment, at larger scale",
+        "Worth understanding Kimi's actual capabilities directly, not just the gap-closing headline"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Tech - South China Morning Post",
+      "url": "https://www.scmp.com/tech/tech-war/article/3361142/why-chinas-open-weight-ai-model-kimi-k3-sparking-anxiety-silicon-valley?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/20/ef209bfd-f91b-42c2-b014-67a4cb86c5e1_64a26452.jpg?itok=XZzYRTZ2&v=1784513576",
+      "developing": true
+    },
+    {
+      "headline": "Andy Burnham becomes UK PM, pledges 10-year plan to end political instability",
+      "summary": "Andy Burnham was formally appointed UK prime minister by King Charles on Monday, becoming Britain's seventh leader in a decade to promise political stability. He pledged a \"circuit breaker\" from the policy direction set since 1980s privatisation, promising to devolve power \"into every postcode,\" ease cost-of-living pressure, revitalise industry, and end street homelessness — while explicitly acknowledging the \"political revolving door\" he is walking into.",
+      "signal": [
+        "Seventh PM in a decade to make this exact promise — worth tracking delivery, not rhetoric, over his first 100 days",
+        "The numbers behind this speech are in the Global Economics section below"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "World - South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3361245/uks-new-pm-andy-burnham-vows-end-years-instability?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/20/f91dcd34-0be8-4f58-ba29-d68337a9f7ae_123965b7.jpg?itok=mpJc9XTT&v=1784551866",
+      "developing": false
+    },
+    {
+      "headline": "Odisha startup Coratia wins Rs 66 crore Navy contract for underwater robots",
+      "summary": "Rourkela-based Coratia Technologies builds indigenous remotely operated vehicles (ROVs) and autonomous underwater vehicles (AUVs) used to inspect bridges, pipelines and undersea cables, and has won a Rs 66 crore Indian Navy contract under the iDEX defence-innovation programme. (summary from limited source text)",
+      "signal": [
+        "A genuine India deep-tech/defence-tech win outside the usual Bengaluru-Delhi hubs — worth tracking Odisha as an emerging hardware cluster",
+        "iDEX contracts are becoming a real go-to-market path for Indian deep-tech hardware startups, not just grant money"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "YourStory RSS Feed",
+      "url": "https://yourstory.com/2026/07/coratia-technologies-rs-66-crore-navy-deal",
+      "image": "https://images.yourstory.com/cs/2/6db16ae008d911e9bb473d9d98ed1e05/10-1784545674459.jpg",
+      "developing": false,
+      "key_stat": "Rs 66 Cr · Navy contract"
+    },
+    {
+      "headline": "Houthis declare 'maritime embargo' on Saudi Arabia, threaten to close Bab al-Mandab",
+      "summary": "Yemen's Houthis announced a \"maritime embargo\" against Saudi Arabia, with a media official saying they would close the Bab al-Mandab Strait — the Red Sea's southern gateway — to Saudi vessels, in retaliation for a Saudi blockade of Houthi-controlled ports and airports. This follows the most serious Houthi-Saudi escalation since a 2022 informal truce: Houthis say they hit Abha airport with missiles after strikes on Sanaa's airport they blame on Saudi Arabia. The Red Sea has become critical for Saudi oil exports since the Strait of Hormuz effectively closed amid the US-Iran conflict — Saudi Arabia has diverted over 70% of crude exports to the Red Sea port of Yanbu, now shipping about 4 million barrels a day versus roughly 973,000 bpd a year earlier; total Bab al-Mandab petroleum transit hit 7.4 million bpd in June, about 7% of global output.",
+      "signal": [
+        "Closes the loop on the Hormuz story: Saudi Arabia's Red Sea oil-export lifeline is now itself under direct threat, right when it's needed most",
+        "4 million bpd through Yanbu versus 973,000 bpd a year ago shows how load-bearing this rerouted route has become — an embargo threat here has outsized global oil-supply implications"
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0f9/live/01fcfa10-845c-11f1-bee8-53ce494e1abc.jpg",
+      "developing": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "stories": [
+        {
+          "headline": "Kimi's rise splits Trump's AI advisors into open-vs-closed camps",
+          "summary": "Moonshot's free, open-source Kimi model, released last week, appears to rival OpenAI and Anthropic's quality, triggering public infighting among Trump's AI advisors. Former AI czar David Sacks branded Anthropic's models \"lobotomized\" and \"woke\"; Pentagon official Emil Michael called an OpenAI executive a \"supreme village idiot.\" The clash comes a week after New York imposed the country's first state ban on new data centers, and as the White House runs a new security-review process for AI model releases that critics call a \"de facto licensing regime.\" Backdrop: the Trump administration loosened chip export controls to China (allowing Nvidia to sell more chips, with the US taking a cut) even as concerns grow that Chinese labs are distilling US models to train their own.",
+          "signal": [
+            "Sacks (open access) versus Michael and the administration (government-vetted release) — the fight is about how the US responds to cheap open Chinese models, not just China's raw capability",
+            "Every good free Chinese model erodes the case for paying OpenAI/Anthropic subscription prices — an economic threat as much as a security one",
+            "Useful context on US AI policy direction, not personally actionable"
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Anthropic's $1.5B book-piracy settlement gets final court approval",
+          "summary": "A federal judge gave final approval to Anthropic's $1.5 billion settlement of a class-action copyright suit brought by authors and publishers — believed to be the largest settlement in US copyright law history. The payout works out to $3,000 per work across an estimated 500,000 works. The underlying ruling, from Judge William Alsup, found that training an AI model on copyrighted text counts as fair use — a win for the industry — but separately found that Anthropic's use of pirated sources (Library Genesis, Pirate Library Mirror) to build part of its training library was illegal on its own terms; that piracy question was headed to trial before Anthropic settled. Because it's a settlement, the case won't reach an appeals court, so Alsup's fair-use ruling stays a single district-court decision rather than binding precedent. Other suits continue: a group including Hachette, Cengage, Elsevier and author Scott Turow sued Google last week over Gemini's training data, and similar suits are pending against Meta, Midjourney and OpenAI.",
+          "signal": [
+            "The 'training on copyrighted text is fair use' precedent stands but isn't binding elsewhere — every other AI copyright suit is still live",
+            "Piracy sourcing, not training itself, was the costly part — a distinction other labs facing suits will study closely",
+            "Underscores that data provenance, not model architecture, is becoming the industry's real legal liability"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "LLMs stereotype job candidates more than humans do, Princeton/Chicago study finds",
+          "summary": "Researchers ran ChatGPT, Claude and Gemini through a simulated 40-round hiring game across 20 jobs and 4 fictional ethnic groups, where all candidates were in fact equally likely to succeed. The models segregated candidates into job niches faster and more severely than humans: on a 0-2 segregation scale, human participants scored 0.84 while models scored roughly 65% higher, with OpenAI's o3 hitting 1.83, near the maximum. Newer, more reasoning-capable models (o3, DeepSeek R1) showed stronger bias, not less. Simply instructing models to \"be fair\" barely changed behaviour, but explicitly rewarding diverse hiring outcomes made them far less biased. Giving models more relevant personal information about candidates (age, education) also reduced stereotyping; irrelevant information (hair colour, tattoos) did not.",
+          "signal": [
+            "Reasoning capability doesn't protect against bias — it can worsen it, since fast generalisation is exactly what reasoning models are optimised for",
+            "Explicit incentive design, not fairness prompting, is what actually worked in the study — relevant for anyone building AI screening tools",
+            "A real, already-documented deployment risk for AI hiring and screening tools, not a speculative one"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "headline": "India's first privately developed rocket reaches orbit on debut launch",
+          "summary": "Skyroot Aerospace's Vikram-1 lifted off from Sriharikota on India's southeast coast Saturday and reached a 280-mile (450km) orbit at a 60-degree inclination, matching preflight predictions and confirmed by US military tracking. The rocket stands about 72 feet (22m) tall and can carry up to 770 pounds (350kg) to low-Earth orbit, making it somewhat larger than Rocket Lab's Electron, the world's most successful dedicated small-satellite launcher. Three solid-fueled stages fired in succession before a 3D-printed, liquid-fueled fourth stage pushed the payload to orbital velocity of roughly 17,000 mph. This is India's first fully commercial satellite launcher to reach orbit.",
+          "signal": [
+            "India joins a very short list of countries with a private company capable of independent orbital launch",
+            "Skyroot is now positioned to compete for small-satellite rideshare business globally, not just domestic ISRO overflow work"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Science - Ars Technica",
+          "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2285958264-500x500.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Bezos and UK government back £2bn British 'materials search engine' startup CuspAI",
+          "summary": "CuspAI, a two-year-old Cambridge company, raised $450M (£330M) in a series B from investors including Jeff Bezos and the UK government's sovereign AI fund, valuing it at $2.6B — up from a $100M series A last year. The company uses frontier AI to discover new materials, aiming to cut or eliminate rare metals like iridium and ruthenium from chipmaking supply chains, and has formed the 'AI Materials Foundry,' a coalition of 48-plus companies including Nvidia, Meta and Hyundai. It plans a new Singapore office alongside existing ones in Cambridge, Amsterdam, Berlin, Tokyo and the US. CuspAI is the fourth company funded by the UK's sovereign AI fund, which typically invests £1-10M and requires a UK headquarters and British founders.",
+          "signal": [
+            "Materials discovery is the deep-tech bottleneck behind batteries, semiconductors and climate tech — CuspAI is betting AI can compress that timeline",
+            "The UK sovereign fund's small-check, high-conviction model is a template India's own deep-tech funds could study"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Technology | The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "China's Kimi K3 narrows the US-China AI gap to 'a matter of weeks,' analysts say",
+          "summary": "Beijing-based Moonshot released Kimi K3, a 2.8 trillion-parameter open-weight model with native vision and long-horizon coding and reasoning capabilities, late last week. It has topped GPT-5.6 Sol and Claude Fable 5 on some benchmarks, including Arena AI's front-end coding ranking, while remaining cheaper than US alternatives (though pricier than other Chinese models). AEI fellow Ryan Fedasiuk, who previously held the conventional view that Chinese models lag six to eight months behind US ones, wrote that \"that gap has now closed to something approaching a matter of weeks.\"",
+          "signal": [
+            "If the lag really is down to weeks, the compute-moat thesis US labs have leaned on looks shakier than assumed",
+            "Open-weight, near-frontier performance makes it harder for OpenAI and Anthropic to justify premium pricing"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/tech-war/article/3361142/why-chinas-open-weight-ai-model-kimi-k3-sparking-anxiety-silicon-valley?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/20/ef209bfd-f91b-42c2-b014-67a4cb86c5e1_64a26452.jpg?itok=XZzYRTZ2&v=1784513576",
+          "developing": true
+        },
+        {
+          "headline": "SenseTime CEO: AI's business model is shifting from 'token economy' to 'task economy'",
+          "summary": "Speaking at WAIC in Shanghai, SenseTime CEO Xu Li argued token prices will keep falling — like telecom data pricing two decades ago — and that real commercial value will shift to a 'task economy': charging for completed complex tasks (reviewing blueprints, generating product videos) rather than raw token usage. China's daily AI token consumption has surged more than 1,000-fold in the past two years. Xu expects the next adoption wave to move beyond programmers into general work and design use cases, projecting the addressable market could expand at least tenfold.",
+          "signal": [
+            "The token-to-outcome pricing shift is the same debate US agentic-AI vendors are having — useful framing either way",
+            "Directly relevant to the reader's founder's-office/strategy pivot: this is how AI products will likely be priced and pitched going forward",
+            "This is commentary, not a product or funding announcement — treat as context, not a signal of a specific deal"
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3361242/no-longer-token-economy-sensetime-bets-task-economy-token-prices-set-drop?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/20/e06ae85b-d634-4fe5-b252-26b1471043d0_3362b867.jpg?itok=kIdS77Y7&v=1784549526",
+          "developing": false
+        },
+        {
+          "headline": "Chinese robotics leaders say embodied AI is bottlenecked by data and 'brain,' not hardware",
+          "summary": "At WAIC in Shanghai, SenseTime co-founder Wang Xiaogang, now chair of robotics spinoff Ace Robotics, said the core embodied-AI challenge is linking hardware, data, models and real-world scenarios into one closed loop — most training data still comes from human demonstrations, and real-world robot deployment, where richer data would come from, remains too limited. AgiBot's Yao Maoqing added that multi-modal physical-world data remains far scarcer than the text data that trained large language models, bottlenecking the 'world models' needed for next-generation humanoid navigation.",
+          "signal": [
+            "Echoes the global consensus among humanoid-robot builders that the field is now data-bottlenecked, not compute-bottlenecked",
+            "Useful grounding fact against humanoid-robot hype headlines — deployment scale is the actual constraint"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/article/3361243/chinese-robot-makers-lament-if-we-only-had-better-brain-and-more-data?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/20/c9fa54a2-24bc-4f0b-8436-b2ebe25e89dc_a5acaa96.jpg?itok=VohTcsQU&v=1784549808",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "EU proposes slowing its carbon market's path to zero emissions by a decade",
+          "summary": "The European Commission's July 17 proposal to reform the EU Emissions Trading System (ETS) extends free carbon allowances — previously set to be fully phased out by 2034 — to 2038, conditional on companies filing decarbonisation investment plans; from 2031, 80% of free allowances would go to companies with such plans, the rest only to those who deliver on them. It also slows the pace of the emissions cap decline after 2030, proposing 3.7% a year for 2031-35 and just 1.7% a year for 2036-40 versus the current 4.4% annual rate, pushing the system's path to zero emissions from 2039 into the 2040s. WWF estimates this allows an extra 2 billion tonnes of CO2-equivalent emissions. Alongside it, the EU set a new target of 46% of energy consumption from electricity by 2040, up from 23% today, projected to cut annual fossil-fuel import spending by €260bn. Aviation coverage would expand from 2029 to flights within 5,000km of central Europe, still excluding US and China routes. Half of ETS auction revenue — potentially over €100bn before 2030 — would be required to fund decarbonisation, versus roughly 5% actually reaching industrial decarbonisation today.",
+          "signal": [
+            "A real policy softening dressed as 'business-friendly savvy' — 10 countries including Italy, Hungary and Poland pushed for exactly this, over objections from Spain, the Netherlands and climate NGOs",
+            "EU carbon pricing has been the global reference model; a slower descent here could shift what 'credible' climate commitments look like elsewhere, including in India's own emerging carbon-credit trading scheme"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Carbon Brief",
+          "url": "https://www.carbonbrief.org/qa-what-the-eus-carbon-market-review-means-for-climate-action/",
+          "image": "https://www.carbonbrief.org/wp-content/uploads/2026/07/Screenshot-2026-07-20-at-4.56.29-PM-942x1024.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Arctic sea ice's 20-year 'pause' is over — 2025 saw the biggest winter drop on record",
+          "summary": "A University of Southampton study finds the apparent 2005-2024 slowdown in Arctic sea ice decline — no statistically significant change over those two decades despite rising temperatures — was \"temporary rather than sustained.\" Between 2024 and 2025, Arctic sea ice declined 5.8%, the largest year-to-year wintertime drop ever recorded. September sea ice extent, the annual minimum, has halved since satellite records began in 1979. Researchers say the earlier pause likely reflected natural ocean-current variation temporarily offsetting warming, and that melting could resume at roughly double the long-term rate over the next 5-10 years.",
+          "signal": [
+            "The 'pause' was misread by some as good news; this closes that door — decline is not just continuing but accelerating",
+            "Reduced winter ice insulation means more ocean heat and moisture entering the atmosphere, which researchers link to shifts in storm patterns further south — a mechanism worth knowing, not just the headline number"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Environment | The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/jul/20/slowdown-arctic-sea-ice-melt-largest-winter-decline-record",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Australian ski resorts post July temperatures up to 12°C above average",
+          "summary": "Alpine resorts in New South Wales and Victoria broke decades-old July heat records over the weekend. Mount Hotham hit 12°C against a normal July daily maximum of 0°C; the prior 1994 record of 8.7°C has now been broken three times this month. Falls Creek hit 13°C against a 1.2°C average, beating its 1992 record of 9.8°C. Thredbo, Cabramurra and Mount William also set new daily highs of 14 to 15.2°C, with unusually warm nights too. The cause: a slow-moving high-pressure system combined with an El Niño-driven dry, warm pattern that has left the ski season reliant almost entirely on snow-making.",
+          "signal": [
+            "30-plus-year-old temperature records broken by 2-3°C, not fractions — the scale of the anomaly is the story",
+            "A concrete, quantified case study of climate-driven disruption to a whole industry, useful shorthand for the 'why it matters' conversation"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Environment | The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/21/australian-ski-resorts-smash-july-climate-records-with-temperatures-12c-above-average",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Health Tech",
+      "slug": "health-tech",
+      "stories": [
+        {
+          "headline": "UK biotech VC funding hits a 5-year high, but IPOs stay frozen on geopolitics",
+          "summary": "British biotechs raised £2.05bn ($2.7bn) in Q2 2026, per the BioIndustry Association — a five-year quarterly high. Most of that was one deal: Alphabet-backed Isomorphic Labs' £1.6bn ($2.1bn) series B. Even excluding that, the remaining £498m ($669m) was still nearly double the £279m ($375m) raised in Q2 last year, and included eight seed deals averaging £6.4m ($8.6m). This gave the UK 61% of Europe's £3.3bn VC haul for the quarter. Yet IPOs haven't followed: unlike the US biotech IPO boom (recent Nasdaq listings from Kailera Therapeutics and Parabilis Medicines), no UK biotech IPO wave has materialised, which the BIA's CEO blames mainly on the Middle East conflict chilling market confidence.",
+          "signal": [
+            "Private funding and public-market confidence have decoupled — a reminder that VC headlines don't always translate to exit liquidity",
+            "Isomorphic Labs, an AI-driven drug discovery company, is quietly one of Europe's biggest biotech raises this year — a notable AI-and-health-tech crossover"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Fierce Biotech",
+          "url": "https://www.fiercebiotech.com/biotech/geopolitics-chills-british-biotech-ipo-plans-despite-2b-q2-vc-funds",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Agritech",
+      "slug": "agritech",
+      "stories": [
+        {
+          "headline": "Phytoform partners with major seed breeders to redesign corn architecture with AI",
+          "summary": "UK gene-editing startup Phytoform is partnering with Beck's Hybrids, the largest family-owned seed retailer in the US, and international breeder RAGT to improve \"whole-plant corn architecture\" using its CRE.AI.TIVE platform — machine learning that identifies small, targeted DNA-sequence edits, without introducing foreign DNA, to activate beneficial native gene expression. That approach also lets the edited crops sidestep GMO regulation. Context: every 1°C of warming cuts maize yields by roughly 7.4%, with projected losses of up to 28% by century's end even under optimistic adaptation scenarios, while production costs have roughly doubled since 2007. Phytoform raised $4M earlier this year for a tomato application and already partners with Corteva on corn disease resistance; this deal targets the US Midwest, South America and potentially Europe.",
+          "signal": [
+            "A concrete deployment path — breeders own the germplasm and market channel, Phytoform supplies the AI-designed edits — not just a lab claim",
+            "The regulatory-arbitrage angle (native-gene edits bypass GMO rules) is worth watching in an Indian agritech context too",
+            "CEO's own caveat that AI output still needs biological validation before field use is a useful honesty check against AI-in-agriculture hype"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AgFunderNews",
+          "url": "https://agfundernews.com/phytoform-partners-with-major-seed-breeders-to-bring-ai-powered-plant-design-to-corn-crops",
+          "image": "https://agfundernews.com/wp-content/uploads/2024/10/PhytoformLabs@lexflemingphoto-27-150x150.jpg",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "Odisha startup Coratia wins Rs 66 crore Navy contract for underwater robots",
+          "summary": "Rourkela-based Coratia Technologies builds indigenous remotely operated vehicles (ROVs) and autonomous underwater vehicles (AUVs) used to inspect bridges, pipelines and undersea cables, and has won a Rs 66 crore Indian Navy contract under the iDEX defence-innovation programme. (summary from limited source text)",
+          "signal": [
+            "A genuine India deep-tech/defence-tech win outside the usual Bengaluru-Delhi hubs — worth tracking Odisha as an emerging hardware cluster",
+            "iDEX contracts are becoming a real go-to-market path for Indian deep-tech hardware startups, not just grant money"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/07/coratia-technologies-rs-66-crore-navy-deal",
+          "image": "https://images.yourstory.com/cs/2/6db16ae008d911e9bb473d9d98ed1e05/10-1784545674459.jpg",
+          "developing": false,
+          "key_stat": "Rs 66 Cr · Navy contract"
+        },
+        {
+          "headline": "Bengaluru's Armatrix raises $2.1M for snake-like robots that inspect dangerous tanks",
+          "summary": "Armatrix, a Bengaluru deep-tech startup, makes hyper-flexible snake-like robotic arms for inspecting confined, hazardous industrial spaces so humans don't have to crawl in. It has raised $2.1 million in a round led by pi Ventures. (summary from limited source text)",
+          "signal": [
+            "Industrial-safety robotics is an underhyped but real deep-tech niche in India, with a clear willingness-to-pay use case",
+            "pi Ventures leading signals continued specialist deep-tech VC interest in India beyond the usual SaaS/fintech default"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/07/armatrix-snake-robots-dangerous-tank-inspections",
+          "image": "https://images.yourstory.com/cs/2/6db16ae008d911e9bb473d9d98ed1e05/7-1784545551598.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Transition VC launches Rs 1,500 crore fund for Indian deeptech startups",
+          "summary": "Transition VC has launched a Rs 1,500 crore fund to back Indian deeptech startups. (source unreachable — headline only)",
+          "signal": [
+            "Another large dedicated deeptech pool entering the Indian market — directly relevant to the reader's target sector, worth a follow-up read once fuller reporting on the fund's thesis is available"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/transition-vc-launches-%e2%82%b91500-cr-fund-to-back-deeptech-startups/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/TVC-fund-featured.png",
+          "developing": false,
+          "key_stat": "Rs 1,500 Cr · new deeptech fund"
+        },
+        {
+          "headline": "Wealthtech startup Veriqus raises Rs 387 crore for AI-led investment platform",
+          "summary": "Veriqus, a wealthtech startup, has raised Rs 387 crore to build an AI-led investment platform. (source unreachable — headline only)",
+          "signal": [
+            "One of the larger Indian wealthtech raises this cycle by headline size alone — worth a follow-up once fuller reporting is available"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/wealthtech-startup-veriqus-raises-%e2%82%b9387-cr-to-build-ai-led-investment-platform/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/stakcbox-funding-featured-1-1-1.jpg",
+          "developing": false,
+          "key_stat": "Rs 387 Cr · funding round"
+        },
+        {
+          "headline": "Adani pays Rs 3,050 crore for smart-meter firm IntelliSmart, betting on India's power-theft problem",
+          "summary": "Adani Energy acquired IntelliSmart for Rs 3,050 crore — a bet less on manufacturing smart meters than on owning the long-term contracts that run them, as India's Rs 3 lakh crore RDSS smart-meter rollout becomes one of the country's largest infrastructure programmes, with private AMISPs financing, installing and operating meters for state DISCOMs. The underlying problem: financially stretched DISCOMs need accurate billing and lower losses, and power theft — such as 'katiya,' illegally hooking wires onto power lines, described by one Delhi electrician as routine even among wealthy households running multiple ACs — remains a major drain. Smart meters make theft far harder to hide, turning leakage-reduction into a business opportunity for whoever owns the metering contracts.",
+          "signal": [
+            "Infrastructure-as-a-service model: the real value isn't hardware, it's the decade-plus operating contracts with DISCOMs — a pattern worth recognising in other Indian infra plays",
+            "Concrete numbers ground a real economic story: RDSS is a Rs 3 lakh crore programme, this single acquisition is Rs 3,050 crore"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Ken",
+          "url": "https://the-ken.com/story/adani-pays-rs-3000-crore-to-outwit-electricity-stealing-indians/",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "stories": [
+        {
+          "headline": "RBI: relaxed NRI deposit rules pull in $17.4 billion",
+          "summary": "The Reserve Bank of India said measures allowing banks more flexibility to offer attractive interest rates on overseas deposits to non-resident Indians have brought in $17.4 billion as of last Friday. (summary from limited source text)",
+          "signal": [
+            "A meaningful forex-inflow lever for India amid global market volatility from the Iran war and tariff disputes — worth watching if the RBI leans on this tool further"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-20/india-s-central-bank-says-forex-deposits-net-17-4-billion",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "How Trump plans to keep his tariff wall standing after the Supreme Court pushback",
+          "summary": "Since the start of his second term, Trump has centred US economic policy on tariffs; the Supreme Court has since invalidated some of the sweeping import duties he imposed. (summary from limited source text)",
+          "signal": [
+            "Directly connects to the Canada 50% tariff story above — Trump is working around a Supreme Court setback using alternate legal authority, a pattern worth watching in future tariff moves"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-20/how-trump-plans-to-maintain-his-tariff-wall",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Burnham's economic in-tray: reindustrialisation, devolution and a hunt for growth",
+          "summary": "As UK PM, Andy Burnham inherits an economy where the industrial base has shrunk from about 30% of GDP in 1979 to roughly 10% today, and where youth unemployment among 16-24 year-olds has passed 1 million people, or 13.5% of that age group — the highest in a decade. His government must find an extra £4.7bn over five years for a promised £15bn defence-spending increase, with £10.3bn of that meant to come from reallocating budgets from other departments; separately, Labour has pledged £39bn for 1.5 million new homes, a target England last hit in a single year back in 1969. Burnham has also pledged the 'biggest rebalancing of power' via devolution, moving a No.10 hub to Manchester and handing regional leaders tax powers, while promising to stick to Rachel Reeves' existing fiscal rules to avoid spooking bond markets already facing a roughly £100bn annual debt-servicing bill.",
+          "signal": [
+            "Concrete numbers behind the '10-year plan' rhetoric from the earlier Burnham story — the substance behind the politics",
+            "The fiscal-rule commitment sits awkwardly next to huge new spending pledges on defence and housing — an obvious tension worth watching at Burnham's first budget"
+          ],
+          "badge": "DATA",
+          "takeaway": "",
+          "why": "",
+          "source": "Business | The Guardian",
+          "url": "https://www.theguardian.com/business/2026/jul/19/andy-burnham-economy-defence-housing-and-living-costs",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "stories": [
+        {
+          "headline": "4 Indian sailors among 10 killed as missile hits ship in Russia-Ukraine war",
+          "summary": "A missile strike on a cargo ship killed 10 people, including 4 Indian sailors, amid the Russia-Ukraine war. (source unreachable — headline only)",
+          "signal": [
+            "Indian nationals remain exposed on Black Sea/Ukraine-adjacent shipping routes as the war continues",
+            "Limited detail available here — worth checking follow-up coverage for MEA response and the ship's flag and route"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India | The Indian Express",
+          "url": "https://indianexpress.com/article/india/russia-ukraine-war-4-indian-sailors-among-10-killed-as-missile-hits-ship-10795640/",
+          "image": "https://images.indianexpress.com/2026/07/odesa-ukraine_20260720173645.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Floods and landslides kill 6 more in Assam, Meghalaya, Nagaland; northeast toll hits 25 since June",
+          "summary": "Floods and rain-induced landslides killed six people across Assam and Meghalaya in the last 48 hours, taking the northeastern region's monsoon death toll to at least 25 since late June. In Assam, 3.63 lakh people across 16 districts are affected; 794 villages are inundated and 19,099.59 hectares of crops damaged, with more than 34,900 people moved to relief camps. Five rivers — the Brahmaputra, Buridihing, Dikhou, Disang and Dhansiri — are above danger level; Sivasagar, Charaideo and Jorhat are worst-hit, with 3.13 lakh people affected there alone. In Nagaland, the landslide toll in Mon town has risen to nine; the Konyak Union is demanding an emergency declaration. Army helicopters and additional boats have been deployed, while the Northeast Frontier Railway reports track and station flooding disrupting operations around Simaluguri.",
+          "signal": [
+            "The numbers show this is well past a routine monsoon story — 25 dead and 3.63 lakh affected in Assam alone, with more rain forecast for the next 2-4 days",
+            "Rail-line flooding adds a tangible economic dimension beyond the human toll"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/news/national/assam/six-killed-in-floods-landslips-in-northeast/article71246629.ece",
+          "image": "https://th-i.thgim.com/public/incoming/ggej3z/article71247176.ece/alternates/LANDSCAPE_1200/PTI07_20_2026_000856B.jpg",
+          "developing": true
+        },
+        {
+          "headline": "Study: over half of adult women in Odisha's most vulnerable tribal groups are anaemic",
+          "summary": "A Utkal University study of 9,222 people across 2,041 households from 10 of Odisha's 13 Particularly Vulnerable Tribal Groups found over 53% of adult women and 37% of adult men anaemic, with the Mankidia (59%) and Bonda (56% among men) communities hit hardest. Female adolescent stunting averages 50.74% across the surveyed groups, reaching 82.76% among the Hill Kharia — a rate researchers call a critical public health emergency. Nearly one in three adolescents (30.88%) shows signs of acute undernutrition, rising above 40% among the Didayi, Lodha and Hill Kharia. The study also found a 59% home-delivery rate, signalling maternal care isn't reliably reaching these communities.",
+          "signal": [
+            "Hard, granular data on one of India's most under-measured populations — a grounding fact set, not just a headline stat",
+            "Researchers explicitly call for community-specific, not one-size-fits-all, nutrition and health interventions — a direct link between data and policy ask"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/news/national/odisha/more-than-half-of-odishas-pvtg-adult-women-anaemic-says-a-study-by-utkal-university/article71245884.ece",
+          "image": "https://th-i.thgim.com/public/news/national/nr04bg/article71247167.ece/alternates/LANDSCAPE_1200/iStock-962823676.jpg",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "stories": [
+        {
+          "headline": "US launches 10th consecutive night of strikes on Iran; Tehran calls it 'full-scale war'",
+          "summary": "The US military struck Iranian \"military command centres, maritime capabilities, missile and drone launch sites, and air defense systems\" for a 10th straight night, aiming to degrade Iran's ability to threaten shipping in the Strait of Hormuz. Trump vowed retaliation after Iranian strikes killed three US soldiers at Jordan's Muwaffaq Salti base over the weekend — Pte Isabella Gonzales, 19, and Lt Tyler James Feehan, 25, have been identified; a third serviceman went missing before unidentified remains were found nearby. In response to the latest US strikes, Iran said it hit two oil tankers transiting the Strait of Hormuz plus US assets in Bahrain and Kuwait; President Masoud Pezeshkian called it a \"full-scale war.\" Jordan shot down three Iranian missiles, Kuwait intercepted Iranian drones, and Bahrain said its air-navigation systems were targeted. Despite the escalation, diplomatic messages are reportedly still being exchanged through intermediaries, and commercial shipping continues to transit Hormuz, per US Central Command.",
+          "signal": [
+            "10 consecutive nights signals a sustained air war, not a one-off retaliatory strike",
+            "Confirmed US soldier deaths raise domestic political pressure on Trump to keep escalating"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/900b/live/19b1fef0-847d-11f1-8f17-6fca617ac634.jpg",
+          "developing": true
+        },
+        {
+          "headline": "Trump imposes 50% tariffs on Canadian goods via untested 1930s law",
+          "summary": "Trump signed orders imposing new 50% tariffs on a range of Canadian goods — including wine, hockey sticks and cement — citing \"discriminatory treatment\" of American alcohol, auto and dairy products. The tariffs take effect in 30 days and hit products covered under the USMCA free-trade agreement, though energy, potash, and goods already under sector-specific tariffs are exempted. Trump invoked Section 338 of the Tariff Act of 1930, a provision never previously used for this purpose, after the Supreme Court struck down many of his earlier tariffs this year. Canadian PM Mark Carney said Ottawa is ready to \"intensify\" talks and has proposed ways to resolve disputes and modernise USMCA.",
+          "signal": [
+            "First real test of Section 338 as a tariff tool after the Supreme Court pushback",
+            "Directly hits USMCA-protected goods, undermining the free-trade-agreement premise Canada was relying on"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World - South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3361268/trump-imposes-50-tariffs-canadian-goods-citing-disputes-over-cars-alcohol-and-cheese?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/21/f4447672-44bf-4481-ae11-34854daa7032_826843e6.jpg?itok=f34PvzNp&v=1784584672",
+          "developing": true
+        },
+        {
+          "headline": "Andy Burnham becomes UK PM, pledges 10-year plan to end political instability",
+          "summary": "Andy Burnham was formally appointed UK prime minister by King Charles on Monday, becoming Britain's seventh leader in a decade to promise political stability. He pledged a \"circuit breaker\" from the policy direction set since 1980s privatisation, promising to devolve power \"into every postcode,\" ease cost-of-living pressure, revitalise industry, and end street homelessness — while explicitly acknowledging the \"political revolving door\" he is walking into.",
+          "signal": [
+            "Seventh PM in a decade to make this exact promise — worth tracking delivery, not rhetoric",
+            "The numbers behind this speech are in the Global Economics section above"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World - South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3361245/uks-new-pm-andy-burnham-vows-end-years-instability?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/20/f91dcd34-0be8-4f58-ba29-d68337a9f7ae_123965b7.jpg?itok=mpJc9XTT&v=1784551866",
+          "developing": false
+        },
+        {
+          "headline": "Houthis declare 'maritime embargo' on Saudi Arabia, threaten to close Bab al-Mandab",
+          "summary": "Yemen's Houthis announced a \"maritime embargo\" against Saudi Arabia, with a media official saying they would close the Bab al-Mandab Strait — the Red Sea's southern gateway — to Saudi vessels, in retaliation for a Saudi blockade of Houthi-controlled ports and airports. This follows the most serious Houthi-Saudi escalation since a 2022 informal truce. The Red Sea has become critical for Saudi oil exports since the Strait of Hormuz effectively closed amid the US-Iran conflict — Saudi Arabia has diverted over 70% of crude exports to the Red Sea port of Yanbu, now shipping about 4 million barrels a day versus roughly 973,000 bpd a year earlier; total Bab al-Mandab petroleum transit hit 7.4 million bpd in June, about 7% of global output.",
+          "signal": [
+            "Saudi Arabia's Red Sea oil-export lifeline is now itself under direct threat, right when it's needed most",
+            "4 million bpd through Yanbu versus 973,000 bpd a year ago shows how load-bearing this rerouted route has become"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0f9/live/01fcfa10-845c-11f1-bee8-53ce494e1abc.jpg",
+          "developing": true
+        },
+        {
+          "headline": "Delhi police block 'Cockroach Party' marchers demanding education minister's resignation",
+          "summary": "Thousands of supporters of the Cockroach Janta Party (CJP) — a youth-led movement demanding education reform and the education minister's resignation over alleged exam-paper leaks — defied a police ban and tried to march on Parliament; police used tear gas and cane charges, injuring at least 10 people treated by volunteer doctors. The movement takes its name from India's chief justice comparing unemployed youth to \"cockroaches,\" a remark he later withdrew. It gained fresh momentum after police forcibly hospitalised activist Sonam Wangchuk on the 21st day of his hunger strike; his fast reportedly continues. Two CJP representatives met Health Minister JP Nadda, who said he would \"raise the matter\" but offered no commitment. Delhi Police suspended mobile internet in parts of central Delhi and later dismantled the Jantar Mantar protest site by evening. Parliament's monsoon session opened with repeated adjournments over opposition protests on the same paper-leak issue.",
+          "signal": [
+            "Has grown from a June online campaign into one of the most visible anti-government protest movements in years — a genuine bellwether of youth-employment and education frustration",
+            "The core grievance — job scarcity, exam-system trust — is the same structural issue shaping India's white-collar hiring environment",
+            "The internet shutdown and hospitalisation-of-hunger-striker tactics are worth watching as an indicator of how the state is choosing to manage this"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvg9w9dxd7lo?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e8d/live/e2c0bd70-8448-11f1-b976-0b9c15b0ccfc.jpg",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "Other Interests",
+      "slug": "other-interests",
+      "stories": [
+        {
+          "headline": "Inhaling high-dose CO2 pumps Alzheimer's-linked proteins out of the brain, small study finds",
+          "summary": "In a study presented at the Alzheimer's Association International Conference in London, 12 people breathed alternating 0.05%/5% CO2 every 35 seconds for 30 minutes, mimicking the blood-vessel dilation and constriction that normally happens during deep sleep and drives the brain's glymphatic waste-clearance system. Blood beta-amyloid levels rose in all participants 15 minutes after the session, indicating more of the Alzheimer's-linked protein had been cleared from the brain; tau clearance also improved, but only in the four participants who already had elevated tau or cognitive impairment. The effect faded back to baseline within about an hour. A related 2025 study suggests the same approach could help clear alpha-synuclein, the protein linked to Parkinson's. No side effects were reported in this small trial, but researchers say long-term safety, dosing frequency and actual cognitive-outcome effects remain unknown.",
+          "signal": [
+            "A genuinely novel, drug-free mechanism — mimicking deep-sleep vascular pumping via controlled CO2 — rather than another amyloid-drug study",
+            "Very early stage: 12 participants, effect fades within an hour, no outcome data yet — the hype-vs-evidence gap is worth flagging explicitly"
+          ],
+          "badge": "DATA",
+          "takeaway": "",
+          "why": "",
+          "source": "New Scientist",
+          "url": "https://www.newscientist.com/article/2580471-inhaling-high-dose-co2-clears-alzheimers-proteins-from-the-brain/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+          "image": "https://www.newscientist.com/wp-content/uploads/2026/07/SEI_305894556.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Tourism and infrastructure are shrinking habitat for India's Himalayan salamanders",
+          "summary": "The Himalayan salamander (Tylototriton himalayanus), found in Darjeeling's misty hills, breeds in small wetland ponds called pokhris that are disappearing to housing and tourism development, per Zoological Survey of India researcher Koushik Deuti. Remaining ponds face contamination from wastewater and detergents, and new roads cut migration paths, killing salamanders that try to cross. Currently just 10% of salamander territory sits within officially protected areas; the rest is on private land and tea estates. India's first salamander sanctuary, established in 1985, itself became a cautionary tale after tourism infrastructure and cementing wiped out its population. The West Bengal Forest Department is now restoring habitat — clearing invasive weeds, digging new ponds — and plans to formally protect three more sites as dedicated sanctuaries this year.",
+          "signal": [
+            "A concrete India conservation case study with numbers — 90% of habitat unprotected — rather than vague biodiversity-loss framing",
+            "A small, specific, fixable problem: locals have requested road culverts for safe salamander crossings, and none have been built"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Conservation news",
+          "url": "https://news.mongabay.com/short-article/2026/07/tourism-and-infrastructure-threaten-habitat-of-indias-himalayan-salamanders/",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/07/20233548/vlcsnap-2026-07-17-15h06m38s727-768x512.png",
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "name": "GROUND ZERO — India's First Live Startup Investment Simulation",
+      "when": "Register by Jul 27, 2026",
+      "summary": "A live startup-investment simulation competition hosted by Inglu, national in scope — a rare chance to practice the actual mechanics of evaluating and backing startups rather than just talking about it.",
+      "source": "Unstop",
+      "url": "https://unstop.com/competitions/ground-zero-indias-first-live-startup-investment-simulation-inglu-1722426"
+    },
+    {
+      "name": "GBT AI Ignite 2026",
+      "when": "Register by Aug 3, 2026",
+      "summary": "An AI-focused hackathon hosted by Go Beyond Tickets, national in scope — worth it if you want hands-on AI-building reps outside work.",
+      "source": "Unstop",
+      "url": "https://unstop.com/hackathons/gbt-ai-ignite-2026-go-beyond-tickets-1721794"
+    },
+    {
+      "name": "AI Revolution Summit — India",
+      "when": "Aug 13, 2026",
+      "summary": "A national India AI industry summit listed on 10times — useful for founder/operator networking in the AI space, though limited detail is available beyond the listing itself.",
+      "source": "10times (India AI)",
+      "url": "https://10times.com/e1g0-f2z3-p7sh-h-ai-revolution-summit"
+    }
+  ],
+  "brief": [
+    {
+      "line": "Skyroot's Vikram-1 becomes India's first privately built rocket to reach orbit",
+      "id": "deep-tech-209d29820b",
+      "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/"
+    },
+    {
+      "line": "US strikes Iran for a 10th straight night; Tehran calls it 'full-scale war'",
+      "id": "world-d299f4599f",
+      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "line": "Trump slaps 50% tariffs on Canadian goods via untested 1930s law",
+      "id": "world-4f499a247c",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3361268/trump-imposes-50-tariffs-canadian-goods-citing-disputes-over-cars-alcohol-and-cheese?utm_source=rss_feed"
+    },
+    {
+      "line": "Anthropic's $1.5B book-piracy settlement wins final court approval",
+      "id": "ai-758b6cd171",
+      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/"
+    },
+    {
+      "line": "China's Kimi K3 narrows the US-China AI gap to 'weeks,' analysts say",
+      "id": "deep-tech-749be15a2f",
+      "url": "https://www.scmp.com/tech/tech-war/article/3361142/why-chinas-open-weight-ai-model-kimi-k3-sparking-anxiety-silicon-valley?utm_source=rss_feed"
+    },
+    {
+      "line": "Bezos, UK government back a £2bn materials-AI startup, CuspAI",
+      "id": "deep-tech-d7a5fc6bc8",
+      "url": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai"
+    },
+    {
+      "line": "Houthis threaten to close Bab al-Mandab to Saudi ships, risking the new Red Sea oil route",
+      "id": "world-208d8c1141",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "line": "Adani pays Rs 3,050 crore for a smart-meter firm as India battles power theft",
+      "id": "indian-startups-d38dd986d4",
+      "url": "https://the-ken.com/story/adani-pays-rs-3000-crore-to-outwit-electricity-stealing-indians/"
+    },
+    {
+      "line": "Northeast floods and landslides kill 6 more; regional toll hits 25 since June",
+      "id": "india-bbb51127f1",
+      "url": "https://www.thehindu.com/news/national/assam/six-killed-in-floods-landslips-in-northeast/article71246629.ece"
+    },
+    {
+      "line": "Delhi police tear-gas 'Cockroach Party' marchers demanding the education minister quit",
+      "id": "world-9e0bf94c76",
+      "url": "https://www.bbc.co.uk/news/articles/cvg9w9dxd7lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "line": "UK biotech VC funding hits a 5-year high ($2.7B in Q2) but IPOs stay frozen",
+      "id": "health-tech-bfde905a55",
+      "url": "https://www.fiercebiotech.com/biotech/geopolitics-chills-british-biotech-ipo-plans-despite-2b-q2-vc-funds"
+    },
+    {
+      "line": "Study: LLMs stereotype job candidates more than humans do",
+      "id": "ai-64de944135",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
+    }
+  ],
+  "markets": {
+    "generated_at": "2026-07-21T01:03:13.478289+00:00",
+    "quotes": [
+      {
+        "label": "Nifty 50",
+        "value": 24238.5,
+        "unit": "",
+        "change_pct": 0.69,
+        "usd": false
+      },
+      {
+        "label": "Sensex",
+        "value": 77708.52,
+        "unit": "",
+        "change_pct": 0.68,
+        "usd": false
+      },
+      {
+        "label": "USD/INR",
+        "value": 96.44,
+        "unit": "₹",
+        "change_pct": -0.22,
+        "usd": false
+      },
+      {
+        "label": "Brent Crude",
+        "value": 88.85,
+        "unit": "$/bbl",
+        "change_pct": 0.85,
+        "usd": true
+      },
+      {
+        "label": "Bitcoin",
+        "value": 65459.98,
+        "unit": "$",
+        "change_pct": 1.19,
+        "usd": true
+      },
+      {
+        "label": "Gold",
+        "value": 124936,
+        "unit": "₹/10g",
+        "change_pct": 0.42,
+        "usd": false
+      },
+      {
+        "label": "Silver",
+        "value": 176835,
+        "unit": "₹/kg",
+        "change_pct": 1.78,
+        "usd": false
+      }
+    ]
+  }
+}
