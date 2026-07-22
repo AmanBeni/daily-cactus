@@ -1,0 +1,770 @@
+{
+  "date": "2026-07-22",
+  "edition": 37,
+  "colophon": "57 sources scanned · 55 ok · 2 failed",
+  "lead": null,
+  "frontpage": [
+    {
+      "headline": "Trump sets 100% tariff on generic drugs, giving manufacturers two years to reshore",
+      "summary": "President Trump announced a 100% import duty on generic drugs starting August 2028, doubling to 200% in August 2029 for companies that haven't built US production plants by then. The move, announced in a social media post, is aimed at \"reshoring\" generic pharmaceutical manufacturing — but threatens the low-cost drug supply millions of Americans rely on, since most generics are made overseas.",
+      "signal": [
+        "Generics make up the large majority of US prescriptions by volume — a 100-200% duty is a direct affordability hit, not a symbolic tariff.",
+        "India is the world's largest generics exporter — this is a structural risk to Indian pharma's biggest market.",
+        "Watch for US-plant announcements from Sun Pharma, Cipla, Dr Reddy's and peers — that's the real tell on how seriously they take the 2028 deadline."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-21/trump-plans-100-tariff-on-generic-drugs-from-august-2028",
+      "image": null,
+      "developing": false,
+      "key_stat": "100% tariff · Aug 2028"
+    },
+    {
+      "headline": "Pentagon: the Iran war has cost the US $37.5 billion so far",
+      "summary": "Defense Secretary Pete Hegseth told lawmakers the Iran war's cost has reached $37.5 billion through September 30, in his first public testimony since bombing resumed. Trump has asked Congress for nearly $90 billion in additional funding, mostly tied to the Iran conflict. Reuters reported in March that the first six days alone cost at least $11.3 billion. The war is now colliding with November midterm politics, with Democrats linking it to affordability concerns.",
+      "signal": [
+        "$37.5B and rising, with no disclosed endpoint — a slow-bleed cost centre, not a one-off strike.",
+        "Connects directly to the oil-price risk the IMF flagged for India's FY27 growth — Hormuz-adjacent conflict cost is now a line item, not a tail risk."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "World - South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3361399/us-war-iran-has-cost-us375-billion-so-far-pentagon-chief-hegseth-says?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/22/bb8b2caf-ca04-4cc1-91a1-e8f1e5f5d2b9_03442b0f.jpg?itok=05JEiSni&v=1784677810",
+      "developing": true
+    },
+    {
+      "headline": "Punjab farmers blocked at the Haryana border en route to a Delhi rally against the India-US trade deal",
+      "summary": "Farmers under the \"Desh Bachao Morcha\" banner were stopped by police at the Shambhu-Ambala and Khanauri-Jind border crossings on Tuesday, as they tried to reach a Delhi rally opposing the proposed India-US trade deal. Police erected multi-layer barricades; the farmers called off the protest after assurances their demands would reach the Centre. A trade body separately warned that repeated closures of the Shambhu border — one of North India's busiest transport corridors — are raising logistics costs and disrupting industrial supply chains in Punjab. Farmer leaders say they'll intensify the movement \"if the agreement is pushed forward.\"",
+      "signal": [
+        "The India-US trade deal now has an organized, escalating domestic opposition front, with real industrial cost, not just farm-sector lobbying.",
+        "This is the opening move of a longer campaign — SKM has called nationwide protests for the next day (see Agritech)."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+      "url": "https://www.thehindu.com/news/national/haryana-police-close-shambu-border-ahead-of-farmers-motorcycle-rally/article71248028.ece",
+      "image": "https://th-i.thgim.com/public/incoming/jvnxc1/article71248030.ece/alternates/LANDSCAPE_1200/PTI07_19_2026_000402B.jpg",
+      "developing": true
+    },
+    {
+      "headline": "Google ships three new Gemini models — but still no update to its flagship Pro",
+      "summary": "Google DeepMind released Gemini 3.6 Flash (its \"workhorse\" model, cutting token usage up to 17% versus its predecessor), 3.5 Flash-Lite (its cheapest tier), and 3.5 Flash Cyber (a cybersecurity-tuned model limited to governments and trusted partners). Conspicuously missing: an update to flagship Gemini Pro, last refreshed in February, despite Google teasing it in May as \"already being used internally.\" Bloomberg reported Google is struggling to hit internal performance targets for 3.5 Pro. In the same window, OpenAI shipped GPT-5.5 and started rolling out GPT-5.6, and Anthropic launched Claude Opus 4.8, Sonnet 5, and expanded Fable 5 access. DeepMind's Logan Kilpatrick says 3.5 Pro is in partner testing and hopes to \"land soon,\" and that the team has begun its most ambitious pre-training run yet for Gemini 4.",
+      "signal": [
+        "Google is visibly behind its own release cadence for the model that matters most competitively — reasoning and coding — while rivals ship on schedule.",
+        "The Cyber model's government-only access is a template worth watching: expect more labs to gate capability-heavy models by trust tier rather than release them openly."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+      "image": null,
+      "developing": true,
+      "editors_read": "Google shipping around its flagship gap — cheaper Flash tiers, a gated Cyber model — rather than through it suggests DeepMind's reasoning and coding stack isn't ready to face Claude and GPT-5.6 head-on yet, a rare visible stumble from the best-resourced lab in the race. Worth tracking whether the 3.5 Pro delay compounds into Gemini 4's timeline; a wobble at Google usually reshuffles enterprise AI vendor conversations within a quarter."
+    },
+    {
+      "headline": "Zhipu (Z.ai) shares jump 37% on a 1-gigawatt datacentre built entirely on Chinese chips",
+      "summary": "The Beijing-based AI firm's stock rebounded sharply after reports it completed a 1-gigawatt computing centre using only domestic chips, alongside acquiring Chinese infrastructure-software firm XCore Sigma — a Chinese Academy of Sciences spinout focused on compilers, runtimes, and inference engines for heterogeneous AI chips. Together, the moves target Zhipu's computing-power constraints and inference efficiency.",
+      "signal": [
+        "A 1GW datacentre on domestic silicon is a concrete data point for \"China doesn't need Nvidia to scale AI\" — an operating fact, not a claim.",
+        "Pairs directly with the Guardian's TechScape piece on China closing the AI gap (see Deep Tech) — read them together."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Tech - South China Morning Post",
+      "url": "https://www.scmp.com/tech/big-tech/article/3361374/zai-shares-surge-37-firm-builds-giant-data-centre-powered-chinese-chips?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/21/85b22c5b-da2e-4577-ba34-f53645235477_8adbddb4.jpg?itok=du-eMtlQ&v=1784637725",
+      "developing": false
+    },
+    {
+      "headline": "Bessemer's investment thesis for India's AI infrastructure: the 'Swaraj Stack'",
+      "summary": "Bessemer Venture Partners lays out a five-layer thesis for domestic AI infrastructure investment in India — energy, compute, data, models, and infrastructure software. Key numbers: India's power capacity (520 GW, heading to 1,121 GW by 2035-36) will need 174 GW of dedicated storage by then; datacentre power draw is set to rise from 1.5 GW today to 4.5-9 GW by 2030 (0.5% to 3% of India's electricity); India's semiconductor imports crossed $20 billion in FY24 (+18.5% year-on-year), against a government-backed $13 billion, 12-year Semiconductor Mission 2.0; India's banking and investment sector alone spent $15 billion on IT in 2025; and India is 18% of the world's population but under 1% of Common Crawl's AI training data — the gap Bessemer says domestic \"mining and refinement\" and labelling startups will fill (the global data-labelling market: $3.8 billion in 2024, heading to $17 billion by 2030). Bessemer frames the thesis on the model of Aadhaar and UPI — vendor-neutral, open, India-built infrastructure — and cites its own bets (Sarvam, Mitigata, Seekho, Inrisk) as early plays.",
+      "signal": [
+        "This is a VC firm publicly showing its homework on where it's deploying capital in Indian AI infra — read it as a map of where the next funding rounds will cluster.",
+        "Maps directly onto deep tech plus India plus AI infra — worth reading the source in full, not just this summary."
+      ],
+      "badge": "ANALYSIS",
+      "takeaway": "",
+      "why": "",
+      "source": "Bessemer Venture Partners",
+      "url": "https://www.bvp.com/atlas/roadmap-the-swaraj-stack-indian-resilience-in-a-connected-world",
+      "image": null,
+      "developing": false,
+      "editors_read": "Bessemer naming its actual portfolio bets (Sarvam, Mitigata, Seekho, Inrisk) alongside the thesis makes this closer to a public LP letter than punditry — treat it as a map of where institutional capital is already positioned. The five-layer framing (energy, compute, data, models, infra software) is a genuinely useful mental model for scoping where a founder's-office or strategy role in Indian deep tech would sit — the data and infra-software layers look the least crowded and most talent-constrained of the five, which is usually where early operating leverage is highest."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "stories": [
+        {
+          "headline": "Google ships three new Gemini models — but still no update to its flagship Pro",
+          "summary": "Google DeepMind released Gemini 3.6 Flash (its \"workhorse\" model, cutting token usage up to 17% versus its predecessor), 3.5 Flash-Lite (its cheapest tier), and 3.5 Flash Cyber (a cybersecurity-tuned model limited to governments and trusted partners). Still missing: an update to flagship Gemini Pro, last refreshed in February. Bloomberg reported Google is struggling to hit internal performance targets for 3.5 Pro, even as OpenAI shipped GPT-5.5/5.6 and Anthropic launched Opus 4.8, Sonnet 5, and expanded Fable 5 access in the same window. DeepMind's Logan Kilpatrick says the team has begun its most ambitious pre-training run yet for Gemini 4.",
+          "signal": [
+            "Google is visibly behind its own release cadence on the model that matters most competitively.",
+            "The Cyber model's government-only access is a template worth watching for how labs gate capability by trust tier."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "More than half of daily uploads to Deezer are now AI-generated",
+          "summary": "Deezer says AI-generated tracks now account for over 50% of daily uploads, up from just 10% (10,000 tracks/day) in January 2025 — climbing through 18% (April 2025), 28% (September 2025), 34% (November 2025), 39% (January 2026), and 44% (April 2026), peaking at a 90,000-tracks/day average in June 2026. Deezer will start taking down AI tracks that haven't been streamed in six months or are tied to fraudulent streaming used to inflate royalty payouts. Platforms remain split on policy: Bandcamp bans AI tracks outright, Tidal blocks their monetization, Apple Music uses voluntary tagging, and Spotify runs its own disclosure policy. Deezer has also licensed its AI-detection tech, which flags Suno- and Udio-generated tracks, to other platforms, though adoption elsewhere is unconfirmed.",
+          "signal": [
+            "The 50%+ upload share is likely an undercount elsewhere in the industry — Deezer is unusually transparent about tracking this.",
+            "Fraudulent streaming used to inflate royalties, not AI music's existence, is the real commercial threat Deezer is building enforcement for."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "headline": "China's Moonshot and Alibaba rattle Silicon Valley as Google stumbles on Gemini",
+          "summary": "Google is months behind schedule on Gemini 3.5's flagship update, reportedly racing to catch Claude's coding lead, per Bloomberg — while Chinese startup Moonshot released Kimi K3, a free, open-weight model strong enough at front-end coding that Arena's CEO called it \"the single biggest release of the year.\" Moonshot said demand pushed \"close to the limits\" of its GPU capacity within 48 hours. Alibaba previewed a similarly-sized Qwen3.8 Max the same weekend, with weights coming soon. Beijing subsidizes compute and power for domestic AI labs, letting them give models away free — a strategy pushing global businesses toward \"China's low-cost, open-weight models\" as US AI costs rise, per SCMP. In Washington, Trump officials are weighing new restrictions on Chinese model access; OpenAI's policy head warned open-weight Chinese AI risks \"full AI communism,\" drawing a public rebuke from the Pentagon's CTO. Separately, Meta workers sued over algorithmic firing and thousands of Google employees petitioned for layoff protections as AI reshapes engineering jobs.",
+          "signal": [
+            "Free, capable, open-weight Chinese models directly threaten the pricing power every US frontier lab depends on — DeepSeek's shockwave, still spreading a year later.",
+            "No US alignment between labs (want open access curbed) and government (weighing restrictions) makes policy whiplash the base case for anyone building on Chinese open-weight models.",
+            "The Silicon Valley labor pushback (lawsuits, petitions) is an early sign of organized resistance to AI job displacement — worth watching if it spreads to India's IT/GCC workforce."
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Technology | The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/20/china-google-ai-race",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Banks finalize $1.75B loan backing SoftBank's $5.4B robotics bet",
+          "summary": "A banking syndicate wrapped up a $1.75 billion-equivalent debt package (dollar and euro term loans) backing SoftBank's $5.4 billion robotics investment, after increasing the dollar tranche size. The debt priced at 4.25 percentage points over benchmark — the wide end of initial pricing talk.",
+          "signal": [
+            "Wide-end pricing signals lenders see real risk in the robotics bet, not a rubber-stamp financing.",
+            "SoftBank continuing to lever up for robotics/AI infrastructure is worth tracking alongside its Arm and OpenAI-adjacent bets."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-21/banks-wrap-up-loan-backing-softbank-s-5-4-billion-robotics-bet",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Zhipu (Z.ai) shares jump 37% on a 1-gigawatt datacentre built entirely on Chinese chips",
+          "summary": "The Beijing-based AI firm's stock rebounded sharply after reports it completed a 1-gigawatt computing centre using only domestic chips, alongside acquiring Chinese infrastructure-software firm XCore Sigma — a Chinese Academy of Sciences spinout focused on compilers, runtimes, and inference engines for heterogeneous AI chips.",
+          "signal": [
+            "A 1GW datacentre on domestic silicon is a concrete data point for China scaling AI without Nvidia.",
+            "Read alongside the Moonshot/Google story above — three separate China-AI signals landing the same day."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3361374/zai-shares-surge-37-firm-builds-giant-data-centre-powered-chinese-chips?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/21/85b22c5b-da2e-4577-ba34-f53645235477_8adbddb4.jpg?itok=du-eMtlQ&v=1784637725",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "India Deep Tech",
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "headline": "Inside Vikram-1: carbon-fibre composites, 3D-printed engines, and India's 400-strong space-startup wave",
+          "summary": "A technical breakdown of Skyroot's Vikram-1 launch: built with ISRO/IN-SPACe infrastructure support, the rocket uses carbon-fibre composite structures (as strong as metal, far lighter) and India's first fully 3D-printed rocket engines, cutting production time and part count. Vikram-1 carries up to 350kg to low-Earth orbit; Skyroot plans a variant carrying up to 550kg. Skyroot is one of nearly 400 space startups that have emerged since India opened the sector to private players, and this was its second flight after the 2022 suborbital Vikram-S test. The mission also carried tech-demo payloads from other Indian startups — Grahaa Space's nanosatellite bus and Cosmoserve Space's soft-robotic debris-capture demonstrator. Small satellites made up roughly 97% of all 2024 launches (up from about 1,200 in 2020 to about 2,800 in 2024) — the demand Vikram-1 is built to serve.",
+          "signal": [
+            "The manufacturing detail — 3D-printed engines, composites — is the actual moat, not the launch itself; it's what determines whether Skyroot can hit cadence and cost.",
+            "Nearly 400 India space startups is a bigger ecosystem number than most coverage of this launch mentions."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/comment/indias-space-startup-drive-takes-off/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Agri-drone startup Suind raises Rs 20.5 Cr (~$2.2M) at an Rs 80 Cr (~$8.4M) valuation",
+          "summary": "Bengaluru-based Suind's board approved issuing preference shares to raise Rs 20.5 crore, led by Transition Venture Capital Fund (Rs 20 Cr) with CIIE Initiatives (Rs 50 lakh) participating — valuing the company at roughly Rs 80 crore post-money. It's Suind's first round in two-and-a-half years, after a Rs 5 crore seed in November 2023. Post-round, Transition VC becomes the largest external shareholder at 25%; co-founders Kunal Shrivastava and Kevin Kleber each hold 25.08%. Suind's Bumblebee platform combines computer vision and autonomous navigation for crop monitoring and precision spraying; the company is pre-revenue with a Rs 1.89 crore FY25 loss and plans to expand beyond agriculture into industrial applications. It competes with Marut Drones, Garuda Aerospace, IoTechWorld Avigation, BharatRohan, and Dhaksha.",
+          "signal": [
+            "Pre-revenue with an Rs 80 Cr valuation on an Rs 20.5 Cr raise is a modest, sane round by Indian deep-tech standards — no hype markup here.",
+            "The pivot to industrial applications is the tell: agri-drone unit economics alone likely aren't enough to justify the valuation yet."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Entrackr",
+          "url": "https://entrackr.com/exclusive/exclusive-agriculture-drone-startup-suind-set-to-raise-rs-205-cr-at-rs-80-cr-valuation-12180327",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "Bengaluru's AquaAirX built a drone that flies, swims, and dives in one mission",
+          "summary": "AquaAirX's AVATAAR transitions from air to underwater within a single mission, built for coastal patrol, search-and-rescue, and defence use cases. (summary from limited source text)",
+          "signal": [
+            "Tri-domain (air/surface/underwater) platforms are a genuine hard-engineering problem — worth watching if this converts into a defence contract, which would validate the approach."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/07/aquaairx-avataar-air-underwater-drone",
+          "image": "https://images.yourstory.com/cs/2/6db16ae008d911e9bb473d9d98ed1e05/13-1784635610416.jpg",
+          "developing": false
+        },
+        {
+          "headline": "NeuralZome raises $2.4M seed for no-code AI that trains off-road robots",
+          "summary": "The Bengaluru deep-tech startup builds teachable AI agents for off-road robots, offered as a rented service, and has raised $2.4 million in a seed round led by 8X Ventures. (summary from limited source text)",
+          "signal": [
+            "\"Robot training as a rented service\" is a different go-to-market from selling hardware — worth watching whether it scales past agri/off-road into warehousing or defence."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/07/neuralzome-no-code-ai-robot-training",
+          "image": "https://images.yourstory.com/cs/2/6db16ae008d911e9bb473d9d98ed1e05/12-1784635635298.jpg",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "UN climate chief: India's clean-energy shift is its fast track to becoming a global economic giant",
+          "summary": "UNFCCC head Simon Stiell, on an official India visit from July 20-22, said fossil-fuel-free power now makes up half of India's installed electricity capacity — a milestone reached five years ahead of schedule. He called India a \"solar superpower\": installed solar capacity is up more than 50-fold since 2014, and solar manufacturing capacity is up roughly 75-fold. IRENA estimates renewables saved India $18 billion in fossil-fuel purchases last year, making it the world's most cost-competitive solar market. Stiell warned India still imports 90% of its crude oil, leaving it exposed to price shocks, and called on developed countries to deliver the pledged $300 billion a year in climate finance by 2035, part of a $1.3 trillion-a-year mobilisation goal.",
+          "signal": [
+            "\"Five years ahead of schedule\" is the actual news — India is overperforming its own renewable targets, not just hitting them.",
+            "90% oil import dependence is the flip side of the solar success story — energy independence still runs through oil, not just renewables capacity."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "United Nations in India",
+          "url": "https://india.un.org/en/319691-clean-energy-fast-track-india-cement-itself-global-economic-giant-un-climate-chief-says",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "EU proposes slowing its carbon market's path to zero emissions — critics say it 'weakens' climate ambition",
+          "summary": "The European Commission's July 17 proposal to reform the EU Emissions Trading System would extend free emissions allowances for industry from 2034 to 2038, conditional on firms filing decarbonisation investment plans, and slow the pace of emissions cuts after 2030 — from a 4.4%-a-year reduction to 3.7% (2031-35) and just 1.7% (2036-40). WWF estimates this allows an extra 2 billion tonnes of CO2-equivalent to be emitted versus the prior path. The plan also extends ETS coverage to more international flights from 2029 (excluding routes to the US and China) and requires EU states to funnel 50% of ETS auction revenue, potentially over 100 billion euros before 2030, into decarbonisation spending, up from roughly 5% currently going to industrial decarbonisation. A parallel target: electricity to reach 46% of EU energy consumption by 2040, up from 23% now, which the Commission says could cut fossil-fuel import spending by 260 billion euros annually.",
+          "signal": [
+            "\"Business-friendly\" and \"weaker climate ambition\" describe the same proposal — read the actual mechanism (2 billion extra tonnes of headroom), not the framing.",
+            "The revenue-earmarking rule is the more consequential change if enforced — a template India's own nascent carbon market could study."
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Carbon Brief",
+          "url": "https://www.carbonbrief.org/qa-what-the-eus-carbon-market-review-means-for-climate-action",
+          "image": "https://www.carbonbrief.org/wp-content/uploads/2026/07/EU_carbon_prices_increased_tenfold_between_2017_and_2021-1024x570.png",
+          "developing": false
+        },
+        {
+          "headline": "India's renewable capacity: 288.58 GW today, up from 76.38 GW in 2014",
+          "summary": "Told to the Rajya Sabha by Minister of State Shripad Yesso Naik: India's renewable energy installed capacity reached 288.58 GW by June 30, 2026 (162.15 GW solar, 57.44 GW wind, 57.24 GW hydro, 11.75 GW bio power) — nearly four times the 76.38 GW installed in 2014. Including 8.78 GW of nuclear, total non-fossil capacity stands at 297.36 GW. The sector has drawn $45.72 billion in FDI since FY14, plus Rs 12.32 lakh crore deployed by domestic financial institutions (public sector banks, IREDA, PFC, REC, IIFCL, NaBFID, SIDBI) over the same period.",
+          "signal": [
+            "This is the raw government data behind Stiell's \"solar superpower\" framing above — read them together.",
+            "Rs 12.32 lakh crore in domestic institutional financing shows this build-out is largely India-funded, not foreign-capital-dependent."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "ET EnergyWorld",
+          "url": "https://energy.economictimes.indiatimes.com/news/renewable/indias-renewable-energy-installed-capacity-reaches-288-58-gw-from-76-38-gw-in-2014-naik/132538610",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Health Tech",
+      "slug": "health-tech",
+      "stories": [
+        {
+          "headline": "Eli Lilly bets $3.8B that psychedelic medicine is going mainstream",
+          "summary": "Eli Lilly is acquiring AtaiBeckley, a psychedelic-medicines developer, for $3.8 billion — one of the largest signals yet that compounds like psilocybin, LSD, MDMA, ibogaine, and 5-MeO-DMT are moving from stigma to serious drug development, for treatment-resistant depression, PTSD, anxiety, and addiction. Unlike standard antidepressants, which boost serotonin and take weeks to work, these compounds appear to temporarily increase neuroplasticity, helping the brain form new connections rather than just adjusting chemical levels. The category already has a commercial proof point: Johnson & Johnson's Spravato, a purified ketamine-derivative nasal spray for treatment-resistant depression, grew sales 40% year-on-year to $584 million last quarter, with analysts expecting over $2 billion this year. The global psychedelic-medicines market is estimated at $4.6 billion in 2026, projected to reach $8.8 billion by 2031 (about 13.5% annual growth). India remains at an early stage: these substances are tightly regulated, none are approved as routine treatments, and clinical research is limited, though a wave of approvals from ongoing US/Europe phase 3 trials could eventually shift that.",
+          "signal": [
+            "Spravato's trajectory ($584M/quarter, up 40% year-on-year) is the actual evidence base making this a $3.8B bet, not investor optimism about psychedelics generally.",
+            "India is a spectator on this one for now — worth flagging if any Indian pharma major moves into psychedelic-compound manufacturing or licensing, since that would be the real entry signal."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "LinkedIn",
+          "url": "https://www.linkedin.com/posts/cnbc-tv18_elililly-psychedelics-mentalhealth-activity-7485362972283031552-IsgX",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India hosts the 16th BRICS Health Ministers' meeting in Chandigarh, July 22-24",
+          "summary": "India, chairing BRICS for the fourth time after 2012, 2016, and 2021, is hosting health ministers and officials from all 11 BRICS members — Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, Saudi Arabia, the UAE, and Indonesia, together roughly half the world's population and about 40% of global GDP — in Chandigarh. The agenda spans health security, pandemic preparedness, digital health, and equitable access to medicines, with a dedicated July 24 session on interoperable digital health infrastructure and responsible AI for continuity of care. India has added two new priority areas under its chairship: a BRICS Mission for Healthy Lifestyle and Promotion of Mental Wellness, building on 26 technical meetings held since April 15, 2026.",
+          "signal": [
+            "The digital-health-plus-AI session is the concrete deliverable to watch for India's digital-public-infrastructure export ambitions.",
+            "Useful context, not personally actionable — a diplomatic and policy convening, not a startup or funding signal."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Rediff MoneyWiz",
+          "url": "https://money.rediff.com/news/market/india-hosts-16th-brics-health-ministers-meet-in-chandigarh/50988820260721",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Agritech",
+      "slug": "agritech",
+      "stories": [
+        {
+          "headline": "Samyukt Kisan Morcha calls nationwide protests against the India-US trade deal",
+          "summary": "SKM announced nationwide protests for Wednesday against the proposed India-US Free Trade Agreement, urging President Murmu to instruct Modi not to sign it and to repeal existing FTAs. In an open letter, SKM called the deals \"a blueprint for economic colonisation\" that would devastate small farmers and MSMEs by opening India to subsidised US and EU agricultural and industrial imports. SKM designated July 22 as \"Farmers' Pledge Day,\" with village-level meetings, effigy-burning of Modi at NDA MPs' offices, and toll-plaza openings planned nationwide, modelled on the 2020-21 farm-law agitation. The group also condemned police lathi-charges against Delhi student protesters and demanded Education Minister Dharmendra Pradhan's resignation, showing solidarity with a separate protest movement (see World: Cockroach movement).",
+          "signal": [
+            "This is the 2020-21 farm-law playbook being reactivated for a trade deal, not a new movement — expect it to run for months if the FTA proceeds.",
+            "The SKM-student protest solidarity is a real signal: two separate grievances are starting to converge into one broader mobilisation."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Federal",
+          "url": "https://thefederal.com/category/news/farmers-announce-nationwide-protests-tomorrow-against-proposed-india-us-fta-250912",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "IMF says oil prices and a weak monsoon pose the biggest risks to India's FY27 GDP growth (source unreachable — headline only)",
+          "summary": "IMF says oil prices and a weak monsoon pose the biggest risks to India's FY27 GDP growth (source unreachable — headline only)",
+          "signal": [
+            "Useful context, not personally actionable, until the underlying IMF assessment is available in full."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/india/imf-says-oil-prices-weak-monsoon-pose-biggest-risks-indias-fy27-gdp-growth-2026-07-21/",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "stories": [
+        {
+          "headline": "Trump sets 100% tariff on generic drugs, giving manufacturers two years to reshore",
+          "summary": "President Trump announced a 100% import duty on generic drugs starting August 2028, doubling to 200% in August 2029 for companies that haven't built US production plants by then. The move is aimed at \"reshoring\" generic pharmaceutical manufacturing but threatens the low-cost drug supply millions of Americans rely on, since most generics are made overseas.",
+          "signal": [
+            "A 100-200% duty is a direct affordability hit for US patients, not a symbolic tariff.",
+            "India is the world's largest generics exporter — this is a structural risk to Indian pharma's biggest market."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-21/trump-plans-100-tariff-on-generic-drugs-from-august-2028",
+          "image": null,
+          "developing": false,
+          "key_stat": "100% tariff · Aug 2028"
+        },
+        {
+          "headline": "Trump imposes 50% tariffs on most Canadian goods, effective in 30 days",
+          "summary": "The White House announced 50% tariffs on a wide range of Canadian goods, including wine, hockey sticks, and cement, and products previously protected under USMCA, citing Canada's \"discrimination\" against US autos, alcohol, and dairy. Energy, fish, critical minerals, and potash are excluded, as are goods already under separate national-security tariffs on steel and aluminium. Trump used Section 338 of the 1930 Trade Act, a provision so rarely invoked that Democratic lawmakers previously tried to repeal it over fears of exactly this kind of use. Canadian PM Mark Carney said Canada has made \"comprehensive proposals\" to resolve disputes and called the earlier US tariffs a violation of trade pacts; Ontario Premier Doug Ford threatened dollar-for-dollar retaliation. The US has already had to refund $81 billion in tariffs this fiscal year after the Supreme Court ruled 6-3 in February that Trump illegally used emergency powers for his earlier global tariffs.",
+          "signal": [
+            "The $81B in court-ordered refunds this year is the real constraint on Trump's tariff strategy — legal risk, not economic logic, may be the binding limit.",
+            "The 30-day window before implementation is a real negotiation runway — watch for a Canada deal before the deadline more than the tariff itself."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Business | The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "New Trump tariffs loom on 60 countries, including India, as the FTA stays deadlocked",
+          "summary": "The Financial Times reports the Trump administration has drawn up plans for new 10-12.5% tariffs on roughly 60 countries, including India, as the temporary 10% blanket tariff expires Friday, citing forced-labour and unfair-trade investigations. Separate investigations into \"excess manufacturing capacity\" could justify steeper duties later on India, China, Japan, South Korea, Vietnam, Mexico, and the EU. Despite months of optimistic signals from both governments, the India-US deal remains deadlocked over market access, agriculture, digital trade, and industrial goods. Commerce Minister Piyush Goyal denies reports he's pushing back on unfavourable terms, saying talks with USTR Jamieson Greer in June were \"fantastic\" — but no agreement is in sight, and India also now faces the fallout of Trump's Iran war on its energy costs.",
+          "signal": [
+            "India is caught in two simultaneous trade fights — the stalled bilateral FTA and a new blanket tariff wave — with no clear sequencing of which resolves first.",
+            "Goyal's public optimism versus the FT's deadlock reporting is a genuine tell: trust the deadline pressure over the rhetoric."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/business/india-business/donald-trumps-tariff-tornado-returns-as-india-deal-stalls/articleshow/132540539.cms",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "China is closing the AI-and-chips gap on two fronts at once, Bloomberg argues (summary from limited source text)",
+          "summary": "Bloomberg Economics frames China as making simultaneous progress on both frontier AI models and the chips needed to run them, describing it as a \"double moonshot\" with implications for the broader world economy. (summary from limited source text)",
+          "signal": [
+            "Pairs with the Guardian TechScape piece and Zhipu's 37% stock jump above — three independent sources converging on the same \"China is closing the gap\" story in one day is itself a signal."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-07-21/china-s-double-moonshot-moment-in-the-ai-tech-race",
+          "image": null,
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "stories": [
+        {
+          "headline": "India summons Russian envoy after 4 Indian seafarers killed in a Black Sea strike",
+          "summary": "India's Ministry of External Affairs summoned Russian charge d'affaires Vladimir Ladanov to lodge a formal protest after Russian cruise missiles hit the Guinea-Bissau-flagged merchant vessel MV Golden Leo in Ukraine's maritime corridor on July 19, killing four of its five Indian crew members. The 17-member crew also included Syrian nationals. The MEA called the targeting of commercial shipping \"unacceptable\" and a threat to maritime commerce stability, and asked Russia to convey India's concerns to Moscow.",
+          "signal": [
+            "A formal summons, not just a statement, is a real diplomatic escalation step for India-Russia relations — worth watching if it affects broader defence or energy ties.",
+            "Four Indian civilian deaths in a war India has stayed largely neutral on raises the domestic political cost of that neutrality."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/news/national/killing-of-4-indian-seafarers-india-summons-russian-envoy/article71248169.ece",
+          "image": "https://th-i.thgim.com/public/incoming/k4j9nn/article71248175.ece/alternates/LANDSCAPE_1200/AFP_C2MU8WF.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Punjab farmers blocked at the Haryana border en route to a Delhi rally against the India-US trade deal",
+          "summary": "Farmers under the \"Desh Bachao Morcha\" banner were stopped by police at the Shambhu-Ambala and Khanauri-Jind border crossings on Tuesday, as they tried to reach a Delhi rally opposing the proposed India-US trade deal. Police erected multi-layer barricades; the farmers called off the protest after assurances their demands would reach the Centre. A trade body separately warned that repeated closures of the Shambhu border, one of North India's busiest transport corridors, are raising logistics costs and disrupting industrial supply chains in Punjab.",
+          "signal": [
+            "The India-US trade deal now has an organised, escalating domestic opposition front, with real industrial cost.",
+            "This is the opening move of a longer campaign — SKM has called nationwide protests for the next day (see Agritech)."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/news/national/haryana-police-close-shambu-border-ahead-of-farmers-motorcycle-rally/article71248028.ece",
+          "image": "https://th-i.thgim.com/public/incoming/jvnxc1/article71248030.ece/alternates/LANDSCAPE_1200/PTI07_19_2026_000402B.jpg",
+          "developing": true
+        },
+        {
+          "headline": "Bessemer's investment thesis for India's AI infrastructure: the 'Swaraj Stack'",
+          "summary": "Bessemer Venture Partners lays out a five-layer thesis for domestic AI infrastructure investment in India: energy, compute, data, models, and infrastructure software. India's power capacity (520 GW, heading to 1,121 GW by 2035-36) will need 174 GW of dedicated storage by then; datacentre power draw is set to rise from 1.5 GW today to 4.5-9 GW by 2030; India's semiconductor imports crossed $20 billion in FY24 (+18.5% year-on-year), against a government-backed $13 billion, 12-year Semiconductor Mission 2.0; and India is 18% of the world's population but under 1% of Common Crawl's AI training data, a gap Bessemer says domestic data and labelling startups will fill. The firm frames the thesis on the model of Aadhaar and UPI and cites its own bets — Sarvam, Mitigata, Seekho, Inrisk — as early plays.",
+          "signal": [
+            "A VC firm publicly showing its homework on where it's deploying capital in Indian AI infra — read it as a map of where funding will cluster next.",
+            "Directly relevant to a founder's-office or strategy pivot into Indian deep tech."
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Bessemer Venture Partners",
+          "url": "https://www.bvp.com/atlas/roadmap-the-swaraj-stack-indian-resilience-in-a-connected-world",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India-UK trade pact takes effect: zero-duty access for 99% of Indian exports",
+          "summary": "The India-UK Comprehensive Economic and Trade Agreement, in force since July 15, gives zero-duty UK market access to 99% of Indian exports, cutting tariffs from as high as 70% on processed foods and 12% on textiles to zero, benefiting textiles, leather, footwear, marine products, gems and jewellery, engineering goods, and chemicals. Steel exports get protective arrangements around the UK's new July 1 steel measures; EV imports get phased tariff-rate quotas rather than immediate zero-duty. The deal also opens UK government-procurement bidding to Indian firms and expands mobility for Indian IT, education, healthcare, and financial-services providers, plus lets UK institutions open campuses in India. Both sides target doubling bilateral trade to over $100 billion by 2030; the UK is already India's sixth-largest FDI source, about 5% of cumulative inflows since 2000.",
+          "signal": [
+            "Zero-duty on 99% of exports is a genuinely large trade liberalisation — the exceptions (EVs, steel safeguards, dairy) show exactly where India's political sensitivities remain.",
+            "Contrast with the deadlocked India-US deal above: CETA shows India can close a comprehensive FTA when neither side treats tariffs as a weapon."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/opinion/op-ed/new-trade-pact-a-win-win-for-india-and-uk/article71250852.ece",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "WTO: India stays the fastest-growing G20 economy, but trade barriers threaten its 2047 goal",
+          "summary": "The WTO's Trade Policy Review projects India's real GDP growth at 6.8-7.2% for FY2027-28, continuing its run as the fastest-growing G20 economy, but warns that hitting the \"Viksit Bharat\" developed-nation goal by 2047 needs deeper reform of high trade costs, regulatory complexity, and infrastructure gaps. India's combined merchandise-and-services exports hit a record $863.1 billion in 2025-26, up 6.3% from $676.5 billion in 2021-22, helped by 19 active FTAs, including eight signed or concluded since 2021. The WTO flagged India's continuing high tariffs, import and export controls, and heavy budgetary support for food grains and fertilisers as unresolved friction points, alongside external shocks that raised input costs for Indian industry.",
+          "signal": [
+            "A record $863.1B in exports sits right next to the WTO's warning that structural reform is still incomplete — growth and reform readiness aren't the same thing.",
+            "This is the macro backdrop for both the stalled US deal and the just-signed UK deal above."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/business/india-business/indias-growth-remains-strong-but-trade-barriers-threaten-2047-goal-wto/articleshow/132542403.cms",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "stories": [
+        {
+          "headline": "Pentagon: the Iran war has cost the US $37.5 billion so far",
+          "summary": "Defense Secretary Pete Hegseth told lawmakers the Iran war's cost has reached $37.5 billion through September 30, in his first public testimony since bombing resumed. Trump has asked Congress for nearly $90 billion in additional funding, mostly tied to the Iran conflict. The war is now colliding with November midterm politics, with Democrats linking it to affordability concerns.",
+          "signal": [
+            "$37.5B and rising, with no disclosed endpoint — a slow-bleed cost centre.",
+            "Connects to the oil-price risk the IMF flagged for India's FY27 growth."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World - South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3361399/us-war-iran-has-cost-us375-billion-so-far-pentagon-chief-hegseth-says?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/22/bb8b2caf-ca04-4cc1-91a1-e8f1e5f5d2b9_03442b0f.jpg?itok=05JEiSni&v=1784677810",
+          "developing": true
+        },
+        {
+          "headline": "Zelensky sacks Ukraine's top army commander after six days of protests",
+          "summary": "President Zelensky dismissed commander-in-chief Oleksandr Syrskyi, days after removing popular Defence Minister Mykhailo Fedorov, a move that triggered six days of street protests. Syrskyi, 60, seen as a Soviet-school commander resistant to reform, is replaced by Mykhailo Drapatyi, 43, a popular battle-hardened general and close friend of Fedorov's. Fedorov, who built Ukraine's \"IT Army\" and \"Army of Drones\" and led data-driven front-line reforms, publicly endorsed Drapatyi's appointment. Zelensky offered Fedorov an unspecified \"worthy position in power\"; whether he accepted remains unclear. Acting Defence Minister Yevhenii Khmara remains in place, tasked with Drapatyi to develop a new defence strategy covering the military corps system, procurement, and drones.",
+          "signal": [
+            "Fedorov's public endorsement of his replacement is the actual resolution mechanism, converting a leadership crisis into a managed transition.",
+            "A protest movement forcing a wartime president to reshuffle military leadership is a rare, genuine domestic-pressure win in Ukraine's war governance."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/34b7/live/e3e52d70-853e-11f1-ab57-69b83adbeeff.jpg",
+          "developing": true
+        },
+        {
+          "headline": "Delhi's youth-led 'Cockroach' protests swell past 50,000, turn violent after a police crackdown",
+          "summary": "More than 50,000 people, many in their teens and 20s, joined Monday's protest by the newly formed Cockroach Janta Party, demanding the education minister's resignation over exam-paper leaks and a \"broken\" education system. What began peacefully turned violent by afternoon when Delhi police, under central government control, blocked a march to Parliament, kettled the crowd, cut internet access, and used batons and tear gas, injuring about 60, with at least one protester in intensive care. Protests continued Tuesday at Jantar Mantar with undiminished numbers; Congress joined in, calling for Modi's resignation. CJP founder Abhijeet Dipke vowed the protests would continue; organisers say they're aware the government has previously used terrorism charges and tax raids to suppress dissent movements. A senior minister met CJP representatives Monday but the government didn't respond Tuesday, and Modi has stayed publicly silent.",
+          "signal": [
+            "Organisers explicitly frame this as India's under-25 generation's first major political mobilisation, not just an exam-policy dispute.",
+            "Government silence, plus a prior pattern of legal pressure against dissent movements, is the thing to watch next."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/21/india-cockroach-movement-protesters-delhi",
+          "image": null,
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "Other Interests",
+      "slug": "other-interests",
+      "stories": [
+        {
+          "headline": "The race to make geothermal energy work anywhere on Earth, not just Iceland",
+          "summary": "New Scientist's deep dive on next-generation geothermal: traditional geothermal needs heat, water, and permeable rock together, a combination found in few places (Iceland gets over a quarter of its electricity from it). Newer approaches try to remove that constraint. Enhanced Geothermal Systems pump water into hot, impermeable rock 2-10km down to force open fractures, but this can trigger earthquakes, as in Pohang, South Korea, where an EGS project triggered a magnitude-5.5 quake in 2017 that injured over 80 people and caused about 148 million pounds of damage. Advanced Geothermal Systems instead drill sealed closed loops, avoiding water-rock contact and earthquake risk; Canada's Eavor has one operating in Germany since last year, though it's had to scale back wells after debris clogged its pipes. The most ambitious tier, supercritical geothermal, targets depths of 5-20km where water becomes a supercritical fluid carrying far more heat; Houston-based Quaise Energy wants to reach these depths using microwave energy to vaporise rock instead of mechanical drill bits. The IEA estimates geothermal's technical potential at roughly 150 times current global electricity demand if heat down to 8km can be tapped.",
+          "signal": [
+            "Geothermal is 24/7 baseload, unlike solar or wind — the \"anywhere\" version of this technology would be a genuinely different clean-energy asset class.",
+            "Quaise's approach is still at test-hole depth of a couple of kilometres, years from proof, but worth tracking against India's own storage and baseload gap flagged in the Swaraj Stack piece above."
+          ],
+          "badge": "DEEP DIVE",
+          "takeaway": "",
+          "why": "",
+          "source": "New Scientist",
+          "url": "https://www.newscientist.com/article/2533209-how-to-unlock-unlimited-geothermal-energy-anywhere-we-want/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+          "image": "https://www.newscientist.com/wp-content/uploads/2026/07/07171815/SEI_304394102.jpg",
+          "developing": false
+        },
+        {
+          "headline": "A replication crisis is quietly undermining decades of brain-imaging research",
+          "summary": "Many landmark \"brain-wide association studies\" linking brain structure to behaviour, such as cortex thickness to intelligence or connectivity to chess skill, fail to replicate. A 2007 study linking ADHD to delayed brain maturation lost its finding once researchers controlled for sex-based aging differences. A 2011 UCL study linking gray-matter density to Facebook-friend counts failed a 2015 replication attempt. A 2019 analysis of over 10,000 re-run MRI associations found very few replicated. The core problem: individual brain variation is small, so detecting real effects needs sample sizes in the thousands, but the median neuroimaging study sample size is only about 25, similar to genome-wide association studies before they scaled to millions of subjects. A 2017 Weill Cornell depression \"biotype\" study was shown to be statistically overfit; one researcher noted the same correlation strength could have come from \"30,000 coin flips.\" Some labs, including Max Planck's re:vision project, are now building large shared datasets specifically to test whether old findings replicate.",
+          "signal": [
+            "Useful context, not personally actionable, but relevant when evaluating any product or research claim that leans on brain-imaging evidence — treat single-study neuroscience claims skeptically by default.",
+            "The genomics parallel, where small effects need huge samples, is a good general heuristic for evaluating any 'we found the brain region for X' claim."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Live Science",
+          "url": "https://www.livescience.com/health/neuroscience/neuroscience-findings-often-cant-be-replicated-and-its-a-big-problem-for-what-we-know-about-the-brain",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Beyond Your Beat",
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "headline": "How Spain won the World Cup by conceding just one goal — the fewest ever by a champion",
+          "summary": "Manager Luis de la Fuente built Spain's title win on defensive control rather than pure possession dominance: the team conceded only one goal across the entire tournament, a record for a men's World Cup champion. Spain shifted into a 2-3-5 shape in possession, using Rodri, the 2024 Ballon d'Or winner who completed 790 tournament passes, breaking Xavi's 2010 record, as a deep-lying control point, while Dani Olmo disrupted opponents between the lines. Spain out-tackled France 22-14 in the semifinal and won 55.9% of duels, France's worst duel-win rate in a World Cup match in nearly five decades. In the final, Spain held 60% possession against Argentina and reduced Messi's team to just two shots after the 118th minute. Nineteen-year-old centre-back Pau Cubarsi, named Young Player of the Tournament, shadowed Cristiano Ronaldo out of the game in the Round of 16 and completed 668 tournament passes, second only to Rodri.",
+          "signal": [
+            "Useful context, not personally actionable — a tactical case study, included for the reader's football interest rather than any career relevance."
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/sports/football/how-luis-de-la-fuente-transformed-spain-into-footballs-most-complete-team-and-masterminded-a-glorious-world-cup-triumph-101784650502969.html",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Pakistan asks Canada to back restoring the Indus Waters Treaty with India — gets no public response",
+          "summary": "Pakistan's Deputy PM Ishaq Dar publicly appealed to Canadian Foreign Minister Anita Anand, during a joint Islamabad press conference, to support restoring the Indus Waters Treaty, which India suspended after the April 2025 Pahalgam terror attack that killed 26 people. Canada's official statement on the visit made no mention of the treaty or the request. India has said the IWT, a 1960 World Bank-brokered pact with no unilateral-suspension clause, stays in abeyance until Pakistan takes credible action against cross-border terrorism.",
+          "signal": [
+            "A public appeal met with public silence is itself the story — Canada declining to even acknowledge the ask signals limited international appetite to pressure India on this.",
+            "Worth tracking if Pakistan escalates this to a wider diplomatic campaign, given it has no unilateral path to force restoration."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "ThePrint",
+          "url": "https://theprint.in/diplomacy/pakistan-seeks-canadas-support-for-restoration-of-indus-waters-treaty-with-india-gets-a-rebuff/2992405/",
+          "image": null,
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": [],
+  "brief": [
+    {
+      "line": "Skyroot's Vikram-1 reaches orbit on its first try, joining the US and China as private orbital-launch nations",
+      "id": "india-deep-tech-f0c122f524",
+      "url": "https://www.scmp.com/week-asia/politics/article/3361253/india-joins-china-us-commercial-space-race-skyroot-launch"
+    },
+    {
+      "line": "Trump sets a 100% tariff on generic drugs from August 2028",
+      "id": "global-economics-0a93471c96",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-21/trump-plans-100-tariff-on-generic-drugs-from-august-2028"
+    },
+    {
+      "line": "Pentagon: the Iran war has cost the US $37.5 billion so far",
+      "id": "world-f3303ae870",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3361399/us-war-iran-has-cost-us375-billion-so-far-pentagon-chief-hegseth-says?utm_source=rss_feed"
+    },
+    {
+      "line": "Google ships three new Gemini models but still no flagship 3.5 Pro update",
+      "id": "ai-ec57ba11b1",
+      "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/"
+    },
+    {
+      "line": "Zhipu shares jump 37% on a 1-gigawatt datacentre built on Chinese chips",
+      "id": "deep-tech-1634476891",
+      "url": "https://www.scmp.com/tech/big-tech/article/3361374/zai-shares-surge-37-firm-builds-giant-data-centre-powered-chinese-chips?utm_source=rss_feed"
+    },
+    {
+      "line": "Bessemer's 'Swaraj Stack' thesis: $20-25B of India datacentre capex coming by 2030",
+      "id": "india-d3790c254d",
+      "url": "https://www.bvp.com/atlas/roadmap-the-swaraj-stack-indian-resilience-in-a-connected-world"
+    },
+    {
+      "line": "New Trump tariffs of 10-12.5% loom on 60 countries, India included, as the FTA stays deadlocked",
+      "id": "global-economics-b90ff1e9c8",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/donald-trumps-tariff-tornado-returns-as-india-deal-stalls/articleshow/132540539.cms"
+    },
+    {
+      "line": "India's renewable capacity hits 288.58 GW, up from 76.38 GW in 2014",
+      "id": "climate-energy-7e84eb12bc",
+      "url": "https://energy.economictimes.indiatimes.com/news/renewable/indias-renewable-energy-installed-capacity-reaches-288-58-gw-from-76-38-gw-in-2014-naik/132538610"
+    },
+    {
+      "line": "Eli Lilly pays $3.8B for psychedelic-medicine developer AtaiBeckley",
+      "id": "health-tech-efcd860a33",
+      "url": "https://www.linkedin.com/posts/cnbc-tv18_elililly-psychedelics-mentalhealth-activity-7485362972283031552-IsgX"
+    },
+    {
+      "line": "Delhi's youth-led 'Cockroach' protests pass 50,000 after a police crackdown",
+      "id": "world-9bac66a214",
+      "url": "https://www.theguardian.com/world/2026/jul/21/india-cockroach-movement-protesters-delhi"
+    },
+    {
+      "line": "India's exports hit a record $863.1B in FY26, WTO review finds",
+      "id": "india-3f1eea5f0b",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-growth-remains-strong-but-trade-barriers-threaten-2047-goal-wto/articleshow/132542403.cms"
+    },
+    {
+      "line": "Deep-drilling geothermal tech aims to make baseload clean power possible anywhere on Earth",
+      "id": "other-interests-5aea7fa28f",
+      "url": "https://www.newscientist.com/article/2533209-how-to-unlock-unlimited-geothermal-energy-anywhere-we-want/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+    }
+  ],
+  "markets": {
+    "generated_at": "2026-07-22T00:58:03.689842+00:00",
+    "quotes": [
+      {
+        "label": "Nifty 50",
+        "value": 24187.7,
+        "unit": "",
+        "change_pct": -0.6,
+        "usd": false
+      },
+      {
+        "label": "Sensex",
+        "value": 77470.11,
+        "unit": "",
+        "change_pct": -0.87,
+        "usd": false
+      },
+      {
+        "label": "USD/INR",
+        "value": 96.22,
+        "unit": "₹",
+        "change_pct": -0.27,
+        "usd": false
+      },
+      {
+        "label": "Brent Crude",
+        "value": 91.52,
+        "unit": "$/bbl",
+        "change_pct": 2.58,
+        "usd": true
+      },
+      {
+        "label": "Bitcoin",
+        "value": 66613.32,
+        "unit": "$",
+        "change_pct": 2.12,
+        "usd": true
+      },
+      {
+        "label": "Gold",
+        "value": 126786,
+        "unit": "₹/10g",
+        "change_pct": 2.19,
+        "usd": false
+      },
+      {
+        "label": "Silver",
+        "value": 183318,
+        "unit": "₹/kg",
+        "change_pct": 4.32,
+        "usd": false
+      }
+    ]
+  }
+}
