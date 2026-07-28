@@ -115,6 +115,17 @@ nav#nav .sep{color:var(--rule)}
 .story p{margin:0 0 8px;font-size:15.5px;max-width:64ch}
 .story p.summary{max-width:66ch}
 
+/* v6 bullet summary: a one-line hook, then 3-5 points. The hook carries the
+   number you read at a glance, so it sits a touch larger than the bullets. */
+.story p.hook{font-size:16.5px;line-height:1.45;margin:0 0 10px;max-width:64ch}
+.story.lead-story p.hook{font-size:clamp(17px,1.5vw,19px)}
+.story ul.points{margin:0 0 10px;padding-left:0;list-style:none;max-width:66ch}
+.story ul.points li{position:relative;padding-left:18px;margin-bottom:6px;
+  font-size:15.5px;line-height:1.5}
+.story ul.points li::before{content:"";position:absolute;left:2px;top:.62em;
+  width:6px;height:6px;border-radius:50%;background:var(--tabc,var(--ink));opacity:.75}
+.story .src-flag-line{margin:-4px 0 8px}
+
 /* kicker: always two rows so headlines start at the same height */
 .kicker{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
 .kicker .row1{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
@@ -180,7 +191,32 @@ nav#nav .sep{color:var(--rule)}
 .thumbs button.sent{opacity:.4;cursor:default}
 .thumbs button.sent:hover{background:none;border-color:var(--faded)}
 
+/* Ask AI — sits in the card's meta row, deliberately quiet: it's a tool, not
+   a call to action, and must never outweigh "Read the original". */
+.ask-ai{display:inline-flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ask-ai .ask-lab{text-transform:uppercase;letter-spacing:2px;opacity:.75}
+.ask-ai a,.ask-ai button{font-family:var(--stamp);font-size:11px;letter-spacing:.5px;
+  color:var(--graphite);text-decoration:none;background:none;cursor:pointer;
+  border:1.2px solid var(--faded);border-radius:3px;padding:3px 8px 2px}
+.ask-ai a:hover,.ask-ai button:hover{background:var(--hl);border-color:var(--ink);
+  color:var(--ink)}
+.ask-ai a:focus-visible,.ask-ai button:focus-visible{outline:2.5px solid var(--red);
+  outline-offset:2px}
+
+/* vote bar — only appears once something is saved on this device */
+.votebar{font-family:var(--stamp);font-size:11px;letter-spacing:1px;
+  color:var(--faded);text-align:center;margin:22px 0 0;display:flex;gap:10px;
+  justify-content:center;align-items:center;flex-wrap:wrap}
+.votebar:empty{display:none}
+.votebar button{font-family:var(--stamp);font-size:11px;letter-spacing:1px;
+  color:var(--graphite);background:none;border:1.2px solid var(--faded);
+  border-radius:3px;padding:3px 9px 2px;cursor:pointer}
+.votebar button:hover{background:var(--hl);border-color:var(--ink);color:var(--ink)}
+
 /* pencil devices */
+/* <mark> ships with a UA yellow background and black text — both must go, or
+   they fight the marker-pen gradient below. */
+mark.hl{color:inherit}
 .hl{background:
     linear-gradient(100deg,transparent 0,var(--hl) 5%,var(--hl) 92%,transparent 100%),
     linear-gradient(97deg,transparent 2%,var(--hl) 9%,var(--hl) 88%,transparent 96%);

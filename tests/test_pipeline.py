@@ -13,6 +13,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import build_digest as bd  # noqa: E402
+import assemble_edition as ae  # noqa: E402
 
 FAILURES = []
 
@@ -178,6 +179,69 @@ def test_fresh_article_date_agreement_keeps_story():
     check("article_date is stripped from the surviving story (not part of the "
           "lean digest contract the model reads)",
           "article_date" not in digest_sections[0]["stories"][0])
+
+
+# ---------------------------------------------------------------- v6 -------
+
+def test_pr_penalty_hits_wires_and_vendor_blogs():
+    for src in ("PIB", "PR Newswire", "Business Wire", "LinkedIn"):
+        check(f"{src} is demoted as a press-release carrier",
+              bd.pr_penalty({"source": src, "url": "https://x.example/a"}) < 0)
+    check("a vendor newsroom URL is demoted even when the source looks normal",
+          bd.pr_penalty({"source": "Acme", "url": "https://acme.com/newsroom/launch"}) < 0)
+
+
+def test_pr_penalty_leaves_real_outlets_alone():
+    for src in ("Reuters", "The Hindu", "Bloomberg.com", "Tech - South China Morning Post"):
+        check(f"{src} is NOT demoted",
+              bd.pr_penalty({"source": src, "url": "https://x.example/a"}) == 0.0)
+    check("'pib' inside a longer word does not trigger the wire match",
+          bd.pr_penalty({"source": "Pibworth Media", "url": "https://x.example/a"}) == 0.0)
+
+
+def test_assemble_never_silently_drops_a_rewritten_headline():
+    """The 2026-07-22 regression: SCMP's clickbait title shares no significant
+    token with the editor's plain-language rewrite, and the whole lead vanished."""
+    refs = {"india-deep-tech-f0c122f524": {
+        "url": "https://scmp.com/x", "source": "SCMP",
+        "title": "SpaceX took 4 attempts. India's space start-up needed just 1"}}
+    item = {"id": "india-deep-tech-f0c122f524",
+            "headline": "Skyroot's Vikram-1 puts India in the private orbital-launch club",
+            "summary": "Skyroot's Vikram-1 reached orbit on its first attempt."}
+    warnings = []
+    story = ae.build_story(item, refs, warnings)
+    check("a correctly-rewritten headline is kept, not dropped", story is not None)
+    check("the mismatch is still surfaced as a warning for a human to check",
+          any("CHECK THE LINK" in w for w in warnings))
+
+
+def test_assemble_carries_section_level_also_rail():
+    refs = {"ai-1": {"url": "https://a.example/1", "source": "A", "title": "One"},
+            "ai-2": {"url": "https://a.example/2", "source": "B", "title": "Two"}}
+    rail = ae.build_also_rail(
+        [{"id": "ai-1", "line": "First thing"},
+         {"id": "ai-2", "line": "Second thing"},
+         {"id": "ai-missing", "line": "Unknown id"},
+         {"id": "ai-1", "line": ""}], refs, [])
+    check("known also ids resolve to rail entries with urls",
+          len(rail) == 2 and rail[0]["url"] == "https://a.example/1")
+    check("an unknown also id is dropped rather than published linkless",
+          all(r["line"] != "Unknown id" for r in rail))
+    check("an also entry with no line is dropped", all(r["line"] for r in rail))
+
+
+def test_assemble_passes_through_bullet_summaries():
+    refs = {"ai-1": {"url": "https://a.example/1", "source": "A", "title": "Chips rise"}}
+    story = ae.build_story({"id": "ai-1", "headline": "Chips rise",
+                            "hook": "Chip profits rose ==2,580%==.",
+                            "points": ["First point.", "Second point.", " "]}, refs, [])
+    check("hook survives assembly", story["hook"].startswith("Chip profits"))
+    check("points survive assembly and blanks are stripped", story["points"] ==
+          ["First point.", "Second point."])
+    legacy = ae.build_story({"id": "ai-1", "headline": "Chips rise",
+                             "summary": "One paragraph."}, refs, [])
+    check("a pre-v6 summary-only draft still assembles with no points key",
+          "points" not in legacy and legacy["summary"] == "One paragraph.")
 
 
 def main():

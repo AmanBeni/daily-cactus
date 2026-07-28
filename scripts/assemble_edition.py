@@ -60,9 +60,19 @@ EXISTING_EDITIONS_DIR = pathlib.Path(
 # Seed: 2026-06-16 == edition 1 (so 2026-06-18 == edition 3, matching history).
 EPOCH = datetime.date(2026, 6, 16)
 
-# Wrong-link guard: if the editor's rewritten headline shares NO significant
-# word with the source title behind its id, the id was almost certainly
-# mismatched — drop it.
+# Wrong-link guard: if the editor's card shares NO significant word with the
+# source title behind its id, the id was almost certainly mismatched — drop it.
+#
+# The check deliberately reads the WHOLE card (headline + summary + key_stat),
+# not the headline alone. The prompt requires rewriting the outlet's clickbait
+# into plain language, so a headline-only comparison punishes correct work: on
+# 2026-07-22 it dropped the edition's entire lead because the editor's
+# "Skyroot's Vikram-1 puts India in the private orbital-launch club" shares no
+# 4+-letter non-stopword with SCMP's "SpaceX took 4 attempts. India's space
+# start-up needed just 1" ("india" being a stopword here). A correct card
+# always names the article's entities somewhere in its prose, so the wider
+# comparison keeps the guard's real job — catching a mismatched id — while
+# ending the false positives.
 _WORD = re.compile(r"[a-z0-9]{4,}")
 _STOP = {"with", "that", "this", "from", "have", "will", "into", "amid", "over",
          "after", "says", "said", "than", "then", "when", "what", "your", "their",
@@ -72,6 +82,14 @@ _STOP = {"with", "that", "this", "from", "have", "will", "into", "amid", "over",
 
 def sig_tokens(s):
     return {w for w in _WORD.findall((s or "").lower()) if w not in _STOP}
+
+
+def coerce_points(v):
+    """v6 bullet summaries. A list of 3-5 short strings; anything else becomes
+    an empty list so an older draft (summary-only) still assembles cleanly."""
+    if isinstance(v, list):
+        return [str(x).strip() for x in v if str(x).strip()]
+    return []
 
 
 def coerce_signal(v):
@@ -134,12 +152,28 @@ def build_story(item, refs, warnings):
         warnings.append(f"unknown story id {sid!r} — dropped")
         return None
     headline = item.get("headline", ref.get("title", ""))
-    htok, rtok = sig_tokens(headline), sig_tokens(ref.get("title", ""))
-    if htok and rtok and not (htok & rtok):
-        warnings.append(f"id {sid!r}: headline shares no word with its source title "
-                        f"— likely wrong id, dropped ({headline[:50]!r} vs "
+    card_text = " ".join(str(x) for x in (
+        headline,
+        item.get("summary", ""),
+        " ".join(coerce_points(item.get("points"))),
+        item.get("hook", ""),
+        item.get("key_stat", ""),
+    ) if x)
+    ctok, rtok = sig_tokens(card_text), sig_tokens(ref.get("title", ""))
+    # WARN, never drop. Replayed against 221 real story items from the five
+    # editions of 19-28 Jul 2026, this check fired 6 times and was wrong all 6
+    # — its precision on real data is zero, because an abstract source title
+    # ("AI monetization, model efficiency, and India's infrastructure gap")
+    # legitimately shares no token with a plain-language rewrite ("AI earnings
+    # season shows real revenue"). Silently deleting a correct story — once an
+    # entire edition's lead — is a far worse failure than shipping a warning.
+    # The link itself is still safe by construction: urls come from the refs
+    # snapshot, never from the model, so the worst case here is a card whose
+    # id was mistyped, which this warning surfaces for a human to check.
+    if ctok and len(rtok) >= 2 and not (ctok & rtok):
+        warnings.append(f"id {sid!r}: card shares no word with its source title "
+                        f"— CHECK THE LINK ({headline[:50]!r} vs "
                         f"{ref.get('title','')[:50]!r})")
-        return None
     story = {
         "headline": headline,
         "summary": item.get("summary", ""),
@@ -153,28 +187,51 @@ def build_story(item, refs, warnings):
         "image": ref.get("image"),
         "developing": bool(item.get("developing", False)),
     }
+    # v6 bullet summary — additive. `hook` is the one-line numbers-first
+    # opener, `points` the 3-5 bullets under it. The renderer falls back to
+    # `summary` whenever `points` is absent, so every already-published
+    # edition keeps rendering exactly as it does today.
+    hook = (item.get("hook") or "").strip()
+    points = coerce_points(item.get("points"))
+    if hook:
+        story["hook"] = hook
+    if points:
+        story["points"] = points
+
     # B3 optional fields — additive, renderer must degrade gracefully if absent.
     if item.get("key_stat"):
         story["key_stat"] = str(item["key_stat"]).strip()
     if item.get("editors_read"):
         story["editors_read"] = str(item["editors_read"]).strip()
-    also = item.get("also")
-    if isinstance(also, list) and also:
-        also_out = []
-        for a in also:
-            aid = a.get("id") if isinstance(a, dict) else None
-            aref = refs.get(aid) if aid else None
-            if not aref:
-                warnings.append(f"'also' id {aid!r} unknown — dropped from rail")
-                continue
-            also_out.append({
-                "line": (a.get("line") or "").strip(),
-                "source": aref.get("source", ""),
-                "url": aref.get("url"),
-            })
-        if also_out:
-            story["also"] = also_out
+    rail = build_also_rail(item.get("also"), refs, warnings)
+    if rail:
+        story["also"] = rail
     return story
+
+
+def build_also_rail(also, refs, warnings):
+    """Resolve a list of {id, line} one-liners into rail entries with urls.
+    Used for both the section-level rail (the shape the prompt asks for) and
+    the legacy story-level one."""
+    if not isinstance(also, list) or not also:
+        return []
+    out = []
+    for a in also:
+        aid = a.get("id") if isinstance(a, dict) else None
+        aref = refs.get(aid) if aid else None
+        if not aref:
+            warnings.append(f"'also' id {aid!r} unknown — dropped from rail")
+            continue
+        line = (a.get("line") or "").strip()
+        if not line:
+            warnings.append(f"'also' id {aid!r} has no line — dropped from rail")
+            continue
+        out.append({
+            "line": line,
+            "source": aref.get("source", ""),
+            "url": aref.get("url"),
+        })
+    return out
 
 
 def build_opp(item, refs, warnings):
@@ -222,11 +279,22 @@ def assemble_one(draft_path, names, colophon, markets, warnings_out=None):
         ) if s]
         if not stories:
             continue
-        sections.append({
+        out_sec = {
             "name": names.get(slug, slug.replace("-", " ").title()),
             "slug": slug,
             "stories": stories,
-        })
+        }
+        # The draft carries `also` at SECTION level (see the schema in
+        # ROUTINE_PROMPT_B.md) and site/app.js renders `sec.also`. Until v6
+        # this loop never copied it across, so every also-rail the editor
+        # wrote was silently discarded here — 49 of 49 over the five editions
+        # audited on 2026-07-29, despite the full text having been fetched for
+        # each one. build_story()'s story-level `also` handling is kept for
+        # older drafts that put the rail on a story instead.
+        rail = build_also_rail(sec.get("also"), refs, warnings)
+        if rail:
+            out_sec["also"] = rail
+        sections.append(out_sec)
 
     opportunities = [build_opp(x, refs, warnings)
                      for x in draft.get("opportunities", []) or []]

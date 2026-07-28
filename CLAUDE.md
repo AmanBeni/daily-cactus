@@ -1,4 +1,4 @@
-# The Daily Cactus 🌵 — operational guide (v5)
+# The Daily Cactus 🌵 — operational guide (v6)
 
 A self-updating personal morning newspaper for one reader (Aman, Jaipur). A daily
 Claude Code Routine curates pre-fetched RSS news into a JSON draft; GitHub Actions
@@ -8,21 +8,31 @@ publishes it to GitHub Pages.
 > so every line here costs tokens daily. Long-form history lives in `HANDOFF.md`
 > (humans only — not loaded by the routine).
 
-## Architecture (v5 — pipeline integrity + content quality)
+## Architecture (v6 — TWO routines: select, then write)
 ```
 fetch.yml (GitHub Actions, ~05:00 IST, full internet)
   → scripts/fetch_feeds.py   → feeds/latest.json     (raw, ~500 stories)
-  → scripts/build_digest.py  → feeds/digest.json     (LEAN: id/title/source/summary/extract?/buzz? —
-                                                        no urls/images — the model's only news input)
+  → scripts/build_digest.py  → feeds/digest_lean.json (id/title/source/teaser/buzz?/img? —
+                                                        no urls — ROUTINE A's only news input)
                              → feeds/refs/YYYY-MM-DD.json  (this date's id→url/image/source snapshot)
-                             → feeds/refs.json        (rolling union, back-compat; model never reads either)
-                             → scripts/enrich_shortlist.py (full-text extracts, called from build_digest)
+                             → feeds/refs.json        (rolling union, back-compat; no routine reads either)
   → scripts/fetch_markets.py → feeds/markets.json     (Nifty/Sensex/USD-INR/Brent/BTC/Gold/Silver)
         │
         ▼
-Claude Code Routine (~06:00 IST, subscription, sandboxed — no internet)
-  reads feeds/digest.json + TASTE.md  →  writes ONE file drafts/YYYY-MM-DD.json
-  (story IDs + prose: headline/summary/signal/key_stat?/editors_read?/brief/also?).
+ROUTINE A — SELECT (~05:15 IST, ROUTINE_PROMPT_A.md)
+  reads feeds/digest_lean.json + TASTE.md → writes selections/<date>.json
+  (ids + structure ONLY — no prose), pushes to its claude/** branch
+        │
+        ▼
+select.yml → scripts/fetch_selected.py → feeds/selected/<date>.json
+  (full article text for every selected id; commits to main.
+   text_source: full | digest-extract | none — only 60-76% reach "full")
+        │
+        ▼
+ROUTINE B — WRITE (~06:00 IST, ROUTINE_PROMPT_B.md)
+  reads feeds/selected/<date>.json + TASTE.md → writes drafts/<date>.json
+  (headline/hook/points[3-5]/signal/key_stat?/editors_read?/brief/also).
+  ==double equals== in headline+hook renders as the yellow marker pen.
   No HTML, no web search.
         │
         ▼
@@ -39,21 +49,27 @@ GitHub Pages renderer (site/index.html + app.js + style.css, committed in repo) 
 ```
 
 **Core rules that keep cost low (do not violate):**
-1. The model writes **only `drafts/<today>.json`** — story IDs + prose. Never HTML,
-   never urls/images (those are injected on Actions from the refs snapshot, which
-   also makes fabricated links impossible).
-2. The routine reads **only `feeds/digest.json` and `TASTE.md`** (2 reads total),
-   writes once, and stops. No repo listing, no extra file reads, no self-verify,
-   no web search. (This is the fix for the old read-before-write retry loop that
-   burned ~1.5M tokens — see `HANDOFF.md`.)
+1. Routine A writes **only `selections/<today>.json`** (ids, no prose); Routine B
+   writes **only `drafts/<today>.json`** (ids + prose). Never HTML, never
+   urls/images — those are injected on Actions from the refs snapshot, which
+   also makes fabricated links impossible.
+2. Each routine reads **exactly 2 files** and stops. No repo listing, no extra
+   file reads, no self-verify, no web search. (This is the fix for the old
+   read-before-write retry loop that burned ~1.5M tokens — see `HANDOFF.md`.)
 3. The renderer (`site/index.html`, `app.js`, `style.css`) is committed once and
    never regenerated.
 4. **Editions are immutable once published.** `assemble_edition.py` never
    rewrites a past `site/editions/<date>.json` by default — content-hash story
    ids (not positional) plus per-date refs snapshots make this safe. This is
    the fix for the "vanishing editions" bug (see `HANDOFF.md`/`V2_PLAN.md`).
-5. Keep `CLAUDE.md`, `ROUTINE_PROMPT.md`, and `TASTE.md` short **and frozen**
+5. Keep `CLAUDE.md`, the routine prompts, and `TASTE.md` short **and frozen**
    between runs (changing them busts the prompt cache).
+6. **`assemble_edition.py` must never silently delete a story.** Its wrong-link
+   check WARNS; it does not drop. The old headline-overlap drop killed 6 correct
+   stories in 5 editions — including a whole edition's lead — and caught nothing.
+7. Section-level `also` must survive assembly into `sections[].also`; the
+   renderer reads `sec.also`. Dropping it silently discarded 49 fetched
+   one-liners over 5 editions.
 
 ## Files
 | File | Role |

@@ -64,14 +64,86 @@ window.daily.imgErr = function (img, isLead) {
   fig.remove();
   if (isLead && card) card.classList.add("no-figure");
 };
+// v6 feedback. A vote used to open a prefilled GitHub issue in a new tab,
+// which needs a GitHub login and a form submit — enough friction that in six
+// weeks of publishing not one vote was ever recorded (TASTE.md's
+// AUTO-FEEDBACK block is still empty). Now a tap just writes to localStorage
+// and is done. Nothing opens, nothing needs a login.
+//
+// FEEDBACK_FORM: set this to a Google Form formResponse URL with entry ids to
+// also fire the vote straight at a sheet that taste.yml can read weekly with
+// an unauthenticated curl. Leave it null and votes stay local until exported.
+// It is write-only and carries no secret, so it is safe in a public repo.
+const FEEDBACK_FORM = null;   // e.g. {url:"https://docs.google.com/forms/d/e/XXX/formResponse", id:"entry.111", vote:"entry.222", date:"entry.333"}
+const VOTE_KEY = "cactus.votes.v1";
+
+function readVotes() {
+  try { return JSON.parse(localStorage.getItem(VOTE_KEY) || "[]"); }
+  catch (e) { return []; }
+}
+function writeVote(v) {
+  try {
+    const all = readVotes().filter((x) => x.id !== v.id);
+    all.push(v);
+    localStorage.setItem(VOTE_KEY, JSON.stringify(all.slice(-500)));
+  } catch (e) { /* private mode / quota — the vote is simply not kept */ }
+}
+
 window.daily.thumb = function (btn) {
   if (btn.dataset.sent === "1") return;
-  const url = btn.dataset.href;
+  const vote = { id: btn.dataset.storyId, vote: btn.dataset.vote,
+                 date: btn.dataset.date, at: new Date().toISOString() };
   btn.dataset.sent = "1";
   btn.classList.add("sent");
-  btn.disabled = true;
+  // Mark the sibling too — a card gets one verdict, not both.
+  const pair = btn.closest(".thumbs");
+  if (pair) pair.querySelectorAll("button").forEach((b) => { b.disabled = true; });
+  writeVote(vote);
+  if (FEEDBACK_FORM && FEEDBACK_FORM.url) {
+    const p = new URLSearchParams();
+    p.set(FEEDBACK_FORM.id, vote.id);
+    p.set(FEEDBACK_FORM.vote, vote.vote);
+    if (FEEDBACK_FORM.date) p.set(FEEDBACK_FORM.date, vote.date);
+    p.set("submit", "Submit");
+    // no-cors: the response is unreadable by design, which is fine — the
+    // localStorage copy above is the record that matters.
+    fetch(`${FEEDBACK_FORM.url}?${p.toString()}`, { mode: "no-cors" }).catch(() => {});
+  }
+  renderVoteBar();
+};
+
+// One prefilled issue carrying the whole batch, instead of one issue per vote.
+window.daily.exportVotes = function () {
+  const votes = readVotes();
+  if (!votes.length) return;
+  const body = encodeURIComponent(
+    "```json\n" + JSON.stringify(votes, null, 0) + "\n```");
+  const title = encodeURIComponent(`feedback batch — ${votes.length} votes`);
+  const url = `https://github.com/amanbeni/daily-cactus/issues/new` +
+    `?labels=feedback&title=${title}&body=${body}`;
+  if (url.length > 7000 && navigator.clipboard) {
+    navigator.clipboard.writeText(JSON.stringify(votes)).catch(() => {});
+    alert(`${votes.length} votes copied to the clipboard — too many for a URL.`);
+    return;
+  }
   window.open(url, "_blank", "noopener");
 };
+
+window.daily.clearVotes = function () {
+  try { localStorage.removeItem(VOTE_KEY); } catch (e) { /* ignore */ }
+  renderVoteBar();
+};
+
+function renderVoteBar() {
+  const el = document.getElementById("votebar");
+  if (!el) return;
+  const n = readVotes().length;
+  el.innerHTML = n
+    ? `${n} vote${n === 1 ? "" : "s"} saved on this device ` +
+      `<button type="button" onclick="daily.exportVotes()">send to GitHub</button>` +
+      `<button type="button" onclick="daily.clearVotes()">clear</button>`
+    : "";
+}
 
 // Retained for the masthead/colophon cactus. NO LONGER used as a photo
 // placeholder (P5 — an empty "no photo" frame looked worse than no frame).
@@ -84,20 +156,62 @@ function cactusPlaceholderSVG() {
 function storyId(date, scope, idx) {
   return `${date}/${scope}/${idx}`;
 }
-function issueURL(vote, id, headline, date) {
-  const title = encodeURIComponent(`${vote === "up" ? "👍" : "👎"} ${id}`);
-  const body = encodeURIComponent(`${headline || ""}\n\nEdition: ${date}`);
-  return `https://github.com/amanbeni/daily-cactus/issues/new?labels=feedback&title=${title}&body=${body}`;
-}
 function thumbsHTML(id, headline, date) {
-  const up = issueURL("up", id, headline, date);
-  const dn = issueURL("down", id, headline, date);
+  const a = `data-story-id="${esc(id)}" data-date="${esc(date)}" onclick="daily.thumb(this)"`;
   return `<span class="thumbs">
-    <button aria-label="More like this" data-href="${esc(up)}" onclick="daily.thumb(this)">
+    <button aria-label="More like this" data-vote="up" ${a}>
       <svg viewBox="0 0 16 16"><use href="#thumb-up"/></svg></button>
-    <button aria-label="Less like this" data-href="${esc(dn)}" onclick="daily.thumb(this)">
+    <button aria-label="Less like this" data-vote="down" ${a}>
       <svg viewBox="0 0 16 16" style="transform:rotate(180deg)"><use href="#thumb-up"/></svg></button>
   </span>`;
+}
+
+// ---------- Ask AI (v6) ----------
+// Hands the article URL + the Cactus summary to a chat so the reader can go
+// deeper straight from the card. Sending the SUMMARY TEXT, not just the link,
+// is deliberate: only Perplexity reliably fetches a URL you give it, so the
+// summary is what makes the follow-up useful when the model doesn't browse.
+//
+// Ordering is by what survives being logged out, verified 29 Jul 2026:
+//   ChatGPT    — preserves the prompt inside ?next= and replays it after login
+//   Perplexity — preserves it through the redirect, gates only the answer
+//   Claude     — redirects to /login and DISCARDS the prompt entirely
+// Hence the copy button, which is the only path that always works.
+const ASK_MAX = 1800;   // safe cross-browser URL budget; Cloudflare caps at 16KB
+
+function askPrompt(s) {
+  const body = Array.isArray(s.points) && s.points.length
+    ? [s.hook || "", ...s.points.map((p) => `- ${p}`)].filter(Boolean).join("\n")
+    : String(s.summary || "");
+  return `I'm reading this article:\n${s.url || ""}\n\n` +
+    `${String(s.headline || "")}\n${body.replace(/==/g, "")}\n\n` +
+    `Help me understand the second-order implications, especially for India. ` +
+    `Push back on anything the summary overstates.`;
+}
+
+window.daily.askCopy = function (btn) {
+  const card = btn.closest(".story");
+  const text = card && card.dataset.askPrompt ? card.dataset.askPrompt : "";
+  const done = () => {
+    const was = btn.textContent;
+    btn.textContent = "copied";
+    setTimeout(() => { btn.textContent = was; }, 1600);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done, () => {});
+  }
+};
+
+function askAIHTML(s) {
+  if (!s.url) return "";
+  const q = encodeURIComponent(askPrompt(s));
+  const links = q.length <= ASK_MAX
+    ? `<a href="https://chatgpt.com/?q=${q}&hints=search" target="_blank" rel="noopener">ChatGPT</a>` +
+      `<a href="https://www.perplexity.ai/search?q=${q}" target="_blank" rel="noopener">Perplexity</a>` +
+      `<a href="https://claude.ai/new?q=${q}" target="_blank" rel="noopener">Claude</a>`
+    : "";
+  return `<span class="ask-ai"><span class="ask-lab">Ask&nbsp;AI</span>${links}` +
+    `<button type="button" onclick="daily.askCopy(this)">copy</button></span>`;
 }
 
 // ---------- markets bar (B5) ----------
@@ -146,9 +260,40 @@ const _SRC_FLAG_RE =
 function summaryHTML(summary) {
   const raw = String(summary == null ? "" : summary);
   const m = raw.match(_SRC_FLAG_RE);
-  if (!m) return esc(raw);
+  if (!m) return hl(raw);
   const body = raw.slice(0, m.index);
-  return `${esc(body)} <span class="src-flag">${esc(m[1])}</span>`;
+  return `${hl(body)} <span class="src-flag">${esc(m[1])}</span>`;
+}
+
+// v6 marker pen. The editor wraps the single phrase that carries a story in
+// ==double equals==; this turns it into the yellow highlighter that has been
+// sitting unused in style.css (.hl) since the renderer was written.
+// ALWAYS escapes first, so the marker syntax can never be used to inject
+// markup — the only thing that survives is <mark>. Capped at two marks per
+// block: past that it stops reading as emphasis and starts reading as noise.
+const _HL_RE = /==([^=]{1,120})==/g;
+function hl(text) {
+  const safe = esc(String(text == null ? "" : text));
+  let n = 0;
+  return safe.replace(_HL_RE, (whole, phrase) =>
+    ++n <= 2 ? `<mark class="hl">${phrase}</mark>` : phrase);
+}
+
+// v6 summary block: a one-line numbers-first hook, then 3-5 bullets.
+// Falls back to the single-paragraph `summary` whenever `points` is absent,
+// which is what every edition published before v6 carries — those keep
+// rendering byte-for-byte as they do today.
+function summaryBlockHTML(s) {
+  if (Array.isArray(s.points) && s.points.length) {
+    const hook = s.hook ? `<p class="hook">${hl(s.hook)}</p>` : "";
+    const pts = s.points.map((p) => `<li>${hl(p)}</li>`).join("");
+    const flag = _SRC_FLAG_RE.test(String(s.summary || ""))
+      ? `<p class="src-flag-line"><span class="src-flag">${
+          esc(String(s.summary).match(_SRC_FLAG_RE)[1])}</span></p>`
+      : "";
+    return `${hook}<ul class="points">${pts}</ul>${flag}`;
+  }
+  return `<p class="summary">${summaryHTML(s.summary)}</p>`;
 }
 
 function keyStatHTML(s) {
@@ -226,19 +371,25 @@ function storyCardHTML(s, opts) {
   }
   const url = s.url ? esc(s.url) : "";
   const headlineHTML = url
-    ? `<a href="${url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">${esc(s.headline)}</a>`
-    : esc(s.headline);
+    ? `<a href="${url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">${hl(s.headline)}</a>`
+    : hl(s.headline);
   const meta = `<div class="meta">${
       url ? `<a class="sk" href="${url}" target="_blank" rel="noopener">Read the original &rarr;</a>` : ""
-    }${thumbsHTML(opts.id, s.headline, opts.date)}</div>`;
+    }${askAIHTML(s)}${thumbsHTML(opts.id, s.headline, opts.date)}</div>`;
 
   const textBlock = `
         ${kicker.join("")}
         <h5>${headlineHTML}</h5>
         ${keyStatHTML(s)}
-        <p class="summary">${summaryHTML(s.summary)}</p>
+        ${summaryBlockHTML(s)}
         ${bodyHTML(s, tabVar)}
         ${meta}`;
+
+  // Carried on the card so the "copy" button can lift the exact prompt the
+  // Ask-AI links use, without rebuilding it or blowing the URL budget.
+  const attrs = `class="${cls.join(" ")}" id="${esc(opts.anchorId)}" ` +
+    `style="--tabc:var(--${tabVar})"` +
+    (s.url ? ` data-ask-prompt="${esc(askPrompt(s))}"` : "");
 
   if (opts.lead) {
     // A lead WITH a photo: text left, photo right (the classic arrangement).
@@ -251,19 +402,19 @@ function storyCardHTML(s, opts) {
         ${kicker.join("")}
         <h5>${headlineHTML}</h5>
         ${keyStatHTML(s)}
-        <p class="summary">${summaryHTML(s.summary)}</p>
+        ${summaryBlockHTML(s)}
         ${meta}`;
-      return `<${tag} class="${cls.join(" ")}" id="${esc(opts.anchorId)}" style="--tabc:var(--${tabVar})">
+      return `<${tag} ${attrs}>
         <div class="lead-main">${leftBlock}</div>
         <div class="lead-side">${bodyHTML(s, tabVar)}</div>
       </${tag}>`;
     }
-    return `<${tag} class="${cls.join(" ")}" id="${esc(opts.anchorId)}" style="--tabc:var(--${tabVar})">
+    return `<${tag} ${attrs}>
       <div>${textBlock}</div>
       ${figureHTML(s, true)}
     </${tag}>`;
   }
-  return `<${tag} class="${cls.join(" ")}" id="${esc(opts.anchorId)}" style="--tabc:var(--${tabVar})">
+  return `<${tag} ${attrs}>
     ${figureHTML(s, false)}
     ${textBlock}
   </${tag}>`;
@@ -452,7 +603,9 @@ function sectionSlugForFrontpage(ed, story) {
   return null;
 }
 
-async function loadEdition(date) {
+// pinDate: true when the reader picked this date (or arrived on a ?date= link),
+// false on the implicit "give me the newest one" load.
+async function loadEdition(date, pinDate) {
   $("#paper").innerHTML = `<p class="status">Loading ${esc(date)}&hellip;</p>`;
   try {
     const path = date === "__fixture__" ? "dev-fixture.json" : `editions/${date}.json`;
@@ -462,7 +615,14 @@ async function loadEdition(date) {
     renderEdition(ed);
     const sel = $("#datepick");
     if (sel && date !== "__fixture__") sel.value = date;
-    if (date !== "__fixture__") history.replaceState(null, "", `?date=${date}`);
+    // Only stamp ?date= when the reader actually CHOSE a date. Stamping it on
+    // the default load rewrote the address bar to the newest date on every
+    // visit, so any bookmark or shared link froze to whatever edition happened
+    // to be current that morning — the bare URL already resolves to the latest
+    // edition via editions/index.json, and now it stays that way.
+    if (date !== "__fixture__" && pinDate) {
+      history.replaceState(null, "", `?date=${date}`);
+    }
   } catch (e) {
     $("#paper").innerHTML = `<p class="status">Couldn't load the ${esc(date)} edition.</p>`;
   }
@@ -492,13 +652,14 @@ async function init() {
     sel.innerHTML = eds.map((e) =>
       `<option value="${esc(e.date)}">${esc(e.date)}${e.lead ? " — " + esc(e.lead.slice(0, 60)) : ""}</option>`
     ).join("");
-    sel.addEventListener("change", () => loadEdition(sel.value));
+    sel.addEventListener("change", () => loadEdition(sel.value, true));
     $("#datebar").style.visibility = "visible";
   }
 
   const param = params.get("date");
   const start = param || (eds[0] && eds[0].date);
-  if (start) loadEdition(start);
+  renderVoteBar();
+  if (start) loadEdition(start, Boolean(param));
   else $("#paper").innerHTML = `<p class="status">No editions published yet. Check back after the next run.</p>`;
 
   setupKeyboardNav();

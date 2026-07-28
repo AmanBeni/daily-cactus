@@ -22,7 +22,15 @@ sections:
     window_hours: 72
     angle: "Capabilities, research, industry moves, India AI policy & tools. Separate substance from press releases."
     feeds:
-      - https://www.technologyreview.com/topic/artificial-intelligence/feed   # [OK]
+      # MIT TR ships FULL article text in content:encoded — no enrichment
+      # needed. Every WordPress feed here is hard-capped at 10 items, but
+      # ?paged=N returns the next 10 with no overlap (verified 29 Jul 2026
+      # with this project's own UA), which is the fix for MIT TR contributing
+      # only ~1.6 items/day while the Google News query supplied ~10.
+      - https://www.technologyreview.com/topic/artificial-intelligence/feed   # [VERIFIED] Jul 2026
+      - https://www.technologyreview.com/topic/artificial-intelligence/feed?paged=2  # [VERIFIED] Jul 2026 — distinct set
+      - https://www.technologyreview.com/feed/                                # [VERIFIED] Jul 2026 — main feed, highest velocity (~2.5/day)
+      - https://www.theguardian.com/technology/artificialintelligenceai/rss   # [VERIFIED] Jul 2026 — 20 items, straight at the reader's main domain
       - https://techcrunch.com/category/artificial-intelligence/feed/          # [VERIFIED]
       # analyticsindiamag.com/feed dropped (Jul 2026 B7 audit): parse failure,
       # confirmed dead — no valid entries returned.
@@ -90,7 +98,17 @@ sections:
       - https://inc42.com/feed/                           # [OK]
       - https://yourstory.com/feed                        # [OK]
       # entrackr.com/feed dropped (Jul 2026 B7 audit): 404, confirmed dead.
-      - https://the-ken.com/feed/                         # [VERIFIED] Jul 2026 — works now, despite old "likely paywalled" note
+      # the-ken.com/feed dropped (29 Jul 2026): three independent blockers,
+      # each verified. (1) Cloudflare bot wall — 403 to this project's UA, to
+      # curl, and to Googlebot; it only loads in a real browser, so the
+      # Actions runner has been getting 403 all along. (2) The RSS carries no
+      # article text at all: content:encoded is absent and <description> is
+      # pure WordPress boilerplate ("The post X appeared first on The Ken").
+      # (3) Hard paywall — isAccessibleForFree: False and the body genuinely
+      # is not in the HTML, so unlike New Scientist enrichment cannot recover
+      # it. Contributed 0 cards across the 5 editions audited. If it ever
+      # comes back it can only ever be a headline with no summary.
+      - https://www.theguardian.com/world/india/rss        # [VERIFIED] Jul 2026 — 20 items, direct India lens
       - https://restofworld.org/feed/latest/               # [VERIFIED] Jul 2026 — B7 replacement, global emerging-market tech/venture angle
       - https://news.google.com/rss/search?q=(startup+OR+unicorn+OR+founder+OR+%22venture+capital%22+OR+%22seed+funding%22+OR+D2C+OR+%22quick+commerce%22)+(funding+OR+raises+OR+acquires+OR+IPO+OR+shuts+OR+%22lays+off%22+OR+%22Series+A%22+OR+SEBI+OR+RBI+OR+MeitY+OR+DPIIT)+India+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
@@ -153,7 +171,14 @@ sections:
     angle: "Music (all kinds), live events, neuroscience, the natural world, books, big ideas. One genuinely interesting thing beats three mediocre ones."
     feeds:
       - https://www.quantamagazine.org/tag/neuroscience/feed/  # [OK] neuroscience
-      - https://www.newscientist.com/feed/home/           # [VERIFIED] science
+      # New Scientist 406s on a full-browser User-Agent but is fine with this
+      # project's bot UA — do NOT "fix" fetch_feeds.py to spoof Chrome or this
+      # feed goes silently dead. Paywalled items ship no content:encoded, but
+      # the body IS in the HTML and trafilatura recovers it, so enrichment
+      # works on them. ?paged=2 verified distinct.
+      - https://www.newscientist.com/feed/home/           # [VERIFIED] Jul 2026 — science
+      - https://www.newscientist.com/feed/home/?paged=2   # [VERIFIED] Jul 2026 — distinct set
+      - https://www.newscientist.com/section/news/feed/   # [VERIFIED] Jul 2026 — ~2.5/day
       - https://bookriot.com/feed/                        # [OK] books
       - https://pitchfork.com/rss/news/                   # [VERIFIED] music
       - https://news.mongabay.com/feed/                   # [VERIFIED] nature
