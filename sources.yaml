@@ -219,8 +219,28 @@ sections:
     # structured sources cover (they're hackathon/tech-conference/meetup
     # boards) — never treat it as authoritative on dates, only as a lead to
     # verify before restating a date the model itself derives from title text.
+    # 29 Jul 2026 — breadth raise. The structured boards (Unstop/10times/Luma/
+    # Devpost) are narrow by construction: over the 19-28 Jul editions the
+    # Unstop queries alone returned ~329 items and produced ONE selection.
+    # Google News queries were tried before and removed because they returned
+    # retrospective coverage ("Summit concludes...", exam recaps) with no
+    # forward date and no registration link. The queries below are therefore
+    # filtered on TENSE, not topic: every one is built around forward-looking
+    # language ("applications open", "registrations open", "apply by", "to be
+    # held", "early bird") and explicitly excludes retrospective words. That is
+    # the difference from the version that failed. build_digest.py's
+    # `_opportunity_is_past` + `extract_event_date` still drop anything whose
+    # date has already gone, so a retrospective slipping through is caught.
     feeds:
       - https://news.google.com/rss/search?q=(%22Jaipur+Literature+Festival%22+OR+JLF+OR+%22Magnetic+Fields%22+OR+%22NH7+Weekender%22+OR+%22India+Art+Fair%22+OR+%22Venice+Biennale%22+OR+%22Art+Basel%22)+when:30d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] discovery-only — NEVER authoritative on dates
+      # Fellowships / cohorts / accelerators / grants — India, forward-dated only.
+      - https://news.google.com/rss/search?q=(%22applications+open%22+OR+%22call+for+applications%22+OR+%22apply+by%22+OR+%22last+date+to+apply%22+OR+%22applications+invited%22)+(fellowship+OR+cohort+OR+accelerator+OR+incubator+OR+residency+OR+grant+OR+scholarship)+India+-concludes+-concluded+-recap+-highlights+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] forward-dated
+      # Conferences / summits / expos — India, forward-dated only.
+      - https://news.google.com/rss/search?q=(%22registrations+open%22+OR+%22registration+is+open%22+OR+%22to+be+held%22+OR+%22will+be+held%22+OR+%22early+bird%22+OR+%22tickets+on+sale%22)+(summit+OR+conference+OR+expo+OR+exhibition+OR+hackathon+OR+festival+OR+demo+day)+India+-concludes+-concluded+-recap+-highlights+-wrapped+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] forward-dated
+      # AI / deep-tech specific, India — the reader's actual domain.
+      - https://news.google.com/rss/search?q=(%22applications+open%22+OR+%22registrations+open%22+OR+%22call+for+papers%22+OR+%22apply+by%22)+(AI+OR+%22deep+tech%22+OR+robotics+OR+semiconductor+OR+quantum+OR+climate+OR+space)+(summit+OR+conference+OR+fellowship+OR+hackathon+OR+challenge)+India+-concluded+-recap+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] forward-dated
+      # Global — only the creamiest; no India filter, so keep the bar high.
+      - https://news.google.com/rss/search?q=(%22applications+open%22+OR+%22call+for+applications%22+OR+%22apply+by%22)+(fellowship+OR+residency+OR+%22visiting+programme%22+OR+%22open+call%22)+-concluded+-recap+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] forward-dated, global
 
   - name: "Beyond Your Beat"
     slug: beyond-your-beat

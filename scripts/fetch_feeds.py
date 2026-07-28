@@ -48,10 +48,19 @@ OUT = ROOT / "feeds" / "latest.json"
 UA = ("Mozilla/5.0 (compatible; DailyCactusBot/1.0; "
       "+https://amanbeni.github.io/daily-cactus/)")
 
-MAX_PER_FEED = 12      # generous cap; Claude does the real editorial selection.
-                       # Raised 8->12 (owner, Jul 2026): sections looked starved
+MAX_PER_FEED = 25      # generous cap; Claude does the real editorial selection.
+                       # 8 -> 12 (owner, Jul 2026): sections looked starved
                        # (2-story agritech days) — candidate breadth protects
                        # against missing a good story buried lower in a feed.
+                       # 12 -> 25 (29 Jul 2026): at 12, THIRTY-FIVE of 51 feeds
+                       # (69%) were hitting the cap — Guardian Tech serves 29
+                       # items and contributed 12. The narrowest point in the
+                       # whole pipeline was its very first step, and stories
+                       # were being discarded before anything had looked at
+                       # them. This costs NO model tokens: what the routine
+                       # actually reads is bounded separately by
+                       # SECTION_HARD_CAP and TOKEN_BUDGET_CHARS in
+                       # build_digest.py. It buys more choice at the same spend.
 SUMMARY_CHARS = 200    # lighter candidates -> fewer input tokens, no stories lost
                        # (the editor only needs the gist to rank; it rewrites anyway)
 HOURS_WINDOW = 36      # keep recent-ish items; routine applies a stricter 24h filter

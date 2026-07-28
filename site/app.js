@@ -418,9 +418,13 @@ function storyCardHTML(s, opts) {
         <div class="lead-side">${bodyHTML(s, tabVar)}</div>
       </${tag}>`;
     }
+    // Figure FIRST, and no wrapper div around the text: a float only pushes
+    // content that follows it in the flow, so the old "text div, then figure"
+    // order meant the photo never actually wrapped anything — it just sat in
+    // its own column with dead space under it.
     return `<${tag} ${attrs}>
-      <div>${textBlock}</div>
       ${figureHTML(s, true)}
+      ${textBlock}
     </${tag}>`;
   }
   return `<${tag} ${attrs}>
@@ -534,11 +538,16 @@ function renderEdition(ed) {
   let html = "";
   html += briefHTML(ed.brief, urlAnchors);
 
-  if (ed.lead || (ed.frontpage && ed.frontpage.length)) {
+  // The lead lives OUTSIDE .grid2: .grid2 is a CSS multi-column container now,
+  // and multi-column has no equivalent of grid-column:1/-1 for a full-width
+  // child. Keeping it separate also lets the lead float its own photo.
+  if (ed.lead) {
+    html += `<div class="lead-wrap">${storyCardHTML(ed.lead, {
+      lead: true, slug: "front", sectionName: null,
+      id: leadFbId, anchorId: leadId, date })}</div>`;
+  }
+  if (ed.frontpage && ed.frontpage.length) {
     html += `<div class="grid2">`;
-    if (ed.lead) {
-      html += storyCardHTML(ed.lead, { lead: true, slug: "front", sectionName: null, id: leadFbId, anchorId: leadId, date });
-    }
     (ed.frontpage || []).forEach((s, i) => {
       html += storyCardHTML(s, { lead: false, slug: "front", sectionName: sectionNameForFrontpage(ed, s), id: frontpageFbIds[i], anchorId: frontpageIds[i], date });
     });
