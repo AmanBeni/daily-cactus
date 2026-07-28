@@ -169,14 +169,21 @@ function thumbsHTML(id, headline, date) {
 // ---------- Ask AI (v6) ----------
 // Hands the article URL + the Cactus summary to a chat so the reader can go
 // deeper straight from the card. Sending the SUMMARY TEXT, not just the link,
-// is deliberate: only Perplexity reliably fetches a URL you give it, so the
+// is deliberate: neither chat is guaranteed to actually FETCH the url (both
+// browse only when the account's web-search setting allows it), so the
 // summary is what makes the follow-up useful when the model doesn't browse.
 //
 // Ordering is by what survives being logged out, verified 29 Jul 2026:
-//   ChatGPT    — preserves the prompt inside ?next= and replays it after login
-//   Perplexity — preserves it through the redirect, gates only the answer
-//   Claude     — redirects to /login and DISCARDS the prompt entirely
+//   ChatGPT — preserves the prompt inside ?next= and replays it after login
+//   Claude  — redirects to /login and DISCARDS the prompt entirely
 // Hence the copy button, which is the only path that always works.
+//
+// CLAUDE_DESKTOP: flip to true to point the Claude button at the desktop app
+// via its documented claude:// deep link instead of the web app. The desktop
+// app is already signed in, so it sidesteps the logged-out prompt loss above
+// — but it silently does nothing if the app isn't installed, which is why the
+// web link is the default.
+const CLAUDE_DESKTOP = false;
 const ASK_MAX = 1800;   // safe cross-browser URL budget; Cloudflare caps at 16KB
 
 function askPrompt(s) {
@@ -205,10 +212,12 @@ window.daily.askCopy = function (btn) {
 function askAIHTML(s) {
   if (!s.url) return "";
   const q = encodeURIComponent(askPrompt(s));
+  const claudeHref = CLAUDE_DESKTOP
+    ? `claude://claude.ai/new?q=${q}`
+    : `https://claude.ai/new?q=${q}`;
   const links = q.length <= ASK_MAX
     ? `<a href="https://chatgpt.com/?q=${q}&hints=search" target="_blank" rel="noopener">ChatGPT</a>` +
-      `<a href="https://www.perplexity.ai/search?q=${q}" target="_blank" rel="noopener">Perplexity</a>` +
-      `<a href="https://claude.ai/new?q=${q}" target="_blank" rel="noopener">Claude</a>`
+      `<a href="${claudeHref}" target="_blank" rel="noopener">Claude</a>`
     : "";
   return `<span class="ask-ai"><span class="ask-lab">Ask&nbsp;AI</span>${links}` +
     `<button type="button" onclick="daily.askCopy(this)">copy</button></span>`;
