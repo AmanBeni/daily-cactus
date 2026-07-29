@@ -1,0 +1,1049 @@
+{
+  "date": "2026-07-29",
+  "edition": 44,
+  "colophon": "57 sources scanned · 55 ok · 2 failed",
+  "lead": {
+    "headline": "Anthropic says its AI largely ran two cryptanalysis breakthroughs on its own",
+    "summary": "Anthropic says its Claude Mythos Preview model derived an end-to-end key-recovery attack against the post-quantum signature scheme HAWK-256, cutting its expected work factor from 2^64 to 2^38 — an attack Anthropic's implementation can run in about 3 hours 42 minutes on a 96-core server. Separately, the same model found a technique it calls the \"Möbius Bridge\" that makes an existing attack on 7-round AES-128 200 to 800 times faster, by removing a 256-way guessing step. Neither result threatens production systems: HAWK-256 is a cryptanalytic challenge parameter, not one of HAWK's two NIST-track security levels (which only saw their theoretical gate-count estimates dip modestly, from 2^150 to 2^108 for HAWK-512 and 2^288 to 2^182 for HAWK-1024), and the AES attack still needs about 2^105 chosen plaintexts to work — wildly impractical outside a lab. Anthropic says Mythos Preview developed and verified the HAWK attack over roughly 60 hours at an API cost of about $100,000, with a non-specialist human providing project-management guidance. The AES result took several days and roughly a billion output tokens to generate — but two human researchers then spent nearly a month checking it before Anthropic trusted it enough to publish.",
+    "signal": [
+      "The AI did the discovery in days; verifying it took humans nearly a month — that gap, not raw capability, is now the bottleneck in AI-assisted science.",
+      "Anthropic states plainly that the model initially refused the AES task, insisting it was impossible, until researchers pushed it with blunt follow-up prompts — a reminder that these systems still need to be argued with, not just queried.",
+      "Both attacks remain exponential and impractical at scale; nothing here should change how anyone builds or trusts real cryptographic systems today."
+    ],
+    "badge": "DEEP DIVE",
+    "takeaway": "",
+    "why": "",
+    "source": "The Hacker News",
+    "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+    "image": null,
+    "developing": false,
+    "key_stat": "2^64 → 2^38 · HAWK-256 work factor",
+    "editors_read": "This is one of the starkest public demonstrations yet that a frontier model can independently drive genuinely novel research in a domain that punishes hand-waving — cryptanalysis has to be provably correct, not just plausible-sounding. The real story in Anthropic's own account is that idea generation (days, ~$100K) is now cheap relative to verification (weeks of expert human time) — for anyone eyeing AI-generalist or founder's-office roles, that inversion is the operational problem worth tracking: organizations that build fast, trustworthy verification pipelines will be the ones that can actually use AI-driven research output, not just generate it."
+  },
+  "frontpage": [
+    {
+      "headline": "Modi meets Skyroot founders after India's first private orbital launch",
+      "summary": "Prime Minister Narendra Modi met Skyroot Aerospace founders Pawan Chandana and Naga Bharath Daka days after the company's Vikram-1 rocket reached orbit, calling their energy and ambition reflective of India's private space ecosystem. Skyroot, founded in 2018 by the two former ISRO scientists, previously launched Vikram-S in November 2022 — India's first privately built rocket to reach space. The company said the discussion covered its technology, long-term vision and the opportunities ahead, and thanked the government for the 2020 reforms that opened India's space sector to private players, alongside continued support from IN-SPACe and ISRO.",
+      "signal": [
+        "High-level political validation for private spacetech just as the sector posts its first unicorn and its first private orbital launch — see today's funding story in Indian Startups.",
+        "Skyroot plans another test flight later in 2026 before starting commercial launch operations in 2027 — the real test of this ecosystem is still ahead."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Fortune India",
+      "url": "https://www.fortuneindia.com/india/pm-modi-meets-skyroot-founders-after-vikram-1-success-lauds-indias-growing-private-space-ecosystem/150433",
+      "image": null,
+      "developing": false,
+      "editors_read": "The optics matter less than the timing: this meeting lands the same week Tracxn reports India's spacetech sector crossing $871M in cumulative funding and its first unicorn status. State validation now follows private capital and technical proof points, not the other way around — a reversal from how most Indian deep-tech sectors have historically developed, and a useful signal for where policy tailwinds are likely to show up next."
+    },
+    {
+      "headline": "US bans new Chinese-made humanoid robots and power inverters",
+      "summary": "The Trump administration announced a ban on imports of new foreign-made advanced robots — including humanoid and four-legged machines, many built in China — plus power inverters used in data centres and solar installations, citing \"unacceptable risks\" to US national security. The FCC added both categories to its Covered List, a formal register of goods deemed a security risk; the ban applies only to new imports and doesn't affect previously authorised models already in the US. FCC chairman Brendan Carr said the move secures \"America's critical supply chains,\" citing risks that foreign-made inverters could be remotely disabled or used to steal data, and that foreign-made robots could enable surveillance or remote commandeering by \"foreign government actors.\" China's embassy in Washington called the move politicised trade sanctions based on \"groundless pretexts\" and said Beijing will \"take all necessary measures\" in response.",
+      "signal": [
+        "Extends the chips/EVs/rare-earths decoupling playbook to a new, fast-moving hardware category before Chinese firms like Unitree, UBTech and AgiBot can entrench a US foothold.",
+        "Gives US robotics players (Tesla, Boston Dynamics) a protected home-market runway against currently faster-moving Chinese competitors."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b8e/live/23eaf6d0-8ade-11f1-b889-f97dd2fdd738.jpg",
+      "developing": true,
+      "editors_read": "This is the same strategy as chip export controls — cordon off a fast-moving hardware category before supply chains lock in — applied one step earlier in the cycle, before humanoid robots are anywhere near mainstream deployment. Worth watching whether India and other markets face pressure to align with US or Chinese robotics/data standards the way they already have with telecom and semiconductors, since that will shape which supply chains India's own robotics and deep-tech manufacturing ambitions plug into."
+    },
+    {
+      "headline": "Cursor launches a ₹649/month India-only plan ahead of its SpaceX acquisition",
+      "summary": "AI coding startup Cursor introduced Cursor Start, a ₹649-a-month (about $7) India-specific subscription priced well below its standard $20-a-month Pro tier, weeks before its expected $60 billion all-stock acquisition by SpaceX closes in Q3. Cursor says India is already its third-largest market globally and has the highest concentration of power users, with its user base more than tripling over the past year — a scale Cursor's APAC head Simon Green attributes partly to India's developer talent pool (GitHub counts more than 27 million developers in India, second only to the US, with over 2 million joining in 2026 alone). Cursor Start includes Composer 2.5 and Grok 4.5 with higher usage limits than the free tier, but excludes frontier models from OpenAI/Anthropic and features like Bugbot and Auto Mode. Cursor is also hiring its first India-based salespeople and building a Bengaluru/Chennai/Hyderabad/Delhi presence; OpenAI's earlier sub-$5 ChatGPT Go in India is cited as precedent for expanding localized pricing to other markets later.",
+      "signal": [
+        "Cursor is racing to lock in India's 27-million-strong developer base — the world's second largest — before its $60B SpaceX acquisition closes.",
+        "India-first pricing (following OpenAI's ChatGPT Go) is becoming the standard AI go-to-market move for reaching price-sensitive, high-volume developer markets."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+      "image": null,
+      "developing": false,
+      "key_stat": "₹649/mo · Cursor's new India tier",
+      "editors_read": "Worth reading less as a coding-tools story and more as a signal that AI-native companies now treat India as a primary growth market with dedicated pricing, hiring and government-affairs investment, not an afterthought market served from a US price list. That absorption of AI-economy jobs and go-to-market roles into Indian cities is directly relevant to anyone tracking where AI-generalist and founder's-office hiring is actually happening on the ground."
+    },
+    {
+      "headline": "Tata and Mahindra beat Tesla and BYD on EV energy efficiency",
+      "summary": "Tata Motors topped the International Council on Clean Transportation's 2025 global ranking of the most energy-efficient battery EV fleets, averaging 106 watt-hours per kilometre across its lineup. Mahindra came second at 113 Wh/km. Tesla and BYD — the world's largest EV maker — ranked third and fourth among the 22 major manufacturers evaluated. The industry average held nearly flat year-on-year at 131 Wh/km; only 8 of the 22 manufacturers improved efficiency, while 12 saw it decline. EVs still account for under 5% of new passenger vehicle sales in India, versus 25% globally, against a government target of 30% by 2030.",
+      "signal": [
+        "A genuine engineering win, not just a cost win — Tata and Mahindra beat Tesla and BYD on the hardest metric to fake.",
+        "Efficiency isn't the adoption bottleneck: Tata ranks last on charging speed and near-bottom on range in the same ICCT ranking, which matters more for India's sub-5% EV penetration."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Rest of World",
+      "url": "https://restofworld.org/2026/indian-evs-beat-tesla-byd-icct-efficiency-ranking/",
+      "image": null,
+      "developing": false,
+      "key_stat": "106 Wh/km · Tata tops global EV efficiency ranking"
+    },
+    {
+      "headline": "The Economist: AI revenues are growing fast, but not fast enough",
+      "summary": "The Economist frames the core tension behind the ongoing AI stock sell-off (see Apple and South Korea stories below): AI company revenues are growing quickly in absolute terms, but the returns on the trillions of dollars committed to AI infrastructure spending remain deeply uncertain. (summary from limited source text)",
+      "signal": [
+        "The framing piece behind today's AI sell-off stories — no new number here, just the doubt investors are now pricing in."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Finance & economics",
+      "url": "https://www.economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough",
+      "image": null,
+      "developing": false
+    },
+    {
+      "headline": "India court orders winding up of Paytm Payments Bank",
+      "summary": "An Indian court has ordered the winding up of Paytm Payments Bank, following the RBI's earlier cancellation of its banking licence, per Reuters. (source unreachable — headline only)",
+      "signal": [
+        "Formal closure of a fintech entity whose licence was already revoked — the underlying RBI action, not this order, was the substantive event."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/india/india-court-orders-winding-up-paytm-payments-bank-after-rbi-licence-cancellation-2026-07-28/",
+      "image": null,
+      "developing": false
+    },
+    {
+      "headline": "Karnataka to approach Anthropic to monetise public data for AI governance tools",
+      "summary": "Karnataka's IT & e-Governance minister Priyank Kharge says the state plans to share anonymised government datasets — including landholdings, crops, student records, income and caste data from its 5.5-crore-citizen Kutumba (Family ID) database — with companies including Anthropic to build AI applications, mainly for governance. Kharge met Anthropic officials twice in July, including India managing director Irina Ghose, discussing centres of excellence and citizen-service use cases; these talks followed a February meeting between Kharge and Anthropic CEO Dario Amodei at the India AI Summit. Two working groups have been set up to identify use cases. Kharge said any pilot would run in a \"regulatory sandbox,\" with a joint IP arrangement if it succeeds, since the resulting applications would be built on government-owned data. Karnataka is also exploring similar partnerships with Bengaluru-based Sarvam and Gnani. Independent researcher Shreeja Sen warned that India's Digital Personal Data Protection Act offers minimal protection for data already made public, and that combining anonymised datasets on health, finances and housing can still produce identifiable profiles of groups.",
+      "signal": [
+        "Karnataka wants a joint-IP stake in whatever gets built on its data — a notably different posture from earlier open-data initiatives that simply released datasets for free.",
+        "Privacy researchers flag a real gap: DPDP protections weaken once data is already public, and anonymisation doesn't prevent re-identification when datasets are combined."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Deccan Herald",
+      "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fkarnataka-govt-to-approach-anthropic-for-ai-driven-public-services-4091088",
+      "image": null,
+      "developing": true
+    },
+    {
+      "headline": "Pakistan accused of killing 30 unarmed protesters in Kashmir crackdown",
+      "summary": "A local civil society group, the Joint Awami Action Committee (JAAC), says Pakistani security forces killed 25 protesters on Monday and five more on Tuesday in Pakistan-administered Kashmir, as a state crackdown on months-long protests intensified. The protests, which began in June demanding the abolition of 12 electoral seats reserved for refugees from Indian-administered Kashmir, have been met with an internet blackout, mass arrests and a designation of JAAC as a terrorist organisation. JAAC alleges security forces removed bodies from a Mirpur hospital to destroy evidence; Pakistani authorities reject state involvement and have accused India of funding the protests, which JAAC denies. Amnesty International has called for the communications blackout to be lifted, and the UN rights chief previously called for an investigation after roughly 40 people were reportedly killed in June's violence. The Guardian could not independently verify the death toll due to the ongoing blackout.",
+      "signal": [
+        "The deadliest crackdown yet in a year-long protest movement, per local groups — but the communications blackout means every figure here is a claim, not a confirmed count.",
+        "Pakistan's counter-narrative (India-funded unrest) mirrors the framing India uses against its own domestic protest movements — worth noting as rhetoric, not evidence."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings",
+      "image": null,
+      "developing": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "stories": [
+        {
+          "headline": "Cursor launches a ₹649/month India-only plan ahead of its SpaceX acquisition",
+          "summary": "Cursor introduced Cursor Start, a ₹649-a-month (~$7) India-specific tier well below its $20 Pro plan, weeks ahead of its expected $60B SpaceX acquisition closing in Q3. India is already Cursor's third-largest market with the highest concentration of power users, its user base having more than tripled in the past year — a pool GitHub puts at 27M+ developers, second only to the US. The plan includes Composer 2.5 and Grok 4.5 but excludes frontier third-party models and advanced features like Bugbot.",
+          "signal": [
+            "Sets a template — following OpenAI's ChatGPT Go — of India-first pricing becoming standard AI go-to-market strategy.",
+            "Cursor's Bengaluru/Chennai/Hyderabad/Delhi hiring push signals AI companies now build India-based teams, not just India-facing pricing."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Karnataka to approach Anthropic to monetise public data for AI governance tools",
+          "summary": "Karnataka plans to share anonymised government data — including its 5.5-crore-citizen Kutumba database covering landholdings, crops, income and caste — with Anthropic and other AI firms to build governance applications, with a joint-IP arrangement if a regulatory-sandbox pilot succeeds. Talks followed a February meeting between minister Priyank Kharge and Anthropic CEO Dario Amodei. Privacy researcher Shreeja Sen warns India's DPDP Act offers weak protection once data is public, and that combining anonymised datasets can still produce identifiable profiles.",
+          "signal": [
+            "A joint-IP data-monetisation model is a new posture for Indian state governments dealing with AI companies — worth tracking as a template other states may copy.",
+            "The privacy gap Sen identifies (re-identification via combined anonymised datasets) isn't unique to Karnataka — it's a structural DPDP Act weakness."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Deccan Herald",
+          "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fkarnataka-govt-to-approach-anthropic-for-ai-driven-public-services-4091088",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Brookfield sees 6.5 GW of AI data-centre capacity coming online in India",
+          "summary": "Brookfield expects 6.5 GW of AI data-centre capacity to come online in India, according to Reuters. (source unreachable — headline only)",
+          "signal": [
+            "Signals large-scale committed AI-infrastructure investment in India, though cost, timeline and site details aren't available from the headline alone."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/brookfield-sees-65-gw-ai-data-centre-capacity-coming-online-india-2026-07-28/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Samsung's chip engineers are jumping ship to SK Hynix over bonus gap",
+          "summary": "SK Hynix is set to pay employees bonuses averaging $476,000 this year — mostly cash, worth 10% of operating profit — dwarfing Samsung's roughly $400,000 for its memory division and $135,000 for its loss-making foundry division. A June union survey found 81.5% of Samsung foundry employees and nearly half of all semiconductor-division staff want to leave within two years; over 200 union members reportedly left for SK Hynix in the four months to April. SK Hynix added 2,152 employees in H1 2026 and aims to double manufacturing capacity in five years; Samsung plans to hire 60,000 over five years. South Korea's semiconductor industry needs roughly 304,000 workers by 2031 and faces a 54,000-worker shortfall. Samsung has won a court injunction barring two former engineers from working at SK Hynix for 18 months, citing national core technology protections.",
+          "signal": [
+            "The HBM chip talent war is hitting Samsung's most strategically important division — its foundry, the one thing SK Hynix doesn't have and outsources to TSMC.",
+            "Talent flight from Samsung's foundry-memory integration is a leading indicator of HBM4 supply risk right as AI chip demand peaks."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+          "image": null,
+          "developing": true,
+          "key_stat": "$476K · SK Hynix's 2026 employee bonus"
+        }
+      ],
+      "also": [
+        {
+          "line": "Bot-detection startup Spur raises $200M from Insight Partners",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/"
+        },
+        {
+          "line": "Fish Audio raises $52M seed for AI voice models, already at 8M+ users",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/"
+        }
+      ]
+    },
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "headline": "Anthropic says its AI largely ran two cryptanalysis breakthroughs on its own",
+          "summary": "Anthropic's Claude Mythos Preview derived an end-to-end key-recovery attack on the post-quantum scheme HAWK-256, cutting its work factor from 2^64 to 2^38 and running in ~3h42m on a 96-core server, plus a technique (the \"Möbius Bridge\") making an existing 7-round AES-128 attack 200-800x faster. Neither threatens production systems — HAWK-256 is a challenge parameter, not a NIST security level, and the AES attack still needs ~2^105 chosen plaintexts. The HAWK result took ~60 hours and ~$100,000 in API costs; the AES result took several days and roughly a billion output tokens to generate, but nearly a month of human researcher time to verify.",
+          "signal": [
+            "Idea generation (days, ~$100K) is now cheap relative to verification (weeks of expert time) — that inversion is the real bottleneck in AI-driven research.",
+            "Both attacks remain exponential and impractical at real-world scale; nothing here changes how anyone should build cryptographic systems today."
+          ],
+          "badge": "DEEP DIVE",
+          "takeaway": "",
+          "why": "",
+          "source": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Moonshot's 2.8-trillion-parameter Kimi K3 reopens the Chinese open-source AI debate",
+          "summary": "Chinese AI startup Moonshot released Kimi K3's full weights and supporting infrastructure — the largest open-weight AI model released to date, at 2.8 trillion parameters — reigniting debate in Washington over restricting Chinese open-weight models. Alibaba Cloud confirmed compatibility with its proprietary Zhenwu M890 chips, and a Huawei Ascend 910C-powered platform also completed adaptation, underscoring Moonshot's move to diversify away from Nvidia's ecosystem.",
+          "signal": [
+            "Largest open-weight model to date is Chinese and explicitly diversifying off Nvidia — direct fuel for the US policy debate on banning Chinese open models.",
+            "Relevant to India's own AI stack choices: adopting Kimi K3 also means adopting non-Nvidia inference infrastructure options."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/article/3362143/moonshots-kimi-k3-triggers-silicon-valley-debate-over-bans-chinese-open-source-models?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/28/afaa278e-fb0d-4f3c-ac1f-bb0e6ecb2ca2_3b2b248f.jpg?itok=sDsmYYzI&v=1785234398",
+          "developing": true
+        },
+        {
+          "headline": "Apple hits $5tn as AI-stock sell-off intensifies and Nasdaq enters correction",
+          "summary": "Apple briefly touched a $5.04tn market cap on Tuesday — only the second company ever to cross $5tn — as investors fled AI and semiconductor stocks. The Nasdaq 100 fell as much as 1.8%, more than 10% below its early-June high (a technical correction), while Intel, AMD, Sandisk, Western Digital and Seagate all fell over 4%. Analysts cite renewed worry over AI capex funded by debt, competition from cheaper Chinese chipmakers, and \"circular funding\" where AI firms finance each other. Google's decision last week to raise 2026 capex to $205bn while posting its first-ever negative free cash flow (-$5.9bn for the quarter) has added to the unease. Apple's rally is attributed to sitting out the AI infrastructure race — relying on Google's models for services like Siri instead of building its own — while also launching a Klarna-backed device leasing programme (iPhone from $17.99/month).",
+          "signal": [
+            "Apple's ascent is being read as an \"AI laggard\" advantage — the market is rewarding the company that skipped the infrastructure spending race.",
+            "Google's first-ever negative quarterly free cash flow is the clearest sign yet that AI capex is starting to strain even the biggest balance sheets."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Technology | The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks",
+          "image": null,
+          "developing": true,
+          "key_stat": "$5.04T · Apple's market cap"
+        },
+        {
+          "headline": "South Korea's stock market hits a three-month low as chip stocks slide",
+          "summary": "Kospi fell 11.5% to its lowest level since mid-April as SK Hynix and Samsung Electronics both dropped more than 10%, part of a broader chip-stock sell-off tied to concerns about AI companies' debt-funded datacentre spending. The sell-off followed a report that China had begun mass production of homegrown deep ultraviolet (DUV) chip-making tools, and Chinese memory chipmaker CXMT's shares rose 466% on its Shanghai listing debut. The Wall Street Journal also reported Nvidia is in talks to provide $250bn toward an OpenAI datacentre project in Ohio — a deal that itself knocked 5% off Nvidia's shares and pushed up the cost of insuring its debt.",
+          "signal": [
+            "China's CXMT +466% debut alongside DUV chip-tool progress — not AI demand itself — is what's actually spooking chip investors.",
+            "Nvidia's proposed $250bn backing for an OpenAI-Ohio datacentre is exactly the \"circular funding\" analysts are now flagging as systemic risk."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Technology | The Guardian",
+          "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
+          "image": null,
+          "developing": true
+        }
+      ],
+      "also": [
+        {
+          "line": "UK Labour MP suing xAI after Grok allegedly generated fake abusive content under a 'no restrictions' prompt",
+          "source": "Technology | The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/28/jess-asato-labour-mp-sue-elon-musk-xai-chatbot-abusive-content"
+        },
+        {
+          "line": "NordForsk joins a G7 initiative funding up to 12 international quantum-tech research projects",
+          "source": "The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/07/28/nordforsk-joins-g7-initiative-to-fund-international-quantum-technology-research-projects/"
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "Tata and Mahindra beat Tesla and BYD on EV energy efficiency",
+          "summary": "Tata Motors topped ICCT's 2025 global EV efficiency ranking at 106 Wh/km; Mahindra was second at 113 Wh/km. Tesla and BYD ranked third and fourth among 22 manufacturers evaluated. The industry average held flat at 131 Wh/km. EVs remain under 5% of India's new car sales versus 25% globally, against a 30%-by-2030 government target.",
+          "signal": [
+            "A real engineering win, not a cost win, but efficiency isn't India's adoption bottleneck — Tata ranks near-bottom on charging speed and range in the same list."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Rest of World",
+          "url": "https://restofworld.org/2026/indian-evs-beat-tesla-byd-icct-efficiency-ranking/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India curtailed 8,133 GWh of solar power in Q1 to protect grid stability",
+          "summary": "India curtailed 8,133 GWh of solar power between April and June — 2,417 GWh in April, 3,235 GWh in May, 2,481 GWh in June — because transmission-line construction hasn't kept pace with new renewable capacity, the government told Parliament. Installed solar capacity now stands at 162.15 GW (125.6 GW utility-scale, 30.11 GW rooftop, 6.43 GW off-grid). Separately, the PM Surya Ghar rooftop scheme has received 75 lakh applications since February 2024, with 39.7 lakh systems (14,180.90 MW) actually installed and ₹27,343.9 crore in subsidies released to 48 lakh households as of late June.",
+          "signal": [
+            "Grid infrastructure, not generation capacity, is now the binding constraint on India's solar rollout.",
+            "PM Surya Ghar has converted only about half of its 75 lakh applications into installations — a useful base rate for how fast India's renewable schemes actually execute."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/business/Industry/india-curtailed-8133-gwh-solar-power-in-q1-to-maintain-grid-security-centre-informs-parliament/article71277166.ece",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "China's EV expansion into South Asia is reshaping the region's trade and standards",
+          "summary": "China invested over $230.8bn in its EV industry between 2009-2023, now controls 80% of the world's charging capacity, 70% of rare-earth mining and 38% of global lithium-ion battery supply (via CATL), and sold 13 million EVs in 2025 — 65% of global EV sales, projected to hit 14 million in 2026. As Asia became the largest buyer of Chinese EVs in April 2026 (exports up ~40%), South Asian nations — Nepal, Bangladesh, Sri Lanka, Pakistan, Bhutan, the Maldives — are absorbing Chinese vehicles, batteries and charging infrastructure through competitive pricing and government-to-government grants (e.g. China donating 100 electric buses to Sri Lanka). India's own EV sector attracted only about $25bn in investment between 2020-2025. ORF's analysis estimates India's automobile and petroleum trade with most South Asian neighbours could fall by 14-33% as Chinese EVs displace Indian vehicles as the region's default choice.",
+          "signal": [
+            "China's EV exports bundle financing, charging infrastructure and cloud-connected data collection — the same \"dependency diplomacy\" pattern seen with telecom and rare earths.",
+            "Direct India angle: trade with Nepal, Bhutan, Sri Lanka and Bangladesh is estimated to fall 14-33% as Chinese EVs erode India's traditional auto-export advantage in the region."
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "orfonline.org",
+          "url": "https://www.orfonline.org/expert-speak/driving-influence-china-s-ev-strategy-in-south-asia-and-implications-for-india",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Extreme rainfall floods Afghanistan, Bangladesh, China and Taiwan simultaneously",
+          "summary": "Torrential rains and flash floods killed at least 31 people in Afghanistan last week and hundreds more remain missing; Bangladesh's Chattogram recorded 412.3mm of rain in 24 hours in early July, triggering flooding in Banshkhali district. In China, more than 600 rivers have risen above warning levels — a 35% jump versus the five-year average — with a Chongqing landslide killing at least 11 (50 missing) and a Gansu flash flood killing 10. Typhoon Noul prompted the evacuation of 890,000 people in Guangdong. Taiwan's capital Taipei recorded its highest monthly rainfall in over a century in June, with agricultural losses topping NT$330m (~$10.2M). Climate scientists, including at the Met Office Hadley Centre, attribute the pattern directly to a warmer atmosphere holding more water vapour.",
+          "signal": [
+            "Simultaneous flooding across four countries this monsoon season — not an isolated event, but the pattern climate scientists have been predicting for south/southeast/east Asia.",
+            "Poverty compounds climate exposure directly: Afghanistan's death toll is driven partly by stone-and-mud housing unable to withstand sustained rain."
+          ],
+          "badge": "DATA",
+          "takeaway": "",
+          "why": "",
+          "source": "Environment | The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/jul/28/extreme-rainfall-asia-flash-floods-typhoons-climate-change",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "India's green hydrogen plans gain pace, but demand and costs pose hurdles",
+          "summary": "India's green hydrogen programme is gaining momentum, though demand and cost hurdles remain, per Business Standard. (source unreachable — headline only)",
+          "signal": [
+            "Directionally positive for India's hydrogen ambitions, but the headline itself flags unresolved demand and cost problems."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/industry/news/india-s-green-hydrogen-plans-gain-pace-but-demand-and-costs-pose-hurdles-126072801706_1.html",
+          "image": null,
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "line": "Udaipur to host its first major solar event, the REconnect Summit Rajasthan, on July 30",
+          "source": "Energetica India Magazine",
+          "url": "https://www.energetica-india.net/news/udaipur-to-host-its-first-major-solar-event-reconnect-summit-rajasthan-on-july-30"
+        }
+      ]
+    },
+    {
+      "name": "Health Tech",
+      "slug": "health-tech",
+      "stories": [
+        {
+          "headline": "Indian pharma steps up AI push in drug discovery, but investment gap with global peers persists",
+          "summary": "Indian pharmaceutical companies are increasing their use of AI in drug discovery, though an investment gap with global peers persists, per NDTV Profit. (source unreachable — headline only)",
+          "signal": [
+            "Indicates growing AI adoption interest among Indian pharma companies, though specifics of the investment gap aren't available from the headline alone."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "NDTV Profit",
+          "url": "https://www.ndtvprofit.com/technology/indian-pharma-steps-up-ai-push-in-drug-discovery-but-investment-gap-with-global-peers-persists-11832279",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "AstraZeneca India gets approval for HER2-positive breast cancer regimen",
+          "summary": "AstraZeneca Pharma India has received CDSCO approval for trastuzumab deruxtecan, to be used following a taxane, trastuzumab and pertuzumab (THP) regimen, for treating HER2-positive stage II or III early breast cancer. (summary from limited source text)",
+          "signal": [
+            "One more approval expanding India's access to targeted HER2 therapies, though pricing and rollout timeline aren't in the available snippet."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BioSpectrum India",
+          "url": "https://www.biospectrumindia.com/news/73/28224/astrazeneca-pharma-india-receives-cdsco-approval-for-her2-positive-stage-ii-or-iii-early-breast-cancer-treatment.html",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Biotechs are racing to cure a rare genetic liver disorder with gene editing",
+          "summary": "Major biotechs — including Beam, Wave Life Sciences, Korro Bio, Tessera and Yoltech — are targeting alpha-1 antitrypsin deficiency (AATD), a disease caused by a single misspelled letter of DNA that causes the liver to produce a mutant protein instead of one that normally protects the lungs. Analysts see a multibillion-dollar market opportunity; the race involves dueling gene-editing technologies, patent disputes, a broken industry alliance, and growing competition between US and Chinese drug developers, according to STAT.",
+          "signal": [
+            "A single-mutation, single-target disease makes AATD a proving ground for competing gene-editing platforms — the playbook could extend to other monogenic diseases if it works."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "STAT",
+          "url": "https://www.statnews.com/2026/07/28/biotech-industry-race-aatd-cure-gene-editing-alpha-1-antitrypsin-deficiency/?utm_campaign=rss",
+          "image": "https://www.statnews.com/wp-content/uploads/2026/07/STAT_Lungs_GeneTherapy_F_3000-645x645.jpg",
+          "developing": true
+        }
+      ],
+      "also": [
+        {
+          "line": "Explainer: how immunotherapy works by exposing cancer cells that hide from the immune system",
+          "source": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/health/cancers-biggest-trick-is-hiding-from-your-immune-system-doctors-explain-how-immunotherapy-helps-the-body-fight-back/articleshow/132669143.cms"
+        }
+      ]
+    },
+    {
+      "name": "Agritech",
+      "slug": "agritech",
+      "stories": [
+        {
+          "headline": "India's ethanol push shifts from sugarcane to grain, raising water and food-security questions",
+          "summary": "India now derives roughly 65-70% of its ethanol from grains (mainly maize and rice), up from near-zero a decade ago, versus 30-35% from sugarcane — the latest state-oil tender saw grain-based distilleries supply over 70% of procured ethanol. That shift pits fuel production directly against the poultry, animal-feed and food-processing industries, which also depend on maize. A new PLOS One study led by IIM-Ahmedabad researcher Chandan Kumar Jha, using the MAgPIE land-use model, projects water consumption from India's ethanol expansion could rise 21-118% by 2030 and 49-138% by 2050, depending on feedstock mix. Protests against grain-based ethanol plants have hit Rajasthan's Hanumangarh district, Madhya Pradesh, Punjab and Telangana, with construction halted at one Rajasthan site after clashes with police. Experts, including agriculture policy analyst Devinder Sharma, argue Brazil's sugarcane-based model (80% of its ethanol, largely rain-fed) can't be directly replicated given India's water stress and population pressure.",
+          "signal": [
+            "The real fight is water, not just food-vs-fuel: modeled ethanol expansion could raise water use up to 138% by 2050 in an already water-stressed country.",
+            "Grain-based ethanol's rapid rise (0 to 65-70% of supply in a decade) means fuel policy now directly competes with food and feed industries for the same maize."
+          ],
+          "badge": "DATA",
+          "takeaway": "",
+          "why": "",
+          "source": "Mongabay India",
+          "url": "https://india.mongabay.com/2026/07/indias-ethanol-push-moves-from-the-pump-to-the-field-raising-water-and-food-questions/",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "India's monsoon is 16% deficient nationally even as Assam floods hit 700,000+ people",
+          "summary": "India's nationwide monsoon rainfall deficit stood at 16% as of July 27, with East/Northeast India and the southern peninsula worst-hit at -30% and -29% respectively. About 53% of India's districts recorded deficient or large-deficient rainfall, while only 12% saw excess. Meghalaya recorded the steepest deficit (-56%); Ladakh the largest excess (+196%). Despite a 30% regional rainfall deficit, Assam is facing floods across 12 districts, affecting more than 700,000 people in 856 villages as of July 25 — short, intense rain bursts rather than steady totals are driving the damage. NOAA puts the odds of a \"super\" El Niño forming between October and December at 81%, a phenomenon that typically suppresses Indian monsoon rainfall further.",
+          "signal": [
+            "The same monsoon can be nationally deficient and locally disaster-triggering at once — Assam is flooding despite a 30% regional shortfall because rain now arrives in short, intense bursts.",
+            "An 81% chance of a 'super' El Niño forming by December is the number to watch — it typically suppresses monsoon rainfall further and could extend this volatility into next year's planting season."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/amp/story/climate-change/floods-dry-spells-and-a-16-rain-deficit-indias-monsoon-is-becoming-harder-to-read",
+          "image": null,
+          "developing": true,
+          "key_stat": "16% · India's monsoon rain deficit"
+        },
+        {
+          "headline": "India's summer crop planting gathers pace as monsoon revives",
+          "summary": "India's summer crop planting is gathering pace as the monsoon revives, per Reuters. (source unreachable — headline only)",
+          "signal": [
+            "A positive planting-pace signal for India's kharif season, though specific crops and acreage aren't detailed in the headline."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/india/indias-summer-crop-planting-gathers-pace-monsoon-revives-2026-07-28/",
+          "image": null,
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "line": "India's cotton sowing area tops 100 lakh hectares as monsoon picks up",
+          "source": "BusinessLine",
+          "url": "https://www.thehindubusinessline.com/economy/agri-business/indias-cotton-area-expands-as-monsoon-gathers-pace-coverage-tops-100-lakh-hectares/article71277590.ece"
+        },
+        {
+          "line": "India's fertiliser import dependence is rising — NDTV examines whether farmers should worry",
+          "source": "NDTV",
+          "url": "https://www.ndtv.com/india-news/indias-fertiliser-import-dependence-rises-should-farmers-be-worried-11834888/amp/1"
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "India's spacetech sector crosses $871M in funding, gets its first unicorn",
+          "summary": "India's private spacetech sector has raised $871 million across 241 funding rounds since 2021, per Tracxn — spanning 285 companies (274 active, 72 institutionally funded). Annual funding grew from $43M/12 rounds in 2021 to $200M/53 rounds in 2025, with $113M/24 rounds so far in 2026. Skyroot Aerospace is the highest-funded company at $150M total, becoming India's first SpaceTech unicorn via a $50M Series C in May 2026 — days before its Vikram-1 rocket reached a 450km low Earth orbit on July 18, deploying four payloads and making India the third country after the US and China with a privately developed orbital launch capability. Other top-funded players: Pixxel ($96M), AgniKul Cosmos ($76M), Digantara ($67M). Bengaluru dominates with $495M across 106 rounds, ahead of Hyderabad ($205M) and Chennai ($80M). Seed-stage funding rose from $7M (2022) to $62M (2025); late-stage funding hit $53M in 2026 year-to-date, up from $17M in 2025.",
+          "signal": [
+            "Six years after India opened space to private players, the sector has its first unicorn, first private orbital launch, and real funding scale — a genuine deep-tech success story, not a hype cycle.",
+            "The seed-to-late-stage funding shift ($17M to $53M late-stage in one year) signals the ecosystem is maturing past first-time-founder risk capital into scale bets."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The New Indian Express",
+          "url": "https://www.newindianexpress.com/business/2026/Jul/28/six-years-after-privatising-space-india-has-a-unicorn-orbital-launcher-and-871-million-in-startup-funding",
+          "image": null,
+          "developing": false,
+          "key_stat": "$871M · India's cumulative SpaceTech funding"
+        },
+        {
+          "headline": "Tata and Mahindra beat Tesla and BYD on EV energy efficiency",
+          "summary": "Tata Motors topped ICCT's 2025 global EV efficiency ranking among 22 major manufacturers at 106 Wh/km, beating Tesla and BYD (3rd and 4th). Mahindra placed second at 113 Wh/km. The industry average held flat at 131 Wh/km year-on-year.",
+          "signal": [
+            "A genuine engineering win for Indian automakers, but not the adoption bottleneck — India's EV sales remain under 5%, and Tata still lags on charging speed and range."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Rest of World -",
+          "url": "https://restofworld.org/2026/indian-evs-beat-tesla-byd-icct-efficiency-ranking/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "image": "https://restofworld.org/wp-content/uploads/2026/07/India-Ev-Efficiency-320x320.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Antler India's new cohort bets on AI, climate tech and deep tech",
+          "summary": "Antler India's latest startup cohort includes an autonomous cargo seaplane developer, a long-duration battery maker, an AI-powered enterprise software company, plus wealth-management and consumer-hardware startups, as the VC firm leans into AI, climate tech and deep tech. (summary from limited source text)",
+          "signal": [
+            "\"AI, climate tech and deep tech\" as an explicit VC thesis is exactly the intersection the reader's own pivot is aimed at."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "YourStory RSS Feed",
+          "url": "https://yourstory.com/2026/07/antler-india-bets-on-ai-climate-deeptech-with-new-startup-cohort",
+          "image": "https://images.yourstory.com/cs/2/c2cedff02d6111ef9021856619e24ca1/IMG1229-1769662296572.jpeg",
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "line": "Global defence-tech VC funding hits a record $4.1B this year as arms giants BAE, Lockheed and Airbus pile in",
+          "source": "Crude Oil Prices Today | OilPrice.com",
+          "url": "https://oilprice.com/Energy/Energy-General/Defense-Tech-Investment-Hits-Record-High-as-Arms-Giants-Ramp-Up-Startup-Funding.html"
+        }
+      ]
+    },
+    {
+      "name": "India Deep Tech",
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "headline": "Modi meets Skyroot founders after India's first private orbital launch",
+          "summary": "PM Modi met Skyroot Aerospace founders Pawan Chandana and Naga Bharath Daka after the company's Vikram-1 rocket reached orbit, praising the private space ecosystem. Skyroot, founded 2018 by former ISRO scientists, previously launched Vikram-S in 2022 as India's first privately built rocket to reach space, and plans another test flight later in 2026 before commercial operations begin in 2027.",
+          "signal": [
+            "State validation now follows private capital and technical proof points — a reversal from how most Indian deep-tech sectors have historically developed."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Fortune India",
+          "url": "https://www.fortuneindia.com/india/pm-modi-meets-skyroot-founders-after-vikram-1-success-lauds-indias-growing-private-space-ecosystem/150433",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Bengaluru deeptech startup Yaanendriya raises Rs 15 Cr from Piper Serica",
+          "summary": "Bengaluru-based deeptech startup Yaanendriya has raised Rs 15 crore from Piper Serica, per BW Disrupt. (source unreachable — headline only)",
+          "signal": [
+            "Another small deeptech round in Bengaluru's ecosystem — sector and use case aren't available beyond the headline."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BW Disrupt",
+          "url": "https://www.bwdisrupt.com/article/bengaluru-based-deeptech-startup-yaanendriya-raises-rs-15-cr-from-piper-serica-616943",
+          "image": null,
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "line": "India's spacetech startup funding hits $871M across 241 rounds since 2021",
+          "source": "Indiatimes",
+          "url": "https://entrepreneur.economictimes.indiatimes.com/news/indias-spacetech-startup-funding-soars-to-871-million-in-2026/132677143"
+        },
+        {
+          "line": "ZuriQ raises $25.5M led by Quantonation to build quantum chips that scale like semiconductors",
+          "source": "HackerNoon",
+          "url": "https://hackernoon.com/zuriq-raises-$255m-led-by-quantonation-to-build-quantum-chips-that-scale-like-semiconductors"
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "stories": [
+        {
+          "headline": "The Economist: AI revenues are growing fast, but not fast enough",
+          "summary": "AI company revenues are growing quickly in absolute terms, but the returns on the trillions of dollars committed to AI infrastructure spending remain deeply uncertain, per The Economist. (summary from limited source text)",
+          "signal": [
+            "The doubt framing that underlies both the Apple and South Korea sell-off stories in this edition."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Finance & economics",
+          "url": "https://www.economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India court orders winding up of Paytm Payments Bank",
+          "summary": "An Indian court has ordered the winding up of Paytm Payments Bank following the RBI's earlier cancellation of its banking licence, per Reuters. (source unreachable — headline only)",
+          "signal": [
+            "Formal closure of an entity whose licence was already revoked — the underlying RBI action was the substantive event."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/india/india-court-orders-winding-up-paytm-payments-bank-after-rbi-licence-cancellation-2026-07-28/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Apple hits $5tn as AI-stock sell-off drags Nasdaq into correction territory",
+          "summary": "Apple briefly touched $5.04tn in market cap — only the second company ever to do so — as investors fled AI and chip stocks. The Nasdaq 100 fell over 10% from its early-June high, meeting the technical definition of a correction; chip makers Intel, AMD, Sandisk, Western Digital and Seagate all fell more than 4%. Google's decision to raise 2026 capex to $205bn while posting its first-ever negative quarterly free cash flow (-$5.9bn) has compounded investor unease about AI infrastructure spending and \"circular funding\" between AI firms.",
+          "signal": [
+            "Nasdaq's technical correction plus Google's first-ever negative free cash flow are the clearest signs yet that AI capex is straining even the largest balance sheets.",
+            "Apple's bet — consumer demand over infrastructure spend — is a genuinely different wager than the rest of the 'Magnificent Seven.'"
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Business | The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "South Korea's stock market hits a three-month low as chip stocks slide",
+          "summary": "Kospi fell 11.5% to its lowest level since mid-April as SK Hynix and Samsung Electronics both dropped over 10%, amid concern over AI companies' debt-funded datacentre spending. The sell-off followed reports of China mass-producing homegrown DUV chip-making tools and Chinese chipmaker CXMT's shares surging 466% on its Shanghai debut. Separately, the Wall Street Journal reported Nvidia is in talks to provide $250bn toward an OpenAI datacentre project in Ohio — a deal that itself knocked 5% off Nvidia's own shares.",
+          "signal": [
+            "Nvidia's proposed $250bn backing for an OpenAI datacentre is precisely the 'circular funding' — AI firms financing each other's spending — that markets are now pricing as risk.",
+            "CXMT's +466% debut is being read as evidence China is closer to memory-chip self-sufficiency than assumed, undercutting a key US strategic bet."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Business | The Guardian",
+          "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
+          "image": null,
+          "developing": true
+        }
+      ],
+      "also": [
+        {
+          "line": "Perpetual futures, the crypto-native derivative, are going mainstream — and retail investors should be wary",
+          "source": "Finance & economics",
+          "url": "https://www.economist.com/finance-and-economics/2026/07/28/retail-investors-should-beware-perpetual-futures"
+        },
+        {
+          "line": "Unilever (Marmite, Dove, Hellmann's) warns of accelerating price rises as commodity costs bite",
+          "source": "Business | The Guardian",
+          "url": "https://www.theguardian.com/business/2026/jul/28/marmite-dove-unilever-price-rises-costs-world-cup"
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "stories": [
+        {
+          "headline": "CBI charges 13 in the NEET-UG 2026 paper leak case",
+          "summary": "The CBI has filed a charge sheet against 13 arrested accused in the NEET-UG 2026 paper leak case, citing 360 witnesses, 422 documents and 43 material objects. The agency's investigation, launched after a May 12 complaint over the cancelled May 3 exam, involved 72 officials and 8 cyber forensic experts searching 92 locations across five states. Among those charged: three National Testing Agency subject-matter experts (in chemistry, biology and physics), a coaching institute owner in Latur, and alleged intermediaries who distributed leaked questions. The first arrest came May 13; investigation continues.",
+          "signal": [
+            "Comes days after Education Minister Dharmendra Pradhan's July 25 resignation following the Cockroach Janta Party's month-long protest — this closes the investigative loop but not the political one (see Beyond Your Beat).",
+            "Three of the accused are NTA subject-matter experts themselves — the leak appears to have originated inside the exam-setting process, not just its distribution."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/news/national/cbi-files-charge-sheet-against-13-accused-in-neet-ug-2026-paper-leak-case/article71278505.ece",
+          "image": "https://th-i.thgim.com/public/incoming/18cayk/article71278696.ece/alternates/LANDSCAPE_1200/2026-07-25T105348Z_1227780787_RC2WKMAIZDWB_RTRMADP_3_INDIA-POLITICS.JPG",
+          "developing": true
+        },
+        {
+          "headline": "What ails India's education sector, beyond one leaked exam",
+          "summary": "The Diplomat argues the NEET-UG scandal is a symptom of a deeper structural problem: India's professional-entry system runs on artificial scarcity rather than genuine capacity limits. India has 153 police officers per 100,000 people (2023) against the UN-recommended 222:100,000, and 19% of Indian Administrative Service posts sit unfilled. The doctor-to-population ratio is 1:811, nearly three times worse than the US's 1:313. Up to 25,000 students in India are reported to have committed suicide between 2014 and 2024, often linked to competitive-exam pressure. The piece argues India's education system emphasises rote memorisation over research and critical thinking, and that private-sector job growth — not more government posts — is the real fix.",
+          "signal": [
+            "The NEET scandal is a symptom, not the disease: professional-entry bottlenecks are engineered by tight budgets and slow accreditation, not actual capacity constraints.",
+            "Directly relevant to talent-pipeline thinking: a doctor ratio nearly 3x worse than the US, and 19% of IAS posts vacant, show scarcity is a policy choice, not a resource limit."
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "The Diplomat – Asia-Pacific",
+          "url": "https://thediplomat.com/2026/07/what-ails-indias-education-sector/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India runs its first direct commercial freight train to Nepal",
+          "summary": "Indian Railways operated the first-ever direct commercial container freight train from Kolkata Port to Biratnagar Customs Yard, Nepal — a 40-wagon train carrying canola, running under a revised India-Nepal Rail Transit Protocol signed via a November 2025 Letter of Exchange. The service uses the broad-gauge Jogbani-Biratnagar rail link inaugurated in June 2023 and eliminates border transshipment, cutting transit time, logistics costs and cargo handling for India-Nepal trade.",
+          "signal": [
+            "A real infrastructure milestone, not just an announcement — direct rail removes the border-transshipment chokepoint that China's EV expansion is exploiting elsewhere in South Asia (see Climate & Energy)."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "PIB",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290444",
+          "image": null,
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "line": "IPS trainee arrested in sexual harassment case that rocked the National Police Academy",
+          "source": "India | The Indian Express",
+          "url": "https://indianexpress.com/article/india/ips-trainee-arrested-in-sexual-harassment-case-that-rocked-national-police-academy-10808159/"
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "stories": [
+        {
+          "headline": "US bans new Chinese-made humanoid robots and power inverters",
+          "summary": "The Trump administration banned imports of new foreign-made advanced robots (including humanoid and four-legged machines, many Chinese-built) and power inverters, citing national-security risk. The FCC added both to its Covered List, warning inverters could be remotely disabled or exploited for data theft, and robots used for surveillance or remote commandeering by foreign actors. The ban only covers new imports; previously authorised models are unaffected. China's Washington embassy called it politicised trade sanctions and vowed retaliation.",
+          "signal": [
+            "Extends the chips/EVs/rare-earths decoupling playbook to humanoid robotics before Chinese firms like Unitree and UBTech entrench a US foothold.",
+            "Gives US robotics players (Tesla, Boston Dynamics) a protected home-market runway against faster-moving Chinese rivals."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b8e/live/23eaf6d0-8ade-11f1-b889-f97dd2fdd738.jpg",
+          "developing": true
+        },
+        {
+          "headline": "Extreme rainfall floods Afghanistan, Bangladesh, China and Taiwan simultaneously",
+          "summary": "Flash floods killed at least 31 in Afghanistan last week; Bangladesh's Chattogram saw 412.3mm of rain in 24 hours in early July. In China, over 600 rivers rose above warning levels — 35% above the five-year average — with a Chongqing landslide killing at least 11 and a Gansu flash flood killing 10. Typhoon Noul forced the evacuation of 890,000 people in Guangdong. Taipei recorded its highest monthly rainfall in over a century in June. Climate scientists attribute the pattern to a warmer atmosphere holding more moisture, producing harder rain during active monsoon phases.",
+          "signal": [
+            "Simultaneous flooding across four countries this monsoon season shows climate volatility is now a recurring multi-country crisis, not an isolated event.",
+            "Afghanistan's toll is compounded by stone-and-mud housing unable to withstand sustained rain — climate exposure and poverty compound each other."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World news | The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/jul/28/extreme-rainfall-asia-flash-floods-typhoons-climate-change",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Pakistan accused of killing 30 unarmed protesters in Kashmir crackdown",
+          "summary": "Local civil society group JAAC says Pakistani security forces killed 25 protesters on Monday and 5 more Tuesday in Pakistan-administered Kashmir, amid a crackdown on months-long protests over reserved electoral seats. An internet blackout, mass arrests and JAAC's designation as a terrorist organisation have accompanied the response; Amnesty International has called for the blackout to be lifted. Pakistani authorities deny state involvement and accuse India of funding the unrest, which JAAC denies. The Guardian could not independently verify the death toll due to the blackout.",
+          "signal": [
+            "The deadliest crackdown yet in a year-long protest movement, per local groups — but the blackout means every figure here is a claim, not a confirmed count."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings",
+          "image": null,
+          "developing": true
+        }
+      ],
+      "also": [
+        {
+          "line": "Saudi Arabia shoots down more drones from Iraq as Houthis claim to have turned back an oil tanker",
+          "source": "World - South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3362186/saudi-arabia-says-it-shot-down-more-drones-houthis-claim-have-turned-back-tanker?utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "name": "Other Interests",
+      "slug": "other-interests",
+      "stories": [
+        {
+          "headline": "A transmissible skin cancer is spreading between catfish in a freshwater lake",
+          "summary": "Researchers writing in Nature (Curd et al.) documented a transmissible skin cancer circulating among brown bullhead catfish in a lake spanning the US-Canada border — the first known transmissible cancer found in fish or in a freshwater environment. Similar contagious cancers have previously been documented only in dogs, Tasmanian devils, and several bivalve species; the discovery gives researchers a new genetic case study for understanding what conditions allow a cancer to escape one host and colonise another.",
+          "signal": [
+            "Transmissible cancers are vanishingly rare in nature — adding fish to a short list (dogs, Tasmanian devils, shellfish) helps isolate what actually enables a tumour to spread between hosts."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-02287-w",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "A new observatory will use mountains, not ice, to hunt the highest-energy neutrinos",
+          "summary": "TAMBO (Tau Air-shower Mountain-Based Observatory), proposed in Nature Astronomy, will use a deep valley — likely Peru's Colca Valley — as a natural shield to detect the highest-energy cosmic neutrinos more cheaply than ice-based observatories like IceCube. An array of 5,000 plastic scintillator sensors will catch air showers produced when Earth-skimming tau neutrinos strike the canyon wall. The project, led by Harvard's Carlos Argüelles with 26 institutions across 9 countries (including Queen's University), will search for new physics — neutrino-dark matter interactions, neutrino decay — at energies no particle collider can reach. A prototype, TAMBITO, is under construction now, with the full array expected by 2028.",
+          "signal": [
+            "A cheaper, more targeted approach than ice-based detectors — using terrain instead of infrastructure to filter background noise.",
+            "Builds in social-science partnership with local Peruvian communities from the outset, a notable model for how large physics infrastructure now handles siting."
+          ],
+          "badge": "DEEP DIVE",
+          "takeaway": "",
+          "why": "",
+          "source": "Queen's University",
+          "url": "https://www.queensu.ca/physics/high-mountains-tambo-will-hunt-highest-energy-neutrinos",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Alice Coltrane's ashram tapes are finally getting an authorized release",
+          "summary": "Matador Records will release four previously unreleased Alice Coltrane recordings — Turiya Sings, Divine Songs, Infinite Chants and Glorious Chants — taped at her Los Angeles-area ashram in the '80s and '90s and until now circulated only among ashram members on cassette. The catalogue blends jazz, new age, gospel and electronic music; no release date has been announced yet. Prior exposure was limited to a 2017 documentary and a 2021 Impulse! reissue that stripped out the original synthesizer parts.",
+          "signal": [
+            "First-ever full, authorized release of these recordings — a significant archival event for fans of spiritual jazz."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "RSS: News",
+          "url": "https://pitchfork.com/story/alice-coltranes-ashram-tapes-finally-get-authorized-release/",
+          "image": "https://media.pitchfork.com/photos/6a68c4aa4afee9ed2cc8c6bd/master/pass/Signing%20Annx%20-%20Alice%20Coltrane%20-%20credit%20Radha%20Botofasina.jpg",
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "line": "Women's collectives are leading conservation efforts protecting Nigeria's Cross River gorilla sanctuary",
+          "source": "Conservation news",
+          "url": "https://news.mongabay.com/short-article/2026/07/womens-collectives-are-protecting-nigerias-gorilla-wildlife-sanctuary/"
+        }
+      ]
+    },
+    {
+      "name": "Beyond Your Beat",
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "headline": "Pakistan accused of killing 30 unarmed protesters in Kashmir crackdown",
+          "summary": "Local civil society group JAAC says Pakistani security forces killed 25 protesters on Monday and 5 more Tuesday in Pakistan-administered Kashmir, part of a crackdown on months-long protests over reserved electoral seats. An internet blackout and mass arrests have accompanied the response; Pakistani authorities deny state involvement and accuse India of funding the unrest, which JAAC denies. The death toll could not be independently verified due to the blackout.",
+          "signal": [
+            "The deadliest crackdown yet in a year-long protest movement, per local groups — though the blackout means the toll remains unconfirmed."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Student protest group accuses government of breaking NEET-leak protest deal",
+          "summary": "The Cockroach Janta Party (CJP) says a Supreme Court interim order — which lets state governments continue pursuing existing FIRs against NEET protesters — contradicts the government's July 25 assurance that FIRs would be withdrawn, the assurance that had ended CJP's 36-day protest at Jantar Mantar. Spokesperson Saurav Das called the order's \"Direction No. 4\" a direct contradiction and warned CJP will resume its nationwide protest if the government doesn't honour its commitment by its stated deadline.",
+          "signal": [
+            "Directly follows the NEET charge-sheet story elsewhere in this edition — the political fallout from the leak scandal is paused, not resolved.",
+            "Worth watching: a resumed protest would be round two of a movement that already forced a cabinet minister's resignation."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/india/uninformed-unacceptable-cjp-claims-sc-order-contradicts-govt-assurance-warns-of-protest/articleshow/132687788.cms",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "India's FIFA World Cup dream remains a distant one",
+          "summary": "India, ranked 138th globally, failed to qualify for the 2027 Asian Cup, making a 2030 or 2034 World Cup appearance unlikely. FC Goa CEO Ravi Puskur estimates it would take roughly four years just to clean up Indian football's governance, then 20-25 more years to reach a World Cup. Indian under-15 players get only 12-15 competitive matches a year, versus 40+ in South Korea and Japan. The AIFF's partnership with Reliance, which backed the Indian Super League since 2014, ended in 2025 amid a Supreme Court case over the federation's constitution; the ISL still has no broadcaster or fixtures announced for this season.",
+          "signal": [
+            "A youth-pipeline problem (12-15 matches/year vs 40+ elsewhere) mirrors the same 'artificial scarcity' pattern described in today's education-sector piece — different sector, same failure mode.",
+            "Not personally actionable, but a sharp case study in institutional dysfunction if useful for governance or reform thinking."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/7/28/fifa-world-cup-for-india-football-qualification-is-still-just-a-distant-dream",
+          "image": null,
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "name": "India Agentic AI Forum",
+      "when": "Aug 20, 2026",
+      "summary": "A conference on agentic AI systems, listed on 10times as part of India's growing enterprise-AI event circuit.",
+      "source": "10times (India Tech)",
+      "url": "https://10times.com/e1gd-08pg-44xd-z-india-agentic-ai-forum"
+    },
+    {
+      "name": "AEDEX — Aerospace and Defence Expo",
+      "when": "Sep 10, 2026",
+      "summary": "India's aerospace and defence expo — relevant given today's spacetech funding and deep-tech stories, and the broader defence-tech investment surge.",
+      "source": "10times (India Tech)",
+      "url": "https://10times.com/e1hp-xs59-0f2d-x"
+    },
+    {
+      "name": "Tech Horizon 2.0 — National Level Hackathon",
+      "when": "Register by Sep 30, 2026",
+      "summary": "A national-level hackathon hosted by Guru Nanak Institutions Technical Campus (GNITC), Hyderabad — register ahead of the deadline.",
+      "source": "Unstop",
+      "url": "https://unstop.com/hackathons/tech-horizon-20-national-level-hackathon-guru-nanak-institutions-technical-campus-gnitc-hyderabad-1677311"
+    }
+  ],
+  "brief": [
+    {
+      "line": "Anthropic's Claude Mythos cracked HAWK-256 post-quantum crypto, cutting its work factor from 2^64 to 2^38",
+      "id": "deep-tech-fa7c4b6ddd",
+      "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html"
+    },
+    {
+      "line": "Modi meets Skyroot founders after Vikram-1 becomes India's first private orbital launch",
+      "id": "india-deep-tech-4963708d17",
+      "url": "https://www.fortuneindia.com/india/pm-modi-meets-skyroot-founders-after-vikram-1-success-lauds-indias-growing-private-space-ecosystem/150433"
+    },
+    {
+      "line": "Trump administration bans new Chinese humanoid robots and power inverters over security risk",
+      "id": "world-007288e020",
+      "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "line": "Cursor launches ₹649/month India tier weeks ahead of its $60B SpaceX acquisition",
+      "id": "ai-5dd05f1ed5",
+      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/"
+    },
+    {
+      "line": "Tata Motors beats Tesla and BYD on EV efficiency in global ICCT ranking",
+      "id": "climate-energy-36992266b3",
+      "url": "https://restofworld.org/2026/indian-evs-beat-tesla-byd-icct-efficiency-ranking/"
+    },
+    {
+      "line": "Karnataka plans to share anonymised citizen data with Anthropic for AI-driven governance",
+      "id": "ai-731d4458e9",
+      "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fkarnataka-govt-to-approach-anthropic-for-ai-driven-public-services-4091088"
+    },
+    {
+      "line": "Pakistan accused of killing 30 unarmed Kashmir protesters in two days",
+      "id": "world-64c3be6e9e",
+      "url": "https://www.theguardian.com/world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings"
+    },
+    {
+      "line": "Apple hits $5tn valuation as AI stock sell-off drags Nasdaq into correction territory",
+      "id": "deep-tech-396fe41a74",
+      "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks"
+    },
+    {
+      "line": "India's SpaceTech sector hits $871M in cumulative funding, gets its first unicorn",
+      "id": "indian-startups-f3f16eb430",
+      "url": "https://www.newindianexpress.com/business/2026/Jul/28/six-years-after-privatising-space-india-has-a-unicorn-orbital-launcher-and-871-million-in-startup-funding"
+    },
+    {
+      "line": "CBI charges 13 in NEET-UG 2026 paper leak, days after the education minister's resignation",
+      "id": "india-5c56d75d66",
+      "url": "https://www.thehindu.com/news/national/cbi-files-charge-sheet-against-13-accused-in-neet-ug-2026-paper-leak-case/article71278505.ece"
+    },
+    {
+      "line": "India's monsoon is 16% deficient nationally even as floods hit 700,000+ people in Assam",
+      "id": "agritech-e2d7fb24bb",
+      "url": "https://www.downtoearth.org.in/amp/story/climate-change/floods-dry-spells-and-a-16-rain-deficit-indias-monsoon-is-becoming-harder-to-read"
+    },
+    {
+      "line": "Samsung chip engineers are quitting for SK Hynix's $476,000 bonuses",
+      "id": "ai-427bfd1aa7",
+      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/"
+    }
+  ],
+  "markets": {
+    "generated_at": "2026-07-29T00:59:11.375832+00:00",
+    "quotes": [
+      {
+        "label": "Nifty 50",
+        "value": 23985.35,
+        "unit": "",
+        "change_pct": 0.48,
+        "usd": false
+      },
+      {
+        "label": "Sensex",
+        "value": 76765.92,
+        "unit": "",
+        "change_pct": 0.49,
+        "usd": false
+      },
+      {
+        "label": "USD/INR",
+        "value": 95.85,
+        "unit": "₹",
+        "change_pct": 0.08,
+        "usd": false
+      },
+      {
+        "label": "Brent Crude",
+        "value": 87.54,
+        "unit": "$/bbl",
+        "change_pct": -0.93,
+        "usd": true
+      },
+      {
+        "label": "Bitcoin",
+        "value": 63882.24,
+        "unit": "$",
+        "change_pct": 0.25,
+        "usd": true
+      },
+      {
+        "label": "Gold",
+        "value": 123944,
+        "unit": "₹/10g",
+        "change_pct": -1.29,
+        "usd": false
+      },
+      {
+        "label": "Silver",
+        "value": 177087,
+        "unit": "₹/kg",
+        "change_pct": -1.72,
+        "usd": false
+      }
+    ]
+  }
+}
