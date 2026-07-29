@@ -159,6 +159,42 @@ SOURCE_WEIGHTS = {
     "google news": -0.4,   # syndicated aggregator listing, not an original outlet
 }
 
+# --- PR / press-release demotion (v6) --------------------------------------
+# Measured, not guessed. Over 601 real non-opportunity candidates from the
+# editions of 19-28 Jul 2026, marketing-phrase matching on TITLES fired on 9
+# of them and was WRONG on the most important one (it flagged "India achieves
+# milestone with launch of first private-sector orbital rocket" — that day's
+# genuine lead). "Has no number anywhere" flagged 306 of 601 and barely
+# discriminated (36.9% selected vs 43.1% for clean). So title keywords are the
+# wrong instrument and are deliberately NOT used here.
+#
+# What DID discriminate cleanly was the SOURCE. Press-release wires and vendor
+# blogs publish nothing but announcements, and the editor already rejects them
+# on sight: PIB (the Indian government's press-release wire) supplied 5
+# candidates and was selected 0 times; "LinkedIn" appeared as a source 6 times
+# and was selected once. Demoting at the source level costs the shortlist
+# nothing real and stops these crowding out reported journalism.
+#
+# This is a NUDGE inside score(), never a hard filter — a wire is occasionally
+# the only carrier of a genuine story (a results announcement, a launch), and
+# the editor still gets to see it, just lower down.
+PR_SOURCE_PENALTY = -2.5
+PR_SOURCES = (
+    "pib", "press information bureau", "prnewswire", "pr newswire",
+    "businesswire", "business wire", "globenewswire", "globe newswire",
+    "einpresswire", "ein presswire", "prweb", "accesswire", "newswire",
+    "openpr", "prlog", "linkedin", "medium.com", "substack.com/pub",
+)
+# Vendor/corporate blogs: an announcement about the vendor's own product,
+# written by the vendor. Matched against the URL, since the feed's `source`
+# for these is usually just the product name.
+PR_URL_MARKERS = (
+    "/newsroom/", "/press-release", "/press-releases/", "/media-release",
+    "/company/news/", "blogs.nvidia.com", "blog.google", "openai.com/index/",
+    "aws.amazon.com/blogs", "azure.microsoft.com/en-us/blog",
+    "ibm.com/blog", "cloud.google.com/blog",
+)
+
 # Gentle interest nudge for ranking ONLY (never a hard filter).
 INTEREST_TERMS = (
     "india", "indian", "ai", "artificial intelligence", "startup", "funding",
@@ -420,6 +456,19 @@ def source_weight(source: str) -> float:
     return 0.0
 
 
+def pr_penalty(entry) -> float:
+    """v6: demote press-release wires and vendor blogs. See PR_SOURCES."""
+    src = (entry.get("source") or "").strip().lower()
+    for key in PR_SOURCES:
+        # Word-ish match so "pib" doesn't fire on e.g. "Pibworth Media".
+        if src == key or src.startswith(key + " ") or f" {key} " in f" {src} ":
+            return PR_SOURCE_PENALTY
+    url = (entry.get("url") or "").lower()
+    if any(marker in url for marker in PR_URL_MARKERS):
+        return PR_SOURCE_PENALTY
+    return 0.0
+
+
 def score(entry, now, max_age_hours=None) -> float:
     """Rank a candidate for the per-section shortlist. NOT used to pick the
     lead — only to order/cap the shortlist; the AI editor does the real
@@ -443,6 +492,7 @@ def score(entry, now, max_age_hours=None) -> float:
     hits = sum(1 for term in INTEREST_TERMS if term in hay)
     s += min(hits, 5) * 1.2
     s += source_weight(entry.get("source", ""))
+    s += pr_penalty(entry)
     buzz = entry.get("_buzz", 1)
     s += min(buzz - 1, 4) * 0.8                # B2: capped buzz bonus
     return s

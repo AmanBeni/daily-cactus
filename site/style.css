@@ -79,27 +79,67 @@ nav#nav .sep{color:var(--rule)}
 .card{background:url("data:image/png;base64,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") repeat,var(--card);
   border-radius:2px;padding:16px 24px;box-shadow:3px 4px 0 rgba(78,64,40,.2)}
 
-/* P4: 1 col (<900px) → 2 col (900-1400px) → 3 col (>1400px). The lead spans
-   the full row at every width (see .story.lead-story). */
-.grid2{display:grid;grid-template-columns:1fr;gap:24px;margin-top:24px}
-@media(min-width:900px){.grid2{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:1400px){.grid2{grid-template-columns:repeat(3,1fr)}}
+/* v6 layout: CSS multi-column instead of CSS grid.
+   CSS grid forces every card in a row to the height of the TALLEST card in
+   that row. Measured on the 21 Jul edition at 1512px: two cards in the same
+   row were 1465px and 1019px tall, leaving 446px of dead paper under the
+   short one — and that repeats down the page. Multi-column packs cards
+   vertically instead, so a short card is followed immediately by the next
+   one and the gaps disappear. Reading order becomes top-to-bottom per column,
+   which is how an actual newspaper reads anyway. */
+.grid2{columns:1;column-gap:24px;margin-top:24px}
+@media(min-width:900px){.grid2{columns:2}}
+@media(min-width:1400px){.grid2{columns:3}}
 /* 4th column on a genuinely wide monitor — without it, 3 cards stretched across
    2200px give ~700px-wide cards and ~90-char lines. More columns keeps each
    card's measure comfortable while actually using the width. */
-@media(min-width:1900px){.grid2{grid-template-columns:repeat(4,1fr)}}
+@media(min-width:1900px){.grid2{columns:4}}
+/* A card must never be split across a column break. */
+.grid2 > *{break-inside:avoid;-webkit-column-break-inside:avoid;
+  page-break-inside:avoid;margin-bottom:24px}
 
-.story.lead-story{grid-column:1/-1;display:grid;grid-template-columns:1.25fr .85fr;
-  gap:24px;align-items:start}
-/* stack at the same breakpoint the grid collapses at, so the lead never sits
-   in a cramped two-column split on a narrow screen */
-@media(max-width:899px){.story.lead-story{grid-template-columns:1fr}}
+/* The lead sits OUTSIDE .grid2 now (app.js renders it in .lead-wrap), because
+   a multi-column container has no equivalent of grid-column:1/-1. */
+.lead-wrap{margin-top:24px}
+
+/* A lead WITH a photo now FLOATS the photo instead of parking it in a rigid
+   grid column. The grid version reserved a full-height 534px column for a
+   356px-tall photo, so 482px of that column — 57% of the card's height — was
+   permanently empty, while the prose beside it was squeezed to 57ch. Floating
+   lets the text run alongside the photo and then continue underneath it, which
+   is what a newspaper does with a lead image. */
+.story.lead-story{display:block}
+.story.lead-story .figure{float:right;width:min(42%,560px);
+  margin:6px 0 20px 28px;shape-outside:inset(0 round 2px)}
+/* No measure cap on the lead's prose: capping it at 74ch stopped the text dead
+   at the photo's left edge, so it never actually flowed underneath. The card
+   itself is capped instead, which keeps the lines that DO run full width
+   readable. The v6 bullet format helps here too — `points` are 15-30 words, so
+   a wide line under the photo is a short bullet, not a long paragraph. */
+.story.lead-story{max-width:1180px}
+.story.lead-story h5,
+.story.lead-story p.hook,
+.story.lead-story p.summary,
+.story.lead-story ul.points{max-width:none}
+/* The Signal / Editor's Read are bordered boxes — a floated photo would slide
+   under their background. clear:right drops them below the photo, full width,
+   and two columns keeps the measure readable instead of one 1400px line. */
+.story.lead-story .signal{clear:right;max-width:none;columns:2;column-gap:32px}
+.story.lead-story .signal > b{column-span:all}
+.story.lead-story .signal li{break-inside:avoid}
+.story.lead-story .meta{clear:right}
+@media(max-width:899px){
+  .story.lead-story .figure{float:none;width:100%;margin:0 0 16px}
+  .story.lead-story .signal{columns:1}
+}
 /* P5: a lead with NO image must reflow to one full-width text column rather
    than leaving an empty half. app.js adds .no-figure when it renders no photo. */
 /* A lead with no photo KEEPS the two-column shape: prose left, The Signal /
    Editor's Read right (app.js emits .lead-main + .lead-side). Previously this
    collapsed to one column and left ~950px of dead space at 1920px. */
-.story.lead-story.no-figure{grid-template-columns:1.05fr .95fr}
+.story.lead-story.no-figure{display:grid;grid-template-columns:1.05fr .95fr;
+  gap:24px;align-items:start}
+.story.lead-story.no-figure .signal{columns:1}
 @media(max-width:899px){.story.lead-story.no-figure{grid-template-columns:1fr}}
 /* NB: Georgia's `ch` (width of "0") is ~1.23x its average glyph width, so a
    78ch cap measured ~96 real characters per line at 1920px — well past the
@@ -114,6 +154,17 @@ nav#nav .sep{color:var(--rule)}
 .story.lead-story h5{font-size:clamp(24px,3.2vw,30px)}
 .story p{margin:0 0 8px;font-size:15.5px;max-width:64ch}
 .story p.summary{max-width:66ch}
+
+/* v6 bullet summary: a one-line hook, then 3-5 points. The hook carries the
+   number you read at a glance, so it sits a touch larger than the bullets. */
+.story p.hook{font-size:16.5px;line-height:1.45;margin:0 0 10px;max-width:64ch}
+.story.lead-story p.hook{font-size:clamp(17px,1.5vw,19px)}
+.story ul.points{margin:0 0 10px;padding-left:0;list-style:none;max-width:66ch}
+.story ul.points li{position:relative;padding-left:18px;margin-bottom:6px;
+  font-size:15.5px;line-height:1.5}
+.story ul.points li::before{content:"";position:absolute;left:2px;top:.62em;
+  width:6px;height:6px;border-radius:50%;background:var(--tabc,var(--ink));opacity:.75}
+.story .src-flag-line{margin:-4px 0 8px}
 
 /* kicker: always two rows so headlines start at the same height */
 .kicker{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
@@ -180,7 +231,32 @@ nav#nav .sep{color:var(--rule)}
 .thumbs button.sent{opacity:.4;cursor:default}
 .thumbs button.sent:hover{background:none;border-color:var(--faded)}
 
+/* Ask AI — sits in the card's meta row, deliberately quiet: it's a tool, not
+   a call to action, and must never outweigh "Read the original". */
+.ask-ai{display:inline-flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ask-ai .ask-lab{text-transform:uppercase;letter-spacing:2px;opacity:.75}
+.ask-ai a,.ask-ai button{font-family:var(--stamp);font-size:11px;letter-spacing:.5px;
+  color:var(--graphite);text-decoration:none;background:none;cursor:pointer;
+  border:1.2px solid var(--faded);border-radius:3px;padding:3px 8px 2px}
+.ask-ai a:hover,.ask-ai button:hover{background:var(--hl);border-color:var(--ink);
+  color:var(--ink)}
+.ask-ai a:focus-visible,.ask-ai button:focus-visible{outline:2.5px solid var(--red);
+  outline-offset:2px}
+
+/* vote bar — only appears once something is saved on this device */
+.votebar{font-family:var(--stamp);font-size:11px;letter-spacing:1px;
+  color:var(--faded);text-align:center;margin:22px 0 0;display:flex;gap:10px;
+  justify-content:center;align-items:center;flex-wrap:wrap}
+.votebar:empty{display:none}
+.votebar button{font-family:var(--stamp);font-size:11px;letter-spacing:1px;
+  color:var(--graphite);background:none;border:1.2px solid var(--faded);
+  border-radius:3px;padding:3px 9px 2px;cursor:pointer}
+.votebar button:hover{background:var(--hl);border-color:var(--ink);color:var(--ink)}
+
 /* pencil devices */
+/* <mark> ships with a UA yellow background and black text — both must go, or
+   they fight the marker-pen gradient below. */
+mark.hl{color:inherit}
 .hl{background:
     linear-gradient(100deg,transparent 0,var(--hl) 5%,var(--hl) 92%,transparent 100%),
     linear-gradient(97deg,transparent 2%,var(--hl) 9%,var(--hl) 88%,transparent 96%);

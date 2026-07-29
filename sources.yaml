@@ -22,7 +22,15 @@ sections:
     window_hours: 72
     angle: "Capabilities, research, industry moves, India AI policy & tools. Separate substance from press releases."
     feeds:
-      - https://www.technologyreview.com/topic/artificial-intelligence/feed   # [OK]
+      # MIT TR ships FULL article text in content:encoded — no enrichment
+      # needed. Every WordPress feed here is hard-capped at 10 items, but
+      # ?paged=N returns the next 10 with no overlap (verified 29 Jul 2026
+      # with this project's own UA), which is the fix for MIT TR contributing
+      # only ~1.6 items/day while the Google News query supplied ~10.
+      - https://www.technologyreview.com/topic/artificial-intelligence/feed   # [VERIFIED] Jul 2026
+      - https://www.technologyreview.com/topic/artificial-intelligence/feed?paged=2  # [VERIFIED] Jul 2026 — distinct set
+      - https://www.technologyreview.com/feed/                                # [VERIFIED] Jul 2026 — main feed, highest velocity (~2.5/day)
+      - https://www.theguardian.com/technology/artificialintelligenceai/rss   # [VERIFIED] Jul 2026 — 20 items, straight at the reader's main domain
       - https://techcrunch.com/category/artificial-intelligence/feed/          # [VERIFIED]
       # analyticsindiamag.com/feed dropped (Jul 2026 B7 audit): parse failure,
       # confirmed dead — no valid entries returned.
@@ -90,7 +98,17 @@ sections:
       - https://inc42.com/feed/                           # [OK]
       - https://yourstory.com/feed                        # [OK]
       # entrackr.com/feed dropped (Jul 2026 B7 audit): 404, confirmed dead.
-      - https://the-ken.com/feed/                         # [VERIFIED] Jul 2026 — works now, despite old "likely paywalled" note
+      # the-ken.com/feed dropped (29 Jul 2026): three independent blockers,
+      # each verified. (1) Cloudflare bot wall — 403 to this project's UA, to
+      # curl, and to Googlebot; it only loads in a real browser, so the
+      # Actions runner has been getting 403 all along. (2) The RSS carries no
+      # article text at all: content:encoded is absent and <description> is
+      # pure WordPress boilerplate ("The post X appeared first on The Ken").
+      # (3) Hard paywall — isAccessibleForFree: False and the body genuinely
+      # is not in the HTML, so unlike New Scientist enrichment cannot recover
+      # it. Contributed 0 cards across the 5 editions audited. If it ever
+      # comes back it can only ever be a headline with no summary.
+      - https://www.theguardian.com/world/india/rss        # [VERIFIED] Jul 2026 — 20 items, direct India lens
       - https://restofworld.org/feed/latest/               # [VERIFIED] Jul 2026 — B7 replacement, global emerging-market tech/venture angle
       - https://news.google.com/rss/search?q=(startup+OR+unicorn+OR+founder+OR+%22venture+capital%22+OR+%22seed+funding%22+OR+D2C+OR+%22quick+commerce%22)+(funding+OR+raises+OR+acquires+OR+IPO+OR+shuts+OR+%22lays+off%22+OR+%22Series+A%22+OR+SEBI+OR+RBI+OR+MeitY+OR+DPIIT)+India+when:2d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS]
 
@@ -153,7 +171,14 @@ sections:
     angle: "Music (all kinds), live events, neuroscience, the natural world, books, big ideas. One genuinely interesting thing beats three mediocre ones."
     feeds:
       - https://www.quantamagazine.org/tag/neuroscience/feed/  # [OK] neuroscience
-      - https://www.newscientist.com/feed/home/           # [VERIFIED] science
+      # New Scientist 406s on a full-browser User-Agent but is fine with this
+      # project's bot UA — do NOT "fix" fetch_feeds.py to spoof Chrome or this
+      # feed goes silently dead. Paywalled items ship no content:encoded, but
+      # the body IS in the HTML and trafilatura recovers it, so enrichment
+      # works on them. ?paged=2 verified distinct.
+      - https://www.newscientist.com/feed/home/           # [VERIFIED] Jul 2026 — science
+      - https://www.newscientist.com/feed/home/?paged=2   # [VERIFIED] Jul 2026 — distinct set
+      - https://www.newscientist.com/section/news/feed/   # [VERIFIED] Jul 2026 — ~2.5/day
       - https://bookriot.com/feed/                        # [OK] books
       - https://pitchfork.com/rss/news/                   # [VERIFIED] music
       - https://news.mongabay.com/feed/                   # [VERIFIED] nature
@@ -194,8 +219,28 @@ sections:
     # structured sources cover (they're hackathon/tech-conference/meetup
     # boards) — never treat it as authoritative on dates, only as a lead to
     # verify before restating a date the model itself derives from title text.
+    # 29 Jul 2026 — breadth raise. The structured boards (Unstop/10times/Luma/
+    # Devpost) are narrow by construction: over the 19-28 Jul editions the
+    # Unstop queries alone returned ~329 items and produced ONE selection.
+    # Google News queries were tried before and removed because they returned
+    # retrospective coverage ("Summit concludes...", exam recaps) with no
+    # forward date and no registration link. The queries below are therefore
+    # filtered on TENSE, not topic: every one is built around forward-looking
+    # language ("applications open", "registrations open", "apply by", "to be
+    # held", "early bird") and explicitly excludes retrospective words. That is
+    # the difference from the version that failed. build_digest.py's
+    # `_opportunity_is_past` + `extract_event_date` still drop anything whose
+    # date has already gone, so a retrospective slipping through is caught.
     feeds:
       - https://news.google.com/rss/search?q=(%22Jaipur+Literature+Festival%22+OR+JLF+OR+%22Magnetic+Fields%22+OR+%22NH7+Weekender%22+OR+%22India+Art+Fair%22+OR+%22Venice+Biennale%22+OR+%22Art+Basel%22)+when:30d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] discovery-only — NEVER authoritative on dates
+      # Fellowships / cohorts / accelerators / grants — India, forward-dated only.
+      - https://news.google.com/rss/search?q=(%22applications+open%22+OR+%22call+for+applications%22+OR+%22apply+by%22+OR+%22last+date+to+apply%22+OR+%22applications+invited%22)+(fellowship+OR+cohort+OR+accelerator+OR+incubator+OR+residency+OR+grant+OR+scholarship)+India+-concludes+-concluded+-recap+-highlights+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] forward-dated
+      # Conferences / summits / expos — India, forward-dated only.
+      - https://news.google.com/rss/search?q=(%22registrations+open%22+OR+%22registration+is+open%22+OR+%22to+be+held%22+OR+%22will+be+held%22+OR+%22early+bird%22+OR+%22tickets+on+sale%22)+(summit+OR+conference+OR+expo+OR+exhibition+OR+hackathon+OR+festival+OR+demo+day)+India+-concludes+-concluded+-recap+-highlights+-wrapped+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] forward-dated
+      # AI / deep-tech specific, India — the reader's actual domain.
+      - https://news.google.com/rss/search?q=(%22applications+open%22+OR+%22registrations+open%22+OR+%22call+for+papers%22+OR+%22apply+by%22)+(AI+OR+%22deep+tech%22+OR+robotics+OR+semiconductor+OR+quantum+OR+climate+OR+space)+(summit+OR+conference+OR+fellowship+OR+hackathon+OR+challenge)+India+-concluded+-recap+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] forward-dated
+      # Global — only the creamiest; no India filter, so keep the bar high.
+      - https://news.google.com/rss/search?q=(%22applications+open%22+OR+%22call+for+applications%22+OR+%22apply+by%22)+(fellowship+OR+residency+OR+%22visiting+programme%22+OR+%22open+call%22)+-concluded+-recap+when:21d&hl=en-IN&gl=IN&ceid=IN:en  # [GNEWS] forward-dated, global
 
   - name: "Beyond Your Beat"
     slug: beyond-your-beat

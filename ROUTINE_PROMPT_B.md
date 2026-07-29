@@ -92,13 +92,24 @@ url, image, source, colophon, edition number, and markets bar automatically.
   pivot. You may reason beyond the article here; the renderer marks this as
   interpretation, not fact.
 - **frontpage** — the ids from `feeds/selected/<today>.json`'s `frontpage`
-  list (6-8 stories). May also appear in their home section. Give
-  `editors_read` to the top 2 of these only — nowhere else.
+  list (6-8 stories). Give `editors_read` to the top 2 of these only —
+  nowhere else.
 - **sections** — for each entry in `feeds/selected/<today>.json`'s `sections`
-  list, write full cards for its `stories` ids and one-liners for its `also`
-  ids (`{"id":..., "line":...}`). Omit a section with nothing worth keeping,
-  even if it was selected — the full text may reveal a story is thinner than
-  its headline suggested.
+  list, write full cards for its `stories` ids. Omit a section with nothing
+  worth keeping, even if it was selected — the full text may reveal a story is
+  thinner than its headline suggested.
+  - **Do NOT re-write a story you already wrote as the lead or on the front
+    page.** If a section's `stories` list contains an id you have already
+    written above, just SKIP it — the renderer automatically shows a one-line
+    "↑ on the front page" cross-reference in its place, so a second full card
+    is thrown away. This was costing a full summary each for roughly 8 stories
+    every day.
+- **also** — every section's `also` ids MUST be written, as
+  `{"id": "...", "line": "..."}` one-liners on that section object (NOT on a
+  story). One tight sentence each, carrying its number: these are the
+  headline-grade facts that don't merit a card, and they render as the "Also
+  worth knowing" rail. Selection paid to fetch the full text for each of
+  them — leaving `also` out silently throws that work away.
 - **Beyond Your Beat** — if selection folded any `beyond-your-beat` ids into
   `sections`, write them under `"slug": "beyond-your-beat"` as usual: 1-3
   genuinely important stories outside the reader's usual domains.
@@ -113,18 +124,38 @@ url, image, source, colophon, edition number, and markets bar automatically.
   with `"slug": "longform"`, each with a one-line "why this is worth 20
   minutes" folded into its `summary`.
 
-For every story write, plain text (no markdown inside fields):
+For every story write, plain text (no markdown inside fields — the ONE
+exception is the `==highlight==` marker described below):
 - **headline** — plain language, not the outlet's clickbait.
-- **summary** — numbers-first, complete readout: facts, figures, names, context
-  PLUS the key insight — enough that the reader rarely needs the source. Draw
-  numbers/quotes from `fulltext` when present (else the empty-fulltext rule
-  above applies). Several sentences; longer is fine when warranted — you have
-  the whole article, use it.
+- **hook** — ONE sentence, the single most important fact, leading with its
+  number. This is what the reader takes away if they read nothing else. Never
+  a restatement of the headline; never scene-setting.
+- **points** — 3-5 bullets carrying the rest of the readout: figures, names,
+  context, the key insight. Scale the count to the article — 3 for a thin
+  story, 5 only when the article genuinely carries five distinct things worth
+  knowing. Each bullet is ONE fact or idea, ~15-30 words, and starts with its
+  substance (not "The company said that…"). No bullet may repeat the hook.
+  Together `hook` + `points` must leave the reader rarely needing the source.
+  Draw numbers/quotes from `fulltext` when present (else the empty-fulltext
+  rule above applies).
+- **summary** — write this ONLY when a story is too thin for bullets (an
+  unreachable source, or a single-fact item). If you write `points`, omit
+  `summary` entirely. Never write both.
+- **==highlight==** — inside the `headline` and the `hook`, wrap the ONE
+  phrase that carries the story in double equals: `==$40B at a $300B
+  valuation==`. It renders as a yellow marker-pen stroke. At most ONE per
+  field, and only when a specific number or name deserves the reader's eye —
+  a page where everything is highlighted is a page where nothing is. Never use
+  it in `points`, `signal`, or `editors_read`.
 - **signal** — 2-4 short bullets (rendered under "The Signal"): the thing to
-  remember PLUS the "so what" for THIS reader. If the honest read is "useful
-  context, not personally actionable," say that — never pad.
-- **key_stat** (optional) — one short string for a stat chip, e.g.
-  "$234M · new unicorn". Only when a single number captures the story.
+  remember PLUS the "so what" for THIS reader. Write at least 2 — a lone
+  bullet is almost always a sign the second one was worth finding. If the
+  honest read is "useful context, not personally actionable," say that —
+  never pad.
+- **key_stat** — one short string for a stat chip, e.g. "$234M · new unicorn".
+  Write one whenever a single number captures the story, which is most days:
+  it is currently set on only 12% of cards, and this reader's whole brief is
+  numbers-first. Omit it only when no one figure carries the piece.
 - **developing** — `true` only if the story is genuinely still unfolding.
 - **badge** (optional) — a SHORT all-caps label when it truly helps, e.g.
   "ANALYSIS", "DATA", "DEEP DIVE". Omit if nothing fits.
@@ -137,13 +168,13 @@ why-go, and note the city or "global" so the tier is clear (no `signal`).
 {
   "date": "YYYY-MM-DD",
   "brief": [ { "id": "ai-49dbfe7fe1", "line": "Nous Research raising at $1.5B valuation" } ],
-  "lead": { "id": "ai-49dbfe7fe1", "headline": "...", "summary": "...", "signal": ["...", "..."], "key_stat": "...", "editors_read": "...", "developing": false, "badge": "" },
+  "lead": { "id": "ai-49dbfe7fe1", "headline": "Nous Research raising at ==$1.5B==", "hook": "Nous Research is raising at a ==$1.5B valuation==, triple its January round.", "points": ["...", "...", "..."], "signal": ["...", "..."], "key_stat": "$1.5B · 3x in 6 months", "editors_read": "...", "developing": false, "badge": "" },
   "frontpage": [
-    { "id": "world-3f9c2d81aa", "headline": "...", "summary": "...", "signal": ["...", "..."], "editors_read": "...", "developing": false }
+    { "id": "world-3f9c2d81aa", "headline": "...", "hook": "...", "points": ["...", "...", "..."], "signal": ["...", "..."], "editors_read": "...", "developing": false }
   ],
   "sections": [
     { "slug": "ai", "stories": [
-      { "id": "ai-8b1e04aaee", "headline": "...", "summary": "...", "signal": ["...", "..."], "developing": false }
+      { "id": "ai-8b1e04aaee", "headline": "...", "hook": "...", "points": ["...", "...", "..."], "signal": ["...", "..."], "developing": false }
     ], "also": [ { "id": "ai-1a2b3c4d5e", "line": "..." } ] }
   ],
   "opportunities": [

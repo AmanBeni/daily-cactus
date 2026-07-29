@@ -18,6 +18,10 @@
 - Headline restatement dressed up as a summary.
 - Padding a thin section just to hit its cap — fewer, honest stories beat filler.
 - Startup "vision" quotes with no product/traction behind them.
+- Announcements carried only by a press-release wire or a company's own
+  channel (PIB, PR Newswire, Business Wire, LinkedIn, a vendor blog). If no
+  journalist thought it worth reporting, it isn't news — unless the
+  announcement IS the event (a result, a launch, a funding round that closed).
 
 ## Never
 - Web-search to fill a gap.
