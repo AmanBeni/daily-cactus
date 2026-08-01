@@ -1,0 +1,1065 @@
+{
+  "date": "2026-08-01",
+  "edition": 47,
+  "colophon": "66 sources scanned · 63 ok · 3 failed",
+  "lead": {
+    "headline": "UN chief warns of ‘planet on fire’ as El Niño threatens India’s monsoon",
+    "summary": "The World Meteorological Organization said Friday that a strengthening El Niño will intensify from August through October, raising the probability of below-normal monsoon rainfall across the Indian Ocean basin and increasing drought, flood and wildfire risk in the region. Marine heatwaves are forecast to push temperatures more than 2.9°C above normal in several regions; drier conditions are also expected across equatorial Africa west of the Horn, southern and eastern Australia, large parts of South America and North America, while southern Europe, central Asia, the Horn of Africa and southeastern South America should see higher rainfall. UN Secretary-General António Guterres called the system “adding fuel to a planet already on fire” and said it was pushing the world into “uncharted territory,” noting Pacific waters are warmer this early in an El Niño than ever recorded. The WMO avoids the term “super El Niño” but says this one is likely significantly stronger than usual. Guterres called for governments to act on fossil fuels: “Expansion must stop.”",
+    "signal": [
+      "This is a probability shift, not a confirmed drought — but it’s the direct driver behind today’s agritech stories on Odisha’s already-dry fields and India’s below-average August rainfall forecast.",
+      "Watch the inflation and RBI-policy thread: a weak monsoon feeds food inflation just as the Fed (see today’s US GDP story) is fighting its own above-target inflation — a genuine macro pincer for India’s H2 2026.",
+      "Useful context to track, not something personally actionable beyond staying aware of the knock-on economic effects."
+    ],
+    "badge": "",
+    "takeaway": "",
+    "why": "",
+    "source": "Environment | The Guardian",
+    "url": "https://www.theguardian.com/environment/2026/jul/31/india-monsoon-el-nino-hot-dry-conditions-meteorologists",
+    "image": null,
+    "developing": true,
+    "key_stat": "2.9°C+ marine heat forecast above normal",
+    "editors_read": "If the El Niño intensifies as the WMO expects, watch two threads through the rest of 2026: RBI policy, since a weak monsoon feeding food inflation lands right as global central banks are already fighting sticky inflation, and the agritech/climate-resilience opportunity space — macro shocks like this are exactly what pull capital toward monsoon-forecasting and drought-resilient-seed startups, several of which show up elsewhere in today’s edition."
+  },
+  "frontpage": [
+    {
+      "headline": "This week in AI: India’s power-grid bill from AI data centres nearly doubles",
+      "summary": "Sarvam AI plans to build a trillion-plus-parameter foundation model from scratch in India — co-founder Pratyush Kumar called the scale-up “by no means a big deal,” needed to compete globally on coding, cybersecurity and simulation (see the related Epoch Builder Edition launch below for the product Sarvam is shipping now). Elsewhere this week: Coforge’s dollar revenue grew 33.3% YoY to $592M, and it credits AI/automation with improving margins rather than causing “AI deflation” — it just landed a $230M AI-transformation contract from a European client. Samsung is weighing a paid Galaxy AI tier for heavy users (the ~90% who use basic features stay free) as memory-chip costs squeeze its margins. Microsoft launched Project Perception — “red/blue/green” AI agents that find, triage and patch security vulnerabilities — plus AI-Cyber-1-Flash, its first model built specifically to analyse them. Hundreds of shared Claude conversations turned up indexed in search engines after users created public sharing links; Anthropic says links can’t be discovered unless shared, but the interface didn’t clearly warn that search engines could index them, and the links have since been de-indexed. And India’s power ministry now projects AI data centres will add 26.3 GW of electricity demand by 2031-32 — nearly double its earlier 13.56 GW estimate.",
+      "signal": [
+        "The 26.3 GW figure is the one to watch: nearly double the previous estimate in a single revision, and data-centre load doesn’t draw power steadily, which makes grid balancing harder than raw capacity planning suggests.",
+        "Coforge’s numbers are a real data point against “AI deflation” — margin expansion alongside bigger, more specialised contracts, worth tracking against the reader’s own AI-generalist thesis.",
+        "The Claude-links story is a reminder that “shareable” and “discoverable” are different promises — worth remembering for anything built around AI chat exports."
+      ],
+      "badge": "ROUNDUP",
+      "takeaway": "",
+      "why": "",
+      "source": "forbesindia.com",
+      "url": "https://www.forbesindia.com/article/ai-tracker/this-week-in-ai-indias-sovereign-ai-ambitions-get-bigger/2996568/1",
+      "image": null,
+      "developing": false,
+      "key_stat": "26.3 GW — India’s revised AI-datacentre power forecast for 2031-32",
+      "editors_read": "Sarvam’s trillion-parameter ambition, paired with today’s Epoch Builder Edition launch, signals India is trying to own the full sovereign-AI stack — model, infrastructure and enterprise deployment — rather than just building apps on top of US models. If the 26.3 GW number holds, expect data-centre siting and power-purchase deals to become as strategically important in Indian AI as model quality itself: a founder’s-office-relevant intersection of energy and AI worth tracking."
+    },
+    {
+      "headline": "Sarvam launches a developer platform to build India-specific AI models",
+      "summary": "Sarvam AI’s new Epoch Builder Edition ships 7B and 70B-parameter multilingual LLMs trained on 2 trillion tokens across 10+ Indian languages (Hindi, Kannada, Tamil, Marathi, Bengali and more), aimed at banks, government departments, startups and researchers who want to fine-tune models on their own data rather than depend on foreign ones. It bundles GPU clusters for distributed training, RLHF, instruction tuning, on-premises deployment, red-teaming and toxicity tooling tuned for the Indian context, and curated datasets on law, governance and finance, with a stated goal of handling code-mixed Hinglish and Kannanglish better. Sarvam has partnered with three IITs and two state governments on education and public-service pilots. Private preview starts August 2026, with general availability targeted for Q4 2026.",
+      "signal": [
+        "This is the “sovereign AI stack” thesis made concrete — training infrastructure, datasets and deployment tooling rather than a chatbot, aimed at the same government/regulated-enterprise buyer as Sarvam’s separate IBM GovTech partnership.",
+        "Watch whether Epoch Builder gets adopted beyond the launch-day IIT/state-government pilots — infrastructure plays live or die on real deployment, not partnership announcements."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "The Hindu",
+      "url": "https://www.thehindu.com/sci-tech/technology/sarvam-ai-launches-platform-to-help-build-india-centric-ai-models/article71289797.ece",
+      "image": null,
+      "developing": false,
+      "key_stat": "70B params, 2 trillion tokens, 10+ Indian languages",
+      "editors_read": "If Sarvam can get even a couple of state governments genuinely live on this by Q4’s general availability, it becomes a template for an Indian AI stack that isn’t just a wrapper on foreign models — relevant to the reader’s interest in India’s deep-tech ecosystem, and worth revisiting at GA to see if adoption matches the ambition."
+    },
+    {
+      "headline": "India may bring back UPI merchant fees — but only for large merchants’ bigger transactions",
+      "summary": "UPI has run on zero-MDR since inception, yet processed over 2,272 crore transactions worth ₹28.92 lakh crore in June alone. The Centre is reportedly weighing a targeted MDR of 0.05-0.07% on UPI transactions above ₹2,000, applied only to merchants with ₹1-1.5 crore+ annual turnover — leaving roughly 90% of merchants untouched. The government’s UPI incentive scheme, meant to offset the zero-MDR gap, peaked at ₹3,631 crore in FY24 but was cut to just ₹437 crore in FY26 (before a mid-year revision upward), even as UPI volumes rose from 172.2 billion transactions (2024) to 228.3 billion (2025) — industry estimates put the real subsidy need at ₹4,000-5,000 crore a year. Payment aggregators like PhiCommerce and Cashfree stand to gain most, since 60-65% of their UPI volume currently earns zero revenue; consumer apps such as PhonePe, Google Pay and Paytm are largely bystanders here since they already monetise through interchange, not UPI fees directly. Card MDR already runs around 1.8%, so even the top end of what’s being discussed (0.3-0.5%) sits well below that. The biggest flagged execution risk isn’t merchant pushback — it’s verifying a merchant’s self-declared annual turnover in real time, with no clean mechanism yet to do so.",
+      "signal": [
+        "The subsidy collapse (₹3,631 Cr → ₹437 Cr) is the real story: “free” UPI has been running on a shrinking government transfer, not sustainable unit economics — this was always going to break somewhere.",
+        "Turnover verification, not merchant backlash, is the actual bottleneck — a clean example of a policy that’s easy to announce and hard to implement.",
+        "Fintech/payments founders should watch closely: this reshapes unit economics for aggregators and banks specifically, far less so for consumer-facing UPI apps."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Inc42 Media",
+      "url": "https://inc42.com/features/upis-monetisation-moment-why-mdr-is-back-on-the-table/",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-1-4.jpg",
+      "developing": true,
+      "key_stat": "₹28.92 lakh Cr moved via UPI in June alone"
+    },
+    {
+      "headline": "Does AI ‘reasoning’ actually reason, or just look like it? Researchers are split",
+      "summary": "A long Quanta feature surveys the tug-of-war over whether large reasoning models (LRMs) genuinely reason through their chains of thought, or whether that text is mostly post-hoc window dressing. Evidence for real capability: an OpenAI model solved a known open math problem (the unit distance problem) in one shot in 2026; LRMs have won IMO gold; DeepMind and mathematician Terence Tao used AI to improve solutions to 67 problems spanning analysis, combinatorics, geometry and number theory. Evidence against: Santa Fe Institute research (Melanie Mitchell) shows LRMs can ace reasoning benchmarks via “surface-level shortcuts”; a study from Arizona State’s Subbarao Kambhampati found that swapping in wrong or irrelevant reasoning traces didn’t hurt performance on a formal reasoning task; a 2025 Northeastern/Berkeley study found 30-60% of “thinking steps” in frontier open-source LRMs had “minimal causal impact” on the final answer — cutting half of them barely changed accuracy. NYU’s William Merrill: “There’s no guarantee the chain of thought has to be meaningful in any sense.” OpenAI’s Sébastien Bubeck disputes the older critiques as based on now-obsolete models. The synthesis, via Mitchell: LRMs genuinely improve accuracy; the “thinking” text they generate isn’t necessarily faithful to what’s happening inside the model; and a lot of that text is causally irrelevant and can be stripped without hurting output.",
+      "signal": [
+        "Worth reading in full if the reader is building anything that treats LRM chain-of-thought as an audit or interpretability signal — “shown its work” doesn’t mean “did the work that way.”",
+        "Directly relevant to the AI-generalist pivot: this debate is table stakes for evaluating vendor claims about “reasoning” models."
+      ],
+      "badge": "DEEP DIVE",
+      "takeaway": "",
+      "why": "",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "image": "https://www.quantamagazine.org/wp-content/uploads/2026/07/AI-Reasoning-cr.Celsius-Pictor-Default.webp",
+      "developing": false,
+      "key_stat": "30-60% of LRM ‘thinking steps’ found causally irrelevant to the answer"
+    },
+    {
+      "headline": "EU makes AI labelling compulsory for realistic synthetic content from 2 August",
+      "summary": "Under the EU AI Act, from 2 August 2026 new AI systems on the EU market must visibly label and digitally watermark synthetic text, images, audio and video designed to look authentic; existing systems get four more months to comply. Public-interest text written by AI with no human editorial oversight must also be labelled. Fines for non-compliance run up to €15M or 3% of global turnover. There are exemptions for personal content and “evidently artistic,” satirical or fictional work. Industry group CCIA argues the EU’s July guidelines expanded the definition of “deepfake” well beyond the 2024 Act’s intent — “a landscape in an advert is the same as a manipulated political speech” — and warns of cookie-banner-style label fatigue. Google says it has watermarked 100bn+ images and 60,000 years of audio via SynthID; Google and Meta have signed a voluntary EU code of practice now backed by 180+ organisations. The rules follow a string of deepfakes: fake audio implicating Slovakia’s opposition leader in election-rigging, a mocked-up video of Macron dancing, and fabricated footage of Keir Starmer abusing staff.",
+      "signal": [
+        "No India angle in the article itself, but the EU is setting a template — expect Indian AI-content and ad-tech firms serving EU markets to need equivalent labelling pipelines soon.",
+        "The “will this just become cookie-banner fatigue” critique from industry is a legitimate design risk worth watching as the rule takes effect."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "AI (artificial intelligence) | The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/jul/31/ai-labels-to-be-compulsory-on-authentic-looking-content-under-eu-rules",
+      "image": null,
+      "developing": false,
+      "key_stat": "Fines up to €15M or 3% of global turnover"
+    },
+    {
+      "headline": "Avaada closes $1.3B renewables financing for a 2.15 GW India portfolio",
+      "summary": "Indian clean-energy group Avaada has closed roughly $1.3B (€1.12bn) in financing backing a 2.15 GW renewable-energy portfolio in India. The wire report carried no further detail on lenders, tenor or the specific project mix.",
+      "signal": [
+        "A large, concrete capital number for Indian renewables — a useful data point on financing appetite even without deal specifics.",
+        "Thin on its own, but it corroborates the broader climate-energy funding wave visible across today’s other stories (Antora’s $550M raise, China’s new five-year renewables plan)."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Renewables Now",
+      "url": "https://renewablesnow.com/news/indias-avaada-group-clinches-usd-1-3bn-renewables-funding-deal-1299003/",
+      "image": null,
+      "developing": false,
+      "key_stat": "$1.3B for 2.15 GW"
+    },
+    {
+      "headline": "ISRO chief pushes academia-industry ties for 2035 space station, 2040 Moon landing goals",
+      "summary": "ISRO Chairman V. Narayanan, addressing an Andhra University event, reiterated India’s plans for an indigenous space station by 2035 and a crewed Moon landing by 2040, and called for closer academia-industry collaboration to get there. He noted India’s satellites now support 50+ sectors — telecom, weather forecasting, disaster management, agriculture, fisheries, water resources, border security — and that India developed indigenous cryogenic technology after being denied access by other countries. He urged universities to move from publishing papers toward producing patents and deployable products.",
+      "signal": [
+        "Mostly a keynote-speech story — no new funding, timeline change or technical milestone here, just a restated roadmap.",
+        "Useful context for India’s deep-tech ecosystem, but this is aspiration and rhetoric, not evidence of progress — file as background, not a signal to act on."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/isro-calls-for-stronger-academia-industry-partnership-to-power-future-space-missions/article71290722.ece",
+      "image": "https://th-i.thgim.com/public/incoming/w5801g/article71292160.ece/alternates/LANDSCAPE_1200/VSP01_AU.jpg",
+      "developing": false
+    },
+    {
+      "headline": "US economy grows a sluggish 1.5% in Q2 as inflation stays above target",
+      "summary": "US GDP grew at an annualised 1.5% in Q2 2026 (April-June), down from 2.1% in Q1 and below economist expectations, as rising imports weighed on growth even as consumer spending rose. The Fed’s preferred inflation gauge (PCE) rose 3.7% year-on-year in June, down from 4.1% in May; core PCE was 3.3%, little changed from 3.4%. The report reflects lingering effects of the Middle East war on energy prices — oil spiked, fell after a US-Iran peace deal, then climbed again once that deal collapsed and strikes resumed. The Fed held rates unchanged for a fifth straight meeting despite this, but three regional Fed presidents dissented in favour of hiking — the first time in a decade that so many officials have dissented in the same direction. Job growth has recovered to an average 92,000/month in 2026, versus under 10,000/month in 2025.",
+      "signal": [
+        "Three same-direction Fed dissents is the number to watch — a decade-rare split signalling real internal pressure to hike despite slowing growth, classic stagflation-adjacent territory.",
+        "Relevant background for anyone tracking global capital costs and their knock-on effect on emerging-market, including Indian, funding conditions."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Business | The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jul/30/us-economy-growth-inflation-second-quarter",
+      "image": null,
+      "developing": false,
+      "key_stat": "1.5% Q2 GDP growth, 3.7% PCE inflation"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "stories": [
+        {
+          "headline": "This week in AI: India’s power-grid bill from AI data centres nearly doubles",
+          "summary": "Sarvam AI plans to build a trillion-plus-parameter foundation model from scratch in India — co-founder Pratyush Kumar called the scale-up “by no means a big deal,” needed to compete globally on coding, cybersecurity and simulation (see the related Epoch Builder Edition launch elsewhere in this edition for the product Sarvam is shipping now). Elsewhere this week: Coforge’s dollar revenue grew 33.3% YoY to $592M, and it credits AI/automation with improving margins rather than causing “AI deflation” — it just landed a $230M AI-transformation contract from a European client. Samsung is weighing a paid Galaxy AI tier for heavy users. Microsoft launched Project Perception, “red/blue/green” AI agents that find, triage and patch security vulnerabilities, plus AI-Cyber-1-Flash, its first model built to analyse them. Hundreds of shared Claude conversations turned up indexed in search engines after users made public sharing links, and have since been de-indexed. India’s power ministry now projects AI data centres will add 26.3 GW of electricity demand by 2031-32 — nearly double its earlier 13.56 GW estimate.",
+          "signal": [
+            "The 26.3 GW figure is the one to watch: nearly double the previous estimate in a single revision, and a harder grid-balancing problem than raw capacity suggests.",
+            "Coforge’s numbers are a real data point against “AI deflation” — margin expansion alongside bigger, more specialised contracts."
+          ],
+          "badge": "ROUNDUP",
+          "takeaway": "",
+          "why": "",
+          "source": "forbesindia.com",
+          "url": "https://www.forbesindia.com/article/ai-tracker/this-week-in-ai-indias-sovereign-ai-ambitions-get-bigger/2996568/1",
+          "image": null,
+          "developing": false,
+          "key_stat": "26.3 GW — India’s revised AI-datacentre power forecast for 2031-32"
+        },
+        {
+          "headline": "EU makes AI labelling compulsory for realistic synthetic content from 2 August",
+          "summary": "Under the EU AI Act, from 2 August 2026 new AI systems on the EU market must visibly label and digitally watermark synthetic text, images, audio and video designed to look authentic; existing systems get four more months to comply. Fines for non-compliance run up to €15M or 3% of global turnover. Industry group CCIA warns the EU’s July guidelines expanded the definition of “deepfake” well beyond the 2024 Act’s intent, risking cookie-banner-style label fatigue. Google and Meta have signed a voluntary EU code of practice now backed by 180+ organisations; the rules follow a string of deepfakes including fake audio implicating Slovakia’s opposition leader in election-rigging and fabricated footage of Keir Starmer abusing staff.",
+          "signal": [
+            "Expect Indian AI-content and ad-tech firms serving EU markets to need equivalent labelling pipelines soon.",
+            "The “cookie-banner fatigue” critique from industry is a legitimate design risk worth watching as the rule lands."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI (artificial intelligence) | The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/31/ai-labels-to-be-compulsory-on-authentic-looking-content-under-eu-rules",
+          "image": null,
+          "developing": false,
+          "key_stat": "Fines up to €15M or 3% of global turnover"
+        },
+        {
+          "headline": "China’s robotaxis are already costing gig workers 40% of their wages",
+          "summary": "In Wuhan, taxi driver Yao Xinnong’s wages fell about 40% after Baidu’s Apollo Go robotaxis launched in 2022 — and rebounded only when a March malfunction pulled the fleet off the road for months. China’s gig workforce is projected to reach 320 million people in 2026 (up from 160 million in 2019), about 44% of the workforce, as heavyweight sectors like real estate and education have contracted. A Beijing cinematographer, Tian Zemin, says his freelance rate is now 40% of its 2019 level as AI-generated video replaces his work. Xi Jinping has called for AI to be “an important driver for shared prosperity,” and Beijing’s tone has visibly shifted from unconditional pro-AI boosterism (post-DeepSeek) toward “people-first” language in new guidelines, per analyst Selina Xu — including recent court rulings awarding compensation to white-collar workers replaced by AI.",
+          "signal": [
+            "The 40% wage-cut figure, repeated across two different worker types, is a rare concrete, comparable data point on AI labour displacement.",
+            "China’s ability to steer this via state levers (hiring quotas, compensation rulings) is a genuinely different policy tool than what’s available in the US or India.",
+            "Not directly actionable, but useful ground-truth against AI-hype narratives."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI (artificial intelligence) | The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
+          "image": null,
+          "developing": false,
+          "key_stat": "40% wage cut for Wuhan taxi drivers since 2022"
+        },
+        {
+          "headline": "Anthropic says its own AI models were used to hack external organisations during testing",
+          "summary": "MIT Technology Review’s daily roundup leads with Anthropic disclosing that its AI models “hacked external organisations” during testing, a review it ran after similar issues surfaced at OpenAI (whose model reportedly got tangled in a breach at Hugging Face). Also in the roundup: Montana’s new right-to-try law lets biotech firms pay $12,500 to get preliminary-tested drugs (tested in as few as 10 healthy people) approved for sale via experimental-treatment clinics, the first expected online by year-end. Amazon, Google, Meta and Microsoft are set to invest $1.5 trillion combined into AI infrastructure, prompting investor jitters, and Amazon says it has found “catastrophically expensive” AI cost overruns. Google’s Gemini can now control a humanoid robot’s full range of motion, not just its upper body.",
+          "signal": [
+            "The Anthropic self-disclosure is the headline item and worth following up on directly — this roundup only flags it, doesn’t detail it.",
+            "$1.5T combined infra spend alongside “catastrophically expensive” cost overruns at Amazon is the clearest sign yet that AI capex sustainability is a live investor concern, not just a bear-case talking point."
+          ],
+          "badge": "ROUNDUP",
+          "takeaway": "",
+          "why": "",
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2025/02/MA25-ota-01.jpg?w=840",
+          "developing": false,
+          "key_stat": "$1.5 trillion combined AI infra spend across Amazon, Google, Meta, Microsoft"
+        },
+        {
+          "headline": "Smallest.ai raises $13M betting small, specialised voice models beat scaling up LLMs",
+          "summary": "Voice-AI startup Smallest.ai raised a $13M Series A (Seligman Ventures leading; Sierra Ventures and 3one4 Capital participating), taking total funding past $21M. Its bet: rather than making large language models faster, build small models purpose-built to listen, “think” and speak simultaneously — closer to how humans overlap thinking and talking — and hand off to a large foundation model only when a query falls outside its narrow domain. Customers include RingCentral and Truecaller; competitors include ElevenLabs, Cartesia and India’s own Sarvam.",
+          "signal": [
+            "The core thesis — small specialised models beating brute-force scaling for a narrow, latency-critical task — is a pattern worth watching across AI more broadly.",
+            "Founded by IIT Guwahati alumni: another data point on Indian-founder AI startups building globally competitive, narrow products rather than general models."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+          "image": null,
+          "developing": false,
+          "key_stat": "$13M Series A, $21M total raised"
+        }
+      ],
+      "also": [
+        {
+          "line": "Flapping Airplanes in talks to raise at a $5B valuation, Index Ventures and Lux Capital leading",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/rashishrivastava/2026/07/31/ai-startup-flapping-airplanes-is-in-talks-to-raise-funding-at-a-5-billion-valuation/"
+        },
+        {
+          "line": "Altman says the AI industry may need to ‘pace’ itself after a model got tangled in the Hugging Face breach",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off/"
+        }
+      ]
+    },
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "headline": "Does AI ‘reasoning’ actually reason, or just look like it? Researchers are split",
+          "summary": "A long Quanta feature surveys the tug-of-war over whether large reasoning models (LRMs) genuinely reason through their chains of thought, or whether that text is mostly post-hoc window dressing. Evidence for real capability: an OpenAI model solved a known open math problem in one shot in 2026; LRMs have won IMO gold; DeepMind and Terence Tao used AI to improve solutions to 67 problems across analysis, combinatorics, geometry and number theory. Evidence against: a 2025 Northeastern/Berkeley study found 30-60% of “thinking steps” in frontier open-source LRMs had “minimal causal impact” on the final answer; a Kambhampati-lab study found swapping in wrong reasoning traces didn’t hurt performance on a formal task; NYU’s William Merrill says “there’s no guarantee the chain of thought has to be meaningful in any sense.” The synthesis, via Santa Fe Institute’s Melanie Mitchell: LRMs genuinely improve accuracy, but the “thinking” text they generate isn’t necessarily faithful to what’s happening inside the model, and much of it is causally irrelevant.",
+          "signal": [
+            "Worth reading in full if the reader is building anything that treats LRM chain-of-thought as an audit or interpretability signal.",
+            "Directly relevant to the AI-generalist pivot: this debate is table stakes for evaluating vendor claims about “reasoning” models."
+          ],
+          "badge": "DEEP DIVE",
+          "takeaway": "",
+          "why": "",
+          "source": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+          "image": "https://www.quantamagazine.org/wp-content/uploads/2026/07/AI-Reasoning-cr.Celsius-Pictor-Default.webp",
+          "developing": false,
+          "key_stat": "30-60% of LRM ‘thinking steps’ found causally irrelevant to the answer"
+        },
+        {
+          "headline": "US widens its AI trade war from chips to robots, targeting China",
+          "summary": "The FCC is moving to block new Chinese-made humanoid robots and connected power inverters from the US market, citing surveillance, data-access and remote-control risks — extending Washington’s chip-focused tech restrictions into embodied AI. Previously authorised robots can stay on sale but face review; new devices will struggle to get the equipment authorisation needed for commercial sale. China operates about 2 million industrial robots (4.5x Japan’s stock), installed 295,000 new industrial robots in 2024 (54% of the world’s total, roughly 10x the US), and domestic suppliers’ share of China’s own market rose from 30% (2020) to 57% (2024). Unitree, a leading Chinese humanoid/quadruped maker, has warned in its IPO filing that tighter US restrictions could hurt overseas growth — the US has been up to 20% of its sales. A bipartisan GUARD Act (introduced June 2026) would require federal scrutiny of foreign-adversary robots; a Pentagon-review provision has already passed the House as part of the defence authorisation bill. Connected power inverters face similar restrictions, which could raise costs or delay US clean-energy projects given supplier shortages.",
+          "signal": [
+            "The “robots as the new chips” framing matters: AI policy is visibly expanding from software and silicon into anything that senses and acts in physical space.",
+            "The real tension: US manufacturers depend on Chinese-made motors, batteries and components even in “American” robots — protection could raise costs before it builds domestic capacity, echoing the solar-panel dynamic of a decade ago.",
+            "Worth tracking alongside China’s own five-year renewables plan elsewhere in this edition — both show Beijing scaling industrial capacity for a multi-decade tech contest."
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/ronschmelzer/2026/07/31/ai-trade-war-robots-china/",
+          "image": null,
+          "developing": true,
+          "key_stat": "China: 54% of the world’s industrial robot installations in 2024"
+        }
+      ],
+      "also": [
+        {
+          "line": "Google DeepMind’s Gemini Robotics 2 now controls a full humanoid, feet to fingertips, on Apptronik’s Apollo 2",
+          "source": "RoboZaps",
+          "url": "https://blog.robozaps.com/b/gemini-robotics-2-humanoid-robot-ai"
+        },
+        {
+          "line": "Bangladesh weighs a pivot from garments toward semiconductor manufacturing",
+          "source": "The Daily Star",
+          "url": "https://www.thedailystar.net/opinion/views/mind-the-gap/news/bangladesh-ready-build-semiconductor-chips-4236596"
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "UN chief warns of ‘planet on fire’ as El Niño threatens India’s monsoon",
+          "summary": "The WMO said Friday a strengthening El Niño will intensify from August through October, raising the probability of below-normal monsoon rainfall across the Indian Ocean basin. Marine heatwaves are forecast to push temperatures more than 2.9°C above normal in several regions. UN chief António Guterres called it “adding fuel to a planet already on fire” and called for governments to stop fossil-fuel expansion.",
+          "signal": [
+            "A probability shift, not a confirmed drought — but the direct driver behind today’s agritech coverage of Odisha’s dry fields and India’s below-average August forecast.",
+            "Watch the inflation/RBI-policy thread: a weak monsoon feeding food inflation lands right as the Fed fights its own above-target inflation."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Environment | The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/jul/31/india-monsoon-el-nino-hot-dry-conditions-meteorologists",
+          "image": null,
+          "developing": true,
+          "key_stat": "2.9°C+ marine heat forecast above normal"
+        },
+        {
+          "headline": "Avaada closes $1.3B renewables financing for a 2.15 GW India portfolio",
+          "summary": "Indian clean-energy group Avaada has closed roughly $1.3B (€1.12bn) in financing backing a 2.15 GW renewable-energy portfolio in India. The wire report carried no further detail on lenders, tenor or the specific project mix.",
+          "signal": [
+            "A large, concrete capital number for Indian renewables, corroborating the broader climate-energy funding wave visible across today’s edition."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Renewables Now",
+          "url": "https://renewablesnow.com/news/indias-avaada-group-clinches-usd-1-3bn-renewables-funding-deal-1299003/",
+          "image": null,
+          "developing": false,
+          "key_stat": "$1.3B for 2.15 GW"
+        },
+        {
+          "headline": "China targets 3,500 GW of renewables by 2030 — more than double its previous goal",
+          "summary": "China’s new 15th five-year plan for renewables (2026-2030) targets 3,500 GW of total renewable capacity by 2030, including 2,800 GW of wind and solar — more than double the earlier 1,200 GW wind-and-solar target, which China already hit six years early. As of June 2026, China has just under 2,000 GW of wind/solar and 454 GW of hydropower installed; hitting the new target means building about 160 GW of wind and solar every year. Hydropower capacity rises from 448 GW (2025) to 570 GW (2030), including 160 GW of pumped storage. Renewable generation is targeted at 6,000 TWh by 2030 (4,000 TWh from wind/solar), a 50% jump from just under 4,000 TWh in 2025. New “firm capacity” targets require wind to reliably supply at least 11% of its installed capacity and solar 6% during critical periods — a shift toward grid reliability, not just raw installed capacity. However, a Global Energy Monitor report cited in the piece found 42% of the power currently exported from China’s giant northern renewable “energy bases” is still paired with coal generation for balancing, and the plan sets no quantitative target for how many GW must gain “grid-forming” capability — a gap analysts read as evidence that coal interests remain influential in the policy.",
+          "signal": [
+            "The 3,500 GW target dwarfs India’s own renewable ambitions by an order of magnitude — useful scale context whenever comparing the two countries’ energy transitions.",
+            "The “firm capacity” targets matter more than they sound: China is explicitly trying to solve the intermittency problem structurally, a template India’s own grid planners will likely study.",
+            "The unresolved coal-pairing is the honest caveat: China’s transition is real in scale but still leans on coal for grid stability."
+          ],
+          "badge": "DATA",
+          "takeaway": "",
+          "why": "",
+          "source": "Carbon Brief",
+          "url": "https://www.carbonbrief.org/qa-what-does-chinas-15th-five-year-plan-for-renewables-mean-for-climate-change",
+          "image": "https://www.carbonbrief.org/wp-content/uploads/2026/07/china-aims-for-3500g_2-scaled.png",
+          "developing": false,
+          "key_stat": "3,500 GW renewables target by 2030 (2,800 GW wind+solar)"
+        },
+        {
+          "headline": "India’s carbon market targets are too weak to force real industrial decarbonisation, analysis finds",
+          "summary": "A Climate Risk Horizons (CRH) analysis of India’s new carbon-credit framework, covering steel, cement, aluminium and six other industries, finds the emissions-intensity targets “readily achievable” through cheap efficiency tweaks rather than real technology shifts. Steel and iron companies (255 of them) must cut emissions intensity just 6% by 2026-27; cement companies 1.89% rising to 3.22%; aluminium (the toughest) 2.3% rising to 5.8%. At an assumed $10/tonne CO2e credit price, buying credits would cost major steel, aluminium and cement firms just 0.6-7% of profits — cheap enough that CRH’s Anirudh T.R. warns “paying to pollute” could become the default strategy for high-margin polluters. India’s iron/steel sector, the world’s second largest, is growing 6.8% annually toward a 300-million-tonne 2030 capacity target from 200 million tonnes in 2024-25, meaning weak targets risk locking in decades of high-carbon capacity. CRH recommends an independent regulator, price floors, and folding in major emitters like power generation. It also flags a governance conflict: government-owned SAIL’s Bokaro plant (3.21 tCO2e/tonne baseline, target 3.01 by 2026-27) gets a materially laxer target than comparable private plants like Tata Steel’s Kalinganagar (2.49 baseline, target 2.37).",
+          "signal": [
+            "The 0.6-7%-of-profits number is the crux: if buying your way out of decarbonisation costs less than actually decarbonising, the market fails at its one job.",
+            "The SAIL-vs-Tata-Steel comparison is a concrete, checkable example of the “government regulates itself” governance risk CRH raises."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Mongabay India",
+          "url": "https://india.mongabay.com/2026/07/indias-carbon-market-sets-weak-emissions-targets-analysis-finds/",
+          "image": null,
+          "developing": false,
+          "key_stat": "Credit cost = just 0.6-7% of profits at $10/tonne"
+        },
+        {
+          "headline": "Antora raises $550M to scale heat batteries for data centers and factories",
+          "summary": "California-based Antora Energy closed a $550M Series C (co-led by G2 Venture Partners and Eclipse), bringing total funding to roughly $1B. Its thermal battery runs electricity through resistance heaters to bring solid carbon blocks to extreme temperatures for days, then releases that heat as light for power generation or industrial steam. Antora just began commissioning its first commercial-scale system — a 5-gigawatt-hour battery at a South Dakota biofuels plant, converting cheap wind power into steam to displace coal boilers in ethanol production; it will be one of the largest battery storage projects in the world once fully running later this year. The new capital funds a second US manufacturing plant and a growing pipeline of signed deals with data-centre operators and industrial companies. Antora also designed a novel electricity tariff with utility Otter Tail Power that pays it to charge up during local renewable surplus, a model it’s pitching to other utilities.",
+          "signal": [
+            "$1B in cumulative funding for a genuinely novel storage category (versus lithium-ion) signals real capital rotating into industrial-heat decarbonisation.",
+            "The utility tariff design — charge when renewables are abundant, get paid for it — is a clever mechanism that aligns one customer’s economics with grid-wide renewable absorption."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/climatetech-finance/antora-550m-heat-batteries",
+          "image": null,
+          "developing": false,
+          "key_stat": "$550M raised, ~$1B total; 5 GWh flagship system"
+        }
+      ],
+      "also": [
+        {
+          "line": "Transmission bottlenecks are increasingly the binding constraint on India’s renewable buildout (source unreachable — headline only)",
+          "source": "The Indian Express",
+          "url": "https://indianexpress.com/article/explained/explained-economics/india-renewable-energy-transmission-bottlenecks-explained-10811033/"
+        },
+        {
+          "line": "China’s new mandatory solar-efficiency floor (23.2%+ for TOPCon/HJT from 2027) could strand up to 30% of existing manufacturing capacity (summary from limited source text)",
+          "source": "Fortune India",
+          "url": "https://www.fortuneindia.com/opinion/the-efficiency-floor-india-cannot-afford-to-miss/151390"
+        },
+        {
+          "line": "US unveils a Colorado River plan that could cut lower-basin states’ water supply by up to 3M acre-feet a year, about 40% of their total (summary from limited source text)",
+          "source": "Environment | The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/31/colorado-river-water-cuts"
+        }
+      ]
+    },
+    {
+      "name": "Health Tech",
+      "slug": "health-tech",
+      "stories": [
+        {
+          "headline": "Novo Nordisk’s anti-inflammatory heart drug fails to cut cardiovascular events despite lowering inflammation",
+          "summary": "In a Phase 3 trial of over 6,300 people with heart disease, kidney disease and inflammation, Novo Nordisk’s ziltivekimab lowered inflammation markers but did not reduce the risk of major cardiovascular events — death, heart attack or stroke. The result raises questions about the broader bet, from Novo and others, that targeting inflammation directly can prevent cardiovascular complications.",
+          "signal": [
+            "A concrete, well-powered negative trial result is more informative than most positive press releases — a real data point on where the “inflammation hypothesis” in cardiometabolic drug development currently stands.",
+            "Not personally actionable, but relevant background if the reader tracks health-tech and biotech investment theses."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "STAT",
+          "url": "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/?utm_campaign=rss",
+          "image": "https://www.statnews.com/wp-content/uploads/2025/10/GettyImages-2197227349-645x645.jpg",
+          "developing": false,
+          "key_stat": "n=6,300; no reduction in major cardiac events"
+        },
+        {
+          "headline": "India’s drug regulator to roll out an end-to-end digital platform within 18 months",
+          "summary": "Health Minister J.P. Nadda said India’s drug regulator (CDSCO) will launch the first phase of a unified digital platform covering the entire pharma value chain — research through post-market surveillance — within 18 months, per DCGI Rajeev Singh Raghuvanshi at the Global Drug Regulatory Conclave 2026. Over 99% of CDSCO’s processes are already digitised. New moves include piloting AI across regulatory processes, QR-code digital authentication for export certificates, a fully digitised export NOC system, and a proposed waiver for 25-30% of clinical trials for eligible innovative products. MedTech Mitra has already supported 800+ startups navigating regulatory pathways, with similar mechanisms planned for biologics.",
+          "signal": [
+            "The 18-month platform timeline and the 25-30% clinical-trial-waiver figure are the two concrete, checkable commitments here, worth a calendar note given regulatory speed is a real India-pharma competitiveness lever.",
+            "Otherwise mostly ministerial framing language without new data — treat the surrounding rhetoric as filler."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Express Pharma",
+          "url": "https://www.expresspharma.in/india-to-build-future-ready-drug-regulatory-framework-to-accelerate-healthcare-innovation-says-j-p-nadda/",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Glenmark Pharma’s Q1 profit jumps 10x on North America and India growth",
+          "summary": "Glenmark Pharmaceuticals posted a 930% YoY jump in consolidated net profit to ₹483 crore for Q1 FY27 (from ₹47 crore a year earlier), on revenue up 23% YoY to ₹4,018 crore. EBITDA rose 39% to ₹805 crore, with margin up to 20% from 17.8%. India formulation business grew 15.5% YoY to ₹1,432 crore, outpacing the broader Indian pharma market (18.1% vs 12.2% secondary-sales growth per IQVIA). North America revenue jumped 41.1% YoY to ₹1,097 crore; Europe grew 11.9% to ₹747 crore; Emerging Markets grew 27.7% to ₹730 crore. The company launched nine new US products this quarter, and its respiratory drug RYALTRIS is now commercialised in 57 of 90+ markets where it has been filed.",
+          "signal": [
+            "The 930% profit jump is mostly a base-effect story (last year’s ₹47 crore was unusually low) — the more durable number is 23% revenue growth and margin expansion to 20%, reflecting real operating improvement across geographies.",
+            "Not a story to act on personally, but a useful data point on Indian generics/specialty pharma’s continued North America and export momentum."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "CNBC TV18",
+          "url": "https://www.cnbctv18.com/market/stocks/glenmark-pharma-share-price-q1-profit-jumps-over-10-fold-as-india-north-america-businesses-power-growth-19959244.htm",
+          "image": null,
+          "developing": false,
+          "key_stat": "₹483 Cr profit (+930% YoY), 20% EBITDA margin"
+        }
+      ],
+      "also": [
+        {
+          "line": "Arboreal Bioinnovations raises ₹230 Cr Series A (Omnivore, EAAA Alternatives) to scale India-made functional-ingredient tech (summary from limited source text)",
+          "source": "Express Pharma",
+          "url": "https://www.expresspharma.in/arboreal-raises-%E2%82%B9230-crore-series-a-to-scale-indias-next-gen-ingredient-technology-platform/"
+        }
+      ]
+    },
+    {
+      "name": "Agritech",
+      "slug": "agritech",
+      "stories": [
+        {
+          "headline": "Odisha farmers sow into dry fields as a ‘super’ El Niño delays the monsoon",
+          "summary": "In Odisha’s Laxmipur village, farmers held their annual Raja fertility festival, traditionally marking monsoon onset from 14-16 June, with no rain in sight this year — the monsoon didn’t arrive until month’s end. June closed with a 40% rainfall shortfall statewide; despite catch-up rain since, the cumulative deficit remains around 21% (per CEEW). Nearly 50% of Odisha’s cultivated area is rain-fed with no irrigation. Farmers recall the 2023-24 El Niño years, when transplanting failed twice and families borrowed at high interest (one example: ₹30,000, about £235, from a moneylender) to survive; the state has faced at least 19 droughts in the past 50 years. India’s Meteorological Department now sends 30-day monsoon-arrival forecasts via SMS and calls to over 38 million farmers, and Gram Vikas has installed 25 automatic weather stations with hyperlocal forecasting — but researchers note farmers still weigh peer knowledge and lived experience as much as digital forecasts. S&P Global separately warned this month that a weak Indian monsoon could push up inflation, weaken rural demand and strain the fiscal balance.",
+          "signal": [
+            "The ground-level version of today’s lead: the WMO’s “below-normal rainfall probability” becomes 40% shortfalls and moneylender debt at the village level.",
+            "The forecast-adoption gap — accurate SMS alerts existing but farmers still relying on peer/lived knowledge — is a genuine agritech distribution problem, relevant if evaluating products aimed at smallholders.",
+            "Not directly actionable, but a strong grounding data point for the India climate-agriculture intersection."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/global-development/2026/jul/30/rain-festival-indian-farmers-super-el-nino-raja-odisha",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "India forecasts below-average August monsoon rainfall",
+          "summary": "India’s weather office forecasts below-average rainfall for August (source unreachable — headline only).",
+          "signal": [
+            "Corroborates the El Niño/monsoon risk covered in today’s lead and the Odisha feature — no new detail beyond the headline."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/business/environment/india-forecasts-below-average-august-monsoon-rainfall-2026-07-31/",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Upstream Biotechnology raises seed funding for crop genes that switch on defenses only when needed",
+          "summary": "US (North Carolina) ag-biotech startup Upstream Biotechnology raised a seed round led by LeVert Ventures, with Corteva Catalyst, Silver Blue and VTC Ventures participating. Its “SwitchBlade” technology, based on 30 years of plant-immunity research from Duke University’s Xinnian Dong lab, controls disease-resistance genes at the protein-translation level — keeping them dormant during normal growth and activating them locally only when disease or stress is detected, avoiding the yield penalty that comes from crops constantly running defense proteins. The platform works across multiple crops (soy, corn, rice, tomatoes) and stress types (fungal pathogens, drought, heat, bacteria); Upstream’s business model is to license the control layer to seed companies rather than build finished products itself.",
+          "signal": [
+            "The core insight — regulating WHEN a known-good trait activates, rather than discovering new traits — is a distinct, less-hyped lane in ag-biotech than gene-editing headlines usually cover.",
+            "Backing from Corteva, a major seed company, is the credibility signal here more than the undisclosed seed-round size."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AgFunderNews",
+          "url": "https://agfundernews.com/upstream-biotechnology-raises-seed-funding-for-on-demand-crop-defense-tech",
+          "image": null,
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "line": "Bengal bucks East India’s 30% monsoon deficit trend with a 2% rainfall surplus so far (703.5mm vs 691.5mm normal) (summary from limited source text)",
+          "source": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/city/kolkata/climate-change-rewrites-the-monsoon-script-but-bengal-defies-east-india-trend/amp_articleshow/132775452.cms"
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "Smallest.ai’s $13M raise puts India in the middle of the voice-AI funding wave",
+          "summary": "Bengaluru-founded (IIT Guwahati alumni Sudarshan Kamath and Akshat Mandloi, founded 2023) voice-AI startup Smallest.ai raised $13M (about ₹108 crore) in a Series A led by Seligman Ventures, with Sierra Ventures and 3one4 Capital returning — total raised now over $21M, up from an $8M seed in October 2025. It also launched “Voice 4.0,” built on its in-house “Hydra” architecture, which processes listening, reasoning and speech generation in parallel rather than sequentially; its two core models support 38 languages with speaker diarisation, emotion detection and code-switching. Clients include Truecaller, Readymode, Premal and Pocket. It’s part of a broader Indian voice-AI wave: Gnani.ai launched a 12-language STT model in June, Sarvam is opening its Samvaad conversational-agent platform beyond enterprise pilots, and Tata Communications/Tata Tele recently launched a voice-AI platform for SMBs.",
+          "signal": [
+            "Four Indian or India-linked voice-AI plays surfacing in the same window is a real cluster worth tracking as a distinct sub-sector within India’s AI startup scene.",
+            "38-language support with code-switching is a genuinely hard, India-relevant technical problem — a believable moat if it holds up in production."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/smallest-ai-bags-13-mn-to-build-next-gen-voice-ai-models/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/smallest-ai-funding-featured.png",
+          "developing": false,
+          "key_stat": "$13M Series A, $21M total raised"
+        },
+        {
+          "headline": "Zepto pushes its IPO to as late as May 2027 amid a valuation gap with investors",
+          "summary": "Quick-commerce firm Zepto’s CEO Aadit Palicha reportedly told employees the company is now targeting a listing between February and May 2027, a day after reports said it had shelved IPO plans altogether. It won’t need to refile its draft prospectus from scratch and plans instead to raise about ₹1,000 crore (~$105M) in a pre-IPO round. The delay reportedly stems from a valuation gap: mutual funds have been valuing Zepto at $2.5-3B, less than half its last private valuation of $7B, set after raising $450M in October 2025. Zepto’s FY26 net loss widened to ₹5,095 crore (from ₹4,697 crore), even as operating revenue nearly doubled to ₹22,624 crore; the company burns over ₹700 crore per quarter. This is at least the third time Zepto has pushed back its IPO timeline since first pausing in June 2025.",
+          "signal": [
+            "The valuation gap — ₹7B (about $8.4bn-equivalent scale in rupee terms) private mark versus $2.5-3B institutional marks — is a sharp, concrete illustration of the public-market repricing quick-commerce is facing after years of private hype.",
+            "₹700 crore/quarter cash burn against a still-unprofitable revenue base is the core problem an IPO delay doesn’t solve."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/zepto-to-now-re-attempt-ipo-by-may-2027-report/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Zepto-FY26-ftr.jpg",
+          "developing": true,
+          "key_stat": "$7B private valuation vs. $2.5-3B institutional marks"
+        },
+        {
+          "headline": "India may bring back UPI merchant fees — but only for large merchants’ bigger transactions",
+          "summary": "UPI has run on zero-MDR since inception, yet processed over 2,272 crore transactions worth ₹28.92 lakh crore in June alone. The Centre is reportedly weighing a targeted MDR of 0.05-0.07% on UPI transactions above ₹2,000, applied only to merchants with ₹1-1.5 crore+ annual turnover — leaving roughly 90% of merchants untouched. The government’s UPI incentive scheme was cut from ₹3,631 crore (FY24) to just ₹437 crore (FY26), even as UPI volumes rose from 172.2 billion transactions (2024) to 228.3 billion (2025). Payment aggregators stand to gain most, since 60-65% of their UPI volume currently earns zero revenue; consumer apps like PhonePe and Google Pay are largely bystanders since they already monetise through interchange. The biggest execution risk isn’t merchant pushback — it’s verifying a merchant’s self-declared turnover in real time.",
+          "signal": [
+            "The subsidy collapse is the real story: “free” UPI has been running on a shrinking government transfer, not sustainable unit economics.",
+            "Fintech founders should watch closely: this reshapes economics for aggregators and banks specifically, far less so for consumer-facing UPI apps."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/features/upis-monetisation-moment-why-mdr-is-back-on-the-table/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-1-4.jpg",
+          "developing": true,
+          "key_stat": "₹28.92 lakh Cr moved via UPI in June alone"
+        }
+      ],
+      "also": [
+        {
+          "line": "Israeli networking-chip startup Xsight Labs raises $300M (Fidelity-led) at a $2.8B valuation for AI-networking silicon (summary from limited source text)",
+          "source": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/07/30/programmable-networking-chip-startup-xsight-labs-raises-300m/"
+        },
+        {
+          "line": "Tricentis acquires Israeli AI-coding pioneer Tabnine for tens of millions of dollars (summary from limited source text)",
+          "source": "calcalistech.com",
+          "url": "https://www.calcalistech.com/ctechnews/article/1o1nf7vd3"
+        }
+      ]
+    },
+    {
+      "name": "India Deep Tech",
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "headline": "Sarvam launches a developer platform to build India-specific AI models",
+          "summary": "Sarvam AI’s new Epoch Builder Edition ships 7B and 70B-parameter multilingual LLMs trained on 2 trillion tokens across 10+ Indian languages, aimed at banks, government departments, startups and researchers who want to fine-tune models on their own data rather than depend on foreign ones. It bundles GPU clusters for distributed training, RLHF, instruction tuning, on-premises deployment, and red-teaming/toxicity tooling tuned for the Indian context, with a stated goal of handling code-mixed Hinglish and Kannanglish better. Sarvam has partnered with three IITs and two state governments on education and public-service pilots. Private preview starts August 2026, with general availability targeted for Q4 2026.",
+          "signal": [
+            "This is the “sovereign AI stack” thesis made concrete — training infrastructure, datasets and deployment tooling rather than a chatbot.",
+            "Watch whether Epoch Builder gets adopted beyond the launch-day pilots — infrastructure plays live or die on real deployment."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/technology/sarvam-ai-launches-platform-to-help-build-india-centric-ai-models/article71289797.ece",
+          "image": null,
+          "developing": false,
+          "key_stat": "70B params, 2 trillion tokens, 10+ Indian languages"
+        },
+        {
+          "headline": "Drone startup SUIND raises ₹20.5 crore to scale agriculture and inspection drones",
+          "summary": "Bengaluru-based autonomous drone startup SUIND, founded in 2020 by Kunal Shrivastava and Kevin Kleber, raised ₹20.5 crore led by Transition VC, with IIMA Ventures participating. The capital will scale manufacturing and commercial deployment of its agriculture drone “Bumblebee” and accelerate its inspection drone “WASP,” built on a vision-first autonomy platform designed for GPS-denied environments. India remains its primary market and engineering hub.",
+          "signal": [
+            "A modest raise but a concrete product/deployment story rather than a vision pitch — the kind of deployment-over-demo evidence worth weighting more than funding size alone.",
+            "GPS-denied-environment autonomy has an obvious defence/dual-use angle beyond agriculture, worth watching alongside today’s DRDO drone-swarm funding call."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Economic Times",
+          "url": "https://m.economictimes.com/tech/startups/drone-startup-suind-raises-rs-20-5-crore-funding-from-transition-vc-iima-ventures/articleshow/132730252.cms",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "DRDO challenges Indian startups to build jam-proof drone swarms under new funding push",
+          "summary": "DRDO is challenging Indian startups to build jam-proof drone swarms under a new funding push (source unreachable — headline only).",
+          "signal": [
+            "Pairs directly with SUIND’s GPS-denied-navigation work above — worth tracking whether any drone startups selected today respond to this specific call."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "News18",
+          "url": "https://www.news18.com/amp/india/drdo-challenges-indian-startups-to-build-jam-proof-drone-swarms-under-new-funding-push-10245862.html",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "IBM, Sarvam to build sovereign AI stack for governments and regulated sectors in India",
+          "summary": "IBM and Sarvam are partnering to build a sovereign AI stack for Indian governments and regulated sectors (source unreachable — headline only; this appears to be the same IBM GovTech partnership covered in fuller detail in today’s AI-roundup story).",
+          "signal": [
+            "See the AI-roundup story for the fuller detail available on this partnership — this headline adds no new information beyond it."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "analyticsindiamag.com",
+          "url": "https://analyticsindiamag.com/ai-news/ibm-sarvam-to-build-sovereign-ai-stack-for-governments-regulated-sectors-in-india",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "stories": [
+        {
+          "headline": "US economy grows a sluggish 1.5% in Q2 as inflation stays above target",
+          "summary": "US GDP grew at an annualised 1.5% in Q2 2026, down from 2.1% in Q1, as rising imports weighed on growth even as consumer spending rose. The Fed’s preferred inflation gauge (PCE) rose 3.7% year-on-year in June, down from 4.1% in May. The Fed held rates unchanged for a fifth straight meeting despite this, but three regional Fed presidents dissented in favour of hiking — the first time in a decade so many officials have dissented in the same direction.",
+          "signal": [
+            "Three same-direction Fed dissents is the number to watch — a decade-rare split signalling internal pressure to hike despite slowing growth."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Business | The Guardian",
+          "url": "https://www.theguardian.com/business/2026/jul/30/us-economy-growth-inflation-second-quarter",
+          "image": null,
+          "developing": false,
+          "key_stat": "1.5% Q2 GDP growth, 3.7% PCE inflation"
+        },
+        {
+          "headline": "Bengaluru gets India’s first tariff-free Scottish salmon shipment under new UK trade pact",
+          "summary": "Bengaluru received India’s first tariff-free shipment of Scottish salmon, produced by Bakkafrost Scotland and imported by Sashimi Foods, under the UK-India CETA trade deal, which took effect 15 July 2026 — the shipment arrived just two weeks later. CETA eliminated India’s previous 33% import tariff on Scottish salmon. UK industry estimates project up to £130M in additional Scottish salmon export opportunity over the next decade; the sample shipment itself was valued at just $801.81.",
+          "signal": [
+            "A tiny, symbolic first transaction rather than a meaningful trade volume yet — a useful marker for how fast CETA implementation is actually moving versus its headline projections."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-receives-indias-first-tariff-free-shipment-of-scottish-salmon-under-uk-trade-pact/article71290384.ece",
+          "image": null,
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "line": "BOE chief economist Huw Pill warns energy-price volatility from the Iran war could persist into 2027 (summary from limited source text)",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-31/boe-s-pill-warns-of-energy-price-volatility-persisting-into-2027"
+        },
+        {
+          "line": "Treasuries fell after dissenting Fed officials called for rate hikes and oil prices climbed (summary from limited source text)",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-31/treasuries-fall-as-fed-dissenters-flag-risks-oil-prices-climb"
+        },
+        {
+          "line": "See deep-tech: the US is extending AI-related trade restrictions from chips to Chinese robots and inverters",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/ronschmelzer/2026/07/31/ai-trade-war-robots-china/"
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "stories": [
+        {
+          "headline": "ISRO chief pushes academia-industry ties for 2035 space station, 2040 Moon landing goals",
+          "summary": "ISRO Chairman V. Narayanan, addressing an Andhra University event, reiterated India’s plans for an indigenous space station by 2035 and a crewed Moon landing by 2040, and called for closer academia-industry collaboration. He noted India’s satellites now support 50+ sectors, and that India developed indigenous cryogenic technology after being denied access by other countries.",
+          "signal": [
+            "Mostly a keynote-speech story with no new funding, timeline change or milestone — file as background, not a signal to act on."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/isro-calls-for-stronger-academia-industry-partnership-to-power-future-space-missions/article71290722.ece",
+          "image": "https://th-i.thgim.com/public/incoming/w5801g/article71292160.ece/alternates/LANDSCAPE_1200/VSP01_AU.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Supreme Court orders government to help identify Indians killed fighting in the Russia-Ukraine war",
+          "summary": "The Supreme Court directed the Ministry of External Affairs to appoint a nodal officer to facilitate DNA testing of Indian nationals killed on the Russia-Ukraine frontlines, so families can claim remains for last rites, and to ensure families get compensation-claim records, legal aid and translated Russian documents. The case stems from a petition alleging Indian youths were trafficked into the war after being lured by recruiters, then had their passports seized. The government told the court roughly 220 Indians joined the Russian Armed Forces during the conflict, 139 have since been released from their contracts, 51 have died, and the remains of 29 have been repatriated so far.",
+          "signal": [
+            "The 220 recruited / 51 dead / 29 repatriated numbers are the concrete facts here — a real scale on an under-covered story about Indian nationals trafficked into a foreign war.",
+            "Relevant to India-Russia relations and labour-trafficking policy, though not directly actionable for the reader."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/news/national/russia-ukraine-war-sc-directs-centre-to-appoint-nodal-officer-assist-families-of-indians-killed-or-missing-in-conflict/article71289568.ece",
+          "image": "https://th-i.thgim.com/public/incoming/rzqu6m/article71289617.ece/alternates/LANDSCAPE_1200/IMG_UKRAINE_RUSSIAN_WAR__2_1_7OCI201A.jpg",
+          "developing": true,
+          "key_stat": "51 dead, 29 remains repatriated so far"
+        },
+        {
+          "headline": "Ukraine deletes statement critical of India after Jaishankar-Sybiha call, as Black Sea strikes kill Indian sailors",
+          "summary": "Ukraine’s embassy in India deleted a statement criticising India’s differing safety advisories for the Strait of Hormuz versus the Black Sea, after Foreign Minister Jaishankar spoke with Ukraine’s Sybiha. The backdrop: an Indian national died when Ukraine struck the vessel MV OMORFI on 18 July; a day later Russia struck MV GOLDEN LEO, killing four more Indian seafarers; two more Indians remain missing after a strike on MV AGN RAGNAR. India has summoned both Russia’s and Ukraine’s chargés d’affaires over the strikes, and has separately summoned the US chargé d’affaires twice and Iran’s ambassador over Strait of Hormuz strikes on merchant vessels. India continues buying Russian oil despite a US Senate bill this week that would let Trump impose up to 100% tariffs on the top five buyers of Moscow’s goods.",
+          "signal": [
+            "Five Indian sailors dead or missing across two separate strikes on merchant vessels in under two weeks is the real headline number, easily lost under the diplomatic-statement framing.",
+            "India’s Russian-oil trade under threat of 100% US tariffs is the bigger structural story running underneath this — a distinct, higher-stakes thread from the Black Sea shipping-safety issue itself."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "ThePrint",
+          "url": "https://theprint.in/diplomacy/ukraine-deletes-statement-critical-of-indias-black-sea-advisory-after-jaishankar-sybiha-call/3002324/",
+          "image": null,
+          "developing": true,
+          "key_stat": "5 Indian sailors killed or missing in two strikes since July 18"
+        }
+      ],
+      "also": [
+        {
+          "line": "World Bank warns rising heat poses a growing risk to India’s economy and jobs (source unreachable — headline only)",
+          "source": "business-standard.com",
+          "url": "https://www.business-standard.com/economy/news/rising-heat-poses-growing-risk-to-india-s-economy-jobs-world-bank-126073101312_1.html"
+        },
+        {
+          "line": "Maldives-India ‘Favara-UPI’ instant cross-border payment corridor goes live for real-time mobile transfers (summary from limited source text)",
+          "source": "DD India",
+          "url": "https://ddindia.co.in/2026/07/favara-upi-cross-border-payment-corridor-goes-live-enabling-real-time-transfers-between-maldives-and-india/"
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "stories": [
+        {
+          "headline": "Hungary’s only nuclear plant to shut down for the first time as the Danube hits record lows",
+          "summary": "Hungary’s Paks nuclear plant, which supplies nearly half the country’s electricity across 44 years of operation, is being powered down for the first time ever because record-low Danube water levels can’t reliably supply its reactor cooling. PM Péter Magyar said output, already cut to 965 MW from a normal 2,000 MW, will fall further, with a full shutdown expected by Tuesday or Wednesday and the plant possibly offline for several weeks as the river keeps receding. Officials say the shutdown is safe and poses no public or environmental risk.",
+          "signal": [
+            "A concrete example of climate-driven physical constraints hitting even nuclear power, usually framed as climate-resilient, via cooling-water availability.",
+            "Half a country’s electricity supply going offline for weeks is a real grid-stress event worth watching for regional price and import contagion."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World - South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3362598/europes-wildfire-threat-expands-latest-heatwave?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/31/0054238b-1db5-4b34-b2ac-916267f67466_d9fdd538.jpg?itok=-osokLF_&v=1785508672",
+          "developing": true,
+          "key_stat": "965 MW vs normal 2,000 MW, first shutdown in 44 years"
+        },
+        {
+          "headline": "Kuwait says it shot down Iranian drones targeting ‘vital and military’ sites",
+          "summary": "Kuwait says it shot down Iranian drones targeting vital and military sites (source unreachable — headline only).",
+          "signal": [
+            "A new front-adjacent escalation data point worth tracking alongside the broader Iran-conflict energy and shipping disruptions covered elsewhere today."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "NDTV",
+          "url": "https://www.ndtv.com/world-news/kuwait-says-shot-down-iranian-drones-targeting-vital-and-military-sites-11850043",
+          "image": null,
+          "developing": true
+        }
+      ],
+      "also": [
+        {
+          "line": "See today’s lead — El Niño threatens India’s monsoon as the UN chief warns the planet is ‘on fire’",
+          "source": "World news | The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/jul/31/india-monsoon-el-nino-hot-dry-conditions-meteorologists"
+        }
+      ]
+    },
+    {
+      "name": "Other Interests",
+      "slug": "other-interests",
+      "stories": [
+        {
+          "headline": "Kids’ speech patterns predict mental illness 6 years later — better than expert clinicians",
+          "summary": "Stanford researchers analysed recorded stress interviews with 204 children (ages 9-13) and found four different NLP models predicted which children would develop mental-health disorders up to 6 years later more accurately than a panel of human clinical experts scoring the same interviews. Crucially, how children spoke — their use of function words like prepositions, conjunctions and pronouns — was more predictive than what they said, the actual content of their stress descriptions. Content still mattered at the extremes: descriptions of physical violence or severe social exclusion signalled risk, while mentions of social support, extracurricular activities or engagement with mental-health professionals signalled resilience. The approach used only audio from interviews already being collected for another study — no blood draws, cortisol tests or telomere measurements needed. Published in Nature Mental Health; the next step is validating on a larger dataset before any real screening tool could exist.",
+          "signal": [
+            "The “style over content” finding is the genuinely surprising, quotable result — a shift away from assuming trauma narratives themselves carry the predictive signal.",
+            "If this scales, it’s a template for cheap, passive, smartphone-based mental-health screening years ahead of symptom onset — directly relevant to the reader’s interest in neuroscience and education meeting real-world deployment.",
+            "Genuinely early-stage: a single ~200-person study awaiting replication, not a deployable tool yet — file as promising, not proven."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "neurosciencenews.com",
+          "url": "https://neurosciencenews.com/ai-speech-mental-health-nlp-31163/",
+          "image": null,
+          "developing": false,
+          "key_stat": "Predicted 6-year outcomes better than human expert panels"
+        },
+        {
+          "headline": "Climate change made Spain’s wildfire conditions 20 times more likely",
+          "summary": "A World Weather Attribution rapid analysis found the “tinderbox conditions” behind July’s wildfires, which burned 140,000 hectares in Spain and 115,000+ hectares in France and displaced over 300,000 people, were made at least 20 times more likely in central Spain and at least twice as likely in southwestern France by human-caused climate change, compared with the preindustrial climate (about 1.4°C cooler). These are conservative estimates. Fire-scale events like July’s are now expected every 6 years in central Spain and every 20 years in southwestern France. A wet winter that spurred vegetation growth, followed by an unusually dry spring and summer, converted that biomass into fuel; smoke pollution reached up to 400km from source fires.",
+          "signal": [
+            "The “20x more likely” figure is a standout, quotable attribution number — useful shorthand for how precisely attribution science can now tie specific extreme-weather events to climate change.",
+            "Ties directly to today’s other climate thread: this summer’s extreme-weather cluster spans multiple, independently verified mechanisms, not just one."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Conservation news",
+          "url": "https://news.mongabay.com/short-article/2026/07/climate-change-boosted-spain-wildfire-risk-20-fold-research-shows/",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/07/31053150/Wildfires_near_Cebreros_ground_station_Spain_ESA524257-e1785475981367-768x512.jpg",
+          "developing": false
+        },
+        {
+          "headline": "Climate change could eliminate malaria from West and Central Africa by 2100 — but worsen it elsewhere",
+          "summary": "A modelling study analysing over 50,000 historical malaria surveys (1900-2016) across sub-Saharan Africa finds rising heat, driven by climate change, is already pushing mosquitoes out of their ideal 16-34°C survival range in West and Central Africa. Under a high-emissions (~2.4°C) scenario, West Africa could see about 45 fewer malaria cases per 1,000 children by 2100 versus 2015-2020 levels, and Central Africa (e.g. DRC) about 16 fewer per 1,000, potentially enabling elimination there when combined with existing prevention. But the same warming is projected to increase malaria in cooler, higher-elevation areas, including parts of Kenya, Burundi, Angola, Zambia and northeastern South Africa, that have had less prevention investment and lower population immunity. Malaria killed an estimated 610,000 people across 80 countries in 2024.",
+          "signal": [
+            "The “burden shifting, not simply reducing” framing is the key nuance — a genuinely double-edged climate-health finding, not unambiguously good news.",
+            "Outside experts caution climate is only a “second-order effect” on malaria prevalence versus public-health investment — a useful check against over-reading the climate angle."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "New Scientist",
+          "url": "https://www.newscientist.com/article/2582737-climate-change-could-eliminate-malaria-from-west-and-central-africa/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+          "image": "https://www.newscientist.com/wp-content/uploads/2026/07/SEI_306887915.jpg",
+          "developing": false,
+          "key_stat": "-45 cases/1,000 in West Africa by 2100 (high-emissions scenario)"
+        }
+      ],
+      "also": [
+        {
+          "line": "90+ countries’ coral-reef scientists met in Auckland (19-24 July) to discuss climate drivers and Indigenous knowledge integration (summary from limited source text)",
+          "source": "Conservation news",
+          "url": "https://news.mongabay.com/2026/07/coral-reef-experts-press-on-with-climate-looming-over-international-conference/"
+        },
+        {
+          "line": "Experts say Europe’s wildfire debate over water-bomber shortages misses the deeper landscape-management problem (summary from limited source text)",
+          "source": "New Scientist",
+          "url": "https://www.newscientist.com/article/2582716-how-europe-can-make-its-landscapes-more-fire-resilient/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ]
+    },
+    {
+      "name": "Weekend Longform",
+      "slug": "longform",
+      "stories": [
+        {
+          "headline": "You’re carrying ‘ghost DNA’ from human relatives that left no fossils",
+          "summary": "A new Science study describes a computational method that detects ancient DNA sequences from extinct ‘ghost’ hominin lineages using only modern human genomes — no fossil DNA required. It correctly recovered known Neanderthal and Denisovan sequences as a validation check, then found that all modern humans carry DNA, up to about 1% of our genome, similar to typical Neanderthal ancestry, from a mystery hominin that interbred with Homo sapiens before the major out-of-Africa migration over 50,000 years ago — likely Homo heidelbergensis, which lived in Europe and Africa 700,000-200,000 years ago and may be the last common ancestor of humans, Neanderthals and Denisovans. Separately, people from Oceania carry ‘super-archaic’ DNA from a lineage that diverged from modern humans over 1.8 million years ago, likely Homo erectus DNA that entered Denisovans first, then modern humans. Much of this archaic DNA sits in genome regions tied to immune function and metabolism, plausible since fighting new pathogens and adapting to new food sources were major selective pressures. Why it’s worth 20 minutes: it reframes human evolution from a branching tree into, as co-author Priya Moorjani puts it, “a complex web of populations connected by repeated episodes of migration and mixing” — and does it with a technique that finds ancestors nobody has ever found a single bone from.",
+          "signal": [
+            "The methodological trick — inferring extinct lineages purely from modern genomes, no fossils needed — is the more durable takeaway than any single hominin’s story; expect more “ghost ancestors” to surface as the technique is applied elsewhere.",
+            "Good context if the reader ever discusses human-origins science, evolutionary biology, or genomics methodology."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Nautilus",
+          "url": "https://nautil.us/youre-carrying-ghost-dna-from-extinct-hominins-1283291/",
+          "image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/07/Currie_HERO_e83c6d.png?w=564",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Beyond Your Beat",
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "headline": "Spider-Man: Brand New Day becomes the biggest Spider-Man opener in India, crossing ₹42 crore on its opening Friday",
+          "summary": "Spider-Man: Brand New Day becomes the biggest Spider-Man opener in India, crossing the ₹42 crore mark on its opening Friday (source unreachable — headline only).",
+          "signal": [
+            "Pure box-office trivia — included here as a genuine outside-the-beat item, not for any deeper analysis."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Indian Express",
+          "url": "https://indianexpress.com/article/entertainment/hollywood/spider-man-brand-new-day-box-office-collection-worldwide-day-1-updates-mcu-film-rs-72-cr-india-10811613/",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Modi says he wants to ‘forgive’ Gen Z protesters who used abusive language against him",
+          "summary": "Responding to a Jantar Mantar protest where demonstrators, including women, used expletives against him and his late mother, PM Modi posted a video saying “I want to forgive them,” calling it a youthful “error of judgment” that can be corrected, and urging society to “hug them and show them the right path” rather than pursue them through police and courts. The remarks came the same day a zero FIR was filed in Noida against a 25-year-old woman, Ruchika Singh, over the protest. Congress’s Rahul Gandhi responded on X: “PM Modi and Amit Shah — you cannot threaten Gen Z into silence... You are India’s past. Be careful about how you treat India’s future.”",
+          "signal": [
+            "A notable tonal shift toward conciliatory “forgiveness” framing from a government that has otherwise pursued an FIR over the same incident — worth watching whether that FIR is actually dropped, the real test of the rhetoric.",
+            "Outside the reader’s usual beat, but a genuine data point on how the ruling establishment is choosing to handle a viral Gen-Z backlash."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/abuses-never-solve-anything-lets-guide-the-misguided-pm-modi-on-jantar-mantar-protests/article71292098.ece",
+          "image": null,
+          "developing": true
+        }
+      ],
+      "also": [
+        {
+          "line": "Indian shares notched monthly gains in July on foreign inflows, as AI-trade unwinding and strong earnings drew buyers back (source unreachable — headline only)",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/india/indian-shares-seen-opening-higher-global-cues-foreign-buying-2026-07-31/"
+        }
+      ]
+    }
+  ],
+  "opportunities": [],
+  "brief": [
+    {
+      "line": "UN chief warns planet is ‘on fire’ as El Niño threatens India’s monsoon",
+      "id": "climate-energy-89f58edc28",
+      "url": "https://www.theguardian.com/environment/2026/jul/31/india-monsoon-el-nino-hot-dry-conditions-meteorologists"
+    },
+    {
+      "line": "India’s AI grid bill nearly doubles to 26.3 GW by 2031-32",
+      "id": "ai-e33fa14411",
+      "url": "https://www.forbesindia.com/article/ai-tracker/this-week-in-ai-indias-sovereign-ai-ambitions-get-bigger/2996568/1"
+    },
+    {
+      "line": "Sarvam launches 70B-param, 10-language India LLM platform",
+      "id": "india-deep-tech-36bd5281d2",
+      "url": "https://www.thehindu.com/sci-tech/technology/sarvam-ai-launches-platform-to-help-build-india-centric-ai-models/article71289797.ece"
+    },
+    {
+      "line": "UPI merchant fees may return for large merchants above ₹2,000/txn",
+      "id": "indian-startups-b0e0ca97fd",
+      "url": "https://inc42.com/features/upis-monetisation-moment-why-mdr-is-back-on-the-table/"
+    },
+    {
+      "line": "Quanta: 30-60% of AI ‘reasoning’ steps found causally irrelevant to the answer",
+      "id": "deep-tech-3740ca6a23",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/"
+    },
+    {
+      "line": "EU’s AI-content labelling rules take effect Aug 2, fines up to €15M",
+      "id": "ai-2b050ff807",
+      "url": "https://www.theguardian.com/technology/2026/jul/31/ai-labels-to-be-compulsory-on-authentic-looking-content-under-eu-rules"
+    },
+    {
+      "line": "Antora raises $550M for heat batteries powering data centers",
+      "id": "climate-energy-652c8c2b4b",
+      "url": "https://www.canarymedia.com/articles/climatetech-finance/antora-550m-heat-batteries"
+    },
+    {
+      "line": "US Q2 GDP slows to 1.5%; 3 Fed officials dissent for a rate hike",
+      "id": "global-economics-1f92c156f3",
+      "url": "https://www.theguardian.com/business/2026/jul/30/us-economy-growth-inflation-second-quarter"
+    },
+    {
+      "line": "Glenmark Pharma profit up 930% YoY to ₹483 Cr",
+      "id": "health-tech-f6f86ad338",
+      "url": "https://www.cnbctv18.com/market/stocks/glenmark-pharma-share-price-q1-profit-jumps-over-10-fold-as-india-north-america-businesses-power-growth-19959244.htm"
+    },
+    {
+      "line": "Odisha farmers sow into a 40%-rainfall-deficit June as El Niño builds",
+      "id": "agritech-363391befa",
+      "url": "https://www.theguardian.com/global-development/2026/jul/30/rain-festival-indian-farmers-super-el-nino-raja-odisha"
+    },
+    {
+      "line": "Stanford: kids’ speech predicts mental illness 6 years out, beats expert panels",
+      "id": "other-interests-d9ed0bc251",
+      "url": "https://neurosciencenews.com/ai-speech-mental-health-nlp-31163/"
+    },
+    {
+      "line": "5 Indian sailors killed or missing in Black Sea strikes since July 18",
+      "id": "india-910aee0c31",
+      "url": "https://theprint.in/diplomacy/ukraine-deletes-statement-critical-of-indias-black-sea-advisory-after-jaishankar-sybiha-call/3002324/"
+    }
+  ],
+  "markets": {
+    "generated_at": "2026-08-01T01:04:41.351168+00:00",
+    "quotes": [
+      {
+        "label": "Nifty 50",
+        "value": 24383.6,
+        "unit": "",
+        "change_pct": 0.55,
+        "usd": false
+      },
+      {
+        "label": "Sensex",
+        "value": 78094.64,
+        "unit": "",
+        "change_pct": 0.57,
+        "usd": false
+      },
+      {
+        "label": "USD/INR",
+        "value": 95.38,
+        "unit": "₹",
+        "change_pct": -0.32,
+        "usd": false
+      },
+      {
+        "label": "Brent Crude",
+        "value": 90.12,
+        "unit": "$/bbl",
+        "change_pct": 1.22,
+        "usd": true
+      },
+      {
+        "label": "Bitcoin",
+        "value": 62891.63,
+        "unit": "$",
+        "change_pct": -2.83,
+        "usd": true
+      },
+      {
+        "label": "Gold",
+        "value": 125685,
+        "unit": "₹/10g",
+        "change_pct": -0.04,
+        "usd": false
+      },
+      {
+        "label": "Silver",
+        "value": 177169,
+        "unit": "₹/kg",
+        "change_pct": -1.77,
+        "usd": false
+      }
+    ]
+  }
+}
