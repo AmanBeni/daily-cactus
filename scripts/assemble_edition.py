@@ -338,6 +338,8 @@ def assemble_one(draft_path, names, colophon, markets, warnings_out=None):
     date = draft.get("date") or draft_path.stem
     refs = load_refs_for_date(date)
     warnings = []
+    DERIVED["count"] = 0    # per-edition: main() processes multiple drafts in
+                             # one run, and this must not accumulate across them
 
     lead = None
     if draft.get("lead"):
