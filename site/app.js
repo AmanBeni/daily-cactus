@@ -280,12 +280,21 @@ function summaryHTML(summary) {
 // ALWAYS escapes first, so the marker syntax can never be used to inject
 // markup — the only thing that survives is <mark>. Capped at two marks per
 // block: past that it stops reading as emphasis and starts reading as noise.
+// Two emphasis marks, both escaped FIRST so neither can inject markup:
+//   ==text==  yellow marker pen   (headlines — the thing you scan)
+//   __text__  black pencil rule   (body — the thing you read)
+// Colour carries the meaning: emphasis underlines are BLACK, and every
+// clickable underline on the page is BLUE (see a.sk in style.css). So an
+// underline never has to be guessed at — blue goes somewhere, black doesn't.
+// Two marks per block, max: past that it stops reading as emphasis.
 const _HL_RE = /==([^=]{1,120})==/g;
+const _UL_RE = /__([^_]{1,120})__/g;
 function hl(text) {
   const safe = esc(String(text == null ? "" : text));
-  let n = 0;
-  return safe.replace(_HL_RE, (whole, phrase) =>
-    ++n <= 2 ? `<mark class="hl">${phrase}</mark>` : phrase);
+  let n = 0, u = 0;
+  return safe
+    .replace(_HL_RE, (w, p) => (++n <= 2 ? `<mark class="hl">${p}</mark>` : p))
+    .replace(_UL_RE, (w, p) => (++u <= 2 ? `<span class="ul">${p}</span>` : p));
 }
 
 // v6 summary block: a one-line numbers-first hook, then 3-5 bullets.

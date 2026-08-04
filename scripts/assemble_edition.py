@@ -92,6 +92,70 @@ def coerce_points(v):
     return []
 
 
+# --- v6.1: derive hook + points server-side when the draft didn't supply them.
+#
+# The routine prompt lives in the Claude Code Routine's own configuration, NOT
+# in this repo, so editing ROUTINE_PROMPT_B.md changes nothing until a human
+# re-pastes it. That dependency silently produced two consecutive old-format
+# editions (29 Jul, 01 Aug 2026). The format must not hinge on a manual step.
+#
+# So: if a story arrives with a `summary` and no `points`, split it here. A
+# model-written hook/points is better prose and still wins when the prompt IS
+# current — this is the floor, not the ceiling.
+# Mirrors _SRC_FLAG_RE in site/app.js — the editor's provenance flags.
+_SRC_FLAG_RE = re.compile(
+    r"\((?:source unreachable[^)]*|summary from limited source text)\)\s*$", re.I)
+
+_SENT_SPLIT = re.compile(r'(?<=[.!?])\s+(?=[A-Z"“‘])')
+# Deliberately not splitting on "$1.5B" or "Rs. 5" — the lookahead requires a
+# capital letter or quote after the space, so a decimal or digit never splits.
+
+_NUM_PHRASE = re.compile(
+    r"(?:[$₹€£]\s?\d[\d,.]*\s?(?:bn|billion|million|trillion|crore|lakh|k|m|b)?"
+    r"|\d[\d,.]*\s?%"
+    r"|\d[\d,.]*\s?(?:bn|billion|million|trillion|crore|lakh|GW|MW|km|kg|tonnes?|x))",
+    re.I)
+
+MIN_POINTS = 2          # below this a bullet list is sillier than a paragraph
+MAX_POINTS = 5
+
+# Counts stories whose bullets this script had to derive. A non-zero count at
+# the end of a run is the signal that Routine B is running a stale prompt.
+DERIVED = {"count": 0, "total": 0}
+
+
+def split_summary(summary: str):
+    """(hook, points) from a single-paragraph summary, or (None, []) if it is
+    too short or too thin to be worth splitting."""
+    text = (summary or "").strip()
+    if not text or _SRC_FLAG_RE.search(text):
+        # Provenance-flagged summaries ("source unreachable — headline only")
+        # are one honest sentence by design. Never bullet them.
+        return None, []
+    parts = [p.strip() for p in _SENT_SPLIT.split(text) if p.strip()]
+    if len(parts) < MIN_POINTS + 1:
+        return None, []
+    hook, rest = parts[0], parts[1:]
+    if len(rest) > MAX_POINTS:
+        # Fold the tail into the last bullet rather than dropping any of it —
+        # never silently lose text the editor wrote.
+        rest = rest[:MAX_POINTS - 1] + [" ".join(rest[MAX_POINTS - 1:])]
+    return hook, rest
+
+
+def auto_highlight(text: str) -> str:
+    """Wrap the first number-bearing phrase in ==markers== so the yellow pen
+    appears even when the editor didn't mark anything. No-op if the editor
+    already marked this field, or if there is no number to point at."""
+    t = str(text or "")
+    if not t or "==" in t:
+        return t
+    m = _NUM_PHRASE.search(t)
+    if not m:
+        return t
+    return f"{t[:m.start()]}=={m.group(0)}=={t[m.end():]}"
+
+
 def coerce_signal(v):
     if isinstance(v, list):
         return [str(x) for x in v if str(x).strip()]
@@ -193,6 +257,18 @@ def build_story(item, refs, warnings):
     # edition keeps rendering exactly as it does today.
     hook = (item.get("hook") or "").strip()
     points = coerce_points(item.get("points"))
+    if not points:
+        # v6.1 fallback: the editor sent an old-format single-paragraph
+        # summary. Split it here rather than shipping a wall of text.
+        derived_hook, derived_points = split_summary(story["summary"])
+        if derived_points:
+            hook = hook or derived_hook
+            points = derived_points
+            story["summary"] = ""      # the bullets now carry it; don't double up
+            DERIVED["count"] += 1
+    # The yellow pen should not depend on a hand-pasted prompt either.
+    hook = auto_highlight(hook)
+    story["headline"] = auto_highlight(story["headline"])
     if hook:
         story["hook"] = hook
     if points:
@@ -330,6 +406,12 @@ def assemble_one(draft_path, names, colophon, markets, warnings_out=None):
     n_stories = (1 if lead else 0) + len(frontpage) + sum(len(s["stories"]) for s in sections)
     print(f"  {out.relative_to(ROOT)}  edition {edition['edition']}  "
           f"{n_stories} story slots, {len(opportunities)} opps")
+    if DERIVED["count"]:
+        print(f"    !! {DERIVED['count']} of {n_stories} stories arrived WITHOUT "
+              f"hook/points — bullets were derived from the paragraph summary.")
+        print(f"    !! That means Routine B is running a STALE PROMPT. Re-paste "
+              f"ROUTINE_PROMPT_B.md into the WRITE routine to get model-written "
+              f"bullets and highlights instead of derived ones.")
     for w in warnings:
         print(f"    warn: {w}")
     if warnings_out is not None:

@@ -146,7 +146,14 @@ exception is the `==highlight==` marker described below):
   valuation==`. It renders as a yellow marker-pen stroke. At most ONE per
   field, and only when a specific number or name deserves the reader's eye —
   a page where everything is highlighted is a page where nothing is. Never use
-  it in `points`, `signal`, or `editors_read`.
+  it in `signal` or `editors_read`.
+- **__underline__** — inside a `points` bullet, wrap the ONE phrase worth
+  remembering in double underscores: `__cut 4,000 jobs__`. It renders as a
+  black pencil rule. At most ONE bullet per story gets this, and plenty of
+  stories need none. Never use it in `headline` or `hook` (those take the
+  yellow pen instead), and never in `signal` or `editors_read`.
+  NOTE: blue pencil rules on the page mean "this is a link". Black means
+  "this matters". Never mark a phrase just to decorate it.
 - **signal** — 2-4 short bullets (rendered under "The Signal"): the thing to
   remember PLUS the "so what" for THIS reader. Write at least 2 — a lone
   bullet is almost always a sign the second one was worth finding. If the
