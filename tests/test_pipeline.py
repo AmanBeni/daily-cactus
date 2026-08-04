@@ -244,6 +244,62 @@ def test_assemble_passes_through_bullet_summaries():
           "points" not in legacy and legacy["summary"] == "One paragraph.")
 
 
+# ------------------------------------------------- v6.1 stale-prompt floor ---
+
+def test_summary_splits_into_hook_and_points():
+    s = ("Skyroot's Vikram-1 reached orbit on its first attempt. "
+         "The rocket carried 350kg to a 450km orbit. "
+         "It makes India the third nation with a private orbital launch. "
+         "The company has raised $95M to date.")
+    hook, pts = ae.split_summary(s)
+    check("the first sentence becomes the hook", hook.startswith("Skyroot"))
+    check("the rest become 3 bullets", len(pts) == 3)
+    check("no bullet repeats the hook", all(p != hook for p in pts))
+
+
+def test_summary_split_does_not_break_on_decimals():
+    hook, pts = ae.split_summary(
+        "Funding hit $1.5B this quarter. Rs. 400 crore came from SIDBI. "
+        "The round closed in June.")
+    check("a decimal like $1.5B never splits a sentence",
+          hook == "Funding hit $1.5B this quarter." and len(pts) == 2)
+
+
+def test_short_or_flagged_summaries_are_left_alone():
+    hook, pts = ae.split_summary("One short sentence only.")
+    check("a one-sentence summary is not bulleted", hook is None and pts == [])
+    hook, pts = ae.split_summary(
+        "Nvidia is reportedly investing in SSI. It may be large. "
+        "It is unclear. (source unreachable — headline only)")
+    check("a source-unreachable summary is never bulleted",
+          hook is None and pts == [])
+
+
+def test_auto_highlight_marks_the_first_number():
+    check("a dollar figure gets marked",
+          ae.auto_highlight("Revenue rose to $40B last year") ==
+          "Revenue rose to ==$40B== last year")
+    check("a percentage gets marked",
+          "==2,580%==" in ae.auto_highlight("Profits surged 2,580% on AI demand"))
+    check("an editor's own marker is never double-wrapped",
+          ae.auto_highlight("Revenue rose to ==$40B==") == "Revenue rose to ==$40B==")
+    check("text with no number is left untouched",
+          ae.auto_highlight("The alliance was announced") == "The alliance was announced")
+
+
+def test_old_format_draft_still_yields_bullets():
+    """The whole point: a stale routine prompt must not cost the reader bullets."""
+    refs = {"ai-1": {"url": "https://a.example/1", "source": "A", "title": "Chips rise"}}
+    story = ae.build_story({"id": "ai-1", "headline": "Chips rise",
+                            "summary": "Profits surged 2,580% on AI demand. "
+                                       "Revenue reached $12B in H1. "
+                                       "Exports drove most of the gain."}, refs, [])
+    check("bullets are derived from an old-format summary", len(story["points"]) == 2)
+    check("a hook is derived too", story["hook"].startswith("Profits surged"))
+    check("the paragraph is cleared so it is not shown twice", story["summary"] == "")
+    check("the derived hook carries an auto highlight", "==" in story["hook"])
+
+
 def main():
     for name, fn in list(globals().items()):
         if name.startswith("test_") and callable(fn):
