@@ -275,29 +275,58 @@ def test_short_or_flagged_summaries_are_left_alone():
           hook is None and pts == [])
 
 
-def test_auto_highlight_marks_the_first_number():
-    check("a dollar figure gets marked",
-          ae.auto_highlight("Revenue rose to $40B last year") ==
-          "Revenue rose to ==$40B== last year")
-    check("a percentage gets marked",
-          "==2,580%==" in ae.auto_highlight("Profits surged 2,580% on AI demand"))
-    check("an editor's own marker is never double-wrapped",
-          ae.auto_highlight("Revenue rose to ==$40B==") == "Revenue rose to ==$40B==")
-    check("text with no number is left untouched",
-          ae.auto_highlight("The alliance was announced") == "The alliance was announced")
+def test_highlight_marks_the_claim_not_a_bare_number():
+    check("a milestone phrase is the claim",
+          ae.highlight_phrase("Modi meets founders after India's first private orbital launch")
+          == "India's first private orbital launch")
+    check("a number welded to its noun qualifies",
+          ae.highlight_phrase("India curtailed 8,133 GWh of solar power in Q1")
+          == "8,133 GWh of solar power")
+    check("a bare number is NOT highlighted",
+          ae.highlight_phrase("Pakistan accused of killing 30 protesters") is None)
+    check("a lone year is NOT highlighted",
+          ae.highlight_phrase("The plan was set out in 2025") is None)
+    check("a lone percentage with no noun is NOT highlighted",
+          ae.highlight_phrase("Shares fell 8.9% on the news") is None)
+    check("a source-unreachable line is never highlighted",
+          ae.highlight_phrase("Something happened (source unreachable — headline only)") is None)
 
 
-def test_old_format_draft_still_yields_bullets():
+def test_underline_is_a_quantified_consequence():
+    check("a quantified forward-looking clause is underlined",
+          ae.underline_phrase(["The plant will add 26.3 GW of demand by 2030."])
+          == "will add 26.3 GW of demand by 2030")
+    check("a vague modal clause with no number is skipped",
+          ae.underline_phrase(["The market now stands lower."]) is None)
+    check("no bullets means no underline",
+          ae.underline_phrase([]) is None)
+
+
+def test_emphasis_never_marks_the_same_fact_twice():
+    story = {"headline": "Apple hits $5tn as sell-off deepens",
+             "hook": "Apple briefly touched a $5tn market cap on Tuesday.",
+             "points": ["It could rise another 12% analysts said."]}
+    ae.apply_emphasis(story)
+    hl_count = story["headline"].count("==") + story["hook"].count("==")
+    check("exactly one field carries the yellow highlight (2 markers, one pair)",
+          hl_count == 2)
+    check("the highlight landed in the headline, not the hook",
+          "==" in story["headline"] and "==" not in story["hook"])
+    check("the consequence bullet is underlined", "__" in story["points"][0])
+
+
+def test_old_format_draft_still_yields_bullets_and_marks():
     """The whole point: a stale routine prompt must not cost the reader bullets."""
     refs = {"ai-1": {"url": "https://a.example/1", "source": "A", "title": "Chips rise"}}
-    story = ae.build_story({"id": "ai-1", "headline": "Chips rise",
-                            "summary": "Profits surged 2,580% on AI demand. "
-                                       "Revenue reached $12B in H1. "
+    story = ae.build_story({"id": "ai-1", "headline": "Chip firm raises $75M Series B",
+                            "summary": "The firm raised $75M in a Series B round. "
+                                       "It plans to hire 200 engineers by 2027. "
                                        "Exports drove most of the gain."}, refs, [])
     check("bullets are derived from an old-format summary", len(story["points"]) == 2)
-    check("a hook is derived too", story["hook"].startswith("Profits surged"))
     check("the paragraph is cleared so it is not shown twice", story["summary"] == "")
-    check("the derived hook carries an auto highlight", "==" in story["hook"])
+    check("the headline carries a claim highlight around the raise",
+          "==" in story["headline"] and "$75M" in story["headline"]
+          and story["headline"].index("==") < story["headline"].index("$75M"))
 
 
 def main():

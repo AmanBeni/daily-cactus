@@ -141,19 +141,24 @@ exception is the `==highlight==` marker described below):
 - **summary** — write this ONLY when a story is too thin for bullets (an
   unreachable source, or a single-fact item). If you write `points`, omit
   `summary` entirely. Never write both.
-- **==highlight==** — inside the `headline` and the `hook`, wrap the ONE
-  phrase that carries the story in double equals: `==$40B at a $300B
-  valuation==`. It renders as a yellow marker-pen stroke. At most ONE per
-  field, and only when a specific number or name deserves the reader's eye —
-  a page where everything is highlighted is a page where nothing is. Never use
-  it in `signal` or `editors_read`.
-- **__underline__** — inside a `points` bullet, wrap the ONE phrase worth
-  remembering in double underscores: `__cut 4,000 jobs__`. It renders as a
-  black pencil rule. At most ONE bullet per story gets this, and plenty of
-  stories need none. Never use it in `headline` or `hook` (those take the
-  yellow pen instead), and never in `signal` or `editors_read`.
-  NOTE: blue pencil rules on the page mean "this is a link". Black means
-  "this matters". Never mark a phrase just to decorate it.
+- **==highlight== — mark THE CLAIM, not a number.** Wrap the ONE phrase that
+  says *why this story matters* in double equals. That is a whole phrase, never
+  a bare figure: `==India's first private orbital launch==`, `==8,133 GWh of
+  solar power==`, `==largest drugmaker by market value==`. A lone `==$75M==` or
+  `==37%==` is wrong — a number with no noun tells the reader nothing; weld it
+  to what it measures (`==raises $75M for voice models==`). Put it in the
+  `headline` when the headline carries the claim, OTHERWISE in the `hook` —
+  NEVER both (the same fact highlighted twice looks broken). At most ONE mark,
+  and skip it entirely when nothing rises to "the claim". Never in `signal` or
+  `editors_read`.
+- **__underline__ — mark THE CONSEQUENCE.** Inside ONE `points` bullet, wrap a
+  forward-looking, ideally quantified implication — what happens next, who is
+  affected, the scale: `__will add 26.3 GW of demand by 2030__`, `__could cut
+  costs 40%__`. This must be a DIFFERENT fact from the yellow claim, never a
+  restatement of it. At most one bullet per story, and plenty of stories need
+  none. Never in `headline`, `hook`, `signal`, or `editors_read`.
+  NOTE: blue pencil rules on the page already mean "this is a link". Black
+  means "this matters". Never mark a phrase just to decorate it.
 - **signal** — 2-4 short bullets (rendered under "The Signal"): the thing to
   remember PLUS the "so what" for THIS reader. Write at least 2 — a lone
   bullet is almost always a sign the second one was worth finding. If the
@@ -175,7 +180,7 @@ why-go, and note the city or "global" so the tier is clear (no `signal`).
 {
   "date": "YYYY-MM-DD",
   "brief": [ { "id": "ai-49dbfe7fe1", "line": "Nous Research raising at $1.5B valuation" } ],
-  "lead": { "id": "ai-49dbfe7fe1", "headline": "Nous Research raising at ==$1.5B==", "hook": "Nous Research is raising at a ==$1.5B valuation==, triple its January round.", "points": ["...", "...", "..."], "signal": ["...", "..."], "key_stat": "$1.5B · 3x in 6 months", "editors_read": "...", "developing": false, "badge": "" },
+  "lead": { "id": "ai-49dbfe7fe1", "headline": "Nous Research raising at a ==$1.5B valuation==", "hook": "The open-source AI lab is raising at triple its January mark.", "points": ["Round led by Paradigm at $1.5B, up from $500M in January.", "The raise __could reach $2B if oversubscribed__, sources say.", "..."], "signal": ["...", "..."], "key_stat": "$1.5B · 3x in 6 months", "editors_read": "...", "developing": false, "badge": "" },
   "frontpage": [
     { "id": "world-3f9c2d81aa", "headline": "...", "hook": "...", "points": ["...", "...", "..."], "signal": ["...", "..."], "editors_read": "...", "developing": false }
   ],
