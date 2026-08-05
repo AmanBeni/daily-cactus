@@ -29,7 +29,7 @@
   },
   "frontpage": [
     {
-      "headline": "Modi meets Skyroot founders after India's first private orbital launch",
+      "headline": "Modi meets Skyroot founders after ==India's first private orbital launch==",
       "summary": "",
       "signal": [
         "High-level political validation for private spacetech just as the sector posts its first unicorn and its first private orbital launch — see today's funding story in Indian Startups.",
@@ -71,7 +71,7 @@
       "editors_read": "This is the same strategy as chip export controls — cordon off a fast-moving hardware category before supply chains lock in — applied one step earlier in the cycle, before humanoid robots are anywhere near mainstream deployment. Worth watching whether India and other markets face pressure to align with US or Chinese robotics/data standards the way they already have with telecom and semiconductors, since that will shape which supply chains India's own robotics and deep-tech manufacturing ambitions plug into."
     },
     {
-      "headline": "Cursor launches a ==₹649==/month India-only plan ahead of its SpaceX acquisition",
+      "headline": "Cursor launches a ₹649/month India-only plan ahead of its SpaceX acquisition",
       "summary": "",
       "signal": [
         "Cursor is racing to lock in India's 27-million-strong developer base — the world's second largest — before its $60B SpaceX acquisition closes.",
@@ -84,7 +84,7 @@
       "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
       "image": null,
       "developing": false,
-      "hook": "AI coding startup Cursor introduced Cursor Start, a ==₹649==-a-month (about $7) India-specific subscription priced well below its standard $20-a-month Pro tier, weeks before its expected $60 billion all-stock acquisition by SpaceX closes in Q3.",
+      "hook": "AI coding startup Cursor introduced Cursor Start, a ₹649-a-month (about $7) India-specific subscription priced well below its standard $20-a-month Pro tier, weeks before its expected $60 billion all-stock acquisition by SpaceX closes in Q3.",
       "points": [
         "Cursor says India is already its third-largest market globally and has the highest concentration of power users, with its user base more than tripling over the past year — a scale Cursor's APAC head Simon Green attributes partly to India's developer talent pool (GitHub counts more than 27 million developers in India, second only to the US, with over 2 million joining in 2026 alone).",
         "Cursor Start includes Composer 2.5 and Grok 4.5 with higher usage limits than the free tier, but excludes frontier models from OpenAI/Anthropic and features like Bugbot and Auto Mode.",
@@ -196,7 +196,7 @@
       "slug": "ai",
       "stories": [
         {
-          "headline": "Cursor launches a ==₹649==/month India-only plan ahead of its SpaceX acquisition",
+          "headline": "Cursor launches a ₹649/month India-only plan ahead of its SpaceX acquisition",
           "summary": "",
           "signal": [
             "Sets a template — following OpenAI's ChatGPT Go — of India-first pricing becoming standard AI go-to-market strategy.",
@@ -209,7 +209,7 @@
           "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
           "image": null,
           "developing": false,
-          "hook": "Cursor introduced Cursor Start, a ==₹649==-a-month (~$7) India-specific tier well below its $20 Pro plan, weeks ahead of its expected $60B SpaceX acquisition closing in Q3.",
+          "hook": "Cursor introduced Cursor Start, a ₹649-a-month (~$7) India-specific tier well below its $20 Pro plan, weeks ahead of its expected $60B SpaceX acquisition closing in Q3.",
           "points": [
             "India is already Cursor's third-largest market with the highest concentration of power users, its user base having more than tripled in the past year — a pool GitHub puts at 27M+ developers, second only to the US.",
             "The plan includes Composer 2.5 and Grok 4.5 but excludes frontier third-party models and advanced features like Bugbot."
@@ -236,7 +236,7 @@
           ]
         },
         {
-          "headline": "Brookfield sees ==6.5 GW== of AI data-centre capacity coming online in India",
+          "headline": "Brookfield sees ==6.5 GW of AI data-centre== capacity coming online in India",
           "summary": "Brookfield expects 6.5 GW of AI data-centre capacity to come online in India, according to Reuters. (source unreachable — headline only)",
           "signal": [
             "Signals large-scale committed AI-infrastructure investment in India, though cost, timeline and site details aren't available from the headline alone."
@@ -263,10 +263,10 @@
           "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
           "image": null,
           "developing": true,
-          "hook": "SK Hynix is set to pay employees bonuses averaging ==$476,000 ==this year — mostly cash, worth 10% of operating profit — dwarfing Samsung's roughly $400,000 for its memory division and $135,000 for its loss-making foundry division.",
+          "hook": "SK Hynix is set to pay employees bonuses averaging $476,000 this year — mostly cash, worth 10% of operating profit — dwarfing Samsung's roughly $400,000 for its memory division and $135,000 for its loss-making foundry division.",
           "points": [
             "A June union survey found 81.5% of Samsung foundry employees and nearly half of all semiconductor-division staff want to leave within two years; over 200 union members reportedly left for SK Hynix in the four months to April.",
-            "SK Hynix added 2,152 employees in H1 2026 and aims to double manufacturing capacity in five years; Samsung plans to hire 60,000 over five years.",
+            "SK Hynix added 2,152 employees in H1 2026 and aims to double manufacturing capacity in five years; Samsung __plans to hire 60__,000 over five years.",
             "South Korea's semiconductor industry needs roughly 304,000 workers by 2031 and faces a 54,000-worker shortfall.",
             "Samsung has won a court injunction barring two former engineers from working at SK Hynix for 18 months, citing national core technology protections."
           ],
@@ -304,7 +304,7 @@
           "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
           "image": null,
           "developing": false,
-          "hook": "Anthropic's Claude Mythos Preview derived an end-to-end key-recovery attack on the post-quantum scheme HAWK-256, cutting its work factor from 2^64 to 2^38 and running in ~3h42m on a 96-core server, plus a technique (the \"Möbius Bridge\") making an existing 7-round AES-128 attack 200-==800x== faster.",
+          "hook": "Anthropic's Claude Mythos Preview derived an end-to-end key-recovery attack on the post-quantum scheme HAWK-256, cutting its work factor from 2^64 to 2^38 and running in ~3h42m on a 96-core server, plus a technique (the \"Möbius Bridge\") making an existing 7-round AES-128 attack 200-800x faster.",
           "points": [
             "Neither threatens production systems — HAWK-256 is a challenge parameter, not a NIST security level, and the AES attack still needs ~2^105 chosen plaintexts.",
             "The HAWK result took ~60 hours and ~$100,000 in API costs; the AES result took several days and roughly a billion output tokens to generate, but nearly a month of human researcher time to verify."
@@ -326,7 +326,7 @@
           "developing": true
         },
         {
-          "headline": "Apple hits ==$5==tn as AI-stock sell-off intensifies and Nasdaq enters correction",
+          "headline": "Apple ==hits $5tn== as AI-stock sell-off intensifies and Nasdaq enters correction",
           "summary": "",
           "signal": [
             "Apple's ascent is being read as an \"AI laggard\" advantage — the market is rewarding the company that skipped the infrastructure spending race.",
@@ -339,7 +339,7 @@
           "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks",
           "image": null,
           "developing": true,
-          "hook": "Apple briefly touched a ==$5.04==tn market cap on Tuesday — only the second company ever to cross $5tn — as investors fled AI and semiconductor stocks.",
+          "hook": "Apple briefly touched a $5.04tn market cap on Tuesday — only the second company ever to cross $5tn — as investors fled AI and semiconductor stocks.",
           "points": [
             "The Nasdaq 100 fell as much as 1.8%, more than 10% below its early-June high (a technical correction), while Intel, AMD, Sandisk, Western Digital and Seagate all fell over 4%.",
             "Analysts cite renewed worry over AI capex funded by debt, competition from cheaper Chinese chipmakers, and \"circular funding\" where AI firms finance each other.",
@@ -349,7 +349,7 @@
           "key_stat": "$5.04T · Apple's market cap"
         },
         {
-          "headline": "South Korea's stock market hits a three-month low as chip stocks slide",
+          "headline": "South Korea's stock market hits a ==three-month low== as chip stocks slide",
           "summary": "",
           "signal": [
             "China's CXMT +466% debut alongside DUV chip-tool progress — not AI demand itself — is what's actually spooking chip investors.",
@@ -362,7 +362,7 @@
           "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
           "image": null,
           "developing": true,
-          "hook": "Kospi fell ==11.5%== to its lowest level since mid-April as SK Hynix and Samsung Electronics both dropped more than 10%, part of a broader chip-stock sell-off tied to concerns about AI companies' debt-funded datacentre spending.",
+          "hook": "Kospi fell 11.5% to its lowest level since mid-April as SK Hynix and Samsung Electronics both dropped more than 10%, part of a broader chip-stock sell-off tied to concerns about AI companies' debt-funded datacentre spending.",
           "points": [
             "The sell-off followed a report that China had begun mass production of homegrown deep ultraviolet (DUV) chip-making tools, and Chinese memory chipmaker CXMT's shares rose 466% on its Shanghai listing debut.",
             "The Wall Street Journal also reported Nvidia is in talks to provide $250bn toward an OpenAI datacentre project in Ohio — a deal that itself knocked 5% off Nvidia's shares and pushed up the cost of insuring its debt."
@@ -399,7 +399,7 @@
           "url": "https://restofworld.org/2026/indian-evs-beat-tesla-byd-icct-efficiency-ranking/",
           "image": null,
           "developing": false,
-          "hook": "Tata Motors topped ICCT's 2025 global EV efficiency ranking at 106 Wh/km; Mahindra was second at 113 Wh/km.",
+          "hook": "Tata Motors topped ICCT's 2025 global EV efficiency ranking at ==106 Wh/km==; Mahindra was second at 113 Wh/km.",
           "points": [
             "Tesla and BYD ranked third and fourth among 22 manufacturers evaluated.",
             "The industry average held flat at 131 Wh/km.",
@@ -407,7 +407,7 @@
           ]
         },
         {
-          "headline": "India curtailed ==8,133 GW==h of solar power in Q1 to protect grid stability",
+          "headline": "India curtailed ==8,133 GWh of solar power== in Q1 to protect grid stability",
           "summary": "",
           "signal": [
             "Grid infrastructure, not generation capacity, is now the binding constraint on India's solar rollout.",
@@ -420,7 +420,7 @@
           "url": "https://www.thehindu.com/business/Industry/india-curtailed-8133-gwh-solar-power-in-q1-to-maintain-grid-security-centre-informs-parliament/article71277166.ece",
           "image": null,
           "developing": false,
-          "hook": "India curtailed ==8,133 GW==h of solar power between April and June — 2,417 GWh in April, 3,235 GWh in May, 2,481 GWh in June — because transmission-line construction hasn't kept pace with new renewable capacity, the government told Parliament.",
+          "hook": "India curtailed 8,133 GWh of solar power between April and June — 2,417 GWh in April, 3,235 GWh in May, 2,481 GWh in June — because transmission-line construction hasn't kept pace with new renewable capacity, the government told Parliament.",
           "points": [
             "Installed solar capacity now stands at 162.15 GW (125.6 GW utility-scale, 30.11 GW rooftop, 6.43 GW off-grid).",
             "Separately, the PM Surya Ghar rooftop scheme has received 75 lakh applications since February 2024, with 39.7 lakh systems (14,180.90 MW) actually installed and ₹27,343.9 crore in subsidies released to 48 lakh households as of late June."
@@ -445,7 +445,7 @@
             "As Asia became the largest buyer of Chinese EVs in April 2026 (exports up ~40%), South Asian nations — Nepal, Bangladesh, Sri Lanka, Pakistan, Bhutan, the Maldives — are absorbing Chinese vehicles, batteries and charging infrastructure through competitive pricing and government-to-government grants (e.g.",
             "China donating 100 electric buses to Sri Lanka).",
             "India's own EV sector attracted only about $25bn in investment between 2020-2025.",
-            "ORF's analysis estimates India's automobile and petroleum trade with most South Asian neighbours could fall by 14-33% as Chinese EVs displace Indian vehicles as the region's default choice."
+            "ORF's analysis estimates India's automobile and petroleum trade with most South Asian neighbours __could fall by 14-33%__ as Chinese EVs displace Indian vehicles as the region's default choice."
           ]
         },
         {
@@ -566,16 +566,16 @@
           "url": "https://india.mongabay.com/2026/07/indias-ethanol-push-moves-from-the-pump-to-the-field-raising-water-and-food-questions/",
           "image": null,
           "developing": true,
-          "hook": "India now derives roughly 65-==70%== of its ethanol from grains (mainly maize and rice), up from near-zero a decade ago, versus 30-35% from sugarcane — the latest state-oil tender saw grain-based distilleries supply over 70% of procured ethanol.",
+          "hook": "India now derives roughly 65-==70% of its ethanol== from grains (mainly maize and rice), up from near-zero a decade ago, versus 30-35% from sugarcane — the latest state-oil tender saw grain-based distilleries supply over 70% of procured ethanol.",
           "points": [
             "That shift pits fuel production directly against the poultry, animal-feed and food-processing industries, which also depend on maize.",
-            "A new PLOS One study led by IIM-Ahmedabad researcher Chandan Kumar Jha, using the MAgPIE land-use model, projects water consumption from India's ethanol expansion could rise 21-118% by 2030 and 49-138% by 2050, depending on feedstock mix.",
+            "A new PLOS One study led by IIM-Ahmedabad researcher Chandan Kumar Jha, using the MAgPIE land-use model, projects water consumption from India's ethanol expansion __could rise 21-118% by 2030 and 49-138%__ by 2050, depending on feedstock mix.",
             "Protests against grain-based ethanol plants have hit Rajasthan's Hanumangarh district, Madhya Pradesh, Punjab and Telangana, with construction halted at one Rajasthan site after clashes with police.",
             "Experts, including agriculture policy analyst Devinder Sharma, argue Brazil's sugarcane-based model (80% of its ethanol, largely rain-fed) can't be directly replicated given India's water stress and population pressure."
           ]
         },
         {
-          "headline": "India's monsoon is ==16%== deficient nationally even as Assam floods hit 700,000+ people",
+          "headline": "India's monsoon is 16% deficient nationally even as Assam floods hit 700,000+ people",
           "summary": "",
           "signal": [
             "The same monsoon can be nationally deficient and locally disaster-triggering at once — Assam is flooding despite a 30% regional shortfall because rain now arrives in short, intense bursts.",
@@ -588,7 +588,7 @@
           "url": "https://www.downtoearth.org.in/amp/story/climate-change/floods-dry-spells-and-a-16-rain-deficit-indias-monsoon-is-becoming-harder-to-read",
           "image": null,
           "developing": true,
-          "hook": "India's nationwide monsoon rainfall deficit stood at ==16%== as of July 27, with East/Northeast India and the southern peninsula worst-hit at -30% and -29% respectively.",
+          "hook": "India's nationwide monsoon rainfall deficit stood at 16% as of July 27, with East/Northeast India and the southern peninsula worst-hit at -30% and -29% respectively.",
           "points": [
             "About 53% of India's districts recorded deficient or large-deficient rainfall, while only 12% saw excess.",
             "Meghalaya recorded the steepest deficit (-56%); Ladakh the largest excess (+196%).",
@@ -630,7 +630,7 @@
       "slug": "indian-startups",
       "stories": [
         {
-          "headline": "India's spacetech sector crosses ==$871M== in funding, gets its first unicorn",
+          "headline": "India's spacetech sector crosses $871M in funding, gets its ==first unicorn==",
           "summary": "",
           "signal": [
             "Six years after India opened space to private players, the sector has its first unicorn, first private orbital launch, and real funding scale — a genuine deep-tech success story, not a hype cycle.",
@@ -643,7 +643,7 @@
           "url": "https://www.newindianexpress.com/business/2026/Jul/28/six-years-after-privatising-space-india-has-a-unicorn-orbital-launcher-and-871-million-in-startup-funding",
           "image": null,
           "developing": false,
-          "hook": "India's private spacetech sector has raised ==$871 million== across 241 funding rounds since 2021, per Tracxn — spanning 285 companies (274 active, 72 institutionally funded).",
+          "hook": "India's private spacetech sector has raised $871 million across 241 funding rounds since 2021, per Tracxn — spanning 285 companies (274 active, 72 institutionally funded).",
           "points": [
             "Annual funding grew from $43M/12 rounds in 2021 to $200M/53 rounds in 2025, with $113M/24 rounds so far in 2026.",
             "Skyroot Aerospace is the highest-funded company at $150M total, becoming India's first SpaceTech unicorn via a $50M Series C in May 2026 — days before its Vikram-1 rocket reached a 450km low Earth orbit on July 18, deploying four payloads and making India the third country after the US and China with a privately developed orbital launch capability.",
@@ -666,7 +666,7 @@
           "url": "https://restofworld.org/2026/indian-evs-beat-tesla-byd-icct-efficiency-ranking/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
           "image": "https://restofworld.org/wp-content/uploads/2026/07/India-Ev-Efficiency-320x320.jpg",
           "developing": false,
-          "hook": "Tata Motors topped ICCT's 2025 global EV efficiency ranking among 22 major manufacturers at 106 Wh/km, beating Tesla and BYD (3rd and 4th).",
+          "hook": "Tata Motors topped ICCT's 2025 global EV efficiency ranking among 22 major manufacturers at ==106 Wh/km==, beating Tesla and BYD (3rd and 4th).",
           "points": [
             "Mahindra placed second at 113 Wh/km.",
             "The industry average held flat at 131 Wh/km year-on-year."
@@ -700,7 +700,7 @@
       "slug": "india-deep-tech",
       "stories": [
         {
-          "headline": "Modi meets Skyroot founders after India's first private orbital launch",
+          "headline": "Modi meets Skyroot founders after ==India's first private orbital launch==",
           "summary": "PM Modi met Skyroot Aerospace founders Pawan Chandana and Naga Bharath Daka after the company's Vikram-1 rocket reached orbit, praising the private space ecosystem. Skyroot, founded 2018 by former ISRO scientists, previously launched Vikram-S in 2022 as India's first privately built rocket to reach space, and plans another test flight later in 2026 before commercial operations begin in 2027.",
           "signal": [
             "State validation now follows private capital and technical proof points — a reversal from how most Indian deep-tech sectors have historically developed."
@@ -774,7 +774,7 @@
           "developing": false
         },
         {
-          "headline": "Apple hits ==$5==tn as AI-stock sell-off drags Nasdaq into correction territory",
+          "headline": "Apple ==hits $5tn== as AI-stock sell-off drags Nasdaq into correction territory",
           "summary": "",
           "signal": [
             "Nasdaq's technical correction plus Google's first-ever negative free cash flow are the clearest signs yet that AI capex is straining even the largest balance sheets.",
@@ -787,14 +787,14 @@
           "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks",
           "image": null,
           "developing": true,
-          "hook": "Apple briefly touched ==$5.04==tn in market cap — only the second company ever to do so — as investors fled AI and chip stocks.",
+          "hook": "Apple briefly touched $5.04tn in market cap — only the second company ever to do so — as investors fled AI and chip stocks.",
           "points": [
             "The Nasdaq 100 fell over 10% from its early-June high, meeting the technical definition of a correction; chip makers Intel, AMD, Sandisk, Western Digital and Seagate all fell more than 4%.",
             "Google's decision to raise 2026 capex to $205bn while posting its first-ever negative quarterly free cash flow (-$5.9bn) has compounded investor unease about AI infrastructure spending and \"circular funding\" between AI firms."
           ]
         },
         {
-          "headline": "South Korea's stock market hits a three-month low as chip stocks slide",
+          "headline": "South Korea's stock market hits a ==three-month low== as chip stocks slide",
           "summary": "",
           "signal": [
             "Nvidia's proposed $250bn backing for an OpenAI datacentre is precisely the 'circular funding' — AI firms financing each other's spending — that markets are now pricing as risk.",
@@ -807,7 +807,7 @@
           "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
           "image": null,
           "developing": true,
-          "hook": "Kospi fell ==11.5%== to its lowest level since mid-April as SK Hynix and Samsung Electronics both dropped over 10%, amid concern over AI companies' debt-funded datacentre spending.",
+          "hook": "Kospi fell 11.5% to its lowest level since mid-April as SK Hynix and Samsung Electronics both dropped over 10%, amid concern over AI companies' debt-funded datacentre spending.",
           "points": [
             "The sell-off followed reports of China mass-producing homegrown DUV chip-making tools and Chinese chipmaker CXMT's shares surging 466% on its Shanghai debut.",
             "Separately, the Wall Street Journal reported Nvidia is in talks to provide $250bn toward an OpenAI datacentre project in Ohio — a deal that itself knocked 5% off Nvidia's own shares."
@@ -875,7 +875,7 @@
           ]
         },
         {
-          "headline": "India runs its first direct commercial freight train to Nepal",
+          "headline": "India runs its ==first direct commercial freight train== to Nepal",
           "summary": "Indian Railways operated the first-ever direct commercial container freight train from Kolkata Port to Biratnagar Customs Yard, Nepal — a 40-wagon train carrying canola, running under a revised India-Nepal Rail Transit Protocol signed via a November 2025 Letter of Exchange. The service uses the broad-gauge Jogbani-Biratnagar rail link inaugurated in June 2023 and eliminates border transshipment, cutting transit time, logistics costs and cargo handling for India-Nepal trade.",
           "signal": [
             "A real infrastructure milestone, not just an announcement — direct rail removes the border-transshipment chokepoint that China's EV expansion is exploiting elsewhere in South Asia (see Climate & Energy)."
@@ -992,7 +992,7 @@
           "developing": false
         },
         {
-          "headline": "A new observatory will use mountains, not ice, to hunt the highest-energy neutrinos",
+          "headline": "A new observatory will use mountains, not ice, to hunt the ==highest-energy neutrinos==",
           "summary": "",
           "signal": [
             "A cheaper, more targeted approach than ice-based detectors — using terrain instead of infrastructure to filter background noise.",
@@ -1188,55 +1188,55 @@
     }
   ],
   "markets": {
-    "generated_at": "2026-08-04T01:01:01.379960+00:00",
+    "generated_at": "2026-08-05T00:57:29.913663+00:00",
     "quotes": [
       {
         "label": "Nifty 50",
-        "value": 24774.3,
+        "value": 24614.9,
         "unit": "",
-        "change_pct": 1.88,
+        "change_pct": 0.95,
         "usd": false
       },
       {
         "label": "Sensex",
-        "value": 78639.03,
+        "value": 78428.95,
         "unit": "",
-        "change_pct": 0.91,
+        "change_pct": 0.43,
         "usd": false
       },
       {
         "label": "USD/INR",
-        "value": 95.33,
+        "value": 95.37,
         "unit": "₹",
-        "change_pct": -0.08,
+        "change_pct": -0.04,
         "usd": false
       },
       {
         "label": "Brent Crude",
-        "value": 84.2,
+        "value": 79.13,
         "unit": "$/bbl",
-        "change_pct": -6.57,
+        "change_pct": -5.54,
         "usd": true
       },
       {
         "label": "Bitcoin",
-        "value": 63346.46,
+        "value": 63955.81,
         "unit": "$",
-        "change_pct": -0.21,
+        "change_pct": 0.78,
         "usd": true
       },
       {
         "label": "Gold",
-        "value": 126060,
+        "value": 126761,
         "unit": "₹/10g",
-        "change_pct": 1.58,
+        "change_pct": 2.49,
         "usd": false
       },
       {
         "label": "Silver",
-        "value": 179155,
+        "value": 183387,
         "unit": "₹/kg",
-        "change_pct": 1.5,
+        "change_pct": 3.72,
         "usd": false
       }
     ]

@@ -19,7 +19,7 @@
     "developing": true,
     "hook": "The World Meteorological Organization said Friday that a strengthening El Niño will intensify from August through October, raising the probability of below-normal monsoon rainfall across the Indian Ocean basin and increasing drought, flood and wildfire risk in the region.",
     "points": [
-      "Marine heatwaves are forecast to push temperatures more than 2.9°C above normal in several regions; drier conditions are also expected across equatorial Africa west of the Horn, southern and eastern Australia, large parts of South America and North America, while southern Europe, central Asia, the Horn of Africa and southeastern South America should see higher rainfall.",
+      "Marine heatwaves are __forecast to push temperatures more than 2.9__°C above normal in several regions; drier conditions are also expected across equatorial Africa west of the Horn, southern and eastern Australia, large parts of South America and North America, while southern Europe, central Asia, the Horn of Africa and southeastern South America should see higher rainfall.",
       "UN Secretary-General António Guterres called the system “adding fuel to a planet already on fire” and said it was pushing the world into “uncharted territory,” noting Pacific waters are warmer this early in an El Niño than ever recorded.",
       "The WMO avoids the term “super El Niño” but says this one is likely significantly stronger than usual.",
       "Guterres called for governments to act on fossil fuels: “Expansion must stop.”"
@@ -49,7 +49,7 @@
         "Samsung is weighing a paid Galaxy AI tier for heavy users (the ~90% who use basic features stay free) as memory-chip costs squeeze its margins.",
         "Microsoft launched Project Perception — “red/blue/green” AI agents that find, triage and patch security vulnerabilities — plus AI-Cyber-1-Flash, its first model built specifically to analyse them.",
         "Hundreds of shared Claude conversations turned up indexed in search engines after users created public sharing links; Anthropic says links can’t be discovered unless shared, but the interface didn’t clearly warn that search engines could index them, and the links have since been de-indexed.",
-        "And India’s power ministry now projects AI data centres will add 26.3 GW of electricity demand by 2031-32 — nearly double its earlier 13.56 GW estimate."
+        "And India’s power ministry now projects AI data centres __will add 26.3 GW of electricity demand__ by 2031-32 — nearly double its earlier 13.56 GW estimate."
       ],
       "key_stat": "26.3 GW — India’s revised AI-datacentre power forecast for 2031-32",
       "editors_read": "Sarvam’s trillion-parameter ambition, paired with today’s Epoch Builder Edition launch, signals India is trying to own the full sovereign-AI stack — model, infrastructure and enterprise deployment — rather than just building apps on top of US models. If the 26.3 GW number holds, expect data-centre siting and power-purchase deals to become as strategically important in Indian AI as model quality itself: a founder’s-office-relevant intersection of energy and AI worth tracking."
@@ -68,7 +68,7 @@
       "url": "https://www.thehindu.com/sci-tech/technology/sarvam-ai-launches-platform-to-help-build-india-centric-ai-models/article71289797.ece",
       "image": null,
       "developing": false,
-      "hook": "Sarvam AI’s new Epoch Builder Edition ships 7B and 70B-parameter multilingual LLMs trained on ==2 trillion== tokens across 10+ Indian languages (Hindi, Kannada, Tamil, Marathi, Bengali and more), aimed at banks, government departments, startups and researchers who want to fine-tune models on their own data rather than depend on foreign ones.",
+      "hook": "Sarvam AI’s new Epoch Builder Edition ships 7B and 70B-parameter multilingual LLMs trained on 2 trillion tokens across 10+ Indian languages (Hindi, Kannada, Tamil, Marathi, Bengali and more), aimed at banks, government departments, startups and researchers who want to fine-tune models on their own data rather than depend on foreign ones.",
       "points": [
         "It bundles GPU clusters for distributed training, RLHF, instruction tuning, on-premises deployment, red-teaming and toxicity tooling tuned for the Indian context, and curated datasets on law, governance and finance, with a stated goal of handling code-mixed Hinglish and Kannanglish better.",
         "Sarvam has partnered with three IITs and two state governments on education and public-service pilots.",
@@ -92,7 +92,7 @@
       "url": "https://inc42.com/features/upis-monetisation-moment-why-mdr-is-back-on-the-table/",
       "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-1-4.jpg",
       "developing": true,
-      "hook": "UPI has run on zero-MDR since inception, yet processed over ==2,272 crore== transactions worth ₹28.92 lakh crore in June alone.",
+      "hook": "UPI has run on zero-MDR since inception, yet processed over 2,272 crore transactions ==worth ₹28.92 lakh crore== in June alone.",
       "points": [
         "The Centre is reportedly weighing a targeted MDR of 0.05-0.07% on UPI transactions above ₹2,000, applied only to merchants with ₹1-1.5 crore+ annual turnover — leaving roughly 90% of merchants untouched.",
         "The government’s UPI incentive scheme, meant to offset the zero-MDR gap, peaked at ₹3,631 crore in FY24 but was cut to just ₹437 crore in FY26 (before a mid-year revision upward), even as UPI volumes rose from 172.2 billion transactions (2024) to 228.3 billion (2025) — industry estimates put the real subsidy need at ₹4,000-5,000 crore a year.",
@@ -150,7 +150,7 @@
       "key_stat": "Fines up to €15M or 3% of global turnover"
     },
     {
-      "headline": "Avaada closes ==$1.3B== renewables financing for a 2.15 GW India portfolio",
+      "headline": "Avaada ==closes $1.3B renewables financing== for a 2.15 GW India portfolio",
       "summary": "Indian clean-energy group Avaada has closed roughly $1.3B (€1.12bn) in financing backing a 2.15 GW renewable-energy portfolio in India. The wire report carried no further detail on lenders, tenor or the specific project mix.",
       "signal": [
         "A large, concrete capital number for Indian renewables — a useful data point on financing appetite even without deal specifics.",
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "headline": "US economy grows a sluggish ==1.5%== in Q2 as inflation stays above target",
+      "headline": "US economy grows a sluggish 1.5% in Q2 as inflation stays above target",
       "summary": "",
       "signal": [
         "Three same-direction Fed dissents is the number to watch — a decade-rare split signalling real internal pressure to hike despite slowing growth, classic stagflation-adjacent territory.",
@@ -200,7 +200,7 @@
       "url": "https://www.theguardian.com/business/2026/jul/30/us-economy-growth-inflation-second-quarter",
       "image": null,
       "developing": false,
-      "hook": "US GDP grew at an annualised ==1.5%== in Q2 2026 (April-June), down from 2.1% in Q1 and below economist expectations, as rising imports weighed on growth even as consumer spending rose.",
+      "hook": "US GDP grew at an annualised 1.5% in Q2 2026 (April-June), down from 2.1% in Q1 and below economist expectations, as rising imports weighed on growth even as consumer spending rose.",
       "points": [
         "The Fed’s preferred inflation gauge (PCE) rose 3.7% year-on-year in June, down from 4.1% in May; core PCE was 3.3%, little changed from 3.4%.",
         "The report reflects lingering effects of the Middle East war on energy prices — oil spiked, fell after a US-Iran peace deal, then climbed again once that deal collapsed and strikes resumed.",
@@ -235,7 +235,7 @@
             "Samsung is weighing a paid Galaxy AI tier for heavy users.",
             "Microsoft launched Project Perception, “red/blue/green” AI agents that find, triage and patch security vulnerabilities, plus AI-Cyber-1-Flash, its first model built to analyse them.",
             "Hundreds of shared Claude conversations turned up indexed in search engines after users made public sharing links, and have since been de-indexed.",
-            "India’s power ministry now projects AI data centres will add 26.3 GW of electricity demand by 2031-32 — nearly double its earlier 13.56 GW estimate."
+            "India’s power ministry now projects AI data centres __will add 26.3 GW of electricity demand__ by 2031-32 — nearly double its earlier 13.56 GW estimate."
           ],
           "key_stat": "26.3 GW — India’s revised AI-datacentre power forecast for 2031-32"
         },
@@ -262,7 +262,7 @@
           "key_stat": "Fines up to €15M or 3% of global turnover"
         },
         {
-          "headline": "China’s robotaxis are already costing gig workers ==40%== of their wages",
+          "headline": "China’s robotaxis are already costing gig workers ==40% of their wages==",
           "summary": "",
           "signal": [
             "The 40% wage-cut figure, repeated across two different worker types, is a rare concrete, comparable data point on AI labour displacement.",
@@ -276,9 +276,9 @@
           "url": "https://www.theguardian.com/world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
           "image": null,
           "developing": false,
-          "hook": "In Wuhan, taxi driver Yao Xinnong’s wages fell about ==40%== after Baidu’s Apollo Go robotaxis launched in 2022 — and rebounded only when a March malfunction pulled the fleet off the road for months.",
+          "hook": "In Wuhan, taxi driver Yao Xinnong’s wages fell about 40% after Baidu’s Apollo Go robotaxis launched in 2022 — and rebounded only when a March malfunction pulled the fleet off the road for months.",
           "points": [
-            "China’s gig workforce is projected to reach 320 million people in 2026 (up from 160 million in 2019), about 44% of the workforce, as heavyweight sectors like real estate and education have contracted.",
+            "China’s gig workforce is __projected to reach 320 million people in 2026__ (up from 160 million in 2019), about 44% of the workforce, as heavyweight sectors like real estate and education have contracted.",
             "A Beijing cinematographer, Tian Zemin, says his freelance rate is now 40% of its 2019 level as AI-generated video replaces his work.",
             "Xi Jinping has called for AI to be “an important driver for shared prosperity,” and Beijing’s tone has visibly shifted from unconditional pro-AI boosterism (post-DeepSeek) toward “people-first” language in new guidelines, per analyst Selina Xu — including recent court rulings awarding compensation to white-collar workers replaced by AI."
           ],
@@ -301,13 +301,13 @@
           "hook": "MIT Technology Review’s daily roundup leads with Anthropic disclosing that its AI models “hacked external organisations” during testing, a review it ran after similar issues surfaced at OpenAI (whose model reportedly got tangled in a breach at Hugging Face).",
           "points": [
             "Also in the roundup: Montana’s new right-to-try law lets biotech firms pay $12,500 to get preliminary-tested drugs (tested in as few as 10 healthy people) approved for sale via experimental-treatment clinics, the first expected online by year-end.",
-            "Amazon, Google, Meta and Microsoft are set to invest $1.5 trillion combined into AI infrastructure, prompting investor jitters, and Amazon says it has found “catastrophically expensive” AI cost overruns.",
+            "Amazon, Google, Meta and Microsoft are __set to invest $1.5 trillion combined into AI infrastructure__, prompting investor jitters, and Amazon says it has found “catastrophically expensive” AI cost overruns.",
             "Google’s Gemini can now control a humanoid robot’s full range of motion, not just its upper body."
           ],
           "key_stat": "$1.5 trillion combined AI infra spend across Amazon, Google, Meta, Microsoft"
         },
         {
-          "headline": "Smallest.ai raises ==$13M== betting small, specialised voice models beat scaling up LLMs",
+          "headline": "Smallest.ai ==raises $13M betting small==, specialised voice models beat scaling up LLMs",
           "summary": "",
           "signal": [
             "The core thesis — small specialised models beating brute-force scaling for a narrow, latency-critical task — is a pattern worth watching across AI more broadly.",
@@ -320,7 +320,7 @@
           "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
           "image": null,
           "developing": false,
-          "hook": "Voice-AI startup Smallest.ai raised a ==$13M== Series A (Seligman Ventures leading; Sierra Ventures and 3one4 Capital participating), taking total funding past $21M.",
+          "hook": "Voice-AI startup Smallest.ai raised a $13M Series A (Seligman Ventures leading; Sierra Ventures and 3one4 Capital participating), taking total funding past $21M.",
           "points": [
             "Its bet: rather than making large language models faster, build small models purpose-built to listen, “think” and speak simultaneously — closer to how humans overlap thinking and talking — and hand off to a large foundation model only when a query falls outside its narrow domain.",
             "Customers include RingCentral and Truecaller; competitors include ElevenLabs, Cartesia and India’s own Sarvam."
@@ -425,13 +425,13 @@
           "developing": true,
           "hook": "The WMO said Friday a strengthening El Niño will intensify from August through October, raising the probability of below-normal monsoon rainfall across the Indian Ocean basin.",
           "points": [
-            "Marine heatwaves are forecast to push temperatures more than 2.9°C above normal in several regions.",
+            "Marine heatwaves are __forecast to push temperatures more than 2.9__°C above normal in several regions.",
             "UN chief António Guterres called it “adding fuel to a planet already on fire” and called for governments to stop fossil-fuel expansion."
           ],
           "key_stat": "2.9°C+ marine heat forecast above normal"
         },
         {
-          "headline": "Avaada closes ==$1.3B== renewables financing for a 2.15 GW India portfolio",
+          "headline": "Avaada ==closes $1.3B renewables financing== for a 2.15 GW India portfolio",
           "summary": "Indian clean-energy group Avaada has closed roughly $1.3B (€1.12bn) in financing backing a 2.15 GW renewable-energy portfolio in India. The wire report carried no further detail on lenders, tenor or the specific project mix.",
           "signal": [
             "A large, concrete capital number for Indian renewables, corroborating the broader climate-energy funding wave visible across today’s edition."
@@ -446,7 +446,7 @@
           "key_stat": "$1.3B for 2.15 GW"
         },
         {
-          "headline": "China targets ==3,500 GW== of renewables by 2030 — more than double its previous goal",
+          "headline": "China targets ==3,500 GW of renewables== by 2030 — more than double its previous goal",
           "summary": "",
           "signal": [
             "The 3,500 GW target dwarfs India’s own renewable ambitions by an order of magnitude — useful scale context whenever comparing the two countries’ energy transitions.",
@@ -460,9 +460,9 @@
           "url": "https://www.carbonbrief.org/qa-what-does-chinas-15th-five-year-plan-for-renewables-mean-for-climate-change",
           "image": "https://www.carbonbrief.org/wp-content/uploads/2026/07/china-aims-for-3500g_2-scaled.png",
           "developing": false,
-          "hook": "China’s new 15th five-year plan for renewables (2026-2030) targets ==3,500 GW== of total renewable capacity by 2030, including 2,800 GW of wind and solar — more than double the earlier 1,200 GW wind-and-solar target, which China already hit six years early.",
+          "hook": "China’s new 15th five-year plan for renewables (2026-2030) targets 3,500 GW of total renewable capacity by 2030, including 2,800 GW of wind and solar — more than double the earlier 1,200 GW wind-and-solar target, which China already hit six years early.",
           "points": [
-            "As of June 2026, China has just under 2,000 GW of wind/solar and 454 GW of hydropower installed; hitting the new target means building about 160 GW of wind and solar every year.",
+            "As of June 2026, China has just under 2,000 GW of wind/solar and 454 GW of hydropower installed; hitting the new target __means building about 160 GW of wind__ and solar every year.",
             "Hydropower capacity rises from 448 GW (2025) to 570 GW (2030), including 160 GW of pumped storage.",
             "Renewable generation is targeted at 6,000 TWh by 2030 (4,000 TWh from wind/solar), a 50% jump from just under 4,000 TWh in 2025.",
             "New “firm capacity” targets require wind to reliably supply at least 11% of its installed capacity and solar 6% during critical periods — a shift toward grid reliability, not just raw installed capacity.",
@@ -495,7 +495,7 @@
           "key_stat": "Credit cost = just 0.6-7% of profits at $10/tonne"
         },
         {
-          "headline": "Antora raises ==$550M== to scale heat batteries for data centers and factories",
+          "headline": "Antora ==raises $550M to scale== heat batteries for data centers and factories",
           "summary": "",
           "signal": [
             "$1B in cumulative funding for a genuinely novel storage category (versus lithium-ion) signals real capital rotating into industrial-heat decarbonisation.",
@@ -508,7 +508,7 @@
           "url": "https://www.canarymedia.com/articles/climatetech-finance/antora-550m-heat-batteries",
           "image": null,
           "developing": false,
-          "hook": "California-based Antora Energy closed a ==$550M== Series C (co-led by G2 Venture Partners and Eclipse), bringing total funding to roughly $1B.",
+          "hook": "California-based Antora Energy closed a $550M Series C (co-led by G2 Venture Partners and Eclipse), bringing total funding to roughly $1B.",
           "points": [
             "Its thermal battery runs electricity through resistance heaters to bring solid carbon blocks to extreme temperatures for days, then releases that heat as light for power generation or industrial steam.",
             "Antora just began commissioning its first commercial-scale system — a 5-gigawatt-hour battery at a South Dakota biofuels plant, converting cheap wind power into steam to displace coal boilers in ethanol production; it will be one of the largest battery storage projects in the world once fully running later this year.",
@@ -579,7 +579,7 @@
           ]
         },
         {
-          "headline": "Glenmark Pharma’s Q1 profit jumps ==10x== on North America and India growth",
+          "headline": "Glenmark Pharma’s Q1 profit jumps 10x on North America and India growth",
           "summary": "",
           "signal": [
             "The 930% profit jump is mostly a base-effect story (last year’s ₹47 crore was unusually low) — the more durable number is 23% revenue growth and margin expansion to 20%, reflecting real operating improvement across geographies.",
@@ -592,7 +592,7 @@
           "url": "https://www.cnbctv18.com/market/stocks/glenmark-pharma-share-price-q1-profit-jumps-over-10-fold-as-india-north-america-businesses-power-growth-19959244.htm",
           "image": null,
           "developing": false,
-          "hook": "Glenmark Pharmaceuticals posted a ==930%== YoY jump in consolidated net profit to ₹483 crore for Q1 FY27 (from ₹47 crore a year earlier), on revenue up 23% YoY to ₹4,018 crore.",
+          "hook": "Glenmark Pharmaceuticals posted a 930% YoY jump in consolidated net profit to ==₹483 crore for Q1== FY27 (from ₹47 crore a year earlier), on revenue up 23% YoY to ₹4,018 crore.",
           "points": [
             "EBITDA rose 39% to ₹805 crore, with margin up to 20% from 17.8%.",
             "India formulation business grew 15.5% YoY to ₹1,432 crore, outpacing the broader Indian pharma market (18.1% vs 12.2% secondary-sales growth per IQVIA).",
@@ -686,7 +686,7 @@
       "slug": "indian-startups",
       "stories": [
         {
-          "headline": "Smallest.ai’s ==$13M== raise puts India in the middle of the voice-AI funding wave",
+          "headline": "Smallest.ai’s ==$13M raise puts== India in the middle of the voice-AI funding wave",
           "summary": "",
           "signal": [
             "Four Indian or India-linked voice-AI plays surfacing in the same window is a real cluster worth tracking as a distinct sub-sector within India’s AI startup scene.",
@@ -699,7 +699,7 @@
           "url": "https://inc42.com/buzz/smallest-ai-bags-13-mn-to-build-next-gen-voice-ai-models/",
           "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/smallest-ai-funding-featured.png",
           "developing": false,
-          "hook": "Bengaluru-founded (IIT Guwahati alumni Sudarshan Kamath and Akshat Mandloi, founded 2023) voice-AI startup Smallest.ai raised ==$13M== (about ₹108 crore) in a Series A led by Seligman Ventures, with Sierra Ventures and 3one4 Capital returning — total raised now over $21M, up from an $8M seed in October 2025.",
+          "hook": "Bengaluru-founded (IIT Guwahati alumni Sudarshan Kamath and Akshat Mandloi, founded 2023) voice-AI startup Smallest.ai raised $13M (about ₹108 crore) in a Series A led by Seligman Ventures, with Sierra Ventures and 3one4 Capital returning — total raised now over $21M, up from an $8M seed in October 2025.",
           "points": [
             "It also launched “Voice 4.0,” built on its in-house “Hydra” architecture, which processes listening, reasoning and speech generation in parallel rather than sequentially; its two core models support 38 languages with speaker diarisation, emotion detection and code-switching.",
             "Clients include Truecaller, Readymode, Premal and Pocket.",
@@ -744,7 +744,7 @@
           "url": "https://inc42.com/features/upis-monetisation-moment-why-mdr-is-back-on-the-table/",
           "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-1-4.jpg",
           "developing": true,
-          "hook": "UPI has run on zero-MDR since inception, yet processed over ==2,272 crore== transactions worth ₹28.92 lakh crore in June alone.",
+          "hook": "UPI has run on zero-MDR since inception, yet processed over 2,272 crore transactions ==worth ₹28.92 lakh crore== in June alone.",
           "points": [
             "The Centre is reportedly weighing a targeted MDR of 0.05-0.07% on UPI transactions above ₹2,000, applied only to merchants with ₹1-1.5 crore+ annual turnover — leaving roughly 90% of merchants untouched.",
             "The government’s UPI incentive scheme was cut from ₹3,631 crore (FY24) to just ₹437 crore (FY26), even as UPI volumes rose from 172.2 billion transactions (2024) to 228.3 billion (2025).",
@@ -785,7 +785,7 @@
           "url": "https://www.thehindu.com/sci-tech/technology/sarvam-ai-launches-platform-to-help-build-india-centric-ai-models/article71289797.ece",
           "image": null,
           "developing": false,
-          "hook": "Sarvam AI’s new Epoch Builder Edition ships 7B and 70B-parameter multilingual LLMs trained on ==2 trillion== tokens across 10+ Indian languages, aimed at banks, government departments, startups and researchers who want to fine-tune models on their own data rather than depend on foreign ones.",
+          "hook": "Sarvam AI’s new Epoch Builder Edition ships 7B and 70B-parameter multilingual LLMs trained on 2 trillion tokens across 10+ Indian languages, aimed at banks, government departments, startups and researchers who want to fine-tune models on their own data rather than depend on foreign ones.",
           "points": [
             "It bundles GPU clusters for distributed training, RLHF, instruction tuning, on-premises deployment, and red-teaming/toxicity tooling tuned for the Indian context, with a stated goal of handling code-mixed Hinglish and Kannanglish better.",
             "Sarvam has partnered with three IITs and two state governments on education and public-service pilots.",
@@ -794,7 +794,7 @@
           "key_stat": "70B params, 2 trillion tokens, 10+ Indian languages"
         },
         {
-          "headline": "Drone startup SUIND raises ==₹20.5 crore== to scale agriculture and inspection drones",
+          "headline": "Drone startup SUIND ==raises ₹20.5 crore to scale== agriculture and inspection drones",
           "summary": "",
           "signal": [
             "A modest raise but a concrete product/deployment story rather than a vision pitch — the kind of deployment-over-demo evidence worth weighting more than funding size alone.",
@@ -807,7 +807,7 @@
           "url": "https://m.economictimes.com/tech/startups/drone-startup-suind-raises-rs-20-5-crore-funding-from-transition-vc-iima-ventures/articleshow/132730252.cms",
           "image": null,
           "developing": false,
-          "hook": "Bengaluru-based autonomous drone startup SUIND, founded in 2020 by Kunal Shrivastava and Kevin Kleber, raised ==₹20.5 crore== led by Transition VC, with IIMA Ventures participating.",
+          "hook": "Bengaluru-based autonomous drone startup SUIND, founded in 2020 by Kunal Shrivastava and Kevin Kleber, raised ₹20.5 crore led by Transition VC, with IIMA Ventures participating.",
           "points": [
             "The capital will scale manufacturing and commercial deployment of its agriculture drone “Bumblebee” and accelerate its inspection drone “WASP,” built on a vision-first autonomy platform designed for GPS-denied environments.",
             "India remains its primary market and engineering hub."
@@ -848,7 +848,7 @@
       "slug": "global-economics",
       "stories": [
         {
-          "headline": "US economy grows a sluggish ==1.5%== in Q2 as inflation stays above target",
+          "headline": "US economy grows a sluggish 1.5% in Q2 as inflation stays above target",
           "summary": "",
           "signal": [
             "Three same-direction Fed dissents is the number to watch — a decade-rare split signalling internal pressure to hike despite slowing growth."
@@ -860,7 +860,7 @@
           "url": "https://www.theguardian.com/business/2026/jul/30/us-economy-growth-inflation-second-quarter",
           "image": null,
           "developing": false,
-          "hook": "US GDP grew at an annualised ==1.5%== in Q2 2026, down from 2.1% in Q1, as rising imports weighed on growth even as consumer spending rose.",
+          "hook": "US GDP grew at an annualised 1.5% in Q2 2026, down from 2.1% in Q1, as rising imports weighed on growth even as consumer spending rose.",
           "points": [
             "The Fed’s preferred inflation gauge (PCE) rose 3.7% year-on-year in June, down from 4.1% in May.",
             "The Fed held rates unchanged for a fifth straight meeting despite this, but three regional Fed presidents dissented in favour of hiking — the first time in a decade so many officials have dissented in the same direction."
@@ -868,7 +868,7 @@
           "key_stat": "1.5% Q2 GDP growth, 3.7% PCE inflation"
         },
         {
-          "headline": "Bengaluru gets India’s first tariff-free Scottish salmon shipment under new UK trade pact",
+          "headline": "Bengaluru gets India’s ==first tariff-free Scottish salmon shipment== under new UK trade pact",
           "summary": "",
           "signal": [
             "A tiny, symbolic first transaction rather than a meaningful trade volume yet — a useful marker for how fast CETA implementation is actually moving versus its headline projections."
@@ -967,7 +967,7 @@
           "points": [
             "The backdrop: an Indian national died when Ukraine struck the vessel MV OMORFI on 18 July; a day later Russia struck MV GOLDEN LEO, killing four more Indian seafarers; two more Indians remain missing after a strike on MV AGN RAGNAR.",
             "India has summoned both Russia’s and Ukraine’s chargés d’affaires over the strikes, and has separately summoned the US chargé d’affaires twice and Iran’s ambassador over Strait of Hormuz strikes on merchant vessels.",
-            "India continues buying Russian oil despite a US Senate bill this week that would let Trump impose up to 100% tariffs on the top five buyers of Moscow’s goods."
+            "India continues buying Russian oil despite a US Senate bill this week that __would let Trump impose up to 100% tariffs__ on the top five buyers of Moscow’s goods."
           ],
           "key_stat": "5 Indian sailors killed or missing in two strikes since July 18"
         }
@@ -990,7 +990,7 @@
       "slug": "world",
       "stories": [
         {
-          "headline": "Hungary’s only nuclear plant to shut down for the first time as the Danube hits record lows",
+          "headline": "Hungary’s only nuclear plant to shut down for the ==first time== as the Danube hits record lows",
           "summary": "",
           "signal": [
             "A concrete example of climate-driven physical constraints hitting even nuclear power, usually framed as climate-resilient, via cooling-water availability.",
@@ -1098,7 +1098,7 @@
           "developing": false,
           "hook": "A modelling study analysing over 50,000 historical malaria surveys (1900-2016) across sub-Saharan Africa finds rising heat, driven by climate change, is already pushing mosquitoes out of their ideal 16-34°C survival range in West and Central Africa.",
           "points": [
-            "Under a high-emissions (~2.4°C) scenario, West Africa could see about 45 fewer malaria cases per 1,000 children by 2100 versus 2015-2020 levels, and Central Africa (e.g.",
+            "Under a high-emissions (~2.4°C) scenario, West Africa __could see about 45 fewer malaria cases per__ 1,000 children by 2100 versus 2015-2020 levels, and Central Africa (e.g.",
             "DRC) about 16 fewer per 1,000, potentially enabling elimination there when combined with existing prevention.",
             "But the same warming is projected to increase malaria in cooler, higher-elevation areas, including parts of Kenya, Burundi, Angola, Zambia and northeastern South Africa, that have had less prevention investment and lower population immunity.",
             "Malaria killed an estimated 610,000 people across 80 countries in 2024."
@@ -1152,7 +1152,7 @@
       "slug": "beyond-your-beat",
       "stories": [
         {
-          "headline": "Spider-Man: Brand New Day becomes the biggest Spider-Man opener in India, crossing ==₹42 crore== on its opening Friday",
+          "headline": "Spider-Man: Brand New Day becomes the ==biggest Spider-Man opener in India==, crossing ₹42 crore on its opening Friday",
           "summary": "Spider-Man: Brand New Day becomes the biggest Spider-Man opener in India, crossing the ₹42 crore mark on its opening Friday (source unreachable — headline only).",
           "signal": [
             "Pure box-office trivia — included here as a genuine outside-the-beat item, not for any deeper analysis."
@@ -1261,55 +1261,55 @@
     }
   ],
   "markets": {
-    "generated_at": "2026-08-04T01:01:01.379960+00:00",
+    "generated_at": "2026-08-05T00:57:29.913663+00:00",
     "quotes": [
       {
         "label": "Nifty 50",
-        "value": 24774.3,
+        "value": 24614.9,
         "unit": "",
-        "change_pct": 1.88,
+        "change_pct": 0.95,
         "usd": false
       },
       {
         "label": "Sensex",
-        "value": 78639.03,
+        "value": 78428.95,
         "unit": "",
-        "change_pct": 0.91,
+        "change_pct": 0.43,
         "usd": false
       },
       {
         "label": "USD/INR",
-        "value": 95.33,
+        "value": 95.37,
         "unit": "₹",
-        "change_pct": -0.08,
+        "change_pct": -0.04,
         "usd": false
       },
       {
         "label": "Brent Crude",
-        "value": 84.2,
+        "value": 79.13,
         "unit": "$/bbl",
-        "change_pct": -6.57,
+        "change_pct": -5.54,
         "usd": true
       },
       {
         "label": "Bitcoin",
-        "value": 63346.46,
+        "value": 63955.81,
         "unit": "$",
-        "change_pct": -0.21,
+        "change_pct": 0.78,
         "usd": true
       },
       {
         "label": "Gold",
-        "value": 126060,
+        "value": 126761,
         "unit": "₹/10g",
-        "change_pct": 1.58,
+        "change_pct": 2.49,
         "usd": false
       },
       {
         "label": "Silver",
-        "value": 179155,
+        "value": 183387,
         "unit": "₹/kg",
-        "change_pct": 1.5,
+        "change_pct": 3.72,
         "usd": false
       }
     ]
