@@ -19,7 +19,9 @@ name: Select — Full-text fetch (Option B)
 on:
   push:
     branches:
-      - 'claude/**'
+      - 'claude/**'    # the Claude Code routine's own branch
+      - 'gemini/**'    # an Antigravity / Gemini agent's branch
+      - 'main'         # or a plain push straight to main (simplest for any agent)
     paths:
       - 'selections/**'
   workflow_dispatch:

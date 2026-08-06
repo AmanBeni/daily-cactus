@@ -25,7 +25,8 @@ name: Publish Daily Cactus
 on:
   push:
     branches:
-      - 'claude/**'
+      - 'claude/**'    # Claude Code routine branch
+      - 'gemini/**'    # Antigravity / Gemini agent branch
       - 'main'
     paths:
       - 'drafts/**'
