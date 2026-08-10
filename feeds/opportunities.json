@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T23:55:13.558315+00:00",
+  "generated_at": "2026-08-09T23:58:56.639334+00:00",
   "source_counts": {
     "unstop": 117,
     "10times": 0,
@@ -7,17 +7,6 @@
     "devpost": 9
   },
   "items": [
-    {
-      "title": "Caspian AI Agent Hackathon",
-      "link": "https://unstop.com/hackathons/caspian-ai-agent-hackathon-caspian-1726439",
-      "source": "Unstop",
-      "published": null,
-      "summary": "Hackathon hosted by Caspian. register by 2026-08-10.",
-      "image_url": null,
-      "feed_url": "opportunities:unstop:hackathons:AI",
-      "event_date": null,
-      "deadline": "2026-08-10"
-    },
     {
       "title": "Edge AI Hackathon 2026",
       "link": "https://unstop.com/hackathons/edge-ai-hackathon-2026-parala-maharaja-engineering-college-berhampur-1720578",
@@ -39,6 +28,17 @@
       "feed_url": "opportunities:unstop:hackathons:AI",
       "event_date": null,
       "deadline": "2026-08-21"
+    },
+    {
+      "title": "Caspian AI Agent Hackathon",
+      "link": "https://unstop.com/hackathons/caspian-ai-agent-hackathon-caspian-1726439",
+      "source": "Unstop",
+      "published": null,
+      "summary": "Hackathon hosted by Caspian. register by 2026-08-10.",
+      "image_url": null,
+      "feed_url": "opportunities:unstop:hackathons:AI",
+      "event_date": null,
+      "deadline": "2026-08-10"
     },
     {
       "title": "Ship to Get Hired - Gappy AI Hackathon",
@@ -470,6 +470,28 @@
       "deadline": "2026-02-12"
     },
     {
+      "title": "PitchX 2026 – India's Biggest Startup Pitch Challenge",
+      "link": "https://unstop.com/hackathons/pitchx-2026-indias-biggest-startup-pitch-challenge-devtech-it-solution-1729843",
+      "source": "Unstop",
+      "published": null,
+      "summary": "Hackathon hosted by DevTech It Solution. register by 2026-08-17.",
+      "image_url": null,
+      "feed_url": "opportunities:unstop:hackathons:startup",
+      "event_date": null,
+      "deadline": "2026-08-17"
+    },
+    {
+      "title": "StartupX Hackathon 2026",
+      "link": "https://unstop.com/hackathons/startupx-hackathon-2026-gamnexis-1733546",
+      "source": "Unstop",
+      "published": null,
+      "summary": "Hackathon hosted by Gamnexis. register by 2026-09-05.",
+      "image_url": null,
+      "feed_url": "opportunities:unstop:hackathons:startup",
+      "event_date": null,
+      "deadline": "2026-09-05"
+    },
+    {
       "title": "Startup Sprint",
       "link": "https://unstop.com/hackathons/startup-sprint-shaheed-rajguru-college-of-applied-sciences-for-women-1556829",
       "source": "Unstop",
@@ -624,37 +646,15 @@
       "deadline": "2025-03-21"
     },
     {
-      "title": "Code for Good : Hacking for a Better Tomorrow",
-      "link": "https://unstop.com/hackathons/code-for-good-hacking-for-a-better-tomorrow-himalayan-startup-trek-iit-mandi-755148",
-      "source": "Unstop",
-      "published": null,
-      "summary": "Hackathon hosted by Indian Institute of Technology (IIT), Mandi. register by 2023-09-10.",
-      "image_url": null,
-      "feed_url": "opportunities:unstop:hackathons:startup",
-      "event_date": null,
-      "deadline": "2023-09-10"
-    },
-    {
-      "title": "Code for Good : Hacking for a Better Tomorrow",
-      "link": "https://unstop.com/hackathons/code-for-good-hacking-for-a-better-tomorrow-himalayan-startup-trek-iit-mandi-744800",
-      "source": "Unstop",
-      "published": null,
-      "summary": "Hackathon hosted by Indian Institute of Technology (IIT), Mandi. register by 2023-09-03.",
-      "image_url": null,
-      "feed_url": "opportunities:unstop:hackathons:startup",
-      "event_date": null,
-      "deadline": "2023-09-03"
-    },
-    {
       "title": "StudNexus AI Learning Challenge 2026",
       "link": "https://unstop.com/competitions/studnexus-ai-learning-challenge-2026-build-the-future-of-learning-datasmith-research-labs-1726648",
       "source": "Unstop",
       "published": null,
-      "summary": "Competition hosted by DataSmith Research Labs. runs 2026-07-27; register by 2026-08-08.",
+      "summary": "Competition hosted by DataSmith Research Labs. runs 2026-07-27; register by 2026-08-10.",
       "image_url": null,
       "feed_url": "opportunities:unstop:competitions:AI",
       "event_date": "2026-07-27",
-      "deadline": "2026-08-08"
+      "deadline": "2026-08-10"
     },
     {
       "title": "Data Dive | AI & Data Science Challenge",
@@ -710,6 +710,17 @@
       "feed_url": "opportunities:unstop:competitions:deep tech",
       "event_date": null,
       "deadline": "2025-11-10"
+    },
+    {
+      "title": "Smartest and Impactful AI Solutions",
+      "link": "https://unstop.com/competitions/smartest-and-impactful-ai-solutions-smart-tech-llc-829086",
+      "source": "Unstop",
+      "published": null,
+      "summary": "Competition hosted by Smart Tech LLC. register by 2023-12-15.",
+      "image_url": null,
+      "feed_url": "opportunities:unstop:competitions:deep tech",
+      "event_date": null,
+      "deadline": "2023-12-15"
     },
     {
       "title": "Drone At Work",
@@ -888,15 +899,15 @@
       "deadline": "2026-02-28"
     },
     {
-      "title": "Drone Helix",
-      "link": "https://unstop.com/competitions/drone-helix-mindbend-2025-svnit-surat-1413493",
+      "title": "Drone Drag",
+      "link": "https://unstop.com/competitions/drone-drag-solutions-2k25-army-institute-of-technology-ait-pune-1378151",
       "source": "Unstop",
       "published": null,
-      "summary": "Competition hosted by Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat. register by 2025-03-25.",
+      "summary": "Competition hosted by Army Institute of Technology (AIT), Pune. register by 2025-03-02.",
       "image_url": null,
       "feed_url": "opportunities:unstop:competitions:drone",
       "event_date": null,
-      "deadline": "2025-03-25"
+      "deadline": "2025-03-02"
     },
     {
       "title": "Quantum Paradox",
@@ -1152,17 +1163,6 @@
       "deadline": "2026-07-22"
     },
     {
-      "title": "Startup Roulette",
-      "link": "https://unstop.com/competitions/startup-roulette-shivaji-college-du-1676356",
-      "source": "Unstop",
-      "published": null,
-      "summary": "Competition hosted by Shivaji College (SC), University of Delhi. register by 2026-04-20.",
-      "image_url": null,
-      "feed_url": "opportunities:unstop:competitions:startup",
-      "event_date": null,
-      "deadline": "2026-04-20"
-    },
-    {
       "title": "Startup Hunt",
       "link": "https://unstop.com/competitions/startup-hunt-iconclave-x-e-summit-2k26-indian-institute-of-information-technology-iiit-pune-1671909",
       "source": "Unstop",
@@ -1174,6 +1174,17 @@
       "deadline": "2026-04-21"
     },
     {
+      "title": "Startup Roulette",
+      "link": "https://unstop.com/competitions/startup-roulette-shivaji-college-du-1676356",
+      "source": "Unstop",
+      "published": null,
+      "summary": "Competition hosted by Shivaji College (SC), University of Delhi. register by 2026-04-20.",
+      "image_url": null,
+      "feed_url": "opportunities:unstop:competitions:startup",
+      "event_date": null,
+      "deadline": "2026-04-20"
+    },
+    {
       "title": "Startup Spotlight 💡",
       "link": "https://unstop.com/competitions/pitch-to-profit-markethon-maharaja-surajmal-institute-new-delhi-1671568",
       "source": "Unstop",
@@ -1183,6 +1194,17 @@
       "feed_url": "opportunities:unstop:competitions:startup",
       "event_date": "2026-04-07",
       "deadline": "2026-04-15"
+    },
+    {
+      "title": "Startup Synthesis",
+      "link": "https://unstop.com/competitions/startup-synthesis-pgdav-college-du-delhi-1672837",
+      "source": "Unstop",
+      "published": null,
+      "summary": "Competition hosted by Pannalal Girdharlal Dayanand Anglo-Vedic (PGDAV) College, University of Delhi (DU), Delhi. runs 2026-04-09; register by 2026-04-14.",
+      "image_url": null,
+      "feed_url": "opportunities:unstop:competitions:startup",
+      "event_date": "2026-04-09",
+      "deadline": "2026-04-14"
     },
     {
       "title": "Startup Autopsy",
@@ -1207,17 +1229,6 @@
       "deadline": "2026-04-12"
     },
     {
-      "title": "Startup Synthesis",
-      "link": "https://unstop.com/competitions/startup-synthesis-pgdav-college-du-delhi-1672837",
-      "source": "Unstop",
-      "published": null,
-      "summary": "Competition hosted by Pannalal Girdharlal Dayanand Anglo-Vedic (PGDAV) College, University of Delhi (DU), Delhi. runs 2026-04-09; register by 2026-04-14.",
-      "image_url": null,
-      "feed_url": "opportunities:unstop:competitions:startup",
-      "event_date": "2026-04-09",
-      "deadline": "2026-04-14"
-    },
-    {
       "title": "Startup Showdown",
       "link": "https://unstop.com/competitions/startup-showdown-equilibrium-2026-ashoka-university-sonepat-haryana-1651926",
       "source": "Unstop",
@@ -1227,17 +1238,6 @@
       "feed_url": "opportunities:unstop:competitions:startup",
       "event_date": null,
       "deadline": "2026-03-27"
-    },
-    {
-      "title": "Startup Strategist",
-      "link": "https://unstop.com/competitions/startup-strategist-hackathon-2026-beyond-the-blueprint-dpsru-innovation-and-incubation-foundation-1660427",
-      "source": "Unstop",
-      "published": null,
-      "summary": "Competition hosted by Delhi Pharmaceutical Science and Research University (DPSR-U). register by 2026-03-19.",
-      "image_url": null,
-      "feed_url": "opportunities:unstop:competitions:startup",
-      "event_date": null,
-      "deadline": "2026-03-19"
     },
     {
       "title": "Startup Showdown",
@@ -1251,15 +1251,15 @@
       "deadline": "2026-03-25"
     },
     {
-      "title": "Startup Expo",
-      "link": "https://unstop.com/competitions/startup-expo-e-summit26-odisha-university-of-technology-and-research-bhubaneswar-odisha-1649292",
+      "title": "Startup Strategist",
+      "link": "https://unstop.com/competitions/startup-strategist-hackathon-2026-beyond-the-blueprint-dpsru-innovation-and-incubation-foundation-1660427",
       "source": "Unstop",
       "published": null,
-      "summary": "Competition hosted by Odisha University of Technology and Research, Bhubaneswar, Odisha. register by 2026-03-09.",
+      "summary": "Competition hosted by Delhi Pharmaceutical Science and Research University (DPSR-U). register by 2026-03-19.",
       "image_url": null,
       "feed_url": "opportunities:unstop:competitions:startup",
       "event_date": null,
-      "deadline": "2026-03-09"
+      "deadline": "2026-03-19"
     },
     {
       "title": "Startup Saga",
@@ -1273,6 +1273,17 @@
       "deadline": "2026-02-28"
     },
     {
+      "title": "Startup Expo",
+      "link": "https://unstop.com/competitions/startup-expo-e-summit26-odisha-university-of-technology-and-research-bhubaneswar-odisha-1649292",
+      "source": "Unstop",
+      "published": null,
+      "summary": "Competition hosted by Odisha University of Technology and Research, Bhubaneswar, Odisha. register by 2026-03-09.",
+      "image_url": null,
+      "feed_url": "opportunities:unstop:competitions:startup",
+      "event_date": null,
+      "deadline": "2026-03-09"
+    },
+    {
       "title": "Startup Consult",
       "link": "https://unstop.com/competitions/startup-consult-stratomania-100--1646908",
       "source": "Unstop",
@@ -1282,39 +1293,6 @@
       "feed_url": "opportunities:unstop:competitions:startup",
       "event_date": null,
       "deadline": "2026-02-24"
-    },
-    {
-      "title": "Startup Expo",
-      "link": "https://unstop.com/competitions/startup-expo-pravaah26-indian-institute-of-technology-iit-bhubaneswar-1627689",
-      "source": "Unstop",
-      "published": null,
-      "summary": "Competition hosted by Indian Institute of Technology (IIT), Bhubaneswar. register by 2026-02-05.",
-      "image_url": null,
-      "feed_url": "opportunities:unstop:competitions:startup",
-      "event_date": null,
-      "deadline": "2026-02-05"
-    },
-    {
-      "title": "5K Run- Claim the City with KYRO",
-      "link": "https://lu.ma/cw32snkt",
-      "source": "Luma (New Delhi)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/7i/524b8499-0259-4ede-951d-87e002e23b82.png",
-      "feed_url": "opportunities:luma:new-delhi",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Run x Yog-a-fair",
-      "link": "https://lu.ma/xywww5hk",
-      "source": "Luma (New Delhi)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/xb/437a7914-fa75-4f6e-96a4-055e4b89ca2a.jpg",
-      "feed_url": "opportunities:luma:new-delhi",
-      "event_date": "2026-08-09",
-      "deadline": null
     },
     {
       "title": "Team1 India Workshop - Gurgaon",
@@ -1347,6 +1325,28 @@
       "image_url": "https://images.lumacdn.com/uploads/79/6b478bc4-d01a-42b2-9cd0-5ab6ea98a86d.png",
       "feed_url": "opportunities:luma:new-delhi",
       "event_date": "2026-08-12",
+      "deadline": null
+    },
+    {
+      "title": "🇮🇳DSR FLAG RUN & FITNESS CHALLANGE 🇮🇳",
+      "link": "https://lu.ma/a2ztmt14",
+      "source": "Luma (New Delhi)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-15.",
+      "image_url": "https://images.lumacdn.com/uploads/ps/0830ed17-d3e6-4c46-bf67-b3bb4df96602.jpg",
+      "feed_url": "opportunities:luma:new-delhi",
+      "event_date": "2026-08-15",
+      "deadline": null
+    },
+    {
+      "title": "Community Run with Kartikeya (Delhi)",
+      "link": "https://lu.ma/88abfepj",
+      "source": "Luma (New Delhi)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-15.",
+      "image_url": "https://images.lumacdn.com/uploads/2q/9fb960a2-6825-442f-8eab-cad7bdfb5d68.png",
+      "feed_url": "opportunities:luma:new-delhi",
+      "event_date": "2026-08-15",
       "deadline": null
     },
     {
@@ -1416,17 +1416,6 @@
       "deadline": null
     },
     {
-      "title": "Open House with Lakshminarayan Vivah - Mumbai Edition",
-      "link": "https://lu.ma/i63nk6y2",
-      "source": "Luma (Mumbai)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/bp/aa9d622a-5565-4451-9fe6-0e2ce33fd6c2.png",
-      "feed_url": "opportunities:luma:mumbai",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
       "title": "Own Bandra w/ Kyro x Bombay Running",
       "link": "https://lu.ma/qirwxse6",
       "source": "Luma (Mumbai)",
@@ -1493,6 +1482,17 @@
       "deadline": null
     },
     {
+      "title": "n8n Mumbai Community Co-Working: Co-Create",
+      "link": "https://lu.ma/n8n-mumbai-cw1",
+      "source": "Luma (Mumbai)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-22.",
+      "image_url": "https://images.lumacdn.com/uploads/en/56a1163e-8f45-4b64-b8be-9ddc716972f6.png",
+      "feed_url": "opportunities:luma:mumbai",
+      "event_date": "2026-08-22",
+      "deadline": null
+    },
+    {
       "title": "Building the Future of AI in Insurance - Voice AI + AI in Underwriting | Unio & InsurTech Club",
       "link": "https://lu.ma/4mzyr09z",
       "source": "Luma (Mumbai)",
@@ -1534,160 +1534,6 @@
       "image_url": "https://images.lumacdn.com/event-covers/cv/284c4fdb-ab37-4cb2-9981-12311c5d62f0.png",
       "feed_url": "opportunities:luma:mumbai",
       "event_date": "2026-11-02",
-      "deadline": null
-    },
-    {
-      "title": "Impact Lab | Bengaluru - Superhuman Lab",
-      "link": "https://lu.ma/claude-54qf",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-08.",
-      "image_url": "https://images.lumacdn.com/uploads/pj/edf10c9c-debc-4e93-9812-c6e2ff8cde84.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-08",
-      "deadline": null
-    },
-    {
-      "title": "Founder Performance Lab",
-      "link": "https://lu.ma/zr91086u",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/4c/947253f0-fdfd-4467-9ffd-f3ac87bdab31.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Poha-Jalebi Club x Basecamp",
-      "link": "https://lu.ma/wvcjvry9",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/67/341b1483-fc0a-40f7-91cc-8a421ff71266.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Women Who Lift",
-      "link": "https://lu.ma/u3a0p5gi",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/w5/4ac33377-6518-446f-b91f-e87412bae59f.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "The Founder's Reading Circle",
-      "link": "https://lu.ma/tj1jpmf6",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/7u/41bf9fa3-e47f-40a9-bf33-e4679ea092ff.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Bring Your Own Business",
-      "link": "https://lu.ma/f7hctxag",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/pw/72fb28ce-8c49-4591-9251-8ce3536ebfc9.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Ship it | Replit x TPF",
-      "link": "https://lu.ma/h2wg0ikz",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/ck/1ab55d3b-c28c-4dbe-81cc-dde243ebcb17.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Side Quest to build taste",
-      "link": "https://lu.ma/ckkjlzvk",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/we/112fb5b2-b2ae-460d-9d09-7bdab8f2ce4f.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Sales 101 - Bangalore Mixer",
-      "link": "https://lu.ma/4tdhgw0j",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/wc/ad5e97c2-a867-4d60-bfbb-d05874721e12.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Building an India-led Space Moat for the Global South - A PierSight Roundtable",
-      "link": "https://lu.ma/ccqvw1rj",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/z9/36183eff-bd87-4c5c-a4b6-260832392132.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "4 Edge Presents Tech x Meme Pub Quiz",
-      "link": "https://lu.ma/d9m6xm2a",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/if/9ac70e9d-da45-4387-a15f-6191d48ee716.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Mafia and Board Game Night",
-      "link": "https://lu.ma/ztck7x53",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/ez/b8683415-696c-4ed7-b6ac-237f51f0a4ba.jpg",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "The Human Code",
-      "link": "https://lu.ma/ugd3kdlf",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/m3/b37c5048-0cd2-4445-b4f3-6c4de1875d85.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
-      "deadline": null
-    },
-    {
-      "title": "Builders' After Hours",
-      "link": "https://lu.ma/whxu9snm",
-      "source": "Luma (Bengaluru)",
-      "published": null,
-      "summary": "Local event via Luma. On 2026-08-09.",
-      "image_url": "https://images.lumacdn.com/uploads/ed/e7e98584-eddb-4731-8429-5dea568d008c.png",
-      "feed_url": "opportunities:luma:bengaluru",
-      "event_date": "2026-08-09",
       "deadline": null
     },
     {
@@ -1746,6 +1592,17 @@
       "deadline": null
     },
     {
+      "title": "The Distribution Café",
+      "link": "https://lu.ma/onxgg88h",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-10.",
+      "image_url": "https://images.lumacdn.com/uploads/u6/d28e4ccd-9f4e-48b8-9937-ba01bcef5580.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-10",
+      "deadline": null
+    },
+    {
       "title": "22nd Century Indian Bangalore Screening",
       "link": "https://lu.ma/zppt6e4k",
       "source": "Luma (Bengaluru)",
@@ -1757,23 +1614,177 @@
       "deadline": null
     },
     {
+      "title": "Offensive Security in the Age of Frontier Models",
+      "link": "https://lu.ma/47o70om2",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-11.",
+      "image_url": "https://images.lumacdn.com/uploads/m5/f2867b5d-e3c9-490c-a5c3-2e03d0e7e815.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-11",
+      "deadline": null
+    },
+    {
+      "title": "Architecting the Future of AI with Google Cloud",
+      "link": "https://lu.ma/i033yolu",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-11.",
+      "image_url": "https://images.lumacdn.com/uploads/g4/1ace5fc2-9934-47a9-a1f1-d6cfe5e1e6b7.jpg",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-11",
+      "deadline": null
+    },
+    {
+      "title": "The Ministry of Anti-Slop Affairs",
+      "link": "https://lu.ma/u02qgqly",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-11.",
+      "image_url": "https://images.lumacdn.com/uploads/m2/3b0060a0-2cc6-4028-94c1-62886cc39774.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-11",
+      "deadline": null
+    },
+    {
+      "title": "Feature Showcase Party by ElevenLabs",
+      "link": "https://lu.ma/76hsy0d1",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-11.",
+      "image_url": "https://images.lumacdn.com/uploads/3u/abca61b7-3ce4-4e5d-9cc5-77e6765d67cb.jpg",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-11",
+      "deadline": null
+    },
+    {
+      "title": "Razorpay x Basecamp presents Breakfast, Brew & Brains by Razorpay",
+      "link": "https://lu.ma/61vn5exi",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-12.",
+      "image_url": "https://images.lumacdn.com/uploads/09/c2f7db35-6245-496e-870d-07445c1cf4ca.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-12",
+      "deadline": null
+    },
+    {
+      "title": "Techno Romanticism V1",
+      "link": "https://lu.ma/gvrt31pm",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-12.",
+      "image_url": "https://images.lumacdn.com/uploads/gc/9a2c0050-a75d-4279-897f-95ff72fd571c.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-12",
+      "deadline": null
+    },
+    {
+      "title": "Cartesia AI: Vinyl and Whiskey Night",
+      "link": "https://lu.ma/17sb2o3x",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-12.",
+      "image_url": "https://images.lumacdn.com/uploads/wu/f9f7bd18-e4ba-4999-8900-03e2fe9595fe.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-12",
+      "deadline": null
+    },
+    {
+      "title": "Series Fun-D: Associates Assemble by Elevation Capital",
+      "link": "https://lu.ma/series-fun-d",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-12.",
+      "image_url": "https://images.lumacdn.com/uploads/0u/4f365764-17f5-4985-adf5-e38440caa0d4.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-12",
+      "deadline": null
+    },
+    {
+      "title": "Behind The Brand - Vol 1",
+      "link": "https://lu.ma/vdxq8s4s",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-13.",
+      "image_url": "https://images.lumacdn.com/uploads/z4/8b8ac05c-027e-4f1e-9ac0-5e1c819d6713.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-13",
+      "deadline": null
+    },
+    {
+      "title": "OpenAI Codex Community Hackathon - Bengaluru",
+      "link": "https://lu.ma/mrm3xiov",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-15.",
+      "image_url": "https://images.lumacdn.com/uploads/c0/91cd8188-17a5-49ca-8ab3-4b52849be708.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-15",
+      "deadline": null
+    },
+    {
+      "title": "AI Salon: Working Theories",
+      "link": "https://lu.ma/160zgm1k",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-15.",
+      "image_url": "https://images.lumacdn.com/uploads/e4/d0ab2624-9c33-4e8f-a3fb-c1c5ec6f592c.jpg",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-15",
+      "deadline": null
+    },
+    {
+      "title": "Breakfast Party by The Bangalore Breakfast Club",
+      "link": "https://lu.ma/k4hf1ol2",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-16.",
+      "image_url": "https://images.lumacdn.com/event-covers/cr/a36a4ee0-5911-4df2-9085-0f5c824b8df2.jpg",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-16",
+      "deadline": null
+    },
+    {
+      "title": "Monad Blitz Bangalore V5",
+      "link": "https://lu.ma/monad-blitz-blr-august-2026",
+      "source": "Luma (Bengaluru)",
+      "published": null,
+      "summary": "Local event via Luma. On 2026-08-16.",
+      "image_url": "https://images.lumacdn.com/uploads/pm/4f6e96d7-596b-46f3-a5cb-02ae29e974bf.png",
+      "feed_url": "opportunities:luma:bengaluru",
+      "event_date": "2026-08-16",
+      "deadline": null
+    },
+    {
+      "title": "Hacklanta",
+      "link": "https://hacklanta.devpost.com/",
+      "source": "Devpost",
+      "published": null,
+      "summary": "Global hackathon via Devpost. Oct 09 - 11, 2026.",
+      "image_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/077/016/datas/medium_square.png",
+      "feed_url": "opportunities:devpost",
+      "event_date": null,
+      "deadline": null
+    },
+    {
+      "title": "CentennialHacks",
+      "link": "https://centennialhacks.devpost.com/",
+      "source": "Devpost",
+      "published": null,
+      "summary": "Global hackathon via Devpost. Aug 15, 2026.",
+      "image_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/877/577/datas/medium_square.png",
+      "feed_url": "opportunities:devpost",
+      "event_date": null,
+      "deadline": null
+    },
+    {
       "title": "EmP Hackfest Summer 2026",
       "link": "https://emp-hackfest-summer-2026.devpost.com/",
       "source": "Devpost",
       "published": null,
       "summary": "Global hackathon via Devpost. Sep 05 - 06, 2026.",
       "image_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/944/432/datas/medium_square.png",
-      "feed_url": "opportunities:devpost",
-      "event_date": null,
-      "deadline": null
-    },
-    {
-      "title": "YouthHackKC Summer Hackathon",
-      "link": "https://youthhackkc-summer-hackathon.devpost.com/",
-      "source": "Devpost",
-      "published": null,
-      "summary": "Global hackathon via Devpost. Aug 15, 2026.",
-      "image_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/067/343/datas/medium_square.png",
       "feed_url": "opportunities:devpost",
       "event_date": null,
       "deadline": null
@@ -1801,12 +1812,12 @@
       "deadline": null
     },
     {
-      "title": "Coffee and Code Agent Hackathon",
-      "link": "https://coffee-and-code-agent.devpost.com/",
+      "title": "YouthHackKC Summer Hackathon",
+      "link": "https://youthhackkc-summer-hackathon.devpost.com/",
       "source": "Devpost",
       "published": null,
-      "summary": "Global hackathon via Devpost. Sep 19 - 20, 2026.",
-      "image_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/068/167/datas/medium_square.png",
+      "summary": "Global hackathon via Devpost. Aug 15, 2026.",
+      "image_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/067/343/datas/medium_square.png",
       "feed_url": "opportunities:devpost",
       "event_date": null,
       "deadline": null
@@ -1823,34 +1834,23 @@
       "deadline": null
     },
     {
+      "title": "Coffee and Code Agent Hackathon",
+      "link": "https://coffee-and-code-agent.devpost.com/",
+      "source": "Devpost",
+      "published": null,
+      "summary": "Global hackathon via Devpost. Sep 20, 2026.",
+      "image_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/068/167/datas/medium_square.png",
+      "feed_url": "opportunities:devpost",
+      "event_date": null,
+      "deadline": null
+    },
+    {
       "title": "Hackdays fatehpur",
       "link": "https://hackdays-fatehpur-30935.devpost.com/",
       "source": "Devpost",
       "published": null,
       "summary": "Global hackathon via Devpost. Aug 19 - 22, 2026.",
       "image_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "feed_url": "opportunities:devpost",
-      "event_date": null,
-      "deadline": null
-    },
-    {
-      "title": "RoadStar Hackathon",
-      "link": "https://roadstarhackathon.devpost.com/",
-      "source": "Devpost",
-      "published": null,
-      "summary": "Global hackathon via Devpost. Sep 05 - 13, 2026.",
-      "image_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/064/585/datas/medium_square.jpg",
-      "feed_url": "opportunities:devpost",
-      "event_date": null,
-      "deadline": null
-    },
-    {
-      "title": "TechX Rwanda Hackathon",
-      "link": "https://techx-rwanda-hackathon.devpost.com/",
-      "source": "Devpost",
-      "published": null,
-      "summary": "Global hackathon via Devpost. Aug 27 - 29, 2026.",
-      "image_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/050/897/datas/medium_square.png",
       "feed_url": "opportunities:devpost",
       "event_date": null,
       "deadline": null

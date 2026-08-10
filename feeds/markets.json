@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T23:57:15.218790+00:00",
+  "generated_at": "2026-08-10T00:01:03.364540+00:00",
   "quotes": [
     {
       "label": "Nifty 50",
@@ -24,30 +24,30 @@
     },
     {
       "label": "Brent Crude",
-      "value": 83.55,
+      "value": 84.48,
       "unit": "$/bbl",
-      "change_pct": 1.29,
+      "change_pct": 1.11,
       "usd": true
     },
     {
       "label": "Bitcoin",
-      "value": 64900.0,
+      "value": 64819.72,
       "unit": "$",
-      "change_pct": 0.03,
+      "change_pct": -0.13,
       "usd": true
     },
     {
       "label": "Gold",
-      "value": 134664,
+      "value": 134673,
       "unit": "₹/10g",
-      "change_pct": 3.72,
+      "change_pct": 1.37,
       "usd": false
     },
     {
       "label": "Silver",
-      "value": 194355,
+      "value": 195608,
       "unit": "₹/kg",
-      "change_pct": 3.35,
+      "change_pct": 0.91,
       "usd": false
     }
   ]
