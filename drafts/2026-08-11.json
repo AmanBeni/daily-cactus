@@ -1,0 +1,675 @@
+{
+  "date": "2026-08-11",
+  "brief": [
+    {
+      "id": "world-5e8b577906",
+      "line": "Nvidia lines up $500B Wall Street package for AI infrastructure"
+    },
+    {
+      "id": "india-deep-tech-cb4f07141c",
+      "line": "IIT Madras-founded Discovered Materials raises $9M to speed AI-driven chip materials discovery"
+    },
+    {
+      "id": "indian-startups-eb19d00e8b",
+      "line": "US judge drops Adani bribery case after DOJ moves to abandon it"
+    },
+    {
+      "id": "climate-energy-41baaae4cc",
+      "line": "India crosses 300 GW non-fossil power capacity, 60% of 2030 target"
+    },
+    {
+      "id": "world-3fc6b4461f",
+      "line": "Ukraine drone strike kills 13 at Russian refinery 1,200km from border"
+    },
+    {
+      "id": "india-deep-tech-07a12ff3ef",
+      "line": "Hadrian raises $1.37B, now valued at $7.8B, to scale US defence manufacturing"
+    },
+    {
+      "id": "agritech-087a5936bd",
+      "line": "World Bank: AI weather forecasts cut farm losses, save Telangana farmers up to $560 each"
+    },
+    {
+      "id": "indian-startups-fb7a7f8188",
+      "line": "MStack AI, Simplismart in talks to raise $30M and $50M as India's AI funding accelerates"
+    },
+    {
+      "id": "india-deep-tech-20a2cd0d6a",
+      "line": "China's embodied-AI funding hits $13.86B in H1 2026 across 322 deals"
+    },
+    {
+      "id": "beyond-your-beat-2ce9609a19",
+      "line": "Air India A320's mid-air altitude drop traced to cascading hydraulic failures, not turbulence"
+    },
+    {
+      "id": "india-2997b8bcb5",
+      "line": "UPI growth slows to 23.5% YoY as India debates reviving merchant fees"
+    },
+    {
+      "id": "climate-energy-d5124924af",
+      "line": "MHA bans new renewable energy projects within 1km of India's borders"
+    }
+  ],
+  "lead": {
+    "id": "world-5e8b577906",
+    "headline": "Nvidia lines up $500 billion Wall Street package for AI infrastructure",
+    "summary": "Nvidia is in talks with a group of the largest US investment firms - Apollo Global Management, Blackstone, BlackRock's Global Infrastructure Partners, Brookfield, Goldman Sachs and KKR - on a deal to fund roughly $500 billion of AI infrastructure buildout, the Financial Times reported, citing unidentified sources; an announcement could come as soon as Monday. Nvidia shares fell as much as 3.2% on the report. The company has already signed hundreds of billions of dollars in deals across the AI ecosystem, including an expanded SK Group partnership worth over $500 billion and talks to backstop up to $250 billion so OpenAI can lease data-centre compute.",
+    "signal": [
+      "Nvidia is now effectively financing its own demand - selling chips, then helping fund the infrastructure that buys them.",
+      "The circularity (Nvidia backing SK Group, OpenAI leases, and now Wall Street co-investment) is the central bear case on the AI capex boom right now.",
+      "Watch whether Apollo, Blackstone, Goldman and the others actually confirm - none have responded yet."
+    ],
+    "key_stat": "$500B - Wall Street AI infra deal",
+    "editors_read": "If this closes, it marks private capital moving from AI models to AI infrastructure at a scale that outstrips most sovereign wealth funds - a sign the AI buildout is being treated as an asset class, not a bet on any single lab. But it also deepens the exact circular-financing pattern (chipmaker funds its own customers' capex) that has drawn comparisons to telecom-bubble vendor financing in 2000-01; a stumble at OpenAI or a slowdown in hyperscaler capex would now ripple through private-credit and infrastructure funds, not just tech stocks. For anyone tracking the AI-generalist job market, this is the clearest sign yet that 'AI infrastructure finance' is becoming its own specialism worth watching.",
+    "developing": true,
+    "badge": ""
+  },
+  "frontpage": [
+    {
+      "id": "indian-startups-ca507e70e7",
+      "headline": "Aum Ventures closes Rs 225 crore first close for new deep-tech fund",
+      "summary": "Aum Ventures has raised Rs 225 crore in the first close of its Rs 750 crore India Innovation Fund II, targeting early-stage Indian deep-tech startups across space, semiconductors, AI, defence and advanced manufacturing.",
+      "signal": [
+        "Another dedicated India deep-tech fund closing a first tranche - the investor base for the sector the reader wants to enter keeps widening.",
+        "The Rs 750 crore target signals conviction that deep-tech now has enough dealflow to absorb serious capital, not just seed cheques."
+      ],
+      "developing": false
+    },
+    {
+      "id": "india-deep-tech-cb4f07141c",
+      "headline": "IIT Madras alumni raise $9 million to build AI agents that discover chip materials",
+      "summary": "Discovered Materials, founded by IIT Madras alumni Advaith Sridhar and Akash Ramdas, has raised a $9 million (about Rs 85 crore) seed round led by Lightspeed India Partners, with Y Combinator, Peak XV Partners and angels including Paul Graham participating. The startup's AI agents run simulation, synthesis and experimental validation to find new semiconductor materials faster than traditional R&D; it has already released hundreds of AI-discovered materials and a new benchmark, Material Discovery Bench, to evaluate frontier models on real materials-discovery problems. Co-founder Ramdas says today's chips are '10,000x less power-efficient than the human brain,' and that the team produced thermal materials in three months that match products chemical giants took years to develop.",
+      "signal": [
+        "A concrete example of AI agents doing real physical-science work, not just chat - directly echoes the 'AI for science needs reasoning' thesis in today's AI section.",
+        "Heat dissipation is becoming a genuine bottleneck for AI chips, so a startup solving it sits at the intersection of AI and deep-tech - exactly the seam the reader is trying to work in.",
+        "Backing from Paul Graham and YC on an IIT Madras-founded deep-tech startup is a small but real data point on where global capital is starting to flow in Indian deep-tech."
+      ],
+      "key_stat": "$9M seed - Lightspeed-led",
+      "editors_read": "This is a template worth watching: young, technically deep IIT-alumni founders building an AI-agent layer on top of a hard-science problem (materials discovery) rather than another LLM wrapper. If Discovered Materials' Material Discovery Bench gets adopted as an industry standard, the company becomes infrastructure for the whole chip-materials field, not just a materials vendor - a far more defensible position. For someone eyeing founder's-office or deep-tech-adjacent roles, this is the kind of company (small team, real technical moat, credible investor syndicate) worth tracking as it scales.",
+      "developing": false
+    },
+    {
+      "id": "indian-startups-eb19d00e8b",
+      "headline": "US judge dismisses criminal fraud and bribery case against Gautam Adani",
+      "summary": "A Brooklyn federal judge dismissed the 2024 criminal case against Indian billionaire Gautam Adani after the US justice department moved to abandon its own prosecution. Adani had been charged with bribing Indian officials to win solar-plant approvals and misleading US investors about anti-corruption practices; he never appeared in US court. The judge had pressed prosecutors on their 'bland and conclusory' justification and specifically asked Adani under oath whether anything was promised in exchange for dropping the case - Adani said no, but acknowledged he had separately pledged $10 billion in US investment and that his lawyers told the DOJ this pledge 'might be part of a resolution.' A DOJ official denied the investment pledge influenced the decision, calling the case 'primarily foreign, hard to prove' and a low current priority.",
+      "signal": [
+        "One of the highest-profile Indian corporate names is now clear of a case that had constrained his group's global dealmaking and US market access.",
+        "The DOJ's pattern of dropping high-profile white-collar cases under the current administration is now well-documented - worth tracking for anyone following US-India business ties or governance risk."
+      ],
+      "developing": false
+    },
+    {
+      "id": "climate-energy-41baaae4cc",
+      "headline": "India crosses 300 GW of non-fossil power capacity, 60% of its 2030 target",
+      "summary": "India has installed 300.5 GW of non-fossil fuel electricity generation capacity as of July 31, 2026 - over 60% of its 500 GW target for 2030 - per the Ministry of New and Renewable Energy. The mix: solar 164.59 GW (from 2.8 GW in 2014), wind 58.14 GW (from 21 GW in 2014), hydro 57.24 GW, bio-power 11.75 GW and nuclear 8.78 GW. Non-fossil capacity now makes up over 54% of India's total 552 GW generation capacity. A record 55.29 GW of non-fossil capacity was added in 2025-26 alone (44.6 GW solar, 6 GW wind), and domestic solar-module manufacturing capacity under the PLI scheme has crossed 200 GW, up from 2.3 GW in 2014.",
+      "signal": [
+        "The scale-up is real and accelerating, not just a target on paper - a record year of additions just happened.",
+        "Domestic manufacturing capacity (200 GW of PLI-approved modules) growing alongside installed capacity is the more interesting number here - it's building supply-chain independence, not just importing panels."
+      ],
+      "key_stat": "300 GW - 60% of 2030 target",
+      "developing": false
+    },
+    {
+      "id": "india-499891edb0",
+      "headline": "India debates charging fees for UPI payments",
+      "summary": "India is debating whether to charge fees on UPI payments, according to a Bloomberg report. (source unreachable — headline only)",
+      "signal": [
+        "Useful context, not independently actionable from the headline alone - see the fuller UPI/MDR coverage in today's India section for the actual numbers and positions."
+      ],
+      "developing": false
+    },
+    {
+      "id": "world-3fc6b4461f",
+      "headline": "Ukrainian drone strike kills at least 13 at Russian oil refinery 1,200km from the border",
+      "summary": "A Ukrainian drone strike on the Taneco oil refinery in Nizhnekamsk, Tatarstan - about 750 miles (1,200km) inside Russia - killed at least 13 people, per the local mayor, in what could be among the deadliest Ukrainian strikes on Russian soil since 2022. Tatarstan's regional head said a drone hit a hostel, killing nine; the Uzbek consulate said seven victims were Uzbek citizens. Russia's defence ministry said it intercepted 456 Ukrainian drones over Russian territory and Crimea that day. Kyiv says it is knocking out Russian air defences faster than they can be replaced, opening exploitable 'air corridors.' Separately, Sweden's security service said it dismantled a Russian spying operation run under diplomatic cover.",
+      "signal": [
+        "Ukraine's long-range strike campaign is now reaching deep into Russian territory (Tatarstan is roughly 1,200km from Ukraine) and specifically targeting oil-export infrastructure - a deliberate economic-strangulation strategy, not just battlefield harassment.",
+        "Useful context on where the war's economic pressure points now sit; not directly actionable beyond tracking energy-market and India-Russia-crude implications."
+      ],
+      "developing": true
+    },
+    {
+      "id": "india-deep-tech-07a12ff3ef",
+      "headline": "Defence manufacturing startup Hadrian raises $1.37 billion, now valued at $7.8 billion",
+      "summary": "Hadrian Automation has raised $1.37 billion in new equity, its second round this year, taking its valuation to $7.87 billion - up from $1.6 billion in January. The Torrance, California-based company builds highly automated 'factories-as-a-service' using AI, machine learning and robotics for US military, aerospace and industrial manufacturing, aiming to compete directly with China's industrial base. It has expanded to four factories (Torrance, Mesa, Muscle Shoals) totalling nearly 3 million sq ft since its Series C twelve months ago, and plans to add munitions and autonomous-systems production lines over the next year. The round was co-led by WCM Investment Management, Washington Harbour Partners and Valor Equity Partners, with JPMorganChase's Strategic Investment Group anchoring, plus Andreessen Horowitz, Founders Fund and Lux Capital among the backers.",
+      "signal": [
+        "A roughly 5x valuation jump in seven months (January's $1.6B to now $7.8B) for a defence-manufacturing startup shows how much capital is chasing 'reindustrialization' plays, not just AI models.",
+        "Worth watching as a template - AI-driven, highly automated factories-as-a-service could eventually have an Indian analogue given India's own defence-manufacturing push."
+      ],
+      "developing": false
+    },
+    {
+      "id": "agritech-087a5936bd",
+      "headline": "World Bank: AI is already saving Indian farmers money and screening for TB, but threatens BPO jobs",
+      "summary": "The World Bank's World Development Report 2026 presents India as a leading low-cost AI testing ground. In Telangana, an AI weather-forecasting system helped small farmers cut losses - some increased farm spending by a third, others saved up to $560 per farmer. Odisha's Ama Krushi/Krushi Samruddhi programme grew from 3 million to over 7 million farmers since 2022, with a 2025 evaluation finding benefit-cost ratios of 9:1 to 15:1. Kisan e-Mitra, an 11-language grievance chatbot, handled 2.7 million queries in 186 days - nearly seven times what manual processing could manage. On health, Wadhwani AI's 'Cough Against TB' correctly flagged 9 of 10 people needing a confirmatory TB test, and Maharashtra found AI X-ray screening more accurate and cheaper than radiologist reads. The report warns AI could also close off a key path to middle-class jobs by automating call-centre and entry-level tech, finance and business-services roles, even as one in six jobs in developing economies (16.2%) could be enhanced rather than replaced. Under the IndiaAI Mission, Sarvam AI is building 30B- and 105B-parameter models trained entirely in India.",
+      "signal": [
+        "This is the single best evidence-based case study of AI deployment (not lab demo) in India today - directly useful for anyone building a case for AI-generalist work in India's public or development sector.",
+        "The BPO-automation warning is the flip side worth internalizing: the same low-cost AI helping farmers is displacing the entry-level jobs many Indian graduates currently rely on.",
+        "Sarvam AI's 30B/105B domestic models under the IndiaAI Mission is a concrete marker of India's sovereign-AI ambitions - worth tracking against actual releases."
+      ],
+      "key_stat": "Up to $560 saved per farmer - Telangana AI forecasting",
+      "editors_read": "This report is likely to become the reference document for India-AI policy conversations for the next year - expect it cited in every 'AI for development' pitch deck and government white paper going forward. The real signal for the reader's pivot is the gap it exposes: India has strong bottom-of-pyramid AI deployment case studies (agri, health) but comparatively weak translation of that into frontier model-building capacity, which is exactly the sovereign-AI/IndiaAI Mission bet Sarvam and others are now testing. Whether India can move from 'AI adopter' to 'AI builder' at scale is probably the single most consequential open question for anyone building a career in this space here.",
+      "developing": false
+    }
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": [
+        {
+          "id": "ai-00b23f25dd",
+          "headline": "University AI researchers are adapting to a field frontier labs now control",
+          "summary": "At a Schmidt Sciences AI2050 convening near San Francisco, MIT Technology Review found academic AI researchers grappling with a shift: frontier AI research has moved from universities to private labs like Anthropic and OpenAI, which don't share training details and which few universities can afford the GPUs to compete with. UC Berkeley professor Nika Haghtalab compared it to being a biologist in a world where private companies control CRISPR. Many academics are deliberately steering toward questions frontier labs wouldn't solve anyway - Johns Hopkins' Anjalie Field found LLMs give less sophisticated answers to prompts phrased the way women typically write, research unlikely to come from a commercial lab. Non-LLM AI researchers (climate models, protein structures) also report struggling for attention and funding as public understanding of 'AI' narrows to energy-hungry LLMs. Several prominent academics have taken industry leave, and some fellows worry OpenAI's math-problem-solving could threaten pure mathematics as an academic career.",
+          "signal": [
+            "The academia-to-industry AI brain drain is now well underway and self-reinforcing - worth noting if the reader ever considers a research-adjacent path.",
+            "Resource-constrained academic labs are pushed toward smaller, more efficient models and new architectures precisely because they can't compete on scale - a useful counter to 'bigger is always better.'"
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-ff6fc8e31d",
+          "headline": "Datacentre backlash is becoming a real political fight over water and power",
+          "summary": "The Guardian's John Harris visited Slough, home to the densest cluster of datacentres in western Europe (around 40, more coming), where residents describe constant noise and rising local heat. A Cambridge University preprint found datacentres can create a 'heat island' effect, raising nearby temperatures by an average 2C and up to 9C, though the trading estate's owners dispute causation. Water UK called the government's water forecasts 'fatally flawed' for excluding datacentres, which can use up to 5 million gallons a day - equivalent to 50,000 people's consumption. Politically, resistance is now mainstream: New York imposed a one-year pause on new hyperscale datacentres, Texas's Republican governor ordered new centres to clear a water/energy review before joining the grid, and UK regulator Ofgem says 100 planned centres aim to run on dedicated gas turbines because renewables 'can't run 100% of the time.' In London, datacentre power demand has reportedly stalled housebuilding.",
+          "signal": [
+            "Datacentre siting is becoming a genuine electoral and land-use fight (New York's pause, Texas's grid conditions, London housing tradeoffs), not a fringe environmental complaint anymore.",
+            "Useful context for anyone tracking AI infrastructure investment (see today's lead on Nvidia's $500B package) - the physical buildout has real local costs generating real political friction that could slow it in specific markets."
+          ],
+          "developing": true
+        },
+        {
+          "id": "ai-2231dcf4c3",
+          "headline": "AI agents, not bigger datasets, may be the real accelerant for scientific research",
+          "summary": "MIT Technology Review argues AlphaFold's Nobel-winning success is a poor template for 'AI accelerating all of science' because it depended on 53 years and roughly $21 billion of coordinated data-gathering (the Protein Data Bank, about 170,000 structures) that most fields can't replicate. Instead, AI reasoning agents - which mimic how scientists actually work under uncertainty, combining multiple imperfect tools and judgment - are the more generalizable path. Example: Google's AI Co-Scientist was given a one-page brief on how antibiotic resistance spreads between bacteria; its sub-agents drafted hypotheses, peer-reviewed each other, ran tournaments to rank candidates and converged on the correct answer (resistance genes hitching rides on bacterial viruses) - a conclusion Imperial College London researchers had reached after a decade of wet-lab work, still in peer review when Co-Scientist ran. Agents also offer a structural fix for science's reproducibility crisis by auto-logging every step of their process.",
+          "signal": [
+            "Directly relevant to Discovered Materials' pitch on today's frontpage - same thesis (AI agents doing real research work) playing out as an emerging trend, not an isolated case.",
+            "The reproducibility-crisis angle (agents auto-log their method) is an underrated practical benefit worth remembering when pitching AI-for-science ideas."
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-5023b389af",
+          "headline": "Four startups are betting the transformer architecture itself is due for replacement",
+          "summary": "OpenAI will spend $50 billion on compute this year (per president Greg Brockman), and the IEA projects global datacentre electricity use will double by 2030 - costs MIT Technology Review traces to the transformer's core 'dense attention' mechanism, which needs roughly 50 million multiplications to process a 10,000-word document. Four startups are attacking this: Miami-based Subquadratic claims a sparse-attention mechanism (SubQ) that matches mainstream LLMs on search and coding tasks. San Francisco's Manifest AI built 'power retention,' which keeps only a rolling summary of context instead of everything, and converted the open-source StarCoder model into 'PowerCoder' with minimal retraining. MIT spinout Liquid AI pairs transformers with 'liquid neural networks' inspired by worm brains; its models run on a $50 Raspberry Pi, match rivals four times their size, and have racked up 34 million downloads. Palo Alto's Inception uses diffusion (the image-generation technique) to generate whole blocks of text at once; its Mercury 2 model reportedly matches GPT-4-era performance at 10x the speed. Palo Alto's Pathway built 'Dragon Hatchling,' which beat 97% of 250,000 sudoku puzzles that stumped leading LLMs entirely.",
+          "signal": [
+            "If any of these approaches (especially diffusion-based generation or power retention) scale, the current cost structure of running LLMs - a major constraint on India's AI-adoption story - could shift substantially within a couple of years.",
+            "Worth tracking as a category: none of these four are vaporware, they have named investors, live products and benchmark claims - real competitive pressure on the transformer's dominance, not just theory."
+          ],
+          "developing": true
+        }
+      ],
+      "also": [
+        {
+          "id": "ai-639566bfa7",
+          "line": "Microsoft may unveil its next AI chip, the Maia 300, as soon as next month to cut Nvidia reliance."
+        },
+        {
+          "id": "ai-25c29618f1",
+          "line": "Op-ed warns medical trainees leaning on AI risk 'never-skilling' - never developing clinical judgment at all, worse than losing it."
+        },
+        {
+          "id": "ai-ec300a62a3",
+          "line": "Hedge fund Situational Awareness, founded by ex-OpenAI researcher Leopold Aschenbrenner, invested $400M in chip startup Source Foundry, taking its total stake to $500M."
+        }
+      ]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "id": "deep-tech-edd2a1c4c2",
+          "headline": "Explainer: why China's humanoid robot makers are racing to list",
+          "summary": "Reuters published an explainer on Unitree and why China's humanoid robot makers are racing to go public. (source unreachable — headline only)",
+          "signal": [
+            "Useful context on China's robotics IPO wave - see today's fuller China robotics funding story in this section for the hard numbers."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-77735a924c",
+          "headline": "South Korea's Holiday Robotics raises Won 155 billion Series A for humanoid robots",
+          "summary": "Holiday Robotics has raised Won 155 billion in a Series A round to accelerate commercialisation of its humanoid robots, per AsiaTechDaily. (source unreachable — headline only)",
+          "signal": [
+            "Another data point in the global humanoid-robot funding surge alongside China's cluster of rounds covered elsewhere in this section."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-1a254229d5",
+          "headline": "The AI memory chip price boom is nearing its late stage, analysts warn",
+          "summary": "Morgan Stanley expects the memory-chip cycle to enter its late stage in Q4 as price increases moderate and inventories build, per a recent report. Contract DRAM prices are expected to rise about 17% in Q3 versus Q2 - a sharp slowdown from the roughly 65% quarter-on-quarter jump in April-June - per Bernstein Research. Shares of Micron, SK Hynix and SanDisk have pulled back from recent highs as investors reassess. Adding supply pressure: UBS expects China's ChangXin Memory Technologies (CXMT) to nearly double monthly DRAM capacity from about 240,000 wafer starts (end of 2025) to 466,000 by late 2028, lifting its global DRAM bit-supply share from about 7% to 10%.",
+          "signal": [
+            "AI-driven memory-chip demand has been a major profit driver for the industry - this is the first credible signal the cycle is turning, which matters for anyone tracking AI hardware costs.",
+            "China's CXMT ramping capacity is a slow-moving but real threat to the Korea/US memory oligopoly - worth watching over the 2027-2028 horizon."
+          ],
+          "developing": true
+        },
+        {
+          "id": "deep-tech-c35a7ab75b",
+          "headline": "Chinese AI developers are still training on Nvidia chips despite push for local hardware",
+          "summary": "Despite China's push toward domestic AI chips, 'training LLMs on Nvidia chips for now remains the norm among Chinese AI developers,' per an industry source. The core obstacle is software: Nvidia's CUDA platform is the entrenched standard, while Huawei's alternative CANN requires developers to rewrite and re-optimise large amounts of code. One Shanghai-based AI researcher estimated migrating existing workflows to Huawei's Ascend chips would add at least 50% to project time and cost.",
+          "signal": [
+            "A concrete number (50% cost/time penalty to switch off Nvidia/CUDA) on why China's chip-independence push is slower than headlines suggest - CUDA's software moat, not just hardware, is the real barrier.",
+            "Relevant to any 'decoupling' narrative - the switching costs run deeper than sanctions can address quickly."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-9321b4adf8",
+          "headline": "Chinese team demonstrates largest photonic quantum entangled state on a chip yet",
+          "summary": "Hefei Sizhen Chip Technology and University of Science and Technology of China researchers generated a 4-photon 16-qubit GHZ state and a 4-qubit cluster state on a programmable silicon photonic chip - which they describe as the largest entangled state demonstrated on an optical quantum chip to date, verifying genuine entanglement across 10 qubits. Using the 4-qubit cluster state, they ran Grover's search algorithm with a 0.987 average identification probability. The approach uses measurement-based quantum computing (MBQC), which shifts computational difficulty to preparing an initial entangled state rather than running logic gates - potentially reaching larger qubit scales with the same photon resources. Sizhen Chip claims the result makes a million-qubit optical quantum computer 'feasible.'",
+          "signal": [
+            "Photonic quantum computing is a less-hyped lane than superconducting qubits (IBM, Google) but this is a genuine scale record, worth noting for deep-tech watchers.",
+            "The 'feasible' claim on million-qubit machines is company marketing language, not independent verification - read the roadmap claim skeptically."
+          ],
+          "developing": false
+        }
+      ],
+      "also": []
+    },
+    {
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "id": "climate-energy-d5124924af",
+          "headline": "India bars new renewable energy projects within 1km of its borders",
+          "summary": "The Ministry of Home Affairs has prohibited new solar, wind and hybrid renewable projects within 1km of the Line of Control, Line of Actual Control and International Border, citing national security. Projects between 1km and 50km of these borders are now classified as sensitive and require case-by-case MHA and Defence Ministry security clearance; those within 1-20km additionally need a Defence Ministry no-objection certificate. The rules also restrict hiring workers from Pakistan, Bangladesh and China for border-area projects without central government permission, and cap infrastructure height (3m within 1-8km, 5m within 8-20km, 15m within 20-50km of the border).",
+          "signal": [
+            "A real constraint on where India's renewable buildout can happen - border states like Rajasthan and Gujarat, which lead in solar deployment, will now face added clearance friction on frontier-adjacent sites.",
+            "Worth watching for how it interacts with existing projects already near borders (see Bikaner's BESS cluster below)."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-789e30dc11",
+          "headline": "Serentica commissions first 200MWh of a 1GWh battery storage project in Rajasthan",
+          "summary": "Serentica Renewables has commissioned Phase 1 (200MWh) of a planned 1GWh battery energy storage system in Bikaner, Rajasthan, to deliver round-the-clock renewable power to undisclosed commercial and industrial customers. Phase 2 (800MWh) is expected online 'within the next quarter,' per a June announcement. The project sits within Serentica's INR 1 trillion ($10.5 billion) investment plan for Rajasthan, where it already holds over half its 3.2GW operational renewable portfolio. Backers include KKR, which has invested $650 million in the company since 2022. In early July, Serentica won a 600MW allocation - the single largest - under SECI's 4,800MWh competitive FDRE tender.",
+          "signal": [
+            "Battery storage at gigawatt-hour scale, tied to firm 24/7 power delivery contracts (not just capacity), is the piece of India's renewable story that's been missing - this is a concrete example of it landing.",
+            "Note this sits within the exact border-security zone the MHA guidelines above now regulate - a live case study of the new clearance regime in practice."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-165e31a3af",
+          "headline": "CESC unit to acquire ReNew Solar renewable assets for $510 million",
+          "summary": "A unit of India's CESC is acquiring renewable energy assets from ReNew Solar for $510 million, per Reuters. (source unreachable — headline only)",
+          "signal": [
+            "Another consolidation deal in India's renewable asset market - watch for confirmation and deal terms."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-f52486cad1",
+          "headline": "Volkswagen nears 51:49 JSW joint venture to fund its India EV push",
+          "summary": "Skoda Auto Volkswagen India is close to finalising a 51:49 joint venture with JSW Group (JSW holding majority control) to fund development of the India Main Platform, an EV architecture adapted from VW's China platform. VW's global executives meet in Mumbai on 18 August to discuss approval, with a non-binding MoU expected within two months. VW cut its planned India EV platform investment from $1 billion to about $700 million in November 2025 amid a broader cost-cutting drive, and its India market share has been stuck around 2% for two decades after an earlier Mahindra tie-up collapsed (versus about 4% in the US). India's SPMEPCI scheme lets automakers import up to 8,000 EVs a year at a reduced 15% duty (versus 70-110% standard) if they commit at least $500 million to domestic manufacturing within three years - likely why VW is accepting a minority stake, a departure from how foreign automakers have typically entered India.",
+          "signal": [
+            "A foreign auto major accepting minority control to access India's market is notable - shows how much leverage large domestic manufacturing partners like JSW now have.",
+            "The India Main Platform, derived from VW's China platform but built with zero Chinese ownership in the JV, is a workaround worth watching as a template for automakers navigating China-tech-but-not-China-ownership constraints."
+          ],
+          "developing": true
+        }
+      ],
+      "also": [
+        {
+          "id": "climate-energy-803aa49a03",
+          "line": "India auto retail hit a record 25.91 lakh units in July 2026, up 25.89% YoY, with passenger vehicle sales crossing 4 lakh for the first time."
+        },
+        {
+          "id": "climate-energy-66ee4138c9",
+          "line": "Karnataka now has 6,805 EV charging stations, second only to Maharashtra's 6,985, per Ministry of Heavy Industries data."
+        }
+      ]
+    },
+    {
+      "slug": "health-tech",
+      "stories": [
+        {
+          "id": "health-tech-0fc90a61c9",
+          "headline": "Trump signs executive order overhauling US childhood vaccine recommendations without new evidence",
+          "summary": "President Trump signed a 'Gold Standard Childhood Vaccine Recommendations' executive order cutting the federally recommended childhood vaccine list from 18 to 11 and spreading doses over a longer schedule, developed in consultation with presidential advisers rather than the usual scientist-led process; the administration provided no immunological evidence for the change. The order also calls for splitting the MMR vaccine into three separate shots - which experts say would take years of work and isn't supported by evidence, and which a review from two Kennedy-selected advisers Trump's own team cited didn't actually recommend. Trump claimed without evidence the combined MMR shot could be 'quite lethal,' then partially walked it back. Senator Bill Cassidy (R-LA), who chairs the Senate health panel, called the order 'wrong' and said the president 'does not have the expertise to make these changes.' Hospitals and doctors have reportedly ignored earlier Trump-era vaccine guidance changes, and insurance will continue covering the shots regardless.",
+          "signal": [
+            "Useful context on US health-policy volatility, not directly actionable for the reader - but worth tracking if it affects vaccine manufacturers with India exposure (Serum Institute, Bharat Biotech supply chains).",
+            "The gap between federal recommendation and actual clinical practice (hospitals ignoring past orders) suggests limited near-term real-world impact despite the political noise."
+          ],
+          "developing": true
+        },
+        {
+          "id": "health-tech-4257a48d49",
+          "headline": "FDA will require companies to disclose food additives for the first time",
+          "summary": "HHS announced companies must now notify the FDA before adding a new substance to the food supply and explain how they determined it's 'generally recognized as safe' (GRAS); companies with existing GRAS substances must also disclose usage for the first time, in a public database. The FDA will review new-substance notices within 45 days and complete fuller review within 180 days. The rule doesn't require companies to prove existing additives are safe or add pre-market approval (which needs a Congressional law change) - critics call this a weaker version of closing the long-criticized 'GRAS loophole.' HHS estimates the rule will cost $10.5 million a year, mostly borne by companies. The proposal opens for public comment through early December.",
+          "signal": [
+            "A genuine transparency step (the FDA currently doesn't even know what's in the food supply) but explicitly not enforcement - useful context, limited near-term teeth.",
+            "Not directly actionable for the reader, but relevant if tracking US food-tech or regulatory-tech startups building compliance tooling around GRAS disclosures."
+          ],
+          "developing": false
+        },
+        {
+          "id": "health-tech-25d356dac4",
+          "headline": "Indian drugmakers aren't rushing to shift manufacturing to the US despite 200% tariff threat",
+          "summary": "Despite Trump's threat of up to 200% tariffs on imported generics after a two-year transition, Indian pharma majors are keeping India as their primary production base while making selective US investments in complex products. Dr Reddy's CEO Erez Israeli called moving a facility within the two-year window 'not practical' and dropped plans to engage a US contract manufacturer for its Abatacept biosimilar, launching from Hyderabad instead; 25-30% of its revenue already comes from US-based contract manufacturing. Lupin has invested about $250 million in its Coral Springs, Florida facility for complex respiratory products, but keeps its wider manufacturing India-centric. Zydus paid $75 million (plus up to $50 million contingent) for two California biologics facilities; Biocon has commissioned a New Jersey facility but is doubling insulin capacity in Malaysia instead. A Deloitte survey of large pharma CXOs found 90% plan some manufacturing expansion in the next 2-3 years, but analyst Shrikant Akolkar notes producing generics in the US is difficult given price erosion and that 'building such large-volume capacities locally would take decades.'",
+          "signal": [
+            "Direct evidence that tariff threats aren't triggering the manufacturing 'reshoring' the US policy is designed to produce - India's cost and scale advantages in generics remain structurally hard to replicate.",
+            "The selective US investment pattern (complex/specialty products only, not bulk generics) is the template worth remembering when evaluating any 'India pharma is moving to the US' headline."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "id": "health-tech-2bce8f15ac",
+          "line": "Union minister J P Nadda released a World Bank-linked knowledge paper on AI in MedTech at India Medical Device 2026 in New Delhi."
+        },
+        {
+          "id": "health-tech-6e42161264",
+          "line": "Novo Nordisk and AWS launched a joint AI drug discovery hub."
+        }
+      ]
+    },
+    {
+      "slug": "agritech",
+      "stories": [
+        {
+          "id": "agritech-26820c9614",
+          "headline": "Agriculture accounts for 87% of India's groundwater extraction",
+          "summary": "India extracts 60.63% of its annual groundwater resources, with agriculture responsible for about 87% of total extraction, domestic use 11% and industry 2%, per the Union Jal Shakti Ministry's response in the Rajya Sabha. Annual groundwater recharge is estimated at 449 billion cubic metres (BCM), extractable resources at 408 BCM, and total extraction at 247 BCM - of which 215 BCM goes to irrigation. Nine states/UTs (Punjab, Rajasthan, Haryana, Delhi, Puducherry, Tamil Nadu, UP, Chandigarh, Karnataka) exceed the national extraction rate, and 281 districts nationally exceed the average. Groundwater is generally potable and 99% of monitoring stations show water suitable for irrigation; a new cement-sealing technology has enabled 525 arsenic-safe wells (40 in Bihar) in arsenic-affected areas.",
+          "signal": [
+            "Agriculture's outsized groundwater share is the structural reason any credible agritech or water-tech play in India has to touch irrigation efficiency - it's where nearly all the extraction happens.",
+            "Nine states over the national average is a useful shortlist of where water-stressed agritech demand will be most acute."
+          ],
+          "developing": false
+        },
+        {
+          "id": "agritech-f154660306",
+          "headline": "NABARD picks 3 winners in national challenge to turn climate data into rural credit and insurance decisions",
+          "summary": "NABARD, backed by the Gates Foundation and Dalberg Advisors, selected three winners from over 150 applicants in its National Climate Stack Innovation Challenge, aimed at evolving DiCRA (Data in Climate Resilient Agriculture) from a data repository into Digital Public Infrastructure. SatSure Analytics (first prize) built a Climate Vulnerability Index scoring villages by climate exposure and adaptive capacity using satellite and climate data, aimed at farmer advisories, lender portfolio assessment and government planning. EXPERIQS (second) built a block-level drought intelligence platform with API-enabled outputs for lenders, insurers and farmer producer organisations. VARSAPRADAYA (third) built a 3km, 20-year hazard-scoring engine for irrigation, credit and afforestation planning. The challenge funnelled 150-plus applicants to 20 prototypes to 11 finalists, judged by experts from RBI, NABARD, the World Bank and the India Meteorological Department.",
+          "signal": [
+            "This is Digital Public Infrastructure applied to climate risk the same way UPI was applied to payments - a pattern worth watching since India has repeatedly turned shared data layers into national-scale infrastructure.",
+            "SatSure in particular is worth tracking - space-tech and geospatial analytics feeding directly into rural credit and insurance underwriting is exactly the deep-tech-meets-financial-inclusion play in the reader's target sector."
+          ],
+          "developing": false
+        },
+        {
+          "id": "agritech-c243d96c74",
+          "headline": "Experts say India's ethanol-blending policy is straining food security and water, urge a rethink",
+          "summary": "At an Indian Women's Press Corps event, experts argued India's ethanol-blended fuel policy has shifted agriculture from food-oriented to fuel-oriented - India now imports maize to meet ethanol demand having previously exported it. Economist Chand said the government pushed ethanol blending partly to absorb surplus rice and sugar bought at above-market minimum support prices, and suggested replacing rice acreage with maize to cut water use and methane emissions, since rice is far more water- and emissions-intensive. Comparisons to Brazil's ethanol programme were called misleading: Brazil exports 36 of the 45 million tonnes of sugar it produces with a much smaller population and more land per capita, and climate change could cut India's own agricultural output by 25% per cited studies. Raghunandan recommended reverting from E20 (20% ethanol blend) to E10, arguing only about 400 distillers benefit from E20 while consumers and the environment bear the cost with no clear farmer benefit; he suggested the government compensate distillers instead.",
+          "signal": [
+            "A direct, numbers-backed critique of a flagship government energy policy - worth having on hand if the ethanol-blending success story comes up in an energy or climate conversation.",
+            "The food-security angle (maize importer despite being a former exporter) is the concrete data point that makes this more than an academic debate."
+          ],
+          "developing": false
+        },
+        {
+          "id": "agritech-94d82dd17d",
+          "headline": "India's monsoon is delivering both a rainfall deficit and flash floods at once",
+          "summary": "India's 2026 monsoon is roughly 11% below normal nationally, with the IMD forecasting below-normal rainfall (94% of normal) through August-September, even as some regions see intense downpours and flash floods - a pattern experts call a 'dangerous paradox.' NOAA puts the probability of a Very Strong El Nino during October-December 2026 at 81%, potentially among the strongest on record since 1950, though experts caution against attributing the entire deficit to El Nino alone since Indian Ocean conditions and intra-seasonal variability also matter. July rainfall was about 1% above normal nationally but highly uneven; Kerala saw exceptionally heavy short-period rainfall while other regions stayed dry. A warmer atmosphere holds roughly 7% more water vapour per 1C of warming, increasing potential rainfall intensity when systems do form - meaning short bursts of extreme rain increasingly can't compensate for weeks-long dry spells, since much of that rain runs off rather than recharging groundwater or soil moisture.",
+          "signal": [
+            "The dry-spell-then-flash-flood pattern is a more useful framing than aggregate rainfall numbers for anyone building agritech or water infrastructure - average rainfall figures are increasingly misleading.",
+            "Connects directly to the groundwater extraction story above: runoff from short intense bursts doesn't recharge the aquifers agriculture depends on, compounding the water-stress problem."
+          ],
+          "developing": true
+        }
+      ],
+      "also": [
+        {
+          "id": "agritech-191d3b1842",
+          "line": "Typhoon Dolphin, which slammed into eastern China, is being tracked as a factor suppressing India's monsoon rainfall from nearly 4,000km away."
+        },
+        {
+          "id": "agritech-ca7fec455a",
+          "line": "Beanstalk AgTech launched Monsoon Ventures, a new venture studio funding Southeast Asian agritech startups, backed by Enterprise Singapore and Rabo Foundation."
+        }
+      ]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "id": "indian-startups-0581ead3ca",
+          "headline": "Spacetech startup GalaxEye acquires StarOps to build satellites in-house",
+          "summary": "Bengaluru-based earth-observation startup GalaxEye has acquired spacecraft engineering startup StarOps, bringing in-house satellite design, development and operations capabilities. StarOps, founded in 2022, achieved over 66% indigenisation across its satellite systems and brings qualified satellite bus platforms in the 50kg, 150kg and 250kg classes; several of its engineers previously worked on TeamIndus's Lunar Lander and Rover programme. GalaxEye, founded in 2021, is developing OptoSAR technology that combines Synthetic Aperture Radar with optical imaging on one platform for day/night, all-weather earth imagery, aimed at defence, national security and commercial applications.",
+          "signal": [
+            "Vertical integration (owning the satellite bus, not just the payload) is a meaningful strategic move for an Indian spacetech startup competing for defence and commercial earth-observation contracts.",
+            "TeamIndus alumni resurfacing at GalaxEye is a good marker of how India's early private-space talent pool is consolidating into the current generation of startups."
+          ],
+          "developing": false
+        },
+        {
+          "id": "indian-startups-fb7a7f8188",
+          "headline": "India's AI startup funding is accelerating: MStack and Simplismart both in talks for fresh rounds",
+          "summary": "AI-native chemical R&D startup MStack AI is in advanced talks to raise at least $30 million (potentially $40-50 million) at a pre-money valuation of about $230 million, from existing backers Alpha Wave and Lightspeed plus new investor Prosperity7 Ventures. Generative AI startup Simplismart is separately raising around $50 million at a $120-140 million valuation, with Peak XV Partners in talks to invest about $30 million and Nvidia also reportedly in discussions to participate. This follows a run of large India AI raises Moneycontrol has tracked: Sarvam AI's $300 million round, Emergent's $130 million raise, and Ema's talks to raise $80 million at an $800 million valuation. Freshworks founder Girish Mathrubootham's AI-focused Together Fund is separately in talks to raise $150-170 million (potentially up to $200 million) for its third fund, having repositioned from broad SaaS toward AI.",
+          "signal": [
+            "The breadth here - chemical-R&D AI, generative AI infra, foundational models, AI-application platforms, and now a dedicated AI fund raising its own capital - suggests India's AI funding cycle has moved past a single hot narrative into a genuinely diversified ecosystem.",
+            "Nvidia potentially investing directly in Simplismart is worth watching - strategic investment from chipmakers into application-layer startups is becoming a recognisable pattern globally."
+          ],
+          "developing": true
+        },
+        {
+          "id": "indian-startups-334075b48e",
+          "headline": "InMobi and Glance co-founder Piyush Shah on what building two unicorns taught him about India's AI future",
+          "summary": "On the Prime Venture Partners podcast, Piyush Shah, co-founder of InMobi and Glance, discusses lessons from building two Indian unicorns and why distribution matters for India's AI opportunity. (summary from limited source text)",
+          "signal": [
+            "Limited detail available, but Shah's dual-unicorn track record makes his read on India's AI distribution challenge worth following up on directly."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "id": "indian-startups-415c29a6f5",
+          "line": "Guardian editorial argues India's ambitious net-zero-while-8x-GDP growth plan will need more than private finance to succeed."
+        }
+      ]
+    },
+    {
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "id": "india-deep-tech-f1cf5c60b1",
+          "headline": "UK air defence startup Cambridge Aerospace hits $3.4 billion valuation",
+          "summary": "Two-year-old Cambridge Aerospace raised a $300 million Series C led by DFJ Growth (a SpaceX backer), with Lux Capital, Accel, Lakestar and Elad Gil participating, valuing the company at $3.4 billion - just months after a $200 million Series B. Its main product, the Skyhammer drone and missile interceptor, was successfully tested in Jordan in May, and the UK signed a multi-million-pound contract in April to supply it to UK forces and Gulf partners. The company is developing a follow-on rocket-powered interceptor, Starhammer, targeted for 2027.",
+          "signal": [
+            "Air-defence and counter-drone startups are commanding startup-style valuations and funding velocity now (two mega-rounds in months) - a category India's own defence-tech ecosystem should be benchmarked against.",
+            "Worth comparing against the unnamed $300M anti-drone raise noted below - counter-drone defence is clearly one of the hottest deep-tech subsectors globally right now."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-64474f0264",
+          "headline": "Anti-drone defence startup raises $300 million",
+          "summary": "An anti-drone defence startup has raised $300 million, according to Axios. (source unreachable — headline only)",
+          "signal": [
+            "Another large check into counter-drone defence tech this week - see Cambridge Aerospace above for a fuller example of the same trend."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-20a2cd0d6a",
+          "headline": "China's embodied-AI funding hit $13.86 billion in H1 2026 as Unitree's IPO draws record demand",
+          "summary": "Chinese robotics and embodied-intelligence financing reached 93.5 billion yuan ($13.86 billion) across 322 deals in H1 2026 - a five-fold increase year-on-year, per ITjuzi data. Recent rounds: Noin Intelligence raised $74 million to advance its GLOW world model and a foldable dual-arm household robot; PokeBot closed a nine-figure Pre-A round (its second raise in three months since an April founding) for general-purpose home and service robots trained via real-world reinforcement learning; Discover Robotics, incubated at Tsinghua with ex-DJI staff, raised $100 million less than a month after an initial $100M-plus round. Separately, Unitree's Shanghai IPO was oversubscribed about 8,289 times by retail investors, with a 0.018% lot-winning rate, pricing at 150.8 yuan a share for a roughly $9.04 billion valuation. Global humanoid shipments hit about 19,100 units in H1 2026 (up 272% year-on-year), with Agibot overtaking Unitree for the top spot at 44% share; Chinese vendors supplied over 97% of the global total, and China's 15th Five-Year Plan puts robotics and embodied AI at the centre of its industrial strategy.",
+          "signal": [
+            "The 8,289x oversubscription on Unitree's IPO shows retail investor demand for Chinese robotics is extraordinary right now - a genuine market signal, not just state-backed hype.",
+            "China supplying over 97% of global humanoid shipments already, before the category has even matured, is the single most important deep-tech competitiveness data point in today's paper - worth remembering for any conversation about where hardware manufacturing leadership is heading."
+          ],
+          "developing": true
+        }
+      ],
+      "also": []
+    },
+    {
+      "slug": "global-economics",
+      "stories": [
+        {
+          "id": "global-economics-3d5df7da6f",
+          "headline": "Cleveland Fed's Hammack calls for more rate hikes, says policy isn't restrictive enough",
+          "summary": "Cleveland Fed President Beth Hammack said current interest rates are not 'meaningfully restricting the economy' and that the Fed needs 'some number of rate hikes,' telling Yahoo Finance that businesses aren't reporting any sense of restraint on investment from current rates. She warned that the longer the Fed waits, the longer it will miss its 2% inflation target.",
+          "signal": [
+            "A hawkish outlier voice among Fed officials right now - worth noting as a data point on how split the FOMC is, though not itself a policy change."
+          ],
+          "developing": false
+        },
+        {
+          "id": "global-economics-be6d000620",
+          "headline": "Unemployment rate remains the Fed's key labour-market gauge",
+          "summary": "The unemployment rate remains the Federal Reserve's primary reference point for judging the labour market, per Reuters. (source unreachable — headline only)",
+          "signal": [
+            "Useful context alongside Hammack's hawkish comments above, though the headline alone adds little new information."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "id": "global-economics-0dda355c2d",
+          "line": "Japan's Growth Strategy Minister Kiuchi says the government's spending plans will boost the yen long-term, pushing back on fiscal-sustainability concerns."
+        }
+      ]
+    },
+    {
+      "slug": "india",
+      "stories": [
+        {
+          "id": "india-2997b8bcb5",
+          "headline": "UPI transaction growth slows to 23.5% as India debates reviving merchant fees",
+          "summary": "UPI transactions grew 23.5% year-on-year to 92 billion in the first four months of FY27 (up from 74.5 billion a year earlier) - down sharply from 33.5% growth in the same period of FY26, and from 41% full-year growth in FY25. The slowdown reflects both a base effect (adding 10 billion transactions on a much larger base takes more users) and fading cashback and incentive spending, since UPI generates little direct revenue for banks and fintechs who are now prioritising profitability over growth. This is fuelling debate over reviving the Merchant Discount Rate (MDR): Moneycontrol reports the government could consider an MDR of 0.25-0.30% on high-value transactions from large merchants. Finance Minister Nirmala Sitharaman maintains MDR would be a charge on merchants, not consumers, though merchants facing new costs typically pass at least some through via reduced discounts or higher prices. UPI penetration is estimated at around 40%, still processing over 23 billion transactions a month - about 88% of India's digital transactions.",
+          "signal": [
+            "The MDR debate is really about who subsidises UPI's next growth phase - banks and fintechs want revenue to fund merchant acquisition in underserved areas; the government's zero-MDR stance has been core to UPI's mass adoption story.",
+            "A targeted MDR (large merchants, high-value only) looks like the likely landing spot based on reporting - worth tracking if it moves from proposal to an actual notification."
+          ],
+          "developing": true
+        },
+        {
+          "id": "india-bcf3522a64",
+          "headline": "Sheikh Hasina's India press event has damaged Delhi's ties with Bangladesh's new government",
+          "summary": "India allowed deposed Bangladesh PM Sheikh Hasina to hold a press conference on August 5 - the second anniversary of her 2024 ouster - triggering a furious response from Dhaka's BNP-led government, which called it an affront to Bangladesh's sovereignty and has already sought Hasina's extradition under the 2013 India-Bangladesh treaty. The timing undercuts recent thaw efforts: Bangladesh's foreign minister visited Delhi in April, trade and visas had resumed, and India had invited PM Tarique Rahman to September's BRICS summit in Delhi. At the event, Hasina's son Sajeeb Wazed Joy called Bangladesh a 'failed state' and alleged Pakistan's ISI operates freely there - claims Dhaka called incendiary. Since the rift, Rahman chose China over India for his first foreign visit, signing an MoU worth about $650 million to develop the Mongla Port Economic Zone - land India had wanted for its own economic zone - and 12 Chinese companies have since proposed $9.21 billion in Bangladesh investment. Dhaka-Islamabad defence ties have also warmed, including talks on Bangladesh procuring Pakistan's JF-17 fighter jets.",
+          "signal": [
+            "A single domestic political decision (allowing the press conference) appears to have cost India a strategically important port-zone deal to China and accelerated Bangladesh-Pakistan defence cooperation - a costly own-goal if the analysis holds.",
+            "Worth tracking as a live case study in how domestic political considerations can override stated foreign-policy priorities."
+          ],
+          "developing": true
+        },
+        {
+          "id": "india-6f9a9270c4",
+          "headline": "Apple Pay could launch in India by late 2026, without UPI support at first",
+          "summary": "Apple is preparing to launch Apple Pay in India in late September or October, starting with card-based (Visa/Mastercard) contactless payments via NFC - UPI support won't be available initially and would require separate NPCI approval and a partner bank. Apple is reportedly seeking a fee of 15-20 basis points per transaction from card-issuing banks (paid from banks' interchange revenue, not charged to customers or merchants), while some banks are pushing back for around 10 basis points. Apple has reportedly been in talks with ICICI Bank, HDFC Bank and Axis Bank, plus Mastercard and Visa.",
+          "signal": [
+            "Launching without UPI is a telling choice - Apple is targeting India's premium credit-card segment rather than competing head-on with UPI's mass-market free-payments model.",
+            "The interchange-fee negotiation (15-20bps vs banks wanting about 10bps) is the real story here - whoever wins that fight sets a template for how much margin foreign wallets can extract from Indian banks."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "id": "india-8706d0e890",
+          "line": "The Indian Express examines how UPI has become a tool of India's digital-infrastructure diplomacy abroad."
+        }
+      ]
+    },
+    {
+      "slug": "world",
+      "stories": [
+        {
+          "id": "world-c24532aeea",
+          "headline": "US intelligence believes Russia was behind explosive drone found at German airport",
+          "summary": "US officials told the Wall Street Journal and CNN that a drone carrying semtex explosives found near a Ukrainian cargo plane at Leipzig airport last week probably belonged to Russia's government, with a US defence official citing the explosive material as suggesting a military manufacturer. German tabloid Bild reported DNA traces at the scene matched a sample from a July 2024 firebomb mailed via DHL that exploded at the same airport - part of a related case where five men allegedly employed by Russian intelligence are on trial in Lithuania. The drone breached Leipzig's defences undetected for an estimated four hours before an alert bus driver spotted it; a DHL cargo plane that aborted landing due to the drone then collided mid-air with what investigators believe was a second hostile drone. Germany's interior ministry will double its federal anti-drone team to 300 staff across eight bases, up from four. Despite the US assessment, Berlin has not officially named Russia, which a political scientist attributes to fear of triggering NATO-adjacent implications ahead of three pivotal eastern German state elections next month where the pro-Russian AfD is polling well.",
+          "signal": [
+            "Germany's deliberate ambiguity despite a clear US intelligence assessment shows how domestic politics (upcoming AfD-favourable elections) is constraining even close US allies from naming Russian sabotage directly.",
+            "The drone breaching airport defences for four hours undetected is the more alarming operational detail - European critical-infrastructure security clearly has real gaps against this threat."
+          ],
+          "developing": true
+        },
+        {
+          "id": "world-f03883f38d",
+          "headline": "Police use teargas and water cannon as Jharkhand jobs protest escalates",
+          "summary": "Thousands of young job-seekers clashed with police in Ranchi, Jharkhand over alleged irregularities in government recruitment exams, weeks after the 'Cockroach movement' - a similar protest over a leaked national medical entrance exam - forced the resignation of the union education minister. Competition for these jobs is extreme: one recent Jharkhand recruitment drive drew nearly 640,000 applications for 2,025 posts, another over 322,000 for 510 vacancies. Official unemployment stood at 9.9% last year, but a 2026 Azim Premji University study found nearly 40% of graduates aged 15-25 were unemployed. The former Jharkhand public service commission chair has already been arrested over alleged exam irregularities and three commission members have resigned; protesters are demanding a CBI investigation. Congress leader Rahul Gandhi condemned the police response.",
+          "signal": [
+            "The 40% graduate unemployment figure, versus 9.9% headline unemployment, is the number that matters - it's the gap driving repeated youth unrest across states this year.",
+            "This is the second major exam-integrity protest movement in weeks (after the 'Cockroach movement') - a pattern worth tracking as a recurring source of political pressure on the government."
+          ],
+          "developing": true
+        }
+      ],
+      "also": []
+    },
+    {
+      "slug": "other-interests",
+      "stories": [
+        {
+          "id": "other-interests-c6e8ab2aa1",
+          "headline": "A quantum voting protocol has now been tested in practice, not just theory",
+          "summary": "Researchers in France and Switzerland independently tested a quantum voting protocol - first proposed theoretically a few years ago by a French team - that uses entangled photons instead of classical bits so that no one, including whoever distributes the voting information, can determine who cast which vote, while guaranteeing every vote is counted. Photons were generated by lasers shone through a special crystal; any tampering with a photon could be detected by measuring its three entangled partners. The teams tested it with two choices and four voters, then scaled to 16 choices and eight voters. Outside researcher Mark Hillery (Hunter College) called the results solid proof-of-principle but noted entangled states remain fragile and haven't been transmitted over long distances without losing their quantum properties, meaning near-term use is likely limited to small elections like council votes rather than national elections.",
+          "signal": [
+            "Genuinely novel science, but explicitly not ready for real elections yet per the researchers themselves - useful context, not something to expect deployed soon.",
+            "The 'small council votes' near-term use case is a more realistic first application than the headline-grabbing 'secure elections' framing suggests."
+          ],
+          "developing": false
+        },
+        {
+          "id": "other-interests-6dbc80577f",
+          "headline": "Tumors 'hijack' the nervous system to grow, opening new but ethically complex treatment avenues",
+          "summary": "Recent cancer-neuroscience research shows tumours don't just grow independently - they recruit local nerves, form new nerve networks within themselves, and communicate with the brain via hormones and nerve signals in what researchers call the 'neural addiction of cancer.' In preclinical models, cutting or chemically denervating stomach nerves suppressed gastric tumour progression, CGRP-blocking drugs disrupted tumour-nerve connections and inhibited cancer growth in mice, and the beta-blocker propranolol (normally for hypertension) blocked stress-induced pathways that aid cancer spread. Researchers are also exploring whether removing sensory nerves near tumours could boost immune-cell infiltration and improve immunotherapy response. A new Nature-linked commentary argues this raises real ethical, legal and societal questions since it crosses traditional boundaries between psychiatry, neurology and oncology, though the authors stress these findings remain largely preclinical, with limited clinical validation so far.",
+          "signal": [
+            "A genuinely emerging field (cancer neuroscience) with repurposed existing drugs (propranolol, CGRP antagonists) as a plausible near-term path to the clinic, unusually fast for a mechanism this novel.",
+            "Still preclinical - worth flagging that 'mice' and 'experimental settings' are doing a lot of work in these findings; human trial evidence isn't established yet."
+          ],
+          "developing": false
+        },
+        {
+          "id": "other-interests-fa9ac49c8b",
+          "headline": "Global environmental treaties largely ignore mental health, researchers argue",
+          "summary": "A Nature commentary argues major environmental treaties (the Paris Agreement, Stockholm Convention, Basel Convention, and others) treat mental health and environmental policy as unrelated domains, despite evidence that exposure to mercury, lead and pollutants impairs child cognitive development and raises mental-health risk, and that ecosystem or livelihood disruption worsens depression and anxiety in adults. The authors group treaties into tiers by mental-health relevance: chemicals and hazardous-waste treaties (Stockholm, Minamata, Rotterdam, Basel) have the clearest direct links - restricting hazardous pesticides, for instance, has already been shown to reduce pesticide-related suicides; the three Rio treaties (the Paris climate agreement, desertification, biodiversity) plus the Sendai disaster-risk framework have more indirect, psychosocial links through displacement and livelihood loss; ozone-layer treaties (Vienna Convention, Montreal Protocol) have the most indirect, long-term links. The authors propose adding shared mental-health indicators, financing incentives and accountability mechanisms to these treaties' existing reporting structures.",
+          "signal": [
+            "A structural policy-design argument rather than new empirical data - useful for anyone working at the climate-health-policy intersection but not itself actionable news.",
+            "The tiered framework (chemicals treaties as tier 1) is a genuinely useful way to think about where mental-health integration into environmental policy would be easiest to actually measure."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "id": "other-interests-a4eb31a135",
+          "line": "Mongabay founder highlights a new book, Beasts of the East, documenting wildlife recoveries across the eastern US that get less attention than western conservation stories."
+        },
+        {
+          "id": "other-interests-b5faf81a15",
+          "line": "A Brown University economics professor describes catching widespread AI-assisted cheating on an exam and argues for a rethink of how universities assess students."
+        }
+      ]
+    },
+    {
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "id": "beyond-your-beat-2ce9609a19",
+          "headline": "Air India's mid-flight altitude drop was caused by cascading hydraulic failures, not turbulence",
+          "summary": "The August 4 'momentary loss of altitude' on Air India flight AI 2379 (Phuket-Delhi, Airbus A320neo), which injured 17 people, was preceded by a cascade of failures across the aircraft's three hydraulic systems - contradicting the airline's initial public statement attributing it to turbulence, according to multiple sources who reviewed the automated post-flight maintenance report. The report recorded nine separate warning messages within one minute, including near-simultaneous fault indications on both left and right elevators (the surfaces controlling nose pitch) and an autopilot disconnect. Pilots described near-simultaneous failure of three hydraulic systems as 'extremely rare.' As the aircraft pitched up with a stall warning, a pilot took manual control and applied significant input to push the nose down, causing the roughly 300-foot altitude loss. No further fault messages appeared after that point, suggesting the systems recovered. The pilot-in-command's psychoactive-substance screening test requires confirmatory testing, still pending. Airbus and India's Aircraft Accident Investigation Bureau are jointly investigating; neither Air India nor India's Civil Aviation Ministry has publicly mentioned the technical fault indications so far.",
+          "signal": [
+            "A serious safety story that directly contradicts the airline's own public statement - worth tracking the investigation given Air India's recent history of high-profile incidents and ongoing scrutiny.",
+            "The fact that hydraulic and flight-control fault details were omitted from both Air India's and the Ministry's public statements, while widely reported by sources with access to the maintenance report, is itself a transparency red flag."
+          ],
+          "developing": true
+        },
+        {
+          "id": "beyond-your-beat-3ca52e54a5",
+          "headline": "Parliament passes taxation bill giving government power to set UPI fee exemptions by notification",
+          "summary": "Parliament passed the Taxation and Other Laws (Amendment) Bill 2026, which amends Section 10A of the Payment and Settlement Systems Act to let the government specify by notification which digital payment systems remain protected from transaction charges - rather than introducing any UPI fee itself. Finance Minister Nirmala Sitharaman reiterated in the Rajya Sabha that the bill doesn't impose any UPI charge and that consumers will keep using UPI for free; any MDR decision would still require the NPCI-led UPI and Services Steering Committee to act separately. Beyond payments, the bill also removes the link between the Payment and Settlement Systems Act and the Income Tax Act, replaces a June 5 ordinance granting income-tax exemptions on foreign portfolio investors' government-securities income, reduces conditions for global fund managers to avoid Indian tax on worldwide income, and aims to ease use of Indian data centres by overseas cloud providers.",
+          "signal": [
+            "The bill is really a legal-plumbing exercise (gives the government future flexibility on payment-system charges and cleans up FPI tax rules) rather than an actual policy change today - useful to distinguish from today's louder UPI-fee headlines.",
+            "The FPI tax-exemption and data-centre provisions are the more consequential parts for anyone tracking foreign capital flows and India's cloud-infrastructure competitiveness, even though they got no attention versus the UPI angle."
+          ],
+          "developing": false
+        }
+      ],
+      "also": []
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunities-6b2b01b27c",
+      "name": "NetHope AI Fellowship Consultant (global, remote)",
+      "when": "Apply by August 17, 2026; engagement runs August 31, 2026 to March 15, 2027",
+      "summary": "A fully remote, hourly consultancy (about 20 hrs/week, roughly 560 hours total) to design and lead a new AI research fellowship at NetHope's Center for the Digital Nonprofit - building the fellowship structure, selection criteria and research agenda, then recruiting, mentoring and overseeing at least four fellows through final research outputs by February 2027. Suited to someone with programme-design and AI-research-leadership experience; familiarity with Global South and nonprofit contexts is a plus. Applicants propose their own hourly rate in USD."
+    }
+  ],
+  "longform": []
+}
