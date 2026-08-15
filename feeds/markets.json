@@ -1,53 +1,53 @@
 {
-  "generated_at": "2026-08-14T23:49:39.737126+00:00",
+  "generated_at": "2026-08-15T23:47:28.399163+00:00",
   "quotes": [
     {
       "label": "Nifty 50",
       "value": 24366.0,
       "unit": "",
-      "change_pct": -0.29,
+      "change_pct": -0.12,
       "usd": false
     },
     {
       "label": "Sensex",
       "value": 78009.25,
       "unit": "",
-      "change_pct": 0.06,
+      "change_pct": -0.09,
       "usd": false
     },
     {
       "label": "USD/INR",
-      "value": 95.42,
+      "value": 95.43,
       "unit": "₹",
-      "change_pct": 0.01,
+      "change_pct": 0.03,
       "usd": false
     },
     {
       "label": "Brent Crude",
-      "value": 88.59,
+      "value": 88.52,
       "unit": "$/bbl",
-      "change_pct": 1.75,
+      "change_pct": 1.67,
       "usd": true
     },
     {
       "label": "Bitcoin",
-      "value": 62985.26,
+      "value": 63032.06,
       "unit": "$",
-      "change_pct": -0.66,
+      "change_pct": 0.09,
       "usd": true
     },
     {
       "label": "Gold",
-      "value": 135959,
+      "value": 136143,
       "unit": "₹/10g",
-      "change_pct": 1.57,
+      "change_pct": 1.69,
       "usd": false
     },
     {
       "label": "Silver",
-      "value": 198861,
+      "value": 199761,
       "unit": "₹/kg",
-      "change_pct": -0.07,
+      "change_pct": 0.36,
       "usd": false
     }
   ]
