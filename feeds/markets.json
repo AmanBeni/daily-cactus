@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T23:47:28.399163+00:00",
+  "generated_at": "2026-08-16T23:46:12.810082+00:00",
   "quotes": [
     {
       "label": "Nifty 50",
@@ -17,37 +17,37 @@
     },
     {
       "label": "USD/INR",
-      "value": 95.43,
+      "value": 95.42,
       "unit": "₹",
-      "change_pct": 0.03,
+      "change_pct": 0.01,
       "usd": false
     },
     {
       "label": "Brent Crude",
-      "value": 88.52,
+      "value": 88.8,
       "unit": "$/bbl",
-      "change_pct": 1.67,
+      "change_pct": 0.32,
       "usd": true
     },
     {
       "label": "Bitcoin",
-      "value": 63032.06,
+      "value": 62814.36,
       "unit": "$",
-      "change_pct": 0.09,
+      "change_pct": -0.33,
       "usd": true
     },
     {
       "label": "Gold",
-      "value": 136143,
+      "value": 135729,
       "unit": "₹/10g",
-      "change_pct": 1.69,
+      "change_pct": 1.01,
       "usd": false
     },
     {
       "label": "Silver",
-      "value": 199761,
+      "value": 199552,
       "unit": "₹/kg",
-      "change_pct": 0.36,
+      "change_pct": 0.1,
       "usd": false
     }
   ]
