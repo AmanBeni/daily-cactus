@@ -1,0 +1,527 @@
+{
+  "date": "2026-08-17",
+  "brief": [
+    {
+      "id": "india-deep-tech-7028655182",
+      "line": "India's deeptech funding crosses $11.4B cumulative since 2015, Series B/C gap persists"
+    },
+    {
+      "id": "deep-tech-2aafeaf286",
+      "line": "Nvidia backs $105B guarantee for OpenAI's 8GW Ohio data centre"
+    },
+    {
+      "id": "india-deep-tech-b778e633a2",
+      "line": "Gravis Robotics raises $200M from SoftBank, largest-ever construction-robotics Series A"
+    },
+    {
+      "id": "agritech-2adc706933",
+      "line": "Skymet cuts monsoon forecast to 85% of LPA, flags 70% drought probability"
+    },
+    {
+      "id": "climate-energy-01f936d7ed",
+      "line": "European vegetable yields down 25-100% as heatwaves batter harvests"
+    },
+    {
+      "id": "india-67de52ecde",
+      "line": "Indian sailors send SOS refusing to risk Strait of Hormuz transit"
+    },
+    {
+      "id": "world-a3ba64453a",
+      "line": "EU to sanction ~1,600 more Russian entities this autumn"
+    },
+    {
+      "id": "ai-5eb5d53360",
+      "line": "Groq raises $350M at $3.5B, down from $6.9B, completing neocloud pivot"
+    },
+    {
+      "id": "global-economics-cc4c9a150c",
+      "line": "China factory output growth slows to 4.5%, missing forecasts"
+    },
+    {
+      "id": "india-d47365800f",
+      "line": "Qatar-India UPI postal remittance corridor goes live"
+    },
+    {
+      "id": "climate-energy-a7393fdc7b",
+      "line": "Lake Mead and Lake Powell both hit record-low levels"
+    },
+    {
+      "id": "beyond-your-beat-9958d70874",
+      "line": "India says 200+ Pakistan-backed militant operatives arrested"
+    }
+  ],
+  "lead": {
+    "id": "india-deep-tech-7028655182",
+    "headline": "India's deeptech funding crosses $11.4B since 2015, but Series B/C gap persists",
+    "summary": "India's deeptech sector has pulled in close to $11.4 billion in cumulative private equity and VC investment between 2015 and 2026 YTD, with 2025 the strongest year on record, per the IVCA's Bharat DeepTech Report 2026. AI/generative AI and EV-battery tech drew the bulk of capital, while semiconductors and spacetech are the fastest-growing segments -- Bengaluru still owns roughly half of all deals, with Ahmedabad, Kochi and Kolkata emerging as secondary hubs. The report's harder finding: fund participation drops sharply at Series B/C, so companies past seed struggle to raise larger cheques, and 40% of surveyed funds (100 were polled) have never engaged with a government capital vehicle like the RDI Scheme or India Semiconductor Mission. Exit visibility remains the single biggest worry cited by investors, though 2025 saw exit deal counts and values rise, with secondary sales delivering the strongest average returns of the decade.",
+    "signal": [
+      "The India deep-tech story is real money, not just vibes -- $11.4B over a decade, concentrated in AI, EVs, semis and space.",
+      "The bottleneck is capital, not ideas: seed money is plentiful, Series B/C is not -- worth knowing if you're evaluating which stage or sector to enter.",
+      "40% of funds skip government capital schemes entirely -- a structural gap for anyone building fund-side or policy-adjacent work in this space."
+    ],
+    "key_stat": "$11.4B · cumulative deeptech PE-VC since 2015",
+    "editors_read": "The Series B/C gap is the real story here -- India can seed deeptech companies but structurally struggles to scale them past that stage, which is exactly where founder's-office and strategy talent gets pulled in to fix capital-allocation and go-to-market problems. Expect more specialist growth-stage funds and government co-investment vehicles to emerge to plug this, and watch semiconductors and spacetech for where the next wave of hiring will concentrate.",
+    "developing": false,
+    "badge": "DATA"
+  },
+  "frontpage": [
+    {
+      "id": "deep-tech-2aafeaf286",
+      "headline": "Nvidia guarantees up to $105B for OpenAI's 8GW Ohio data centre",
+      "summary": "Nvidia has agreed to guarantee up to $105 billion to help OpenAI lease a data centre in Pike County, Ohio being built by SoftBank-backed SB Energy -- one of the chipmaker's largest infrastructure financing deals yet. Nvidia will also invest $1.5 billion directly in SB Energy, on top of a $1 billion OpenAI-SoftBank investment announced months earlier. The Ohio site will scale to 8 gigawatts total capacity, with the first 800 megawatts online by 2028, and OpenAI is leasing it for 20 years with Nvidia as exclusive chip supplier. CEO Jensen Huang denied this is circular financing, days after Nvidia partnered with BlackRock and five other financial institutions to launch platforms targeting over $500 billion in third-party AI infrastructure funding.",
+      "signal": [
+        "This is Nvidia financing the demand for its own chips at unprecedented scale -- the circularity is now a Wall Street talking point, not a conspiracy theory.",
+        "8GW is a staggering amount of power -- the AI buildout is now fundamentally an energy and financing story, not just a compute one.",
+        "For India-deep-tech watchers: this is the scale of capital the US ecosystem deploys per deal -- a useful yardstick against India's still-nascent Series B/C gap."
+      ],
+      "editors_read": "Nvidia guaranteeing debt for its own customer's infrastructure blurs the line between vendor financing and equity investment -- regulators and rating agencies will scrutinise this arrangement closely, and any wobble in OpenAI's revenue trajectory now has direct balance-sheet consequences for Nvidia. Worth tracking as a template that Indian data-centre and AI-infra financing deals may eventually mimic, at far smaller scale.",
+      "developing": true
+    },
+    {
+      "id": "india-deep-tech-b778e633a2",
+      "headline": "Gravis Robotics raises $200M Series A from SoftBank for autonomous construction machinery",
+      "summary": "Gravis Robotics, an ETH Zurich spinout founded in 2022, has raised $200 million in Series A funding from SoftBank -- which the company calls the largest Series A in construction-robotics history. Gravis builds 'physical AI' that lets heavy machinery operate autonomously on unpredictable jobsites, trained on simulations moving billions of cubic yards of virtual earth across varying soil conditions. Its control system, the Gravis Rack, is already installed on equipment from Caterpillar, John Deere, JCB, Hitachi and Volvo across four continents, and the company claims up to a 30% jobsite productivity gain. It has also been picked to lead an $8 million UK government-backed CAM Pathfinder retrofit project supporting Britain's stated $716 billion infrastructure pipeline.",
+      "signal": [
+        "Physical AI applied to unglamorous heavy industry rather than chatbots -- a pattern worth watching as 'AI' capital chases real-world deployment.",
+        "SoftBank explicitly frames this as part of its 'physical AI' thesis -- the same logic likely to shape its India deep-tech bets.",
+        "The hardware-agnostic retrofit model (works across brands, no custom reprogramming) is the commercially interesting bit -- a software moat, not a robot moat."
+      ],
+      "editors_read": "This is the kind of deeptech story India's ecosystem is trying to replicate -- a hard-tech company hitting real deployed revenue and landing a nine-figure Series A rather than staying a lab demo. If India wants its own Gravis-scale outcomes in construction, mining or agri-machinery autonomy, the funding-gap findings in today's IVCA report (see lead) are exactly what needs fixing first.",
+      "developing": false
+    },
+    {
+      "id": "agritech-2adc706933",
+      "headline": "Skymet cuts monsoon forecast to 85% of LPA, flags 70% drought probability",
+      "summary": "Private forecaster Skymet has revised its monsoon outlook sharply downward, now projecting rainfall at just 85% of the Long Period Average (LPA) with a 70% chance of drought -- down from its April forecast of 94% of LPA. It expects August to close with a 16% rainfall shortfall and September to run 20% deficient, as a strengthening El Nino (heading toward 'Super El Nino' by early September) combines with a weak Indian Ocean Dipole. As of August 17, cumulative monsoon rainfall was 13% below LPA (518.7mm against a normal 596.2mm since June 1). The distribution problem is worse than the headline number: 71.7% of India's tehsils (4,562 of 6,363) face deficits exceeding 10%, and 72% are enduring dry spells of two-plus weeks. Agri-market analysts warn kharif pulses (urad, tur) and oilseeds (soybean) are taking an immediate hit during flowering stages, threatening rural incomes and food inflation.",
+      "signal": [
+        "The geospatial detail (72% of tehsils in prolonged dry spells) matters more than the topline 85%-of-LPA number -- this is an uneven, localized drought.",
+        "Watch food inflation and rural-demand narratives over the next two months -- this feeds directly into RBI rate-decision and consumer-spending stories.",
+        "IMD's own numbers are more conservative than Skymet's (90% vs 85% LPA) -- private and government forecasters diverge, and neither has been reliably right this year."
+      ],
+      "developing": true
+    },
+    {
+      "id": "climate-energy-01f936d7ed",
+      "headline": "European farmers face 'unprecedented crisis' as heatwaves gut harvests",
+      "summary": "Successive heatwaves and a continent-wide drought have battered European agriculture: French vegetable shortfalls run 25% for courgettes, 35% for lettuces, 40% for peas, 60% for broccoli and 50-100% for artichokes, per Brittany's Prince de Bretagne growers' group. France's maize harvest -- Europe's largest -- is projected down 35% on 2025 at about 9 million tonnes, last seen at that level in 1980. Dairy producers report milk yields down 10-15% as cows suffer heat stress above 25°C, egg output is roughly 1 million eggs/day below normal, and winter hay stocks are running about 30% below the 1989-2018 average. In Italy, 60% of farmland is drought-affected and milk production is down 20%; in Spain, cereal harvests are 24-49% below last year depending on region, and the wine federation predicts a 20% production fall for 2026. France has pledged €145m in immediate aid.",
+      "signal": [
+        "This is a food-price story before it's a headline story -- shortfalls this size will show up in EU inflation prints within months.",
+        "Multiple countries hit simultaneously removes the usual regional buffering -- 'usually one region compensates,' as one French grower put it; not this year.",
+        "Useful context for India's own monsoon-deficit story today: two major food-producing regions stressed at once compounds global agri-commodity risk."
+      ],
+      "developing": true
+    },
+    {
+      "id": "india-67de52ecde",
+      "headline": "Indian sailors send SOS refusing to risk Strait of Hormuz crossing",
+      "summary": "Sixteen Indian crew aboard the Marshall Islands-flagged AM Pioneer, an offshore supply vessel managed by Mumbai's Alphard Maritime, posted an SOS video alleging their employer is forcing them to transit the Strait of Hormuz despite active security risk -- as Iran signals readiness to escalate after stalled talks with the US. The ship's master, Anil Raj, said the company is pushing the crossing 'in a crooked way,' after the vessel went to Ras Al Khaimah, UAE for a survey last month and was later ordered toward Fujairah via Hormuz. The Forward Seamen's Union of India backed the crew, saying owners are pressuring the master to force the transit and that the crew 'will not sail under dark conditions with communications switched off.'",
+      "signal": [
+        "A live labour-rights flashpoint in Indian shipping tied directly to Gulf geopolitics -- Indian crews staff a large share of global merchant shipping.",
+        "This is the human cost line item behind abstract 'Hormuz risk premium' commentary that shows up in oil-market coverage."
+      ],
+      "developing": true
+    },
+    {
+      "id": "world-a3ba64453a",
+      "headline": "EU plans biggest Russia sanctions round yet for this autumn",
+      "summary": "EU foreign policy chief Kaja Kallas told Die Welt the bloc will propose its most far-reaching Russia sanctions package since the war began, adding roughly 1,600 individuals and entities -- mostly tied to Moscow's military-industrial complex -- which would raise the EU's total sanctioned Russian entities by a third (from just under 3,000 currently listed). Kallas said existing sanctions have already cost Russia over €1 trillion. The new package would add travel and transaction bans plus asset freezes; EU sanctions require unanimous approval and have historically been slowed by internal disputes, as happened with July's watered-down package.",
+      "signal": [
+        "The 'by a third' framing suggests this is meant as a headline number for autumn diplomacy -- watch whether unanimity holds given July's precedent of a diluted package.",
+        "Useful context for reading India's own Russia-oil and defence-trade balancing act as EU pressure escalates further."
+      ],
+      "developing": true
+    },
+    {
+      "id": "beyond-your-beat-9958d70874",
+      "headline": "India says it thwarted Pakistan-backed militant attacks, arrests 200+ operatives",
+      "summary": "India says it foiled planned attacks by Pakistan-backed militants and has arrested more than 200 operatives. (source unreachable -- headline only)",
+      "signal": [
+        "Genuinely important if confirmed, but with only a headline to go on, treat as a claim to watch rather than a verified fact until more reporting surfaces."
+      ],
+      "developing": true
+    }
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": [
+        {
+          "id": "ai-c81020768a",
+          "headline": "Guardian investigation: Microsoft may have half the AI chips its numbers imply",
+          "summary": "A Guardian investigation, based on internal documents, finds Microsoft has about 2.2 million AI chips installed globally -- against an implied need of 6.4-12 million chips if its public claims of adding 5GW of AI datacentre capacity since 2022 are taken at face value. Microsoft's 2024 internal presentation put existing capacity at 5GW, suggesting 10GW total today, which would need roughly 6.4 million GPUs by standard power-to-chip conversion; sustainability-report-based estimates from UC Riverside's Shaolei Ren put actual 2024 capacity closer to 1.2GW. Sources inside Microsoft say its total AI chip count has 'barely moved' in the past year, and its flagship Fairwater datacentre in Wisconsin -- which CEO Satya Nadella said was 'going live' in April -- was still not fully operational as of May, per satellite imagery and local reporting. Microsoft disputed the Guardian's methodology but did not specify which numbers were wrong. Nadella has separately said the real constraint isn't chip supply but 'warm shells to plug into' -- power and site readiness.",
+          "signal": [
+            "The gap between AI capex announcements and actual deployed capacity is now large enough that outsiders can catch it -- a reason to discount headline capacity claims from any hyperscaler.",
+            "Power and site-readiness, not chip supply, is the real bottleneck per Microsoft's own CEO -- relevant to India's own data-centre power planning ambitions.",
+            "Nvidia's near-total opacity on who buys how many chips is precisely what makes stories like this necessary."
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-bc5db0eb6d",
+          "headline": "Claude will start watermarking AI text for EU compliance -- critics split on whether it hurts quality",
+          "summary": "Anthropic will change how Claude generates prose to comply with an EU regulation requiring AI-generated text to be watermarked from December, altering the random word-choice decisions models make at a granular level in a way it says will be undetectable to readers but decodable by Anthropic and authorized parties. Tech blogger John Gruber argues this will force 'worse, less precise word choices'; UCL computer science professor Steven Murdoch disagrees, saying the change 'probably wouldn't have any noticeable impact' since LLMs already rely on randomness to avoid repetitive loops. Murdoch adds a second motivation beyond disinformation: unwatermarked AI text already risks 'model collapse' if it's scraped back into future training data.",
+          "signal": [
+            "First major model-quality trade-off forced by EU AI regulation to watch in the wild -- a live test of whether compliance measurably degrades output.",
+            "The model-collapse angle is the more consequential long-term reason for watermarking than disinformation, and gets less attention."
+          ],
+          "developing": true
+        },
+        {
+          "id": "ai-5eb5d53360",
+          "headline": "Groq raises $350M at $3.5B as it completes pivot from AI chips to neocloud",
+          "summary": "Groq has raised $350 million led by Disruptive (with planned Nvidia participation), valuing the company at $3.5 billion -- down from $6.9 billion last September, after Nvidia hired away Groq's founder/CEO Jonathan Ross and other top talent in a $20 billion licensing deal. Groq describes the new valuation as reflecting the 'post-Nvidia-licensing-deal version' of the company rather than a down round. Having stepped back from its own LPU chip ambitions to compete with Nvidia on inference, Groq now operates 13 data centres across North America, Europe, the Middle East and Asia Pacific serving 6 million-plus developers, running on Nvidia systems, and plans to scale from 54 to 200-plus megawatts by 2027. It raised $650 million in June to kick off the pivot.",
+          "signal": [
+            "A chipmaker giving up on its own silicon to resell Nvidia's is a small but telling data point on how hard it is to compete with Nvidia even with a head start and a $20B payout.",
+            "Watch neocloud economics broadly -- CoreWeave's concerns about capex, debt and depreciating hardware apply here too."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "id": "deep-tech-2aafeaf286",
+          "headline": "Nvidia guarantees up to $105B for OpenAI's 8GW Ohio data centre",
+          "summary": "Nvidia has agreed to guarantee up to $105 billion to help OpenAI lease a data centre in Pike County, Ohio being built by SoftBank-backed SB Energy -- one of the chipmaker's largest infrastructure financing deals yet. Nvidia will also invest $1.5 billion directly in SB Energy, on top of a $1 billion OpenAI-SoftBank investment announced months earlier. The Ohio site will scale to 8 gigawatts total capacity, with the first 800 megawatts online by 2028, and OpenAI is leasing it for 20 years with Nvidia as exclusive chip supplier. CEO Jensen Huang denied this is circular financing, days after Nvidia partnered with BlackRock and five other financial institutions to launch platforms targeting over $500 billion in third-party AI infrastructure funding.",
+          "signal": [
+            "This is Nvidia financing the demand for its own chips at unprecedented scale -- the circularity is now a Wall Street talking point, not a conspiracy theory.",
+            "8GW is a staggering amount of power -- the AI buildout is now fundamentally an energy and financing story, not just a compute one."
+          ],
+          "developing": true
+        },
+        {
+          "id": "deep-tech-1835b8b9fc",
+          "headline": "India signs ₹1,943 crore deal to lease two Sea Guardian drones for the Navy",
+          "summary": "India's Ministry of Defence signed a ₹1,943 crore (roughly $230M) contract with US-based General Atomics for two MQ-9B Sea Guardian High-Altitude Long-Endurance drones, leased to the Indian Navy for 30 months. The drones will boost maritime domain awareness and intelligence, surveillance and reconnaissance coverage across the Indian Ocean Region. The US Embassy framed the deal as advancing the 'free, open, secure Indo-Pacific' partnership.",
+          "signal": [
+            "A lease, not a purchase -- worth watching whether this converts into the larger MQ-9B acquisition India has previously discussed.",
+            "Fits the broader India-US defence-tech deepening pattern alongside semiconductor and space cooperation."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-5f289502f4",
+          "headline": "China's Biren projects up to 22-fold H1 revenue surge amid domestic chip boom",
+          "summary": "Chinese GPU maker Biren Technology expects first-half 2026 revenue of 1.15-1.3 billion yuan ($170.5M-plus), up 1,852-2,107% year-on-year, per a Hong Kong exchange filing. Net loss is projected to narrow to 320-400 million yuan, down from a 1.6 billion yuan loss in H1 2025. Biren credits accelerating demand for general-purpose GPUs used in AI coding and agent workloads -- alongside peers Hygon and Cambricon, which are reporting similarly steep growth. Biren notes the eye-popping percentage is partly an artifact of a low 2025 base and lumpy high-end product deliveries.",
+          "signal": [
+            "China's domestic chip substitution push is showing up in real revenue numbers now, not just policy rhetoric.",
+            "The 22x figure is flattered by a low base -- don't take the headline multiple at face value without the absolute revenue number."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "id": "climate-energy-01f936d7ed",
+          "headline": "European farmers face 'unprecedented crisis' as heatwaves gut harvests",
+          "summary": "Successive heatwaves and a continent-wide drought have battered European agriculture: French vegetable shortfalls run 25% for courgettes, 35% for lettuces, 40% for peas, 60% for broccoli and 50-100% for artichokes, per Brittany's Prince de Bretagne growers' group. France's maize harvest is projected down 35% on 2025 at about 9 million tonnes, last seen at that level in 1980. Dairy producers report milk yields down 10-15%, egg output is roughly 1 million eggs/day below normal, and winter hay stocks are running about 30% below the 1989-2018 average. In Italy, 60% of farmland is drought-affected and milk production is down 20%; in Spain, cereal harvests are 24-49% below last year, and the wine federation predicts a 20% production fall for 2026.",
+          "signal": [
+            "A food-price story before it's a headline story -- shortfalls this size will show up in EU inflation prints within months.",
+            "Multiple countries hit simultaneously removes the usual regional buffering."
+          ],
+          "developing": true
+        },
+        {
+          "id": "climate-energy-a7393fdc7b",
+          "headline": "US's two largest reservoirs, Lake Mead and Lake Powell, both hit record lows",
+          "summary": "Lake Powell hit a record-low water level of 1,072.87 metres on August 15, days after Lake Mead broke its own record at 317.11 metres on August 7 -- both on the Colorado River, which supplies water to roughly 40 million people and 5.5 million acres of farmland across seven south-western US states. Combined full capacity of the two reservoirs is 68 cubic kilometres -- enough for nearly 1.5 years of all US household water use -- but levels have declined for decades. Researchers attribute the decline to a roughly 20% fall in Upper Colorado River streamflow since 1900 (about half attributable to climate change) plus a 25-year 'megadrought' and a 60% rise in the population drawing from the river since 1992. Levels are expected to keep falling until spring snowmelt, with no clarity yet on how severe this coming winter will be.",
+          "signal": [
+            "A slow-motion, decades-long crisis crossing new record-low thresholds now -- it signals US water-policy paralysis more than any single data point.",
+            "Useful comparative context against India's own monsoon-deficit story today: both are climate-driven water-security crises playing out on similar timescales."
+          ],
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "health-tech",
+      "stories": [
+        {
+          "id": "health-tech-121c3be01c",
+          "headline": "TCS launches AI platform for pharma drug discovery, claims up to 50% efficiency gains",
+          "summary": "Tata Consultancy Services has launched TCS ADD AgentHub, a role-based AI agent platform for pharmaceutical companies covering drug development, clinical trials and pharmacovigilance (post-market drug safety monitoring). Rather than one general AI system, it deploys task-specific agents for data entry, medical-literature review, study design, protocol digitisation and safety-case processing, with humans retaining oversight of key decisions. TCS claims up to 40% efficiency gains in clinical data management, up to 30% reduction in effort to build clinical studies, up to 30% cost savings in safety-case processing, and up to 50% reduction in quality-control effort for AI-powered safety agents.",
+          "signal": [
+            "A concrete enterprise AI deployment in a heavily regulated vertical rather than a lab demo -- matches the 'deployment over demos' preference directly.",
+            "Worth watching whether the claimed efficiency numbers hold up in independent pharma-client case studies, since these are TCS's own figures."
+          ],
+          "developing": false
+        },
+        {
+          "id": "health-tech-6d9afdb581",
+          "headline": "Roche India and AIIMS Delhi launch national retina training centre amid specialist shortage",
+          "summary": "AIIMS New Delhi's Dr. Rajendra Prasad Centre for Ophthalmic Sciences, in partnership with Roche India Healthcare Institute, has launched a National Retina Skill Development Centre aiming to train 100-plus ophthalmologists from India's public health system over three years via an eight-module hands-on program. India currently has only around 1,700 retinologists, per the Vitreo-Retina Society of India -- inadequate for the country's disease burden, particularly diabetic retinopathy and age-related macular degeneration. The centre is equipped with high-resolution OCT scanners, fundus cameras and specialised microscopes.",
+          "signal": [
+            "1,700 retinologists for 1.4 billion people is the number that matters -- a stark specialist-density gap that health-tech and diagnostics-AI plays could address.",
+            "A corporate-academic partnership model (Roche funding, AIIMS delivering) worth watching as a template for other specialist-shortage areas."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "agritech",
+      "stories": [
+        {
+          "id": "agritech-2adc706933",
+          "headline": "Skymet cuts monsoon forecast to 85% of LPA, flags 70% drought probability",
+          "summary": "Private forecaster Skymet has revised its monsoon outlook sharply downward, now projecting rainfall at just 85% of the Long Period Average (LPA) with a 70% chance of drought -- down from its April forecast of 94% of LPA. It expects August to close with a 16% rainfall shortfall and September to run 20% deficient, as a strengthening El Nino combines with a weak Indian Ocean Dipole. As of August 17, cumulative monsoon rainfall was 13% below LPA. The distribution problem is worse than the headline number: 71.7% of India's tehsils face deficits exceeding 10%, and 72% are enduring dry spells of two-plus weeks, threatening kharif pulses and oilseeds during flowering stages.",
+          "signal": [
+            "The geospatial detail matters more than the topline 85%-of-LPA number -- this is an uneven, localized drought.",
+            "Watch food inflation and rural-demand narratives over the next two months."
+          ],
+          "developing": true
+        },
+        {
+          "id": "agritech-68094f6cba",
+          "headline": "500-group farmers' coalition demands India scrap all FTAs, cites 'agrarian distress'",
+          "summary": "The Samyukt Kisan Morcha (SKM), representing roughly 500 farmers' organisations, has written to all Indian MPs and MLAs demanding they oppose the proposed India-US Free Trade Agreement and calling for all existing FTAs to be repealed, calling them 'a blueprint for the economic colonisation of India.' SKM's broader demands include a legally guaranteed minimum support price with assured procurement (per the Swaminathan Commission formula), a comprehensive rural loan waiver with ₹25 lakh compensation per farmer-suicide case, repeal of the four Labour Codes, a ₹31,000 minimum wage, and restoration of MGNREGA to 200 guaranteed workdays at ₹700/day. SKM also alleges Adani and Leap India now control 77.5% of grain stored in Food Corporation of India silos, calling it a 'duopoly.'",
+          "signal": [
+            "This lands right as India-US trade talks are active -- organised farmer opposition is a real political constraint on any agri-market-access concessions Delhi might consider.",
+            "The FCI silo-duopoly allegation (Adani + Leap India at 77.5%) is a specific, checkable claim worth watching for pushback or confirmation."
+          ],
+          "developing": true
+        },
+        {
+          "id": "agritech-5675ad81d5",
+          "headline": "dsm-firmenich scales yeast-protein alternative to fishmeal and whey -- eyes India as licensing market",
+          "summary": "dsm-firmenich is moving its Protopia single-cell yeast protein (a Cyberlindnera jadinii strain) to industrial scale, running a 120,000-litre fermentation batch later this year en route to a larger European facility by 2027 targeting 2,000-10,000 tonnes/year. The protein hits about 70% protein content with a 0.94-0.96 digestibility score (near animal-protein parity), can be produced from ethanol, molasses or sugar feedstocks, and is pitched as a 1:1 fishmeal replacement (competitive below €2,000-3,000/tonne) and a whey substitute (whey has hit $25-28/kg). The company plans a licensing model -- supplying the strain and process tech while local partners build plants. India is flagged as a major opportunity: it imports nearly all its yeast protein and has surplus underused ethanol capacity (built for E20 mandates that vehicles aren't ready for) that could feed Protopia production -- consultant Raman Chandrasekar estimates diverting that surplus could meet at least 40% of India's protein gap.",
+          "signal": [
+            "A genuine 'why it matters for India' story: surplus ethanol capacity built for stalled biofuel mandates could be repurposed into a protein-deficit fix.",
+            "Worth watching for an actual India licensing deal announcement -- this is at the 'exploring' stage, not yet signed."
+          ],
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "id": "indian-startups-c50143fcbd",
+          "headline": "Navi gains UPI market share to 4% in July as PhonePe, Google Pay slip marginally",
+          "summary": "Sachin Bansal's Navi grew its UPI market share to 4% in July, up from 3.7% in June and 3.6% in May, processing 94.7 crore transactions worth ₹48,318 crore -- up 12% and 10% respectively from June's 84.3 crore transactions worth ₹43,948.6 crore. Navi is reportedly eyeing an IPO. (summary from limited source text)",
+          "signal": [
+            "Navi's steady share gains against the PhonePe-Google Pay duopoly is worth tracking if it's building toward an IPO pitch."
+          ],
+          "developing": false
+        },
+        {
+          "id": "indian-startups-1044c70214",
+          "headline": "Atomberg's board approves ₹450-plus crore IPO plan",
+          "summary": "D2C appliance maker Atomberg's board passed a special resolution at an August 12 EGM to raise over ₹450 crore via IPO, combining fresh equity issuance with an offer for sale by existing shareholders, subject to SEBI clearance and market conditions. (summary from limited source text)",
+          "signal": [
+            "One more D2C consumer brand heading toward listing -- part of the broader wave of Indian consumer-startup IPOs this cycle."
+          ],
+          "developing": false
+        },
+        {
+          "id": "indian-startups-fb1102f26d",
+          "headline": "How AI cheating and exam-system failures triggered protests from India to Mexico to Portugal",
+          "summary": "A wave of exam-related unrest has hit multiple countries this year: in Mexico, nearly 60,000 university applicants were forced to resit tests amid suspected mass cheating; Portugal's botched digitisation of exam marking triggered the country's worst education crisis in decades. India's case was the largest -- an exam paper leak affecting millions of students has been linked to more than a dozen student suicides, forced the education minister to resign, and fed into nationwide protests led by the youth 'Cockroach Janta' movement, challenging the government's standing with its 1.4 billion citizens. Experts, including Dr Sarah Eaton of the University of Calgary, attribute the volatility to AI-enabled cheating combining with high-stakes, single-exam education systems and an 'education mafia' that steals and sells exam papers -- a practice she says is especially widespread in India. Denmark has responded by requiring students to verbally defend written essays from this term onward.",
+          "signal": [
+            "This is a governance and public-trust story as much as an education one -- an exam leak that costs an education minister their job and triggers nationwide protest is a serious institutional failure.",
+            "Worth watching whether India's response goes beyond crisis management to structural fixes."
+          ],
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "id": "india-deep-tech-b778e633a2",
+          "headline": "Gravis Robotics raises $200M Series A from SoftBank for autonomous construction machinery",
+          "summary": "Gravis Robotics, an ETH Zurich spinout founded in 2022, has raised $200 million in Series A funding from SoftBank -- which the company calls the largest Series A in construction-robotics history. Gravis builds 'physical AI' that lets heavy machinery operate autonomously on unpredictable jobsites, trained on simulations moving billions of cubic yards of virtual earth. Its control system, the Gravis Rack, is already installed on equipment from Caterpillar, John Deere, JCB, Hitachi and Volvo across four continents, and the company claims up to a 30% jobsite productivity gain.",
+          "signal": [
+            "Physical AI applied to unglamorous heavy industry rather than chatbots -- a pattern worth watching as 'AI' capital chases real-world deployment.",
+            "The hardware-agnostic retrofit model is the commercially interesting bit -- a software moat, not a robot moat."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-84c989b4a8",
+          "headline": "Three in four Indian spacetech startups still haven't raised their first funding round",
+          "summary": "Of 285 Indian spacetech startups tracked by Tracxn, only 72 have secured any equity funding -- despite the sector's cumulative investment reaching $871 million across 241 rounds, and annual funding growing roughly fivefold to $200 million by 2025 (with late-stage funding, a new phenomenon in 2025, totalling $70 million by July 2026). This comes even as milestones like Skyroot Aerospace's Vikram-1 achieve private orbital launch capability, suggesting technical progress is outpacing capital access for the majority of the sector's early-stage players.",
+          "signal": [
+            "Direct evidence for the same seed-to-Series-A/B gap flagged in today's lead deeptech report -- spacetech may be the sharpest version of that problem.",
+            "A 75% no-funding rate alongside genuine technical milestones suggests the constraint is investor risk appetite, not technology readiness."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-972adcb222",
+          "headline": "Chip giants have poured over $250B into startup funding rounds this year",
+          "summary": "Semiconductor majors -- Nvidia, AMD, Samsung and peers -- have participated in startup financing rounds worth over $250 billion collectively so far in 2026, per Crunchbase, dwarfing prior years (though OpenAI's $122 billion March round, with Nvidia among eight lead investors, accounts for over 95% of that total on its own). Nvidia has been the most active corporate investor with 59 known rounds this year (up from 53 in 2025) and has led or co-led at least 11 deals, including a $5 billion round for Safe Superintelligence in July. AMD has done 19 private financings this year including four $1B-plus rounds, and Samsung has made at least 17 startup investments.",
+          "signal": [
+            "Chip-company balance sheets are becoming a dominant force in startup financing -- a structural shift in who controls capital allocation in AI/deeptech.",
+            "Strip out the OpenAI megaround and the 'real' 2026 semiconductor-startup investment total is far smaller -- useful caveat before citing the $250B headline."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "id": "india-deep-tech-45c058d603",
+          "line": "Uber partners with Zipline to bring drone delivery to Uber Eats, targeting 1M deliveries/day by 2029"
+        }
+      ]
+    },
+    {
+      "slug": "global-economics",
+      "stories": [
+        {
+          "id": "global-economics-cc4c9a150c",
+          "headline": "China's slowdown deepens: factory output growth falls to 4.5% in July",
+          "summary": "China's factory output grew 4.5% year-on-year in July, down from 5.3% in June and missing a Reuters forecast of 4.8%; retail sales grew just 0.6%, slowing from June's 1% despite summer tourism spending, against a forecast of 1.5%. Official data cited extreme weather as a disruption, following an already-weak Q2 GDP reading of 4.3% annualised -- one of China's lowest quarterly growth rates since it began publishing quarterly GDP data in the early 1990s. Premier Li Qiang said the government would look to boost overseas demand to offset weak domestic consumption. Capital Economics' Julian Evans-Pritchard noted AI-related capex continues to support manufacturing and expects a modest growth uptick later this year from fiscal loosening.",
+          "signal": [
+            "A genuinely weak set of numbers against a genuinely low bar -- worth tracking whether Beijing's promised stimulus materialises or stays rhetorical.",
+            "China's domestic-demand weakness paired with export-push rhetoric is relevant to India's own trade-negotiation positioning."
+          ],
+          "developing": true
+        },
+        {
+          "id": "global-economics-1cc51f884d",
+          "headline": "RBI likely intervened to defend the rupee, traders say",
+          "summary": "Traders say India's central bank likely stepped in to defend the rupee. (source unreachable -- headline only)",
+          "signal": [
+            "Worth a follow when fuller reporting is available -- RBI intervention timing and scale would matter for currency-market context."
+          ],
+          "developing": true
+        },
+        {
+          "id": "global-economics-6b6cad9a56",
+          "headline": "UK survey: AI is starting to create jobs, not just cut them",
+          "summary": "A Lloyds survey finds most British businesses say AI has created new roles at their firms, suggesting UK employers are moving past experimentation into actively reshaping hiring around the technology. (summary from limited source text)",
+          "signal": [
+            "Runs counter to the dominant 'AI kills jobs' narrative -- worth watching for the fuller survey data and methodology before drawing conclusions."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "india",
+      "stories": [
+        {
+          "id": "india-67de52ecde",
+          "headline": "Indian sailors send SOS refusing to risk Strait of Hormuz crossing",
+          "summary": "Sixteen Indian crew aboard the Marshall Islands-flagged AM Pioneer, an offshore supply vessel managed by Mumbai's Alphard Maritime, posted an SOS video alleging their employer is forcing them to transit the Strait of Hormuz despite active security risk -- as Iran signals readiness to escalate after stalled talks with the US. The ship's master, Anil Raj, said the company is pushing the crossing 'in a crooked way.' The Forward Seamen's Union of India backed the crew, saying owners are pressuring the master to force the transit.",
+          "signal": [
+            "A live labour-rights flashpoint in Indian shipping tied directly to Gulf geopolitics.",
+            "This is the human cost line item behind abstract 'Hormuz risk premium' commentary that shows up in oil-market coverage."
+          ],
+          "developing": true
+        },
+        {
+          "id": "india-80acdc56b3",
+          "headline": "India's dollar-fundraising drive cut short as BoP position eases, analysts say",
+          "summary": "Analysts say India's push to raise dollar funding was cut short as the balance-of-payments position became more comfortable, alongside policy trade-offs. (source unreachable -- headline only)",
+          "signal": [
+            "A signal that India's external accounts may be more comfortable than recently assumed -- worth the fuller piece when accessible."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-d47365800f",
+          "headline": "Qatar-India UPI postal remittance corridor goes live via Qatar Post outlets",
+          "summary": "A new remittance corridor launched August 15 lets senders in Qatar transfer money directly into UPI-enabled Indian bank accounts through Qatar Post outlets, built on the Universal Postal Union's Interconnection Platform combined with NPCI International's UPI rails. Transactions run QAR 10-4,000 (capped at ₹1 lakh equivalent) with a flat QAR 15 fee, crediting instantly once the recipient's UPI app has inward-remittance receiving enabled. India Post is working with other countries' postal operators to open further UPI-linked corridors.",
+          "signal": [
+            "A concrete example of India's UPI stack being exported via unconventional infrastructure -- worth watching for which corridor opens next.",
+            "Directly useful for Gulf-based Indian diaspora remittances, a genuinely large flow."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "world",
+      "stories": [
+        {
+          "id": "world-a3ba64453a",
+          "headline": "EU plans biggest Russia sanctions round yet for this autumn",
+          "summary": "EU foreign policy chief Kaja Kallas told Die Welt the bloc will propose its most far-reaching Russia sanctions package since the war began, adding roughly 1,600 individuals and entities -- mostly tied to Moscow's military-industrial complex -- which would raise the EU's total sanctioned Russian entities by a third. Kallas said existing sanctions have already cost Russia over €1 trillion. EU sanctions require unanimous approval and have historically been slowed by internal disputes, as happened with July's watered-down package.",
+          "signal": [
+            "Watch whether unanimity holds given July's precedent of a diluted package.",
+            "Useful context for reading India's own Russia-oil and defence-trade balancing act as EU pressure escalates further."
+          ],
+          "developing": true
+        },
+        {
+          "id": "world-75eaee195d",
+          "headline": "Ukraine war briefing: Kyiv could have domestic ballistic missiles within months",
+          "summary": "Former Ukrainian defence minister Mykhailo Fedorov estimates Ukraine could strike Russia with domestically-made ballistic missiles within three to six months -- a harder target for Russian air defence than the drones and cruise missiles Kyiv has relied on so far; manufacturer Fire Point tested a launch in June. Over the weekend Ukraine launched one of its largest drone attacks of the war, hitting a Wildberries warehouse near Moscow and killing at least six, while Russia claimed to have shot down 1,478 drones in 24 hours -- its highest-ever claimed total. Russian strikes over the same period killed at least five in Ukraine, including at ArcelorMittal's Kryvyi Rih steel plant, which partially halted operations. A Spanish NATO jet shot down a drone that crossed into Romanian airspace from Moldova.",
+          "signal": [
+            "Ballistic-missile capability within months would be a real escalation in Ukraine's strike reach.",
+            "NATO members shooting down drones that stray into their airspace is becoming routine -- a low-grade but real spillover risk."
+          ],
+          "developing": true
+        },
+        {
+          "id": "world-6bd1d228eb",
+          "headline": "Opinion: the US is fighting the wrong battle over AI -- regulation isn't the obstacle",
+          "summary": "An SCMP opinion piece argues that when Chinese models Kimi K3 (Moonshot AI) and Qwen3.8-Max (Alibaba) launched last month, global chip stocks lost roughly $3 trillion in market value -- not because the benchmarks were verified, but because markets were repricing the assumption that top-tier AI would stay 'expensive, American and controllable.' The author argues Washington's instinct to tighten export controls and its accelerationist critics (like Nvidia's Jensen Huang, who wants wider US-stack diffusion) are both missing the point: the US has essentially no comprehensive federal AI regulation, so 'regulatory drag' isn't actually constraining American AI deployment in hospitals, insurers or factories.",
+          "signal": [
+            "A useful corrective to both the 'China is catching up because of lax rules' and 'the US is over-regulated' narratives.",
+            "The $3 trillion repricing event itself (on unverified benchmarks) is the more important data point than the models -- markets are pricing in Chinese AI catch-up risk pre-emptively."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "other-interests",
+      "stories": [
+        {
+          "id": "other-interests-80993f7191",
+          "headline": "Hot nights are a growing, under-measured health risk, researchers argue",
+          "summary": "A Nature analysis argues that night-time heat -- not just daytime highs -- is an escalating health risk: Delhi recorded a 32.4°C overnight low in May, with other parts of India running 3-5°C above normal after dark, while France hit a record 22°C overnight low in June and Germany's East Saxony reached 29.4°C. Across 1,300-plus cities studied for 2020-25, residents lost an average of nearly 56 hours of sleep per year to night-time heat. Across 28 East Asian cities, intense night heatwaves were linked to a 3% rise in deaths; in Hong Kong, hot nights were linked to a 3.1% rise in emergency admissions, reaching 5.3% among older and poorer residents. Researchers call for better measurement -- combining bedroom temperature/humidity sensors with wearables tracking sleep and heart-rate data -- rather than relying on outdoor-temperature proxies alone.",
+          "signal": [
+            "Delhi's 32.4°C overnight low is a directly relevant data point -- night-time heat resilience is an under-discussed part of India's climate-adaptation conversation.",
+            "The measurement gap is the more interesting research problem here, and a plausible wearables/health-tech opportunity."
+          ],
+          "developing": false
+        },
+        {
+          "id": "other-interests-f50bc2db63",
+          "headline": "Britain's only desalination plant sits idle through a declared drought",
+          "summary": "The £250 million Thames Gateway desalination plant in Beckton, mainland Britain's only large-scale facility, has not operated at all this year despite England declaring a drought on July 29 and Thames river flow at Teddington running around 220 megalitres/day -- far below both the normal 800 Ml/d target and the emergency 300 Ml/d threshold that would trigger plant use. The plant, capable of 100 Ml/d, has been out of service due to technical problems, including damaged membrane filters now being replaced; it has only run five times since opening in 2010, delivering just seven days' worth of supply in total. Thames Water says it's targeting bringing the plant online by year-end. July 2026 was the region's driest since 1871 records began, with just 1mm of rainfall for the month.",
+          "signal": [
+            "A striking case of built infrastructure sitting unused exactly when its stated purpose is needed -- an infrastructure-readiness cautionary tale.",
+            "Other UK water companies are still building new desalination capacity -- worth watching if Beckton's failure changes those plans."
+          ],
+          "developing": false
+        },
+        {
+          "id": "other-interests-c06176a6fc",
+          "headline": "Only a few hundred Timor green pigeons may remain -- but a rare new sighting offers hope",
+          "summary": "A study in Oryx, drawing on 1,400-plus days of field surveys from 2002-2025, estimates the global Timor green pigeon population at just 100-500 birds across eight sites, with researchers recommending its IUCN status be upgraded from endangered to critically endangered. Only one site, Nino Konis Santana National Park in eastern Timor-Leste, is thought to hold more than 50 birds; the species may already be functionally extinct in Indonesia. More than 80% of known records come from protected areas that nonetheless lack funding to stop hunting. In April, three birds were spotted in Manatuto municipality -- a site with no prior record of the species -- offering a small sign of hope. The pigeon wasn't among the first 100 species picked for the $200 million Re:wild/Bezos Earth Fund Phoenix Species Project.",
+          "signal": [
+            "A textbook case of a species with a known, fixable problem (hunting in under-resourced protected areas) that simply hasn't gotten funding priority.",
+            "Useful context for how conservation triage works -- being critically endangered doesn't guarantee inclusion in even well-funded recovery programs."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        {
+          "id": "other-interests-90ed91afbc",
+          "line": "Erykah Badu and the Alchemist finally set August 28 release for their long-delayed joint album"
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunities-9cce553633",
+      "name": "Chevening Scholarship 2027-28 (UK, fully-funded master's)",
+      "when": "Indian applicants: apply by 6 Oct 2026, 4:30pm IST",
+      "summary": "UK government-funded, fully-funded one-year taught master's for professionals with 2+ years' work experience (2,800+ hours) post-undergraduate, plus leadership potential and a commitment to return home for 2 years. Requires selecting three eligible UK master's courses and applying to those universities separately. Global-tier -- genuinely competitive and worth the effort for anyone eyeing an international pivot."
+    }
+  ]
+}
