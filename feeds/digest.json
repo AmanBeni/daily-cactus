@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "colophon": "66 sources scanned · 63 ok · 3 failed",
   "sections": [
     {
@@ -8,13 +8,78 @@
       "beta": false,
       "stories": [
         {
+          "id": "ai-0da56ef3b3",
+          "title": "Pharma sector doubles down on AI amid hopes of slashing costs, timelines",
+          "source": "Reuters",
+          "summary": "",
+          "img": false,
+          "buzz": 2
+        },
+        {
+          "id": "ai-754699797b",
+          "title": "Anthropic Plans to Change Data Retention Policy for Advanced AI",
+          "source": "Bloomberg",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "ai-3505592c46",
+          "title": "Frustrated GP patients hang up as Yorkshire accent baffles AI receptionist",
+          "source": "AI (artificial intelligence) | The Guardian",
+          "summary": "‘Emma’ the Rotherham chatbot has 17 languages says AI firm – but health watchdog says system struggling with local ‘twangs’ Patients in a South Yorkshire town are frustrated by an AI GP receptionist n",
+          "img": false,
+          "buzz": 2,
+          "extract": "Patients in a South Yorkshire town are frustrated by an AI GP receptionist not understanding their “broad accents”, a health watchdog has said.\nHealthwatch Rotherham, a local health and social care watchdog, said a number of practices in the area had introduced a new AI receptionist called Emma.\nIt said it was hearing accounts of the AI not understanding local accents. Its manager, Kym Gleeson, told the BBC: “One of the issues is this system can’t always understand what people’s inquiry is about"
+        },
+        {
+          "id": "ai-859f0b88d5",
+          "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+          "img": false,
+          "extract": "On Wednesday night, Runlayer and Rippling dropped their respective lawsuits against each other. No settlement was made. No money changed hands. Not even lawyers’ fees, according to court documents seen by TechCrunch.\nRippling celebrated by instantly releasing its MCP gateway, the product at the heart of the dueling lawsuits and the one that competes with Runlayer’s offering.\nThis public fight is a cautionary tale to founders: In the age of AI, when building new software has become almost trivial"
+        },
+        {
+          "id": "ai-0f9772a27c",
+          "title": "Debates over AI consciousness are a trap",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such ",
+          "img": false,
+          "buzz": 2,
+          "extract": "Debates over AI consciousness are a trap\nIf AI systems are viewed as too advanced to control, the companies that build them can’t held liable for the harms they cause.\n“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate factio"
+        },
+        {
           "id": "ai-c83af89f9f",
           "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
           "source": "AI News & Artificial Intelligence | TechCrunch",
           "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
           "img": false,
-          "buzz": 2,
           "extract": "Elon Musk’s SpaceX attempted to acquire AI coding startup Cognition as it works to catch up to OpenAI, Anthropic, and Google in the AI race, Bloomberg reported Wednesday, citing sources familiar with the matter.\nCognition CEO Scott Wu disputed the report soon after it published, writing on X that the story was inaccurate and that Cognition “is not for sale,” adding that the two companies haven’t been in talks.\nThe report comes a few days after SpaceX’s $60 billion acquisition of Cursor, another "
+        },
+        {
+          "id": "ai-a40a6718df",
+          "title": "UK cinemas look at banning Meta smart glasses over piracy fears",
+          "source": "AI (artificial intelligence) | The Guardian",
+          "summary": "Trade body says local chains would have to balance concerns with potential benefits of AI-enabled technology Cinemas across the UK are considering banning customers from wearing Meta’s smart glasses a",
+          "img": false,
+          "buzz": 2,
+          "extract": "Cinemas across the UK are considering banning customers from wearing Meta’s smart glasses amid fears they could be used to pirate films.\nThe UK Cinema Association (UKCA) trade body said that a number of local chains could end up introducing policies that restrict camera-enabled smart glasses at the big screen, adding to a growing list of venues concerned about covert use.\nThe £359 specs, nicknamed “pervert glasses” and “spyware” by critics, are facing a growing backlash, leading to bans at resta"
+        },
+        {
+          "id": "ai-67bac1dead",
+          "title": "AI reshapes India's IT services sector contracts as clients demand more for less",
+          "source": "Moneycontrol.com",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "ai-318d5ffb0f",
+          "title": "Unlocking hidden revenue streams with market models",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The a",
+          "img": true,
+          "buzz": 2,
+          "extract": "Sponsored\nIn partnership withFetcherr\nEach day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name just a few. It is a nuanced process that must constantly adapt to the goin"
         },
         {
           "id": "ai-f020584c46",
@@ -26,99 +91,36 @@
           "extract": "“I’ve had one person who told me that their intentions were creepy,” a man tells me over a video call, on condition of anonymity. He’s based in Los Angeles, and while we speak, he eats what appears to be tuna directly out of the can. “He said: ‘I go to strip clubs, and I want to record the strippers … Normally I put my phone in my chest pocket, but the glasses are more convenient.’”\nThe man I’m talking to runs a business called Ghost Metas. He’s one of hundreds of vendors, easily discoverable on"
         },
         {
-          "id": "ai-30d3d7085f",
-          "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
-          "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "It's the data, stupid.",
-          "img": false,
-          "extract": "A biotech startup called Vivodyne says the AI drug-discovery industry has a data problem, and that it has built a machine to fix it.\nHIVE, modular robotic labs built by the company, can grow 20 kinds of human tissue, then autonomously dose and monitor them, generating the kind of causal biological data that today’s AI models are missing — data that today mostly comes from animal testing, or studies of single cells or proteins, not living tissue.\n“Absent human testing, what are these [AI] models "
-        },
-        {
-          "id": "ai-a8027a9508",
-          "title": "Will AI give you the job? Automated hiring tools spark discrimination and secrecy lawsuits",
-          "source": "AI (artificial intelligence) | The Guardian",
-          "summary": "A rise in lawsuits over AI use in employment decisions is raising questions about how companies hire and fire For the last four years, Erin Kistler has applied for thousands of jobs at companies like ",
-          "img": false,
-          "buzz": 3,
-          "extract": "For the last four years, Erin Kistler has applied for thousands of jobs at companies like Paypal, Microsoft and Netflix, only to find her résumé disappear into a black hole. A product manager with nearly 20 years of experience, Kistler believes she was qualified for every role, yet she never received a single interview.\nNow, Kistler is suing Eightfold AI, the Silicon Valley maker of hiring software used by hundreds of companies, including those where she applied, in a class-action lawsuit. The c"
-        },
-        {
-          "id": "ai-a5a7e6076f",
-          "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
-          "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
-          "img": false,
-          "extract": "Stripe confirmed on Wednesday that it was buying OpenRouter. While the company didn’t disclose the deal price, sources told the New York Times that it paid $7.5 billion.\nThat’s a huge step up from OpenRouter’s $1.3 billion valuation in May. To put that price in context, the founders alone will reportedly receive $1.5 billion from the sale — more than the startup’s entire valuation just three months ago. Investors will get the remaining $6 billion, according to the NYT. Stripe reportedly had to o"
-        },
-        {
-          "id": "ai-f35197fb90",
-          "title": "OpenAI announces slowing pace of development after hack by rogue agent",
-          "source": "The Guardian",
+          "id": "ai-93142ad9a2",
+          "title": "‘Sam Altman Funding You?’: Darline Graham Rattled Over ‘Dirty’ AI Donation; Fires Back | Watch",
+          "source": "The Times of India",
           "summary": "",
           "img": false,
-          "buzz": 3,
-          "extract": "OpenAI on Tuesday said it had slowed down the pace of its AI development while it overhauled its research and training systems.\nThe company’s researchers were caught unaware last month when an AI agent under testing hacked another AI firm, Hugging Face.\nThe AI research lab behind ChatGPT said its new measures included pausing its model testing for two weeks and investing more in adding other AI systems to monitor the activities of AI agents in testing. Some of the company’s largest planned train"
+          "extract": "- News\n- Videos News\n- international News\n- ‘Sam Altman Funding You?’: Darline Graham Rattled Over ‘Dirty’ AI Donation; Fires Back | Watch\nTrending\n | Aug 21, 2026, 12:36:01 AM | TOI.in\n- Share\nA tense exchange broke out during a South Carolina Senate event when an audience member questioned Sen. Darline Graham over corporate PAC contributions to her campaign. Graham pushed back, asking, “Do you know how PAC contributions work?” She then argued that she has no control over PAC money coming in or"
         },
         {
-          "id": "ai-a27b303a1e",
-          "title": "Workday launches AI research team, PhD fellowship program By Investing.com",
-          "source": "Investing.com India",
-          "summary": "",
-          "img": false
-        },
-        {
-          "id": "ai-3e305ef749",
-          "title": "Stripe acquisition may bolster its AI strategy",
-          "source": "Payments Dive",
+          "id": "ai-138db7681e",
+          "title": "PM Modi chairs high-level meet with secretaries, calls for AI use in policymaking",
+          "source": "India Today",
           "summary": "",
           "img": false,
-          "extract": "Stripe would move squarely into the middle of how companies select and pay for artificial intelligence computing if it buys the artificial intelligence spend management firm OpenRouter.\nStripe’s pursuit of OpenRouter – which directs work requests from software developers to AI models and tracks spending – furthers a long-held Stripe goal of evolving from a payments-focused company into a broader future as an AI infrastructure player, payments technology experts said this week.\nStripe has agreed "
+          "extract": "PM Modi chairs high-level meet with secretaries, calls for AI use in policymaking\nPrime Minister Narendra Modi asked top government secretaries to use AI in policymaking with human judgement. He also pushed for data interoperability, cross-department collaboration and a long-term approach to shaping India's future.\nPrime Minister Narendra Modi on Thursday called for greater engagement between government departments, universities and young people to bring fresh perspectives in policymaking.\nChair"
         },
         {
-          "id": "ai-c2ab7dec5a",
-          "title": "The $3 Trillion Pipeline Funding Big Tech’s AI Expansion",
-          "source": "Forbes",
+          "id": "ai-cfa8353ed9",
+          "title": "IndiaAI Mission organises workshop on AIKosh to strengthen India’s AI-ready data ecosystem",
+          "source": "News On AIR",
           "summary": "",
           "img": false,
-          "extract": "Big Tech’s AI boom is being built on $3.1 trillion in off‑balance‑sheet commitments — a financial pipeline so large it now exceeds hyperscalers’ annual capex by a factor of five and is already pushing free cash flow negative at Alphabet, Amazon and Meta, reported the Wall Street Journal. As demand moderates and obligations come due, investors may need to reassess how much of the AI build‑out is truly self‑funding.\nSince the report came out Aug. 16, shares of four of the leading stocks in this an"
+          "extract": "A workshop on AIKosh, the national datasets and models platform under the IndiaAI Mission, was organized today in New Delhi. The workshop brought together representatives from Government, industry, academia and the startup ecosystem to deliberate on measures to unlock the potential of India’s data for Artificial Intelligence (AI). Secretary, Ministry of Statistics and Programme Implementation Dr. Saurabh Garg inaugurated the workshop and highlighted the importance of strengthening India’s data e"
         },
         {
-          "id": "ai-a03f1f355f",
-          "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
-          "source": "MIT Technology Review",
-          "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI’s recursive self-improvement might not come so quickly afte",
-          "img": true,
-          "extract": "The Download: AI’s self-improvement problem, and what’s driving the heat\nPlus: OpenAI has paused some model work over safety concerns.\nThis is today's edition of The Download, our weekday newsletter that provides a daily dose of what's going on in the world of technology.\nAI’s recursive self-improvement might not come so quickly after all\nThe AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. But a new study suggests it might tak"
-        },
-        {
-          "id": "ai-18be7fa456",
-          "title": "Video | Cyber Threats Rise In India As AI Powers Attacks And Detection",
-          "source": "NDTV",
+          "id": "ai-d9be7d964d",
+          "title": "Micron Plans $10 Bn Research Push As AI Fuels Memory Chip Demand",
+          "source": "outlookbusiness.com",
           "summary": "",
-          "img": false
-        },
-        {
-          "id": "ai-5be8817ff1",
-          "title": "OpenAI clarifies ‘acquisition’ offer for Irish teen's startup idea was a joke",
-          "source": "Sifted",
-          "summary": "",
-          "img": false
-        },
-        {
-          "id": "ai-ec0462207c",
-          "title": "Autonomous drones and the future of war in an AI-driven world | Letter",
-          "source": "AI (artificial intelligence) | The Guardian",
-          "summary": "Machines that kill without distinction, answerable to no one, leave no one safe, writes military surgeon Dr Darren Mann Stuart Russell is right that AI’s builders fear losing control of it ( Experts a",
           "img": false,
-          "extract": "Stuart Russell is right that AI’s builders fear losing control of it (Experts are warning: our AI arms race is putting humanity at risk, 11 August). But it is not only a future superintelligence’s problem; it is already loaded into weapons, where a loss of control kills a civilian today, not humanity tomorrow.\nAn autonomous drone told to clear a “kill box” is the genie your other columnists described (How do we prevent AI agents from going rogue? It starts with a new kind of measurement, 18 July"
-        },
-        {
-          "id": "ai-aa95229b21",
-          "title": "Child-monitoring apps might need a reboot",
-          "source": "MIT Technology Review",
-          "summary": "Pam Wisniewski’s digital adolescence showed her the best and the worst of the internet. At 14, she left an abusive home, where she’d been isolated in a fifth-wheel trailer at the end of a seven-­mile ",
-          "img": true,
-          "extract": "Child-monitoring apps might need a reboot\nMonitoring apps promise to keep young people safer online, but looking in on kids’ phones can backfire. Online safety experts say there’s a better way.\nPam Wisniewski’s digital adolescence showed her the best and the worst of the internet. At 14, she left an abusive home, where she’d been isolated in a fifth-wheel trailer at the end of a seven-mile dirt road. She moved in with her older sister and taught herself to type on AOL Instant Messenger. Online, "
+          "extract": "- Micron will spend $10 billion on its newly established research lab in Boise, Idaho.\n- The facility is expected to break ground in 2027 and host hundreds of researchers.\n- The investment comes as AI infrastructure drives demand for high-bandwidth memory.\nMicron Technology plans to invest $10 billion over the next decade in a newly established research lab in Boise, Idaho, as demand for memory chips rises with the rapid expansion of artificial intelligence (AI) infrastructure, according to a Re"
         }
       ]
     },
@@ -128,103 +130,101 @@
       "beta": false,
       "stories": [
         {
-          "id": "deep-tech-9831b01c18",
-          "title": "Shares in humanoid robot firm Unitree surge 600% on Chinese stock market debut",
-          "source": "Technology | The Guardian",
-          "summary": "Company’s robots have gained global fame via videos of them performing martial arts and as dancers for pop stars Unitree, the world’s biggest humanoid robot maker, has made a spectacular entry on to C",
-          "img": false,
-          "buzz": 3,
-          "extract": "Unitree, the world’s biggest humanoid robot maker, has made a spectacular entry on to China’s stock market, with its shares surging by more than 600%.\nThe Chinese company’s robots have gained global fame via viral videos of them performing martial arts, running at Olympic speeds and serving as backup dancers for pop stars.\nShares in the business, officially known as Yushu Technology Co, rose to as high as 1,100 yuan (£120.39) on Wednesday, up from an IPO price of just 150.8 yuan. Its gains were "
-        },
-        {
-          "id": "deep-tech-f020584c46",
-          "title": "Did someone wearing Meta Glasses film you today? Are you sure?",
-          "source": "Technology | The Guardian",
-          "summary": "People say they’ve been secretly filmed in their own homes, at concerts and at work. Are the wildly popular smartglasses the final nail in the coffin of personal privacy? “I’ve had one person who told",
-          "img": false,
-          "buzz": 2,
-          "extract": "“I’ve had one person who told me that their intentions were creepy,” a man tells me over a video call, on condition of anonymity. He’s based in Los Angeles, and while we speak, he eats what appears to be tuna directly out of the can. “He said: ‘I go to strip clubs, and I want to record the strippers … Normally I put my phone in my chest pocket, but the glasses are more convenient.’”\nThe man I’m talking to runs a business called Ghost Metas. He’s one of hundreds of vendors, easily discoverable on"
-        },
-        {
-          "id": "deep-tech-a29287f9f4",
-          "title": "EXCLUSIVE: Chery's robot unit eyes IPO, targets overseas market for police robots",
-          "source": "Reuters",
-          "summary": "",
-          "img": false,
-          "buzz": 2
-        },
-        {
-          "id": "deep-tech-a8027a9508",
-          "title": "Will AI give you the job? Automated hiring tools spark discrimination and secrecy lawsuits",
-          "source": "Technology | The Guardian",
-          "summary": "A rise in lawsuits over AI use in employment decisions is raising questions about how companies hire and fire For the last four years, Erin Kistler has applied for thousands of jobs at companies like ",
-          "img": false,
-          "buzz": 3,
-          "extract": "For the last four years, Erin Kistler has applied for thousands of jobs at companies like Paypal, Microsoft and Netflix, only to find her résumé disappear into a black hole. A product manager with nearly 20 years of experience, Kistler believes she was qualified for every role, yet she never received a single interview.\nNow, Kistler is suing Eightfold AI, the Silicon Valley maker of hiring software used by hundreds of companies, including those where she applied, in a class-action lawsuit. The c"
-        },
-        {
-          "id": "deep-tech-b56784d2b3",
-          "title": "Observation of conformal field theory spectra in a quantum simulator",
-          "source": "Nature",
+          "id": "deep-tech-4e1595bff4",
+          "title": "Indian startup Ati Robotics follows in GreyOrange’s footsteps",
+          "source": "The Morning Context",
           "summary": "",
           "img": false,
           "buzz": 2,
-          "extract": "Abstract\nConformal field theories (CFTs) feature prominently in high-energy physics1,2, statistical mechanics3 and condensed matter4,5,6. For example, CFTs govern emergent universal properties of systems tuned to quantum phase transitions4,7, including their entanglement, correlations and low-energy excitation spectra. Much of the rich structure predicted by CFTs nevertheless remains unobserved in experiment. Here we directly observe the energy excitation spectra of emergent CFTs at quantum phas"
+          "extract": "/\n•\n•\nDetailed stories on technology startups, business and economic current affairs.\nOver the past decade, the Bengaluru-born, Detroit-headquartered automation startup has carefully chosen its niche, built a supply chain and slowly started sales. How far can the wager take it?\n20 August, 2026•11 min\n0\n20 August, 2026•11 min\nGetting your Trinity Audio player ready...\nInternet\nNavi raises $100 million from Prosus in its first institutional funding round\nThe investment marks the Sachin Bansal-led "
         },
         {
-          "id": "deep-tech-6420e8760a",
-          "title": "UN says Russian drones in Ukraine are blocking aid to civilians",
-          "source": "indiatoday.in",
+          "id": "deep-tech-3658ccdd94",
+          "title": "Relax, everyone: Elon Musk has a mantra to make the climate crisis go away | Emma Brockes",
+          "source": "Technology | The Guardian",
+          "summary": "It’s simple, says the SpaceX boss – according to something called the ‘Kardashev scale’, we just have to move energy production ‘off-planet’ Next time the weather gives the UK 61 days without rain and",
+          "img": false,
+          "extract": "Next time the weather gives the UK 61 days without rain and we wonder idly if this is the end, there is a term we may whistle up to soothe us. Like murmuring the rosary, or putting our fingers in our ears and humming, this phrase is to be mumbled on repeat – “the Kardashev scale, the Kardashev scale” – a buzzy concept in tech, much favoured by Elon Musk, and precisely the thing we’ve been waiting for. The Kardashev scale is the answer both to our impending doom and our anxiety around it – and if"
+        },
+        {
+          "id": "deep-tech-3d17dad08f",
+          "title": "Lobsters and acidic seas: can shellfish help neutralise one of the greatest threats to the ocean?",
+          "source": "Technology | The Guardian",
+          "summary": "Crustaceans are the subject of tests to see if alkalis added to seawater, so it absorbs more CO2, harm marine life. But Trump’s halt to funding threatens to scupper the research For many in the US reg",
+          "img": false,
+          "buzz": 2,
+          "extract": "For many in the US region of New England, the lobster roll is synonymous with summertime. Loaded into a toasted bun, chunks of the sweet meat are served hot and soaked in butter, or chilled and slathered in mayonnaise with celery and herbs.\nThe only thing more debated than the recipe is the price: the once-humble roll now routinely fetches $30 (£22), or even $50, in a sign of the changing times – and seas.\nA third-generation lobster fisherman, Scott Lord spends his days hauling traps on the Gulf"
+        },
+        {
+          "id": "deep-tech-3505592c46",
+          "title": "Frustrated GP patients hang up as Yorkshire accent baffles AI receptionist",
+          "source": "Technology | The Guardian",
+          "summary": "‘Emma’ the Rotherham chatbot has 17 languages says AI firm – but health watchdog says system struggling with local ‘twangs’ Patients in a South Yorkshire town are frustrated by an AI GP receptionist n",
+          "img": false,
+          "buzz": 2,
+          "extract": "Patients in a South Yorkshire town are frustrated by an AI GP receptionist not understanding their “broad accents”, a health watchdog has said.\nHealthwatch Rotherham, a local health and social care watchdog, said a number of practices in the area had introduced a new AI receptionist called Emma.\nIt said it was hearing accounts of the AI not understanding local accents. Its manager, Kym Gleeson, told the BBC: “One of the issues is this system can’t always understand what people’s inquiry is about"
+        },
+        {
+          "id": "deep-tech-2f2b5fe809",
+          "title": "Are We Thinking Correctly About AI Intelligence?",
+          "source": "Quanta Magazine",
+          "summary": "Computer scientist Melanie Mitchell discusses why artificial intelligence doesn’t “think” or “reason” like humans, and how we can create better methods for measuring machine cognition. The post Are We",
+          "img": true,
+          "extract": "Are We Thinking Correctly About AI Intelligence?\nIntroduction\nWhen an LLM answers a question, is it reasoning like humans, or just producing text that looks like reasoning? The distinction isn’t just philosophical, this determines what we can trust AI to do, how closely we need to supervise it, and ultimately what its real-world impact will turn out to be.\nMelanie Mitchell at the Santa Fe Institute argues that we lack adequate methods for measuring machine cognition, and that AI is a form of “al"
+        },
+        {
+          "id": "deep-tech-6923390cf7",
+          "title": "Siemens Healthineers Receives ARPA-H Funding of up to $31M to Advance Remote Endovascular Robotics for Acute Stroke Treatment",
+          "source": "Siemens Healthineers",
           "summary": "",
           "img": false,
-          "extract": "UN says Russian drones in Ukraine are blocking aid to civilians\nUN aid chief Tom Fletcher said drone attacks in Ukraine are hindering relief operations. He warned that weak accountability and a USD 2 billion funding gap could worsen winter suffering.\nThe intensifying use of drones against civilians and humanitarian workers in Ukraine is becoming a serious obstacle to aid operations, UN humanitarian chief Tom Fletcher said on Wednesday. He said the threat is not only putting civilians at risk but"
+          "extract": "- Technology has the potential to enable autonomous remote treatment of acute ischemic stroke through mechanical thrombectomy without direct human input \n- Autonomous remote endovascular robotics1 can help to get the right treatment faster to eligible patients \nThe Advanced Research Projects Agency for Health (ARPA-H) has awarded Siemens Healthineers up to $31.1 million over five years to accelerate the development of autonomous remote endovascular robotics1. This technology is designed to enabl"
         },
         {
-          "id": "deep-tech-04e75519c0",
-          "title": "Germany's VDMA lobby calls on Europe to step up on humanoid robotics as Unitree surges",
+          "id": "deep-tech-dfaa508a44",
+          "title": "China’s supernodes go mainstream as AI model sizes grow",
+          "source": "Tech - South China Morning Post",
+          "summary": "Supernodes were everywhere at last month’s World Artificial Intelligence Conference (WAIC) in Shanghai. Assemblies of dozens or hundreds of computer chips and associated hardware, supernodes are China",
+          "img": true
+        },
+        {
+          "id": "deep-tech-83de1a47c2",
+          "title": "Armed with funding boost, SpaceSail accelerates China’s push to rival Elon Musk’s Starlink",
+          "source": "Tech - South China Morning Post",
+          "summary": "In a record funding round for China’s satellite internet sector, domestic start-up SpaceSail has raised around 7 billion yuan (US$1 billion) to accelerate the buildout of a low-Earth-orbit (LEO) netwo",
+          "img": true,
+          "extract": "Armed with funding boost, SpaceSail accelerates China’s push to rival Elon Musk’s Starlink\nCompany pairs landmark capital with rapid satellite deployment and overseas expansion as China’s private aerospace sector breaks new ground\nIn a record funding round for China’s satellite internet sector, domestic start-up SpaceSail has raised around 7 billion yuan (US$1 billion) to accelerate the buildout of a low-Earth-orbit (LEO) network designed to compete with Elon Musk’s Starlink project.\nA total of "
+        },
+        {
+          "id": "deep-tech-b57f876ee5",
+          "title": "Romania destroys marine drone near Neptun Deep gas project, minister says",
           "source": "Reuters",
           "summary": "",
           "img": false
         },
         {
-          "id": "deep-tech-aa9c1a1cdf",
-          "title": "Gaining Leadership Backing for Your Innovations",
-          "source": "IEEE Spectrum",
-          "summary": "This article is part of our exclusive career advice series in partnership with the IEEE Technology and Engineering Management Society. Imagine this: You have a strong idea for a new product for your c",
-          "img": true,
-          "extract": "This article is part of our exclusive career advice series in partnership with the IEEE Technology and Engineering Management Society.\nImagine this: You have a strong idea for a new product for your company. Your coworkers encourage you to move forward because they believe it could be the organization’s next big success. The idea clearly falls outside your department’s responsibilities, however, and you have no role in the product line.\nWhat should you do? Sit and wait for “the right group” to p"
-        },
-        {
-          "id": "deep-tech-df2b0d5b28",
-          "title": "Unitree Robotics IPO: Shares Surge 460% on Shanghai Debut",
-          "source": "Sahi",
+          "id": "deep-tech-fb8c1ca0d8",
+          "title": "How drones are exposing the limits of international arms control - Global Initiative against Transnational Organized Crime (GI-TOC)",
+          "source": "Global Initiative against Transnational Organized Crime (GI-TOC)",
           "summary": "",
           "img": false,
-          "extract": "Unitree Robotics IPO: Shares Surge 460% on Shanghai Debut\nUnitree Robotics surged 460% on its Shanghai IPO debut, highlighting strong investor interest in humanoid robots. Here’s a look at its financials, products, shipments and global challenges.\nUnitree Robotics surged 460% on its Shanghai STAR Market debut, reaching a $50 billion valuation. With over 5,000 humanoid shipments and 278 million yuan profit, the listing establishes a commercial benchmark amid rising global tech competition.\nHumano"
+          "extract": "Posted on 20 Aug 2026\nFew innovations have spread through conflict and organized crime as rapidly as drones. When police in Rio de Janeiro raided the Comando Vermelho gang in 2025, they were faced with a barrage of bombs dropped by drone. The craft are commonly used to smuggle drugs across India and Iran’s borders, and in 2022, Spanish police seized sea drones capable of carrying illicit loads of up to 200 kilograms. Mexican gangs use the technology for reconnaissance and contraband, and now dep"
         },
         {
-          "id": "deep-tech-37abee4bbe",
-          "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
-          "source": "Quanta Magazine",
-          "summary": "No one yet knows which technology will power the quantum computers of the future, but the race to create them has already produced some of science’s most intricate machinery. The post Building a Quant",
-          "img": true,
-          "extract": "Introduction\nPractically all modern computers, from the cheap microcontroller in your dishwasher to high-tech hardware crunching numbers for artificial intelligence systems, rely on versions of the same technology: slabs of silicon patterned with microscopic structures called transistors. Electronic circuits containing transistors can rapidly and reliably toggle between two states, usually labeled “0” and “1.” That enables them to store and manipulate bits, the basic units of information.\nQuantu"
+          "id": "deep-tech-a0894ceca2",
+          "title": "Robotics Strategy Forum 2026",
+          "source": "The Recursive",
+          "summary": "",
+          "img": false,
+          "extract": "The Robotics Strategy Forum 2026 brings together Bulgaria’s robotics, automation, AI, engineering and manufacturing ecosystem to explore how technology is transforming local industry. The eighth edition focuses on the “Renaissance of Bulgarian Industry,” showcasing real-world technologies, companies and engineering solutions.\n📅 Date: September 10th, 2026\n📍 Location: Sofia, Bulgaria\n🏢 Venue: Sofia Tech Park, John Atanasov Hall\nOn September 10, 2026, Sofia Tech Park will host the eighth edition of"
         },
         {
-          "id": "deep-tech-6b020a95bf",
-          "title": "Shanghai lays out plan to boost digital economy, catch up with Beijing, Shenzhen",
+          "id": "deep-tech-ce61d09fd0",
+          "title": "Chinese AI chips fall short on coding, forcing firms to stretch scarce Nvidia supply",
           "source": "Tech - South China Morning Post",
-          "summary": "Shanghai has issued plans to boost its digital economy by doubling down on sectors including blockchain technology and AI infrastructure, as it steps up efforts to compete with other Chinese tech hubs",
+          "summary": "Chinese AI companies are optimising software to cope with surging demand for inference, as part of that workload still relies on computing power from a limited pool of high-end chips amid restricted a",
           "img": true,
-          "extract": "Shanghai lays out plan to boost digital economy, catch up with Beijing, Shenzhen\nGovernment to accelerate use of blockchain, build AI infrastructure in line with national mandate to boost digital contribution to GDP\nShanghai has issued plans to boost its digital economy by doubling down on sectors including blockchain technology and AI infrastructure, as it steps up efforts to compete with other Chinese tech hubs such as Beijing and Shenzhen.\nIn a new five-year plan for building “digital Shangha"
-        },
-        {
-          "id": "deep-tech-ee46a4b396",
-          "title": "Making better robots depends on better data capture, Chinese firm 51World says",
-          "source": "Tech - South China Morning Post",
-          "summary": "The race to develop intelligent humanoid robots faces a major roadblock in a severe shortage of high-quality training data, but Beijing-based tech company 51World believes it has the tools to break th",
-          "img": true,
-          "extract": "Making better robots depends on better data capture, Chinese firm 51World says\nNew devices and platforms to obtain real-world data for embodied AI can break the biggest hurdle to creating more capable robots, CEO says\nThe race to develop intelligent humanoid robots faces a major roadblock in a severe shortage of high-quality training data, but Beijing-based tech company 51World believes it has the tools to break the bottleneck.\nBest known for its digital twin and simulation technology, 51 World "
+          "extract": "Chinese AI chips fall short on coding, forcing firms to stretch scarce Nvidia supply\nSurging token usage as artificial intelligence moves into large-scale deployment spurs search for new approaches\nChinese AI companies are optimising software to cope with surging demand for inference, as part of that workload still relies on computing power from a limited pool of high-end chips amid restricted access to Nvidia processors.\nCompared with training an artificial intelligence model, which relies on h"
         }
       ]
     },
@@ -234,6 +234,21 @@
       "beta": false,
       "stories": [
         {
+          "id": "climate-energy-740170a727",
+          "title": "India’s AI strength lies in the applications layer; renewable energy capacity an advantage for data centres: Vaishnaw",
+          "source": "DD News",
+          "summary": "",
+          "img": false,
+          "extract": "India’s key strength in artificial intelligence lies in the applications layer, while its renewable energy capacity provides a significant advantage in supporting data centres, Union Minister for Electronics & Information Technology and Information & Broadcasting Ashwini Vaishnaw said in an interview with Morgan Stanley India Equity Strategist Ridham Desai.\n“Our biggest strength is in the applications layer,” Vaishnaw said during the interaction with Desai, highlighting India’s established IT ec"
+        },
+        {
+          "id": "climate-energy-84c0941242",
+          "title": "Transmission Constraints Emerge As Key Hurdle To India's Renewable Energy Expansion: ICRA",
+          "source": "KNN India",
+          "summary": "",
+          "img": false
+        },
+        {
           "id": "climate-energy-7ac6e05e8f",
           "title": "Transmission constraints threaten to curb India’s renewable energy expansion, says ICRA",
           "source": "The Hindu",
@@ -242,51 +257,83 @@
           "extract": "Insufficient transmission lines have emerged as a major obstacle to India’s rapid expansion of renewable energy capacity, leading to many solar power projects being “curtailed” during daylight hours, rating agency ICRA said on Wednesday (August 19, 2026). Curtailment occurs when a power generator is forced to reduce or stop producing electricity due to oversupply and grid congestion.\nAround 37% of renewable energy capacity at substations affected by curtailment in the northern, western, and sout"
         },
         {
-          "id": "climate-energy-d1228bf2bd",
-          "title": "Taxpayers to fund clear-up of illegal dumps in West Yorkshire, Surrey and Kent",
+          "id": "climate-energy-3d17dad08f",
+          "title": "Lobsters and acidic seas: can shellfish help neutralise one of the greatest threats to the ocean?",
           "source": "Environment | The Guardian",
-          "summary": "Andy Burnham promises drive to tackle toxic waste, raise fines and use AI-powered drones to detect illegal activity Illegal dumps in West Yorkshire, Surrey and Kent will be cleared up using taxpayer m",
+          "summary": "Crustaceans are the subject of tests to see if alkalis added to seawater, so it absorbs more CO2, harm marine life. But Trump’s halt to funding threatens to scupper the research For many in the US reg",
           "img": false,
           "buzz": 2,
-          "extract": "Illegal dumps in West Yorkshire, Surrey and Kent will be cleared up using taxpayer money, Andy Burnham has announced, as the prime minister promises a new drive to tackle toxic waste.\nMinisters have identified dumps in Bradford, Runnymede and the Isle of Sheppey, which collectively contain about 22,000 tonnes of illegal waste, to be cleared in the next phase of the government’s national clear-up effort.\nMeanwhile, fines will be raised for rogue dumpers, and AI-powered drones will be used to dete"
+          "extract": "For many in the US region of New England, the lobster roll is synonymous with summertime. Loaded into a toasted bun, chunks of the sweet meat are served hot and soaked in butter, or chilled and slathered in mayonnaise with celery and herbs.\nThe only thing more debated than the recipe is the price: the once-humble roll now routinely fetches $30 (£22), or even $50, in a sign of the changing times – and seas.\nA third-generation lobster fisherman, Scott Lord spends his days hauling traps on the Gulf"
         },
         {
-          "id": "climate-energy-b16042cfa8",
-          "title": "Human remains again found at Lake Mead as water levels drop amid drought",
-          "source": "Environment | The Guardian",
-          "summary": "Discovery marks latest grim finding in lake as water levels in crucial reservoir outside Las Vegas continue to decline Human remains have once again been discovered at Lake Mead outside Las Vegas, Nev",
-          "img": false,
-          "extract": "Human remains have once again been discovered at Lake Mead outside Las Vegas, Nevada, marking the latest in a line of gruesome discoveries as water levels in the crucial reservoir continue to drop, authorities said.\nThese remains were discovered on 16 August, USA Today reported. The National Park Service (NPS) told the outlet there did not appear to be anything suspicious about the body.\nLas Vegas police reportedly said “a non-criminal, dead body report was taken for the remains”. The local coro"
-        },
-        {
-          "id": "climate-energy-1888c5adfb",
-          "title": "Not Lagging, But Scaling: India’s strategic push in renewable energy and EVs",
-          "source": "organiser.org",
+          "id": "climate-energy-5a616ae4d9",
+          "title": "India weighs low-cost loans for renewable projects hit by power curbs, sources say",
+          "source": "Reuters",
           "summary": "",
           "img": false
         },
         {
-          "id": "climate-energy-0d2aee1b5f",
-          "title": "Reform says we need to choose between climate and economy. It's wrong | Larry Elliott",
-          "source": "Environment | The Guardian",
-          "summary": "The party’s deputy leader Richard Tice says we should stop worrying about extreme heat and enjoy it. This dangerous nonsense will wreck our finances and the planet So now we know: the smart response t",
-          "img": false,
-          "extract": "So now we know: the smart response to the UK’s summer of record temperatures is to do precisely nothing. According to Richard Tice, Reform UK’s deputy leader, the climate crisis is just one of those things. Nothing can be done about it, so we should simply bask in the sunshine.\nIt is reasonable to assume Tice would not have said anything quite as crass had he been addressing people in Stourbridge who have seen their homes burn to the ground. Or the farmers whose crops shrivel in parched fields. "
-        },
-        {
-          "id": "climate-energy-c05da8e74d",
-          "title": "Bosch’s Third Generation SiC Chips Aim to Boost EV Efficiency in India",
-          "source": "Bisinfotech",
+          "id": "climate-energy-151ffee074",
+          "title": "India mulls low-cost loans for renewable energy producers",
+          "source": "Investing.com India",
           "summary": "",
           "img": false
         },
         {
-          "id": "climate-energy-04143b6a45",
-          "title": "The sustainability dividend: How renewable energy is reshaping residential real estate",
-          "source": "pv-magazine-india.com",
+          "id": "climate-energy-98c561e9af",
+          "title": "From bone-dry to soaked to the bone, welcome to the age of climate whiplash | Aditya Chakrabortty",
+          "source": "Environment | The Guardian",
+          "summary": "This punishingly hot and dry summer will probably be followed by another wet winter. But it’s nothing compared with what Britain will endure in years to come This summer could be the hottest , driest ",
+          "img": false,
+          "extract": "This summer could be the hottest, driest and deadliest in English history. Successive heatwaves have so far claimed almost 3,000 lives. Nearly three-quarters of England and all of Wales is in drought, while key reservoirs are parched. Across this brown and stickily unpleasant land, from Grimsby down to St Ives, hosepipe bans are in force, while music festivals are staged not on green fields but in giant dust bowls.\nJust how bad is it? I asked a leading climate scientist.\n“This is as good as it’s"
+        },
+        {
+          "id": "climate-energy-21c6d00cdd",
+          "title": "India’s Solar and Wind Manufacturing Expands, but Critical Supply-Chain Gaps Persist: CII",
+          "source": "The Policy Edge",
           "summary": "",
           "img": false,
-          "extract": "The sustainability dividend: How renewable energy is reshaping residential real estate\nIndia’s second-home market, currently valued at approximately $3.2 billion, is acquiring a new set of benchmarks. In corridors stretching along the Delhi-Mumbai Expressway leading to Naugaon in Alwar District of Rajasthan, where farmhouse communities have drawn a steady stream of investors seeking alternatives to apartment living, the questions buyers ask on site visits have changed. Groundwater recharge, tree"
+          "extract": "Key Details\nThe CII Renewable Energy Manufacturing White Paper 2025–26 examines six connected areas: wind manufacturing, institutional capacity, wind exports, repowering, solar manufacturing and solar balance-of-material components. It is an industry policy paper: the measures described below are CII recommendations, not government decisions.\nManufacturing Capacity Does Not Yet Mean Supply-Chain Independence\nIndia’s renewable manufacturing base has expanded fastest in final-stage production, whi"
+        },
+        {
+          "id": "climate-energy-c7ce2d79e8",
+          "title": "California becomes first US state to set efficiency rules for replacement tires",
+          "source": "Environment | The Guardian",
+          "summary": "Regulations that would block sale of older tires praised by environmental groups amid rightwing backlash California has become the first state in the nation to mandate that replacement tires be energy",
+          "img": false,
+          "extract": "California has become the first state in the nation to mandate that replacement tires be energy efficient, a major auto industry regulation set to block the sale of older tires and make vehicles on the road greener.\nState regulators have said the new rules will reduce emissions and drivers’ fuel costs. But the rules – which come as the Trump administration fights to block other California restrictions to promote greener cars – have already sparked a rightwing backlash, with one conservative news"
+        },
+        {
+          "id": "climate-energy-d6b27660c1",
+          "title": "National Green Hydrogen Mission aims to position India as global green hydrogen hub",
+          "source": "News On AIR",
+          "summary": "",
+          "img": false,
+          "extract": "The Ministry of New and Renewable Energy is implementing the National Green Hydrogen Mission, with an aim to build a strong domestic green hydrogen ecosystem and position India as a potential global hub for its production, use and export. The Mission was approved by the Union Cabinet in January 2023 with an initial outlay of 19,744 crore rupees for the period up to 2029-30.\nThe NTPC Green Hydrogen Mobility Station, which has been established at Greater Noida in Uttar Pradesh, is a landmark initi"
+        },
+        {
+          "id": "climate-energy-1e1b396fe0",
+          "title": "Sacred Groves in India: How Communities Protect Forests, Biodiversity and Culture",
+          "source": "The Better India",
+          "summary": "",
+          "img": false,
+          "extract": "In many parts of India, entering a forest once meant entering the home of a deity.\nIt also meant stepping onto land where a tree could not be cut, an animal could not be hunted and, in some places, even fallen wood could not be taken away.\nThe rules were rarely written down. Instead, they travelled through stories, rituals, festivals and warnings passed from one generation to the next.\nToday, scientists have another vocabulary for these places: biodiversity refuges, carbon stores, water catchmen"
+        },
+        {
+          "id": "climate-energy-3ec6234007",
+          "title": "PJM wants data centers to bring their own power. Pennsylvania’s on it.",
+          "source": "Canary Media",
+          "summary": "Last month, grid operator PJM Interconnection unveiled a long-awaited proposal to prevent data centers from spiking power prices — but the plan largely relies on states to give it teeth . Pennsylvania",
+          "img": false,
+          "extract": "Next Upcoming\nRural America & The Clean Energy Transition at Climate Week NYC\nBy Canary Media\n                            The biggest U.S. energy market hopes to make data centers find their own power resources or face grid cutoffs. Gov. Shapiro is aligning his state with that plan.\n                        \n                    \n                    Last month, grid operator PJM Interconnection unveiled a long-awaited proposal to prevent data centers from spiking power prices — but the plan largel"
+        },
+        {
+          "id": "climate-energy-891fefc4b9",
+          "title": "Energy storage cell shipment data for H1 2026 reveal three structural shifts",
+          "source": "pv magazine India",
+          "summary": "",
+          "img": false,
+          "extract": "Energy storage cell shipment data for H1 2026 reveal three structural shifts\nFrom ESS News\nIn the first half of 2026 (H1), global energy storage cell shipments reached 467.84 GWh, up 94.8% year-on-year. Quarterly shipments exceeded 200 GWh for the third consecutive quarter, with second-quarter shipments reaching a record 262 GWh. Shipments to markets outside China totaled nearly 250 GWh in H1, accounting for more than half of the global total.\nThe headline figures hide structural shifts. Three d"
         },
         {
           "id": "climate-energy-8ff6a7405b",
@@ -295,54 +342,6 @@
           "summary": "LANSING, Mich. — The Trump administration has made clear its disdain for electric vehicles and clean energy. Yet at the grand opening of South Korea–based LG Energy Solution’s latest battery manufactu",
           "img": false,
           "extract": "Next Upcoming\nRural America & The Clean Energy Transition at Climate Week NYC\nBy Canary Media\n                            Trump officials touted the storage and EV plant as an example of “energy dominance,” underscoring increasing bipartisan acceptance of grid batteries.\n                        \n                    \n                    LANSING, Mich. — The Trump administration has made clear its disdain for electric vehicles and clean energy. Yet at the grand opening of South Korea–based LG Ener"
-        },
-        {
-          "id": "climate-energy-cc09fdb5e1",
-          "title": "Grid, storage readiness critical for next phase of renewable energy growth: ICRA",
-          "source": "ET EnergyWorld",
-          "summary": "",
-          "img": false,
-          "extract": "- Power\n- 1 min read\nGrid, storage readiness critical for next phase of renewable energy growth: ICRA\n                    RE pipeline stays strong with 150+ GW under construction despite bidding slowdown, the latest ICRA report noted. \n                                    \n            \n        - Published On Aug 19, 2026 at 11:01 PM IST\nDespite a slowdown in bidding activity due to delays in signing power purchase and sale agreements, and lagging transmission capacity, the project pipeline remain"
-        },
-        {
-          "id": "climate-energy-4cb9d6e24b",
-          "title": "PPA, transmission hurdles slow renewable energy project awards: ICRA",
-          "source": "The Times of India",
-          "summary": "",
-          "img": false,
-          "extract": "NEW DELHI: Challenges in signing power purchase and power sale agreements and delays in ramping up transmission capacity have slowed the pace of renewable energy capacity awards, ratings agency ICRA said on Wednesday.\nFollowing the sizeable RE capacity award of 40.6 GW in 2024-25, ICRA said bidding activity slumped, with only 14.7 GW awarded in 2025-26 and 4.7 GW awarded till Aug 10 this year. It, however, added that the renewable power pipeline remained strong, with more than 150 GW of projects"
-        },
-        {
-          "id": "climate-energy-f8f4ebc0a9",
-          "title": "At 79, India powers a new energy freedom with Tata Power",
-          "source": "Tata Power",
-          "summary": "",
-          "img": false,
-          "extract": "Tata Power combines rooftop solar and storage for greater energy control\nIndependence has always been about having greater control over the choices that shape our lives. Today, that idea is extending to something every home and business depends on daily: energy.\nAs India celebrates its 79th Independence Day, a new opportunity for energy independence is taking shape. Rooftop solar already allows consumers to generate electricity where they use it. Add battery storage, and that solar power can als"
-        },
-        {
-          "id": "climate-energy-aba9100406",
-          "title": "Rajasthan Launches Digital Tool to Monitor Renewable Energy Projects",
-          "source": "energetica-india.net",
-          "summary": "",
-          "img": false,
-          "extract": "Rajasthan Launches Digital Tool to Monitor Renewable Energy Projects\nRajasthan has launched DRE-PMT to digitally monitor renewable projects, generation, subsidies, rooftop solar, vendors and schemes, improving transparency and efficiency.\nAugust 19, 2026. By EI News Network\nThe Rajasthan Renewable Energy Corporation Ltd. (RRECL), the state’s nodal agency for renewable energy development, has launched the Distributed Renewable Energy Project Monitoring Tool (DRE-PMT) to strengthen technology driv"
-        },
-        {
-          "id": "climate-energy-1a96c869ca",
-          "title": "Mahindra Susten reaches financial closure for 150.8 MW group captive hybrid renewable energy project",
-          "source": "pv-magazine-india.com",
-          "summary": "",
-          "img": false,
-          "extract": "Mahindra Susten reaches financial closure for 150.8 MW group captive hybrid renewable energy project\nMahindra Susten has reached financial closure for a 150.8 MW hybrid wind-solar project being developed under a group captive off-take arrangement in Maharashtra, India, following the execution of a binding financing agreement with the Export-Import Bank of India (India Exim Bank).\nUnder the agreement, India Exim Bank will act as the sole lender, providing the project’s entire debt requirement of "
-        },
-        {
-          "id": "climate-energy-ea5f3a29d0",
-          "title": "Inox Clean closes acquisition of Vena Energy India",
-          "source": "Renewables Now",
-          "summary": "",
-          "img": false,
-          "extract": "about 11 hours ago\nabout 15 hours ago\nAug 19, 2026, 11:32:31 AMArticle by Sladjana Djunisic\nLoading...\nMESIA Business Breakfast on Smart Cities & Distributed Solar Integration\nSep 17, 2026\nAbu Dhabi\nHorizons Clean Energy Expansion India Conference\nSep 23, 2026\nNew Delhi"
         }
       ]
     },
@@ -352,84 +351,84 @@
       "beta": false,
       "stories": [
         {
-          "id": "health-tech-7ebcbe7079",
-          "title": "Opinion: AI has created a shadow medical system",
+          "id": "health-tech-ddf31127a8",
+          "title": "Opinion: The global health aid architecture is collapsing. The faith economy isn’t",
           "source": "STAT",
-          "summary": "Financial incentives – health care makes up nearly one-fifth of the American economy – have driven every major AI company into health care.",
+          "summary": "“Washington has rediscovered faith as a delivery mechanism. The bigger opportunity is faith as a source of capital,” writes Dr. Alaa Murabit.",
           "img": true,
-          "extract": "Every few weeks, another headline announces that artificial intelligence has matched a doctor, beaten a doctor, or is finally ready to become one. The latest wave arrived with familiar force: Several studies claim that AI outperforms physicians on clinical reasoning tasks.\nThe implication is hard to miss. Doctors are slow, expensive, and human. AI is faster, and potentially better.\nHeadlines about AI replacing doctors have already helped fuel a parallel, industry-driven medical system outside th"
+          "extract": "This month, the Trump administration announced nearly $2 billion for faith-based groups, the largest allocation of global health foreign assistance to faith-based organizations in more than 20 years. The bulk of it, $1.4 billion, funds health services, including an $850 million award to World Vision supporting 2,500 faith-based hospitals and clinics across 17 countries.\nWhatever the administration’s ultimate motives, this is an important signal to my public health and humanitarian relief colleag"
         },
         {
-          "id": "health-tech-956a8cf411",
-          "title": "India, Germany's Hessen Explore Cooperation In AI, Clean Energy, Pharma, Advanced Manufacturing",
-          "source": "KNN India",
+          "id": "health-tech-0da56ef3b3",
+          "title": "Pharma sector doubles down on AI amid hopes of slashing costs, timelines",
+          "source": "Reuters",
           "summary": "",
           "img": false,
-          "extract": "India, Germany's Hessen Explore Cooperation In AI, Clean Energy, Pharma, Advanced Manufacturing\nUpdated: Aug 19, 2026 02:25:35pm\nIndia, Germany's Hessen Explore Cooperation In AI, Clean Energy, Pharma, Advanced Manufacturing\nNew Delhi, Aug 19 (KNN) Commerce and Industry Minister Piyush Goyal held discussions with Hessen Minister-President Boris Rhein to explore opportunities for strengthening economic and technological cooperation between India and the German state.\nMinister for Federal and Euro"
+          "buzz": 2
         },
         {
-          "id": "health-tech-31ce461ce5",
-          "title": "Dissecting Chinese trial strategy in wake of deaths",
+          "id": "health-tech-285741ce2e",
+          "title": "Contrasting legal decisions on gender-affirming care",
           "source": "STAT",
-          "summary": "Cancer \"vaccine\" successfully slowed melanoma, dissecting Chinese trial strategy in wake of deaths, and more health news from Morning Rounds",
+          "summary": "Heidi Overton's rise under Trump, inside a 5-year-old brain organoid, and other health news from Morning Rounds",
           "img": true,
-          "extract": "Get your daily dose of health and medicine every weekday with STAT’s free newsletter Morning Rounds. Sign up here.\nGood morning. You may have noticed (did you??) that this newsletter was sent a little later than usual this morning. That’s because of some big breaking news in the first item. Take a look!\nCancer ‘vaccine’ successfully slowed melanoma\nWhen added to an existing treatment, a personalized mRNA cancer vaccine slowed the return of melanoma and its spread to other parts of the body in a "
+          "extract": "Get your daily dose of health and medicine every weekday with STAT’s free newsletter Morning Rounds. Sign up here.\nGood morning. After the news about Moderna and Merck’s mRNA cancer vaccine came out yesterday, someone resurfaced a great Sharon Begley story on personalized cancer vaccines from early 2016. I recommend reading it if you’re interested in a primer on “turning your cancer against itself.”\nMajor cancer group cancels alcohol fundraiser\nThe American Cancer Society has canceled its upcomi"
         },
         {
-          "id": "health-tech-1c6f26a201",
-          "title": "STAT+: Experts scrutinize Huidagene’s disclosures after patient death",
+          "id": "health-tech-d14dc4639b",
+          "title": "STAT+: How health systems are embracing chatbots to query and summarize patient records",
           "source": "STAT",
-          "summary": "Merck and Moderna's mRNA cancer vaccine, an expected nominee to lead the FDA, and more biotech news from The Readout",
+          "summary": "Several large health systems are rolling out AI chatbots to query patient records, because they can save time and increase diagnostic accuracy.",
           "img": true,
-          "extract": "Elaine’s stories explore the boom in new obesity treatments, new drug payment models, the ways companies are affected by FDA changes, and the emerging psychedelics drug sector. She co-writes The Readout newsletter, and co-hosts STAT’s weekly biotech podcast, The Readout Loud. You can reach Elaine on Signal at elaineywchen.70.\nWant to stay on top of the science and politics driving biotech today? Sign up to get our biotech newsletter in your inbox.\nGood morning. We’re sending the newsletter a bit"
+          "extract": "The pathologists were stumped. Six people had tried to identify a patient’s cancer based on a recent lymph node biopsy. They’d stained the cells 70 times to try to draw out more distinguishing features — but still, nobody had an answer.\nAt Stanford, a physician called onto the case was trying out a new tool called ChatEHR, one of several large language model-powered tools being deployed by health systems to summarize patients’ often-extensive medical records. It got a question: Did the patient h"
         },
         {
-          "id": "health-tech-493339bdbc",
-          "title": "Invesco Mutual Fund launches Invesco India Pharma and Healthcare Fund",
-          "source": "IndiaMedToday",
+          "id": "health-tech-f2992e76a0",
+          "title": "India's pharma ambitions are running into a regulatory capacity constraint",
+          "source": "Business Standard",
           "summary": "",
           "img": false,
-          "extract": "The fund seeks to capitalize on India’s evolving healthcare ecosystem.\nInvesco Mutual Fund announced the launch of Invesco India Pharma and Healthcare Fund (An open ended equity scheme investing in Pharma, Healthcare and allied sectors).\nThe fund seeks to capitalize on India’s evolving healthcare ecosystem, which is being shaped by favourable demographics, expanding healthcare access, rising insurance penetration, growing global pharmaceutical leadership, and emerging innovation-driven opportuni"
+          "extract": "India's pharma ambitions are running into a regulatory capacity constraint\nGovt's decision under the ₹10,000 cr Biopharma SHAKTI programme to create a dedicated scientific review cadre within CDSCO is an important reform\nAmitabh Kant\nWebinarsNew\nDeep DiveNew\nExplore Business Standard\n India’s pharmaceutical industry has achieved extraordinary scale. We are the world’s third-largest producer by volume, supply around 20 per cent of global generic medicines, and exported $30.5 billion of pharmaceut"
         },
         {
-          "id": "health-tech-df607795d1",
-          "title": "Prescribing Caution: How Indian Pharma Giants Are Responding to the New U.S. Tariff Shock",
-          "source": "Equitypandit",
+          "id": "health-tech-a4b5b0e7f1",
+          "title": "Medtech Regulatory Debate Set To Echo At India Health 2026",
+          "source": "Outlook India",
           "summary": "",
           "img": false,
-          "extract": "Donald Trump announced a phased tariff plan on generic drugs entering the United States on 22 July 2026, and Indian pharma stocks fell within hours of the post going up. The first instinct is to read that as a crisis, though the timeline itself makes a case for patience. Generic imports keep a 0% tariff until August 2028. After that, it climbs to 100% for a year before doubling again to 200% from 2029. It’s that gap between announcement and actual implementation that got lost under the first wav"
+          "extract": "The medical devices industry's growing unease over the proposed overhaul of India's drugs law is set to echo through the corridors of India Health 2026, as policymakers, manufacturers and healthcare leaders gather in New Delhi this week to debate the future of the country's fast-expanding medtech sector.\nThe regulatory question comes at a crucial moment. A Bain & Company report released this year estimates that India's medtech sector could represent a USD35-billion opportunity by 2030. Medical-d"
         },
         {
-          "id": "health-tech-f34540113e",
-          "title": "NFO Alert: Invesco Mutual Fund Launches Pharma, And Healthcare Fund - Check Key Details",
-          "source": "Outlook Money",
+          "id": "health-tech-ccfd32b865",
+          "title": "Healthcare Without Borders: How Digital Health is Reaching India’s Last Mile",
+          "source": "Digital Health News",
           "summary": "",
           "img": false,
-          "extract": "Summary of this article\n- Invesco India's pharma fund NFO closes September 1, 2026.\n- Minimum lump sum investment starts at just Rs 1,000.\n- Fund invests across pharmaceutical, hospital, diagnostic, and insurance sectors.\nThe domestic healthcare ecosystem is witnessing strong investor interest. On a year-to-date basis, the BSE Healthcare Index has gained over 16 per cent. The interest is being driven by structural drivers of growth for India’s healthcare space, such as favourable demographics, i"
+          "extract": "Healthcare Without Borders: How Digital Health is Reaching India's Last Mile\n344 Mn Consultations, 131,000 Arogya Mandirs: How India is Redrawing the Geography of Healthcare\nIn a village where the nearest specialist may be hours away, a smartphone, a screen, and a reliable connection can now bring that specialist within reach. For decades, geography has quietly shaped who gets timely healthcare in India. In metropolitan cities, patients can access specialists, diagnostic centres, and advanced ho"
         },
         {
-          "id": "health-tech-54c55f7549",
-          "title": "Invesco Mutual Fund floats Pharma and Healthcare Fund: NFO open till September 1; check details, peer performance",
-          "source": "Business Today",
+          "id": "health-tech-e693b83013",
+          "title": "Invesco Mutual Fund launches India Pharma and Healthcare Fund",
+          "source": "Express Pharma",
           "summary": "",
           "img": false,
-          "extract": "What will the fund invest in?\nUnlike a fund focused exclusively on pharmaceutical companies, the Invesco India Pharma and Healthcare Fund will invest across multiple segments of the healthcare ecosystem. Its portfolio may include pharmaceutical manufacturers, hospitals, diagnostic companies, contract development and manufacturing organisations (CDMOs), contract research organisations (CROs), medical device manufacturers and healthcare service providers.\nThe scheme may also invest in insurance co"
+          "extract": "Invesco Mutual Fund launches India Pharma and Healthcare Fund\nThe open-ended equity scheme will invest across pharma, healthcare and allied sectors\nInvesco Mutual Fund has announced the launch of the Invesco India Pharma and Healthcare Fund, an open-ended equity scheme investing in pharma, healthcare and allied sectors.\nThe fund seeks to capitalise on India’s evolving healthcare ecosystem, which is being shaped by favourable demographics, expanding healthcare access, rising insurance penetration"
         },
         {
-          "id": "health-tech-9ff90860f7",
-          "title": "India’s New Pharma Policy Could Make Life-Saving Drugs More Expensive",
-          "source": "Frontline Magazine",
+          "id": "health-tech-4a4a9b9c04",
+          "title": "Insilico Medicine announces ARDD 2026 program, bringing global leaders in longevity biotechnology to Boston",
+          "source": "EurekAlert!",
           "summary": "",
           "img": false,
-          "extract": "For more than five decades, India has built a pharmaceutical ecosystem founded on a simple but powerful principle: reward genuine innovation but ensure that life-saving medicines become affordable. This balance has enabled India to well serve its own people while earning the reputation of being the pharmacy of the world.\nThat carefully crafted balance is now under pressure. The recent demands for regulatory data protection (RDP) deserve closer scrutiny. Big Pharma lobbies in India have been dema"
+          "extract": "JavaScript is disabled\nIn order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page."
         },
         {
-          "id": "health-tech-79ec138874",
-          "title": "India pharma faces global headwinds; Angel One sees 39% upside in Lincoln Pharma",
-          "source": "Business Today",
+          "id": "health-tech-8e0b857be9",
+          "title": "Mankind Pharma signs China pact to market insulin analogues in India",
+          "source": "Business Standard",
           "summary": "",
           "img": false,
-          "extract": "India pharma faces global headwinds; Angel One sees 39% upside in Lincoln Pharma\nBrokerage picks Lincoln Pharmaceuticals as a ‘Buy’, citing exports, regulated markets and strong Q1 growth\n- Aug 19, 2026,\n- Updated Aug 19, 2026 5:55 PM IST\nIndia’s pharmaceutical industry is facing an outlook: demand and exports remain growth drivers, but global trade disruptions, regulatory hurdles and rising costs are creating pressure on drugmakers. Against this backdrop, Angel One has picked Ahmedabad-based Li"
+          "extract": "Mankind Pharma signs China pact to market insulin analogues in India\nFirm eyes more partnerships with Chinese pharmaceutical companies to expand its in-licensed drug pipeline as it seeks a larger presence in injectable diabetes therapies\nListen to This Article\n\tDomestic drugmaker Mankind Pharma on Thursday said it has entered into an exclusive in-licensing agreement with China’s Chongqing Chenan Biopharmaceutical Co. to commercialise two of its insulin analogues in the Indian market.\n \n\tThe part"
         }
       ]
     },
@@ -439,91 +438,93 @@
       "beta": false,
       "stories": [
         {
-          "id": "agritech-f031649e18",
-          "title": "Explained: India's ground-water crisis has an electricity problem",
-          "source": "The New Indian Express",
-          "summary": "",
-          "img": false,
-          "extract": "Explainer\nExplained: India's ground-water crisis has an electricity problem\nCheap and free farm power can encourage groundwater extraction, with states spending Rs 1.89 lakh crore on power subsidies in FY25 as water tables continue to come under pressure.\nIndia usually talks about its groundwater crisis in terms of water shortages: uneven rainfall, falling water levels and climate change. Electricity is discussed separately, mainly in terms of farm subsidies, tariffs and the finances of power di"
+          "id": "agritech-a3356e892b",
+          "title": "IIF to launch its farm investment platform across Canada following new capital raise from Verdex",
+          "source": "AgFunderNews",
+          "summary": "The Australian startup's expansion shows how rapidly its investment platform can be replicated in a new market, says founder Nathan MacPhee. The post IIF to launch its farm investment platform across ",
+          "img": true,
+          "extract": "[Disclosure: AgFunderNews’ parent company AgFunder is an investor in IIF.]\nIIF, an Australian investment platform connecting farmers with consumers, will expand across Canada following new funding from food- and ag-focused firm Verdex Capital.\nVerdex is IIF’s first Canadian investor, and will be an important partner for the startup as it makes its platform available to both farmers and consumers around the country. Existing investors AgFunder and Investible also participated in the new funding r"
         },
         {
-          "id": "agritech-a1e5ffe432",
-          "title": "Kuwait Envoy Hails Strong India Ties, Indian Diaspora’s Role",
-          "source": "Sarkaritel.com",
-          "summary": "",
-          "img": false,
-          "extract": "Kuwait Ambassador to India Mishal Mustafa Al-Shamali has highlighted the strength of India-Kuwait relations and praised the Indian community in Kuwait as a vital bridge between the two countries. He stressed deep-rooted historical, economic and cultural ties as both nations mark 65 years of diplomatic relations in 2026.\nKey Highlights\n- Kuwait envoy Mishal Mustafa Al-Shamali praised strong India-Kuwait relations.\n- Indian expatriates in Kuwait were described as a vital bridge between both countr"
+          "id": "agritech-ae95319787",
+          "title": "Mafix raises $5.4m to activate silicate rock into climate-smart fertilizer",
+          "source": "AgFunderNews",
+          "summary": "The capital injection will help Mafix produce 1,000 tons of product for trials across the US, says cofounder Jade Marcus. The post Mafix raises $5.4m to activate silicate rock into climate-smart ferti",
+          "img": true,
+          "extract": "Mafix has raised $5.4 million in pre-seed funding to scale a novel approach to enhanced rock weathering that makes silicate minerals weather more rapidly.\nThe tech can remove carbon, simplify measurement, reporting and verification (MRV), boost crop yields, and potentially reduce fertilizer costs.\nThe round was led by Azolla Ventures with support from Counteract VC, Astera Institute, Plug and Play Ventures, Impact Science Ventures, and a Dutch family office.\nThe capital injection will help the C"
         },
         {
-          "id": "agritech-4b9e8916f8",
-          "title": "India Says Monsoon Crop Sowing Caught Up After July Rains",
-          "source": "bloomberg.com",
+          "id": "agritech-ae86f6d96d",
+          "title": "Singapore & India deepen cooperation on semiconductors, digital payments, food security & space technology: Gan Kim Yong",
+          "source": "The Online Citizen",
           "summary": "",
           "img": false
         },
         {
-          "id": "agritech-5a9e5857dc",
-          "title": "Dolphin mother and calf observed using shells to catch fish in Australia",
+          "id": "agritech-bb30546047",
+          "title": "Criminal probe clears Sloth World of criminal neglect in deaths of 57 animals",
           "source": "Conservation news",
-          "summary": "A small population of dolphins in Shark Bay in Western Australia have a documented history of using an unusual tool to help them catch fish: Large, empty snail shells. For the first time, scientists h",
+          "summary": "Authorities in the U.S. state of Florida have cleared a controversial startup of criminal neglect after dozens of wild-caught sloths that it imported from South America for tourism purposes died. The ",
           "img": true,
           "buzz": 2,
-          "extract": "A small population of dolphins in Shark Bay in Western Australia have a documented history of using an unusual tool to help them catch fish: Large, empty snail shells. For the first time, scientists have now observed the same behavior in a different dolphin population on Australia’s east coast.\nResearchers even filmed a baby dolphin and its mother using a shell to capture fish, suggesting the baby may have learned the skill from its mother — this hadn’t been observed before now, they write in a "
+          "extract": "Authorities in the U.S. state of Florida have cleared a controversial startup of criminal neglect after dozens of wild-caught sloths that it imported from South America for tourism purposes died.\nThe Orange County Sheriff’s Office (OCSO) opened an investigation following the closure of the Sloth World facility in April this year. On Aug. 19, it released its findings, with OCSO detective Aaron Bennet concluding the 57 deaths “appear to be consistent with a multifactorial animal health incident ra"
         },
         {
-          "id": "agritech-2bccd5100b",
-          "title": "Monsoon rains in India negatively affected daily life",
-          "source": "A News",
+          "id": "agritech-83c1a7add2",
+          "title": "Why do changes in the Indian Ocean matter? [Explainer]",
+          "source": "Mongabay India",
           "summary": "",
           "img": false,
-          "extract": "Monsoon rains in India negatively affected daily life\n                    \n                    \n                        \n            Flooding and waterlogging caused by monsoon rains in Guwahati, Assam state, India, negatively impacted daily life.\n                    \n                    \n                        \n                            \n                                     Agencies and A News / \n World \n                            \n                                \n                          "
+          "extract": "- The Indian Ocean’s geological history and climate have shaped its unique biodiversity, from microscopic plankton to the largest whales.\n- The monsoon drives ocean dynamics, with seasonally reversing winds influencing currents, productivity, salinity and oxygen concentrations across the basin.\n- The Indian Ocean is warming faster than the global average, which has far-reaching consequences for regional climate and marine ecosystems.\nIn the dynamic Indian Ocean, change is perpetual, as currents,"
         },
         {
-          "id": "agritech-c69e66fc87",
-          "title": "India: Washed coal prices firm amid monsoon supply constraints",
-          "source": "BigMint",
+          "id": "agritech-3aff05be28",
+          "title": "Tetra Pak Convenes Industry Leaders and Policymakers to Advance Dialogue on Strengthening Indias Food Security",
+          "source": "TheWire.in",
+          "summary": "",
+          "img": false,
+          "buzz": 2,
+          "extract": "Tetra Pak Convenes Industry Leaders and Policymakers to Advance Dialogue on Strengthening India's Food Security\nPTI\nReal journalism holds power accountable\nSince 2015, The Wire has done just that.\nBut we can continue only with your support.\nTetra Pak and NIFTEM launch research report on the climate impact of food loss and waste\n New Delhi, Delhi, India (NewsVoir) \n Tetra Pak, a world-leading food processing and packaging solutions company, successfully convened a leadership workshop on ‘Strength"
+        },
+        {
+          "id": "agritech-7233be4d23",
+          "title": "Climate change drove extreme July heat in European seas, study finds",
+          "source": "Conservation news",
+          "summary": "European coastal waters recorded unprecedented sea surface temperatures in July 2026. A new study has found that human-induced climate change primarily drove the temperature surge, pushing marine ecos",
+          "img": true,
+          "buzz": 2,
+          "extract": "European coastal waters recorded unprecedented sea surface temperatures in July 2026. A new study has found that human-induced climate change primarily drove the temperature surge, pushing marine ecosystems past their limits.\nThe rapid analysis was conducted by World Weather Attribution (WWA), a global network of researchers who analyze the influence of climate change in extreme weather events.\nWWA scientists focused their analysis on the warmest 14-day periods within July. They chose this speci"
+        },
+        {
+          "id": "agritech-a13ad40d80",
+          "title": "Why India’s next agritech wave will be driven by value creation",
+          "source": "AgroSpectrum India",
+          "summary": "",
+          "img": false,
+          "extract": "Friday, 21 August 2026\n                \n                \n                \n                \n                \n            The Indian agriculture investment story is entering an important new phase. Rather than viewing it simply as a “post-hype” cycle, it may be more accurate to describe it as a post-narrative, value-creation cycle—one where investors are looking beyond market size and technology narratives to assess the fundamentals of building enduring businesses. Capital is certainly not leaving"
+        },
+        {
+          "id": "agritech-fe4d6ba443",
+          "title": "Khyber Aquaculture partners with India’s government on initiative to train local trout farmers",
+          "source": "SeafoodSource",
           "summary": "",
           "img": false
         },
         {
-          "id": "agritech-562136d427",
-          "title": "India: Mushroom cultivation gains popularity, profitability",
-          "source": "Vertical Farm Daily",
+          "id": "agritech-a9f3836ca5",
+          "title": "Telangana seeks fair share of Krishna water, Centre's backing for irrigation works",
+          "source": "India Today",
           "summary": "",
           "img": false,
-          "extract": "With mushroom cultivation steadily gaining popularity among farmers as a profitable diversification option, the Krishi Vigyan Kendra (KVK) here has announced a training programme for the latter. The training aims at equipping farmers, rural youth and women with technical knowledge required to start mushroom cultivation on a commercial or small-scale basis.\nExperts at the KVK said mushroom farming required comparatively less land and investment, and could provide an additional source of income th"
+          "extract": "Telangana seeks fair share of Krishna water, Centre's backing for irrigation works\nAt the 31st Southern Zonal Council meeting, Telangana's Deputy Chief Minister Mallu Bhatti Vikramarka sought protection of Telangana's rights in Krishna river waters and Central backing for key irrigation schemes. He said pending issues with Andhra Pradesh must be resolved through legal mechanisms and faster implementation.\nTelangana Deputy Chief Minister Mallu Bhatti Vikramarka has sought protection of the state'"
         },
         {
-          "id": "agritech-90d222d656",
-          "title": "Meet the 13-year-old building a 'moisture farm' to fight drought with water from air",
-          "source": "indiatoday.in",
+          "id": "agritech-e646c6c358",
+          "title": "India, Singapore sign pacts on telecom, food security; discuss SMRs, chips | India News",
+          "source": "Hindustan Times",
           "summary": "",
           "img": false,
-          "extract": "Meet the 13-year-old building a 'moisture farm' to fight drought with water from air\nAt 13, Aniket Sarkar has built a low-cost prototype that pulls moisture from the air and turns it into water for crops. His \"moisture farming\" project uses copper coils, cold water and a fan, with a bigger vision of helping drought-hit farms adapt to a changing climate across dry farms.\nWhat if farms could get some of the water they need from the air?\nThat is the question behind 13-year-old Aniket Sarkar’s \"mois"
-        },
-        {
-          "id": "agritech-9aabe2b807",
-          "title": "Half of India’s women farmers recorded as unpaid helpers, report says",
-          "source": "Down To Earth",
-          "summary": "",
-          "img": false,
-          "extract": "Agriculture\nHalf of India’s women farmers recorded as unpaid helpers, report says\nNew report warns misclassification of women farmers as unpaid helpers is costing India up to Rs 2 lakh crore in lost agricultural output each year\n- A new study highlights that most women working in Indian agriculture lack formal recognition as farmers, restricting their access to credit, inputs and procurement systems.\n- Although women make up 48% of the agricultural workforce, they hold under 14% of operational h"
-        },
-        {
-          "id": "agritech-0ea34c9f52",
-          "title": "Monsoon Active In Eastern India; Heavy Rain Expected In Other Parts",
-          "source": "ETV Bharat",
-          "summary": "",
-          "img": false,
-          "extract": "Monsoon Active In Eastern India; Heavy Rain Expected In Other Parts\nIMD indicated while India's rainfall deficit is recoverable, the window is narrowing. An erratic monsoon, uneven rainfall distribution remains the big concern, reports Ankita Kumari.\nPublished : August 19, 2026 at 2:41 PM IST\n|Updated : August 19, 2026 at 2:50 PM IST\nThe monsoon remains active mainly over East India and parts of Uttar Pradesh, Uttarakhand and Himachal Pradesh. India’s cumulative monsoon rainfall deficit stood at"
-        },
-        {
-          "id": "agritech-2594fcf6fa",
-          "title": "Monsoon trails: Chasing cascades",
-          "source": "The New Indian Express",
-          "summary": "",
-          "img": false,
-          "extract": "Travel\nMonsoon trails: Chasing cascades\nFrom the Western Ghats to Meghalaya — these monsoon trails lead to roaring cascades, forest paths and mist-covered landscapes across India...\nThe monsoon transforms several parts of India into trekking country, with seasonal streams filling up, forests turning dense green and waterfalls gaining volume.\nFor those willing to trade dry trails for slippery paths and stream crossings, the rains offer a different way to experience the Western Ghats, Meghalaya, t"
+          "extract": "India and Singapore on Thursday concluded agreements for cooperation in telecommunications and food security and explored ways to enhance collaboration in small modular reactors (SMRs), semiconductors, space and cybersecurity at a meeting of a special bilateral ministerial mechanism.\nThe fourth meeting of the India-Singapore Ministerial Roundtable (ISMR), hosted by Singapore, focused on cooperation in areas such as advanced manufacturing, digitalisation, skill development, healthcare and medicin"
         }
       ]
     },
@@ -533,112 +534,113 @@
       "beta": false,
       "stories": [
         {
-          "id": "indian-startups-2e5f302e56",
-          "title": "Startup news and updates: daily roundup (August 19, 2026)",
+          "id": "indian-startups-8a385664cc",
+          "title": "Quick commerce babycare platform Peeko raises Rs 67.4 Cr in Series A led by Chiratae Ventures",
           "source": "YourStory RSS Feed",
-          "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Wednesday, August 19, 2026",
+          "summary": "Bengaluru-headquartered Peeko said it will utilise this funding for business expansion, technology development, and hiring.",
+          "img": true,
+          "buzz": 2
+        },
+        {
+          "id": "indian-startups-89d34a5f1a",
+          "title": "Inc42’s 7th D2C & Retail Summit, Shiprocket’s Stellar IPO & More",
+          "source": "Inc42 Media",
+          "summary": "India’s Evolving D2C Landscape India’s consumer ecosystem is undergoing a reset, driven by instant gratification and algorithmic execution. Speaking at…",
+          "img": true,
+          "buzz": 2,
+          "extract": "India’s Evolving D2C Landscape India’s consumer ecosystem is undergoing a reset, driven by instant gratification and algorithmic execution. Speaking at Inc42’s D2C & Retail Summit 2026, industry leaders highlighted how quick commerce, AI-driven ops and agentic commerce are reshaping distribution playbooks. Q-Comm Goes Vertical: As consumers become accustomed to instant deliveries, Rukam Capital’s Archana Jahagirdar believes that the quick commerce model is moving into both new verticals and broa"
+        },
+        {
+          "id": "indian-startups-d437fa8b5b",
+          "title": "Startup news and updates: Daily roundup (August 20, 2026)",
+          "source": "YourStory RSS Feed",
+          "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Thursday, August 20, 2026.",
           "img": true
         },
         {
-          "id": "indian-startups-8856ea505b",
-          "title": "Why The Future Of Indian Retail Is Omnichannel",
-          "source": "Inc42 Media",
-          "summary": "The convergence of quick commerce and convenience is transforming the consumption patterns of Indians and triggering shifts in unorganised product…",
-          "img": true,
-          "extract": "The convergence of quick commerce and convenience is transforming the consumption patterns of Indians and triggering shifts in unorganised product categories. The subject came about in a panel discussion at the seventh edition of Inc42’s D2C & Retail Summit in Gurugram on “What Do India’s Shopping Patterns Reveal About The Next Growth Wave?”. Kamal Lochan Das, business head, PhonePe Payment Gateway; Akash Agrawalla, cofounder of D2C spice brand ZOFF Foods; and Ayush Bansal, director at legacy fo"
-        },
-        {
-          "id": "indian-startups-ecc603af61",
-          "title": "Butterfly Learnings raises Rs 65 Cr funding led by Inflexor Ventures",
+          "id": "indian-startups-6bbdf8c30d",
+          "title": "Indi Energy makes sodium-ion batteries with an anode built from farm waste",
           "source": "YourStory RSS Feed",
-          "summary": "The fresh capital will be used to expand Butterfly Learnings’ network of centres across India, strengthen its technology platform and commercialise its proprietary early autism screening solution.",
+          "summary": "The IIT Roorkee spin-off produces its own hard carbon, cathode and electrolyte, and is aiming at the lead-acid batteries that still power much of India.",
           "img": true
         },
         {
-          "id": "indian-startups-ab031ff313",
-          "title": "Revolut founder’s QuantumLight raises €432 million for AI-driven venture strategy",
-          "source": "EU-Startups",
-          "summary": "",
-          "img": false,
-          "extract": "London-based VC firm QuantumLight, co-founded by Revolut CEO Nik Storonsky in 2023, has closed its second fund at €432 million ($500 million), doubling the size of its debut vehicle as it looks to expand its data-driven approach to investing in technology companies.\nThe fund surpassed its original target and was oversubscribed, according to QuantumLight CEO Ilya Kondrashov.\nThe close comes around 15 months after QuantumLight raised €222 million for its first fund in May 2025 – as covered by EU-S"
-        },
-        {
-          "id": "indian-startups-c2b3634bb0",
-          "title": "How Indian D2C Brands Are Rewriting Their Playbook For Profitable Growth",
+          "id": "indian-startups-ae0acfdb81",
+          "title": "Baby-Focused Quick Commerce Startup Peeko Nets $7 Mn To Double Dark Store Count",
           "source": "Inc42 Media",
-          "summary": "Indian D2C brands are rethinking their channel strategies, store formats and customer acquisition models as they shift focus from topline…",
+          "summary": "Babycare-focused quick commerce startup Peeko has raised $7 Mn (₹67.4 Cr) in its Series A funding round led by Chiratae…",
           "img": true,
-          "extract": "Indian D2C brands are rethinking their channel strategies, store formats and customer acquisition models as they shift focus from topline growth to contribution margins and sustainable profitability. Speaking at Inc42’s D2C & Retail Summit in Gurugram, Neeru’s MD Avnish Kumar, Elements Wellness founder Rajesh Chandan and The Bear House cofounder Harsh Somaiya discussed how their brands are adapting to changing consumer preferences while scaling their businesses. For The Bear House, the focus has"
+          "extract": "Babycare-focused quick commerce startup Peeko has raised $7 Mn (₹67.4 Cr) in its Series A funding round led by Chiratae Ventures. The round also saw participation from existing investor Stellaris Venture Partners among other angel investors. With this, Peeko has now raised about ₹95 Cr in total, including the ₹28 Cr it raised last year. The fresh capital will primarily be deployed towards expanding the startup’s presence in Bengaluru, improving its product assortment and building out its tech st"
         },
         {
-          "id": "indian-startups-9e0ee7ba61",
-          "title": "The Playbook Behind Agilitas’ Global Sportswear Ambition",
-          "source": "Inc42 Media",
-          "summary": "Having raised ₹225 Cr in fresh funding, three-year-old sportswear startup Agilitas is looking to bolster its presence in the sportswear…",
-          "img": true,
-          "extract": "Having raised ₹225 Cr in fresh funding, three-year-old sportswear startup Agilitas is looking to bolster its presence in the sportswear market by building an ecosystem spanning manufacturing, brands and distribution. In a chinwag with the CEO of Shadowfax CEO, Abhishek Bansal, at the seventh edition of Inc42’s The D2C & Retail Summit 2026, Agilitas CEO Abhishek Ganguly said the company’s strategy is built around creating “leverage” that competitors would find difficult, expensive or time-consumi"
-        },
-        {
-          "id": "indian-startups-e3ff8669e4",
-          "title": "DevSparks Chennai returns: Explore AI for the physical world, manufacturing, and deeptech",
-          "source": "YourStory RSS Feed",
-          "summary": "YourStory’s flagship developer summit will bring together developers, tech leaders, startups, and enterprises to examine the technologies shaping deeptech, infrastructure, and manufacturing.",
-          "img": true
-        },
-        {
-          "id": "indian-startups-69d15da6d8",
-          "title": "Inference chip startup Etched raises $700m, doubles valuation to $21bn",
-          "source": "Data Center Dynamics",
+          "id": "indian-startups-ddc8f9c7a5",
+          "title": "AI Startup Callosum Raises $100 Million to Match Tasks to Chips",
+          "source": "Bloomberg",
           "summary": "",
           "img": false
         },
         {
-          "id": "indian-startups-e60c795e9d",
-          "title": "Kissht co-founders’ AI lending tech startup Rezolv raises $12.5 million in Series A funding",
+          "id": "indian-startups-adffd42457",
+          "title": "D2C’s easy growth is raising the bar for startup funding",
+          "source": "livemint.com",
+          "summary": "",
+          "img": false,
+          "extract": "India’s direct-to-consumer (D2C) ecosystem is maturing—and investors are raising the revenue thresholds they expect from brands seeking funding.\nThe shift is visible from the seed stage through later funding rounds and is partly a consequence of how easy it has become to launch a brand and scale its reach across multiple channels, including e-commerce and quick commerce.\nAt the seed stage, investors are increasingly looking for ₹2–3 crore in annual revenue, up from roughly ₹1 crore earlier, acco"
+        },
+        {
+          "id": "indian-startups-ee26479ac3",
+          "title": "Ukraine war briefing: Russia running on imported gasoline, government confirms",
+          "source": "India | The Guardian",
+          "summary": "Indian shipment arrives as Ukrainian strike campaign forces reversal of petroleum flow; Kyiv under missile attack. What we know on day 1,639 Continue reading...",
+          "img": false,
+          "extract": "- \n  Russia has begun importing fuel, its government has confirmed, as a shipload of gasoline arrived from India. A fuel exporter in peacetime, Russia has been forced to turn to imports after Ukrainian strikes on its refineries and depots in response to the Russian invasion. The campaign by Kyiv’s military has been a major success, causing fuel shortages across Russia and in illegally occupied Crimea. At least one cargo of gasoline from India has just entered Russia’s domestic market, three indu"
+        },
+        {
+          "id": "indian-startups-eb30558441",
+          "title": "Baby care quick-commerce startup Peeko raises $7 million from Chiratae Ventures",
           "source": "Indian Startup News",
           "summary": "",
           "img": false,
-          "extract": "AI-powered lending technology startup Rezolv has raised $12.5 million (about Rs 120 crore) in a Series A funding round led by Norwest, with participation from Vertex Ventures Southeast Asia and India and existing investor 3one4 Capital.\nRezolv said it will use the funding to strengthen its AI capabilities across sales, risk, underwriting and collections, as it seeks to automate more processes across the lending lifecycle.\nFounded in 2024 by Karan Mehta and Sonali Jindal, who previously co-founde"
+          "extract": "Baby and kids-care quick-commerce platform Peeko has raised Rs 67.4 crore, or more than $7 million, in a Series A funding round led by Chiratae Ventures.\nExisting investor Stellaris Venture Partners and a number of angel investors also participated in the round.\nThe Bengaluru-based startup said the fresh capital will be used for business expansion, technology development and hiring. It also plans to invest in technology as it develops a broader “parenting partner” proposition alongside its comme"
         },
         {
-          "id": "indian-startups-735b957dd5",
-          "title": "Peppy Secures Pre-Seed Funding to Build Coding Platform for Humanoid Robotics",
-          "source": "AI Insider",
+          "id": "indian-startups-d6435b1810",
+          "title": "Tross Raises Pre-Seed Funding Led by All In Capital to Scale AI Healthcare Infrastructure",
+          "source": "Indian Startup Times",
           "summary": "",
           "img": false,
-          "buzz": 2,
-          "extract": "Insider Brief\n- Peppy closed an undisclosed pre-seed funding round to develop a natural-language platform that generates robot software for testing in simulation and execution on physical hardware.\n- Element Ventures led the financing, with participation from Rock Creek Capital, Mana Ventures and Yonder, while Peppy plans to use the capital for platform development, hiring and expansion of its developer ecosystem.\n- The Utah-based startup said its platform depends on underlying robotics skills a"
+          "extract": "Healthcare infrastructure startup Tross has raised an undisclosed amount in a pre-seed funding round led by All In Capital, with participation from DeVC. The company plans to use the fresh capital to accelerate product development and expand its infrastructure for AI-powered healthcare workflows in the US market.\nCo-founded by Padam Kataria and Meet Shah, Tross is building an infrastructure layer that enables healthcare AI companies to connect with electronic health records (EHRs), payer portals"
         },
         {
-          "id": "indian-startups-0258236e1e",
-          "title": "Charlotte vet startup Petfolk closes $40M funding round",
-          "source": "The Business Journals",
-          "summary": "",
-          "img": false
+          "id": "indian-startups-519051a6aa",
+          "title": "India’s Data Centre Boom Has A Security Blind Spot",
+          "source": "Inc42 Media",
+          "summary": "Data centres have evolved from specialised computing facilities into critical infrastructure powering the modern digital economy. As India rapidly expands…",
+          "img": true,
+          "extract": "Data centres have evolved from specialised computing facilities into critical infrastructure powering the modern digital economy. As India rapidly expands its data centre footprint, these facilities are increasingly becoming targets for cyberattacks, physical disruptions and even geopolitical threats. The stakes are also rising. Data centres now support AI platforms, financial systems, government workloads and other critical infrastructure, meaning an attack or disruption can have consequences f"
         },
         {
-          "id": "indian-startups-7bbf6ca311",
-          "title": "Inference chip startup Etched raises $700M more at $21B valuation",
+          "id": "indian-startups-c20b9879f8",
+          "title": "AI workload optimization startup Callosum raises $100M",
           "source": "SiliconANGLE",
           "summary": "",
           "img": false,
-          "extract": "Inference chip startup Etched raises $700M more at $21B valuation\nA few weeks after closing a $300 million round backed by Nvidia Corp., Etched Inc. today announced that it has raised an additional $700 million in funding.\nInvestment firm Jane Street led the deal. It was joined by Kleiner Perkins, Sequoia, Andreessen Horowitz, Tiger Global, Bain Capital Ventures and several others. The raise more than doubles Etched’s valuation to $21 billion.\nEtched launched in 2021 with the goal of designing c"
+          "extract": "AI workload optimization startup Callosum raises $100M\nLondon-based artificial intelligence startup Callosum Ltd. today announced that it has raised $100 million in funding.\nAtomico led the seed investment with participation from Plural, DCVC, and the U.K. Sovereign AI Fund. The deal follows a $10.25 million raise in February.\nCallosum offers a cloud service called Tailored Inference that helps developers increase the efficiency of their AI applications. According to the company, its technology "
         },
         {
-          "id": "indian-startups-b346e55677",
-          "title": "Adaptive Biotech co-founder raises $15M for new startup to rethink how AI trains on science",
-          "source": "GeekWire",
+          "id": "indian-startups-d71b0a1ed9",
+          "title": "Neuromod Aqua raises pre-seed funding from Sportskeeda",
+          "source": "Construction Week India",
           "summary": "",
           "img": false,
-          "extract": "Harlan Robins spent years as the co-founder and chief scientific officer of Adaptive Biotechnologies, helping build massive datasets to decode the human immune system.\nBut as artificial intelligence exploded across life sciences, he recognized a growing divide: the groups spending immense resources to generate high-quality research data rarely receive fair compensation when AI developers use those assets to build commercial tools.\nNow, the veteran biotech founder is stepping out with a new Belle"
+          "buzz": 2
         },
         {
-          "id": "indian-startups-48517b9457",
-          "title": "Zenalyst Raises Rs 3 Crore Pre-Seed Funding to Expand Enterprise AI Platform",
-          "source": "ascendants.in",
+          "id": "indian-startups-cea5310171",
+          "title": "Capitan Orthopedics Raises $4.1M in Seed Funding",
+          "source": "FinSMEs",
           "summary": "",
-          "img": false,
-          "extract": "Enterprise AI platform Zenalyst has raised Rs 3 crore, approximately $300,000, in a pre-seed funding round backed by a group of angel and corporate investors. The investors include SKIL Cabs Private Limited, GERP Technologies Private Limited, Anurag Jain, Manish Kumar Jeloka, Pratap Padode, Siddarth Razdan and P H Corp.\nThe Bengaluru-based company plans to use the new funding to strengthen its ZenForce platform and expand its library of AI agents. The expansion will focus on enterprise workflows"
+          "img": false
         }
       ]
     },
@@ -648,43 +650,35 @@
       "beta": false,
       "stories": [
         {
-          "id": "india-deep-tech-b672a5380f",
-          "title": "Taiwan and U.S. startup team up on S12 autonomous underwater drones",
-          "source": "Interesting Engineering",
+          "id": "india-deep-tech-4e1595bff4",
+          "title": "Indian startup Ati Robotics follows in GreyOrange’s footsteps",
+          "source": "The Morning Context",
           "summary": "",
           "img": false,
-          "extract": "Taiwan is partnering with U.S. defense startup Vatn Systems to develop autonomous underwater vehicles (AUVs), adding another layer to the island’s growing focus on unmanned systems for maritime surveillance and defense.\nThe agreement was signed between Vatn and Taiwan’s government-funded National Chung-Shan Institute of Science and Technology (NCSIST). Under the memorandum of understanding, the two sides will explore AI-enabled command-and-control systems, autonomous underwater vehicles, and a l"
+          "buzz": 2,
+          "extract": "/\n•\n•\nDetailed stories on technology startups, business and economic current affairs.\nOver the past decade, the Bengaluru-born, Detroit-headquartered automation startup has carefully chosen its niche, built a supply chain and slowly started sales. How far can the wager take it?\n20 August, 2026•11 min\n0\n20 August, 2026•11 min\nGetting your Trinity Audio player ready...\nInternet\nNavi raises $100 million from Prosus in its first institutional funding round\nThe investment marks the Sachin Bansal-led "
+        },
+        {
+          "id": "india-deep-tech-1b209dda4b",
+          "title": "A Rocket Launch Shows Indian Deep Tech’s Coming of Age",
+          "source": "Bloomberg",
+          "summary": "",
+          "img": false
         },
         {
           "id": "india-deep-tech-f1882bcbf1",
           "title": "After Op Sindoor, Indian startup deploys AI-powered space surveillance network",
-          "source": "indiatoday.in",
+          "source": "India Today",
           "summary": "",
           "img": false,
           "extract": "After Op Sindoor, Indian startup deploys AI-powered space surveillance network\nDigantara has unveiled MOSAIC, an AI-powered optical sensor network for real-time tracking in Low Earth Orbit. The system is aimed at reducing reliance on foreign space surveillance data and strengthening India's strategic autonomy.\nIndian space domain awareness and defence intelligence company Digantara has unveiled MOSAIC, an artificial intelligence-powered optical sensor network designed to give India continuous, r"
         },
         {
-          "id": "india-deep-tech-41b16a27d6",
-          "title": "Rescue mission for aging NASA space telescope fails",
-          "source": "Reuters",
+          "id": "india-deep-tech-f74aadea71",
+          "title": "Dirac Labs Raises $1.8M Pre-Seed Round to Scale Diamond-Based Quantum Navigation Sensors",
+          "source": "Quantum Computing Report",
           "summary": "",
           "img": false
-        },
-        {
-          "id": "india-deep-tech-0b4f347cdd",
-          "title": "AI researcher Sanja Fidler raises US$90-million for robotics startup",
-          "source": "theglobeandmail.com",
-          "summary": "",
-          "img": false,
-          "extract": "Former Nvidia Corp. NVDA-Q researcher Sanja Fidler has launched a new Toronto startup that will build artificial intelligence models to help train robots, with backing from venture capital firms Khosla Ventures and Radical Ventures.\nMs. Fidler is chief executive officer of the new company, which is called Veeda Innovation Inc. and will have offices in Toronto, Zurich, Singapore and Mountain View, Calif. She co-founded the company with former Nvidia colleagues Zan Gojcic and Huan Ling.\n“We starte"
-        },
-        {
-          "id": "india-deep-tech-a29287f9f4",
-          "title": "EXCLUSIVE: Chery's robot unit eyes IPO, targets overseas market for police robots",
-          "source": "Reuters",
-          "summary": "",
-          "img": false,
-          "buzz": 2
         },
         {
           "id": "india-deep-tech-ae9b471078",
@@ -694,36 +688,51 @@
           "img": false
         },
         {
-          "id": "india-deep-tech-ac4b2e3381",
-          "title": "India’s Satellites Will Use AI And Quantum Tech, ISRO Experts Say",
-          "source": "Quantum Zeitgeist",
+          "id": "india-deep-tech-5d64419baa",
+          "title": "$31.1m ARPA-H funding for Siemens endovascular robotics",
+          "source": "pharmaphorum",
           "summary": "",
           "img": false,
-          "extract": "India has emerged as a global leader in radar system development over the last decade, a shift highlighted at the National Space Technology Conclave 2026 organized by Chandigarh University. According to Dr. Nilesh M Desai, former Director of Space Applications Centre (SAC), ISRO, the country’s capabilities now span almost all major radar frequency bands, making India an attractive partner for space agencies including NASA, JPL, France, and JAXA. Desai, “driven by a strong focus on indigenization"
+          "extract": "$31.1m ARPA-H funding for Siemens endovascular robotics\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\nThe Advanced Research Projects Agency for Health (ARPA-H) has awarded Siemens Healthineers up to $31.1 million over five years to accelerate the development of autonomous, remote, endovascular robotics.\nSiemens Healthineers believes a combination of endovascular robotics, image guidance, and dedicated devices will significantly impact how neurovascular procedures will be performed in the future. Autonomous re"
         },
         {
-          "id": "india-deep-tech-367928b810",
-          "title": "Peppy Secures Pre-Seed Funding to Build the Coding Platform for Humanoid Robotics, Democratizing Physical AI",
-          "source": "AiThority",
+          "id": "india-deep-tech-a724763470",
+          "title": "QTREX Quantum raises $10 million in registered direct offering By Investing.com",
+          "source": "Investing.com India",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "india-deep-tech-d0f20a2a5c",
+          "title": "Dirac Labs Raises $1.8M for Quantum Navigation Sensors",
+          "source": "The Quantum Insider",
           "summary": "",
           "img": false,
-          "extract": "Peppy Secures Pre-Seed Funding to Build the Coding Platform for Humanoid Robotics, Democratizing Physical AI\nPeppy, a pioneering robotics startup operating in the heart of Silicon Slopes, today announced the closing of its pre-seed funding round. The round was led by Element Ventures, with strategic participation from Rock Creek Capital, LLC, Mana Ventures, and Yonder.\nThe new capital will accelerate the development of what the founders are calling the “Lovable for Robotics”—a breakthrough fast-"
+          "extract": "Insider Brief\n- Dirac Labs has raised $1.8 million in pre-seed funding to prototype diamond-based quantum sensors and conduct field trials for positioning where GPS signals are unavailable.\n- The company’s system combines quantum magnetometry with AI-based signal processing and sensor fusion to use Earth’s magnetic field for navigation in environments such as underwater and underground.\n- The funding includes participation from TitletownTech, Automotive Ventures, Riceberg Ventures, quantumEDGE V"
+        },
+        {
+          "id": "india-deep-tech-4c0823eea6",
+          "title": "Dirac Labs raises $1.8M to build quantum universal positioning system for defense/commerce",
+          "source": "GamesBeat",
+          "summary": "",
+          "img": false,
+          "extract": "Dirac Labs, a quantum-enabled navigation company, raised $1.8 million in pre-seed funding for sensors that can pinpoint your location when GPS doesn’t work.\nThe Madison, Wisconsin-based company will prototype its quantum sensors and conduct field trials to further refine its technology to provide universal positioning where global positioning system (GPS) satellite navigation is unavailable.\nTitletownTech, a venture capital firm formed out of a partnership between Microsoft and the NFL’s Green B"
+        },
+        {
+          "id": "india-deep-tech-149ae72a6f",
+          "title": "DSSC launches multimodal AI system using Sarvam to boost defence research",
+          "source": "The Times of India",
+          "summary": "",
+          "img": false,
+          "extract": "The Defence Service Staff College (DSSC) has launched DRONA 2.0, a multimodal generative AI system to boost defence education and research integrating the indigenous Sarvam 105b model alongside open source LLMs.\nDeveloped by DSSC, a military training institution in Wellington, Tamil Nadu, this multimodal system represents a major leap in the infusion of artificial intelligence within military training frameworks, according to a post on the X handle of Headquarters Integrated Defence Staff (HQ ID"
         },
         {
           "id": "india-deep-tech-4ee92ee55f",
           "title": "ISRO Experts Highlight AI and Quantum Technology for Future Indian Satellites",
-          "source": "thequantuminsider.com",
+          "source": "The Quantum Insider",
           "summary": "",
           "img": false,
           "extract": "Insider Brief\n- Experts at the National Space Technology Conclave 2026 highlighted AI/ML, quantum technology and inter-satellite links as technologies expected to support India’s future satellite systems and space missions.\n- ISRO experts said AI/ML could enable on-board processing and edge computing, while quantum technology could strengthen security for financial, military and other sensitive communications.\n- The conclave also covered satellite engineering, payload development, mission operat"
-        },
-        {
-          "id": "india-deep-tech-402a33462a",
-          "title": "India’s space startup ecosystem grows to around 440, DPIIT data shows",
-          "source": "Bureaucrats India",
-          "summary": "",
-          "img": false,
-          "extract": "New Delhi: New Delhi: India’s private space sector continues to expand, with around 440 space technology startups now registered on the Department for Promotion of Industry and Internal Trade’s (DPIIT) Start-up India portal.\nThe growth follows the Union Cabinet’s June 2020 decision to open the space sector to private participation across the full range of space activities. The move also led to the creation of the Indian National Space Promotion and Authorisation Centre (IN-SPACe) as a single-win"
         },
         {
           "id": "india-deep-tech-8259b7a7f9",
@@ -731,14 +740,6 @@
           "source": "analyticsindiamag.com",
           "summary": "",
           "img": false
-        },
-        {
-          "id": "india-deep-tech-26197a2ae0",
-          "title": "India poised to rival US in semiconductor startup ecosystem: Cadence’s Paul Cunningham",
-          "source": "ET Enterprise AI",
-          "summary": "",
-          "img": false,
-          "extract": "- Industry\n- 1 min read\nIndia poised to rival US in semiconductor startup ecosystem: Cadence’s Paul Cunningham\n“I firmly believe that within 10 years from now, we’ll have every bit as vibrant and signifi-\ncant a local semiconductor startup industry as we have in the US,” Cunningham told ET.\nCunningham also emphasised on the growing role of India in company’s operations, product development and customer base. India currently accounts for 33 per cent of the company's global workforce.\nAI the centr"
         }
       ]
     },
@@ -748,35 +749,59 @@
       "beta": false,
       "stories": [
         {
-          "id": "global-economics-0e7e78e139",
-          "title": "RBI Panel Watches Inflation as One Member Eyes Hike This Year",
-          "source": "Bloomberg Economics",
-          "summary": "India’s policymakers opted to wait for more clarity on inflation before changing interest rates even as one of them saw a case for a hike later in the year, minutes of the central bank’s Aug. 3-5 meet",
-          "img": false,
-          "buzz": 2
-        },
-        {
-          "id": "global-economics-90205dc171",
-          "title": "Fed Minutes Show Many Officials Said Rate Hikes May Be Needed",
-          "source": "Bloomberg Economics",
-          "summary": "Several Federal Reserve officials favored an interest-rate hike last month and many indicated that policy tightening would be necessary if inflation didn’t decline, a record of the central bank’s most",
-          "img": false,
-          "buzz": 2
-        },
-        {
-          "id": "global-economics-058f7fcedf",
-          "title": "India rate panel signals impending hikes, eyes inflation path for timing",
+          "id": "global-economics-adda8e9d7f",
+          "title": "Indian central bank deputy urges banks to improve retail foreign exchange services",
           "source": "Reuters",
           "summary": "",
           "img": false,
-          "buzz": 3
+          "buzz": 2
         },
         {
-          "id": "global-economics-e38261b203",
-          "title": "Brazilians Pour Into Chile as Winter Deluges Reopen Ski Resorts",
+          "id": "global-economics-bd2290767b",
+          "title": "AI Has Infiltrated the Fed, at Least in Policy Meeting Debates",
           "source": "Bloomberg Economics",
-          "summary": "Chile received a record number of Brazilian tourists last month as ski resorts reopened, a silver lining to the deluge of rain and heavy snows that have battered the Latin America country for weeks, a",
+          "summary": "Artificial intelligence angst is everywhere — from workers worried about their jobs to investors warning of a financial bubble. Now it’s beginning to dominate discussions at the Federal Reserve.",
           "img": false
+        },
+        {
+          "id": "global-economics-8308a3749b",
+          "title": "Founder of China’s Evergrande jailed for life after pleading guilty to fraud",
+          "source": "Business | The Guardian",
+          "summary": "Hui Ka Yan also forfeits all his personal property and the company he set up is given hefty fines Business live – latest updates The founder of Evergrande, one of China’s largest property developers, ",
+          "img": false,
+          "buzz": 2,
+          "extract": "The founder of Evergrande, one of China’s largest property developers, has been sentenced to life in prison and had all of his personal property confiscated.\nHui Ka Yan, 67 and once named by Forbes as China’s richest man, with a net worth of $42.5bn (£31.2bn) in 2017, pleaded guilty in April to eight charges.\nThese included misuse of funds, fundraising fraud, illegally taking public deposits, illegally extending loans, fraudulently issuing securities and bribery.\nThe company Hui founded, Evergra"
+        },
+        {
+          "id": "global-economics-dbc86736a5",
+          "title": "Argentina’s Economy Expanded Faster Than Expected in June",
+          "source": "Bloomberg Economics",
+          "summary": "Argentina’s economic activity grew more than expected in June, offering fresh signs of momentum more than halfway through President Javier Milei’s term.",
+          "img": false
+        },
+        {
+          "id": "global-economics-94bbe2f709",
+          "title": "Bessent’s Treasury Twist Clouds Warsh’s Plea to ‘Play the Ball’",
+          "source": "Bloomberg Economics",
+          "summary": "Treasury Secretary Scott Bessent’s intervention to bring down long-term borrowing costs is another complication for the Federal Reserve as it grapples with whether to raise interest rates.",
+          "img": false
+        },
+        {
+          "id": "global-economics-9a5deac807",
+          "title": "Editorial: Trump’s tariff tantrums fail to dent India’s exports",
+          "source": "Telangana Today",
+          "summary": "",
+          "img": false,
+          "extract": "United States President Donald Trump’s tariff tantrums have not dampened the enthusiasm of Indian exporters, who continue to view America as their favoured destination. While new trade agreements with Britain, the European Union, Oman and New Zealand have helped India expand its bouquets of options, the US remains the most important export market. America accounted for around 20% of India’s exports in the 12 months through July, broadly maintaining its share despite tariffs on Indian goods reach"
+        },
+        {
+          "id": "global-economics-95086e1d6a",
+          "title": "India-US Trade Deal: New Talks on Digital Rules and Non-Tariff Barriers",
+          "source": "Sahi",
+          "summary": "",
+          "img": false,
+          "buzz": 2,
+          "extract": "India-US Trade Deal: New Talks on Digital Rules and Non-Tariff Barriers\nIndia and the US are discussing digital trade, data localisation and non-tariff barriers as negotiations continue on a broader bilateral trade agreement. Here is what the latest talks could mean for Indian businesses and investors.\nIndia and the United States are holding fresh discussions to make buying and selling goods and digital services smoother between both nations. India is exploring ways to ease regulations for Ameri"
         },
         {
           "id": "global-economics-a8027a9508",
@@ -788,60 +813,34 @@
           "extract": "For the last four years, Erin Kistler has applied for thousands of jobs at companies like Paypal, Microsoft and Netflix, only to find her résumé disappear into a black hole. A product manager with nearly 20 years of experience, Kistler believes she was qualified for every role, yet she never received a single interview.\nNow, Kistler is suing Eightfold AI, the Silicon Valley maker of hiring software used by hundreds of companies, including those where she applied, in a class-action lawsuit. The c"
         },
         {
-          "id": "global-economics-c0d1f4e6c7",
-          "title": "Fed policymakers' inflation concerns increased at July meeting, minutes show",
+          "id": "global-economics-1180ec9554",
+          "title": "From McDonald’s to Congress: can a former fry cook flip a key district for Democrats?",
+          "source": "Business | The Guardian",
+          "summary": "Manny Rutinel hopes price-tag politics can win key voters in Colorado House race During his presidential campaign in October 2024, Donald Trump staged a photo op at a McDonald’s franchise in Pennsylva",
+          "img": false,
+          "extract": "During his presidential campaign in October 2024, Donald Trump staged a photo op at a McDonald’s franchise in Pennsylvania, where he was briefly taught how to work the fryer and drive-thru window at the closed restaurant, while making several unsubstantiated claims about Kamala Harris’s past summer job at McDonald’s.\nThe posturing around McDonald’s garnered significant publicity, as Trump and Republicans capitalized on an affordability crisis triggered by high inflation that occurred globally du"
+        },
+        {
+          "id": "global-economics-acabf21a25",
+          "title": "Wab Kinew warns Canada against Trump concessions as US tariff deal nears",
+          "source": "India Today",
+          "summary": "",
+          "img": false,
+          "extract": "Wab Kinew warns Canada against Trump concessions as US tariff deal nears\nManitoba Premier Wab Kinew has urged Canada not to make fresh concessions as trade talks with Washington near a deal. His sharp attack on Donald Trump highlights provincial unease over restoring US alcohol sales before the pact is fully known.\nManitoba Premier Wab Kinew on Thursday sharply criticised US President Donald Trump and urged Canada not to rush into making concessions in trade talks with Washington. Kinew said Tru"
+        },
+        {
+          "id": "global-economics-2d97e6a676",
+          "title": "Egypt's central bank holds key interest rates unchanged",
           "source": "Reuters",
           "summary": "",
           "img": false
         },
         {
-          "id": "global-economics-2e127157ab",
-          "title": "US gross national debt tops $40tn for first time",
-          "source": "Business | The Guardian",
-          "summary": "Milestone marks years of government spending that grew under both Donald Trump and Joe Biden US debt reached $40tn for the first time on Wednesday, the US treasury department said, after the governmen",
-          "img": false,
-          "extract": "US debt reached $40tn for the first time on Wednesday, the US treasury department said, after the government deficit doubled over the last decade.\nThe treasury’s latest debt balance showed $40.047tn on Tuesday afternoon, the highest in US history.\nThe milestone marks years of government spending that grew under both Donald Trump and Joe Biden. During his first term, Trump approved $8.4tn worth of debt, with a huge chunk going to Covid-19 relief spending, while Biden approved $4.3tn worth of debt"
-        },
-        {
-          "id": "global-economics-733098ebe3",
-          "title": "Canada and US say they are finalising a trade deal, but details remain murky",
-          "source": "bbc.com",
+          "id": "global-economics-3cd31fb30c",
+          "title": "Fed minutes show September rate hike still on the table",
+          "source": "Reuters",
           "summary": "",
-          "img": false,
-          "buzz": 2,
-          "extract": "Canada and US say they are finalising a trade deal, but details remain murky\nCanada and the US are finalising a highly anticipated trade deal, with President Donald Trump and Prime Minister Mark Carney touting it as a success.\nTrump said the proposed deal will be welcomed by US farmers and manufacturers, while Carney said it will secure \"the best terms\" for Canada's strategic sectors and provide certainty on the future of US-Canada trade.\nTrade negotiators met on Wednesday for the third time in "
-        },
-        {
-          "id": "global-economics-3ba85f21f5",
-          "title": "The space industry’s next challenge: supply chain resilience",
-          "source": "spacenews.com",
-          "summary": "",
-          "img": false,
-          "extract": "America’s space economy is scaling faster than its industrial base can support.\nCommercial constellations are proliferating, national security architectures are becoming more distributed and resilient and civil missions are growing more ambitious. In 2025 alone, more than 3,700 objects were launched from the United States, nearly ten times the level seen in 2019. Yet the supply chain supporting this growth was built for a different market, one defined by lower production volumes and more predict"
-        },
-        {
-          "id": "global-economics-f9f4cb3d6e",
-          "title": "Revealed: FCC chair Brendan Carr’s close coordination with White House and rightwing media",
-          "source": "Business | The Guardian",
-          "summary": "Internal documents obtained by Guardian show White House meetings, scheduled calls with top Trump officials and communications with Fox News producers Continue reading...",
-          "img": false,
-          "extract": "Brendan Carr was very firm.\n“As a general rule, we don’t get into any discussions that happen with the White House or don’t happen with the White House,” Carr, the chair of the Federal Communications Commission (FCC), told Politico’s Dasha Burns in a recent interview. Burns had pressed Carr to explain how exactly he came to issue a highly unprecedented order forcing ABC to apply early to renew its eight local broadcast licenses just one day after the man who appointed Carr, Donald Trump, and his"
-        },
-        {
-          "id": "global-economics-fa825de039",
-          "title": "Bank of Jamaica Holds Key Interest Rate at 5.50%",
-          "source": "TradingView",
-          "summary": "",
-          "img": false,
-          "extract": "Bank of Jamaica Holds Key Interest Rate at 5.50%\nJamaica’s central bank kept its policy rate unchanged at 5.50% at its August 2026 meeting, as persistent inflationary pressures and geopolitical risks clouded the outlook.\nHeadline inflation rose to 7.5% in July from 6.7% in June, remaining above the Bank of Jamaica’s target range, while core inflation increased to 5.2% from 5.0%.\nThe BOJ expects inflation to remain above the target range in the September quarter before moderating.\nTensions in the"
-        },
-        {
-          "id": "global-economics-d5f0855f59",
-          "title": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
-          "source": "CNBC",
-          "summary": "",
-          "img": false,
-          "extract": "President Donald Trump on Wednesday expressed frustration that the Federal Reserve isn't cutting interest rates, insisting that solid economic data shouldn't stop the central bank from adopting an easier policy stance.\nAs he has done in the past, Trump accused Fed officials of having political motives, though he excluded Chairman Kevin Warsh, whom the president nominated to the top position earlier this year.\nTrump said Warsh is doing a \"great job\" in a position he began in May, succeeding Jerom"
+          "img": false
         }
       ]
     },
@@ -851,98 +850,98 @@
       "beta": false,
       "stories": [
         {
-          "id": "india-42ebe84171",
-          "title": "MELPL, Alstom’s joint venture with Indian Railways supports ₹60,000 crore as economic output while contributing to Bihar and India’s economy",
-          "source": "Alstom",
+          "id": "india-80592fe389",
+          "title": "India’s UPI Needs Reform, Not US Pressure",
+          "source": "Bloomberg",
           "summary": "",
-          "img": false,
-          "extract": "MELPL, Alstom’s joint venture with Indian Railways supports ₹60,000 crore as economic output while contributing to Bihar and India’s economy\n- \nA new independent Socio-Economic Impact Assessment study conducted in partnership with Dun & Bradstreet reveals the landmark ‘Make in India’ e-loco project has supported a total economic output of ₹60,000 crore nationwide between Financial Years 2020-26.\n- \nThe electric locomotives manufacturing facility in Madhepura operated by MELPL has become a corner"
+          "img": false
         },
         {
-          "id": "india-b13f2f489d",
-          "title": "Should India Keep UPI Free For Consumers? Ex-Payments Body Chief Explains",
+          "id": "india-527b264609",
+          "title": "When adventurism takes a dangerous turn",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "Wannabe adventurists perform motorbike stunts on roads, venture into unknown forests, and step into unfamiliar waterbodies, posing risk to their lives as well as others’. An attempt to read their thou",
+          "img": true,
+          "extract": "On June 26, 2026, what would have been an otherwise ordinary day took an unsettling turn as dusk fell over Valook, a scenic village located about 85 km from Kozhikode town. Local residents were jolted to attention by loud calls that echoed and the flashlights that beamed across the hilly region that leads to Nadapuram Mudi, a nearby hillock.\nThe unusual movements, along with the sighting of two motorbikes parked some 200 metres off the hill, stirred alarm. The residents realised that a group of "
+        },
+        {
+          "id": "india-de04c60125",
+          "title": "Video | Should India Keep UPI Free For Consumers? Ex-Payments Body Board Member Explains",
           "source": "NDTV",
           "summary": "",
           "img": false
         },
         {
-          "id": "india-2c3369cf75",
-          "title": "Karnataka govt. defends Nagendra’s inclusion in Ministry, as Opposition continues to disrupt House proceedings",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "summary": "Quoting an affidavit filed in the Supreme Court, Parameshwara said criminal cases were pending against 251 Lok Sabha members, 75 Rajya Sabha members and 14 serving Chief Ministers across India",
-          "img": true,
-          "extract": "The ruling Congress on Wednesday defended the inclusion of B. Nagendra in the Cabinet despite him being an accused in the Karnataka Maharshi Valmiki Scheduled Tribes Development Corporation embezzlement case, even as the Opposition continued to disrupt proceedings in both Houses, demanding that he step down.\nAmid protests and sloganeering by Opposition members, Deputy Chief Minister G. Parameshwara made statements in both the Legislative Assembly and the Legislative Council defending the governm"
+          "id": "india-ccc4d25da7",
+          "title": "India's infrastructure output rises 5.4% y/y in July",
+          "source": "Reuters",
+          "summary": "",
+          "img": false,
+          "buzz": 2
         },
         {
-          "id": "india-8ffc886f28",
-          "title": "JPMorgan entity among two firms barred in India over alleged closing auction manipulation",
-          "source": "Reuters",
+          "id": "india-2209db47ae",
+          "title": "Why India did a trade deal with New Zealand...explained by its foreign minister’s son",
+          "source": "awaaz.co.nz",
+          "summary": "",
+          "img": false,
+          "extract": "Why India did a trade deal with New Zealand. Explained by its foreign minister’s son\nPrime minister Christopher Luxon with Indian counterpart Narendra Modi in Auckland. (Supplied photo)\n\"In this day and age, we can't completely separate economics and strategy,\" public policy expert Dhruva Jaishankar says.\nIndian Prime Minister Narendra Modi's recent visit to New Zealand was notable due to announcements on the two countries' elevated strategic partnership and a joint working group on counterterro"
+        },
+        {
+          "id": "india-309b418624",
+          "title": "Poland backs India’s anti-terror stance, seeks deeper defence and trade ties",
+          "source": "WION",
+          "summary": "",
+          "img": false,
+          "extract": "New Delhi: Poland’s ambassador to India has expressed strong support for New Delhi’s right to combat terrorism while acknowledging India's historic ties with Russia, as both sides push for closer defence and economic cooperation.\nSpeaking at an event organised by the Think Tank - Centre for Integrated and Holistic Studies (CIHS), Ambassador Dr Piotr Antoni Świtalski said Poland fully understands the historical foundations of India-Russia ties.\nAlso Read: Iran slams Trump’s ‘economic terrorism’; "
+        },
+        {
+          "id": "india-57265bcd01",
+          "title": "Lawyers stage protest outside BCI office, seek chairman’s resignation amid NALSAR row",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "Questioning Manan Kumar Mishra’s 14-year tenure as chairman, the protesters wanted reforms in the BCI’s election mechanism",
+          "img": true,
+          "extract": "Days after BCI chairman Manan Kumar Mishra apologised to law students amid the enrolment ban controversy involving NALSAR, the spotlight has turned on him again, with several lawyers staging a protest outside the Bar Council of India (BCI) office in the Capital on Thursday (August 20, 2026), demanding his resignation.\nThe demonstration, called by the All India Young Advocates Association, saw the participation of more than 200 lawyers during the day.\nThe Bombay Bar Association had also, in a sta"
+        },
+        {
+          "id": "india-bee33efbf6",
+          "title": "The Capex Confirmation — India's AI-Infrastructure Bench Compounded Through Q1 FY27, Not Cushioned",
+          "source": "MarketSmith India",
           "summary": "",
           "img": false
         },
         {
-          "id": "india-994abc5be4",
-          "title": "India rate panel signals impending hikes, eyes inflation path to gauge timing",
-          "source": "Yahoo Finance",
-          "summary": "",
-          "img": false,
-          "buzz": 3,
-          "extract": "MUMBAI, Aug 19 (Reuters) - India's rate panel left the door open to future rate hikes earlier this month, watching for evidence that supply-sparked inflation may be seeping into the broader economy which could merit higher borrowing costs, minutes of the committee's meeting released on Wednesday showed.\nA sharp rise in oil prices brought on by the Iran war has stoked inflation worries, prompting markets to wager on rate hikes, while also exerting pressure on the Indian rupee.\nThe panel had voted"
+          "id": "india-e9ced38502",
+          "title": "Tejpal moves Supreme Court against sentence in rape case",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "summary": "The journalist’s appeal follows the State of Goa’s petition in the top court a few days ago for enhancement of his punishment to life imprisonment",
+          "img": true,
+          "extract": "Journalist Tarun Tejpal has appealed to the Supreme Court against a Bombay High Court judgment sentencing him to 10 years’ imprisonment in a 2013 rape case.\nThe Bombay High Court Bench sentenced him on August 6. Tejpal’s appeal follows the State of Goa’s petition in the top court a few days ago for enhancement of his punishment to life imprisonment.\nThe State had said the sentence was manifestly inadequate but clarified that it did not want to challenge or reopen the findings of the High Court o"
         },
         {
-          "id": "india-1850afce16",
-          "title": "SubscriberWrites: China’s Overcapacity, the Coming Legitimacy Squeeze & Why India’s Subsea Cables Need a Pacific Detour",
+          "id": "india-d1a5d9f5f9",
+          "title": "Sword of Hasina hangs over Bangladesh’s India policy as Tarique juggles pro & anti India powerplay",
           "source": "ThePrint",
           "summary": "",
           "img": false,
-          "extract": "Thank you dear subscribers, we are overwhelmed with your response.\nYour Turn is a unique section from ThePrint featuring points of view from its subscribers. If you are a subscriber, have a point of view, please send it to us. If not, do subscribe here: https://theprint.in/subscribe/\nHistory offers a useful warning here. The Opium Wars, and the Treaty of Nanjing forced on the Qing empire in their aftermath, grew out of a trade imbalance: British merchants bought ever-larger volumes of Chinese te"
+          "extract": "New Delhi: Political divisions in Dhaka, within the government and among the political parties, have left its India policy in limbo. The push for extradition of Sheikh Hasina as a condition for Prime Minister Tarique Rahman’s visit to New Delhi has raised the political temperature between the two governments.\nThe condition highlighted in a statement by A.K.M. Shahidul Karim, spokesperson for Bangladesh’s Ministry of Foreign Affairs Sunday tamped down the speculation of an early visit by Tarique "
         },
         {
-          "id": "india-ce762edcc4",
-          "title": "Trade policy review at WTO: World takes note of India's progress",
-          "source": "business-standard.com",
+          "id": "india-95086e1d6a",
+          "title": "India-US Trade Deal: New Talks on Digital Rules and Non-Tariff Barriers",
+          "source": "Sahi",
           "summary": "",
           "img": false,
-          "extract": "India’s previous trade policy review was in 2021, undertaken in the backdrop of the unprecedented Covid-19 pandemic. While the health crisis has been contained, economic vulnerabilities and critical shortage of essential supplies, including energy sources, have escalated in recent times. While the world bounced back from pandemic induced crisis, supply chain disruptions have led to fresh and renewed challenges. In this milieu, the eighth review presented a markedly sanguine picture: India has em"
+          "buzz": 2,
+          "extract": "India-US Trade Deal: New Talks on Digital Rules and Non-Tariff Barriers\nIndia and the US are discussing digital trade, data localisation and non-tariff barriers as negotiations continue on a broader bilateral trade agreement. Here is what the latest talks could mean for Indian businesses and investors.\nIndia and the United States are holding fresh discussions to make buying and selling goods and digital services smoother between both nations. India is exploring ways to ease regulations for Ameri"
         },
         {
-          "id": "india-2dcac9bd4f",
-          "title": "Maharashtra FDA suspends licences of two online food delivery facilities",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "summary": "The State‘s Food and Drug Administration suspends licences of two Blinkit facilities in Chhatrapati Sambhajinagar and Mumbai for serious food safety violations, including expired products and poor hyg",
-          "img": true,
-          "extract": "Maharashtra‘s Food and Drug Administration (FDA) suspended the licences of two Blinkit facilities in Chhatrapati Sambhajinagar on Tuesday (August 18, 2026) after inspections found alleged cold-chain failures, expired food, poor hygiene and inadequate traceability records, among other food-safety violations. Earlier, a Zepto facility in Mumbai’s Chembur was also suspended.\nThe action comes amid the FDA’s crackdown against online food-storage and delivery facilities in the State.\nAt the High Court"
-        },
-        {
-          "id": "india-7b703967aa",
-          "title": "Minor girl raped and murdered in Pune, accused held",
-          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-          "summary": "The incident sparked outrage in the State as the Opposition raised concerns over the state of women’s and children’s safety in Maharashtra",
-          "img": false,
-          "extract": "The 25-year-old accused allegedly raped and murdered a 9.5-year-old girl in Maharashtra’s Pune district, Pune rural police said on Wednesday (August 19, 2026).\nAccording to the police, the incident occurred on Tuesday afternoon (August 18, 2026) in Pimpalwandi village, located in Junnar tehsil. “The accused was the deceased’s neighbour, who lured her to a sugarcane field about 1.5 km from the village under the pretext of offering her fruits. He then sexually assaulted and murdered her,” said Pun"
-        },
-        {
-          "id": "india-caddddfa34",
-          "title": "India Expands Air Cargo Transhipment Network to Boost Faster, More Competitive Trade",
-          "source": "DD News",
+          "id": "india-0aa10a270e",
+          "title": "India, Japan look at joint naval shipbuilding, technology transfer with pact to deepen defence ties",
+          "source": "ThePrint",
           "summary": "",
           "img": false,
-          "extract": "India is expanding its air cargo transhipment network to make the movement of cargo faster, more efficient and globally competitive.\nThe Government of India has revised the framework for the handling and security of transhipment cargo and mail, covering all four movement categories — International-to-International, International-to-Domestic, Domestic-to-International and Domestic-to-Domestic.\nUnder the revised system, cargo can be processed through dedicated Transfer Cargo Security Hold Areas. C"
-        },
-        {
-          "id": "india-6de14dbc76",
-          "title": "I&B Minister Ashwini Vaishnaw says India’s growth driven by infrastructure, inclusion and manufacturing",
-          "source": "News On AIR",
-          "summary": "",
-          "img": false,
-          "extract": "Information and Broadcasting Minister Ashwini Vaishnaw has said that India’s economic growth is now recognised globally and the country is growing at a growth range of six to eight per cent. He said this growth story is driven by four key pillars – investment in social, digital and physical infrastructure, inclusive growth and a strong focus on manufacturing.\nAddressing the Uttar Pradesh-Japan Investment Summit 2026 in New Delhi today, Mr Vaishnaw said, investment is an important part of the cou"
-        },
-        {
-          "id": "india-a75ff26d98",
-          "title": "Can export of digital infrastructure buy India strategic influence?",
-          "source": "The Indian Express",
-          "summary": "",
-          "img": false
+          "extract": "New Delhi: India and Japan Thursday agreed to deepen defence cooperation in the maritime domain, including exploration of joint development of naval ships and design, greater use of India’s shipbuilding capabilities under ‘Make in India’ framework, reciprocal ship-repair facilities, and wider transfer of defence technology.\nThe agreement comes as Japan undergoes major transformation in its defence policy. The Sanae Takaichi-led government is seeking to expand security partnerships in the Indo-Pa"
         }
       ]
     },
@@ -952,87 +951,60 @@
       "beta": false,
       "stories": [
         {
-          "id": "world-d1228bf2bd",
-          "title": "Taxpayers to fund clear-up of illegal dumps in West Yorkshire, Surrey and Kent",
+          "id": "world-8308a3749b",
+          "title": "Founder of China’s Evergrande jailed for life after pleading guilty to fraud",
           "source": "World news | The Guardian",
-          "summary": "Andy Burnham promises drive to tackle toxic waste, raise fines and use AI-powered drones to detect illegal activity Illegal dumps in West Yorkshire, Surrey and Kent will be cleared up using taxpayer m",
+          "summary": "Hui Ka Yan also forfeits all his personal property and the company he set up is given hefty fines Business live – latest updates The founder of Evergrande, one of China’s largest property developers, ",
           "img": false,
           "buzz": 2,
-          "extract": "Illegal dumps in West Yorkshire, Surrey and Kent will be cleared up using taxpayer money, Andy Burnham has announced, as the prime minister promises a new drive to tackle toxic waste.\nMinisters have identified dumps in Bradford, Runnymede and the Isle of Sheppey, which collectively contain about 22,000 tonnes of illegal waste, to be cleared in the next phase of the government’s national clear-up effort.\nMeanwhile, fines will be raised for rogue dumpers, and AI-powered drones will be used to dete"
+          "extract": "The founder of Evergrande, one of China’s largest property developers, has been sentenced to life in prison and had all of his personal property confiscated.\nHui Ka Yan, 67 and once named by Forbes as China’s richest man, with a net worth of $42.5bn (£31.2bn) in 2017, pleaded guilty in April to eight charges.\nThese included misuse of funds, fundraising fraud, illegally taking public deposits, illegally extending loans, fraudulently issuing securities and bribery.\nThe company Hui founded, Evergra"
         },
         {
-          "id": "world-9831b01c18",
-          "title": "Shares in humanoid robot firm Unitree surge 600% on Chinese stock market debut",
+          "id": "world-ab2131e75f",
+          "title": "Jailed ex-Pakistani PM Imran Khan in hospital after uproar over health",
           "source": "World news | The Guardian",
-          "summary": "Company’s robots have gained global fame via videos of them performing martial arts and as dancers for pop stars Unitree, the world’s biggest humanoid robot maker, has made a spectacular entry on to C",
+          "summary": "Supreme court ordered transfer of ex-leader whose health is reportedly deteriorating and following public protests Pakistan’s jailed former prime minister Imran Khan has been taken to a hospital in th",
           "img": false,
-          "buzz": 3,
-          "extract": "Unitree, the world’s biggest humanoid robot maker, has made a spectacular entry on to China’s stock market, with its shares surging by more than 600%.\nThe Chinese company’s robots have gained global fame via viral videos of them performing martial arts, running at Olympic speeds and serving as backup dancers for pop stars.\nShares in the business, officially known as Yushu Technology Co, rose to as high as 1,100 yuan (£120.39) on Wednesday, up from an IPO price of just 150.8 yuan. Its gains were "
+          "extract": "Pakistan’s jailed former prime minister Imran Khan has been taken to a hospital in the country’s capital on supreme court orders after weeks of uproar about his deteriorating health.\nA spokesperson for Khan’s party, Zulfikar Bukhari, said: “Imran Khan has been shifted from Adiala jail to International Shifa hospital in Islamabad following the supreme court’s order.”\nBukhari said that as per the court order, family should be allowed to meet Khan.\n“The next phase must therefore go beyond Imran Kha"
         },
         {
-          "id": "world-5413e11a0d",
-          "title": "Zomi Frankcom: Penny Wong condemns ‘insulting’ decision to clear IDF over Gaza strikes that killed Australian aid worker",
+          "id": "world-db4689aab4",
+          "title": "Leaders attack ‘demotivating’ plan to make pupils who fail GCSEs retake maths and English",
           "source": "World news | The Guardian",
-          "summary": "Foreign affairs minister says Australia is ‘outraged’ after Israeli government decided not to pursue criminal proceedings over 2024 triple drone strike on humanitarian convoy Follow our Australia news",
+          "summary": "Government announce plan for ‘stepping stone’ qualification as 620,000 year 11 students face retaking maths or English after failure to achieve grade 4 The government’s plans to make young people cont",
           "img": false,
-          "extract": "Australia’s foreign affairs minister has expressed “outrage” and will call in the Israeli ambassador over the Israel Defense Forces decision overnight not to open a criminal investigation into Gaza strikes that killed Australian aid worker Zomi Frankcom.\nIn a statement released on Thursday, Penny Wong called the timing of the decision, on World Humanitarian Day, “especially insulting”.\nWong said she would call in Israel’s ambassador to Australia, Hillel Newman, for formal talks and directed Aust"
+          "extract": "The government’s plans to make young people continue studying maths and English if they fail GCSEs could be demotivating and ineffective, according to education experts and school leaders after retake pass rates slumped this year.\nOnly one in seven students in the age group retaking GCSE maths after a previous failure got a grade 4 or above this summer, while only one in six managed to pass English, meaning the majority will have to retake the exams next year if they remain in education or train"
         },
         {
-          "id": "world-f2081d65ac",
-          "title": "Watch: SpaceX rocket spotted off Christmas Island coast",
+          "id": "world-910d737212",
+          "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
           "source": "BBC News",
-          "summary": "A SpaceX rocket that blasted off from Texas in July, and crashed into the Indian Ocean, made an unexpected appearance off Christmas Island.",
+          "summary": "US Treasury Secretary Scott Bessent says allies will need to decide whether they \"are with us or against us\".",
           "img": true,
-          "extract": "'Incredible': SpaceX rocket spotted off Christmas Island coast\nA SpaceX rocket has made an unexpected appearance off Christmas Island after touching down in the Indian Ocean following a test flight from Texas on 24 July.\nDavid Watchorn, chair of the Christmas Island Tourism Association said he initially thought he was looking at ships on his way to work, before realising it was \"a rocket, a space rocket\" being towed.\nThe 52-metre long rocket has caused a stir among locals, with some \"sneaking ou"
+          "extract": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime\n- Published\nUS Treasury Secretary Scott Bessent urged US allies to support Washington's efforts to \"squash\" the Iranian economy.\n\"We are going to collapse this regime. It is time for our allies and the rest of the world to make a decision,\" Bessent told broadcaster CNBC.\n\"You are either with us or against us,\" he said.\nBessent's remarks come after US President Donald Trump said that countries providing \"any type of lifeline"
         },
         {
-          "id": "world-f56060ef49",
-          "title": "Rescue mission for ageing Nasa space telescope fails",
-          "source": "World - South China Morning Post",
-          "summary": "A mission to ⁠rescue Nasa’s ageing Swift observatory in space was cancelled on Wednesday after the spacecraft that was launched to tug the satellite to a higher orbit suffered irredeemable technical i",
-          "img": true,
-          "extract": "Rescue mission for ageing Nasa space telescope fails\nEngineers failed to regain control of Katalyst’s Link rescue craft, which began spinning uncontrollably soon after reaching space\nA mission to rescue Nasa’s ageing Swift observatory in space was cancelled on Wednesday after the spacecraft that was launched to tug the satellite to a higher orbit suffered irredeemable technical issues in space, the rescue craft’s owner, Katalyst Space, said.\nKatalyst’s Link craft was launched in early July to ap"
-        },
-        {
-          "id": "world-f53d7089c6",
-          "title": "Sacked Ukrainian defence minister calls for presidential election",
+          "id": "world-cedf7f5c01",
+          "title": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
           "source": "BBC News",
-          "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
+          "summary": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
           "img": true,
-          "extract": "Sacked Ukrainian defence minister calls for presidential election\n- Published\nUkraine's popular ex-defence minister Mykhailo Fedorov has called for wartime elections, in what is widely seen as the biggest challenge to Volodymyr Zelensky's presidency since Russia's full-scale invasion four and a half years ago.\n\"Democracy cannot be held hostage by Russia,\" said Fedorov, 35, in a video posted to YouTube on Tuesday, adding that Ukraine is fighting \"precisely because we want to remain a free Europea"
+          "extract": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says\n- Published\nRussia's latest attack on Kyiv marks the first time in several months critical infrastructure \"was purposefully attacked\" in the Ukrainian capital, the city's mayor said.\nAt least 17 people have been killed as blocks of flats and warehouses were struck across the city overnight, the State Emergency Service of Ukraine said. A children's hospital and school were also damaged, and more than 40 people ha"
         },
         {
-          "id": "world-3d1aab4fc9",
-          "title": "Today's top news: World Humanitarian Day, Ukraine, Occupied Palestinian Territory, Lebanon, Venezuela, Somalia",
-          "source": "OCHA",
+          "id": "world-c01c801311",
+          "title": "Economic Pressure A \"Delicate Dance\" Against Iran: JD Vance",
+          "source": "NDTV",
           "summary": "",
-          "img": false,
-          "extract": "Today's top news: World Humanitarian Day, Ukraine, Occupied Palestinian Territory, Lebanon, Venezuela, Somalia\n#World Humanitarian Day\nUN relief chief calls for action on violence against aid workers\nThe Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator, Tom Fletcher, today described the normalization of violence against aid workers as a “stain” that “we will not accept,” in remarks to journalists on World Humanitarian Day.\nBriefing the press corps at UN Headquart"
+          "img": false
         },
         {
-          "id": "world-07d750e059",
-          "title": "Indian caregiver fatally stabbed in Israel, elderly couple’s grandson indicted",
-          "source": "The Times of India",
-          "summary": "",
-          "img": false,
-          "extract": "- News\n- World News\n- Middle East News\n- Indian caregiver fatally stabbed in Israel, elderly couple’s grandson indicted\nTrending\nAn Indian caregiver working for an elderly couple in Jerusalem was killed inside their residence after an alleged sharp-object attack, with Israeli prosecutors now pursuing murder charges against a suspect.Rajeev Acharya died on July 23, 2026, after suffering multiple injuries and severe blood loss, according to a communication from the Embassy of India in Tel Aviv sen"
-        },
-        {
-          "id": "world-2642b6ed2d",
-          "title": "Canada and US say they are finalising a trade deal, but details remain murky",
+          "id": "world-8fa036f595",
+          "title": "Jailed Pakistan ex-PM Imran Khan taken to hospital for treatment",
           "source": "BBC News",
-          "summary": "Prime Minister Carney hailed \"significant progress\" in trade talks as the two countries seek to hammer out final details ahead of a new weekend tariff deadline.",
+          "summary": "Khan was taken from Adiala jail and sent to Shifa International Hospital under heavy security, according to his party.",
           "img": true,
-          "buzz": 2,
-          "extract": "Canada and US say they are finalising a trade deal, but details remain murky\n- Published\nCanada and the US are finalising a highly anticipated trade deal, with President Donald Trump and Prime Minister Mark Carney touting it as a success.\nTrump said the proposed deal will be welcomed by US farmers and manufacturers, while Carney said it will secure \"the best terms\" for Canada's strategic sectors and provide certainty on the future of US-Canada trade.\nTrade negotiators met on Wednesday for the th"
-        },
-        {
-          "id": "world-e175d9bdba",
-          "title": "7,300 excess deaths and counting as France battles historically hot summer",
-          "source": "World - South China Morning Post",
-          "summary": "France saw more than 7,300 excess deaths during heatwaves so far this year, health authorities said on Wednesday, as the country also endured a record number of hot days since mid-June, according to a",
-          "img": true,
-          "extract": "7,300 excess deaths and counting as France battles historically hot summer\nThe country has endured a record 52 days of heatwaves since mid-June, a new analysis shows\nFrance saw more than 7,300 excess deaths during heatwaves so far this year, health authorities said on Wednesday, as the country also endured a record number of hot days since mid-June, according to an Agence France-Presse analysis.\nFrance has been hit by three summer heatwaves in quick succession: a 14-day spell in June, 16 days in"
+          "extract": "Jailed Pakistan ex-PM Imran Khan taken to hospital for treatment\n- Published\nFormer Pakistani Prime Minister Imran Khan has been taken to a hospital in the capital, Islamabad, following complaints about his poor health.\nKhan was taken from Adiala jail and sent to Shifa International Hospital under heavy security, according to his party. There is yet to be official confirmation he has been transferred.\nThe move complied with a ruling by a three-judge panel of the Supreme Court which had ordered t"
         }
       ]
     },
@@ -1042,86 +1014,89 @@
       "beta": false,
       "stories": [
         {
-          "id": "other-interests-32259f23bd",
-          "title": "Naidu to tour Anakapalli and ASR districts",
-          "source": "The Hindu",
+          "id": "other-interests-78e02a4a11",
+          "title": "India's tour of Bangladesh could be postponed yet again",
+          "source": "Cricinfo",
           "summary": "",
           "img": false,
-          "extract": "Chief Minister N Chandrababu Naidu will tour Anakapalli and Alluri Sitharama Raju districts to take part in several programmes in the coming week.\nMr. Naidu will visit A.Koduru village in K.Kotapadu mandal in Anakapalli district on August 22, to take part in monthly Swachch Andhra – Swarna Andhra programme.\nDistrict Collector Vijaya Krishnan has inspected the ongoing arrangements for the programme which will be organised at ZP High School. She directed the officials to ensure all arrangements su"
+          "buzz": 2
         },
         {
-          "id": "other-interests-f905076cf7",
-          "title": "Newly discovered immune hubs in our skull may keep our brain healthy",
-          "source": "Page 2 | New Scientist",
-          "summary": "We may have clusters of immune cells at the back of our skull that help ward off conditions like brain cancer",
-          "img": true,
-          "buzz": 2,
-          "extract": "Hubs of immune cells in the skull may help to defend our brain from ill health. A study into the brains of mice and human genetic data suggests that immune cells cluster in a particular area at the back of our skull. The discovery implies that targeting these hubs with drugs could bring new treatments for conditions where immune cells go rogue, such as brain cancer.\n“It’s an important step forward in understanding the brain’s immune response,” says Vesa Kiviniemi at the University of Oulu in Fin"
-        },
-        {
-          "id": "other-interests-f068436bd2",
-          "title": "Twisted Teens Sign to Sub Pop",
-          "source": "RSS: News",
-          "summary": "Plus, a pair of new U.S. shows and an Australian tour",
-          "img": true,
-          "extract": "Twisted Teens have signed to Sub Pop. The prolific New Orleans punk outfit led by Caspian Halliwell and RJ Santos have also added a pair of U.S. shows to their already enormous tour schedule. Those will take place in Los Angeles and San Francisco in early September. Find the full itinerary, also including a new Australian run, below.\nSub Pop has also taken the reins on the international release of the outfit’s recent album Florida Water Blues. (Going Underground still has dibs on that one in Nor"
-        },
-        {
-          "id": "other-interests-97c93d84c8",
-          "title": "Horse Jumper of Love Plot Tour and Debut Album Reissue",
-          "source": "RSS: News",
-          "summary": "The Boston slowcore trio’s 10th anniversary version includes unreleased songs, a hand-drawn tab book, and “one secret”",
-          "img": true,
-          "extract": "Boston slowcore trio Horse Jumper of Love are ringing in the 10th anniversary of their debut album with a special reissue. Alongside remastered versions of their original songs are unreleased tracks, demos, and alternate takes. Horse Jumper of Love (Deluxe Edition) is out September 25 via Run for Cover, and you can hear “Heather,” which the band recorded in 2013 but never released, below.\nHorse Jumper of Love originally came out on Disposable America and, through word of mouth, became an undergr"
-        },
-        {
-          "id": "other-interests-e4417a9026",
-          "title": "Why I am so against volunteering in academia (ecology-edition)",
-          "source": "statmodeling.stat.columbia.edu",
-          "summary": "",
-          "img": false
-        },
-        {
-          "id": "other-interests-71ef959609",
-          "title": "What size of planet would prevent space travel due to gravity? Part 2",
-          "source": "Page 2 | New Scientist",
-          "summary": "Our readers continue to grapple with this question, coming at it from different angles – and also considering how big a planet has to be to retain its atmosphere",
-          "img": true,
-          "extract": "How big would a planet have to be before its gravity made space travel impossible for the inhabitants? (continued)\nJames Arnold\nLondon, UK\nI feel for the asker of this question. You printed three interesting responses, none of which quite gives an answer to the question!\nAdvertisement\nFirst, we need a sensible definition of impossible. Let’s say that space travel is impossible if the planet’s escape velocity is equal to the speed of light. Although it seems unlikely that any future technology mi"
-        },
-        {
-          "id": "other-interests-5a9e5857dc",
-          "title": "Dolphin mother and calf observed using shells to catch fish in Australia",
+          "id": "other-interests-bb30546047",
+          "title": "Criminal probe clears Sloth World of criminal neglect in deaths of 57 animals",
           "source": "Conservation news",
-          "summary": "A small population of dolphins in Shark Bay in Western Australia have a documented history of using an unusual tool to help them catch fish: Large, empty snail shells. For the first time, scientists h",
+          "summary": "Authorities in the U.S. state of Florida have cleared a controversial startup of criminal neglect after dozens of wild-caught sloths that it imported from South America for tourism purposes died. The ",
           "img": true,
           "buzz": 2,
-          "extract": "A small population of dolphins in Shark Bay in Western Australia have a documented history of using an unusual tool to help them catch fish: Large, empty snail shells. For the first time, scientists have now observed the same behavior in a different dolphin population on Australia’s east coast.\nResearchers even filmed a baby dolphin and its mother using a shell to capture fish, suggesting the baby may have learned the skill from its mother — this hadn’t been observed before now, they write in a "
+          "extract": "Authorities in the U.S. state of Florida have cleared a controversial startup of criminal neglect after dozens of wild-caught sloths that it imported from South America for tourism purposes died.\nThe Orange County Sheriff’s Office (OCSO) opened an investigation following the closure of the Sloth World facility in April this year. On Aug. 19, it released its findings, with OCSO detective Aaron Bennet concluding the 57 deaths “appear to be consistent with a multifactorial animal health incident ra"
         },
         {
-          "id": "other-interests-9dd147e691",
-          "title": "Ecology-funded wastewater treatment plant project earns national recognition - Department of Ecology",
-          "source": "Department of Ecology - State of Washington (.gov)",
-          "summary": "",
-          "img": false,
-          "extract": "On July 21, 2026, we joined Lummi Nation, the U.S. Environmental Protection Agency (EPA), Tribal Council members, and other partners to celebrate the Gooseberry Point Wastewater Treatment Plant improvements. This Ecology-funded project was one of five ‘Exceptional Projects’ chosen from around the country this year to receive EPA’s PISCES Award.\nThis national award recognizes outstanding Clean Water State Revolving Fund (CWSRF) projects focused on innovative financing, system partnerships, commun"
-        },
-        {
-          "id": "other-interests-b56784d2b3",
-          "title": "Observation of conformal field theory spectra in a quantum simulator",
-          "source": "Nature",
-          "summary": "Nature, Published online: 19 August 2026; doi:10.1038/s41586-026-10904-x Measurements on an array of optically trapped neutral atoms at a quantum phase transition provide a direct observation of the u",
-          "img": false,
+          "id": "other-interests-815ce33ad2",
+          "title": "AI firms are watermarking generated text – here’s why it won’t work",
+          "source": "New Scientist",
+          "summary": "AI companies have begun embedding watermarks in the output of their models to improve transparency and help crack down on misinformation, disinformation and cheating on homework, but there are limitat",
+          "img": true,
           "buzz": 2,
-          "extract": "Abstract\nConformal field theories (CFTs) feature prominently in high-energy physics1,2, statistical mechanics3 and condensed matter4,5,6. For example, CFTs govern emergent universal properties of systems tuned to quantum phase transitions4,7, including their entanglement, correlations and low-energy excitation spectra. Much of the rich structure predicted by CFTs nevertheless remains unobserved in experiment. Here we directly observe the energy excitation spectra of emergent CFTs at quantum phas"
+          "extract": "As AI chatbots have taken off, you have probably found yourself wondering whether a piece of text you are reading was written by a human or a machine. Now, in response to European Union legislation, many AI firms are adding watermarks to text, images and video created by their models with the aim of letting you do just that. The hope is that these watermarks will help stem the spread of misinformation and bring transparency to the use of AI, but experts point out that, at least when it comes to "
         },
         {
-          "id": "other-interests-6a6343155d",
-          "title": "Jashn-e-Adab to mark 15 years with four-day festival in Delhi",
-          "source": "The Hindu",
+          "id": "other-interests-7233be4d23",
+          "title": "Climate change drove extreme July heat in European seas, study finds",
+          "source": "Conservation news",
+          "summary": "European coastal waters recorded unprecedented sea surface temperatures in July 2026. A new study has found that human-induced climate change primarily drove the temperature surge, pushing marine ecos",
+          "img": true,
+          "buzz": 2,
+          "extract": "European coastal waters recorded unprecedented sea surface temperatures in July 2026. A new study has found that human-induced climate change primarily drove the temperature surge, pushing marine ecosystems past their limits.\nThe rapid analysis was conducted by World Weather Attribution (WWA), a global network of researchers who analyze the influence of climate change in extreme weather events.\nWWA scientists focused their analysis on the warmest 14-day periods within July. They chose this speci"
+        },
+        {
+          "id": "other-interests-b2c42c730e",
+          "title": "Hidden volcanoes hint at Moon’s turbulent past",
+          "source": "Nature",
+          "summary": "Nature, Published online: 20 August 2026; doi:10.1038/d41586-026-02555-9 A pair of massive shield volcanoes have been pinpointed by lunar spacecraft.",
+          "img": false,
+          "extract": "- RESEARCH HIGHLIGHT\nHidden volcanoes hint at Moon’s turbulent past\nTwo big volcanoes have been lurking on the Moon mostly unnoticed — until now.\nAccess options\nAccess Nature and 54 other Nature Portfolio journals\nGet Nature+, our best-value online-access subscription\n$32.99 / 30 days\ncancel any time\nSubscribe to this journal\nReceive 52 print issues and online access\n$199.00 per year\nonly $3.83 per issue\nRent or buy this article\nPrices vary by article type\nfrom$1.95\nto$39.95\nPrices may be subjec"
+        },
+        {
+          "id": "other-interests-87a567a1ae",
+          "title": "Music, movement & changing format of political campaigns",
+          "source": "The Times of India",
           "summary": "",
           "img": false,
-          "extract": "New Delhi is set to host a four-day celebration of literature, music and the performing arts as Jashn-e-Adab Sahityotsava marks its 15th foundation day from August 21 to 24. The festival will bring together poets, writers, classical musicians, folk artistes and performers at venues including the India International Centre (IIC) and India Habitat Centre (IHC).\nThe festival will feature literary and cultural programmes, including poetic symposia, panel discussions, dastangoi, classical and ghazal "
+          "extract": "Pune:\n Music band Hertzz turned FC Road into an open air concert space, playing for four hours on Wednesday evening as a prelude to Congress leader \nRahul Gandhi\n’s Chhatron Ki Goonj campaign to be held on Saturday.\nThe band’s peppy, upbeat performance was designed to catch the attention of people — particularly Gen Z — and invite students to Gandhi’s programme at AISSMS College Ground. The event is part of the party’s nationwide movement to engage with students and understand their concerns on "
+        },
+        {
+          "id": "other-interests-928b99da7f",
+          "title": "MUSIC IP HOLDINGS UNVEILS GROUNDBREAKING PATENT PORTFOLIO AND LICENSE FOR AI MUSIC CREATION, WITH UDIO and GRAI AS FIRST ADOPTERS",
+          "source": "Universal Music Group",
+          "summary": "",
+          "img": false,
+          "extract": "MUSIC IP HOLDINGS UNVEILS GROUNDBREAKING PATENT PORTFOLIO AND LICENSE FOR AI MUSIC CREATION, WITH UDIO and GRAI AS FIRST ADOPTERS\nNew patent framework enables responsible AI innovation, protecting artists and songwriters while supporting licensed AI services\nOnline licensing platform makes patent portfolio accessible to AI innovators\nNashville, TN, August 20, 2026 – Music IP Holdings (MIH) today unveiled a broad patent framework for generative AI, designed to drive responsible innovation while p"
+        },
+        {
+          "id": "other-interests-20cb276b56",
+          "title": "Paramore’s Career-Changing Album Becomes A Bestseller Again",
+          "source": "Forbes",
+          "summary": "",
+          "img": false,
+          "extract": "By the time Paramore released Brand New Eyes, the group’s third full-length, back in the fall of 2009, the band was already hugely successful. Paramore found fame in the underground alternative rock space with its debut set, All We Know Is Falling, but it was Riot, which arrived two years later, that helped establish the Hayley Williams-fronted group as a real force to contend with – and just among those who closely followed pop punk. That second project produced the smash “Misery Business,” whi"
+        },
+        {
+          "id": "other-interests-94a01d544b",
+          "title": "Drugs are becoming institutionalized: Interview with Ticuna leader in Peru’s Amazon",
+          "source": "Conservation news",
+          "summary": "Francisco Hernández Cayetano, president of the Federation of Ticuna and Yagua Communities of the Lower Amazon (FECOTYBA), is raising the alarm about the latest threats related to drug trafficking in t",
+          "img": true,
+          "buzz": 2,
+          "extract": "- Mongabay interviewed Francisco Hernández Cayetano, president of the Federation of Ticuna and Yagua Communities of the Lower Amazon, about substance abuse problems affecting Ticuna youth.\n- He says many youth are addicted to drugs and alcohol, which they picked up while working as coca harvesters for drug traffickers due to a lack of alternative employment options.\n- The arrival of narcotraffickers, as well as illegal miners, has also led to deforestation and water pollution in Peru.\n- In this "
+        },
+        {
+          "id": "other-interests-daacfbdbbe",
+          "title": "Will personalised mRNA vaccines transform cancer treatments?",
+          "source": "New Scientist",
+          "summary": "A personalised mRNA cancer vaccine has produced positive results in a final-stage trial involving skin cancer, raising hopes that this approach could work against many cancers",
+          "img": true,
+          "buzz": 2,
+          "extract": "Every cancer is different. Because of that, researchers have for decades been working on personalised cancer vaccines designed to make the immune system recognise and attack cancers specific to each individual. The results have been mixed, but now a personalised cancer vaccine has produced positive results in a final-stage trial for the first time.\nModerna announced on 19 August that people who had undergone surgery to remove severe skin cancers, called melanomas, survived longer without the can"
         }
       ]
     },
@@ -1131,60 +1106,53 @@
       "beta": true,
       "stories": [
         {
+          "id": "opportunities-726834b910",
+          "title": "Jaipur Literature Festival's US And Canadian Editions: Dates, Venues, And Other Details",
+          "source": "Travel and Leisure Asia",
+          "summary": "",
+          "img": false,
+          "buzz": 2
+        },
+        {
+          "id": "opportunities-a66497f1af",
+          "title": "Fully Funded CRCA Emerging Conflict Analysts Fellowship 2026: Applications Open for Africa’s Next Generation of Conflict Analysts",
+          "source": "Global South Opportunities",
+          "summary": "",
+          "img": false,
+          "buzz": 2,
+          "extract": "Fully Funded CRCA Emerging Conflict Analysts Fellowship 2026: Applications Open for Africa’s Next Generation of Conflict Analysts\nThe Conflict Research Consulting & Advocacy (CRCA) has opened applications for the 2026 Emerging Conflict Analysts Fellowship, a fully funded 12-week professional development programme designed to equip emerging African analysts with advanced skills in conflict analysis, early warning, political risk assessment and analytical writing.\nRunning from September to Decembe"
+        },
+        {
+          "id": "opportunities-0966fe40d2",
+          "title": "Nuestra Tierra Festival to be held in Immokalee over the weekend",
+          "source": "WGCU",
+          "summary": "",
+          "img": false,
+          "extract": "A group of teenagers are meeting at a ranch in Immokalee Saturday — and they want you to join them.\nFor young organizers in Immokalee, the upcoming Nuestra Tierra festival is meant to be a chance to teach neighbors about voting and celebrate a community they said has endured years of hardship.\n\"Students Advocating for Change,\" a youth-led nonprofit founded by Sol Reyes, is organizing the festival. Most of the organizers are high school and college students, many of whom recently became eligible "
+        },
+        {
           "id": "opportunities-216b7140ab",
           "title": "Registration is open for Trails and Greenways Summit at the KCAC",
           "source": "Indiana Gazette Online",
           "summary": "",
           "img": false,
-          "extract": "Registration is open for Trails and Greenways Summit at the KCAC By PATRICK CLOONAN pcloonan@indianagazette.net PAT CLOONAN Author email Aug 19, 2026 42 mins ago Facebook Twitter WhatsApp SMS Email Facebook Twitter WhatsApp SMS Email Print Copy article link Save Registration is open for the 2026 Western PA Trails and Greenways Summit! scheduled for Aug. 26 and 27 at the Kovalchick Convention and Athletic Complex on the Indiana University of Pennsylvania campus.Josh Krug, deputy director for plan"
+          "extract": "Registration is open for Trails and Greenways Summit at the KCAC By PATRICK CLOONAN pcloonan@indianagazette.net PAT CLOONAN Author email Aug 19, 2026 Aug 19, 2026 Facebook Twitter WhatsApp SMS Email Facebook Twitter WhatsApp SMS Email Print Copy article link Save Registration is open for the 2026 Western PA Trails and Greenways Summit! scheduled for Aug. 26 and 27 at the Kovalchick Convention and Athletic Complex on the Indiana University of Pennsylvania campus.Josh Krug, deputy director for pla"
         },
         {
-          "id": "opportunities-5055793a74",
-          "title": "A two-day electronic music festival will be held in Morretes, Brazil",
-          "source": "UA.NEWS",
+          "id": "opportunities-763981f57a",
+          "title": "United Athletic Conference Basketball Tournaments To Be Held In Allen, Texas",
+          "source": "Eastern Kentucky University Athletics",
           "summary": "",
           "img": false,
-          "extract": "A two-day electronic music festival will be held in Morretes, Brazil\nThe LENDAA Chapter V electronic music festival will take place on August 21 and 22, 2026, in the city of Morretes in the Brazilian state of Paraná. The event will be held at the Santuário Nhundiaquara in Porto de Cima, nestled within the Atlantic Forest of the Serra do Mar mountain range, according to The Rio Times.\nThe festival’s headliners are Sébastien Léger and D-Nox, who specialize in melodic house and progressive house. T"
+          "extract": "RICHMOND, Ky. –\n The United Athletic Conference (UAC) has announced the city and host venue for the UAC Men's and Women's Basketball Tournaments for the next three years.  Beginning with the 2026-27 championship season, Credit Union of Texas Event Center in Allen, Texas will serve as the host site.\n \nEastern Kentucky University joined the UAC in July. \n \n\"We are thrilled to bring our men's and women's basketball tournaments to Allen, Texas,\" said Unisun Sports Chief Executive Officer Jeff Bacon."
         },
         {
-          "id": "opportunities-ca71ea3412",
-          "title": "2026 Community Mental Health Summit to be held in Clarksville",
-          "source": "Clarksville Now",
+          "id": "opportunities-2ba2b28c2f",
+          "title": "Tickets on Sale for the 2026 Wine Spectator’s Palm Beach Food & Wine Festival",
+          "source": "Palm Beach Illustrated",
           "summary": "",
           "img": false,
-          "extract": "CLARKSVILLE, TN – The VA Tennessee Valley Healthcare System will host the 2026 Community Mental Health Summit on Wednesday, Sept. 16, at the Wilma Rudolph Event Center.\nThe free event will run from 9 a.m. to 2 p.m. and is open to veterans, caregivers and community partners. Advance registration is required at this site.\nThe summit is designed to increase awareness and understanding of mental health services available to veterans through the VA and community providers. Organizers also aim to help"
-        },
-        {
-          "id": "opportunities-ab8dc20380",
-          "title": "Global Impact Forum to be held in September ahead of BRICS Summit",
-          "source": "The Hindu",
-          "summary": "",
-          "img": false,
-          "extract": "Evoking the historical relationship India and South Africa have shared, Gideon Labane, Consul General of South Africa, said the relationship was not something that needed introduction, but acceleration. He was speaking at a media roundtable ahead of the second edition of the Global Impact Forum, themed ‘Civilisational Legacy’.\n“South Africa has just carried the responsibility of the G20 presidency. India this year holds the chairmanship of BRICS. So between us, we have held the pen on the Global"
-        },
-        {
-          "id": "opportunities-afc0266726",
-          "title": "Jaipur Literature Festival's US And Canadian Editions: Everything We Know",
-          "source": "travelandleisureasia.com",
-          "summary": "",
-          "img": false
-        },
-        {
-          "id": "opportunities-bad1c2e29d",
-          "title": "Jaipur Literature Festival expands across seven North American cities",
-          "source": "indiatoday.in",
-          "summary": "",
-          "img": false,
-          "extract": "Jaipur Literature Festival expands across seven North American cities\nThe Jaipur Literature Festival's US and Canadian editions will travel across seven cities from September 11 to October 4. The expanded North America programme signals its biggest regional footprint and a locally tailored agenda.\nThe US and Canadian editions of the Jaipur Literature Festival will bring together more than 100 global voices across seven cities from September 11 to October 4, organisers said on Tuesday. The line-u"
-        },
-        {
-          "id": "opportunities-9cce553633",
-          "title": "UK Chevening Scholarship 2027-28 Applications Open: Check Eligibility, Deadline and Key Details",
-          "source": "Education Today",
-          "summary": "",
-          "img": false,
-          "buzz": 2,
-          "extract": "Applications for the UK government’s prestigious Chevening Scholarship 2027-28 are now open, offering Indian students and professionals an opportunity to pursue a fully funded one-year taught master’s degree at eligible universities across the United Kingdom. The scholarship is supported by the UK Foreign, Commonwealth and Development Office (FCDO) and partner organisations and is designed to develop future leaders who can contribute to positive change in their home countries. For ambitious prof"
+          "extract": "Tickets are now available for all 24 events in the annual Wine Spectator’s Palm Beach Food & Wine Festival, which will return to the Palm Beaches December 10-13.\nPresented by RBC Wealth Management and benefiting the Els for Autism Foundation, the Wine Spectator’s Palm Beach Food & Wine Festival will feature returning favorite events as well as four new experiences.\nNew to the lineup is Arthur & Sons’ Disco Brunch, a two-day pop-up brunch at Pistache with New Orleans–based Brennan’s, a master coo"
         },
         {
           "id": "opportunities-e8985026e3",
@@ -1195,19 +1163,20 @@
           "extract": "Please wait\nWe are optimizing your request for the best experience."
         },
         {
-          "id": "opportunities-74380ae3ce",
-          "title": "SeaBandTune Festival to be held in Baku to mark UN World Humanitarian Day, 107th anniversary of State Border Service",
-          "source": "Report.az",
-          "summary": "",
-          "img": false
-        },
-        {
-          "id": "opportunities-5cc8c010b0",
-          "title": "Call for Applications: AICA × DataCamp Scholarship 2026/2027 for Africans",
-          "source": "globalsouthopportunities.com",
+          "id": "opportunities-e14fc2437f",
+          "title": "Inaugural Schuylkill Scarecrow Festival to be held at PSU Schuylkill",
+          "source": "Pottsville Republican Herald",
           "summary": "",
           "img": false,
-          "extract": "Call for Applications: AICA × DataCamp Scholarship 2026/2027 for Africans\nHigh-Proposition Opportunity: Gain Practical Data and AI Skills Through DataCamp and Build Career-Ready Digital Expertise\nAICA × DataCamp Scholarship 2026/2027 for Africans\nAfrican students, recent graduates, professionals and aspiring technology practitioners have an opportunity to strengthen their skills through the AICA × DataCamp Scholarship 2026/2027.\nThe scholarship provides selected participants with access to pract"
+          "extract": "Penn State Schuylkill FBLA Collegiate, in partnership with Penn State Schuylkill Art Space, and South Schuylkill Unified, has announced the launch of the inaugural Schuylkill Scarecrow Festival, a month-long community celebration of creativity, sustainability and local pride taking place throughout Southern Schuylkill County in October.\nThe family-friendly festival will transform communities across Southern Schuylkill County into an outdoor gallery of imaginative scarecrow displays created prima"
+        },
+        {
+          "id": "opportunities-5055793a74",
+          "title": "A two-day electronic music festival will be held in Morretes, Brazil",
+          "source": "UA.NEWS",
+          "summary": "",
+          "img": false,
+          "extract": "A two-day electronic music festival will be held in Morretes, Brazil\nThe LENDAA Chapter V electronic music festival will take place on August 21 and 22, 2026, in the city of Morretes in the Brazilian state of Paraná. The event will be held at the Santuário Nhundiaquara in Porto de Cima, nestled within the Atlantic Forest of the Serra do Mar mountain range, according to The Rio Times.\nThe festival’s headliners are Sébastien Léger and D-Nox, who specialize in melodic house and progressive house. T"
         }
       ]
     },
@@ -1217,48 +1186,48 @@
       "beta": false,
       "stories": [
         {
-          "id": "beyond-your-beat-8ae8055330",
-          "title": "U.S. envoy Sergio Gor terms J&K as ‘important part of India’, praises Delhi, CM for peace efforts",
-          "source": "The Hindu",
-          "summary": "",
-          "img": false,
-          "extract": "On his maiden visit to Jammu and Kashmir, Sergio Gor, U.S. Ambassador to India and Special Envoy to South and Central Asia, on Wednesday (August 19, 2026) praised the Centre and Chief Minister Omar Abdullah for their efforts to “keep India’s important place safe” and hinted at evaluating the U.S.’s current adverse travel advisory to the Union Territory (UT). Meanwhile, Mr. Abdullah said that “legacy issues” were discussed during the meeting with Mr. Gor.\n“J&K is an important part of India and it"
-        },
-        {
-          "id": "beyond-your-beat-01c3dceae8",
-          "title": "Nick Kyrgios suspended from tennis after testing positive for cocaine",
+          "id": "beyond-your-beat-d454792a6f",
+          "title": "JD Sports cuts £50m from profit forecast as cost of living pressures hit trainer sales",
           "source": "The Guardian",
           "summary": "",
           "img": false,
-          "extract": "Nick Kyrgios has been suspended after testing positive for cocaine, with the 31-year-old Australian revealing on Instagram on Wednesday that he had “made a huge mistake”. The former Wimbledon finalist’s suspension was confirmed by the International Tennis Integrity Agency (ITIA) shortly afterwards.\nKyrgios tested positive while playing at an ATP 250 event in Mallorca in June, with the presence of cocaine in his system confirmed by tests at a World Anti-Doping Agency (Wada) laboratory last month."
+          "extract": "The sports fashion retailer JD has cut £50m from its profit forecast as cost of living pressures, fuelled by the US war on Iran, weighed on sales of trainers.\nJD Sports, which sells brands including Nike and Adidas, said widespread inflation had hit shoppers’ wallets, particularly its core young shoppers, resulting in a drop in sales across important markets such as the US, where it struggled to shift trainers and other footwear.\nBosses went on to warn that the wider fall in consumer spending wa"
         },
         {
-          "id": "beyond-your-beat-b5215c4c1c",
-          "title": "Mini Mathur reveals she lost Indian Idol season 5 hosting gig after she revealed her pregnancy: ‘I felt very let down’ | Bollywood",
-          "source": "Hindustan Times",
+          "id": "beyond-your-beat-896bc56b4f",
+          "title": "Man arrested over Nord Stream bombing was consultant on film about it starring Sean Penn",
+          "source": "The Guardian",
           "summary": "",
           "img": false,
-          "extract": "Mini Mathur reveals she lost Indian Idol season 5 hosting gig after she revealed her pregnancy: ‘I felt very let down’\nMini Mathur shared how she did not understand how her pregnancy would become an issue, and shared that she said no when she was approached again.\nMini Mathur emerged as the winner of the reality show Alliance, which aired on Amazon Prime Video. An Indian television host and actor and wife to Kabir Khan, popular Indian film director and screenwriter, Mini has been working in the "
+          "buzz": 2,
+          "extract": "Earlier this month locals in Zagreb noticed something odd outside an art deco building. Sandbags and barricades appeared in front of the Esplanade hotel, along with a film crew and extras sporting Ukrainian military uniforms. Soon afterwards the actors Sean Penn and Adrien Brody were spotted on the set in the Croatian capital, together with Doug Liman, the Hollywood director of the Jason Bourne movies.\nLiman had come to shoot his latest fictional political thriller. Its subject: the 2022 Nord St"
         },
         {
-          "id": "beyond-your-beat-5dad295dc4",
-          "title": "Hyundai India Announces Car Price Hike From Sep 2026",
-          "source": "RushLane",
+          "id": "beyond-your-beat-cfcd61ec8c",
+          "title": "Citing Islamabad-North Korea connect, India urges Japan not to share advanced defence technology with Pakistan",
+          "source": "WION",
           "summary": "",
           "img": false,
-          "extract": "Hyundai Motor India has announced a price increase across its passenger vehicle portfolio, which will come into effect from September 2026. Prices will be increased by up to 1%, although the exact quantum of revision will vary depending on the model and variant.\nThe upcoming revision means customers planning to purchase a Hyundai car from September could have to pay more. However, since Hyundai has announced a hike of “up to 1%”, not every model or variant will necessarily see the full 1% increa"
+          "extract": "India has asked Japan to refrain from transferring advanced technology or technical know-how to Pakistan, warning that such capabilities could ultimately reach North Korea, according to details emerging from high-level defence talks in New Delhi.\nThe request was among the key points raised during a meeting on Thursday between India’s Defence Minister Rajnath Singh and his Japanese counterpart Shinjiro Koizumi. Koizumi is on his maiden visit to India, which began with a high-profile tour of the W"
         },
         {
-          "id": "beyond-your-beat-81ba26db9f",
-          "title": "Bihar: Water cannon used as RJD leaders march to Raj Bhavan; Tejashwi, Misa Bharti detained",
-          "source": "The Times of India",
+          "id": "beyond-your-beat-f89605cca0",
+          "title": "Bessent says US will impose toughest ever sanctions on Iran, urges China to cooperate",
+          "source": "Reuters",
+          "summary": "",
+          "img": false
+        },
+        {
+          "id": "beyond-your-beat-97195cc672",
+          "title": "Robot Malfunctions And Suffers 'Seizure' At China Conference, Operators Struggle to Stop It",
+          "source": "NDTV",
           "summary": "",
           "img": false,
-          "extract": "- News\n- India News\n- Bihar: Water cannon used as RJD leaders march to Raj Bhavan; Tejashwi, Misa Bharti detained\nTrending\nNEW DELHI: Rashtriya Janata Dal (RJD) leaders and workers on Wednesday staged a foot march in Patna towards Raj Bhavan, raising concerns over paper leaks, unemployment and issues affecting students and youth in Bihar. RJD leader and leader of opposition in the Bihar assembly Tejashwi Yadav and RJD MP Misa Bharti was detained during the march.\"This government, which uses AK-4"
+          "buzz": 2
         },
         {
-          "id": "beyond-your-beat-613e126818",
-          "title": "UAE's financial embargo on Iran after missile threat puts rivalry back in spotlight",
+          "id": "beyond-your-beat-b073be4b38",
+          "title": "Over 200 NFL players interested in competing in Olympic flag football, says league",
           "source": "Reuters",
           "summary": "",
           "img": false
