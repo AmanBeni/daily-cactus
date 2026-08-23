@@ -1,0 +1,960 @@
+{
+  "date": "2026-08-23",
+  "edition": 69,
+  "colophon": "66 sources scanned · 63 ok · 3 failed",
+  "lead": {
+    "headline": "US brands India a top 'enabler' of China's tariff-dodging scheme",
+    "summary": "",
+    "signal": [
+      "No new tariffs yet, but it's a fresh pressure lever stacked on top of the 50%+10% already in place, with a 100%-tariff bill still pending in the House.",
+      "India's manufacturing push still leans on Chinese intermediate inputs -- a crackdown here would raise costs right as the reader eyes deep-tech and manufacturing-adjacent careers.",
+      "Worth reading alongside today's other India-US item (Sergio Gor's upbeat trade-deal comments) -- the diplomatic and enforcement tracks are pulling in different directions."
+    ],
+    "badge": "",
+    "takeaway": "",
+    "why": "",
+    "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+    "url": "https://www.thehindu.com/business/what-are-the-uss-latest-allegations-against-india-explained/article71378950.ece",
+    "image": "https://th-i.thgim.com/public/incoming/qvwno/article71378949.ece/alternates/LANDSCAPE_1200/Trump_China_83239.jpg",
+    "developing": true,
+    "hook": "A White House report, 'The Great Transhipment Scam,' names India among 40+ countries helping China evade US tariffs, alongside Mexico, Canada, the EU, Japan and South Korea.",
+    "points": [
+      "It estimates roughly $67 billion in US-bound goods were transshipped through the top three hubs -- Mexico, India and Vietnam -- in 2025, producing about $28 billion in lost US tariff revenue.",
+      "As an example, it points to the Pune-Gujarat-Chennai belt 'absorbing' Chinese pumps and compressors, which it says hurts industrial supply chains in Ohio.",
+      "This lands on top of existing US pressure: a 50% tariff penalty over India's Russian oil imports, a 10% tariff over forced-labour compliance gaps, and a Senate-passed bill (awaiting the House) that __could add up to 100% more tariffs__ on India over Russian oil.",
+      "The report's own data cuts both ways for India: electronic-components' share of India's imports from China rose from 3.3% in Q1 2015-16 to nearly 13% in Q1 2026-27, while finished-goods categories like telecom instruments fell from about 18% to 11% over the same period -- meaning India increasingly imports Chinese inputs to manufacture and export finished goods, rather than importing finished goods directly."
+    ],
+    "key_stat": "$28B · lost US tariff revenue blamed on India, Mexico, Vietnam",
+    "editors_read": "This is Washington building a paper trail, not announcing a tariff -- but it hands Trump another lever alongside the pending 100%-tariff bill on Russian oil, at a moment trade talks with even close allies are collapsing (see Carney below). The more durable story is the report's own data: India's dependence on Chinese intermediate goods has grown even as direct finished-goods imports have fallen, so any crackdown on either side would raise 'Make in India' costs just as the reader is betting his own pivot on that ecosystem."
+  },
+  "frontpage": [
+    {
+      "headline": "Canada-US trade talks collapse; Ottawa vows dollar-for-dollar tariffs",
+      "summary": "",
+      "signal": [
+        "A close US ally is now in open tariff retaliation -- a preview of how unpredictable trade policy gets even for supposedly friendly partners.",
+        "Bigger context for India: if a G7 neighbour gets this treatment, India's own trade-deal optimism (see the Sergio Gor item below) is worth reading with some caution."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cx272np7vgyo",
+      "image": null,
+      "developing": true,
+      "hook": "Talks between the US and Canada collapsed late Friday, and the US responded early Saturday with new 50% tariffs on about ==$20 billion of Canadian goods== (roughly 5% of Canada's US-bound exports) -- covering wine, dairy, cement, clothing and hockey equipment -- on top of existing tariffs on steel, aluminium, autos and lumber.",
+      "points": [
+        "PM Mark Carney called it a 'miscalculation' designed to 'hurt and divide' Canada, said 'you're at war when you get attacked, we got attacked,' and confirmed Canada __will match the tariffs 'dollar-for-dollar' from September 8__.",
+        "US trade representative Jamieson Greer said there are no plans to resume talks and blamed Canada for new last-minute demands; Carney said the US demanded curbs on Canada's ability to sign other trade deals, calling it 'unacceptable.' The mandatory review of USMCA -- which underpins $1.6 trillion in annual trilateral trade with Mexico -- is also now in question after the US declined to renew the pact in its current 16-year form."
+      ],
+      "editors_read": "Carney framing this explicitly as 'war' and ruling out further talks raises the odds this drags past the USMCA review deadline, with Mexico watching closely since it faces the same renewal fight. For India, the takeaway is that a warm bilateral relationship doesn't preclude sudden escalation -- worth tracking whether India's own pending deal gets similarly upended by 'last-minute changes.'"
+    },
+    {
+      "headline": "Nvidia server prices jump 15%+ as memory costs soar",
+      "summary": "",
+      "signal": [
+        "Even the industry's most dominant AI company can't absorb this cost -- a real supply constraint (memory), not just AI-hype friction.",
+        "This raises infrastructure costs for everyone building on Nvidia hardware, India's AI and deep-tech startups included."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Tech - South China Morning Post",
+      "url": "https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/b01dcac2-ac93-4aef-b20e-c17be462fda3_6d700e87.jpg?itok=cADhwDD-&v=1787435620",
+      "developing": true,
+      "hook": "Nvidia has told some of its ==biggest customers that AI-server prices== -- including systems built on its flagship Vera Rubin and Grace Blackwell chips -- are rising more than 15% in many cases, effective on systems shipping early next year.",
+      "points": [
+        "The exact increase depends on chip generation and memory configuration.",
+        "Contract manufacturers that build servers for Microsoft, Google and Oracle have already passed the notice on to their customers.",
+        "The driver is a memory shortage: Samsung, SK Hynix and Micron -- the dominant DRAM makers -- now have enough leverage that even Nvidia can't hold the line on pricing.",
+        "Apple and Qualcomm have separately said chip shortages are forcing them to raise prices too."
+      ],
+      "editors_read": "This is a supply-chain constraint, not a demand slowdown -- memory makers, not chipmakers, now hold the pricing leverage in AI infrastructure. Watch for second-order effects on GPU rental prices and AI-startup burn rates over the next two quarters, including in India, where compute cost is already a stated bottleneck for AI-generalist and deep-tech ventures."
+    },
+    {
+      "headline": "Ukrainian drones kill 10, hit Russian retailer Ozon's warehouse",
+      "summary": "",
+      "signal": [
+        "Both sides are now explicitly targeting economic and financial infrastructure -- Ozon, refineries -- rather than just front-line assets, as the war approaches the four-and-a-half-year mark.",
+        "Useful context, not personally actionable beyond tracking oil and logistics disruption risk."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "World - South China Morning Post",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3364941/ukrainian-drones-kill-least-10-hit-warehouse-russian-online-retailer-ozon?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/fd7c222d-8d72-4ed9-b898-349bb7e0b962_634a81ce.jpg?itok=0tqNJvsp&v=1787420227",
+      "developing": true,
+      "hook": "Ukrainian drones killed at least 10 people in strikes across Russia and Russian-occupied Ukraine on Saturday, including a hit on online retailer Ozon's logistics centre in Chapayevsk (Samara region) that halted operations there and caused injuries; Ukraine's military said it also struck an oil refinery in Novokuibyshevsk, sparking a fire.",
+      "points": [
+        "It comes a day after Russian drones killed 16 and wounded over 130 at a shopping centre in central Ukraine -- Putin called Ukraine's economic-target strikes a 'Pandora's box' prompting Russian retaliation.",
+        "French President Macron pledged to speed up air-defence deliveries to Kyiv after a call with Zelensky about Ukraine's shortage of air defences."
+      ]
+    },
+    {
+      "headline": "Modi tells ministries to favour Indian platforms -- Zoho, Sarvam, Arattai named",
+      "summary": "",
+      "signal": [
+        "A concrete government-procurement tailwind for India's homegrown AI stack (Sarvam) -- relevant if the reader is scouting India-deep-tech roles or funding trends.",
+        "Worth watching whether 'promote' turns into mandated adoption, which would be a much bigger signal than a directive letter."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Storyboard18",
+      "url": "https://www.storyboard18.com/digital/pm-modi-asks-ministries-to-promote-indian-digital-platforms-names-zoho-sarvam-arattai-108458.htm",
+      "image": null,
+      "developing": false,
+      "hook": "A 23-point action plan from PM Modi's July 22 meeting with government secretaries -- detailed in a July 29 letter from Cabinet Secretary TV Somanathan -- directs ministries to promote domestic digital, AI and messaging platforms, citing data-safety considerations, and explicitly names Zoho, Sarvam and messaging app Arattai.",
+      "points": [
+        "Sarvam, a Bengaluru AI startup, was selected under the IndiaAI Mission to build India's sovereign large language model (reasoning, voice, Indian languages) and already partners with UIDAI on generative-AI Aadhaar services including fraud alerts.",
+        "This builds on an October 2025 push where ministers publicly backed Zoho and Arattai as alternatives to foreign tools.",
+        "The wider action plan also touches youth participation, agricultural education and domestic manufacturing capacity."
+      ]
+    },
+    {
+      "headline": "Why Moderna's cancer vaccine is a breakthrough for mRNA",
+      "summary": "Bloomberg's headline describes Moderna's cancer vaccine as a breakthrough for mRNA technology. (source unreachable -- headline only)",
+      "signal": [
+        "Too little source text to say more -- worth revisiting if a fuller write-up surfaces given Moderna's bellwether role in mRNA."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-22/why-moderna-s-cancer-vaccine-is-a-breakthrough-for-mrna",
+      "image": null,
+      "developing": false
+    },
+    {
+      "headline": "Indian startups ==raised $233M this week==, led by Navi and BookMyShow",
+      "summary": "",
+      "signal": [
+        "Fintech's dominance this week rests mostly on one late-stage deal, masking a thin early-stage market -- just $9.3 million across nine seed/Series-A rounds.",
+        "The Atomberg and Upstox IPO filings are the more durable signal: India's IPO pipeline is still active even as broader funding stays soft."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Inc42 Media",
+      "url": "https://inc42.com/buzz/from-navi-to-bookmyshow-indian-startups-raised-over-233-mn-this-week/",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/Ftr-100-1-2.jpg",
+      "developing": false,
+      "hook": "Nineteen Indian startups raised a combined $233.2 million between August 17-21, up 67% from $139.5 million raised by 12 startups the previous week.",
+      "points": [
+        "Prosus' $100 million investment in IPO-bound fintech Navi anchored the week; KKR put $40 million into BookMyShow; CtrlS DataCenters raised $26.1 million from backers including Nikhil Kamath.",
+        "Fintech led sectorally -- Navi plus Rezolv's $12.5 million Series A totalled $112.5 million, nearly half the week's capital -- while consumer services was a distant second at $47.2 million across three deals.",
+        "Early-stage activity stayed modest: nine seed/pre-Series A deals totalled roughly $9.3 million.",
+        "On IPOs: D2C appliance maker Atomberg filed its DRHP for a ₹450 Cr fresh issue plus an OFS of up to 7.65 Cr shares, and fintech Upstox has begun early talks for a roughly $400 million IPO."
+      ]
+    },
+    {
+      "headline": "India needs ==$500B in renewables== investment by 2030, $13T by 2070: MNRE",
+      "summary": "",
+      "signal": [
+        "The data-centre demand figure (11 to 91 TWh by 2035) is the sleeper stat -- AI infrastructure growth is now explicitly cited as a driver of India's power-investment case.",
+        "A useful macro number for anyone framing India's climate-tech or energy investment thesis."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "ET EnergyWorld",
+      "url": "https://energy.economictimes.indiatimes.com/news/renewable/indias-renewable-energy-push-needs-500-bn-investment-by-2030-13-tn-by-2070-mnre-secretary/133401572",
+      "image": null,
+      "developing": false,
+      "hook": "MNRE Secretary Santosh Kumar Sarangi told the Bloomberg New Energy Finance (BNEF) Summit 2026 that India needs roughly $500 billion in clean-energy investment by 2030 and about $13 trillion by 2070 to hit its net-zero target, spanning solar, hydrogen and storage technologies including lithium-ion, sodium-ion and vanadium-fluoride batteries plus pumped storage.",
+      "points": [
+        "The ministry is courting global financiers ahead of the Bharat Renewable Energy Expo (November 2-5, New Delhi).",
+        "Separately, BloombergNEF projects India's data-centre electricity demand __will surge more than eightfold -- from 11__ terawatt-hours in 2025 to 91 terawatt-hours by 2035 -- as large hyperscale AI facilities come online."
+      ],
+      "key_stat": "$500B · needed by 2030 for India's clean-energy transition"
+    },
+    {
+      "headline": "China's AI and chip firms hand out six-figure stock windfalls to retain talent",
+      "summary": "",
+      "signal": [
+        "A direct read on how tight China's AI and chip talent market has become -- comparable in scale to Silicon Valley's AI pay packages.",
+        "A useful benchmark if the reader is tracking global AI-talent compensation trends."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Tech - South China Morning Post",
+      "url": "https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/20/fa234b71-0f3c-4428-9bcd-d46322c54478_1ec0c45e.jpg?itok=o-YjE2qe&v=1787217326",
+      "developing": false,
+      "hook": "Amid fierce domestic headhunting and the US-China tech race, Chinese semiconductor and AI firms are issuing unprecedented stock grants.",
+      "points": [
+        "AI chipmaker Cambricon Technologies unlocked nearly 600,000 shares this week for 124 core staff -- averaging 5.57 million yuan (about $828,000) per person at its announcement-day share price.",
+        "Last month it granted 5 million shares to 944 employees, covering 85.3% of its workforce, under an incentive plan running through 2028; an earlier April vesting cycle gave 99 key staff 2.48 million shares averaging over 26 million yuan (roughly $3.9 million) per person.",
+        "Semiconductor-equipment maker AMEC's March restricted-stock plan covers more than 97% of its total workforce."
+      ],
+      "key_stat": "5.57M yuan (~$828K) · average per-employee windfall at Cambricon"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "stories": [
+        {
+          "headline": "Small startup's 27B-parameter AI agent beats Claude and GPT-5.5 at replicating science",
+          "summary": "",
+          "signal": [
+            "A smaller, cheaper model beating frontier labs at a real task -- not a benchmark gimmick -- is a real data point against 'just scale up' as the only path to capability.",
+            "London's DeepMind-alumni ecosystem keeps producing credible challengers, worth watching as deal-flow outside the usual SF-centric AI narrative."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "image": null,
+          "developing": false,
+          "hook": "London-based Inherent, founded by Google DeepMind alumni on a ==$50 million seed round==, says its AI agent Faraday outperformed Anthropic's Claude Opus 4.8 and OpenAI's GPT-5.5 at independently reproducing findings from published scientific papers -- while running on a comparatively tiny 27-billion-parameter model (Qwen 3.6) versus its frontier-scale rivals.",
+          "points": [
+            "Inherent says the win came from reinforcement learning aimed at building 'research taste' -- judgment about which experiments are worth running -- rather than raw accuracy.",
+            "Faraday uses OpenAI's GPT-5.5 Codex for coding rather than a custom tool.",
+            "The 12-person team works in person from King's Cross, London, and __plans to grow to 20-25 staff by year-end__."
+          ]
+        },
+        {
+          "headline": "Hollywood creatives are training the AI systems replacing their own jobs",
+          "summary": "",
+          "signal": [
+            "A stark self-cannibalization dynamic: precarious workers building the tools that formalize their own replacement, out of short-term financial necessity.",
+            "One working screenwriter's line -- AI is 'no closer to approximating human emotion' -- is a useful counterweight to AI-hype narratives about creative work."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI (artificial intelligence) | The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+          "image": null,
+          "developing": false,
+          "hook": "Experienced writers, directors and producers are earning $12-$200 an hour teaching AI models -- via training firms like Mercor, Micro1 and Handshake, which contract with Anthropic, OpenAI and others -- to replicate film and TV production skills, from writing screenplays to building shooting schedules, while waiting out an industry slump.",
+          "points": [
+            "US motion-picture and sound-recording jobs fell 28%, from 450,000 at their July 2022 peak to 326,000 in May 2026; LA shoot days fell 48% between 2021 and 2025.",
+            "Netflix used AI in 300 of its 1,000 titles in 2026.",
+            "An April Boston Consulting Group analysis estimates 10-15% of US jobs could be eliminated by AI, with over half reshaped."
+          ]
+        },
+        {
+          "headline": "A global AI capex slowdown could derail India's economic recovery: Nuvama",
+          "summary": "",
+          "signal": [
+            "Directly relevant to the reader's AI-generalist pivot: India's macro cycle is more AI-capex-dependent than the headlines suggest, a risk if global AI spending cools.",
+            "The K-shaped consumption point -- premium, import-heavy goods outperforming lower-end products -- is a useful framing for any India-market analysis."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "bfsi.economictimes.indiatimes.com",
+          "url": "https://bfsi.economictimes.indiatimes.com/articles/ai-capex-slowdown-could-derail-indias-cyclical-recovery-weigh-on-growth-nuvama/133419503",
+          "image": null,
+          "developing": false,
+          "hook": "Nuvama Research warns a slowdown in global AI capital expenditure poses a 'significant risk' to India's cyclical recovery.",
+          "points": [
+            "Corporate top-line growth has risen to around 20% year-on-year and aggregate credit growth to about 15%, partly fuelled by the global AI-capex and commodity boom alongside domestic GST cuts and monetary easing.",
+            "But the recovery is narrow: domestic GST growth lags imported GST growth, pointing to weak underlying demand; consumption hasn't accelerated despite GST cuts, income-tax relief and RBI easing; and listed real-estate pre-sales have turned negative for the first time since Covid.",
+            "Capex recovery remains concentrated in the power sector, with broader corporate and national capex still subdued."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "headline": "Nvidia server prices jump 15%+ as memory costs soar",
+          "summary": "",
+          "signal": [
+            "A real supply-chain constraint, not just AI-hype friction -- worth tracking for downstream effects on GPU rental prices and AI-startup burn rates."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/b01dcac2-ac93-4aef-b20e-c17be462fda3_6d700e87.jpg?itok=cADhwDD-&v=1787435620",
+          "developing": true,
+          "hook": "Nvidia has told some of its ==biggest customers that AI-server prices== -- including systems built on its flagship Vera Rubin and Grace Blackwell chips -- are rising more than 15% in many cases, effective on systems shipping early next year.",
+          "points": [
+            "Contract manufacturers that build servers for Microsoft, Google and Oracle have already passed the notice on.",
+            "The driver is a memory shortage: Samsung, SK Hynix and Micron now have enough leverage that even Nvidia can't hold pricing steady; Apple and Qualcomm have separately said chip shortages are forcing their own price rises."
+          ]
+        },
+        {
+          "headline": "China's AI and chip firms hand out six-figure stock windfalls to retain talent",
+          "summary": "",
+          "signal": [
+            "A useful benchmark for how tight China's AI and chip talent market has become, comparable in scale to Silicon Valley AI pay packages."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/20/fa234b71-0f3c-4428-9bcd-d46322c54478_1ec0c45e.jpg?itok=o-YjE2qe&v=1787217326",
+          "developing": false,
+          "hook": "Chinese semiconductor and AI firms are issuing unprecedented stock grants amid fierce domestic headhunting.",
+          "points": [
+            "Cambricon Technologies unlocked nearly 600,000 shares this week for 124 core staff, averaging 5.57 million yuan (about $828,000) per person; last month it granted 5 million shares to 944 employees (85.3% of its workforce).",
+            "Semiconductor-equipment maker AMEC's March plan covers more than 97% of its workforce."
+          ]
+        },
+        {
+          "headline": "ISRO to exit rocket manufacturing, hand production to the private sector",
+          "summary": "",
+          "signal": [
+            "A structural, not incremental, shift -- ISRO explicitly repositioning as an R&D body rather than an end-to-end manufacturer, the biggest opening yet for private Indian space startups.",
+            "Directly relevant to the reader's interest in India's deep-tech ecosystem: the LVM3 heavy-lift transfer is the next big opportunity to watch."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42",
+          "url": "https://inc42.com/buzz/isro-mulls-exiting-manufacturing-amid-indias-push-to-promote-privatisation-in-the-space-industry/",
+          "image": null,
+          "developing": false,
+          "hook": "IN-SPACe chairman Pawan Goenka said ISRO will stop manufacturing launch vehicles entirely, shifting toward R&D, advanced technologies and scientific missions while private companies and PSUs take over commercial manufacturing.",
+          "points": [
+            "The Small Satellite Launch Vehicle's technology has already transferred to HAL; the PSLV and the 4,000kg-to-GTO LVM3 (India's most powerful operational rocket) are next, with private players -- not PSUs, unlike the SSLV process -- invited to bid for LVM3. 120 technologies have already transferred to private industry, and the government will hand operation of a new launch centre to private industry within four to five months.",
+            "India's spacetech startup count grew from single digits in 2019 to over 400 by early 2026, and Skyroot's Vikram-1 became India's first privately built orbital-class launch vehicle in July 2026.",
+            "The government targets growing the space economy from about $8 billion currently to $44 billion by 2033."
+          ],
+          "key_stat": "$8B to $44B · India's targeted space economy growth by 2033"
+        },
+        {
+          "headline": "Chinese humanoid robot beats Usain Bolt's 100m world record",
+          "summary": "",
+          "signal": [
+            "Impressive but staged: experts quoted in the piece note humanoid robots remain mostly demonstration and research-stage, not mass-deployed -- worth filing as watch, don't overweight.",
+            "The US import ban is the more consequential thread: a China-US robotics decoupling forming in parallel to the AI-chip one."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
+          "image": null,
+          "developing": false,
+          "hook": "A humanoid robot named Lightning, built by smartphone maker Honor, ran the 100m in 9.32 seconds -- peak speed 14.5 m/s -- beating Usain Bolt's 9.58-second human world record, at a test event for the second World Humanoid Robot Games in Beijing.",
+          "points": [
+            "The same robot won the Beijing half marathon in April in 50 minutes 26 seconds (also faster than the human record), with its legs since lengthened by 10cm.",
+            "Over 2,000 humanoid robots are competing across 51 events at the five-day Games; in a standing high jump, an X-Humanoid robot reached 2.88m, beating both last year's 0.95m Games best and the 2.45m human world record.",
+            "The US FCC banned imports of new foreign-made humanoid robots last month citing national security, and the Pentagon added China's Unitree to a list of companies with military ties."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "India needs ==$500B in renewables== investment by 2030, $13T by 2070: MNRE",
+          "summary": "MNRE Secretary Santosh Kumar Sarangi told the BNEF Summit 2026 that India needs roughly $500 billion in clean-energy investment by 2030 and about $13 trillion by 2070 to hit net-zero, spanning solar, hydrogen and battery/pumped storage. BloombergNEF separately projects India's data-centre electricity demand will surge more than eightfold, from 11 terawatt-hours in 2025 to 91 terawatt-hours by 2035, as AI-driven hyperscale facilities come online.",
+          "signal": [
+            "The data-centre demand figure is the sleeper stat -- AI infrastructure growth is now explicitly cited as a driver of India's power-investment case."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "ET EnergyWorld",
+          "url": "https://energy.economictimes.indiatimes.com/news/renewable/indias-renewable-energy-push-needs-500-bn-investment-by-2030-13-tn-by-2070-mnre-secretary/133401572",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Grid bottlenecks are forcing India's solar plants to curtail output at peak hours",
+          "summary": "",
+          "signal": [
+            "The gap between '150 GW under construction' and '30-50% curtailed at peak' is the real story -- capacity is being built faster than the grid can absorb it.",
+            "A structural counterpoint to the $500B MNRE investment pitch above: money alone won't fix this without transmission and storage build-out."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Saur Energy",
+          "url": "https://www.saurenergy.com/solar-energy-news/transmission-bottlenecks-threaten-to-slow-indias-renewable-energy-growth-icra-12401128",
+          "image": null,
+          "developing": false,
+          "hook": "ICRA says India's renewable buildout has outpaced transmission capacity: ==37% of renewable capacity== at affected substations across the northern, western and southern regions runs on temporary grid access (T-GNA), facing 30-50% daytime curtailment.",
+          "points": [
+            "The west is worst hit, with peak curtailment of 8,617 MW as of August 6 versus 5,573 MW in the north.",
+            "Despite over 150 GW of renewable capacity under construction as of June 30, new project awards have slowed sharply -- from 40.6 GW in FY25 to 14.7 GW in FY26, and just 4.7 GW as of August 10, 2026 -- with 40-45 GW of awarded capacity still lacking a signed power purchase agreement as of April.",
+            "ICRA still expects renewables, including large hydro, to supply over 35% of India's electricity by FY30, up from 22% in FY25."
+          ]
+        },
+        {
+          "headline": "Delhi CM outlines ₹15,000 Cr EV push, AI dust-monitoring, mandatory WFH",
+          "summary": "At an India Today event, Delhi CM Rekha Gupta detailed a pollution-control roadmap: a ₹15,000 crore EV policy covering incentives, scrapping and infrastructure, a 100%-electric mandate for future government vehicle purchases, AI-driven dust-monitoring cameras linked to a command centre for construction sites over 500 square metres, mandatory 50% work-from-home measures, a November-January winter action plan, a 70-lakh-sapling plantation drive, and coordination with neighbouring states on stubble burning.",
+          "signal": [
+            "The AI-linked construction-dust monitoring is a concrete, small-scale deployment worth noting if the reader tracks India govtech/AI-in-governance use cases beyond pilots.",
+            "Useful context, not personally actionable -- a policy announcement, not yet an outcome."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Today",
+          "url": "https://www.indiatoday.in/india/video/delhi-cm-rekha-gupta-plans-100-ev-push-ai-construction-monitoring-and-work-from-home-mandate-ytvd-2977702-2026-08-22",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "Trump administration redirects ==$500M clean-steel grant== to a coal furnace",
+          "summary": "",
+          "signal": [
+            "A concrete rollback case study -- a specific, already-funded decarbonization project reversed, not just a talking point.",
+            "Relevant if the reader tracks how climate-policy funding pivots under changing US administrations, a governance-continuity risk pattern."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/green-steel/trump-clean-steel-grant-coal",
+          "image": null,
+          "developing": false,
+          "hook": "The US Department of Energy has repurposed a $500 million Biden-era grant -- originally meant to help Cleveland-Cliffs replace its Middletown, Ohio blast furnace with hydrogen-ready and electric-furnace technology -- into upgrading and extending the life of the existing 73-year-old coal-fired furnace by up to two decades, plus building a cogeneration plant that uses waste gases.",
+          "points": [
+            "Cliffs __will match the $500 million with its own__ funds.",
+            "Iron and steel production causes roughly 9% of global human-caused CO2 emissions, mostly from coal blast furnaces; the original project would have cut about 1 million tons of emissions.",
+            "The DOE said the 'green premium' business case no longer held given customers' unwillingness to pay for low-carbon steel."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Tech",
+      "slug": "health-tech",
+      "stories": [
+        {
+          "headline": "Why Moderna's cancer vaccine is a breakthrough for mRNA",
+          "summary": "Bloomberg's headline describes Moderna's cancer vaccine as a breakthrough for mRNA technology. (source unreachable -- headline only)",
+          "signal": [
+            "Too little source text to say more -- worth revisiting if a fuller write-up surfaces."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-22/why-moderna-s-cancer-vaccine-is-a-breakthrough-for-mrna",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Agritech",
+      "slug": "agritech",
+      "stories": [
+        {
+          "headline": "India's kharif sowing lags 1.5% behind last year on uneven monsoon",
+          "summary": "",
+          "signal": [
+            "Rice edging back toward its normal sown area is the more optimistic detail buried under the headline decline -- worth flagging for food-price watchers.",
+            "The regional rainfall variance matters more for agritech and climate-adaptation plays than the national average does."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "ChiniMandi",
+          "url": "https://www.chinimandi.com/indias-kharif-crop-area-trails-by-16-lakh-hectares-as-uneven-monsoon-hits-rice-maize-sowing/",
+          "image": null,
+          "developing": false,
+          "hook": "As of August 21, kharif crops covered 1,056.70 lakh hectares versus 1,072.77 lakh hectares a year earlier -- down 16.07 lakh hectares, or 1.5%.",
+          "points": [
+            "Rice, the largest kharif crop, fell 3.15% to 405.10 lakh hectares, though it's edging closer to its 412-lakh-hectare normal area.",
+            "Maize fell 4.06%; ragi fell a sharp 27.14%.",
+            "Pulses rose 1.33% overall (urad up 12.22%, tur up 0.97%, moong down 3.67%); oilseeds held roughly flat, with sunflower acreage up 80.98% and sesamum up 15.16% off a small base, while soybean fell 1.15%.",
+            "Nationwide rainfall from June 1 to August 21 ran 13% below the long-period average -- Central India was near-normal at -2%, but East/Northeast India (-26%) and South Peninsular India (-23%) saw much sharper shortfalls."
+          ]
+        },
+        {
+          "headline": "Himachal monsoon damage ==crosses ₹1,121== Cr, 98 roads still blocked",
+          "summary": "Cumulative monsoon-season losses in Himachal Pradesh reached ₹1,121.12 crore, per the state Department of Revenue -- the Public Works Department hit hardest at ₹836.78 Cr, Jal Shakti Vibhag at ₹258.61 Cr, and the Power Department at ₹5.3 Cr. 98 roads remain blocked (42 in Mandi, 31 in Kullu), and 89 transformers plus 42 drinking-water schemes are disrupted. Light-to-moderate rain is forecast to continue through August 28.",
+          "signal": [
+            "Useful context, not personally actionable -- a recurring seasonal infrastructure story, but ₹1,121 Cr is a concrete marker of this year's monsoon severity."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/himachal/monsoon-havoc-in-himachal-98-roads-remain-blocked-losses-over-rs-1121-crore/amp",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "==40% of India's farmland still== not linked to Farmer IDs, four years into the digital push",
+          "summary": "Per the National Conference on AgriStack, 71.4% of India's roughly 14.64 crore estimated operational landholdings now have a Farmer ID under the Digital Agriculture Mission (launched 2024) -- but about 40% of net sown area remains unlinked. 22 states haven't drafted a standard operating procedure to inclusively count sharecroppers and tenants, and 14 states haven't synced their Record of Rights with the farmer registry. Separately, pulses production rose 6% in 2025-26 under the Mission for Aatmanirbharta in Pulses, but only 15.6% of the kharif seed-distribution target (97,829 quintals) was met this season, down from two-thirds met in the prior rabi season.",
+          "signal": [
+            "AgriStack is a real digital-public-infrastructure build-out, but the state-level execution gap (22 states without an SOP) is the bottleneck worth tracking for agritech or fintech products built on farmer-ID data."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/industry/agriculture/about-40-pc-sown-area-yet-to-be-linked-to-farmer-ids-agri-min-126082200979_1.html",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "Indian startups ==raised $233M this week==, led by Navi and BookMyShow",
+          "summary": "",
+          "signal": [
+            "Fintech's dominance rests mostly on one late-stage deal, masking a thin early-stage market.",
+            "The Atomberg and Upstox IPO filings are the more durable signal of an active pipeline."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/from-navi-to-bookmyshow-indian-startups-raised-over-233-mn-this-week/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/Ftr-100-1-2.jpg",
+          "developing": false,
+          "hook": "Nineteen Indian startups raised a combined $233.2 million between August 17-21, up 67% from $139.5 million the previous week.",
+          "points": [
+            "Prosus' $100 million investment in Navi anchored the week; KKR put $40 million into BookMyShow; CtrlS DataCenters raised $26.1 million.",
+            "Fintech led sectorally at $112.5 million (nearly half the week's total), while nine seed/pre-Series A deals totalled only about $9.3 million.",
+            "Atomberg filed its DRHP for a ₹450 Cr fresh issue, and Upstox began early talks for a roughly $400 million IPO."
+          ]
+        },
+        {
+          "headline": "Raana Semiconductors in talks to ==raise ₹100== Cr to scale silicon-crystal equipment",
+          "summary": "",
+          "signal": [
+            "A genuine deep-tech hardware play -- crystal-growth equipment, not chip design -- with real defence-lab revenue already, rarer than the usual India-deep-tech pitch.",
+            "Worth tracking as India's semiconductor supply chain moves from packaging and assembly toward materials and equipment."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/raana-semiconductors-in-talks-to-raise-%e2%82%b9100-cr-for-silicon-growth-equipment/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/Untitled-design-2026-08-22T193023.339.png",
+          "developing": false,
+          "hook": "Hosur-based Raana Semiconductors, founded in 2015, is in advanced talks for a roughly ₹100 Cr (about $10.4 million) Series A expected to close by October, led by an undisclosed Indian VC writing a ₹50-60 Cr cheque with seven to eight other investors participating -- seven months after a $3 million seed round led by Equirus Innovatex Fund and Artha Venture Fund.",
+          "points": [
+            "Raana makes Czochralski (CZ) crystal-growth systems that produce monocrystalline silicon ingots for semiconductor, solar, defence and photonics uses.",
+            "The new capital __will scale its system from 6-inch to 12-inch__ wafers (30-40% of funds), build a domestic supplier base, and fund hiring.",
+            "Current customers are national labs and defence PSUs including BARC, DRDO, IGCAR, RRCAT, C-MET and NPL; FY26 revenue was ₹10.5 Cr.",
+            "It plans a pilot manufacturing plant in Tamil Nadu."
+          ],
+          "key_stat": "₹100 Cr (~$10.4M) · Raana's targeted Series A"
+        },
+        {
+          "headline": "Vertical-farming startup Fragaria in talks to ==raise ₹40== Cr at a ₹160 Cr valuation",
+          "summary": "",
+          "signal": [
+            "A narrow, premium-niche agritech bet -- indoor berries -- rather than broad-acreage tech, a contrast to the commodity-crop stress in the kharif story above."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/fragaria-fruits-in-talks-to-raise-%e2%82%b940-cr-from-blume-ventures-others/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/Fragaria-Funding-ftr.jpg",
+          "developing": false,
+          "hook": "Chennai-based Fragaria Fruits, an indoor vertical-farming agritech startup founded in 2024, is in talks to raise ₹40 Cr (about $4.2 million) led by Blume Ventures with existing backers WEH Ventures and Rainmatter participating -- a potential ₹160 Cr post-money valuation, about 10 months after a $2 million seed round.",
+          "points": [
+            "Fragaria grows premium, pesticide-free European-variety strawberries indoors under its Oh!",
+            "Fruits brand, is scaling a large Bengaluru-area farm toward 120 kg/day output, and is expanding into blueberries and raspberries.",
+            "India's agritech market is __projected to grow at a 25% CAGR to $28__ billion by 2030, per Inc42 and StarAgri."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "India Deep Tech",
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "headline": "Army raises its ==first Baaz drone battalion== on the Pakistan border",
+          "summary": "",
+          "signal": [
+            "A concrete structural step, not just a procurement announcement -- a standing battalion-level command for a mixed drone fleet is new for the Indian Army.",
+            "The explicit reference to AI-based decision-support systems is a real (if unspecified) India defence-AI deployment worth flagging."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/defence/news/from-border-watch-to-deep-strikes-army-raises-first-baaz-drone-battalion/articleshow/133419803.cms",
+          "image": null,
+          "developing": false,
+          "hook": "The Army has raised its first dedicated drone battalion, the Baaz ('hawk') Battalion, under the Jalandhar-based 11 Corps overseeing the northern Punjab stretch of the India-Pakistan border -- part of the Army's post-Operation Sindoor transformation.",
+          "points": [
+            "It will fly larger platforms including the Searcher drone as well as the American MQ-9B and Israeli Heron and Hermes, acting as a centralised hub for flight operations, data exploitation, maintenance and coordination with ground troops.",
+            "It's one piece of a broader drone build-out: infantry battalions are inducting Ashni quadcopter platoons, artillery is adding Divyastra batteries and Shaktiban regiments with longer-range drones and loitering munitions, and the Armoured Corps is trialling Shaurya reconnaissance squadrons.",
+            "AI-based battlefield decision-support systems will help process the resulting data flood in real time.",
+            "No final count has been set for how many Baaz battalions will eventually be raised."
+          ]
+        },
+        {
+          "headline": "Modi tells ministries to favour Indian platforms -- Zoho, Sarvam, Arattai named",
+          "summary": "A 23-point action plan from PM Modi's July 22 meeting with government secretaries directs ministries to promote domestic digital, AI and messaging platforms, explicitly naming Zoho, Sarvam and Arattai. Sarvam was selected under the IndiaAI Mission to build India's sovereign LLM and already partners with UIDAI on generative-AI Aadhaar services.",
+          "signal": [
+            "A concrete government-procurement tailwind for India's homegrown AI stack -- worth watching if 'promote' becomes mandated adoption."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Storyboard18",
+          "url": "https://www.storyboard18.com/digital/pm-modi-asks-ministries-to-promote-indian-digital-platforms-names-zoho-sarvam-arattai-108458.htm",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "stories": [
+        {
+          "headline": "Canada-US trade talks collapse; Ottawa vows dollar-for-dollar tariffs",
+          "summary": "",
+          "signal": [
+            "A close US ally now in open tariff retaliation -- a preview of how unpredictable trade policy gets even for friendly partners.",
+            "Worth reading against India's own trade-deal optimism (see the Sergio Gor item in India section) with some caution."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cx272np7vgyo",
+          "image": null,
+          "developing": true,
+          "hook": "Talks between the US and Canada collapsed late Friday, followed by new 50% US tariffs on about ==$20 billion of Canadian goods== -- roughly 5% of Canada's US-bound exports -- covering wine, dairy, cement, clothing and hockey equipment, on top of existing tariffs on steel, aluminium, autos and lumber.",
+          "points": [
+            "PM Mark Carney called it a 'miscalculation' meant to 'hurt and divide' Canada and confirmed Canada __will match the tariffs dollar-for-dollar from September 8__.",
+            "The mandatory review of USMCA, which underpins $1.6 trillion in annual trilateral trade, is also now in question after the US declined to renew the pact in its current form."
+          ]
+        }
+      ],
+      "also": [
+        {
+          "line": "Fed chair Kevin Warsh gives his first Jackson Hole speech Friday; markets watching for an inflation signal (summary from limited source text)",
+          "source": "Bloomberg Economics",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-22/kevin-warsh-to-make-first-jackson-hole-speech-as-fed-chair"
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "stories": [
+        {
+          "headline": "US brands India a top 'enabler' of China's tariff-dodging scheme",
+          "summary": "A White House report names India among 40+ countries helping China evade US tariffs, estimating $67 billion in transshipped goods through India, Mexico and Vietnam in 2025 cost the US $28 billion in tariff revenue. It lands atop existing US pressure -- a 50% tariff over Russian oil imports, a 10% forced-labour tariff, and a pending Senate bill for up to 100% more -- while India's own China-import mix has shifted toward intermediate inputs (electronics components up from 3.3% to nearly 13% of imports since 2015-16) rather than finished goods.",
+          "signal": [
+            "Stacks on top of existing tariff pressure rather than replacing it -- no penal action yet, but the threat is explicit."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/business/what-are-the-uss-latest-allegations-against-india-explained/article71378950.ece",
+          "image": "https://th-i.thgim.com/public/incoming/qvwno/article71378949.ece/alternates/LANDSCAPE_1200/Trump_China_83239.jpg",
+          "developing": true
+        },
+        {
+          "headline": "Jaishankar heads to Moscow to co-chair India-Russia trade commission",
+          "summary": "External Affairs Minister S. Jaishankar begins a two-day Moscow visit (August 23-24) to co-chair the 27th session of the India-Russia Inter-Governmental Commission on Trade, Economic, Scientific, Technological and Cultural Cooperation alongside Russian First Deputy PM Denis Manturov, and will separately meet Russian Foreign Minister Sergey Lavrov on regional and global issues.",
+          "signal": [
+            "Timing is the story: this visit lands the same week the US is escalating tariff pressure over India's Russian oil imports -- a sign India isn't recalibrating its Russia ties under US pressure, at least not yet."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The New Indian Express",
+          "url": "https://www.newindianexpress.com/india/2026/Aug/22/eam-jaishankar-to-meet-lavrov-in-moscow-co-chair-india-russia-trade-commission",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "US ambassador: India-US trade deal 'on its way,' bilateral trade eyeing ==$500B==",
+          "summary": "US Ambassador to India Sergio Gor said the India-US trade deal is 'on its way,' with 'almost everything' agreed except legal and technical language -- an earlier deal was disrupted when the Supreme Court struck down part of its legal basis, forcing the text to be reworked. He cited bilateral trade growth from $20 billion 15 years ago to $240 billion today, with a $500 billion target set by Modi and Trump, and said Secretary of State Marco Rubio will visit India again this year before a Quad foreign ministers' meeting in Australia.",
+          "signal": [
+            "Notable contrast with the US transhipment allegations and pending 100%-tariff bill covered elsewhere in this edition -- upbeat diplomatic messaging alongside a more adversarial enforcement track.",
+            "Worth treating 'almost everything is done' with some skepticism given the deal has already been derailed once."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/india/india-us-ties-to-define-global-stage-trade-deal-coming-sergio-gor/articleshow/133430878.cms",
+          "image": null,
+          "developing": false
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "stories": [
+        {
+          "headline": "Ukrainian drones kill 10, hit Russian retailer Ozon's warehouse",
+          "summary": "Ukrainian drones killed at least 10 people in strikes across Russia and occupied Ukraine Saturday, including a hit on online retailer Ozon's logistics centre in Chapayevsk that halted operations there; Ukraine's military also struck an oil refinery in Novokuibyshevsk, sparking a fire. It follows a Friday strike that killed 16 and wounded over 130 at a Ukrainian shopping centre -- Putin called Ukraine's economic-target strikes a 'Pandora's box' prompting Russian retaliation.",
+          "signal": [
+            "Both sides are increasingly targeting economic infrastructure rather than just front-line assets as the war nears its 4.5-year mark."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World - South China Morning Post",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3364941/ukrainian-drones-kill-least-10-hit-warehouse-russian-online-retailer-ozon?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/23/fd7c222d-8d72-4ed9-b898-349bb7e0b962_634a81ce.jpg?itok=0tqNJvsp&v=1787420227",
+          "developing": true
+        },
+        {
+          "headline": "Russian strike on Ukrainian shopping centre kills 16, EU calls it 'terror by design'",
+          "summary": "",
+          "signal": [
+            "The repeat-strike-on-rescuers pattern is the more serious escalation signal than the headline death toll alone.",
+            "Useful context on where Western sanctions and support policy heads next, not directly actionable for this reader."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World news | The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/ukraine-shopping-centre-attack-deaths-russia-terror-by-design-kaja-kallas-kryvyi-rih",
+          "image": null,
+          "developing": true,
+          "hook": "Russian drones struck a shopping centre in Kryvyi Rih -- Zelensky's hometown -- on Friday, killing 16 and wounding over 130, including 23 children; a second drone hit the same building about 30 minutes later, which Zelensky said targeted responding rescuers.",
+          "points": [
+            "Separately, four more people, including three children, died in a strike in the Mykolaiv region.",
+            "EU foreign policy chief Kaja Kallas called it 'terror by design' and said she'll propose the 'most far-reaching Russia sanctions listings since the start of the war' when ministers meet in Ireland next month.",
+            "A 'coalition of the willing' meeting -- with Macron, UK PM Andy Burnham, German Chancellor Friedrich Merz and about 10 other leaders -- convenes in Kyiv Monday for Ukraine's independence day."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Interests",
+      "slug": "other-interests",
+      "stories": [
+        {
+          "headline": "Grammy-nominated Khalid announces ==first-ever India tour== in December",
+          "summary": "R&B singer Khalid will play Delhi-NCR's Gurugram (December 13), Bengaluru (December 15) and Mumbai (December 17) as part of his 'It's Always Summer Somewhere' tour -- his first-ever India shows, six years after a planned 2020 debut was cancelled by the pandemic. Tickets, via Skillbox, range from ₹2,549 for general admission to ₹6,999 for fan pits.",
+          "signal": [
+            "A fun cultural note, not personally actionable beyond buying early if interested -- past international concerts in India have sold out fast."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Time Out Worldwide",
+          "url": "https://www.timeout.com/india/news/khalid-announces-india-tour-in-december-tickets-dates-and-venues-here-082126",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "How 'gentle power' saved a Tokyo biodiversity site -- and its aging-volunteer problem",
+          "summary": "",
+          "signal": [
+            "A clean case study in community-versus-top-down conservation governance, transferable to India's own community-forestry and biodiversity debates.",
+            "Useful context, not personally actionable -- but a good mental model ('gentle power' as mutual trust over pure control or pure volunteerism)."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Conservation news",
+          "url": "https://news.mongabay.com/2026/08/how-gentle-power-can-preserve-traditional-biodiversity-in-tokyo/",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/08/21153449/Cynops-pyrrhogaster-768x512.jpg",
+          "developing": false,
+          "hook": "A study published in Frontiers in Water in March examined Tokyo's Zushi-Onoji conservation area, habitat for endangered amphibians including the Japanese fire-bellied newt and Tokyo salamander.",
+          "points": [
+            "Its success traces to what the study calls 'gentle power': local farmers took over site management from outside contractors in the 1990s after forming their own association, blending institutional support with traditional ecological knowledge rather than pure top-down control or pure volunteerism.",
+            "The unresolved problem: the farmers who hold that knowledge are aging (the oldest are in their late 80s, and Japan's average farmer age is nearly 70), the work isn't commercially viable, and there's no clear plan to pass it to a younger generation."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beyond Your Beat",
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "headline": "Jaishankar downplays Pakistan-Turkey-Saudi defence pact",
+          "summary": "Responding to the August 7 Mecca Joint Defence Agreement between Pakistan, Saudi Arabia and Türkiye -- a mutual-defence clause treating an attack on one as an attack on all -- Jaishankar questioned its practical value, asking 'what has it done' amid the live military situations each signatory already faces, while confirming India factors any move by countries 'not well disposed' toward it into its security calculus. He also called Pakistan uniquely reliant on 'systematic' and 'sustained' use of terrorism against a neighbour, and said India-China ties depend primarily on the state of the border, noting India 'missed' an industrialisation window relative to China from the 1960s onward.",
+          "signal": [
+            "Useful context on how India is publicly framing a notable regional realignment -- not urgent, but a marker for South Asia security-watchers."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/india-news/eam-downplays-pakistan-turkey-saudi-defence-pact-what-has-it-done-amid-live-military-situations-in-these-countries-101787412910281.html",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "India approves 492-athlete contingent for the Asian Games in Japan",
+          "summary": "",
+          "signal": [
+            "A scheduling and roster note, included for completeness ahead of the Games next month."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "News On AIR",
+          "url": "https://newsonair.gov.in/sports-ministry-approves-492-member-indian-contingent-for-asian-games-japan/",
+          "image": null,
+          "developing": false,
+          "hook": "India's Sports Ministry approved a 492-member contingent (265 men, 227 women) for next month's Asian Games in Japan.",
+          "points": [
+            "Athletics is the largest squad at 73 athletes, including Neeraj Chopra, Murali Sreeshankar, Gulveer Singh, Tejaswin Shankar and Jyothi Yarraji; the 20-member badminton team includes P.V.",
+            "Sindhu, Lakshya Sen and Ayush Shetty; the 11-member boxing squad includes Commonwealth Games medallists Lovlina Borgohain, Narender Berwal and Jadumani Singh."
+          ]
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "name": "Genomics India Conference 2026 (GIC 2026)",
+      "when": "2-3 September 2026 in Bengaluru (pre-conference workshop 1 September)",
+      "summary": "India's largest genomics and bioeconomy gathering -- 1,000+ attendees, 40+ speakers, spanning genomics, AI-in-bioinformatics, precision medicine and agritech. National tier, Bengaluru. Worth it for exposure to India's biotech/deep-tech intersection with AI.",
+      "source": "BioTecNika",
+      "url": "https://www.biotecnika.org/2026/08/genomics-india-conference-2026-indias-largest-genomics-festival-registrations-open/"
+    },
+    {
+      "name": "ERA Research Manager roles (AI Safety, Governance & Biosecurity)",
+      "when": "Apply by 28 August 2026; preferred start 1 November 2026",
+      "summary": "Four Research Manager openings, full-time (£60-90K) or part-time, at the Existential Risk Alliance in Cambridge, UK, with remote options and visa sponsorship. Global tier -- a credible entry point into frontier AI-governance work for someone pivoting toward AI-generalist or policy roles, though the deadline is only days out.",
+      "source": "Global South Opportunities",
+      "url": "https://www.globalsouthopportunities.com/2026/08/22/era-4/"
+    },
+    {
+      "name": "East-West Center Graduate Degree Fellowship 2027",
+      "when": "Apply by 1 December 2026, for Fall 2027 intake",
+      "summary": "Fully funded Master's or Doctoral study at the University of Hawai'i at Mānoa for students from the US and Indo-Pacific region -- India is eligible under South Asia. Global tier -- a long-lead option worth flagging now given the December deadline, if graduate study is on the reader's radar.",
+      "source": "Global South Opportunities",
+      "url": "https://www.globalsouthopportunities.com/2026/08/22/fellowship-242/"
+    }
+  ],
+  "brief": [
+    {
+      "line": "US names India a top 'enabler' in $67B China transhipment scheme, $28B in lost US tariff revenue",
+      "id": "india-da654d3b17",
+      "url": "https://www.thehindu.com/business/what-are-the-uss-latest-allegations-against-india-explained/article71378950.ece"
+    },
+    {
+      "line": "Canada-US trade talks collapse; Ottawa to match 50% tariffs dollar-for-dollar from Sept 8",
+      "id": "global-economics-4619c796b2",
+      "url": "https://www.bbc.com/news/articles/cx272np7vgyo"
+    },
+    {
+      "line": "Nvidia AI server prices jump 15%+ as memory costs soar",
+      "id": "deep-tech-b7cebcd36b",
+      "url": "https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15?utm_source=rss_feed"
+    },
+    {
+      "line": "Ukrainian drones kill 10, hit Russian retailer Ozon's warehouse",
+      "id": "world-d16b3960c8",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3364941/ukrainian-drones-kill-least-10-hit-warehouse-russian-online-retailer-ozon?utm_source=rss_feed"
+    },
+    {
+      "line": "Modi's 23-point plan pushes ministries toward Zoho, Sarvam, Arattai",
+      "id": "india-deep-tech-ba3177b152",
+      "url": "https://www.storyboard18.com/digital/pm-modi-asks-ministries-to-promote-indian-digital-platforms-names-zoho-sarvam-arattai-108458.htm"
+    },
+    {
+      "line": "Moderna's cancer vaccine called a breakthrough for mRNA (headline only)",
+      "id": "health-tech-43fceb2173",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-22/why-moderna-s-cancer-vaccine-is-a-breakthrough-for-mrna"
+    },
+    {
+      "line": "Indian startups raised $233M this week, led by Navi's $100M round",
+      "id": "indian-startups-5398c14436",
+      "url": "https://inc42.com/buzz/from-navi-to-bookmyshow-indian-startups-raised-over-233-mn-this-week/"
+    },
+    {
+      "line": "India needs $500B in clean-energy investment by 2030, $13T by 2070: MNRE",
+      "id": "climate-energy-71678accf4",
+      "url": "https://energy.economictimes.indiatimes.com/news/renewable/indias-renewable-energy-push-needs-500-bn-investment-by-2030-13-tn-by-2070-mnre-secretary/133401572"
+    },
+    {
+      "line": "China's chip firms hand staff ~$828K average stock windfalls to retain talent",
+      "id": "deep-tech-451eea0352",
+      "url": "https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed"
+    },
+    {
+      "line": "27B-parameter AI agent Faraday beats Claude and GPT-5.5 at replicating science",
+      "id": "ai-00b5c41772",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
+    },
+    {
+      "line": "A global AI capex slowdown could derail India's cyclical recovery: Nuvama",
+      "id": "ai-5a882da0f0",
+      "url": "https://bfsi.economictimes.indiatimes.com/articles/ai-capex-slowdown-could-derail-indias-cyclical-recovery-weigh-on-growth-nuvama/133419503"
+    },
+    {
+      "line": "Army raises its first Baaz drone battalion on the Pakistan border",
+      "id": "india-deep-tech-cf029327a3",
+      "url": "https://timesofindia.indiatimes.com/defence/news/from-border-watch-to-deep-strikes-army-raises-first-baaz-drone-battalion/articleshow/133419803.cms"
+    }
+  ],
+  "markets": {
+    "generated_at": "2026-08-22T23:47:38.786378+00:00",
+    "quotes": [
+      {
+        "label": "Nifty 50",
+        "value": 24252.0,
+        "unit": "",
+        "change_pct": 0.08,
+        "usd": false
+      },
+      {
+        "label": "Sensex",
+        "value": 77540.83,
+        "unit": "",
+        "change_pct": 0.0,
+        "usd": false
+      },
+      {
+        "label": "USD/INR",
+        "value": 95.71,
+        "unit": "₹",
+        "change_pct": -0.06,
+        "usd": false
+      },
+      {
+        "label": "Brent Crude",
+        "value": 94.39,
+        "unit": "$/bbl",
+        "change_pct": 0.65,
+        "usd": true
+      },
+      {
+        "label": "Bitcoin",
+        "value": 77018.08,
+        "unit": "$",
+        "change_pct": -1.68,
+        "usd": true
+      },
+      {
+        "label": "Gold",
+        "value": 144029,
+        "unit": "₹/10g",
+        "change_pct": 3.64,
+        "usd": false
+      },
+      {
+        "label": "Silver",
+        "value": 213954,
+        "unit": "₹/kg",
+        "change_pct": 2.21,
+        "usd": false
+      }
+    ]
+  }
+}
