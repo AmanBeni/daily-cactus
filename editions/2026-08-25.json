@@ -1,0 +1,893 @@
+{
+  "date": "2026-08-25",
+  "edition": 71,
+  "colophon": "66 sources scanned · 63 ok · 3 failed",
+  "lead": {
+    "headline": "Xpeng's robotics arm ==raises $900M==, squaring up to Tesla in humanoid robots",
+    "summary": "",
+    "signal": [
+      "China's largest tech platforms (Alibaba, Tencent) are now co-funding a national embodied-AI champion, not just funding AI models.",
+      "Xpeng is betting robotics can outrun a widening EV loss — R&D up 32% while net loss nearly tripled.",
+      "Capital is chasing \"physical AI\" broadly, not just US labs — worth watching for how it shapes India's own robotics funding conversations."
+    ],
+    "badge": "",
+    "takeaway": "",
+    "why": "",
+    "source": "Tech - South China Morning Post",
+    "url": "https://www.scmp.com/business/china-evs/article/3365096/ev-maker-xpeng-set-challenge-tesla-embodied-ai-after-robotics-unit-raises-us900m?utm_source=rss_feed",
+    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/24/1ff6a373-95e1-4e7d-8184-25c9a9e25b8c_faf56847.jpg?itok=7GkVA9Mg&v=1787578024",
+    "developing": false,
+    "hook": "Xpeng's robotics subsidiary Dogotix raised $900 million in a round valuing it at $6.3 billion — the biggest single private-equity deal ever for a Chinese robotics maker.",
+    "points": [
+      "Alibaba, Tencent, IDG and Gaorong Ventures put in a combined $600 million; Xpeng itself is chipping in $200 million.",
+      "The round comes as Xpeng's core EV business bleeds cash — Q2 net loss widened 179% year-on-year to 1.34 billion yuan ($199.4 million) even as revenue grew 8% to 19.7 billion yuan and R&D spend jumped 32.1%.",
+      "CEO He Xiaopeng says the goal is to be \"a global leader in physical AI,\" building humanoid robots and autonomous-driving tech for China and overseas markets."
+    ],
+    "key_stat": "$900M · $6.3B valuation",
+    "editors_read": "This is China's answer to Tesla Optimus and a parallel US wave of humanoid-robot funding (see General Intuition, below) — both bets that the next AI platform shift is physical, not linguistic. For India's deep-tech ecosystem, the read isn't \"compete here\" (capital intensity is prohibitive) but \"supply into it\": component makers, sensors and power-management plays (see the Infineon-C2i deal) sit downstream of this wave regardless of who wins the robot race."
+  },
+  "frontpage": [
+    {
+      "headline": "General Intuition raises at ==$6B just weeks== after a $2.3B round",
+      "summary": "",
+      "signal": [
+        "Valuation nearly tripled in weeks, on a foundation model for robotics, not language — the funding frenzy has moved to \"physical AI.\"",
+        "Gameplay data as a proxy for real-world action data is an unusual, cheap training signal worth tracking as a pattern."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+      "image": null,
+      "developing": true,
+      "hook": "New York-based General Intuition is in talks to raise fresh funding at a $6 billion pre-money valuation from Valor Equity Partners, Point72 Ventures and Seven Seven Six, with existing backers Khosla Ventures and General Catalyst also participating — just weeks after it raised $320 million at a $2.3 billion valuation.",
+      "points": [
+        "The round is oversubscribed.",
+        "The startup, spun out last October by CEO Pim de Witte from his gaming clip-sharing platform Medal, trains a foundation model to move through space and time using hundreds of millions of hours of gameplay data and \"action labels\" — records of which buttons a player pressed, and when.",
+        "The money will go toward compute (it partners with CoreWeave) and robotics-focused hiring.",
+        "Valor is known for backing SpaceX — this would be its first AI lab investment since."
+      ],
+      "editors_read": "Two data points in one edition — Xpeng's Dogotix and General Intuition — both pricing \"physical AI\" foundation models in the billions within weeks of their last raise. If this pace holds, embodied AI becomes this year's defining capital story the way LLMs were a few years ago, and the compute/power bottleneck (see NVIDIA's price hikes and India's datacentre-cost story below) becomes the real constraint on who wins it."
+    },
+    {
+      "headline": "Porsche inks ==$1.5 billion AI deal== with India's Tata Consultancy",
+      "summary": "Porsche has signed a $1.5 billion AI deal with India's Tata Consultancy Services. (source unreachable — headline only)",
+      "signal": [
+        "A large India-linked AI services deal — no further detail available today; watch for follow-up reporting."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/porsche-inks-1-5-billion-ai-deal-with-india-s-tata-consultancy",
+      "image": null,
+      "developing": false
+    },
+    {
+      "headline": "China's Xi likely to visit India with a big delegation, ==first time in seven years==",
+      "summary": "China's Xi Jinping is likely to visit India with a large delegation, marking his first such visit in seven years. (source unreachable — headline only)",
+      "signal": [
+        "A potential thaw in India-China ties after years of border tension — worth watching for confirmation and agenda details."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/chinas-xi-likely-visit-india-with-big-delegation-first-time-seven-years-2026-08-24/",
+      "image": null,
+      "developing": true
+    },
+    {
+      "headline": "UPI turns 10: transactions up almost 13,000-fold to 24,162 crore a year",
+      "summary": "",
+      "signal": [
+        "A genuine, independently-verified (IMF) infrastructure win — not a self-reported vanity stat.",
+        "The 11-country international rollout is the more interesting story than domestic scale at this point — a live template for India's \"digital diplomacy\" playbook."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Kashmir Life",
+      "url": "https://kashmirlife.net/upi-turns-10-transactions-surge-nearly-13000-fold-as-indias-digital-payments-revolution-goes-global-448924/",
+      "image": null,
+      "developing": false,
+      "hook": "India's Unified Payments Interface completes a decade on August 25.",
+      "points": [
+        "Annual transaction volume has surged nearly 13,000-fold, from 1.78 crore in its first year to more than 24,162 crore in 2025-26; annual value rose over 4,000-fold, from ₹0.07 lakh crore to around ₹314 lakh crore.",
+        "UPI now processes roughly 66 crore transactions a day and accounts for 84% of India's digital-payment transactions and, per the IMF, nearly 49% of global real-time payment volume.",
+        "Participating banks grew from 21 at launch to 741 live today.",
+        "It's now operational in 11 countries — UAE, France, Bhutan, Sri Lanka, Nepal, Singapore, Mauritius, Qatar, Cambodia, Greece and the Maldives.",
+        "About 86% of person-to-merchant transactions are under ₹500, reflecting its everyday-micropayment role; person-to-person transfers account for 71% of transaction value, reflecting larger fund movements."
+      ],
+      "key_stat": "24,162 cr · txns in FY26",
+      "editors_read": "UPI's next decade is about export, not domestic growth — most of the addressable Indian market is already covered. Watch which of the 11 live countries shows real adoption versus symbolic MOUs; that's the actual test of whether India's DPI model becomes an exportable governance product, which matters for the deep-tech/DPI intersection worth tracking for a founder's-office pivot."
+    },
+    {
+      "headline": "Trump announces 50% tariff on Canadian cars, trucks and steel from January",
+      "summary": "Donald Trump announced a fresh 50% tariff on Canadian automobiles, auto parts and steel, effective January 1, 2027 — on top of an existing 50% tariff already imposed on $20 billion of other Canadian exports including hockey equipment and electronics. The move follows the weekend collapse of a proposed deal to lower auto tariffs; Canadian PM Mark Carney rejected it, saying the US \"asked too much and offered too little,\" and has vowed to match US tariffs \"dollar for dollar.\" The two countries trade roughly $909 billion annually, with Canada the largest single buyer of US-made automobiles — more, Carney says, than the EU, Japan, Korea and the UK combined.",
+      "signal": [
+        "Trade relations between two of the closest economic partners are deteriorating further, not stabilizing — a data point on US trade-policy volatility more broadly, relevant given India's own tariff talks with Washington."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Business | The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto",
+      "image": null,
+      "developing": true
+    },
+    {
+      "headline": "Infineon to acquire Bengaluru's C2i Semiconductors for AI-datacentre power chips",
+      "summary": "",
+      "signal": [
+        "A real acquisition of an Indian deep-tech startup by a global semiconductor major — evidence, not just funding-round hype.",
+        "Power-management chips are becoming a genuine chokepoint in the AI buildout; India-based teams are getting bought for exactly this reason."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "The Economic Times",
+      "url": "https://m.economictimes.com/tech/technology/german-chipmaker-infineon-to-acquire-c2i-semiconductor-startup/articleshow/133472125.cms",
+      "image": null,
+      "developing": false,
+      "hook": "German chipmaker Infineon Technologies will acquire Bengaluru-based power-management semiconductor startup C2i Semiconductors; financial terms weren't disclosed.",
+      "points": [
+        "The deal targets the AI datacentre power crunch directly — increasingly powerful GPUs are driving up electricity consumption and demand for efficient power delivery.",
+        "Infineon says it __will use C2i's capabilities to build a centre__ of excellence for digital power technologies in India."
+      ],
+      "key_stat": "Acquired · terms undisclosed",
+      "editors_read": "This is a better signal for India's deep-tech ecosystem than another funding round: a global semiconductor major choosing to buy Indian IP and build a \"centre of excellence\" here, for a bottleneck (power delivery to AI chips) that isn't going away. If you're mapping where Indian deep tech can actually win against Chinese and US scale, power/analog semiconductors — not leading-edge logic — looks like the lane."
+    },
+    {
+      "headline": "Khosla-backed Healthify merges with US's Berry Street to build an insurance-covered metabolic health platform",
+      "summary": "Healthify (formerly HealthifyMe) has merged with US nutrition-care company Berry Street to build what they describe as an \"advanced insurance-covered AI metabolic health platform\" for the US market. Healthify founder Tushar Vashisht and Berry Street founder Noah Kotlove will serve as co-CEOs. Financial terms are undisclosed. The combined entity will operate as Healthify in India and other markets and as Berry Street in the US. (summary from limited source text)",
+      "signal": [
+        "An Indian health-tech company merging into a US insurance-linked platform — the reverse of the more typical US-enters-India direction, worth tracking as an exit template."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "Inc42 Media",
+      "url": "https://inc42.com/buzz/khosla-ventures-backed-healthify-merges-with-us-based-berry-street/",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/Healthify-Berry-street-merger.png",
+      "developing": false
+    },
+    {
+      "headline": "RBI holds repo rate at 5.25%, projects 6.9% GDP growth for FY27",
+      "summary": "",
+      "signal": [
+        "A steady, unsurprising hold — the real story is the West Asia conflict now showing up explicitly in RBI's risk language.",
+        "Useful macro context for tracking India's cost-of-capital environment, not directly actionable."
+      ],
+      "badge": "",
+      "takeaway": "",
+      "why": "",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/rbi-to-announce-its-first-bi-monthly-monetary-policy-statement-for-financial-year-2026-27-today/",
+      "image": null,
+      "developing": false,
+      "hook": "The RBI's Monetary Policy Committee unanimously kept the repo rate unchanged at 5.25% with a neutral stance; the standing deposit facility stays at 5%, and the marginal standing facility/Bank Rate at 5.50%.",
+      "points": [
+        "The MPC projects GDP growth of 7.6% for the last financial year and 6.9% for the current one, with CPI inflation projected at 4.6%.",
+        "Governor Sanjay Malhotra flagged elevated energy prices from the West Asia conflict as an upside inflation risk, and noted the rupee depreciated more than its historical average in 2025-26; the RBI's FX policy remains aimed at smoothing volatility, not defending a specific level."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "slug": "ai",
+      "stories": [
+        {
+          "headline": "General Intuition raises at ==$6B just weeks== after a $2.3B round",
+          "summary": "New York-based General Intuition is in talks to raise at a $6 billion pre-money valuation from Valor Equity Partners, Point72 Ventures and Seven Seven Six, with Khosla Ventures and General Catalyst also participating — weeks after raising $320 million at a $2.3 billion valuation. CEO Pim de Witte spun the company out last October from his gaming platform Medal, training a foundation model on hundreds of millions of hours of gameplay \"action label\" data to build AI that generalizes across physical tasks, with a focus on robotics.",
+          "signal": [
+            "Valuation nearly tripled in weeks on a robotics-focused foundation model — the funding frenzy has moved to \"physical AI.\"",
+            "Gameplay data as a cheap proxy for real-world action data is a pattern worth watching."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "Australia moves to nationalize datacentre rules as power demand seen rising 7x",
+          "summary": "",
+          "signal": [
+            "A concrete national framework for datacentre siting, power and copyright — worth watching as a template India may need given its own buildout and power-cost pressures.",
+            "The one-third cancellation rate on proposed projects is a useful reality check against headline datacentre pipeline numbers everywhere, India included."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI (artificial intelligence) | The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/25/albanese-seeks-to-quell-datacentre-disquiet-as-climate-expert-warns-weve-got-one-shot-to-get-the-rules-right",
+          "image": null,
+          "developing": true,
+          "hook": "Australian PM Anthony Albanese will use national cabinet talks to push federal approval laws for AI datacentres, promising legislation next year covering copyright, security and skills standards — after opposition from Queensland and Northern Territory governments.",
+          "points": [
+            "The trigger: AEMO's latest forecast shows datacentre electricity demand could rise seven-fold over the next decade, from 5 to 34 terawatt-hours by 2035-36 (3% to 13% of total consumption), with a high-growth scenario reaching 52 TWh.",
+            "There are 165 datacentres already operating in Australia and 225 more in development, though more than a third of 2025's proposed projects have since been cancelled.",
+            "New rules would require datacentres not to push up energy prices, cover their own infrastructure costs, minimise water use, and avoid siting near homes, schools or farmland."
+          ]
+        },
+        {
+          "headline": "UK to train AI on Ukraine's battlefield data to protect its own infrastructure",
+          "summary": "",
+          "signal": [
+            "A rare case of live battlefield data being repurposed for domestic critical-infrastructure security — a data-sourcing pattern worth tracking.",
+            "The expert pushback (\"I haven't heard anything very convincing\") is a useful check on the deal's own hype."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "AI (artificial intelligence) | The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/aug/24/uk-to-use-ukraine-battlefield-data-to-train-ai-to-protect-sensitive-sites",
+          "image": null,
+          "developing": false,
+          "hook": "The UK has struck a deal with Kyiv to use four years of Ukrainian battlefield data — drone footage, strike-mission data, flight profiles — from Ukraine's Avengers AI lab, to train AI models defending British defence sites, railways and energy plants against protesters and hostile states.",
+          "points": [
+            "It will be piloted at a UK defence site using AI-optimised sensors in buried fibre-optic cables to detect movement; three UK firms (Sintela, Mind Foundry, Skyral) already have pilot approval.",
+            "Sintela separately holds a $35 million deal to provide US-Mexico border surveillance.",
+            "A UCL computer science professor cautioned the underlying sensor technology is decades old and it's unclear the Ukraine data will meaningfully improve it."
+          ]
+        },
+        {
+          "headline": "Kids still out-learn AI at language — and nobody knows exactly why",
+          "summary": "",
+          "signal": [
+            "A real constraint, not speculation: if usable training text is finite, data efficiency — not just compute — becomes the next scaling bottleneck.",
+            "A useful corrective to \"scale solves everything\" thinking common in AI industry conversation."
+          ],
+          "badge": "DEEP DIVE",
+          "takeaway": "",
+          "why": "",
+          "source": "Artificial intelligence – MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/2_Mobile.jpg?w=840",
+          "developing": false,
+          "hook": "Children learn to speak fluently after hearing roughly 10-30 million words; frontier LLMs train on 15 trillion-plus tokens — a \"data efficiency gap\" of many orders of magnitude, with some researchers suggesting the internet's usable text could run dry as soon as the 2030s if models keep scaling this way.",
+          "points": [
+            "The BabyLM competition (running since 2022) has researchers training models on child-scale data — 100 million words, or 10 million for a \"toddler\" track — drawn from storybooks and child-directed speech, then testing them on the grammar benchmarks used on human children.",
+            "One early finding: \"curriculum learning\" (simple-to-complex training data), the most popular approach in the first round, underperformed expectations.",
+            "The piece traces the decades-old Chomsky-vs-Skinner debate on whether grammar is innate, noting that LLMs — pure statistical pattern-learners, contrary to Chomsky's prediction — nonetheless learned syntax, reopening the question of what actually drives human language acquisition."
+          ]
+        },
+        {
+          "headline": "India's healthcare AI needs to know Dolo 650, not just Tylenol, say ZenMD's founders",
+          "summary": "",
+          "signal": [
+            "Notably candid for a founder interview — they explicitly decline to claim outcome improvements they can't yet prove.",
+            "The localisation argument (brand names, language, disease burden) is a real potential moat for India-specific health AI over imported Western tools, if it holds up in practice."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "ET HealthWorld",
+          "url": "https://health.economictimes.indiatimes.com/news/health-it/indias-healthcare-ai-must-understand-its-doctors-diseases-and-workflows/133464158",
+          "image": null,
+          "developing": false,
+          "hook": "In an interview, ZenMD co-founders Rithika and Pranav Reddy describe building a clinical AI platform for India-specific realities — local drug brands (Dolo 650 vs Tylenol), multilingual consultations, and diseases like TB and antimicrobial resistance that Western-trained models don't prioritise.",
+          "points": [
+            "Per the Future Health Index 2026 India report (Philips), nearly 70% of Indian healthcare professionals say AI has increased their capacity to see more patients.",
+            "ZenMD's clearest demonstrated benefit so far is time saved on OPD notes, dictation, translation and dosage checks; the founders are explicitly cautious about claiming improved clinical outcomes without longer-term study, and stress AI should never let a doctor skip reviewing its output.",
+            "The platform stays free while ZenMD builds an institutional/hospital monetisation model."
+          ]
+        }
+      ],
+      "also": [
+        {
+          "line": "AI power keeps concentrating: US has 10x the datacentres of any other country, Nvidia supplies 60%+ of global AI compute.",
+          "source": "IPI Global Observatory",
+          "url": "https://theglobalobservatory.org/2026/08/national-ai-strategies/"
+        }
+      ]
+    },
+    {
+      "name": "Deep Tech",
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "headline": "China's YMTC parent eyes up to $4.9B in what could be a ==record chip IPO==",
+          "summary": "",
+          "signal": [
+            "Chinese memory-chip makers can raise at a scale Indian semiconductor plays currently can't approach — a useful benchmark for how far India's chip ambitions (see the Infineon-C2i deal, above) still have to go."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Tech - South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3365017/can-chinas-flash-memory-giant-ymtc-smash-shanghai-star-market-ipo-records?utm_source=rss_feed",
+          "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/24/6cab8608-3c05-4a76-9252-3bbdc1f3e1d6_20639518.jpg?itok=MwZ79_zJ&v=1787544876",
+          "developing": true,
+          "hook": "CCSH Corporation, parent of Chinese NAND flash maker YMTC, plans to sell 1.98-2.43 billion shares (10-12% of its enlarged capital, plus a possible 15% overallotment) on Shanghai's Star Market.",
+          "points": [
+            "It has earmarked 33 billion yuan ($4.9 billion) for investment — 20.8 billion yuan to upgrade production lines, 12.2 billion yuan for R&D.",
+            "Rival chipmaker CXMT's own Star Market IPO raised 66.6 billion yuan, nearly double its baseline target and the largest on record — suggesting YMTC's final raise, with price still unset, __could similarly beat its 33 billion yuan baseline__."
+          ]
+        },
+        {
+          "headline": "Caltech and Yale scientists crack a 50-year-old quantum-materials problem",
+          "summary": "",
+          "signal": [
+            "A genuine methodological advance, not incremental — useful marker of what \"first principles\" materials design increasingly looks like.",
+            "Useful context, not personally actionable: relevant if tracking the materials-science path to next-gen superconductors."
+          ],
+          "badge": "DEEP DIVE",
+          "takeaway": "",
+          "why": "",
+          "source": "Caltech",
+          "url": "https://www.caltech.edu/about/news/chemical-physicists-quantitatively-model-electron-interactions-in-real-quantum-materials",
+          "image": null,
+          "developing": false,
+          "hook": "A Caltech-Yale team led by Garnet Chan, with lead authors Linqing Peng and Tianyu Zhu, has for the ==first time quantitatively modelled the Kondo== effect — how a magnetic impurity atom interacts with electrons in a metal — using the actual atomic and electronic structure of real materials, rather than the simplified models physicists relied on since the 1970s.",
+          "points": [
+            "Published in Science on July 30, the method borrowed quantum-chemistry techniques normally used for molecules and applied them to seven transition-metal-in-copper systems, beating prior model-based predictions in accuracy by up to two orders of magnitude for most elements.",
+            "The team calls it a \"baby step\" toward simulating far more complex correlated-electron materials such as high-temperature superconductors."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climate & Energy",
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "headline": "India's solar cell/module imports jump 50% YoY to ==$1.26B in Q2==",
+          "summary": "",
+          "signal": [
+            "Rising import dependence, not just capacity growth, is the number to watch — a 50% import jump cuts against India's domestic solar manufacturing push.",
+            "The balance-of-system quality issue is a rare \"what could go wrong\" data point in a sector mostly covered as unambiguous good news."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Mercomindia.com",
+          "url": "https://www.mercomindia.com/daily-news-wrap-up-indias-solar-imports-jump-50-yoy-in-q2",
+          "image": null,
+          "developing": false,
+          "hook": "India imported $1.26 billion of solar cells and modules in Q2 2026, up 50.3% year-on-year from $839.5 million, per Commerce Ministry data.",
+          "points": [
+            "In the same window: SECI awarded a 6,000 MWh firm-and-dispatchable renewable-energy auction (1,500 MW x 4 hours); a 14 GW Gujarat transmission project found its winning bidder; Grid India issued new national load-despatch procedures; Madhya Pradesh set a three-month rolling banking cycle for green open-access power; Hindustan Power closed ₹11.35 billion ($113.5 million) in debt financing for a 435 MW Uttar Pradesh solar project; Aditya Birla Renewables secured a $1.6 billion loan from Mitsubishi UFJ for its Solenergi Power/Sprng Energy acquisition; and IREDA posted 15% YoY revenue growth (₹22.5 billion) for Q1 FY27.",
+            "Separately, the roundup flags a quality problem in rooftop solar's \"balance-of-system\" components — cables, connectors, mounting — causing generation losses and safety risks as the segment scales."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Tech",
+      "slug": "health-tech",
+      "stories": [
+        {
+          "headline": "Indian space startup pitches PM Modi on manufacturing pharma in orbit",
+          "summary": "",
+          "signal": [
+            "Treat the space-pharma claim as an early-stage pitch, not a demonstrated capability — nothing here confirms hardware exists yet.",
+            "The one concrete data point is Skyroot's actual July 18 launch; the rest is founder ambition voiced in a government meeting, worth logging but not weighting heavily."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The New Indian Express",
+          "url": "https://www.newindianexpress.com/india/2026/Aug/23/indian-space-start-up-eyes-pharma-manufacturing-in-space-satellite-recovery-to-earth",
+          "image": null,
+          "developing": true,
+          "hook": "At an August 21 interaction with 20 space-startup CEOs, a founder describing his venture as \"==India's first space-pharma start-up==\" told PM Modi his company is building satellites to manufacture pharmaceuticals in microgravity and return them to Earth — a concept, not yet a flown product.",
+          "points": [
+            "In the same meeting, another founder said his company aims to go from one rocket launch a month to one a week to several a day; a reference to Skyroot notes it launched India's first private rocket carrying satellites on July 18 and expects monthly launches by mid-2027.",
+            "Modi encouraged the founders to help build a global \"aura\" around Indian talent and cost-competitiveness."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agritech",
+      "slug": "agritech",
+      "stories": [
+        {
+          "headline": "India's E20 ethanol push: the government says it saved ==₹1.97 lakh crore==; farmers and FCI's books tell a messier story",
+          "summary": "",
+          "signal": [
+            "The real story is distributional, not aggregate: distillery owners get price certainty and public-bank-backed risk; maize farmers and FCI — i.e. taxpayers — absorb the downside.",
+            "A clean case study in how \"self-reliance\" framing can obscure who actually bears policy cost — a useful analytical pattern for evaluating other Indian industrial-policy claims."
+          ],
+          "badge": "ANALYSIS",
+          "takeaway": "",
+          "why": "",
+          "source": "Frontline Magazine",
+          "url": "https://frontline.thehindu.com/the-nation/agriculture/india-ethanol-policy-e20-costs/article71383485.ece",
+          "image": null,
+          "developing": false,
+          "hook": "Since 2025, petrol sold in India has been 20% ethanol (E20), justified by government on two grounds: it saved ₹1.97 lakh crore in forex and replaced 316 lakh tonnes of imported crude, and ethanol is lower-carbon than petrol.",
+          "points": [
+            "But the ethanol is now made mostly from foodgrain, chiefly maize, whose cultivated area rose from 10.74 million to 14.41 million hectares between 2022-23 and 2025-26 — displacing oilseeds and pulses in states like Madhya Pradesh (soybean), Karnataka (ragi, groundnut) and Punjab (rice), even as NITI Aayog separately projects India will need to import more edible oil and pulses by 2047-48 precisely because that land isn't available for them.",
+            "On rice: FCI sold 6.35 million tonnes of surplus rice to ethanol distilleries between June 2025 and June 2026 at ₹2,250-2,320/quintal, versus its own acquisition cost of ₹3,719-3,889/quintal — a transfer of roughly ₹10,000 crore from public stock to private distilleries in a single year.",
+            "Distillers get a fixed government-set price (₹71.86/litre for maize ethanol), a guaranteed buyer, bank-guaranteed contracts and subsidised loan interest; maize farmers get no equivalent guarantee — in November 2025 the MSP was ₹2,400/quintal but farmers received only ₹1,634/quintal on the open market.",
+            "Maize diverted to ethanol has also tightened poultry/cattle feed supply (60-70% of egg/chicken/milk costs), prompting duty-concessional imports of US distillers' grain as a stopgap."
+          ],
+          "key_stat": "~₹10,000 cr · FCI rice-to-ethanol transfer, FY26"
+        }
+      ]
+    },
+    {
+      "name": "Indian Startups",
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "headline": "WATER Robotics raises $2.5M to build ==India's first robotic hospital bed==",
+          "summary": "AI startup WATER Robotics has raised $2.5 million (~₹24 crore) led by Endiya Partners, with India's national badminton coach Pullela Gopichand, Darwinbox co-founder Rohit Chennamaneni and Swiggy co-founder Nandan Reddy among the backers. Founded in 2024 by Teja Vinukollu and Haneesh Mour, the company will use the funds mainly for R&D and data collection. (summary from limited source text)",
+          "signal": [
+            "Notable more for its backer list — multiple unicorn founders as angels — than the product detail available today; worth a follow-up once more is public."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/water-robotics-raises-2-5-mn-to-build-indias-first-robotic-bed/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/WATER-Robotics-Founder-Feature.png",
+          "developing": false
+        },
+        {
+          "headline": "Khosla-backed Healthify merges with US's Berry Street to build an insurance-covered metabolic health platform",
+          "summary": "Healthify (formerly HealthifyMe) has merged with US nutrition-care company Berry Street to build what they describe as an \"advanced insurance-covered AI metabolic health platform\" for the US market. Healthify founder Tushar Vashisht and Berry Street founder Noah Kotlove will serve as co-CEOs. Financial terms are undisclosed. The combined entity will operate as Healthify in India and other markets and as Berry Street in the US. (summary from limited source text)",
+          "signal": [
+            "An Indian health-tech company merging into a US insurance-linked platform — the reverse of the more typical US-enters-India direction, worth tracking as an exit template."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/khosla-ventures-backed-healthify-merges-with-us-based-berry-street/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/Healthify-Berry-street-merger.png",
+          "developing": false
+        },
+        {
+          "headline": "NVIDIA's AI server price hikes threaten to push up India's compute costs",
+          "summary": "Some of NVIDIA's largest customers have reportedly been told that AI-chip server prices will rise more than 15% in many cases for systems shipping in early 2027, per a Bloomberg report. That threatens added cost pressure on India's datacentre operators and AI infrastructure providers, who are already committing billions of dollars to expand GPU capacity. (summary from limited source text)",
+          "signal": [
+            "Directly relevant to the AI-datacentre cost thread running through today's edition (Australia's power-demand story, India's own datacentre buildout) — compute cost, not just power, is becoming a binding constraint."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Inc42 Media",
+          "url": "https://inc42.com/buzz/nvidias-ai-server-price-hike-threatens-to-inflate-indias-compute-costs/",
+          "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/NVIDIA-AI-Server-Price-Hike-ftr.jpg",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "name": "India Deep Tech",
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "headline": "Infineon to acquire Bengaluru's C2i Semiconductors for AI-datacentre power chips",
+          "summary": "",
+          "signal": [
+            "A real acquisition of an Indian deep-tech startup by a global semiconductor major — evidence, not just funding-round hype.",
+            "Power-management chips are becoming a genuine chokepoint in the AI buildout; India-based teams are getting bought for exactly this reason."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Economic Times",
+          "url": "https://m.economictimes.com/tech/technology/german-chipmaker-infineon-to-acquire-c2i-semiconductor-startup/articleshow/133472125.cms",
+          "image": null,
+          "developing": false,
+          "hook": "German chipmaker Infineon Technologies will acquire Bengaluru-based power-management semiconductor startup C2i Semiconductors; financial terms weren't disclosed.",
+          "points": [
+            "The deal targets the AI datacentre power crunch directly — increasingly powerful GPUs are driving up electricity consumption and demand for efficient power delivery.",
+            "Infineon says it __will use C2i's capabilities to build a centre__ of excellence for digital power technologies in India."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Economics",
+      "slug": "global-economics",
+      "stories": [
+        {
+          "headline": "Trump announces 50% tariff on Canadian cars, trucks and steel from January",
+          "summary": "Donald Trump announced a fresh 50% tariff on Canadian automobiles, auto parts and steel, effective January 1, 2027 — on top of an existing 50% tariff already imposed on $20 billion of other Canadian exports including hockey equipment and electronics. The move follows the weekend collapse of a proposed deal to lower auto tariffs; Canadian PM Mark Carney rejected it, saying the US \"asked too much and offered too little,\" and has vowed to match US tariffs \"dollar for dollar.\" The two countries trade roughly $909 billion annually, with Canada the largest single buyer of US-made automobiles.",
+          "signal": [
+            "Trade relations between two of the closest economic partners are deteriorating further, not stabilizing — relevant given India's own tariff talks with Washington."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Business | The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "New Fed chair Kevin Warsh faces ==first big inflation test== at Jackson Hole",
+          "summary": "",
+          "signal": [
+            "Fed communication style — or its absence — is itself now a volatility source, worth tracking for anyone following global rate expectations that feed into INR and Indian bond markets."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/aug/24/fed-chair-kevin-warsh-faces-critical-test-jackson-hole-inflation-fears-mount",
+          "image": null,
+          "developing": true,
+          "hook": "Kevin Warsh, Trump's pick as Fed chair, addresses the Fed's Jackson Hole symposium this Friday amid a bond-market selloff and inflation anxiety tied to Trump's tax/spending plans and the Iran conflict.",
+          "points": [
+            "US government debt has crossed $40 trillion; Treasury Secretary Scott Bessent has committed to doubling Treasury bond purchases to calm the $30 trillion Treasury market.",
+            "Warsh has signalled he won't \"spoon-feed\" markets with rate-path hints, planning instead to address \"bigger questions\" like productivity and demographics — a stance analysts warn could itself inject volatility, especially after Warsh was seen as sending confusing signals during his first press conference as chair in July.",
+            "Markets currently expect a September hold, with one to two quarter-point cuts possible by mid-2027; Trump has publicly pushed for cuts, raising investor concern about Fed independence."
+          ]
+        },
+        {
+          "headline": "RBI holds repo rate at 5.25%, projects 6.9% GDP growth for FY27",
+          "summary": "",
+          "signal": [
+            "A steady, unsurprising hold — the real story is the West Asia conflict now showing up explicitly in RBI's risk language."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "News On AIR",
+          "url": "https://newsonair.gov.in/rbi-to-announce-its-first-bi-monthly-monetary-policy-statement-for-financial-year-2026-27-today/",
+          "image": null,
+          "developing": false,
+          "hook": "The RBI's Monetary Policy Committee unanimously kept the repo rate unchanged at 5.25% with a neutral stance; the standing deposit facility stays at 5%, and the marginal standing facility/Bank Rate at 5.50%.",
+          "points": [
+            "The MPC projects GDP growth of 7.6% for the last financial year and 6.9% for the current one, with CPI inflation projected at 4.6%.",
+            "Governor Sanjay Malhotra flagged elevated energy prices from the West Asia conflict as an upside inflation risk, and noted the rupee depreciated more than its historical average in 2025-26; the RBI's FX policy remains aimed at smoothing volatility, not defending a specific level."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "stories": [
+        {
+          "headline": "UPI turns 10: transactions up almost 13,000-fold to 24,162 crore a year",
+          "summary": "",
+          "signal": [
+            "A genuine, independently-verified (IMF) infrastructure win — not a self-reported vanity stat.",
+            "The 11-country international rollout is the more interesting story than domestic scale at this point."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Kashmir Life",
+          "url": "https://kashmirlife.net/upi-turns-10-transactions-surge-nearly-13000-fold-as-indias-digital-payments-revolution-goes-global-448924/",
+          "image": null,
+          "developing": false,
+          "hook": "India's Unified Payments Interface completes a decade on August 25.",
+          "points": [
+            "Annual transaction volume has surged nearly 13,000-fold, from 1.78 crore in its first year to more than 24,162 crore in 2025-26; annual value rose over 4,000-fold, from ₹0.07 lakh crore to around ₹314 lakh crore.",
+            "UPI now processes roughly 66 crore transactions a day and accounts for 84% of India's digital-payment transactions and, per the IMF, nearly 49% of global real-time payment volume.",
+            "It's now operational in 11 countries — UAE, France, Bhutan, Sri Lanka, Nepal, Singapore, Mauritius, Qatar, Cambodia, Greece and the Maldives."
+          ]
+        },
+        {
+          "headline": "Heavy rain floods Delhi-NCR and Jaipur, diverts 15 flights",
+          "summary": "",
+          "signal": [
+            "Directly local: Jaipur's own Moti Dungri Road flooding and 12 diverted flights are worth knowing if commuting through the city this week."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Delhi/flight-diversions-in-delhi-ncr-traffic-jams-in-jaipur-as-north-indian-cities-reel-under-heavy-rain/article71386106.ece",
+          "image": "https://th-i.thgim.com/public/incoming/eh2l9l/article71386187.ece/alternates/LANDSCAPE_1200/20260824560L.jpg",
+          "developing": false,
+          "hook": "Heavy rain across north India on August 24 caused major disruption: 15 flights were diverted from Delhi's IGI Airport — 12 to Jaipur, 2 to Chandigarh, 1 to Lucknow — with Gurugram recording 70mm of rainfall and parts of Delhi up to 67mm by afternoon.",
+          "points": [
+            "Waterlogging hit Rajiv Chowk, IFFCO Chowk, Connaught Place, ITO and Sangam Vihar, among other areas; Jaipur and other eastern Rajasthan districts also saw flooded roads, including Jaipur's Moti Dungri Road submerged.",
+            "Himachal Pradesh had 98 roads blocked (49 in Mandi alone), with 21 power transformers and 21 water schemes disrupted.",
+            "Separately, Odisha recorded its own heavy-rain event, with Joda in Keonjhar district getting 169.4mm."
+          ]
+        },
+        {
+          "headline": "Putin offers India more fertiliser as Jaishankar visits Moscow",
+          "summary": "",
+          "signal": [
+            "The trade-deficit number — over $50 billion and rising — is the story under the diplomatic framing, worth tracking against India's oil and fertiliser import dependence on Russia."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The New Indian Express",
+          "url": "https://www.newindianexpress.com/india/2026/Aug/24/eam-jaishankar-meets-russian-president-putin-assures-more-fertiliser-supply-to-india",
+          "image": null,
+          "developing": false,
+          "hook": "Russian President Vladimir Putin told visiting External Affairs Minister S.",
+          "points": [
+            "Jaishankar that Russia will increase fertiliser (particularly urea) supplies to India, building on a nearly 40% rise in Indian fertiliser imports from Russia in 2025.",
+            "India-Russia bilateral trade grew from about $13 billion in 2021 to roughly $60 billion in 2025 (up 8% in H1 2026) — but the growth is heavily lopsided toward Russian exports, pushing India's trade deficit with Russia from $6.6 billion to over $50 billion.",
+            "Jaishankar flagged market access, tariff/non-tariff barriers and payment mechanisms as priorities toward a shared $100 billion bilateral trade target by 2030.",
+            "Modi is expected to meet Putin at the upcoming SCO summit and at a BRICS summit hosted in India."
+          ]
+        },
+        {
+          "headline": "Is India too dependent on Russian oil? Its share of imports doubled since January",
+          "summary": "",
+          "signal": [
+            "The 23%-to-50% swing in six months is a bigger, faster shift than the \"diversification\" framing usually implies — worth separating the diplomatic story (Putin's fertiliser offer, above) from this harder economic dependency."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "ThePrint",
+          "url": "https://theprint.in/economy/is-india-becoming-too-dependent-on-russian-oil-the-answer-isnt-straightforward/3023498/",
+          "image": null,
+          "developing": false,
+          "hook": "Russia's share of India's crude oil imports rose from 23% in January to about 50% in June-July 2026 (2.6-2.8 million barrels/day), before easing to roughly 1.9-2.1 mbpd in August, as Middle East supply through the Strait of Hormuz was disrupted by US-Iran tensions.",
+          "points": [
+            "Analysts say the concentration reflects both price discounts and physical-supply reliability — Russian crude avoids Hormuz and hasn't been targeted by Houthi attacks in the Red Sea — plus a refinery-yield fit with Indian plants' middle-distillate needs.",
+            "The risk: heavier exposure to sanctions, shipping restrictions and Ukrainian drone strikes on Russian export terminals.",
+            "Alternatives exist (UAE via Fujairah, Venezuela at ~400,000 bpd in August, Brazil, US, African supply) but involve longer, costlier voyages.",
+            "Analysts frame any shift away from Russia as likely \"gradual and commercially driven,\" not abrupt."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "slug": "world",
+      "stories": [
+        {
+          "headline": "Iran threatens retaliation as US pushes 'greatest financial offensive' of sanctions",
+          "summary": "",
+          "signal": [
+            "Watch India specifically: it's named alongside China and Russia as a country the US sanctions regime is testing for compliance — a live test of India's ability to balance US and Russia/Iran relationships at once.",
+            "Global oil-market disruption risk via Hormuz is the mechanism connecting this to India's own fuel costs (see the Russian-oil-dependence story, above)."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "World news | The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/24/iran-vows-retaliate-countries-cooperate-fresh-us-sanctions",
+          "image": null,
+          "developing": true,
+          "hook": "The US, per Treasury Secretary Scott Bessent, is launching what he calls \"the single greatest financial offensive ever marshalled against an adversary\" — secondary sanctions threatening any country or entity that trades with Iran.",
+          "points": [
+            "The UAE, Iran's largest Middle East trading partner, has already ended all trade with Iran, a move Tehran believes was coordinated with Washington.",
+            "China, Iran's largest oil buyer for decades, has said it will ignore the sanctions, as it did in May; Russia has shown similar disinterest.",
+            "Iran's oil exports to Asia have nonetheless \"virtually stopped\" due to a US naval blockade, its central bank governor says, and the rial has fallen 4.5% against the dollar since Trump's \"crushing economic operation\" announcement last week.",
+            "Iran's security chief warned of \"earthquake-like\" retaliation and said no Gulf oil would move through the Strait of Hormuz if neighbouring countries join the US campaign; shipping through the strait remained disrupted over the weekend."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Interests",
+      "slug": "other-interests",
+      "stories": [
+        {
+          "headline": "A new theory says your brain builds categories to survive, not to be accurate",
+          "summary": "",
+          "signal": [
+            "A genuine reframe — prediction/allostasis over passive pattern-matching — not an incremental finding.",
+            "Useful context if interested in the human side of the human-vs-AI learning gap (see \"kids outlearn AI\" in the AI section today)."
+          ],
+          "badge": "DEEP DIVE",
+          "takeaway": "",
+          "why": "",
+          "source": "neuroscience – Quanta Magazine",
+          "url": "https://www.quantamagazine.org/a-new-framework-for-how-the-brain-compresses-our-noisy-world-20260824/",
+          "image": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Predictive-Categorization-cr-Zara-Picken-Default.webp",
+          "developing": false,
+          "hook": "Neuroscientists Lisa Feldman Barrett (Northeastern) and Earl Miller (MIT), writing in Nature Reviews Neuroscience, propose that the brain doesn't passively decode sensory input into fixed categories (\"cat,\" \"threat,\" \"food\") but instead predicts categories moment-to-moment based on the body's energy needs and context — before the senses have even finished processing.",
+          "points": [
+            "Evidence cited: 90% of synaptic connections in the visual cortex carry feedback (prediction) signals rather than feedforward (sensory) ones, and travelling neural \"waves\" encode goals and bodily state that combine with incoming sensory waves.",
+            "The framework explains why the same sensory input — a scratch on your leg — gets categorized as a snake bite in an unfamiliar dark field versus ignored on a safe street: internal state shapes categorization, not just the stimulus.",
+            "The authors argue categorization isn't localized to one brain region but happens across the whole nervous system."
+          ]
+        },
+        {
+          "headline": "Poor sleep may cause anxiety by blocking your brain's ability to adapt to threats",
+          "summary": "",
+          "signal": [
+            "Practical, not just interesting: if sleep loss is unavoidable (shift work, new parents), the finding points to exercise/heart-rate-variability as an actual lever, not just \"sleep more\" advice."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "New Scientist",
+          "url": "https://www.newscientist.com/article/2586177-lack-of-sleep-may-cause-anxiety-by-making-us-less-adaptable-to-threats/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+          "image": "https://www.newscientist.com/wp-content/uploads/2026/08/SEI_308905889.jpg",
+          "developing": false,
+          "hook": "A University of Melbourne study put 54 adults (18-30) through a virtual-reality \"haunted basement\" after either a full night's sleep or an all-nighter, tracking heart rate and skin conductance.",
+          "points": [
+            "Well-rested participants showed declining stress on repeat exposure to the same virtual threat — normal adaptation.",
+            "Sleep-deprived participants showed no such decline; their stress stayed elevated every time.",
+            "Among the sleep-deprived group, those with higher heart-rate variability (a marker of cardiovascular health) reported feeling less anxious despite similar physiological stress readings, suggesting exercise — which raises heart-rate variability — could be a partial mitigation.",
+            "Researchers frame chronic sleep-deprivation-driven hyperalertness as a plausible mechanistic link to anxiety disorders."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beyond Your Beat",
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "headline": "Porsche inks ==$1.5 billion AI deal== with India's Tata Consultancy",
+          "summary": "Porsche has signed a $1.5 billion AI deal with India's Tata Consultancy Services. (source unreachable — headline only)",
+          "signal": [
+            "A large India-linked AI services deal — no further detail available today; watch for follow-up reporting."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-24/porsche-inks-1-5-billion-ai-deal-with-india-s-tata-consultancy",
+          "image": null,
+          "developing": false
+        },
+        {
+          "headline": "China's Xi likely to visit India with a big delegation, ==first time in seven years==",
+          "summary": "China's Xi Jinping is likely to visit India with a large delegation, marking his first such visit in seven years. (source unreachable — headline only)",
+          "signal": [
+            "A potential thaw in India-China ties after years of border tension — worth watching for confirmation and agenda details."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/china/chinas-xi-likely-visit-india-with-big-delegation-first-time-seven-years-2026-08-24/",
+          "image": null,
+          "developing": true
+        },
+        {
+          "headline": "India in talks on 8-9 more trade blocs, aiming to cover ==75% of global trade==",
+          "summary": "",
+          "signal": [
+            "A useful macro data point on India's trade-integration trajectory — context for an economic-generalist lens, not directly actionable."
+          ],
+          "badge": "",
+          "takeaway": "",
+          "why": "",
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/business/Economy/piyush-goyal-says-india-negotiating-ftas-with-8-to-9-more-blocs-aims-to-cover-75-of-global-trade/article71383175.ece",
+          "image": null,
+          "developing": true,
+          "hook": "Commerce Minister Piyush Goyal, addressing business representatives in Tokyo, said India is negotiating with 8-9 more country groups covering another $15 trillion of GDP, on top of nine FTAs signed in the last four years covering $60 trillion of GDP across 38 developed countries (plus $10 trillion more via earlier pacts with Japan, Korea and ASEAN).",
+          "points": [
+            "Combined, India's trade agreements __would eventually cover roughly $70 trillion__ of the global economy today, rising to 75% of global trade once new negotiations close.",
+            "Goyal led a 200-plus-member business delegation to Japan, and flagged data centres, manufacturing and AI as priority investment areas for India."
+          ]
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "name": "Tech Policy Press Fellowship 2027",
+      "when": "Apply by Sept 24, 2026, 11:59pm EDT; fellowship runs Jan-Dec 2027",
+      "summary": "A year-long, part-time, remote fellowship ($10,000 stipend, paid quarterly) for journalists, researchers and policy professionals to produce monthly reporting or analysis at the intersection of technology and democracy — AI governance, digital rights, state-corporate power. Requires a monthly cohort call, a monthly editorial check-in, and a clear proposed focus area in the application (CV, two-page cover letter, published-work links, two references). Worth it for a credentialed, editorially-supported on-ramp into tech-policy writing alongside a founder's-office pivot — a global cohort, no in-person requirement.",
+      "source": "Tech Policy Press",
+      "url": "https://www.techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program/"
+    }
+  ],
+  "brief": [
+    {
+      "line": "Xpeng's robotics arm Dogotix raises $900M at $6.3B valuation",
+      "id": "deep-tech-b4f06c6909",
+      "url": "https://www.scmp.com/business/china-evs/article/3365096/ev-maker-xpeng-set-challenge-tesla-embodied-ai-after-robotics-unit-raises-us900m?utm_source=rss_feed"
+    },
+    {
+      "line": "General Intuition raising at $6B, up from $2.3B weeks ago",
+      "id": "ai-97614477a9",
+      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
+    },
+    {
+      "line": "Infineon to acquire Bengaluru's C2i Semiconductors",
+      "id": "india-deep-tech-df1f4af0aa",
+      "url": "https://m.economictimes.com/tech/technology/german-chipmaker-infineon-to-acquire-c2i-semiconductor-startup/articleshow/133472125.cms"
+    },
+    {
+      "line": "UPI turns 10: transactions up nearly 13,000-fold to 24,162 crore/year",
+      "id": "india-c53bc1168c",
+      "url": "https://kashmirlife.net/upi-turns-10-transactions-surge-nearly-13000-fold-as-indias-digital-payments-revolution-goes-global-448924/"
+    },
+    {
+      "line": "Trump slaps 50% tariff on Canadian cars, trucks and steel",
+      "id": "global-economics-d2d161f43a",
+      "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+    },
+    {
+      "line": "RBI holds repo rate at 5.25%, projects 6.9% GDP growth",
+      "id": "global-economics-393b29ec1f",
+      "url": "https://newsonair.gov.in/rbi-to-announce-its-first-bi-monthly-monetary-policy-statement-for-financial-year-2026-27-today/"
+    },
+    {
+      "line": "Porsche inks $1.5B AI deal with Tata Consultancy (unreachable, headline only)",
+      "id": "beyond-your-beat-87d751e309",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/porsche-inks-1-5-billion-ai-deal-with-india-s-tata-consultancy"
+    },
+    {
+      "line": "China's Xi likely to visit India with big delegation after 7 years",
+      "id": "beyond-your-beat-e03e5710a8",
+      "url": "https://www.reuters.com/world/china/chinas-xi-likely-visit-india-with-big-delegation-first-time-seven-years-2026-08-24/"
+    },
+    {
+      "line": "Khosla-backed Healthify merges with US's Berry Street",
+      "id": "indian-startups-d85060b272",
+      "url": "https://inc42.com/buzz/khosla-ventures-backed-healthify-merges-with-us-based-berry-street/"
+    },
+    {
+      "line": "India's E20 push: FCI sold rice to distillers at a ~₹10,000cr loss",
+      "id": "agritech-9177ca7e1e",
+      "url": "https://frontline.thehindu.com/the-nation/agriculture/india-ethanol-policy-e20-costs/article71383485.ece"
+    },
+    {
+      "line": "China's YMTC parent eyes up to $4.9B Shanghai IPO",
+      "id": "deep-tech-025e1546a0",
+      "url": "https://www.scmp.com/tech/big-tech/article/3365017/can-chinas-flash-memory-giant-ymtc-smash-shanghai-star-market-ipo-records?utm_source=rss_feed"
+    },
+    {
+      "line": "Heavy rain floods Delhi-NCR and Jaipur, diverts 15 flights",
+      "id": "india-4b2cd2cbd4",
+      "url": "https://www.thehindu.com/news/cities/Delhi/flight-diversions-in-delhi-ncr-traffic-jams-in-jaipur-as-north-indian-cities-reel-under-heavy-rain/article71386106.ece"
+    }
+  ],
+  "markets": {
+    "generated_at": "2026-08-24T23:49:42.876281+00:00",
+    "quotes": [
+      {
+        "label": "Nifty 50",
+        "value": 24219.05,
+        "unit": "",
+        "change_pct": -0.05,
+        "usd": false
+      },
+      {
+        "label": "Sensex",
+        "value": 77369.11,
+        "unit": "",
+        "change_pct": -0.22,
+        "usd": false
+      },
+      {
+        "label": "USD/INR",
+        "value": 95.73,
+        "unit": "₹",
+        "change_pct": -0.04,
+        "usd": false
+      },
+      {
+        "label": "Brent Crude",
+        "value": 92.13,
+        "unit": "$/bbl",
+        "change_pct": -2.39,
+        "usd": true
+      },
+      {
+        "label": "Bitcoin",
+        "value": 78907.73,
+        "unit": "$",
+        "change_pct": 1.48,
+        "usd": true
+      },
+      {
+        "label": "Gold",
+        "value": 145710,
+        "unit": "₹/10g",
+        "change_pct": 2.38,
+        "usd": false
+      },
+      {
+        "label": "Silver",
+        "value": 213748,
+        "unit": "₹/kg",
+        "change_pct": -0.03,
+        "usd": false
+      }
+    ]
+  }
+}
