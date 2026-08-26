@@ -1,0 +1,69 @@
+{
+  "date": "2026-08-26",
+  "lead": "indian-startups-0d863a3f5c",
+  "frontpage": [
+    "ai-4c0fc61716",
+    "deep-tech-c287e24d5a",
+    "world-c2ec09c1ed",
+    "global-economics-393b29ec1f",
+    "climate-energy-198b3cd8a8",
+    "india-5d63f3b6e3",
+    "health-tech-21f93be88b"
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": ["ai-4c0fc61716", "ai-e231bfe4fb", "ai-d95a58ad47", "ai-ff9845d836", "ai-aa7c370069"]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": ["deep-tech-c287e24d5a", "deep-tech-fd71d3bff6", "deep-tech-7ca044e953"],
+      "also": ["deep-tech-74fd8d04cd"]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": ["climate-energy-198b3cd8a8", "climate-energy-de2066c879", "climate-energy-38eb030a20", "climate-energy-82905f63c9"]
+    },
+    {
+      "slug": "health-tech",
+      "stories": ["health-tech-21f93be88b", "health-tech-945cf07e2e", "health-tech-469be1d1fb"]
+    },
+    {
+      "slug": "agritech",
+      "stories": ["agritech-45335ad726", "agritech-7feacb120a", "agritech-3c8aca1ff0"]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": ["indian-startups-0d863a3f5c", "indian-startups-43dfe9d7fc", "indian-startups-037cd803c2"],
+      "also": ["indian-startups-6fcb4d1139"]
+    },
+    {
+      "slug": "india-deep-tech",
+      "stories": ["india-deep-tech-e6868b5aa7"]
+    },
+    {
+      "slug": "global-economics",
+      "stories": ["global-economics-393b29ec1f", "global-economics-67d20f4464", "global-economics-81c2613ce5"]
+    },
+    {
+      "slug": "india",
+      "stories": ["india-d35e209342", "india-57c19f4571", "india-7da025114a"]
+    },
+    {
+      "slug": "world",
+      "stories": ["world-c2ec09c1ed", "world-2c5eeccd6b", "world-cb03001b92"],
+      "also": ["world-79e4b4d57a"]
+    },
+    {
+      "slug": "other-interests",
+      "stories": ["other-interests-626c2b7205", "other-interests-e4003c7b43"],
+      "also": ["other-interests-ce36f840d5"]
+    },
+    {
+      "slug": "beyond-your-beat",
+      "stories": ["beyond-your-beat-9cb9e0e78b", "beyond-your-beat-a1169c363b"]
+    }
+  ],
+  "opportunities": ["opportunities-752799fcb5", "opportunities-ea247bc836", "opportunities-850ab473ad"],
+  "longform": []
+}
