@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-28",
+  "lead": "india-9b246eea7b",
+  "frontpage": [
+    "ai-4832d5ccae",
+    "india-deep-tech-134608e03b",
+    "india-deep-tech-4f962921c6",
+    "deep-tech-a1fe21e174",
+    "ai-02984f3661",
+    "global-economics-b8449375ba",
+    "indian-startups-6d35bf2357",
+    "india-5ba5a86bb5"
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": ["ai-4832d5ccae", "ai-02984f3661", "ai-fc699955fc"],
+      "also": ["ai-5700b1aa91", "ai-27c35029e6"]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": ["deep-tech-a1fe21e174", "deep-tech-720596eee7", "deep-tech-3784577a23"],
+      "also": ["deep-tech-aec48a94dc"]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": ["climate-energy-d6f37f03d4", "climate-energy-4f4e87367a"],
+      "also": ["climate-energy-ae67e0655b"]
+    },
+    {
+      "slug": "health-tech",
+      "stories": ["health-tech-48cb5c9300", "health-tech-1a28308c83"],
+      "also": ["health-tech-82a646eff3"]
+    },
+    {
+      "slug": "agritech",
+      "stories": ["agritech-058e6bfe24"],
+      "also": ["agritech-b24fa995f5"]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": ["indian-startups-6d35bf2357", "indian-startups-08f7ec936d"],
+      "also": ["indian-startups-e3a974a985"]
+    },
+    {
+      "slug": "india-deep-tech",
+      "stories": [
+        "india-deep-tech-134608e03b",
+        "india-deep-tech-4f962921c6",
+        "india-deep-tech-4763972d5e",
+        "india-deep-tech-c4a8c1aa0b",
+        "india-deep-tech-74e9e5fbf1"
+      ]
+    },
+    {
+      "slug": "global-economics",
+      "stories": ["global-economics-b8449375ba"],
+      "also": ["global-economics-ba66b886d4"]
+    },
+    {
+      "slug": "india",
+      "stories": ["india-c4bf9c7849", "india-097cbda2d3", "india-5ba5a86bb5"],
+      "also": ["india-1ac06718be"]
+    },
+    {
+      "slug": "world",
+      "stories": ["world-c8702d147d"]
+    },
+    {
+      "slug": "other-interests",
+      "stories": ["other-interests-294fba32f2", "other-interests-a2a4a92315"]
+    },
+    {
+      "slug": "beyond-your-beat",
+      "stories": ["beyond-your-beat-c74135670c"]
+    }
+  ],
+  "opportunities": ["opportunities-df86f4d887", "opportunities-1c28f8b0ca"],
+  "longform": []
+}
