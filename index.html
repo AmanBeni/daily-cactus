@@ -7,7 +7,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 64'%3E%3Cpath d='M11 42 v-26 a9 9 0 0 1 18 0 v26 z' fill='%238FAE77' stroke='%234E6B44' stroke-width='3'/%3E%3Cpath d='M6 42 h28 l-4 20 h-20 z' fill='%23C97B4A' stroke='%238A5430' stroke-width='2.5'/%3E%3C/svg%3E">
 <!-- ?v= is a cache-buster: without it a returning visitor's browser
      serves the OLD app.js/style.css after a deploy. Bump on renderer changes. -->
-<link rel="stylesheet" href="style.css?v=20260719b">
+<link rel="stylesheet" href="style.css?v=20260829a">
 </head>
 <body>
 
@@ -67,16 +67,12 @@
 
 <div class="wrap">
   <header class="masthead">
-    <!-- Wordmark: LOCKED Option B — classic serif + one red swash + drawn cactus -->
-    <svg viewBox="0 0 640 96" role="img" aria-label="The Daily Cactus">
-      <text x="296" y="60" text-anchor="middle" font-family="Georgia" font-weight="700"
-        font-size="52" fill="#26221B">The Daily Cactus</text>
-      <g transform="translate(590,14) scale(.95)" filter="url(#pencil-soft)">
-        <use href="#cactus-doodle"/>
-      </g>
-      <path d="M120 78 Q 300 84, 476 78" fill="none" stroke="#C4432B" stroke-width="2.4"
-        stroke-linecap="round" opacity=".8" filter="url(#pencil)"/>
-    </svg>
+    <!-- Masthead: large riso wordmark image with the papercraft cactus beside
+         it; dateline sits plainly below. -->
+    <div class="masthead-lockup">
+      <img class="wordmark" src="assets/wordmark.png" alt="The Daily Cactus">
+      <img class="masthead-cactus" src="assets/logo-cactus.png" alt="" aria-hidden="true">
+    </div>
     <div class="dateline" id="dateline">Loading&hellip;</div>
   </header>
 
@@ -96,6 +92,6 @@
   <footer class="colo" id="colophon"></footer>
 </div>
 
-<script src="app.js?v=20260729a"></script>
+<script src="app.js?v=20260829a"></script>
 </body>
 </html>

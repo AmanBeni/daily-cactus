@@ -54,6 +54,14 @@ const PENCIL_RULES = [
 
 // ---------- image error handling (declared on window: inline onerror needs it) ----------
 window.daily = window.daily || {};
+// 3.2: mobile accordion toggle. Flips .open on the card; desktop CSS ignores it
+// (.card-collapse is always open there), so this is a no-op cost on desktop.
+window.daily.toggleCard = function (btn) {
+  const card = btn.closest(".story");
+  if (!card) return;
+  const open = card.classList.toggle("open");
+  btn.setAttribute("aria-expanded", open ? "true" : "false");
+};
 // P5: a broken image used to be replaced by a grey "no photo" cactus box on the
 // lead. An empty frame looks worse than no frame — remove it entirely and let
 // the text reflow to full width (see .no-figure in style.css).
@@ -436,9 +444,26 @@ function storyCardHTML(s, opts) {
       ${textBlock}
     </${tag}>`;
   }
+  // Non-lead: on mobile the body collapses behind a "Read more" toggle
+  // (3.2). kicker + headline + key-stat stay visible; summary/signal/meta
+  // live in .card-collapse. Desktop CSS keeps .card-collapse always open.
+  const collapseId = `col-${esc(opts.anchorId)}`;
+  const cardHead = `${kicker.join("")}
+        <h5>${headlineHTML}</h5>
+        ${keyStatHTML(s)}`;
+  const collapseBody = `${summaryBlockHTML(s)}
+        ${bodyHTML(s, tabVar)}
+        ${meta}`;
+  const toggle = `<button type="button" class="card-toggle" aria-expanded="false" ` +
+    `aria-controls="${collapseId}" onclick="daily.toggleCard(this)">` +
+    `<span class="ct-more">Read more</span><span class="ct-less">Show less</span></button>`;
   return `<${tag} ${attrs}>
     ${figureHTML(s, false)}
-    ${textBlock}
+    ${cardHead}
+    ${toggle}
+    <div class="card-collapse" id="${collapseId}"><div>
+        ${collapseBody}
+    </div></div>
   </${tag}>`;
 }
 
@@ -545,7 +570,8 @@ function renderEdition(ed) {
 
   // Pass 2: build HTML
   let html = "";
-  html += briefHTML(ed.brief, urlAnchors);
+  // 3.1: the 2-minute brief is removed. urlAnchors (Pass 1) is still built and
+  // used by the section cross-references below, so Pass 1 stays.
 
   // The lead lives OUTSIDE .grid2: .grid2 is a CSS multi-column container now,
   // and multi-column has no equivalent of grid-column:1/-1 for a full-width
@@ -605,7 +631,7 @@ function renderEdition(ed) {
   }
 
   $("#colophon").innerHTML = `${esc(ed.colophon || "")} &middot; assembled by hand every morning
-    <svg viewBox="0 0 40 64" aria-hidden="true"><use href="#cactus-doodle"/></svg>`;
+    <img class="colo-logo" src="assets/logo-cactus.png" alt="" aria-hidden="true">`;
 }
 
 // Best-effort section name for a frontpage story (frontpage stories carry no
