@@ -25,15 +25,31 @@
   --violet:#8B7BB8;    /* Other Interests / Beyond Your Beat */
   --sea:#4E9B8F;       /* Opportunities */
 
-  --serif:Georgia,"Times New Roman",serif;
-  --body:Georgia,"Times New Roman",serif;
-  --stamp:"American Typewriter","Courier New",monospace;
+  --riso-green:#1E4A2E;
+  --sig:var(--graphite);   /* The Signal: one colour page-wide (was per-section) */
+
+  /* Redaction — a newspaper typeface with risograph ink-grit. Self-hosted. */
+  --serif:"Redaction 35","Redaction",Georgia,serif;   /* headlines */
+  /* Body: swap to `Georgia,serif` to revert prose to a plain serif if Redaction
+     reads tiring on a dense day. Single token = one-line flip. */
+  --body:"Redaction",Georgia,"Times New Roman",serif;
+  --stamp:"Redaction",Georgia,serif;                  /* labels / UI */
 }
+
+/* Self-hosted Redaction faces (OFL). No runtime CDN dependency. */
+@font-face{font-family:"Redaction";font-weight:400;font-style:normal;font-display:swap;
+  src:url("assets/fonts/redaction-400.woff2") format("woff2")}
+@font-face{font-family:"Redaction";font-weight:700;font-style:normal;font-display:swap;
+  src:url("assets/fonts/redaction-700.woff2") format("woff2")}
+@font-face{font-family:"Redaction 35";font-weight:400;font-style:normal;font-display:swap;
+  src:url("assets/fonts/redaction35-400.woff2") format("woff2")}
+@font-face{font-family:"Redaction 35";font-weight:700;font-style:normal;font-display:swap;
+  src:url("assets/fonts/redaction35-700.woff2") format("woff2")}
 
 *{box-sizing:border-box}
 html{background:var(--kraft)}
 body{margin:0;color:var(--ink);font-family:var(--body);line-height:1.55;
-  background:url("data:image/png;base64,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") repeat,var(--kraft)}
+  background:url("assets/bg-oat.jpg") repeat,var(--kraft)}
 a{color:inherit}
 /* P4: was a hard 1060px cap, which left big empty margins on a wide monitor.
    Now fluid up to 1600px. Prose blocks inside cards keep their own ch-based
@@ -41,18 +57,25 @@ a{color:inherit}
    long lines — the card grows, the text column doesn't. */
 .wrap{max-width:min(2200px,96vw);margin:0 auto;padding:32px clamp(16px,2vw,40px) 96px}
 
-/* ---------- masthead ---------- */
+/* ---------- masthead: large riso wordmark + cactus beside it ---------- */
 .masthead{text-align:center;margin-bottom:8px}
-.masthead svg{max-width:560px;width:92%;height:auto}
+.masthead-lockup{display:flex;align-items:center;justify-content:center;
+  gap:clamp(10px,2vw,26px)}
+.wordmark{display:block;max-width:min(680px,82vw);width:100%;height:auto}
+.masthead-cactus{width:clamp(58px,9vw,104px);height:auto;flex:none;
+  filter:drop-shadow(0 3px 2px rgba(0,0,0,.18))}
 .dateline{font-family:var(--stamp);font-size:13px;letter-spacing:2.5px;
-  text-transform:uppercase;color:var(--faded);margin-top:0;text-align:center}
+  text-transform:uppercase;color:var(--faded);margin-top:10px;text-align:center}
 .dateline span{white-space:nowrap}
 
 /* ---------- date picker / controls (kept functional, restyled) ---------- */
 .datebar{display:flex;justify-content:center;align-items:center;gap:10px;
-  padding:6px 0 2px;font-family:var(--stamp);font-size:12px;color:var(--faded)}
+  padding:6px 0 2px;font-family:var(--stamp);font-size:12px;color:var(--faded);
+  max-width:100%;flex-wrap:wrap}
 .datebar select{font-family:var(--stamp);font-size:12px;background:var(--card);
-  color:var(--ink);border:1px solid var(--rule);border-radius:3px;padding:3px 8px}
+  color:var(--ink);border:1px solid var(--rule);border-radius:3px;padding:3px 8px;
+  /* long option labels used to force the select wider than a phone screen. */
+  max-width:min(72vw,420px);text-overflow:ellipsis}
 
 /* ---------- sticky-ish section nav ---------- */
 nav#nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 18px;
@@ -163,7 +186,7 @@ nav#nav .sep{color:var(--rule)}
 .story ul.points li{position:relative;padding-left:18px;margin-bottom:6px;
   font-size:15.5px;line-height:1.5}
 .story ul.points li::before{content:"";position:absolute;left:2px;top:.62em;
-  width:6px;height:6px;border-radius:50%;background:var(--tabc,var(--ink));opacity:.75}
+  width:6px;height:6px;border-radius:50%;background:#000;opacity:1}
 .story .src-flag-line{margin:-4px 0 8px}
 
 /* kicker: always two rows so headlines start at the same height */
@@ -174,11 +197,11 @@ nav#nav .sep{color:var(--rule)}
 
 .tab{display:inline-block;font-family:var(--stamp);font-size:11px;letter-spacing:2px;
   text-transform:uppercase;color:var(--ink);padding:4px 14px 3px;border-radius:3px;
-  box-shadow:1.5px 1.5px 0 rgba(78,64,40,.22);transform:rotate(-.8deg);
+  box-shadow:1.5px 1.5px 0 rgba(78,64,40,.22);
   background:var(--tabc,var(--clay))}
 .badge-dev{display:inline-block;font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;
   text-transform:uppercase;color:var(--card);background:var(--red);padding:3px 10px 2px;
-  border-radius:3px;transform:rotate(.6deg)}
+  border-radius:3px}
 .badge-custom{display:inline-block;font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;
   text-transform:uppercase;color:var(--ink);border:1.2px solid var(--faded);padding:2px 9px}
 
@@ -201,23 +224,27 @@ nav#nav .sep{color:var(--rule)}
 .story:not(.lead-story) .figure{margin-top:-2px}
 
 /* ---------- The Signal: quiet, left bar, no tint ---------- */
+/* 3.4: The Signal is ONE colour across the whole page (graphite), not tinted
+   per section. Editor's Read stays the single red accent (see .signal.editors). */
 .signal{font-size:14.5px;padding:2px 0 2px 14px;margin:8px 0;max-width:60ch;
-  border-left:3px solid var(--tabc,var(--clay))}
+  border-left:3px solid var(--sig)}
 .signal b{font-family:var(--stamp);font-size:11px;letter-spacing:2px;
-  text-transform:uppercase;display:block;margin-bottom:4px;color:var(--tabc,var(--clay))}
+  text-transform:uppercase;display:block;margin-bottom:4px;color:var(--sig)}
 .signal ul{margin:0;padding-left:18px}
 .signal li{margin-bottom:4px}
-/* Editor's Read: the ONE tinted voice per card */
-.signal.editors{--tabc:var(--red);background:color-mix(in srgb,var(--red) 8%,#FFFDF6);
+.signal li::marker{color:#000}   /* 3.5: black bullets */
+/* Editor's Read: the ONE red voice per card — override --sig so its bar + label
+   are red while every plain Signal stays graphite. */
+.signal.editors{--sig:var(--red);background:color-mix(in srgb,var(--red) 8%,#FFFDF6);
   padding:8px 14px;border-radius:2px;border-left-width:3px}
-/* legacy takeaway/why fallback, restyled to Cactus Craft */
+/* legacy takeaway/why fallback — same single-colour treatment as .signal */
 .legacy-take{font-size:14.5px;margin:6px 0}
-.legacy-take b{color:var(--red);font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;
+.legacy-take b{color:var(--sig);font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;
   text-transform:uppercase}
-.legacy-why{font-size:14.5px;padding:8px 14px;margin:6px 0;border-left:3px solid var(--tabc,var(--clay));
-  background:color-mix(in srgb,var(--tabc,var(--clay)) 6%,#FFFDF6)}
+.legacy-why{font-size:14.5px;padding:8px 14px;margin:6px 0;border-left:3px solid var(--sig);
+  background:color-mix(in srgb,var(--sig) 6%,#FFFDF6)}
 .legacy-why b{font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
-  color:var(--tabc,var(--clay));display:block;margin-bottom:2px}
+  color:var(--sig);display:block;margin-bottom:2px}
 
 .meta{font-family:var(--stamp);font-size:11px;color:var(--faded);display:flex;gap:16px;
   align-items:center;margin-top:8px;flex-wrap:wrap}
@@ -294,6 +321,7 @@ a.sk:hover{background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.
   text-transform:uppercase;margin:0 0 6px}
 .also-rail ul{margin:0;padding-left:18px}
 .also-rail li{margin-bottom:5px;max-width:74ch}
+.also-rail li::marker{color:#000}
 
 /* ---------- The 2-minute brief ---------- */
 .brief-card{margin-top:24px}
@@ -311,7 +339,7 @@ a.sk:hover{background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.
   .brief-card ol{columns:3;column-gap:52px}
 }
 .brief-card li{margin-bottom:8px;font-size:15.5px;break-inside:avoid}
-.brief-card li::marker{font-family:var(--stamp);color:var(--red)}
+.brief-card li::marker{font-family:var(--stamp);color:#000}
 
 /* ---------- opportunities ---------- */
 .opp{display:flex;gap:16px;align-items:baseline;padding:13px 24px;margin-top:16px;font-size:15px;
@@ -323,11 +351,37 @@ a.sk:hover{background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.
 .colo{text-align:center;font-family:var(--stamp);font-size:11px;color:var(--faded);
   margin-top:48px;padding-top:16px;border-top:1.5px solid var(--rule)}
 .colo svg{width:14px;height:18px;vertical-align:-4px;margin-left:6px}
+.colo-logo{height:26px;width:auto;vertical-align:-8px;margin-left:8px}
 
 /* ---------- states ---------- */
 .status{text-align:center;padding:64px 20px;font-family:var(--stamp);color:var(--faded)}
 
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+/* 3.7: smooth scrolling for nav jumps / anchors. */
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* ---------- 3.2: mobile accordion (single column, tap headline area to open) ----
+   Desktop (>=700px): toggle hidden, content always visible. Below 700px each
+   non-lead card collapses to headline + kicker + key-stat; a "Read more" button
+   expands the rest. The LEAD never gets this markup (app.js), so it stays open.
+   max-height (px) transition is used because it is reliable across browsers. */
+.card-toggle{display:none}
+.card-collapse{overflow:hidden;max-height:none}
+@media(max-width:699px){
+  .card-toggle{display:flex;align-items:center;gap:6px;width:100%;margin:10px 0 2px;
+    background:none;border:none;border-top:1px solid var(--rule);padding-top:10px;
+    font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
+    color:var(--faded);cursor:pointer;text-align:left}
+  .card-toggle::after{content:"\25BE";margin-left:auto;transition:transform .2s}
+  .card-toggle:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+  .card-toggle .ct-less{display:none}
+  .story.open .card-toggle .ct-more{display:none}
+  .story.open .card-toggle .ct-less{display:inline}
+  .story.open .card-toggle::after{transform:rotate(180deg)}
+  .card-collapse{max-height:0;transition:max-height .35s ease}
+  .story.open .card-collapse{max-height:1600px}
+}
+@media(max-width:699px) and (prefers-reduced-motion:reduce){.card-collapse{transition:none}}
 
 /* ---------- mobile 375px ---------- */
 @media(max-width:480px){
