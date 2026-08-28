@@ -1,0 +1,466 @@
+{
+  "date": "2026-08-28",
+  "brief": [
+    { "id": "india-9b246eea7b", "line": "Nepal flash floods kill at least 157, ~133 Indians among the missing" },
+    { "id": "ai-4832d5ccae", "line": "Bill Gates calls for 'human-reserved' jobs in 6,000-word AI essay" },
+    { "id": "india-deep-tech-134608e03b", "line": "InspeCity raises ₹100 crore for satellite-servicing robots" },
+    { "id": "deep-tech-a1fe21e174", "line": "Tata, L&T, HCL, CG Power have put ₹4,157 crore into India's chip push" },
+    { "id": "ai-02984f3661", "line": "OpenAI launches ChatGPT Ads in India with WPP, Omnicom" },
+    { "id": "global-economics-b8449375ba", "line": "Meta to pay up to $18bn settling US teen-safety lawsuits" },
+    { "id": "india-097cbda2d3", "line": "UPI turns 10: 24,162 crore transactions a year, up from 1.78 crore" },
+    { "id": "climate-energy-d6f37f03d4", "line": "India's renewables hit 288 GW, 54% of installed capacity" },
+    { "id": "agritech-058e6bfe24", "line": "India's monsoon 13% below normal, 14 states in deficit" },
+    { "id": "world-c8702d147d", "line": "World Bank lifts India's FY26 growth forecast to 6.6%" },
+    { "id": "indian-startups-08f7ec936d", "line": "Drone startup Airbound raises $37M, eyes quick commerce and passengers" },
+    { "id": "deep-tech-3784577a23", "line": "London surgeons perform first AI-assisted brain tumour operation" }
+  ],
+  "lead": {
+    "id": "india-9b246eea7b",
+    "headline": "Nepal flash floods kill at least 157, hundreds missing including ~133 Indians",
+    "summary": "At least 157 people are confirmed dead and more than 400 — including around 133 Indians — are missing or out of contact after a flash flood tore through Nepal's Bhotekoshi River valley in Rasuwa district, on the border with China's Tibet region, on Wednesday morning. The flood destroyed 19 motorable bridges and 40 kilometres of road; several security personnel, government officials and hydropower-project employees are also unaccounted for. PM Balendra Shah called the disaster 'sudden' and 'massive' and said rescue operations would continue through the night. India has sent the first tranche of relief materials.",
+    "signal": [
+      "Confirmed toll (157) is likely to rise — officials say a full damage assessment will take days.",
+      "Around 133 of the missing are Indian nationals, making this a live consular and humanitarian story to track, not just a Nepal story."
+    ],
+    "key_stat": "157 dead · ~133 Indians missing",
+    "editors_read": "The gap between confirmed dead (157) and missing (400+) means this story's real shape is still unknown — expect the toll to climb sharply once access to Rasuwa's cut-off areas improves. Watch whether India's relief response, already underway, scales into a full disaster-diplomacy moment given the number of Indian nationals affected and the strategic weight Delhi places on Nepal ties.",
+    "developing": true,
+    "badge": ""
+  },
+  "frontpage": [
+    {
+      "id": "ai-4832d5ccae",
+      "headline": "Bill Gates: carve out 'human-reserved' jobs before AI takes the rest",
+      "summary": "In a 6,000-word essay — his first lengthy piece on AI in three years — Bill Gates called for certain jobs to be deliberately set aside for humans only, comparing the idea to nature reserves: 'places where we could put buildings and roads, but we choose not to because the loss would be too great.' He cited caregiving — pointing to the health professionals who cared for his father, who died of Alzheimer's six years ago — as a domain no robot should take over, even if it technically could. Gates warned governments are unprepared for AI's scope, comparing the needed response to the US government's post-9/11 reorganisation, but 'much, much more' — spanning national security, employment, education, taxation, energy, elections and the financial system. He said his team is arranging a meeting with Xi Jinping in November on global AI-risk cooperation, and flagged a preliminary survey linking heavier AI use to reduced critical thinking, with a stronger effect in young people.",
+      "signal": [
+        "'Human-reserved' is a specific policy proposal, not just a warning — worth tracking who picks it up.",
+        "A useful frame for the reader's own career pivot: which roles are structurally 'human-reserved' vs. automatable is now a live design question, not a hypothetical."
+      ],
+      "editors_read": "Gates picking caregiving as his flagship example — rather than creative or strategic work — suggests the 'human-reserved' argument will mostly get invoked to protect low-wage, high-empathy jobs rather than knowledge work, which cuts against how most white-collar AI-anxiety framing runs. The Xi meeting detail is the more consequential thread: if US-China coordination on AI actually convenes in November, that's a bigger story than the essay itself.",
+      "developing": false
+    },
+    {
+      "id": "india-deep-tech-134608e03b",
+      "headline": "Spacetech startup InspeCity raises ₹100 crore to build robots that repair satellites in orbit",
+      "summary": "Bengaluru-based InspeCity has raised ₹100 crore (~$10.5 million) in a pre-Series A round led by Speciale Invest and angel investor Ashish Kacholia, with Antler Elevate, Antler India and Shastra VC also participating. Founded in 2022, the company builds VEDA, an autonomous in-space servicing system with four components — a propulsion unit (GITA), a sensing/navigation system (CHAKSU), a robotic arm (RAMA), and a docking/refuelling mechanism (SPARSH) — designed to inspect, refuel and repair satellites that are otherwise abandoned once they run low on fuel, rather than letting them become space junk. The funding will support four in-orbit missions over the next 12-18 months across its RIG, VEDA and SAMA mission lines, plus scaling commercial deployment of its GITA propulsion systems.",
+      "signal": [
+        "In-space servicing is a genuinely hard, capital-intensive category — InspeCity claims a full in-house stack (propulsion, robotics, docking), which its lead investor calls rare globally.",
+        "Satellite life-extension is the wedge; the bigger bet is infrastructure for a broader in-space economy — worth watching as a case study in deep-tech go-to-market."
+      ],
+      "editors_read": "The pitch — satellite life-extension first, in-space economy infrastructure later — mirrors the staged playbook SpaceX and Rocket Lab used: prove one commercial function, then own the platform underneath a whole category. Four in-orbit missions in 12-18 months is an aggressive hardware timeline; whether InspeCity hits it will be the real test of whether India's deep-tech capital is buying genuine technical moats or optimistic roadmaps.",
+      "developing": false
+    },
+    {
+      "id": "india-deep-tech-4f962921c6",
+      "headline": "Skyroot backer Aum Ventures raising second fund from Indian LPs",
+      "summary": "Aum Ventures, an early backer of space-launch startup Skyroot, is raising a second fund and turning to domestic LPs as India's institutional appetite for deep-tech investing grows, according to a DealStreetAsia report. (summary from limited source text)",
+      "signal": [
+        "A second fund from a deep-tech-focused VC is itself a signal of maturing domestic LP appetite for the category — worth tracking who else follows."
+      ],
+      "developing": false
+    },
+    {
+      "id": "deep-tech-a1fe21e174",
+      "headline": "Tata, L&T, HCL and CG Power have put ₹4,157 crore into India's chip push so far",
+      "summary": "Four of India's largest conglomerates have cumulatively invested more than ₹4,157 crore (~$500 million) in semiconductor projects over the past two financial years, against ₹1.29 trillion in total projects announced under the India Semiconductor Mission. Tata Electronics has put in ₹2,401 crore across six tranches into its Dholera (Gujarat) fab and Jagiroad (Assam) assembly-and-test plant — a combined ₹1.18 trillion project approved in February 2025. CG Power has invested ₹820 crore in CG Semi, its OSAT joint venture with Renesas and Stars Microelectronics in Sanand, which began commercial chip supplies on 4 July. HCL Group put ₹124 crore into India Chip, its 60:40 JV with Foxconn building a ₹3,700-crore plant in Jewar, UP. L&T has invested ₹812 crore in its chip-design arm, L&T Semiconductor Technologies, which has started generating early revenue and targets ₹5,000 crore by FY31 — without government incentives. With subsidies covering at least 70% of announced project costs, the money invested so far is a fraction of the ₹1.29 trillion committed. India's chip consumption has grown 18-20% CAGR over eight years, from $15 billion (2018) to an estimated $62 billion (2026), and is projected to reach $155 billion by 2031 — about 9% of global consumption.",
+      "signal": [
+        "The conglomerates are acting as anchor investors — a credibility signal for the ecosystem, per industry body IESA — but 70%+ of project cost is government-subsidised, so this isn't yet proof of standalone commercial viability.",
+        "L&T's chip-design arm is the one bet not leaning on subsidies at all — worth watching as the more organic test case."
+      ],
+      "key_stat": "₹4,157 crore invested vs ₹1.29 trillion committed",
+      "developing": false
+    },
+    {
+      "id": "ai-02984f3661",
+      "headline": "OpenAI brings ads to ChatGPT in India, its first major ad market, with WPP and Omnicom as launch partners",
+      "summary": "OpenAI has launched ChatGPT Ads for Free and Go tier users in India, with more than 50 brands set to run campaigns this week — one of the first markets where OpenAI is scaling advertising. WPP and Omnicom are its first (non-exclusive) agency partners in the country. Ads will appear below relevant ChatGPT responses, labelled as sponsored, and OpenAI says they won't influence the underlying answers or access users' conversations, chat history or personal details — advertisers get only aggregate performance data. Ads are excluded for under-18 or predicted-under-18 accounts and from sensitive topics like mental health and politics. A self-serve ChatGPT Ads Manager rolls out September 4, with daily budgets starting at ₹725. OpenAI said its weekly active users in India have doubled year-on-year.",
+      "signal": [
+        "India getting picked as a first-scale ad market (not the US) signals OpenAI sees more monetisable volume and appetite here than the usual playbook assumes.",
+        "₹725 minimum daily budget is deliberately low — this is built to onboard small Indian businesses, not just enterprise advertisers, which is the more interesting long-term story than the WPP/Omnicom tie-ups."
+      ],
+      "developing": false
+    },
+    {
+      "id": "global-economics-b8449375ba",
+      "headline": "Meta to pay up to $18bn and add teen safety limits, settling US addiction lawsuits",
+      "summary": "Meta has agreed to pay up to $18 billion over 10 years to settle a landmark lawsuit brought by California and 28 other US states, which accused the company of designing Instagram and Facebook to be addictive to children and of collecting data on under-13s without parental consent. The settlement — reached after just four days of a trial expected to run weeks — requires Meta to add daily usage limits, block night-time use nationwide, stop notifications during school hours, and ban plastic-surgery filters, changes California AG Rob Bonta said would happen 'within months.' California gets $1.5-2.1 billion of the payout; Colorado about $615 million. Meta denies wrongdoing. Its chief legal officer called for TikTok, Snap and YouTube to adopt the same framework, saying an industry-wide fix is needed since teens 'move fluidly across dozens of apps.' The trial's star witness, whistleblower Arturo Béjar, testified Meta had a 'don't ask, don't tell' approach to child safety and that CEO Mark Zuckerberg knew of the harms while publicly touting safety. Meta, YouTube, TikTok and Snap still face thousands of similar suits; Meta and YouTube already lost a separate case in February ($6m payout), and Meta was separately ordered to pay nearly $1bn to New Mexico over child sexual exploitation on its platforms.",
+      "signal": [
+        "This is the first time Meta has been forced to change core product features for all US users, not just settle with money — a genuine precedent.",
+        "Meta explicitly wants competitors bound by the same rules, which suggests it sees this as a cost-of-doing-business problem better solved industry-wide than as a competitive edge to sit on alone."
+      ],
+      "key_stat": "$18bn settlement · 10-year payout",
+      "developing": false
+    },
+    {
+      "id": "indian-startups-6d35bf2357",
+      "headline": "Micromax launches ₹250 crore family office to back deep-tech startups",
+      "summary": "Micromax Informatics has set up a ₹250 crore family office that will invest in early-stage startups across AI, semiconductors, defence, space technology and robotics. (summary from limited source text)",
+      "signal": [
+        "Another Indian consumer-electronics conglomerate turning family capital toward deep tech is a small but real data point for evidence-over-vision — worth watching for its first actual cheques."
+      ],
+      "developing": false
+    },
+    {
+      "id": "india-5ba5a86bb5",
+      "headline": "AI is forcing a redesign of India's data centres — cooling, power and location all shifting",
+      "summary": "Speaking at the ET National Data Centers Summit 2026 in New Delhi, industry leaders said AI could grow India's data-centre AI capacity by roughly 20x from current levels, even as overall capacity expands 5-7x — a much faster pace, per Digital Edge India CEO Sairam Prasad. NTT's Vimal Kaw said new high-density AI hardware is pushing operators from air cooling toward liquid cooling, and that electrical architecture will need redesigning as rack densities move from roughly 20 kW towards 100 kW and beyond. Equinix's Manoj Paul said compute workloads may move outside cities while inferencing stays close to customers — mirroring cloud's earlier evolution. Prasa's Jay Burse said the industry needs to shift toward prefabricated, factory-built power and cooling modules rather than traditional on-site construction, though India's manufacturing and certification ecosystem isn't yet ready for that scale.",
+      "signal": [
+        "The 20x AI-capacity-growth figure (vs 5-7x overall) is the concrete takeaway — infrastructure buildout is set to outpace generic data-centre growth by a wide margin.",
+        "Relevant background for anyone evaluating India AI-infra plays: cooling and power redesign, not GPU supply, is emerging as the binding constraint."
+      ],
+      "developing": false
+    }
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": [
+        {
+          "id": "ai-4832d5ccae",
+          "headline": "Bill Gates: carve out 'human-reserved' jobs before AI takes the rest",
+          "summary": "In a 6,000-word essay — his first lengthy piece on AI in three years — Bill Gates called for certain jobs to be deliberately set aside for humans only, comparing the idea to nature reserves: 'places where we could put buildings and roads, but we choose not to because the loss would be too great.' He cited caregiving — pointing to the health professionals who cared for his father, who died of Alzheimer's six years ago — as a domain no robot should take over, even if it technically could. Gates warned governments are unprepared for AI's scope, comparing the needed response to the US government's post-9/11 reorganisation, but 'much, much more' — spanning national security, employment, education, taxation, energy, elections and the financial system. He said his team is arranging a meeting with Xi Jinping in November on global AI-risk cooperation, and flagged a preliminary survey linking heavier AI use to reduced critical thinking, with a stronger effect in young people.",
+          "signal": [
+            "'Human-reserved' is a specific policy proposal, not just a warning — worth tracking who picks it up.",
+            "A useful frame for the reader's own career pivot: which roles are structurally 'human-reserved' vs. automatable is now a live design question."
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-02984f3661",
+          "headline": "OpenAI brings ads to ChatGPT in India, its first major ad market, with WPP and Omnicom as launch partners",
+          "summary": "OpenAI has launched ChatGPT Ads for Free and Go tier users in India, with more than 50 brands set to run campaigns this week — one of the first markets where OpenAI is scaling advertising. WPP and Omnicom are its first (non-exclusive) agency partners in the country. Ads will appear below relevant ChatGPT responses, labelled as sponsored, and OpenAI says they won't influence the underlying answers or access users' conversations, chat history or personal details — advertisers get only aggregate performance data. Ads are excluded for under-18 or predicted-under-18 accounts and from sensitive topics like mental health and politics. A self-serve ChatGPT Ads Manager rolls out September 4, with daily budgets starting at ₹725. OpenAI said its weekly active users in India have doubled year-on-year.",
+          "signal": [
+            "India getting picked as a first-scale ad market (not the US) signals OpenAI sees more monetisable volume and appetite here than the usual playbook assumes.",
+            "₹725 minimum daily budget is deliberately low — built to onboard small Indian businesses, the more interesting long-term story than the agency tie-ups."
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-fc699955fc",
+          "headline": "Google DeepMind takes India-built agri AI models to six African nations",
+          "summary": "Google DeepMind is taking agricultural AI models built in India to six African nations. (source unreachable — headline only)",
+          "signal": [
+            "Useful context on Global South AI diffusion patterns, not independently actionable without more detail."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "ai-5700b1aa91", "line": "Robotics startup Generalist hits $3B valuation after a $200M add-on to its Series B, sources say" },
+        { "id": "ai-27c35029e6", "line": "Nasscom: enterprise AI pilots in India and UAE stall on unglamorous execution gaps, not the models" }
+      ]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "id": "deep-tech-a1fe21e174",
+          "headline": "Tata, L&T, HCL and CG Power have put ₹4,157 crore into India's chip push so far",
+          "summary": "Four of India's largest conglomerates have cumulatively invested more than ₹4,157 crore (~$500 million) in semiconductor projects over the past two financial years, against ₹1.29 trillion in total projects announced under the India Semiconductor Mission. Tata Electronics has put in ₹2,401 crore across six tranches into its Dholera (Gujarat) fab and Jagiroad (Assam) assembly-and-test plant — a combined ₹1.18 trillion project approved in February 2025. CG Power has invested ₹820 crore in CG Semi, its OSAT joint venture with Renesas and Stars Microelectronics in Sanand, which began commercial chip supplies on 4 July. HCL Group put ₹124 crore into India Chip, its 60:40 JV with Foxconn building a ₹3,700-crore plant in Jewar, UP. L&T has invested ₹812 crore in its chip-design arm, L&T Semiconductor Technologies, which has started generating early revenue and targets ₹5,000 crore by FY31 — without government incentives. With subsidies covering at least 70% of announced project costs, the money invested so far is a fraction of the ₹1.29 trillion committed. India's chip consumption has grown 18-20% CAGR over eight years, from $15 billion (2018) to an estimated $62 billion (2026), and is projected to reach $155 billion by 2031 — about 9% of global consumption.",
+          "signal": [
+            "The conglomerates are acting as anchor investors — a credibility signal, per industry body IESA — but 70%+ of project cost is government-subsidised, so this isn't yet proof of standalone commercial viability.",
+            "L&T's chip-design arm is the one bet not leaning on subsidies at all — worth watching as the more organic test case."
+          ],
+          "key_stat": "₹4,157 crore invested vs ₹1.29 trillion committed",
+          "developing": false
+        },
+        {
+          "id": "deep-tech-720596eee7",
+          "headline": "China's top chip packaging firms launch $2.2bn capacity expansion on AI demand",
+          "summary": "China's three leading outsourced chip-packaging firms — JCET, Tongfu Microelectronics and Huatian Technology — have announced capacity expansion investments exceeding a combined 15 billion yuan (~$2.2 billion) in H1 2026, riding the AI demand surge. JCET, China's largest packaging and testing firm, saw net profit jump 79.4% year-on-year to 845 million yuan on record revenue of 19.5 billion yuan; in June it unveiled a 7.8-billion-yuan advanced-packaging facility for AI chips in Shanghai, due to complete phase one in H2 2028. Tongfu Microelectronics has forecast a H1 profit surge of up to 337% year-on-year, helped by a partnership tied to AMD's next-generation processors, and plans to add 849,600 wafers of annual memory capacity after a 4.2-billion-yuan share placement.",
+          "signal": [
+            "Packaging/testing — the 'boring' final step of chipmaking — is where China's AI-chip capacity is actually scaling fastest right now, ahead of more headline-grabbing fab announcements.",
+            "Relevant benchmark for India's own semiconductor push: China's packaging firms are self-funding expansion off real profit growth, not primarily subsidy-driven."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-3784577a23",
+          "headline": "London surgeons perform first AI-assisted brain tumour operation, saving a patient's sight",
+          "summary": "Neurosurgeons at University College London's National Hospital for Neurology and Neurosurgery performed the world's first successful AI-assisted operation to remove a brain tumour, in May, on 48-year-old Rhys Hibbert — a case only disclosed once he'd recovered. The AI system analysed live camera footage during the operation, colour-coding nerves, blood vessels and other structures near the 11mm tumour on Hibbert's pituitary gland, while the surgical team stayed in full control. Hibbert, who faced going blind without surgery, could see clearly on waking and was walking independently within a week; he's since returned to work. The hospital had previously used the AI tool only as a research aid. Technical lead Dr Sophia Bano said the system, trained on hundreds of surgical videos, helps recognise critical anatomy 'in real time' during delicate procedures.",
+          "signal": [
+            "A real deployment with a named, verified patient outcome — the kind of evidence-over-demo case worth weighing more heavily than lab announcements.",
+            "Worth tracking whether this AI-assist model (human surgeon retains control, AI highlights anatomy) becomes the template for surgical AI adoption, versus more autonomous approaches."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "deep-tech-aec48a94dc", "line": "Feynman's 80-year-old path-integral postulate directly verified by experiment for the first time (summary from limited source text)" }
+      ]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "id": "climate-energy-d6f37f03d4",
+          "headline": "India's renewable capacity hits 288 GW, now 54% of installed power capacity",
+          "summary": "India's renewable energy portfolio reached 288 GW as of June 30, 2026 — about 54% of total installed power capacity — per JMK Research's Q2 2026 update. Solar leads at 56% (162 GW), followed by wind (20%, 57 GW) and large hydro (18%, 52 GW). Renewables supplied 26.35% of India's total electricity output in Q2 (up from 22% in Q1), with generation up 33.8% quarter-on-quarter. Utility-scale solar additions in H1 2026 hit about 19 GW (up 32% YoY), and rooftop solar jumped 104% YoY to 6.4 GW, driven largely by the PM Surya Ghar scheme. But Q2 utility-scale solar additions slowed 43% quarter-on-quarter, which JMK links to new ALMM List-II compliance rules from June 1. Curtailment of renewable power spiked 558.5% quarter-on-quarter to a record 1,874 million units, with solar taking the brunt. The sector drew $4.8 billion in Q2 funding, up 126% sequentially, led by debt financing.",
+          "signal": [
+            "Curtailment hitting a record — up 558% QoQ — is the real story buried in this report: India is now adding renewable capacity faster than the grid can absorb it in some states, especially with new ALMM compliance friction slowing fresh solar.",
+            "54% of installed capacity from renewables is a genuine milestone, but the output share (26%) still lags far behind the capacity share, reflecting solar's intermittency."
+          ],
+          "key_stat": "288 GW · 54% of installed capacity",
+          "developing": false,
+          "badge": "DATA"
+        },
+        {
+          "id": "climate-energy-4f4e87367a",
+          "headline": "Varroc developing rare-earth-free EV motors to cut China dependence",
+          "summary": "Varroc Engineering, one of India's largest auto component makers, is developing electric-vehicle traction motors that don't require heavy rare-earth minerals, after China's export curbs on those materials last year, CEO Arjun Jain told Nikkei Asia. The move is part of a broader push by Indian and global manufacturers to reduce supply-chain reliance on China for rare earths.",
+          "signal": [
+            "A concrete, if early-stage, example of Indian manufacturing responding to a real geopolitical supply shock rather than a hypothetical one.",
+            "Worth revisiting once Varroc has performance/cost figures for the rare-earth-free motor — this is still an intent, not a shipped product."
+          ],
+          "developing": true
+        }
+      ],
+      "also": [
+        { "id": "climate-energy-ae67e0655b", "line": "Over 40% of children under 10 now face 20+ extra 'heat-stress days' a year from climate change, study finds (summary from limited source text)" }
+      ]
+    },
+    {
+      "slug": "health-tech",
+      "stories": [
+        {
+          "id": "health-tech-1a28308c83",
+          "headline": "India's spacetech startups eye microgravity drug manufacturing as a new frontier",
+          "summary": "Indian spacetech startups are moving beyond satellites and launch vehicles into microgravity-based pharmaceutical manufacturing, where the absence of gravity lets researchers grow more uniform protein crystals — useful for drug discovery. Odisha-based Serendipity flight-tested a prototype satellite carrying its autonomous pharma-manufacturing payload 'Alchemy' via a high-altitude balloon at TIFR's Hyderabad facility this month. Andhra Pradesh's AnduraX is building a reusable spaceplane targeting up to 90 days in orbit for microgravity research and pharma manufacturing, aimed at global pharma clients doing protein crystallisation. Bengaluru's Akashalabdhi is building inflatable modular space habitats and cites a project developing a pancreatic-cancer treatment via crystal-structure manipulation. India's spacetech sector has attracted $8.4 billion across 399 startups to date. Globally, the category is already commercial: Merck tested Keytruda crystallisation on the ISS as far back as 2017, Redwire's SpaceMD subsidiary has flown 54 protein-crystallisation micro-labs and tested 37 drug compounds, and Varda Space is running a formulation collaboration with United Therapeutics for a rare pulmonary disease. The global pharma-in-microgravity market is estimated at $768 million (2024), projected to reach $3 billion by 2033 (16.7% CAGR).",
+          "signal": [
+            "India's players (Serendipity, AnduraX, Akashalabdhi) are all still at prototype/flight-test stage, while the US already has commercial contracts (Merck, Varda) — a useful gap to track for India deep-tech opportunities in this niche.",
+            "The market-size numbers ($768M to $3B by 2033) suggest this stays a small, specialist category for years yet, not an imminent scale story."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "health-tech-82a646eff3", "line": "Northeastern capstone study: AI still underperforms human researchers in drug discovery, despite a market headed to $13.8bn by 2033 (summary from limited source text)" }
+      ]
+    },
+    {
+      "slug": "agritech",
+      "stories": [
+        {
+          "id": "agritech-058e6bfe24",
+          "headline": "India's monsoon rainfall 13% below normal, with 14 states in deficit",
+          "summary": "India's cumulative monsoon rainfall stood 13% below normal between June 1 and August 26 — 577.8mm against a normal 664.7mm — per IMD data, with 14 states/UTs classified as deficient and 310 of the assessed districts in deficit (38 'large deficient'). East/northeast India is down 27% (759.6mm vs. normal 1,037.1mm) and the south peninsula down 22% (412.5mm vs. 529.4mm). Meghalaya has the steepest shortfall at 58% below normal, followed by Manipur (43%), Bihar (42%), Arunachal Pradesh (40%) and Andhra Pradesh (39%); Rajasthan is at 21% and Kerala at 20%. The deficits coexist with excess rainfall elsewhere — Odisha is 28% above normal and Delhi 20% above. IMD forecasts subdued rainfall continuing over peninsular India, with wider rain expected over Uttarakhand, UP, MP, Chhattisgarh and the east/northeast through end-August.",
+          "signal": [
+            "A genuinely underreported number given how much India-macro coverage focuses on GDP and inflation — a 13% monsoon deficit this late in the season has direct implications for kharif crop yields and rural demand.",
+            "The regional split matters more than the national average: an uneven monsoon (deficit and excess coexisting) complicates both crop insurance payouts and reservoir planning."
+          ],
+          "key_stat": "13% monsoon deficit · 14 states affected",
+          "developing": false,
+          "badge": "DATA"
+        }
+      ],
+      "also": [
+        { "id": "agritech-b24fa995f5", "line": "India presses for sustained global finance for land restoration and drought resilience at UN COP17 (summary from limited source text)" }
+      ]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "id": "indian-startups-6d35bf2357",
+          "headline": "Micromax launches ₹250 crore family office to back deep-tech startups",
+          "summary": "Micromax Informatics has set up a ₹250 crore family office that will invest in early-stage startups across AI, semiconductors, defence, space technology and robotics. (summary from limited source text)",
+          "signal": [
+            "Another Indian consumer-electronics conglomerate turning family capital toward deep tech — worth watching for its first actual cheques."
+          ],
+          "developing": false
+        },
+        {
+          "id": "indian-startups-08f7ec936d",
+          "headline": "Drone startup Airbound raises $37M Series A, eyes quick commerce and eventually passengers",
+          "summary": "Bengaluru-based Airbound has raised a $37 million Series A led by Greenoaks, with DoorDash, Lachy Groom, Lightspeed and Humba Ventures participating — taking its total funding since its 2023 launch to nearly $50 million. Founded by Naman Pushp (who started working on drones at 15, now 20), Airbound builds autonomous blended-wing-body, tail-sitter aircraft that take off vertically and cruise like fixed-wing planes. The company has completed more than 13,000 flights so far, over 1,000 each with Narayana Health (diagnostic sample transport) and in Andhra Pradesh, where it has a state agreement to build a drone network linking Guntur, Vijayawada and Amaravati, with a stated goal of 10,000 daily flights. It's now expanding from medical delivery into quick commerce, e-commerce and food delivery, while developing progressively larger aircraft meant to eventually carry roughly 100kg payloads — and, further out, people — without relying on government subsidies for its economics.",
+          "signal": [
+            "A rare India drone startup with real flight volume (13,000+ flights) rather than pilot-stage announcements — matches an evidence-over-demo bar well.",
+            "The passenger-aircraft ambition is a decade-plus bet layered on top of a working medical/commercial logistics business — worth separating the proven part (delivery) from the speculative part (moving people)."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "indian-startups-e3a974a985", "line": "Voice AI startup Ringg AI raises $10M Series A led by Peak XV, counts Flipkart and CRED as clients (summary from limited source text)" }
+      ]
+    },
+    {
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "id": "india-deep-tech-134608e03b",
+          "headline": "Spacetech startup InspeCity raises ₹100 crore to build robots that repair satellites in orbit",
+          "summary": "Bengaluru-based InspeCity has raised ₹100 crore (~$10.5 million) in a pre-Series A round led by Speciale Invest and angel investor Ashish Kacholia, with Antler Elevate, Antler India and Shastra VC also participating. Founded in 2022, the company builds VEDA, an autonomous in-space servicing system with four components — a propulsion unit (GITA), a sensing/navigation system (CHAKSU), a robotic arm (RAMA), and a docking/refuelling mechanism (SPARSH) — designed to inspect, refuel and repair satellites that are otherwise abandoned once they run low on fuel, rather than letting them become space junk. The funding will support four in-orbit missions over the next 12-18 months across its RIG, VEDA and SAMA mission lines, plus scaling commercial deployment of its GITA propulsion systems.",
+          "signal": [
+            "In-space servicing is a genuinely hard, capital-intensive category — InspeCity claims a full in-house stack, which its lead investor calls rare globally.",
+            "Satellite life-extension is the wedge; the bigger bet is infrastructure for a broader in-space economy."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-4f962921c6",
+          "headline": "Skyroot backer Aum Ventures raising second fund from Indian LPs",
+          "summary": "Aum Ventures, an early backer of space-launch startup Skyroot, is raising a second fund and turning to domestic LPs as India's institutional appetite for deep-tech investing grows, according to a DealStreetAsia report. (summary from limited source text)",
+          "signal": [
+            "A second fund from a deep-tech-focused VC signals maturing domestic LP appetite for the category."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-4763972d5e",
+          "headline": "Niti Aayog to commission study on moving India's deep-tech startups from lab to industrial scale",
+          "summary": "Niti Aayog is planning a study — to be completed within six months — on what's needed to help India's deep-tech startups move from research and prototypes to industrial-scale applications, per two people familiar with the matter, cited by Mint. India has more than 4,200 deep-tech startups (Nasscom-Zinnov, Feb 2026), with the market opportunity projected to exceed $30 billion by 2030 (Redseer, 2025). Industry voices quoted say the core problems are corporates wanting quarter-scale ROI that deep tech can't deliver, and a lack of quality data on both sides of pilot programmes; deep-tech companies also need dependable cloud infrastructure, specialised talent and production-grade security to move from lab to deployment, per E2E Networks founder Tarun Dua. The study will examine funding, infrastructure, regulation, and links between startups, industry, academia, investors and government.",
+          "signal": [
+            "A government study is a weak policy signal on its own, but the diagnosis quoted here — corporates want quarterly ROI, deep tech can't deliver that — is the genuinely useful insight.",
+            "4,200+ startups, but the bottleneck flagged here is commercialisation infrastructure (cloud, talent, pilot access), not capital — worth cross-referencing against the Aum Ventures and Micromax fund news above."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-c4a8c1aa0b",
+          "headline": "India, Japan deepen deep-tech ties; Goyal pitches new $1bn fund of funds",
+          "summary": "At the India-Japan Startup Roundtable in Tokyo, commerce minister Piyush Goyal proposed a four-pillar framework for deeper India-Japan startup cooperation: a 'Deep-Tech Capital Corridor' for early-stage patient capital, a 'Two-Way Innovation Bridge' linking universities and incubators, manufacturing/technology integration, and joint startup-pitching platforms. Goyal also flagged the government's proposed second Fund of Funds — around $1 billion, focused on deep tech — and invited Japanese investors to participate. Around 40 Japanese firms attended, including SPARX Group, MUFG Innovation Partners and Fujitsu. The existing India-Japan Pitching Series has connected 65 Indian startups with about 100 Japanese corporations, producing 30+ business tie-ups so far. Goyal said India has seen nearly 250,000 startups founded over the past decade and is now the world's third-largest startup ecosystem.",
+          "signal": [
+            "The proposed $1bn deep-tech fund of funds is the concrete number to watch — targeted at deep tech specifically, not generic startup capital.",
+            "30+ tie-ups from 65 India-Japan pitching sessions is a decent, if modest, conversion rate for how much roundtable diplomacy actually produces deals."
+          ],
+          "key_stat": "$1bn proposed deep-tech fund of funds",
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-74e9e5fbf1",
+          "headline": "T-Hub partners with Indian Army's Central Command to fast-track defence startup deployments",
+          "summary": "Hyderabad-based incubator T-Hub has partnered with the Indian Army's Central Command to give defence startups a direct pipeline from prototype to deployment: the Command will share active problem statements, T-Hub will match suitable startups, and a joint oversight committee will track progress. The tie-up builds on T-Hub's existing partnership with the Army's Western Command; T-Hub is also one of 28 organisations implementing the defence ministry's iDEX scheme.",
+          "signal": [
+            "A second Army Command partnership in a short span suggests T-Hub is becoming a repeatable channel for defence-tech procurement — a structural edge over startups without an incubator relationship.",
+            "Direct end-user engagement (soldiers testing under real operational conditions) is exactly the kind of deployment evidence worth weighting over lab demos."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "global-economics",
+      "stories": [
+        {
+          "id": "global-economics-b8449375ba",
+          "headline": "Meta to pay up to $18bn and add teen safety limits, settling US addiction lawsuits",
+          "summary": "Meta has agreed to pay up to $18 billion over 10 years to settle a landmark lawsuit brought by California and 28 other US states, which accused the company of designing Instagram and Facebook to be addictive to children and of collecting data on under-13s without parental consent. The settlement — reached after just four days of a trial expected to run weeks — requires Meta to add daily usage limits, block night-time use nationwide, stop notifications during school hours, and ban plastic-surgery filters, changes California AG Rob Bonta said would happen 'within months.' California gets $1.5-2.1 billion of the payout; Colorado about $615 million. Meta denies wrongdoing. Its chief legal officer called for TikTok, Snap and YouTube to adopt the same framework, saying an industry-wide fix is needed since teens 'move fluidly across dozens of apps.' The trial's star witness, whistleblower Arturo Béjar, testified Meta had a 'don't ask, don't tell' approach to child safety and that CEO Mark Zuckerberg knew of the harms while publicly touting safety. Meta, YouTube, TikTok and Snap still face thousands of similar suits; Meta and YouTube already lost a separate case in February ($6m payout), and Meta was separately ordered to pay nearly $1bn to New Mexico over child sexual exploitation on its platforms.",
+          "signal": [
+            "This is the first time Meta has been forced to change core product features for all US users, not just settle with money — a genuine precedent.",
+            "Meta explicitly wants competitors bound by the same rules, suggesting it sees this as a cost-of-doing-business problem better solved industry-wide."
+          ],
+          "key_stat": "$18bn settlement · 10-year payout",
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "global-economics-ba66b886d4", "line": "Giving every resident of a small Malawi town $700 in cash made its local economy thrive, Bloomberg reports" }
+      ]
+    },
+    {
+      "slug": "india",
+      "stories": [
+        {
+          "id": "india-c4bf9c7849",
+          "headline": "Bombay HC asks Centre to consider amending Aadhaar Act to help trace illegal foreign nationals",
+          "summary": "The Bombay High Court has directed the Union government and UIDAI to consider amending the Aadhaar Act to enable faster tracing and deportation of foreign nationals living illegally in India, after finding cases where fraudulent Aadhaar cards were used to claim Indian identity. The July 27 order (made public this week) came from a bench of Justices Ajay Gadkari and Kamal Khata, hearing a Mumbai Police plea seeking UIDAI disclosure of documents used by an Afghan national, Majid Khan Shah Hajrat Shah (alias Miraj Tahir Khan), who overstayed a visa valid until 2018 to obtain an Aadhaar card. UIDAI had cited Section 29 of the Aadhaar Act — which restricts disclosure without a court order — as its reason for withholding the documents. The court directed authorities to complete deportation proceedings against Shah and co-accused within four weeks, blacklist them, and circulate their photos to police stations and service providers nationwide.",
+          "signal": [
+            "A specific court order pushing to weaken Aadhaar's Section 29 disclosure protections for immigration-enforcement purposes — worth watching as a precedent that could reshape Aadhaar's privacy architecture more broadly.",
+            "The four-week deportation deadline and blacklisting order are concrete enforcement asks, not just judicial commentary."
+          ],
+          "developing": true
+        },
+        {
+          "id": "india-097cbda2d3",
+          "headline": "UPI turns 10: from 374 transactions a month to 24,162 crore a year",
+          "summary": "UPI's annual transaction volume grew from 1.78 crore in FY2016-17 to more than 24,162 crore in FY2025-26 — nearly 13,000x — while transaction value rose from ₹0.07 lakh crore to about ₹314 lakh crore over the same period, per NPCI. Banks live on UPI grew from 44 to 703. UPI now accounts for 84% of India's digital payments and roughly 49% of global real-time payment transactions; in July 2026 alone it processed 2,366 crore transactions worth ₹29.9 lakh crore. It launched with 21 member banks on April 11, 2016, and took until October 2019 to cross one billion transactions in a month. Merchants now drive 63% of UPI volume, and 86% of merchant payments are under ₹500 — per a Department of Financial Services study cited by NPCI's Dilip Asbe, 94% of small merchants surveyed accept UPI and 57% reported a sales increase after adopting it. UPI is now live in 11 countries, including a PayNow linkage with Singapore for cross-border remittances. The unresolved question for its next decade: RBI's Sanjay Malhotra said 'the costs have to be paid by someone,' as zero-MDR (no merchant fee) has helped adoption but leaves servers, fraud detection and infrastructure upgrades without a dedicated revenue model; the government says any future MDR would apply only to a limited category of large merchant transactions, not a blanket charge.",
+          "signal": [
+            "The most useful number here: merchants under ₹500 make up 86% of merchant UPI payments — the platform's real achievement is making tiny transactions economically viable, not aggregate volume.",
+            "The MDR/monetisation question is the genuine open policy fight to watch over the next year — it will determine whether banks and fintechs have real incentive to keep investing in the rails."
+          ],
+          "key_stat": "24,162 crore transactions/year · 84% of digital payments",
+          "developing": false,
+          "badge": "DATA"
+        },
+        {
+          "id": "india-5ba5a86bb5",
+          "headline": "AI is forcing a redesign of India's data centres — cooling, power and location all shifting",
+          "summary": "Speaking at the ET National Data Centers Summit 2026 in New Delhi, industry leaders said AI could grow India's data-centre AI capacity by roughly 20x from current levels, even as overall capacity expands 5-7x — a much faster pace, per Digital Edge India CEO Sairam Prasad. NTT's Vimal Kaw said new high-density AI hardware is pushing operators from air cooling toward liquid cooling, and that electrical architecture will need redesigning as rack densities move from roughly 20 kW towards 100 kW and beyond. Equinix's Manoj Paul said compute workloads may move outside cities while inferencing stays close to customers — mirroring cloud's earlier evolution. Prasa's Jay Burse said the industry needs to shift toward prefabricated, factory-built power and cooling modules rather than traditional on-site construction, though India's manufacturing and certification ecosystem isn't yet ready for that scale.",
+          "signal": [
+            "The 20x AI-capacity-growth figure (vs 5-7x overall) is the concrete takeaway.",
+            "Cooling and power redesign, not GPU supply, is emerging as the binding constraint for India AI-infra plays."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "india-1ac06718be", "line": "Russia turns to India to meet petrol demand after Ukraine strikes hit its oil infrastructure (source unreachable — headline only)" }
+      ]
+    },
+    {
+      "slug": "world",
+      "stories": [
+        {
+          "id": "world-c8702d147d",
+          "headline": "World Bank raises India's FY26 growth forecast to 6.6%, from 6.3%",
+          "summary": "The World Bank raised its India growth forecast for the current financial year to 6.6%, up from 6.3%, citing strong domestic demand and free-trade agreements, and expects India to remain South Asia's primary growth engine. India's growth is estimated to have accelerated from 7.1% in FY25 to 7.6% in FY26, driven by private consumption on the back of low inflation and GST rationalisation. The Bank flagged that elevated global energy prices could pressure prices and household disposable income in H1 FY27, even as lower GST rates continue supporting demand. The outlook also credits tariff cuts and recent trade deals, including the UK and EU free-trade agreements.",
+          "signal": [
+            "A 30-basis-point upgrade from a major multilateral is a solid, low-hype macro data point.",
+            "Built-in caveat worth flagging: the same report warns energy prices could squeeze household income in H1 FY27, so this upgrade isn't a clean, risk-free number."
+          ],
+          "key_stat": "6.6% FY26 growth forecast",
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "other-interests",
+      "stories": [
+        {
+          "id": "other-interests-294fba32f2",
+          "headline": "Scientists find 149 new deep-sea species — and 22 million years of shark teeth — near remote Indian Ocean seamounts",
+          "summary": "An international team of 33 researchers surveyed previously unstudied seamounts near Christmas and Cocos Islands in the Indian Ocean, identifying 149 new species — including a sea cucumber, a greeneye fish and a parasitic barnacle — out of 1,059 species found in total, published in Deep-Sea Research Part II. The expedition surveyed depths from 94 to 5,431 metres using Australia's custom research vessel RV Investigator. At a site nicknamed 'The Shark Tooth Graveyard' along the Cocos Abyssal Plain, researchers pulled up around 1,000 shark teeth spanning more than 22 million years of evolution, including great white, mako, tiger and prehistoric Megalodon teeth — alongside polymetallic nodules used in EV batteries and wind turbines, also a target of deep-sea mining interest. The Indian Ocean makes up about a fifth of global ocean area, with 90% of it deeper than 1,000 metres, yet its deep-sea biodiversity remains comparatively understudied versus the Pacific and Atlantic.",
+          "signal": [
+            "A genuinely fun, low-stakes science story — filed here as pure natural-world interest, not a career-relevant signal.",
+            "The polymetallic nodules found alongside the shark teeth are a small reminder that deep-sea mining interest and deep-sea biodiversity research now overlap physically."
+          ],
+          "developing": false
+        },
+        {
+          "id": "other-interests-a2a4a92315",
+          "headline": "US quietly moves to eliminate its main funder of behavioral and cognitive science research",
+          "summary": "The US National Science Foundation's $1.5 billion funding announcement last week excluded its Directorate for Social, Behavioral and Economic Sciences (SBE) — which ordinarily funds more than 60% of US social and psychological research, including cognitive neuroscience. Following an April budget request that cut NSF funding by more than half and zeroed out SBE, the NSF's own budget proposed closing the directorate and moving 'aligned' grants elsewhere. NSF says SBE 'has not been shut down,' but hiring is frozen and departing program directors aren't being replaced, according to a former SBE program director — meaning even if funding returns, there may not be staff to process it. The SBE has existed since 1991, covering fields from anthropology to developmental science; a University of Illinois professor notes it's one of the few funders of basic (non-clinically-framed) cognitive neuroscience research, since NIH and private funders favour work with clear clinical relevance. One Northeastern psychology professor has already shut down his lab and laid off staff after his SBE grant ended with no replacement funding available.",
+          "signal": [
+            "A structural, slow-motion defunding rather than a single dramatic cut — the 'no layoffs, just no replacements' hiring freeze is the more consequential mechanism than the budget line itself.",
+            "Relevant for tracking neuroscience/education funding trends: basic, non-clinical cognitive science is the category most exposed here, since it lacks NIH's clinical-relevance safety net."
+          ],
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "id": "beyond-your-beat-c74135670c",
+          "headline": "India pushes to renegotiate its 15-year-old trade pact with Japan",
+          "summary": "India renewed its push to review and modernise its 15-year-old Comprehensive Economic Partnership Agreement with Japan, which commerce minister Piyush Goyal said has failed to deliver adequate gains for Indian exporters. A breakthrough came last month when both countries' PMs agreed the pact should be reviewed; the two sides haven't yet agreed on the scope. Bilateral trade stands at $27.5 billion, with a $15.5 billion trade deficit against India (up from $11 billion in 2022-23) — India exports about $6 billion to Japan. Of a $67 billion FDI target the two countries set, $10 billion has flowed in over the last 10 months, mostly into financial services. Indian industry has complained that cumbersome certification requirements — especially for pharma — are why exporters haven't benefited from the existing pact.",
+          "signal": [
+            "A widening trade deficit ($11bn to $15.5bn in three years) despite an existing FTA is the concrete evidence behind India's renegotiation push, not just diplomatic posturing.",
+            "Filed as trade-policy plumbing rather than tech/startups, but relevant background given the India-Japan deep-tech cooperation news above."
+          ],
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunities-1c28f8b0ca",
+      "name": "FRIAS Fellowships 2027/28 (Freiburg Institute for Advanced Studies, Germany)",
+      "when": "Apply by 18 September 2026, 13:00 CET",
+      "summary": "Global tier. Early-career (PhD within the last 8 years) and senior (8+ years postdoctoral) fellowships across all disciplines at the University of Freiburg, plus a dedicated Sustainable Governance fellowship for Africa-based researchers in humanities/social sciences. Includes a monthly living allowance, accommodation and mobility funding, office space, and access to an interdisciplinary international research community. Funding runs 3-10 months depending on track — a genuinely well-resourced European fellowship, but the roughly three-week runway to the deadline means acting fast if applying."
+    }
+  ]
+}
