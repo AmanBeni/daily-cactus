@@ -11,45 +11,35 @@
   --rule:#DECFAF; --red:#C4432B; --graphite:#4E463C;
   --hl:rgba(255,208,59,.5);
 
-  /* section construction-paper colors (DESIGN_DIRECTION.md table) */
-  --clay:#D97757;      /* AI */
-  --slate:#6A9BCC;     /* Deep Tech */
-  --leaf:#788C5D;      /* Climate & Energy */
-  --rose:#C96F84;      /* Health Tech */
-  --olive:#9AA34F;     /* Agritech */
-  --marigold:#E0A83B;  /* Indian Startups */
-  --teal:#4A8C82;      /* India Deep Tech (new section, B9) */
-  --steel:#7E8A97;     /* Global Econ */
-  --saffron:#E8912D;   /* India */
-  --horizon:#5E7F99;   /* World */
-  --violet:#8B7BB8;    /* Other Interests / Beyond Your Beat */
-  --sea:#4E9B8F;       /* Opportunities */
+  /* muted section palette — black-text-safe, per the brand kit mapping */
+  --clay:#D9A38C;      /* AI            (#1 Clay Rose) */
+  --slate:#A8C0D6;     /* Deep Tech     (#13 Sky Slate) */
+  --leaf:#BEC17E;      /* Climate & Energy (#8 Olive) */
+  --rose:#95C4B3;      /* Health Tech   (#11 Sea Glass) */
+  --olive:#AABE8E;     /* Agritech      (#9 Sage) */
+  --marigold:#EEBE97;  /* Indian Startups (#3 Apricot) */
+  --teal:#9EB4CE;      /* India Deep Tech (#14 Denim Mist) */
+  --steel:#E3C067;     /* Global Economics (#4 Ochre) */
+  --saffron:#EACD7C;   /* India         (#5 Marigold) */
+  --horizon:#E6D6A8;   /* World         (#6 Wheat) */
+  --violet:#CBC5B6;    /* Other Interests / Beyond Your Beat (#19 Stone) */
+  --sea:#C1C5C2;       /* Opportunities (#20 Fog) */
 
   --riso-green:#1E4A2E;
+  --brown:#6B4A2E;         /* Editor's Read + links */
   --sig:var(--graphite);   /* The Signal: one colour page-wide (was per-section) */
 
-  /* Redaction — a newspaper typeface with risograph ink-grit. Self-hosted. */
-  --serif:"Redaction 35","Redaction",Georgia,serif;   /* headlines */
-  /* Body: swap to `Georgia,serif` to revert prose to a plain serif if Redaction
-     reads tiring on a dense day. Single token = one-line flip. */
-  --body:"Redaction",Georgia,"Times New Roman",serif;
-  --stamp:"Redaction",Georgia,serif;                  /* labels / UI */
+  /* Classic system faces — Georgia for text, American Typewriter for chrome. */
+  --serif:Georgia,"Times New Roman",serif;
+  --body:Georgia,"Times New Roman",serif;
+  --stamp:"American Typewriter","Courier New",monospace;
 }
-
-/* Self-hosted Redaction faces (OFL). No runtime CDN dependency. */
-@font-face{font-family:"Redaction";font-weight:400;font-style:normal;font-display:swap;
-  src:url("assets/fonts/redaction-400.woff2") format("woff2")}
-@font-face{font-family:"Redaction";font-weight:700;font-style:normal;font-display:swap;
-  src:url("assets/fonts/redaction-700.woff2") format("woff2")}
-@font-face{font-family:"Redaction 35";font-weight:400;font-style:normal;font-display:swap;
-  src:url("assets/fonts/redaction35-400.woff2") format("woff2")}
-@font-face{font-family:"Redaction 35";font-weight:700;font-style:normal;font-display:swap;
-  src:url("assets/fonts/redaction35-700.woff2") format("woff2")}
 
 *{box-sizing:border-box}
 html{background:var(--kraft)}
+/* Minimal: a flat kraft ground (no texture image) — cleaner and more premium. */
 body{margin:0;color:var(--ink);font-family:var(--body);line-height:1.55;
-  background:url("assets/bg-oat.jpg") repeat,var(--kraft)}
+  background:var(--kraft)}
 a{color:inherit}
 /* P4: was a hard 1060px cap, which left big empty margins on a wide monitor.
    Now fluid up to 1600px. Prose blocks inside cards keep their own ch-based
@@ -62,33 +52,30 @@ a{color:inherit}
 .masthead-lockup{display:flex;align-items:center;justify-content:center;
   gap:clamp(10px,2vw,26px)}
 .wordmark{display:block;max-width:min(680px,82vw);width:100%;height:auto}
-.masthead-cactus{width:clamp(58px,9vw,104px);height:auto;flex:none;
-  filter:drop-shadow(0 3px 2px rgba(0,0,0,.18))}
+.masthead-cactus{width:clamp(44px,6.5vw,74px);height:auto;flex:none;
+  filter:drop-shadow(0 2px 2px rgba(0,0,0,.15))}
 .dateline{font-family:var(--stamp);font-size:13px;letter-spacing:2.5px;
   text-transform:uppercase;color:var(--faded);margin-top:10px;text-align:center}
 .dateline span{white-space:nowrap}
 
 /* ---------- date picker / controls (kept functional, restyled) ---------- */
 .datebar{display:flex;justify-content:center;align-items:center;gap:10px;
-  padding:6px 0 2px;font-family:var(--stamp);font-size:12px;color:var(--faded);
+  padding:6px 0 2px;font-family:var(--stamp);font-size:11px;color:var(--faded);
   max-width:100%;flex-wrap:wrap}
-.datebar select{font-family:var(--stamp);font-size:12px;background:var(--card);
+.datebar select{font-family:var(--stamp);font-size:11px;background:var(--card);
   color:var(--ink);border:1px solid var(--rule);border-radius:3px;padding:3px 8px;
   /* long option labels used to force the select wider than a phone screen. */
   max-width:min(72vw,420px);text-overflow:ellipsis}
 
-/* ---------- sticky-ish section nav ---------- */
-nav#nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 18px;
-  padding:10px 0;margin:8px 0 4px;border-top:1.5px solid var(--rule);
-  border-bottom:1.5px solid var(--rule);font-family:var(--stamp);font-size:12px;
+/* ---------- section nav: green menu bar, cream text ---------- */
+nav#nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;
+  padding:11px 16px;margin:12px 0 4px;font-family:var(--stamp);font-size:11px;
   letter-spacing:1.5px;text-transform:uppercase;position:sticky;top:0;
-  background:var(--kraft);z-index:5}
-nav#nav a{color:var(--ink);text-decoration:none;cursor:pointer;position:relative;
-  padding-bottom:2px}
-nav#nav a:hover,nav#nav a:focus-visible{color:var(--red)}
-nav#nav a:hover::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:4px;
-  background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="6"><path d="M0 3.6 L 11 3.1 L 23 3.6 L 34 3.2" fill="none" stroke="%23C4432B" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="7 1.4 4 1 9 1.2"/></svg>') repeat-x left bottom/20px 6px}
-nav#nav .sep{color:var(--rule)}
+  background:var(--riso-green);color:#F4EEDD;border-radius:3px;z-index:5}
+nav#nav a{color:#F4EEDD;text-decoration:none;cursor:pointer;padding-bottom:1px;
+  border-bottom:1px solid transparent}
+nav#nav a:hover,nav#nav a:focus-visible{border-bottom-color:#F4EEDD}
+nav#nav .sep{color:rgba(244,238,221,.5)}   /* separators visible on green */
 
 /* ---------- markets stat bar ---------- */
 .markets{display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center;
@@ -99,8 +86,8 @@ nav#nav .sep{color:var(--rule)}
 .markets .dn::after{content:" \25BC";color:var(--red)}
 
 /* ---------- warm cards on kraft: shadow IS the edge ---------- */
-.card{background:url("data:image/png;base64,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") repeat,var(--card);
-  border-radius:2px;padding:16px 24px;box-shadow:3px 4px 0 rgba(78,64,40,.2)}
+.card{background:var(--card);border-radius:3px;padding:18px 24px;
+  box-shadow:0 1px 2px rgba(78,64,40,.10),0 6px 18px rgba(78,64,40,.05)}
 
 /* v6 layout: CSS multi-column instead of CSS grid.
    CSS grid forces every card in a row to the height of the TALLEST card in
@@ -172,19 +159,19 @@ nav#nav .sep{color:var(--rule)}
 .story.lead-story .lead-side .signal{max-width:none}
 
 .story{scroll-margin-top:64px}
-.story h5{font-family:var(--serif);font-size:22px;line-height:1.25;margin:8px 0;
+.story h5{font-family:var(--serif);font-size:20px;line-height:1.25;margin:8px 0;
   text-wrap:balance}
-.story.lead-story h5{font-size:clamp(24px,3.2vw,30px)}
-.story p{margin:0 0 8px;font-size:15.5px;max-width:64ch}
+.story.lead-story h5{font-size:clamp(22px,3vw,26px)}
+.story p{margin:0 0 8px;font-size:15px;max-width:64ch}
 .story p.summary{max-width:66ch}
 
 /* v6 bullet summary: a one-line hook, then 3-5 points. The hook carries the
    number you read at a glance, so it sits a touch larger than the bullets. */
-.story p.hook{font-size:16.5px;line-height:1.45;margin:0 0 10px;max-width:64ch}
-.story.lead-story p.hook{font-size:clamp(17px,1.5vw,19px)}
+.story p.hook{font-size:16px;line-height:1.45;margin:0 0 10px;max-width:64ch}
+.story.lead-story p.hook{font-size:16px}
 .story ul.points{margin:0 0 10px;padding-left:0;list-style:none;max-width:66ch}
 .story ul.points li{position:relative;padding-left:18px;margin-bottom:6px;
-  font-size:15.5px;line-height:1.5}
+  font-size:15px;line-height:1.5}
 .story ul.points li::before{content:"";position:absolute;left:2px;top:.62em;
   width:6px;height:6px;border-radius:50%;background:#000;opacity:1}
 .story .src-flag-line{margin:-4px 0 8px}
@@ -195,9 +182,9 @@ nav#nav .sep{color:var(--rule)}
 .kicker .row2{font-family:var(--stamp);font-size:11px;letter-spacing:2px;
   text-transform:uppercase;color:var(--faded)}
 
+/* Section tag: muted colour, BLACK text, flat (no hard shadow — minimal). */
 .tab{display:inline-block;font-family:var(--stamp);font-size:11px;letter-spacing:2px;
-  text-transform:uppercase;color:var(--ink);padding:4px 14px 3px;border-radius:3px;
-  box-shadow:1.5px 1.5px 0 rgba(78,64,40,.22);
+  text-transform:uppercase;color:#000;padding:4px 14px 3px;border-radius:3px;
   background:var(--tabc,var(--clay))}
 .badge-dev{display:inline-block;font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;
   text-transform:uppercase;color:var(--card);background:var(--red);padding:3px 10px 2px;
@@ -205,43 +192,38 @@ nav#nav .sep{color:var(--rule)}
 .badge-custom{display:inline-block;font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;
   text-transform:uppercase;color:var(--ink);border:1.2px solid var(--faded);padding:2px 9px}
 
-.key-stat{display:inline-block;font-family:var(--stamp);font-size:12px;letter-spacing:1px;
+.key-stat{display:inline-block;font-family:var(--stamp);font-size:11px;letter-spacing:1px;
   color:var(--ink);background:var(--hl);padding:2px 10px;border-radius:1px 5px 2px 4px;
   mix-blend-mode:multiply;margin:2px 0 8px}
 
-/* ---------- photos: card-top, tape corners only when an image is present ---------- */
-.figure{background:#EFE7D2;border-radius:2px;aspect-ratio:3/2;display:flex;
+/* ---------- photos: clean framed image (tape corners removed, minimal) ---------- */
+.figure{background:#EFE7D2;border-radius:3px;aspect-ratio:3/2;display:flex;
   align-items:center;justify-content:center;position:relative;overflow:hidden;
-  box-shadow:2px 3px 0 rgba(78,64,40,.18);margin-bottom:12px}
+  box-shadow:0 1px 2px rgba(78,64,40,.10);margin-bottom:12px}
 .figure img{width:100%;height:100%;object-fit:cover;display:block}
 .figure small{position:absolute;bottom:8px;right:10px;font-family:var(--stamp);
   font-size:11px;color:var(--faded);letter-spacing:1px}
-.figure.tape::before,.figure.tape::after{content:"";position:absolute;width:62px;height:19px;
-  background:rgba(247,238,196,.8);border:1px solid rgba(0,0,0,.05);top:-9px;
-  box-shadow:0 1px 2px rgba(78,64,40,.08);z-index:2}
-.figure.tape::before{left:-16px;transform:rotate(-37deg)}
-.figure.tape::after{right:-16px;transform:rotate(37deg)}
 .story:not(.lead-story) .figure{margin-top:-2px}
 
 /* ---------- The Signal: quiet, left bar, no tint ---------- */
 /* 3.4: The Signal is ONE colour across the whole page (graphite), not tinted
    per section. Editor's Read stays the single red accent (see .signal.editors). */
-.signal{font-size:14.5px;padding:2px 0 2px 14px;margin:8px 0;max-width:60ch;
+.signal{font-size:15px;padding:2px 0 2px 14px;margin:8px 0;max-width:60ch;
   border-left:3px solid var(--sig)}
 .signal b{font-family:var(--stamp);font-size:11px;letter-spacing:2px;
   text-transform:uppercase;display:block;margin-bottom:4px;color:var(--sig)}
 .signal ul{margin:0;padding-left:18px}
 .signal li{margin-bottom:4px}
 .signal li::marker{color:#000}   /* 3.5: black bullets */
-/* Editor's Read: the ONE red voice per card — override --sig so its bar + label
-   are red while every plain Signal stays graphite. */
-.signal.editors{--sig:var(--red);background:color-mix(in srgb,var(--red) 8%,#FFFDF6);
+/* Editor's Read: the ONE brown voice per card — override --sig so its bar +
+   label are espresso brown while every plain Signal stays graphite. */
+.signal.editors{--sig:var(--brown);background:color-mix(in srgb,var(--brown) 8%,#FFFDF6);
   padding:8px 14px;border-radius:2px;border-left-width:3px}
 /* legacy takeaway/why fallback — same single-colour treatment as .signal */
-.legacy-take{font-size:14.5px;margin:6px 0}
+.legacy-take{font-size:15px;margin:6px 0}
 .legacy-take b{color:var(--sig);font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;
   text-transform:uppercase}
-.legacy-why{font-size:14.5px;padding:8px 14px;margin:6px 0;border-left:3px solid var(--sig);
+.legacy-why{font-size:15px;padding:8px 14px;margin:6px 0;border-left:3px solid var(--sig);
   background:color-mix(in srgb,var(--sig) 6%,#FFFDF6)}
 .legacy-why b{font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
   color:var(--sig);display:block;margin-bottom:2px}
@@ -289,15 +271,13 @@ mark.hl{color:inherit}
     linear-gradient(97deg,transparent 2%,var(--hl) 9%,var(--hl) 88%,transparent 96%);
   mix-blend-mode:multiply;padding:0 3px;border-radius:1px 4px 2px 3px;
   -webkit-box-decoration-break:clone;box-decoration-break:clone}
-/* Pencil rules come in exactly two colours, and the colour IS the meaning:
-   BLUE  = clickable  (a.sk — "Read the original", also-rail links)
-   BLACK = emphasis   (.ul — the __marked__ phrase in body prose, goes nowhere)
-   Same hand-drawn stroke for both, so they read as one family. */
-a.sk{color:inherit;text-decoration:none;position:relative;
-  background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="6"><path d="M0 3.6 L 11 3.1 L 23 3.6 L 34 3.2" fill="none" stroke="%232A6099" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="7 1.4 4 1 9 1.2"/><path d="M1 4.6 L 12 4.1 L 24 4.6 L 34 4.3" fill="none" stroke="%232A6099" stroke-width=".8" opacity=".45" stroke-dasharray="5 1.8 7 1.3"/></svg>') repeat-x left bottom/34px 6px;padding-bottom:3.5px}
-.ul{background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="6"><path d="M0 3.6 L 11 3.1 L 23 3.6 L 34 3.2" fill="none" stroke="%2326221B" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="7 1.4 4 1 9 1.2"/><path d="M1 4.6 L 12 4.1 L 24 4.6 L 34 4.3" fill="none" stroke="%2326221B" stroke-width=".8" opacity=".45" stroke-dasharray="5 1.8 7 1.3"/></svg>') repeat-x left bottom/34px 6px;padding-bottom:3.5px;
-  -webkit-box-decoration-break:clone;box-decoration-break:clone}
-a.sk:hover{background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="6"><path d="M0 3.6 L 11 3.1 L 23 3.6 L 34 3.2" fill="none" stroke="%23C4432B" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="7 1.4 4 1 9 1.2"/><path d="M1 4.6 L 12 4.1 L 24 4.6 L 34 4.3" fill="none" stroke="%23C4432B" stroke-width=".9" opacity=".45" stroke-dasharray="5 1.8 7 1.3"/></svg>')}
+/* Pencil squiggle removed (minimal direction). Links = brown, plain thin
+   underline. Emphasis (.ul, the __marked__ phrase) = a quiet solid underline. */
+a.sk{color:var(--brown);text-decoration:underline;text-decoration-thickness:1px;
+  text-underline-offset:2px}
+a.sk:hover{text-decoration-thickness:1.5px}
+.ul{text-decoration:underline;text-decoration-color:rgba(38,34,27,.5);
+  text-decoration-thickness:1px;text-underline-offset:2px}
 
 .lead-badge{position:relative;display:inline-flex;align-items:center;justify-content:center;
   color:var(--red);font-weight:700;padding:3px 6px;font-family:var(--stamp);
@@ -306,17 +286,22 @@ a.sk:hover{background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.
   overflow:visible}
 
 /* ---------- section heads: chip + pencil rule ---------- */
-.sec-head{display:flex;align-items:center;gap:16px;margin:48px 0 0}
-.sec-head .tab{font-size:13px;padding:5px 18px 4px}
-.sec-head .pencil-rule{flex:1;height:8px}
+/* Big section heading when a new section starts — serif, with a colour rule
+   in the section's own tag colour as the only accent. */
+.sec-head{display:flex;align-items:baseline;gap:18px;margin:64px 0 10px}
+.sec-title{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;
+  color:var(--ink);margin:0;white-space:nowrap}
+.sec-head .sec-rule{flex:1;height:3px;border-radius:2px;
+  background:var(--tabc,var(--riso-green));align-self:center}
+@media(max-width:480px){.sec-title{font-size:24px}}
 
 /* ---------- frontpage/section cross-reference (Fix 6) ---------- */
 .story.crossref{grid-column:1/-1;display:flex;gap:10px;align-items:baseline;
-  flex-wrap:wrap;padding:12px 24px;font-size:14.5px;opacity:.85}
+  flex-wrap:wrap;padding:12px 24px;font-size:15px;opacity:.85}
 .story.crossref .crossref-headline{font-family:var(--serif);font-style:italic}
 
 /* ---------- "Also worth knowing" rail ---------- */
-.also-rail{grid-column:1/-1;margin-top:4px;font-size:14px}
+.also-rail{grid-column:1/-1;margin-top:4px;font-size:15px}
 .also-rail h6{font-family:var(--stamp);font-size:11px;letter-spacing:2px;color:var(--faded);
   text-transform:uppercase;margin:0 0 6px}
 .also-rail ul{margin:0;padding-left:18px}
@@ -338,7 +323,7 @@ a.sk:hover{background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.
 @media(min-width:1900px){
   .brief-card ol{columns:3;column-gap:52px}
 }
-.brief-card li{margin-bottom:8px;font-size:15.5px;break-inside:avoid}
+.brief-card li{margin-bottom:8px;font-size:15px;break-inside:avoid}
 .brief-card li::marker{font-family:var(--stamp);color:#000}
 
 /* ---------- opportunities ---------- */
@@ -387,7 +372,7 @@ html{scroll-behavior:smooth}
 @media(max-width:480px){
   .wrap{padding:20px 14px 72px}
   .masthead svg{max-width:320px}
-  .markets{gap:6px 14px;font-size:12px}
+  .markets{gap:6px 14px;font-size:11px}
   .card{padding:14px 16px}
   nav#nav{gap:4px 12px;font-size:11px}
   .story h5{font-size:19px}
