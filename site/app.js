@@ -481,12 +481,10 @@ function oppCardHTML(o, id) {
 
 function sectionHeadHTML(name, slug, ruleIdx) {
   const tabVar = colorVar(slug);
-  const rule = PENCIL_RULES[ruleIdx % PENCIL_RULES.length];
-  return `<div class="sec-head">
-    <span class="tab" style="--tabc:var(--${tabVar})">${esc(name)}</span>
-    <svg class="pencil-rule" viewBox="0 0 600 8" preserveAspectRatio="none" aria-hidden="true">
-      <path d="${rule.d}" fill="none" stroke="#4E463C" stroke-width="1.5" stroke-linecap="round"
-        opacity=".5" filter="url(#${rule.filter})"/></svg>
+  // Big serif heading + a rule in the section's own colour (the only accent).
+  return `<div class="sec-head" style="--tabc:var(--${tabVar})">
+    <h2 class="sec-title">${esc(name)}</h2>
+    <span class="sec-rule"></span>
   </div>`;
 }
 
@@ -508,9 +506,22 @@ function briefHTML(brief, urlAnchors) {
   return `<div class="card brief-card"><h4>The 2-minute brief</h4><ol>${li}</ol></div>`;
 }
 
+// Fixed section running order (Aman's sequence). Sections not listed fall to
+// the end in their original order; Opportunities always renders last, separately.
+const SECTION_ORDER = ["ai", "indian-startups", "deep-tech", "india-deep-tech",
+  "climate-energy", "agritech", "health-tech", "global-economics", "india",
+  "world", "other-interests", "beyond-your-beat"];
+
 // ---------- main render ----------
 function renderEdition(ed) {
   const date = ed.date || "";
+  // Reorder sections to the fixed running order (nav + body both follow this,
+  // since both iterate ed.sections). Stable for any unlisted/future slug.
+  if (Array.isArray(ed.sections)) {
+    const rank = (s) => { const i = SECTION_ORDER.indexOf(s.slug); return i < 0 ? 999 : i; };
+    ed.sections = ed.sections.map((s, i) => [s, i]).sort((a, b) =>
+      (rank(a[0]) - rank(b[0])) || (a[1] - b[1])).map((x) => x[0]);
+  }
   const d = new Date(date + "T00:00:00");
   const nice = isNaN(d) ? date
     : d.toLocaleDateString("en-IN", { weekday: "long", year: "numeric", month: "long", day: "numeric" });
