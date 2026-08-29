@@ -1,0 +1,69 @@
+{
+  "date": "2026-08-29",
+  "lead": "india-17e1f2c37c",
+  "frontpage": [
+    "world-d1fd3bc001",
+    "india-deep-tech-6a534d2252",
+    "ai-5fa898c733",
+    "global-economics-5ad3f341ac",
+    "deep-tech-de9c4dfd14",
+    "indian-startups-ba385e0eed",
+    "ai-24e3b51e27"
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": ["ai-5fa898c733", "ai-24e3b51e27", "ai-d43da49bf7"],
+      "also": ["ai-d63f08afee"]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": ["deep-tech-de9c4dfd14", "deep-tech-d387897526"],
+      "also": ["deep-tech-a69438b389"]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": ["climate-energy-7452cdbe64", "climate-energy-2720efbdaf", "climate-energy-67c8a003b5"],
+      "also": ["climate-energy-9c7893245e"]
+    },
+    {
+      "slug": "health-tech",
+      "stories": ["health-tech-da9db476cc", "health-tech-3e6a6be876"]
+    },
+    {
+      "slug": "agritech",
+      "stories": ["agritech-2906a160e7", "agritech-16eb655089", "agritech-ebfe24a586"]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": ["indian-startups-ba385e0eed", "indian-startups-706c437185", "indian-startups-971b02e320", "indian-startups-355bb7681d"],
+      "also": ["indian-startups-21fc6158f0"]
+    },
+    {
+      "slug": "india-deep-tech",
+      "stories": ["india-deep-tech-6a534d2252", "india-deep-tech-b0a0adec7a"]
+    },
+    {
+      "slug": "global-economics",
+      "stories": ["global-economics-5ad3f341ac", "global-economics-e27dd5660b", "global-economics-2262a745ad"]
+    },
+    {
+      "slug": "india",
+      "stories": ["india-c04fefed2c", "india-4817c75c72", "india-391f67fa04", "india-2a551a5ea3"]
+    },
+    {
+      "slug": "world",
+      "stories": ["world-d1fd3bc001", "world-c2ec09c1ed"]
+    },
+    {
+      "slug": "other-interests",
+      "stories": ["other-interests-d590c43e6c", "other-interests-bcb34763d7"]
+    },
+    {
+      "slug": "beyond-your-beat",
+      "stories": ["beyond-your-beat-a71bfb5a15"]
+    }
+  ],
+  "opportunities": ["opportunities-2112aa9979", "opportunities-b99f360429", "opportunities-4d588a7acd", "opportunities-a526e618c3"],
+  "longform": ["longform-6c99ce13fb", "longform-1de39b4837"]
+}
