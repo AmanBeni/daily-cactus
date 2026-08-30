@@ -9,6 +9,7 @@
 :root{
   --kraft:#EFE5CF; --card:#FBF6EA; --ink:#26221B; --faded:#75695A;
   --rule:#DECFAF; --red:#C4432B; --graphite:#4E463C;
+  --stone:#CBC5B6;             /* #19 Stone — the "Developing" tag */
   --hl:rgba(234,205,124,.7);   /* marigold highlight (#EACD7C) */
 
   /* muted section palette — black-text-safe, per the brand kit mapping */
@@ -75,7 +76,11 @@ a{color:inherit}
 nav#nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;
   padding:11px 16px;margin:12px 0 4px;font-family:var(--stamp);font-size:11px;
   letter-spacing:1.5px;text-transform:uppercase;position:sticky;top:0;
-  background:var(--riso-green);color:#F4EEDD;border-radius:3px;z-index:5}
+  background:var(--riso-green);color:#F4EEDD;border-radius:3px;z-index:5;
+  transition:transform .28s ease}
+/* Auto-hide: slide the bar up while scrolling down, bring it back on scroll up. */
+nav#nav.nav-hidden{transform:translateY(-135%)}
+@media(prefers-reduced-motion:reduce){nav#nav{transition:none}}  /* still hides, just no slide */
 nav#nav a{color:#F4EEDD;text-decoration:none;cursor:pointer;padding-bottom:1px;
   border-bottom:1px solid transparent}
 nav#nav a:hover,nav#nav a:focus-visible{border-bottom-color:#F4EEDD}
@@ -101,16 +106,50 @@ nav#nav .sep{color:rgba(244,238,221,.5)}   /* separators visible on green */
    vertically instead, so a short card is followed immediately by the next
    one and the gaps disappear. Reading order becomes top-to-bottom per column,
    which is how an actual newspaper reads anyway. */
-.grid2{columns:1;column-gap:24px;margin-top:24px}
-@media(min-width:900px){.grid2{columns:2}}
-@media(min-width:1400px){.grid2{columns:3}}
-/* 4th column on a genuinely wide monitor — without it, 3 cards stretched across
-   2200px give ~700px-wide cards and ~90-char lines. More columns keeps each
-   card's measure comfortable while actually using the width. */
-@media(min-width:1900px){.grid2{columns:4}}
-/* A card must never be split across a column break. */
-.grid2 > *{break-inside:avoid;-webkit-column-break-inside:avoid;
-  page-break-inside:avoid;margin-bottom:24px}
+/* Fixed-column rows (flexbox). Columns are equal width — 2 on a laptop, 3 on a
+   wide monitor, 1 on a phone. Cards flow left-to-right filling rows; cards in the
+   same row are the SAME height (flex stretch) and the meta bar pins to the card
+   bottom, so a shorter story fills its box instead of leaving a hole. The last
+   incomplete row grows to fill the width, and a lone leftover card (.wide, set by
+   packAll() in app.js) spans the whole width — no wasted trailing space. */
+.pack{display:flex;flex-wrap:wrap;gap:22px;margin-top:24px;align-items:stretch}
+.pack > .story{flex:1 1 calc(50% - 11px);min-width:0;margin:0;
+  display:flex;flex-direction:column}
+@media(min-width:1300px){.pack > .story{flex-basis:calc(33.333% - 15px)}}
+@media(max-width:699px){.pack{gap:18px}.pack > .story{flex-basis:100%}}
+/* push the Read/Ask bar to the bottom edge so short cards read as full */
+.pack > .story .card-collapse{display:flex;flex-direction:column;flex:1 1 auto}
+.pack > .story .meta{margin-top:auto}
+/* Text and headline fill the box width — no fixed character cap. The wrap point
+   is the box edge (padding gives the breathing room), not a fixed pixel number. */
+.pack > .story h5,
+.pack > .story p,
+.pack > .story p.summary,
+.pack > .story p.hook,
+.pack > .story ul.points,
+.pack > .story .signal,
+.pack > .story .legacy-why,
+.pack > .story .legacy-take{max-width:none}
+/* The key-stat is inline-block; as a direct flex child it would stretch to full
+   width and its highlight would overflow the text — keep it to its content. */
+.pack > .story .key-stat{align-self:flex-start}
+/* Cap photo height so a card image is a tidy band, never a big square that
+   dominates the column. object-fit:cover on the img crops to fill. */
+.pack > .story .figure{max-height:260px}
+/* A lone leftover card spans the full width — single column, text fills the box. */
+.pack > .story.wide{flex-basis:100%;display:block}
+.pack > .story.wide .card-collapse{display:block}
+.pack > .story.wide.wide-fig .figure{float:right;width:min(38%,380px);max-height:300px;margin:2px 0 14px 28px}
+.pack > .story.wide.wide-fig::after{content:"";display:block;clear:both}
+
+/* "Also up top" — front-page stories that also belong to this section, shown as
+   a compact strip instead of a full duplicate card. */
+.alsotop{margin:14px 0 4px;padding:10px 16px;background:#ffffff88;
+  border:1px solid var(--rule);border-radius:6px;font-size:14px}
+.alsotop b{font-family:var(--stamp);font-size:11px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--faded);display:block;margin-bottom:5px}
+.alsotop .altitem{display:inline-block;margin:0 20px 4px 0}
+.alsotop a{color:var(--brown)}
 
 /* The lead sits OUTSIDE .grid2 now (app.js renders it in .lead-wrap), because
    a multi-column container has no equivalent of grid-column:1/-1. */
@@ -191,7 +230,7 @@ nav#nav .sep{color:rgba(244,238,221,.5)}   /* separators visible on green */
   text-transform:uppercase;color:#000;padding:4px 14px 3px;border-radius:3px;
   background:var(--tabc,var(--clay))}
 .badge-dev{display:inline-block;font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;
-  text-transform:uppercase;color:var(--card);background:var(--red);padding:3px 10px 2px;
+  text-transform:uppercase;color:var(--ink);background:var(--stone);padding:3px 10px 2px;
   border-radius:3px}
 .badge-custom{display:inline-block;font-family:var(--stamp);font-size:11px;letter-spacing:1.5px;
   text-transform:uppercase;color:var(--ink);border:1.2px solid var(--faded);padding:2px 9px}
@@ -356,6 +395,10 @@ html{scroll-behavior:smooth}
    max-height (px) transition is used because it is reliable across browsers. */
 .card-toggle{display:none}
 .card-collapse{overflow:hidden;max-height:none}
+/* Lead collapse: display:contents on desktop so the float (with photo) and
+   two-column (no photo) lead layouts are UNCHANGED; a real accordion on mobile. */
+.lead-collapse{display:contents}
+.lead-story.no-figure > .lead-head{grid-column:1/-1}
 @media(max-width:699px){
   .card-toggle{display:flex;align-items:center;gap:6px;width:100%;margin:10px 0 2px;
     background:none;border:none;border-top:1px solid var(--rule);padding-top:10px;
@@ -363,14 +406,16 @@ html{scroll-behavior:smooth}
     color:var(--faded);cursor:pointer;text-align:left}
   .card-toggle::after{content:"\25BE";margin-left:auto;transition:transform .2s}
   .card-toggle:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+  .card-toggle-bottom{margin-top:14px}
   .card-toggle .ct-less{display:none}
   .story.open .card-toggle .ct-more{display:none}
   .story.open .card-toggle .ct-less{display:inline}
   .story.open .card-toggle::after{transform:rotate(180deg)}
-  .card-collapse{max-height:0;transition:max-height .35s ease}
-  .story.open .card-collapse{max-height:1600px}
+  .card-collapse,.lead-collapse{max-height:0;transition:max-height .35s ease}
+  .lead-collapse{display:block;overflow:hidden}
+  .story.open .card-collapse,.lead-story.open .lead-collapse{max-height:6000px}
 }
-@media(max-width:699px) and (prefers-reduced-motion:reduce){.card-collapse{transition:none}}
+@media(max-width:699px) and (prefers-reduced-motion:reduce){.card-collapse,.lead-collapse{transition:none}}
 
 /* ---------- mobile 375px ---------- */
 @media(max-width:480px){

@@ -60,7 +60,13 @@ window.daily.toggleCard = function (btn) {
   const card = btn.closest(".story");
   if (!card) return;
   const open = card.classList.toggle("open");
-  btn.setAttribute("aria-expanded", open ? "true" : "false");
+  // keep both the top and bottom toggles in sync
+  card.querySelectorAll(".card-toggle").forEach((t) =>
+    t.setAttribute("aria-expanded", open ? "true" : "false"));
+  // collapsing via the bottom "Show less" — bring the card's top back into view
+  if (!open && btn.classList.contains("card-toggle-bottom")) {
+    card.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 };
 // P5: a broken image used to be replaced by a grey "no photo" cactus box on the
 // lead. An empty frame looks worse than no frame — remove it entirely and let
@@ -362,6 +368,20 @@ function crossRefHTML(s, anchorId, frontAnchorId) {
   </div>`;
 }
 
+// A section story that already ran on the front page: shown as a compact strip
+// item ("Also up top") rather than a full duplicate card that would eat a whole
+// packing slot. Keeps the section's anchor id for jumps.
+function crossRefStripItem(s, anchorId, frontAnchorId) {
+  const url = s.url ? esc(s.url) : "";
+  const headline = url
+    ? `<a href="${url}" target="_blank" rel="noopener" style="color:inherit">${esc(s.headline)}</a>`
+    : esc(s.headline);
+  const jump = frontAnchorId
+    ? ` <a class="sk" href="#${esc(frontAnchorId)}">&uarr; on the front page</a>`
+    : ` <span style="opacity:.7">&uarr; on the front page</span>`;
+  return `<span class="altitem" id="${esc(anchorId)}">${headline}${jump}</span>`;
+}
+
 function alsoRailHTML(also) {
   if (!also || !also.length) return "";
   const items = also.map((a) => {
@@ -373,6 +393,19 @@ function alsoRailHTML(also) {
       : `<li>${line}${src}</li>`;
   }).join("");
   return `<div class="also-rail"><h6>Also worth knowing</h6><ul>${items}</ul></div>`;
+}
+
+// Top + bottom toggles for the mobile accordion. The top flips Read more / Show
+// less; the bottom one lives INSIDE the collapse (so it only shows when open) and
+// closes the card, scrolling back to its top.
+function collapseToggles(collapseId) {
+  return {
+    top: `<button type="button" class="card-toggle" aria-expanded="false" ` +
+      `aria-controls="${collapseId}" onclick="daily.toggleCard(this)">` +
+      `<span class="ct-more">Read more</span><span class="ct-less">Show less</span></button>`,
+    bottom: `<button type="button" class="card-toggle card-toggle-bottom" aria-expanded="false" ` +
+      `onclick="daily.toggleCard(this)"><span>Show less</span></button>`,
+  };
 }
 
 // Renders one story <article>. `opts`: {lead, slug, sectionName, id, showTab}
@@ -413,56 +446,63 @@ function storyCardHTML(s, opts) {
 
   // Carried on the card so the "copy" button can lift the exact prompt the
   // Ask-AI links use, without rebuilding it or blowing the URL budget.
+  // "heavy" cards (a photo, or a long read) are the ones the packer lets run
+  // wide, so a section reads as a mix of broad and narrow boxes.
+  const heavy = !!s.image || String(s.summary || "").length > 240;
   const attrs = `class="${cls.join(" ")}" id="${esc(opts.anchorId)}" ` +
+    `data-heavy="${heavy ? 1 : 0}" ` +
     `style="--tabc:var(--${tabVar})"` +
     (s.url ? ` data-ask-prompt="${esc(askPrompt(s))}"` : "");
 
+  const collapseId = `col-${esc(opts.anchorId)}`;
+  const tog = collapseToggles(collapseId);
+
   if (opts.lead) {
-    // A lead WITH a photo: text left, photo right (the classic arrangement).
-    // A lead WITHOUT a photo: rather than leave ~950px of dead space beside a
-    // capped text column, move The Signal / Editor's Read into that right-hand
-    // column. The lead keeps its two-column shape either way — the analysis
-    // fills the slot the photo would have occupied.
+    // The lead now collapses on mobile too. The .lead-collapse wrapper is
+    // display:contents on desktop, so the float (with photo) and two-column
+    // (no photo) desktop layouts render exactly as before; on mobile it becomes
+    // the accordion body behind the Read more / Show less toggles.
     if (!s.image) {
-      const leftBlock = `
-        ${kicker.join("")}
-        <h5>${headlineHTML}</h5>
-        ${keyStatHTML(s)}
-        ${summaryBlockHTML(s)}
-        ${meta}`;
       return `<${tag} ${attrs}>
-        <div class="lead-main">${leftBlock}</div>
-        <div class="lead-side">${bodyHTML(s, tabVar)}</div>
+        <div class="lead-head">${kicker.join("")}<h5>${headlineHTML}</h5>${keyStatHTML(s)}</div>
+        ${tog.top}
+        <div class="lead-collapse" id="${collapseId}">
+          <div class="lead-main">${summaryBlockHTML(s)}${meta}</div>
+          <div class="lead-side">${bodyHTML(s, tabVar)}</div>
+          ${tog.bottom}
+        </div>
       </${tag}>`;
     }
-    // Figure FIRST, and no wrapper div around the text: a float only pushes
-    // content that follows it in the flow, so the old "text div, then figure"
-    // order meant the photo never actually wrapped anything — it just sat in
-    // its own column with dead space under it.
     return `<${tag} ${attrs}>
       ${figureHTML(s, true)}
-      ${textBlock}
+      ${kicker.join("")}
+      <h5>${headlineHTML}</h5>
+      ${keyStatHTML(s)}
+      ${tog.top}
+      <div class="lead-collapse" id="${collapseId}">
+        ${summaryBlockHTML(s)}
+        ${bodyHTML(s, tabVar)}
+        ${meta}
+        ${tog.bottom}
+      </div>
     </${tag}>`;
   }
   // Non-lead: on mobile the body collapses behind a "Read more" toggle
   // (3.2). kicker + headline + key-stat stay visible; summary/signal/meta
   // live in .card-collapse. Desktop CSS keeps .card-collapse always open.
-  const collapseId = `col-${esc(opts.anchorId)}`;
   const cardHead = `${kicker.join("")}
         <h5>${headlineHTML}</h5>
         ${keyStatHTML(s)}`;
   const collapseBody = `${summaryBlockHTML(s)}
         ${bodyHTML(s, tabVar)}
         ${meta}`;
-  const toggle = `<button type="button" class="card-toggle" aria-expanded="false" ` +
-    `aria-controls="${collapseId}" onclick="daily.toggleCard(this)">` +
-    `<span class="ct-more">Read more</span><span class="ct-less">Show less</span></button>`;
   return `<${tag} ${attrs}>
     ${figureHTML(s, false)}
     ${cardHead}
-    ${toggle}
+    ${tog.top}
     <div class="card-collapse" id="${collapseId}"><div>
         ${collapseBody}
+        ${tog.bottom}
     </div></div>
   </${tag}>`;
 }
@@ -593,7 +633,7 @@ function renderEdition(ed) {
       id: leadFbId, anchorId: leadId, date })}</div>`;
   }
   if (ed.frontpage && ed.frontpage.length) {
-    html += `<div class="grid2">`;
+    html += `<div class="pack">`;
     (ed.frontpage || []).forEach((s, i) => {
       html += storyCardHTML(s, { lead: false, slug: "front", sectionName: sectionNameForFrontpage(ed, s), id: frontpageFbIds[i], anchorId: frontpageIds[i], date });
     });
@@ -603,16 +643,22 @@ function renderEdition(ed) {
   (ed.sections || []).forEach((sec, si) => {
     if (!sec.stories || !sec.stories.length) return;
     html += sectionHeadHTML(sec.name, sec.slug, si);
-    html += `<div class="grid2" style="margin-top:16px">`;
+    // Split the section's stories: full cards go into the packing grid; stories
+    // that already ran on the front page collapse into an "Also up top" strip.
+    let cards = "";
+    const pointers = [];
     sec.stories.forEach((s, i) => {
       const frontAnchorId = frontAnchorFor(s.url);
       if (frontAnchorId) {
-        html += crossRefHTML(s, sectionIds[si][i], frontAnchorId);
+        pointers.push(crossRefStripItem(s, sectionIds[si][i], frontAnchorId));
       } else {
-        html += storyCardHTML(s, { lead: false, slug: sec.slug, sectionName: null, id: sectionIds[si][i], anchorId: sectionIds[si][i], date });
+        cards += storyCardHTML(s, { lead: false, slug: sec.slug, sectionName: null, id: sectionIds[si][i], anchorId: sectionIds[si][i], date });
       }
     });
-    html += `</div>`;
+    html += `<div class="pack">${cards}</div>`;
+    if (pointers.length) {
+      html += `<div class="alsotop"><b>Also up top</b>${pointers.join("")}</div>`;
+    }
     html += alsoRailHTML(sec.also);
   });
 
@@ -643,7 +689,33 @@ function renderEdition(ed) {
 
   $("#colophon").innerHTML = `${esc(ed.colophon || "")} &middot; assembled by hand every morning
     <img class="colo-logo" src="assets/logo-cactus.png" alt="" aria-hidden="true">`;
+
+  packAll();
 }
+
+// ---------- fixed-column rows ----------
+// The grid is pure CSS (flexbox): 2 columns on a laptop, 3 on a wide monitor,
+// 1 on a phone, with equal-height rows. The only thing JS decides is which card
+// (if any) is a lone leftover on its final row — that one spans the full width
+// (.wide) so no trailing space is wasted, matching the "5th article goes wide"
+// rule. Everything else (row fill, equal heights, meta-at-bottom) is CSS.
+function packAll() {
+  // Column count follows the CSS media-query breakpoints (viewport width), so
+  // the leftover math matches what the flexbox actually lays out.
+  const vw = window.innerWidth;
+  const cols = vw >= 1300 ? 3 : vw >= 700 ? 2 : 1;
+  document.querySelectorAll(".pack").forEach(pack => {
+    const cards = Array.from(pack.children).filter(c => c.classList.contains("story"));
+    cards.forEach(c => c.classList.remove("wide", "wide-fig", "wide-txt"));
+    if (cols < 2 || !cards.length) return;           // phone: single column, no wide
+    if (cards.length % cols === 1) {
+      const last = cards[cards.length - 1];
+      last.classList.add("wide", last.querySelector(".figure img") ? "wide-fig" : "wide-txt");
+    }
+  });
+}
+let _packT;
+addEventListener("resize", () => { clearTimeout(_packT); _packT = setTimeout(packAll, 100); });
 
 // Best-effort section name for a frontpage story (frontpage stories carry no
 // slug of their own in the schema; look them up by url against the sections).
@@ -727,6 +799,26 @@ async function init() {
   else $("#paper").innerHTML = `<p class="status">No editions published yet. Check back after the next run.</p>`;
 
   setupKeyboardNav();
+  setupNavAutoHide();
+}
+
+// Nav bar auto-hide: slides up when the reader scrolls down, returns on scroll
+// up. Always shown near the very top. rAF-throttled; small delta kills jitter.
+function setupNavAutoHide() {
+  const nav = $("#nav");
+  if (!nav) return;
+  let lastY = window.scrollY, ticking = false;
+  const update = () => {
+    const y = window.scrollY;
+    if (y < 80) nav.classList.remove("nav-hidden");
+    else if (y > lastY + 6) nav.classList.add("nav-hidden");     // scrolling down
+    else if (y < lastY - 6) nav.classList.remove("nav-hidden");  // scrolling up
+    lastY = y;
+    ticking = false;
+  };
+  addEventListener("scroll", () => {
+    if (!ticking) { requestAnimationFrame(update); ticking = true; }
+  }, { passive: true });
 }
 
 // keyboard j/k to jump between story cards
