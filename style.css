@@ -9,7 +9,7 @@
 :root{
   --kraft:#EFE5CF; --card:#FBF6EA; --ink:#26221B; --faded:#75695A;
   --rule:#DECFAF; --red:#C4432B; --graphite:#4E463C;
-  --hl:rgba(214,196,150,.7);   /* warm-sand highlight (was harsh yellow) */
+  --hl:rgba(234,205,124,.7);   /* marigold highlight (#EACD7C) */
 
   /* muted section palette — black-text-safe, per the brand kit mapping */
   --clay:#D9A38C;      /* AI            (#1 Clay Rose) */
@@ -37,13 +37,13 @@
 
 *{box-sizing:border-box}
 html{background:var(--kraft)}
-/* Minimal: a flat kraft ground (no texture image) — cleaner and more premium. */
+/* Minimal: a flat kraft ground (no texture image) — cleaner and more premium.
+   A thin brown rule sits at the very top and very bottom of the page; these are
+   in the flow (they scroll with the page), not a fixed frame, and there are no
+   side lines. */
 body{margin:0;color:var(--ink);font-family:var(--body);line-height:1.55;
-  background:var(--kraft)}
-/* Thin full-page frame (portfolio-style border), fixed just inside the edges. */
-body::after{content:"";position:fixed;inset:14px;border:1px solid rgba(107,74,46,.30);
-  pointer-events:none;z-index:1}
-@media(max-width:480px){body::after{inset:8px}}
+  background:var(--kraft);border-top:1.5px solid var(--brown);
+  border-bottom:1.5px solid var(--brown)}
 a{color:inherit}
 /* P4: was a hard 1060px cap, which left big empty margins on a wide monitor.
    Now fluid up to 1600px. Prose blocks inside cards keep their own ch-based
