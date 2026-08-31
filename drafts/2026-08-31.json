@@ -1,0 +1,552 @@
+{
+  "date": "2026-08-31",
+  "brief": [
+    { "id": "world-20734e1f12", "line": "Nepal-Tibet flood death toll hits 804, 3,000+ still missing, morgues out of room" },
+    { "id": "world-d1fd3bc001", "line": "Trump announces 25-year deal for US to control 65bn barrels of Venezuela's oil" },
+    { "id": "world-c2ec09c1ed", "line": "India to host first Global-South AI summit, 20 heads of state confirmed" },
+    { "id": "ai-a07c3116b1", "line": "Sony Music, Warner sue Anthropic over 'brazen' piracy to train Claude" },
+    { "id": "india-deep-tech-d3ce43a794", "line": "a16z raises $1.1B fund for AI chips, data centers and robotics" },
+    { "id": "india-deep-tech-4847fad061", "line": "Bengaluru drone startup founded by a 21-year-old raises $37M Series A" },
+    { "id": "climate-energy-1203aeefa8", "line": "Ather launches Rs99,999 e-scooter, chasing 90% of India's EV buyers" },
+    { "id": "global-economics-d103e66231", "line": "India's >7% growth still falls short of Modi's developed-nation target" },
+    { "id": "indian-startups-ba385e0eed", "line": "Indian startups raised $210.3M this week, led by Third Wave Coffee's $43M" },
+    { "id": "indian-startups-159d6dee23", "line": "US startup raises $180M to drill 5km+ for superhot geothermal power" },
+    { "id": "other-interests-369b4bd145", "line": "Praggnanandhaa becomes first Indian to win the Grand Chess Tour" },
+    { "id": "world-61d0db5498", "line": "NASA launches Roman telescope, 100x Hubble's field of view" }
+  ],
+  "lead": {
+    "id": "world-20734e1f12",
+    "headline": "Nepal-Tibet floods: death toll passes 804, morgues overwhelmed, 3,000+ still missing",
+    "summary": "The death toll from flash floods and mudslides across Nepal and Tibet's Himalayan valleys stood at 804 by Sunday, with more than 3,000 still reported missing. Morgues across Nepal are already full, forcing mass burials in Bharatpur, where each body is DNA-sampled, tagged and buried in a shallow grave in the hope of later identification by relatives. In Chitwan, about 100 miles downstream from the worst-hit areas, more than 250 bodies have washed up but only nine have been identified because most are too disfigured; officials have resorted to posting photos of the dead on the Nepal police website and PowerPoint slideshows for relatives to search. Foreign secretary Amrit Bahadur Rai said Nepal has requested more than 1,000 freezer units to store bodies. Many of the worst-hit villages remain reachable only by army helicopter. In Devighat, a town on the Trishuli River, search teams are still pulling bodies from mud-buried homes, and residents are abandoning the area entirely as the river remains dangerously high.",
+    "signal": [
+      "Bodies are surfacing faster than authorities can identify or store them — DNA-tagged mass burial is now standard procedure, not an exception.",
+      "Entire river-valley towns like Devighat are being abandoned outright; this is a multi-year reconstruction problem, not a short relief operation.",
+      "Same Himalayan hydrology and monsoon system India shares — a live stress test of disaster-response capacity in exactly the kind of hill-river geography India has plenty of."
+    ],
+    "key_stat": "804 dead · 3,000+ missing",
+    "editors_read": "The gap on display here — morgues out of space, entire towns abandoned, army helicopters as the only access — is really a disaster-response capacity gap, and that's turning into a genuine market: drone-based search and mapping, satellite flood forecasting, and rapid shelter logistics all have real demand signals in exactly this kind of event. Worth watching whether India's own deep-tech and dronetech firms (see today's India Deep Tech section) get pulled into Nepal relief or draw funding off the back of it — climate-driven disaster response is quietly becoming one of deep tech's more urgent, less hyped verticals.",
+    "developing": true,
+    "badge": ""
+  },
+  "frontpage": [
+    {
+      "id": "world-d1fd3bc001",
+      "headline": "US strikes 25-year deal for 55% control of Venezuela's oil, eyes 65bn barrels",
+      "summary": "The US and Venezuela have struck a deal covering more than 65 billion barrels of proven reserves across 17 strategic oil fields, running 25 years, under which the US government retains 55% control of a joint venture holding a 100-year concession. Interim President Delcy Rodriguez says it brings more than $100bn in investment and over $209bn in taxes for Venezuela over its life, targeting a rise in output to 1.5 million barrels a day, in a country whose 303-billion-barrel reserves are the world's largest but whose production has collapsed since the late 1990s. The deal follows the January capture of former president Maduro by US special forces; Trump frames it as a way to cut US gas prices, which have risen partly due to Strait of Hormuz disruption from the Iran war. Analysts quoted (Goldwyn, Kuiper, Ziemba) say there is \"no precedent\" for a government leasing another sovereign nation's oil fields this way, question its legality under Venezuela's constitution, and note Venezuela's heavy, sour crude doesn't easily substitute for the light, sweet oil US refineries need for petrol. Chevron and Halliburton are separately reported nearing deals to invest billions in the fields' infrastructure.",
+      "signal": [
+        "This installs the US as operator, not just buyer, of a sovereign nation's largest resource — a genuinely unusual structure with no real legal precedent, so treat the \"historic deal\" framing skeptically until the actual contract text surfaces.",
+        "Analysts agree it won't move global oil supply for at least a year; the \"lower gas prices\" framing is largely political messaging ahead of the US midterms.",
+        "Useful geopolitical context, not personally actionable."
+      ],
+      "developing": true
+    },
+    {
+      "id": "world-c2ec09c1ed",
+      "headline": "India to host first Global-South AI summit; 20 heads of state confirmed",
+      "summary": "The India-AI Impact Summit 2026 — billed as the first global AI summit hosted in the Global South — will be held in New Delhi; the article states it runs \"from the 16th to the 20th of this month.\" Confirmed attendees include France's Macron, Brazil's Lula, Spain's Sanchez, Switzerland's Parmelin, the Netherlands' Schoof, Abu Dhabi's Crown Prince Sheikh Khaled bin Mohamed bin Zayed, and the leaders of Mauritius, Sri Lanka, Seychelles and Bhutan, among 20 nations; ministerial delegations from over 45 countries and the UN Secretary-General will also attend. Across five days and more than 700 sessions, delegates will cover AI safety, sovereign AI, data protection and proposals for shared compute infrastructure and an \"AI Commons\"; the government will also showcase Yuva AI for All, a free foundational AI-skilling programme for students and professionals.",
+      "signal": [
+        "India's biggest AI-diplomacy event to date — a real marker of India positioning itself as a broker between US/China AI blocs rather than just a market for their models.",
+        "Watch which Indian companies and think tanks get folded into the summit's working groups on AI Commons and shared compute — that's where the next wave of visible India-AI policy roles will surface.",
+        "Whether the concrete deliverables (AI Commons, compute-sharing) survive past the diplomatic optics is the real test."
+      ],
+      "editors_read": "This summit is India's clearest attempt yet to convert its AI-development narrative into geopolitical leverage — hosting 20 heads of state and courting Global South buy-in on sovereign-AI standards positions Delhi as a counterweight to US/China blocs, not just a customer of their models. For anyone eyeing AI-policy or founder's-office roles, the signal to track is which Indian firms and think tanks land seats in the summit's working groups — that's where the next wave of high-visibility India-AI jobs will come from.",
+      "developing": false
+    },
+    {
+      "id": "ai-a07c3116b1",
+      "headline": "Sony Music, Warner sue Anthropic over 'brazen' torrenting of copyrighted works",
+      "summary": "Sony Music Publishing, Warner Chappell and other music publishers sued Anthropic and co-founders Dario Amodei and Benjamin Mann in the US District Court for the Northern District of California, alleging a \"brazen campaign\" of illegally torrenting, scraping and downloading copyrighted works — including books containing lyrics and sheet music — to train Claude. It follows Bartz v. Anthropic, where a judge ruled training on copyrighted books was legal but acquiring them via piracy was not, and ordered Anthropic to pay $1.5bn. Some of the same lawyers also represent Concord Music Group and Universal Music Group in a related suit filed in January. Anthropic says it will \"defend ourselves robustly\" in court.",
+      "signal": [
+        "The legal exposure keeps compounding: this is at least the third major IP suit built on the same piracy theory that already cost Anthropic $1.5bn once.",
+        "The legal line being drawn — training on copyrighted work is fine, pirating it to get there isn't — is a template every AI lab now has to worry about, not just Anthropic.",
+        "A legal and business-model risk story, not a signal about Claude's product quality."
+      ],
+      "developing": true
+    },
+    {
+      "id": "india-deep-tech-d3ce43a794",
+      "headline": "Andreessen Horowitz raises $1.1B fund for AI chips, data centers and robotics",
+      "summary": "Andreessen Horowitz's new Machine Age Fund is $1.1bn — its first vehicle dedicated purely to AI's physical infrastructure (chips, storage, networking, data centers, power systems and robotics) rather than models or software. General partner David George: \"we've never seen a compute transition this big move this fast.\" GP Erik Torenberg frames it as rebuilding AI's physical infrastructure \"from the ground up.\" The strategy explicitly includes robotics as AI moves into physical machines, and the firm plans to lend its existing go-to-market and recruiting infrastructure to hardware-focused portfolio companies.",
+      "signal": [
+        "Confirms the capital rotation from AI models/apps toward AI's physical infrastructure is now a fund-level thesis at one of the largest VCs, not just a talking point.",
+        "That's the same pool of global capital India's chip, data-center and robotics buildout (see India Deep Tech, below) is competing for."
+      ],
+      "key_stat": "$1.1B · AI infra fund",
+      "developing": false
+    },
+    {
+      "id": "india-58afc91c7f",
+      "headline": "Government mandates one standard time across banking, telecom and railways",
+      "summary": "The government has mandated a uniform standard time across banking, telecom, and railways. (source unreachable — headline only)",
+      "signal": [
+        "Only the headline reached us — no detail on enforcement, timeline or penalties yet.",
+        "A basic-but-overdue governance fix for critical infrastructure, worth a follow-up once details surface."
+      ],
+      "developing": false
+    },
+    {
+      "id": "india-deep-tech-4847fad061",
+      "headline": "Bengaluru drone startup founded by a 21-year-old raises $37M Series A",
+      "summary": "Airbound, founded by Naman Pushp — who started building drones out of boredom during the 2020 lockdown at 15 — has raised $37M in a Series A led by Greenoaks, taking total funding to nearly $50M. Its TRT aircraft weighs about 1.5kg and carries roughly 1kg of payload, taking off vertically before transitioning to horizontal flight; a 5kg-payload version is in development. Airbound has completed more than 13,000 autonomous flights across Bengaluru and Guntur, including over 1,000 for Narayana Health — whose new Banashankari hospital in Bengaluru was built without a diagnostic lab, relying entirely on Airbound's drones to move blood samples, running up to 20 flights a day on that one route. In Andhra Pradesh, Airbound plans to connect Amaravati, Vijayawada and Guntur with a long-term target of 10,000 flights a day, with the state government building a network of ground observers to support beyond-visual-line-of-sight operation. Pushp turned down a Carnegie Mellon admission to build the company; his stated ambition is carbon-fibre aircraft manufactured at scale — \"100 aircraft a day will start to feel very small,\" he has said.",
+      "signal": [
+        "Real operational proof (13,000+ flights, a hospital built around the service) rather than pilot-stage demos — exactly the deployment-over-demo bar deep-tech stories should be held to.",
+        "Infrastructure-light drone logistics may scale faster in India's tier-2 geography than in denser markets, given lower ground-transport reliability there."
+      ],
+      "key_stat": "$37M · Series A",
+      "editors_read": "Airbound's traction is the more interesting story than the funding number — a hospital literally designed without a lab because drone delivery is reliable enough to replace one is a genuine deployment proof point that most India \"robotics\" rounds can't claim. If Andhra Pradesh's beyond-visual-line-of-sight regulatory sandbox holds up, it becomes a template other states copy — and that regulatory unlock, more than the capital, is probably the bigger thing to track when assessing India deep-tech investability.",
+      "developing": false
+    },
+    {
+      "id": "climate-energy-1203aeefa8",
+      "headline": "Ather launches Rs99,999 e-scooter, chasing 90% of India's EV buyers",
+      "summary": "Ather Energy launched the Konarc, its first mass-market scooter, starting at Rs99,999 — aiming to extend its addressable market to roughly 90% of India's e-scooter buyers, per CEO Tarun Mehta. Ather currently ranks third in India's e-two-wheeler market with 14.85% share in July, behind TVS Motor (27.16%) and Bajaj Auto (22.32%), and previously had no product in the Rs1-1.25 lakh band that covers 45-55% of the market. The Konarc comes in six variants across two trims, with claimed range of 100-200km, built on a new lower-cost \"EL\" platform; Ather will cut Rizta production 30-40% to make room, with real Konarc volume expansion coming in about four months once its Sambhajinagar plant (adding 42,000 units/month) comes online. Ather's Hosur plant already runs 13,000-15,000 units/month short of demand — dealer stock fell to three days in Q1 FY27 from 14 days a year earlier. The company also launched Ather Node, a shared charging gateway for apartment complexes that can manage up to 1,000 chargers off one connection, dynamically distributing limited sanctioned power.",
+      "signal": [
+        "The real constraint on India's EV two-wheeler growth isn't demand, it's manufacturing capacity — Ather is turning away tens of thousands of units of monthly demand it can't fill.",
+        "Ather Node addresses the actual bottleneck to home charging (building electrical load limits), arguably a more interesting infra play than the scooter itself."
+      ],
+      "key_stat": "Rs99,999 · entry price",
+      "developing": false
+    },
+    {
+      "id": "global-economics-d103e66231",
+      "headline": "India's >7% growth still falls short of Modi's developed-nation target",
+      "summary": "India likely grew at more than 7% last quarter — a pace most major economies would envy — but Bloomberg Economics argues that may still be too slow to deliver Prime Minister Modi's ambition of reaching developed-nation status.",
+      "signal": [
+        "Best-in-class emerging-market growth on its own isn't enough to close a decades-long income gap — worth remembering whenever headline GDP numbers get celebrated uncritically.",
+        "Useful context, not personally actionable."
+      ],
+      "developing": false
+    }
+  ],
+  "sections": [
+    {
+      "slug": "ai",
+      "stories": [
+        {
+          "id": "ai-a07c3116b1",
+          "headline": "Sony Music, Warner sue Anthropic over 'brazen' torrenting of copyrighted works",
+          "summary": "Sony Music Publishing, Warner Chappell and other music publishers sued Anthropic and co-founders Dario Amodei and Benjamin Mann in the US District Court for the Northern District of California, alleging a \"brazen campaign\" of illegally torrenting, scraping and downloading copyrighted works — including books containing lyrics and sheet music — to train Claude. It follows Bartz v. Anthropic, where a judge ruled training on copyrighted books was legal but acquiring them via piracy was not, and ordered Anthropic to pay $1.5bn. Some of the same lawyers also represent Concord Music Group and Universal Music Group in a related suit filed in January. Anthropic says it will \"defend ourselves robustly\" in court.",
+          "signal": [
+            "At least the third major IP suit built on the same piracy theory that already cost Anthropic $1.5bn once.",
+            "A legal and business-model risk story, not a signal about Claude's product quality."
+          ],
+          "developing": true
+        },
+        {
+          "id": "ai-ddada22784",
+          "headline": "Gnani.ai launches sovereign AI stack for Indian enterprises, backed by IndiaAI Mission",
+          "summary": "Gnani.ai has launched Gnani Artha, an end-to-end sovereign AI stack combining Gnani Evon v3.3 — a 30-billion-parameter open-weights model trained natively across 11 Indian languages — with Gnani Plexus, its agentic AI platform; the stack is backed by the government's IndiaAI Mission. CEO Ganesh Gopalan says the model consumes at least 40% fewer tokens than global models on harder Indic languages like Gujarati and Malayalam, on Gnani's own MILU benchmark. The company plans 70-billion and 100-billion-plus-parameter models next; it began as a speech-to-text company in 2017, says it holds the largest dedicated Indian-language dataset in the world, and runs Prisma, a speech-to-text model covering nearly every Indian language. On regulation, Gopalan expects India to land closer to the US's lighter-touch approach than the EU's, with deepfake-specific safeguards given the country's scale.",
+          "signal": [
+            "A genuine sovereign-AI infrastructure play with a claimed Indic-language cost advantage, not just a wrapper — worth tracking against Sarvam and other India-first model builders (see India Deep Tech, below) as the sovereign-AI race concretizes.",
+            "The 40%-fewer-tokens claim and MILU benchmark are Gnani's own numbers — useful signal, not independent verification."
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-3574f2a10e",
+          "headline": "Alibaba's chairman and CEO buy $15M+ of stock after $10.2B AI-funding share sale",
+          "summary": "Alibaba's quarterly profit fell 75% to RMB10.44bn as AI spending rose, even as revenue grew 9% to roughly $40bn and AI Cloud/Compute revenue jumped 45% to $7.2bn. Three days later, Alibaba raised $10.2bn by selling 710 million new shares at HK$112.70 — 8.4% below the prior close, diluting existing holders by about 3.6% — and its Hong Kong-listed stock fell roughly 8.5% on the news. Chairman Joseph Tsai then bought about $10.3M of shares and CEO Eddie Wu bought roughly $5M, both near the placement price and both apparently their first major reported open-market buys; Tsai's later purchases took the pair's combined buying past HK$200M. Alibaba is committing more than $50bn to AI infrastructure over three years, with management reportedly expecting payback within 2.5 years; analysts at Bank of America and JPMorgan kept \"Buy\"/\"Overweight\" ratings, with an average price target implying roughly 52% upside.",
+          "signal": [
+            "Insider buying right after a dilutive raise is a real, if imperfect, signal of management conviction — not independent confirmation the AI spending will pay off.",
+            "Useful context on China's AI-infrastructure capex cycle; not directly actionable for the reader."
+          ],
+          "developing": false
+        },
+        {
+          "id": "ai-99f5007066",
+          "headline": "Shadow AI risk concentrates in the top 5% of enterprise power users, Akamai finds",
+          "summary": "Akamai's Enterprise AI Usage Risk Report 2026 finds the top 5% of enterprise AI users run AI models 12 times more than the bottom 50%, averaging 18 or more prompts per conversation versus about five for a typical employee. Nearly half of enterprise AI conversations, 47.11%, run through personal identities invisible to corporate security; DeepSeek is 99.8% personal-login traffic, versus ChatGPT (61.36%), Claude (61.09%) and Microsoft Copilot Standard (63.92%), while governed platforms like Gemini Enterprise (98.15%) and Copilot for M365 (90.55%) keep most usage inside corporate identity. Separately, 16.31% of AI browser and IDE extensions carry a known CVE (versus 10.80% of browser extensions generally), and roughly 75% of them request high or critical permissions; 14.4% of conversations reach AI through corporate email tied to personal freemium accounts. Akamai's recommended fix: rank employees by AI intensity rather than headcount for governance priority, force SSO to close the personal-login gap, and treat every autonomous agent or extension as a privileged identity.",
+          "signal": [
+            "Flips the usual \"block risky apps\" governance model: the people creating the most enterprise value from AI are the same people creating most of the exposure, so blanket policy misses both.",
+            "Directly relevant if the reader ends up in a founder's-office/ops role owning AI rollout — this is the shape internal AI-governance work is heading toward."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "deep-tech",
+      "stories": [
+        {
+          "id": "deep-tech-8b88d0b9b9",
+          "headline": "India's chip ambitions widen from packaging to design, materials and data centers",
+          "summary": "A roundup of India's expanding semiconductor push: CG Power targets 70% utilization at its larger packaging plant within about four years, potentially generating roughly $500M in annual revenue at scale. Infineon is acquiring Bengaluru-based C2i Semiconductors to strengthen AI-data-center power delivery. Test-and-measurement firm NI (Emerson) flags a production-test engineering skills gap as India's OSAT plants and fabs move toward manufacturing. The government is preparing capex subsidies for domestic polysilicon capacity to cut solar-supply-chain import dependence, while Raana Semiconductors is in talks to raise about $10.4M (Rs100 crore) for crystal-growth materials expansion. A new Rs625bn ($7.5bn) Mobile Phone Manufacturing Scheme targets domestic phone design and IP, not just assembly. Meanwhile, data-center funding has thinned sharply since June even as pipeline forecasts keep growing — the bottleneck is now environmental clearance, land, water and grid access, not capital or demand. AM Intelligence has ordered 9,000 Nvidia Vera Rubin systems, Foxconn is reportedly weighing a major India expansion, and the telecom regulator has opened the door to field trials in the licensed 26GHz mmWave band. Samsung is using India as a production base for AI-data-center cooling equipment, and LG is investing hundreds of billions of won in a third India appliance plant.",
+          "signal": [
+            "The through-line: India's semiconductor story is shifting from \"can we assemble/package chips\" to \"can we design, source materials, and power AI data centers\" — a harder, more valuable problem.",
+            "The real near-term bottleneck for India's AI-data-center boom looks like environmental clearance and grid/water access, not chips or capital — worth watching as the actual gating factor over the next year."
+          ],
+          "developing": false,
+          "badge": "ROUNDUP"
+        },
+        {
+          "id": "deep-tech-1450871e5e",
+          "headline": "Physicist's 20-year-old quantum imaging prediction confirmed using superconductors",
+          "summary": "University of Illinois Chicago physicist Dirk Morr proposed two decades ago, after watching a 2001 IBM experiment, that superconductors could act as lenses to focus quantum electron waves into high-resolution images — but testing it required a flawless superconducting surface that wasn't achievable at the time. In 2023, University of Hamburg researchers finally built an atomic corral on a superconductor and placed an iron atom inside it to generate a quantum-projected image; Morr's UIC student Chang Xu built a matching multilayer model (a niobium base, a silver island, and a silver-atom corral on top) that closely reproduced the Hamburg result, confirming Morr's original prediction. The work is published in Nature Physics. The appeal of the technique: it lets researchers image atoms without disturbing them, since in the quantum world direct observation typically alters the object being observed.",
+          "signal": [
+            "A clean example of theory outrunning experimental capability by two decades — fundamental-physics timelines stay long even when the idea is right from day one.",
+            "Interesting but not near-term applicable; filed as context, not something actionable."
+          ],
+          "developing": false
+        },
+        {
+          "id": "deep-tech-b6a13c544a",
+          "headline": "Russia launched 2,500+ jet-powered drones at Ukraine in August, up 67% month-on-month",
+          "summary": "Russia launched more than 2,500 jet-powered Shahed drones at Ukraine in August, up from roughly 1,500 in July — a month-on-month surge of at least 67%, according to Ukrainian officials. Ukrainian adviser Serhii Beskrestnov says the drones are being launched \"straight from the factory,\" while Moscow is also reportedly scaling production of Geran-4 drones and Banderol missiles.",
+          "signal": [
+            "As much an industrial-production story as a military one: the scale-up implies Russia has solved drone-manufacturing throughput, not just battlefield tactics.",
+            "Useful background on the drone-warfare trajectory given the reader's deep-tech and defense-tech-adjacent interests; not personally actionable."
+          ],
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "climate-energy",
+      "stories": [
+        {
+          "id": "climate-energy-1203aeefa8",
+          "headline": "Ather launches Rs99,999 e-scooter, chasing 90% of India's EV buyers",
+          "summary": "Ather Energy launched the Konarc, its first mass-market scooter, starting at Rs99,999 — aiming to extend its addressable market to roughly 90% of India's e-scooter buyers, per CEO Tarun Mehta. Ather currently ranks third in India's e-two-wheeler market with 14.85% share in July, behind TVS Motor (27.16%) and Bajaj Auto (22.32%), and previously had no product in the Rs1-1.25 lakh band covering 45-55% of the market. The Konarc comes in six variants across two trims, with claimed range of 100-200km, built on a new lower-cost \"EL\" platform; Ather will cut Rizta production 30-40% to make room, with real Konarc volume expansion coming in about four months once its Sambhajinagar plant comes online. Ather's Hosur plant already runs 13,000-15,000 units/month short of demand. The company also launched Ather Node, a shared charging gateway for apartment complexes that can manage up to 1,000 chargers off one connection, dynamically distributing limited sanctioned power.",
+          "signal": [
+            "The real constraint on India's EV two-wheeler growth is manufacturing capacity, not demand.",
+            "Ather Node targets the actual home-charging bottleneck — building electrical load limits — arguably a more interesting infra play than the scooter itself."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-c21ab09087",
+          "headline": "India's rooftop solar boom hits a domestic-content bottleneck on solar cells",
+          "summary": "India's domestic content requirement (DCR) rule — mandatory for projects commissioned after June 1, 2026 — requires DCR-compliant solar cells, but while compliant modules exist at scale, compliant cells don't; cells make up roughly 60% of module production cost, so they're the price-setting bottleneck. CEEW estimates a domestic cell costs about Rs6.54/W versus roughly Rs4.50/W for a duty-paid imported one, and the resulting module-price gap (about Rs8.77/W) adds roughly Rs26,000 to an illustrative 3kW household system. The DCR/non-DCR price premium has stayed near 70-73% even as both price levels fell over six months, evidence the gap is structural rather than a temporary commodity spike. The government relaxed compliance deadlines to December 31, 2026 for net-metering and open-access renewable projects on July 18, 2026, easing near-term pressure. Rooftop solar economics also depend heavily on the PM Surya Ghar Muft Bijli Yojana subsidy — without it, the household financial case weakens further.",
+          "signal": [
+            "A textbook case of \"indigenize the supply chain\" policy colliding with near-term execution reality — the subsidy program's success now hinges on cell manufacturing catching up, not policy intent.",
+            "Worth watching whether the extended deadline actually closes the cell-capacity gap by year-end, or just delays the same bottleneck."
+          ],
+          "developing": false
+        },
+        {
+          "id": "climate-energy-cb075012a8",
+          "headline": "India's grid operators race to manage rising solar and wind penetration",
+          "summary": "As solar and wind account for a growing share of India's power supply, grid operators face harder forecasting, scheduling and demand-management problems, per BusinessLine's Green Shift discussion. Key mechanisms in play include the Deviation Settlement Mechanism, which is tightening permissible generation deviations for solar and wind operators; better weather-forecasting systems for grid stability; smart meters, time-of-day tariffs and demand response; and emerging peer-to-peer electricity trading and virtual power plants. A proposed \"India Energy Stack\" could provide the digital backbone connecting distributed generation and consumption.",
+          "signal": [
+            "The renewables transition is now a software/market-design problem as much as a hardware one — DSM tightening and demand-response infrastructure are the less visible but necessary complement to solar/wind capacity additions.",
+            "A real opportunity space (grid-tech, virtual power plants, forecasting) adjacent to the reader's climate/energy interest."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "health-tech",
+      "stories": [
+        {
+          "id": "health-tech-43fbfb23f6",
+          "headline": "India has the digital-health infrastructure for AI at scale — not yet the governance",
+          "summary": "As of August 12, 2026, India's Ayushman Bharat Digital Mission reports 96.43 crore ABHA health IDs, more than 110 crore linked health records, 5.47 lakh registered health facilities and 10.50 lakh registered healthcare professionals. eSanjeevani, India's national telemedicine service, delivered AI-enabled clinical decision support across 28.2 crore consultations between April 2023 and November 2025. The Cough Against TB AI screening tool screened more than 1.62 lakh people between March 2023 and November 2025 and reportedly increased TB case detection by 12-16% versus conventional screening. MadhuNetrAI, an AI diabetic-retinopathy screening tool, had been used across 38 facilities in 11 states by December 2025, screening more than 14,000 retinal images and benefiting about 7,100 patients. Ayushman Bharat PM-JAY had authorized 12.69 crore cashless hospital admissions worth Rs1.92 lakh crore through 37,413 hospitals by June 30, 2026, processing more than 40,000 claims daily. In February 2026 the government launched BODH — a benchmarking platform for health AI built by IIT Kanpur and the National Health Authority — alongside SAHI, a national AI-in-healthcare governance framework. The piece argues India still lacks explicit rules for monitoring AI models after deployment, since unlike static medical devices, models keep changing through retraining and updates.",
+          "signal": [
+            "The scale is genuinely unmatched globally — India could end up defining the operating model for population-scale healthcare AI rather than just importing one.",
+            "The governance gap flagged (no \"approve once, monitor forever\" regime for models that keep changing) is the real risk here, not the AI capability itself — a policy/standards opportunity space worth tracking."
+          ],
+          "developing": false,
+          "badge": "ANALYSIS"
+        },
+        {
+          "id": "health-tech-12f325a693",
+          "headline": "Alnylam defends its heart-drug franchise after AstraZeneca's Wainua trial failure",
+          "summary": "AstraZeneca's heart-disease drug Wainua failed a trial in ATTR-CM, a condition involving amyloid buildup in the heart, and some analysts read the miss as bad news for Alnylam's own drug class too — since it suggests \"silencer\" medicines like Alnylam's add no benefit over \"stabilizer\" drugs when patients are already on one, and that stabilizers might be the superior approach. Alnylam is now defending its marketed drug Amvuttra and next-generation candidate nucresiran against that read, given the shared drug class.",
+          "signal": [
+            "A read-across risk to Alnylam's franchise from someone else's trial failure, not a failure of its own drugs — worth distinguishing the two.",
+            "Useful biotech context, not personally actionable."
+          ],
+          "developing": true
+        },
+        {
+          "id": "health-tech-152eefe1c2",
+          "headline": "FDA approves Protagonist/Takeda's rusfertide for rare blood cancer",
+          "summary": "The FDA approved rusfertide, developed by Protagonist Therapeutics and to be sold by Takeda under the brand name Mimrylo, as a weekly-injection treatment for polycythemia vera — a chronic blood cancer that causes overproduction of red blood cells, raising the risk of heart attack, stroke and blood clots.",
+          "signal": [
+            "A straightforward approval with real clinical value for a rare-disease population.",
+            "Useful context, not personally actionable."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "agritech",
+      "stories": [
+        {
+          "id": "agritech-d467a233e1",
+          "headline": "India's monsoon rainfall deficit hits 14% by end-August; nearly half of districts short",
+          "summary": "India received 592.4mm of rainfall between June 1 and August 29, 2026, against a normal of 686.8mm — a 14% deficit from the Long Period Average. East and Northeast India recorded the worst shortfall (783.8mm vs. a normal 1,066.5mm, a 27% deficit), followed by the South Peninsula (418.5mm vs. 545.4mm, 23% deficit) and North-West India (425.6mm vs. 476.3mm, 11% deficit); Central India fared far better, just 3% short of normal. Of 741 IMD-tracked districts, 348 (about 47%) recorded below-normal rainfall. The monsoon began 35.4% below normal in June, recovered to about 1% above normal in July (helped by a 33% surplus in Central India), then weakened again in August. The IMD cut its full-season forecast from 92% to 90% of the Long Period Average, partly citing a moderate-strength El Nino, and expects continued subdued rainfall over Peninsular India into September — a month that will be critical for kharif crops and water resources.",
+          "signal": [
+            "The national 14% figure hides the real story — East/Northeast and the South Peninsula are each down 23-27%, which is where crop and water stress will actually concentrate.",
+            "September rainfall now matters disproportionately for kharif output and reservoir levels — worth watching as an early input to rural-demand and food-inflation narratives later this year."
+          ],
+          "key_stat": "14% · monsoon deficit",
+          "developing": true
+        },
+        {
+          "id": "agritech-0a9969947c",
+          "headline": "India keeps Indus Waters Treaty in abeyance; Pakistan warns of 'profound consequences'",
+          "summary": "India has kept the Indus Waters Treaty in abeyance, and Pakistan has warned of \"profound consequences\" in response. (source unreachable — headline only)",
+          "signal": [
+            "Only the headline reached us — no detail on what specifically changed or Pakistan's full stated response.",
+            "Genuinely significant if it holds, since the treaty underpins water-sharing central to both countries' agriculture; worth a follow-up once fuller reporting surfaces."
+          ],
+          "developing": true
+        },
+        {
+          "id": "agritech-16eb655089",
+          "headline": "Ag robotics investors say the sector just became more 'investable'",
+          "summary": "At the inaugural Ruggedize conference at Reservoir Farms in Salinas, Reservoir founder Danny Bernstein said ag-robotics machines can now be \"assembled, prototyped and tested in less than six months\" on tight budgets, thanks to cheaper off-the-shelf perception, edge-compute, the open-source Robot Operating System and cloud infrastructure. Reservoir announced a $10M R&D partnership with John Deere at the event and is raising a $50M fund, Reservoir VC, targeting pre-seed/seed ag-robotics and \"rugged AI stack\" startups; an earlier $3M proof-of-concept fund backed Farm-ng (acquired by Bonsai) and TerraBlaster (which just raised a seed round alongside Khosla Ventures). Bernstein argues agriculture has historically lagged the broader robotics-investment wave because, unlike defense, it lacks one big buyer and non-dilutive de-risking capital; machines that can \"compound\" across multiple crops and tasks, rather than serve just one crop, are what make the category venture-investable now. John Deere's Sean Sundberg and Verdant Robotics' Curtis Garner both stress that growers \"buy reliability before they buy innovation.\"",
+          "signal": [
+            "The investability case is about hardware/software commoditization lowering build costs, not a demand breakthrough — worth distinguishing \"cheaper to build\" from \"proven to work at scale.\"",
+            "The \"compounding machines across crops\" and \"reliability over innovation\" framework generalizes past agriculture to any rugged-physical-AI deep-tech thesis worth evaluating."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "indian-startups",
+      "stories": [
+        {
+          "id": "indian-startups-ba385e0eed",
+          "headline": "Indian startups raised $210.3M this week, down 9.8%; ecommerce and hardware led",
+          "summary": "23 Indian startups raised a combined $210.3M between August 24-28, down 9.8% from $233.2M raised by 19 startups the prior week. Ecommerce ($58.5M across four deals) and advanced hardware & technology ($49.9M across three deals) together made up 51.6% of the week's total. The biggest rounds: Third Wave Coffee, $43M (WestBridge Capital, Creagis) for its D2C coffee chain; Airbound, $37M Series A (Greenoaks) for drone logistics (see India Deep Tech, above); MATTER, $25M (Helena, Capital 2B) for EVs; Runable, $21M Series A (Susquehanna Venture Capital, Nexus Venture Partners) for AI application-layer tools. In M&A, Infineon acquired Peak XV-backed C2i Semiconductors, healthtech startup Healthify merged with US-based Berry Street to build an insurance-covered AI metabolic-health platform for the US market, and Deepinder Goyal's wearable startup Temple acquired London-based longevity clinic Longevous. New funds launched this week: Micromax's Rs250 crore deeptech family office, The/Nudge Foundation's Rs250 crore TILT impact fund, and Industrial47's Rs200 crore deeptech debut fund (first close at Rs85 crore, targeting defence, space, energy and maritime intelligence).",
+          "signal": [
+            "Week-on-week funding dipped modestly, but the mix — hardware, three new deeptech-focused funds, an AI-metabolic-health US M&A — signals continued rotation toward harder, more defensible categories over pure consumer plays.",
+            "Three new deeptech funds launching in one week is a bigger structural signal than any single round: capital allocators are positioning ahead of, not behind, India's deeptech buildout."
+          ],
+          "developing": false,
+          "badge": "ROUNDUP"
+        },
+        {
+          "id": "indian-startups-5bad622575",
+          "headline": "69% of tracked Indian startups turned profitable in FY26 as revenue jumped 44.5%",
+          "summary": "Inc42's FY26 Financial Tracker covers 84 major Indian startups: 58 (69%) were profitable, generating a combined net profit of Rs13,835.2 crore, while the remaining 26 posted a combined loss of Rs20,332.1 crore — profitability remains concentrated, not universal. Combined operating revenue across the 84 companies grew 44.5% year-on-year to Rs3.1 lakh crore, and 22 new-age tech companies went public in FY26, up from 13 in FY25. Notable swings: Ather Energy cut its net loss 36% to Rs517.2 crore on 62.8% revenue growth; BlueStone posted its first fully profitable year (Rs13.2 crore profit versus a Rs221.8 crore loss); Meesho cut its loss 65.6% to Rs1,357.7 crore; Groww posted a Rs2,083 crore profit, up 14.2% year-on-year. By contrast, Zepto's loss widened 25.7% to Rs5,905.2 crore even as revenue more than doubled, PhonePe's loss grew 62% to Rs2,792 crore despite 11.5% revenue growth, and Swiggy's loss widened 33.3% to Rs4,154 crore on 51.4% revenue growth.",
+          "signal": [
+            "The FY26 story is bifurcation, not a sector-wide profitability turn: quick-commerce and hyperlocal players are still burning heavily even while growing fast, while fintech infra, D2C and logistics names are converting growth into profit.",
+            "A useful scorecard for which business models the market is actually rewarding right now."
+          ],
+          "key_stat": "69% · profitable",
+          "developing": false,
+          "badge": "DATA"
+        },
+        {
+          "id": "indian-startups-159d6dee23",
+          "headline": "US startup raises $180M to drill 5km+ deep for superhot geothermal power",
+          "summary": "Quaise Energy closed a $180M Series B — including $35M from oilfield driller Nabors Industries — bringing its total funding to $280M, to fund its Obsidian Project in Oregon, which aims to build the world's first commercial superhot geothermal plant. Quaise's technology uses a gyrotron, a millimeter-wave beam originally developed to heat plasma in fusion reactors, to vaporize rock without a drill bit — MIT engineer Paul Woskov spent 14 years developing the concept, and the company calls the process \"contactless rock ablation.\" It has drilled over 100 meters of granite in Central Texas test wells and is approaching 1km depth there; the Oregon site, near the Newberry volcano, has an unusually steep geothermal gradient of about 100°C per kilometre, putting 300-500°C rock within roughly 5km instead of the 10km typical elsewhere. Phase I targets 315-365°C rock and 50MW of power on the grid by 2030; Phase II targets 250MW, with gigawatt scale discussed longer-term. For context, the Soviet Kola Superdeep Borehole reached 12,262 metres over two decades (1970-1989) but was abandoned in 1994 after rock behaved unpredictably above 180°C and no drill bit could survive the conditions — Quaise's bet is that a contactless beam sidesteps that failure mode entirely.",
+          "signal": [
+            "If it works, superhot geothermal could deliver several times the output of a conventional geothermal well from a single well — a potential unlock for firm, always-on clean power, unlike solar or wind.",
+            "Still unproven past roughly 1km in test conditions; the real test is whether the beam holds up at 5km and 500°C, not the funding round itself."
+          ],
+          "key_stat": "$180M · Series B",
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "india-deep-tech",
+      "stories": [
+        {
+          "id": "india-deep-tech-84b4ddebc3",
+          "headline": "IndiGo's venture arm invests in Sarvam AI as part of ongoing Series B",
+          "summary": "IndiGo Ventures, IndiGo's corporate venture arm, has invested in Sarvam AI's Series B, deepening an existing partnership in which Sarvam's voice and agentic AI already supports IndiGo's passenger and employee-facing tools. Sarvam announced a $234M first close of that Series B in June at a $1.5bn post-money valuation, with HCLTech and Bessemer Venture Partners joining existing backers Khosla Ventures and Peak XV Partners — up sharply from Sarvam's $41M Series A in December 2023, led by Lightspeed. Sarvam, founded in 2023 by Vivek Raghavan and Pratyush Kumar, builds frontier AI models plus infrastructure for training and running them, with the new capital earmarked for agentic AI, coding and cybersecurity applications. IndiGo Ventures separately runs a Rs600 crore SEBI-approved investment fund (including a Rs300 crore green-shoe option) and has also put Rs10 crore into Bengaluru eVTOL startup Sarla Aviation.",
+          "signal": [
+            "A strategic corporate investor buying into Sarvam is a stronger deployment signal than the funding number alone — it means Sarvam's models are already running in a real, safety-critical operational environment, not just enterprise pilots.",
+            "Worth tracking as a template: Indian corporates taking venture stakes in domestic model builders they're already deploying is a distinctly Indian pattern relevant to the founder's-office context."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-d3ce43a794",
+          "headline": "Andreessen Horowitz raises $1.1B fund for AI chips, data centers and robotics",
+          "summary": "Andreessen Horowitz's new Machine Age Fund is $1.1bn — its first vehicle dedicated purely to AI's physical infrastructure (chips, storage, networking, data centers, power systems and robotics) rather than models or software. General partner David George: \"we've never seen a compute transition this big move this fast.\" GP Erik Torenberg frames it as rebuilding AI's physical infrastructure \"from the ground up,\" with robotics included as AI moves into physical machines.",
+          "signal": [
+            "Confirms the capital rotation from AI models/apps toward physical infrastructure is now a fund-level thesis at one of the largest VCs.",
+            "That's the same pool of global capital India's own chip, data-center and robotics buildout is competing for."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-4847fad061",
+          "headline": "Bengaluru drone startup founded by a 21-year-old raises $37M Series A",
+          "summary": "Airbound, founded by Naman Pushp — who started building drones out of boredom during the 2020 lockdown at 15 — has raised $37M in a Series A led by Greenoaks, taking total funding to nearly $50M. Airbound has completed more than 13,000 autonomous flights across Bengaluru and Guntur, including over 1,000 for Narayana Health, whose new Banashankari hospital in Bengaluru was built without a diagnostic lab, relying entirely on Airbound's drones to move blood samples. In Andhra Pradesh, Airbound plans to connect Amaravati, Vijayawada and Guntur with a long-term target of 10,000 flights a day.",
+          "signal": [
+            "Real operational proof rather than pilot-stage demos — the deployment bar deep-tech stories should be held to."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-deep-tech-e2e004404a",
+          "headline": "Sarvam AI co-founder named to TIME's 100 most influential AI leaders",
+          "summary": "Sarvam AI co-founder Vivek Raghavan was named one of TIME's 100 most influential AI leaders. Sarvam — now backed by HCLTech and Nvidia at a roughly $1.5bn valuation — was selected by the IndiaAI Mission to build the country's first sovereign LLM ecosystem, including an open-source 120-billion-parameter model aimed at governance and public-service use cases like \"2047: Citizen Connect\" and AI4Pragati; it has already launched two large language models trained specifically on Indian languages.",
+          "signal": [
+            "A recognition story more than a news story — a marker of Sarvam's rising global profile, which tends to precede further funding and partnership announcements like the IndiGo Ventures investment above."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "global-economics",
+      "stories": [
+        {
+          "id": "global-economics-d103e66231",
+          "headline": "India's >7% growth still falls short of Modi's developed-nation target",
+          "summary": "India likely grew at more than 7% last quarter — a pace most major economies would envy — but Bloomberg Economics argues that may still be too slow to deliver Prime Minister Modi's ambition of reaching developed-nation status.",
+          "signal": [
+            "Best-in-class emerging-market growth alone isn't enough to close a decades-long income gap."
+          ],
+          "developing": false
+        },
+        {
+          "id": "global-economics-fa6b0c2569",
+          "headline": "Bond investors grow wary as bets build around a possible Fed rate hike",
+          "summary": "Bond investors have grown wary after bets built that a Warsh Fed chairmanship could mean the Federal Reserve is poised to hike rates. (source unreachable — headline only)",
+          "signal": [
+            "Only the headline reached us — no detail on the actual rate move, timeline or bond-market reaction beyond \"wary.\""
+          ],
+          "developing": true
+        },
+        {
+          "id": "global-economics-95bce63559",
+          "headline": "US-Canada tariff war reshapes metals markets — but the 'winners' are more fragile than they look",
+          "summary": "US tariffs of 50% on a wide range of Canadian goods triggered Canadian retaliatory tariffs of 15-50% on $20bn of US goods across more than 700 product lines, effective September 8, covering dairy, seafood, appliances, wood/paper and clothing. Steel and materials stocks (Nucor, Steel Dynamics, Cleveland-Cliffs, Century Aluminum) jumped after talks broke down — the VanEck Steel ETF rose 1.6% in a day and the materials-sector SPDR hit an all-time high — but both ended the week roughly flat, even though they're up 28%+ and 18%+ respectively year-to-date. Analysts note the sectors aren't equally exposed: Nucor and Cleveland-Cliffs run electric-arc furnaces that never touch Canadian ore, so they structurally benefit, while Century Aluminum remains exposed because thin US primary aluminum capacity still depends on imported alumina and semi-finished product crossing the border. Moody's says the auto sector has \"no winners\" because parts cross the US-Canada border multiple times during production, and each crossing compounds the tariff cost; new smelter capacity to replace Canadian aluminum imports takes years to build. Consultants report supply chains shifting in ways companies say won't reverse even if tariffs later ease.",
+          "signal": [
+            "The stock pop in steel and aluminum is a repricing reflex, not evidence of durable economic benefit — the real exposure depends on who controls their own feedstock, which few companies fully do.",
+            "The auto sector, given multi-crossing supply chains, is the segment to watch for real earnings damage, not the metals-stock headlines."
+          ],
+          "developing": true
+        }
+      ]
+    },
+    {
+      "slug": "india",
+      "stories": [
+        {
+          "id": "india-58afc91c7f",
+          "headline": "Government mandates one standard time across banking, telecom and railways",
+          "summary": "The government has mandated a uniform standard time across banking, telecom, and railways. (source unreachable — headline only)",
+          "signal": [
+            "Only the headline reached us — no detail on enforcement, timeline or penalties yet."
+          ],
+          "developing": false
+        },
+        {
+          "id": "india-37a0ff56bd",
+          "headline": "India's UPI payments system turns ten — and needs a sustainable revenue model",
+          "summary": "India's digital payments system UPI has turned ten years old, and the article argues it must start generating revenue to sustain itself going forward. (source unreachable — headline only)",
+          "signal": [
+            "Only the headline reached us — no specific numbers or proposed revenue models.",
+            "The underlying question — who pays for \"free\" UPI rails long-term — is a real, recurring one in Indian fintech worth a follow-up."
+          ],
+          "developing": false
+        }
+      ],
+      "also": [
+        { "id": "india-2752862cf9", "line": "IISER Pune students enter fourth day of protest over mental-health support and hostel rules after a student's death" }
+      ]
+    },
+    {
+      "slug": "world",
+      "stories": [
+        {
+          "id": "world-d1fd3bc001",
+          "headline": "US strikes 25-year deal for 55% control of Venezuela's oil, eyes 65bn barrels",
+          "summary": "The US and Venezuela have struck a deal covering more than 65 billion barrels of proven reserves across 17 strategic oil fields, running 25 years, under which the US government retains 55% control of a joint venture holding a 100-year concession. Interim President Delcy Rodriguez says it brings more than $100bn in investment and over $209bn in taxes for Venezuela over its life. Analysts say there is \"no precedent\" for a government leasing another sovereign nation's oil fields this way, and Venezuela's heavy, sour crude doesn't easily substitute for the light, sweet oil US refineries need for petrol.",
+          "signal": [
+            "Installs the US as operator, not just buyer, of a sovereign nation's largest resource — treat the \"historic deal\" framing skeptically until the contract text surfaces.",
+            "Analysts agree it won't move global oil supply for at least a year."
+          ],
+          "developing": true
+        },
+        {
+          "id": "world-61d0db5498",
+          "headline": "NASA launches Nancy Grace Roman Space Telescope, 100x Hubble's field of view",
+          "summary": "NASA's Nancy Grace Roman Space Telescope launched from Kennedy Space Center on a SpaceX rocket, separating roughly 30 minutes after launch and beginning a 100-day journey to a vantage point about one million miles from Earth — roughly four times farther than the Moon, in the same general orbit region as James Webb. Roman's field of view is 100 times larger than both Hubble and James Webb, per NASA; administrator Nicky Fox says it could discover \"tens of thousands, maybe even 100,000\" new exoplanets. Mission goals include investigating dark energy and dark matter, thought to make up about 95% of the universe, mapping billions of galaxies, studying black holes, and characterizing exoplanet atmospheres for habitability signals. It has a five-year primary mission with a goal of operating for ten.",
+          "signal": [
+            "The 100x field-of-view jump is the real story — a survey instrument built to catch rare, large-scale patterns that narrower telescopes structurally can't, not just a \"better JWST.\"",
+            "Pure science context; a clean marker of where big physical-science capital is still flowing alongside the AI buildout."
+          ],
+          "key_stat": "100x · Hubble's FOV",
+          "developing": false
+        },
+        {
+          "id": "world-c2ec09c1ed",
+          "headline": "India to host first Global-South AI summit; 20 heads of state confirmed",
+          "summary": "The India-AI Impact Summit 2026 — billed as the first global AI summit hosted in the Global South — will be held in New Delhi; the article states it runs \"from the 16th to the 20th of this month.\" Confirmed attendees include France's Macron, Brazil's Lula, Spain's Sanchez, Switzerland's Parmelin, the Netherlands' Schoof, Abu Dhabi's Crown Prince Sheikh Khaled bin Mohamed bin Zayed, and the leaders of Mauritius, Sri Lanka, Seychelles and Bhutan; ministerial delegations from over 45 countries and the UN Secretary-General will also attend. Across five days and more than 700 sessions, delegates will cover AI safety, sovereign AI and proposals for an \"AI Commons\" and shared compute infrastructure.",
+          "signal": [
+            "India's biggest AI-diplomacy event to date — positioning Delhi as a broker between US/China AI blocs rather than just a market for their models."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "other-interests",
+      "stories": [
+        {
+          "id": "other-interests-369b4bd145",
+          "headline": "R Praggnanandhaa becomes first Indian to win the Grand Chess Tour",
+          "summary": "Indian GM R. Praggnanandhaa won the 2026 Grand Chess Tour, beating defending champion Fabiano Caruana 15-13 in the St. Louis final — the first Indian to win the Tour. He trailed by six points entering the final day, won both rapid games to take the lead, then held on through four blitz games to seal it, having earlier lost the first classical game before drawing the second to stay alive. The win carries a $200,000 prize and a guaranteed spot in next year's Tour. In the third-place match, Wesley So beat Vincent Keymer 18-12, sweeping all four blitz games after the two shared the rapid stage.",
+          "signal": [
+            "A genuine \"first\" for Indian chess at the sport's biggest tour-level event, on top of India's broader recent chess-talent wave."
+          ],
+          "developing": false
+        },
+        {
+          "id": "other-interests-1939b4aca3",
+          "headline": "Carnegie Mellon's NeuroAI push: AI models now predict how the visual cortex responds to images",
+          "summary": "CMU's Neuroscience Institute is using deep neural networks, originally built for computer vision, to predict human visual-cortex responses from fMRI data — the networks' internal representations closely mirror real brain activity patterns, per researcher Maggie Henderson. The Simons Collaboration on Ecological Neuroscience (SCENE) is a ten-year, $80M initiative building mathematical theories of how brains turn perception into action, with CMU's Xaq Pitkow working to link neural recordings to computational models. The related MICrONS project has produced a detailed reconstruction of one cubic millimetre of mouse brain tissue — roughly 200,000 cells and more than 500 million connections — as training and validation data for these models. CMU's Jenelle Feather is separately building \"stimulus-computable\" models of the auditory system to simulate hearing loss and improve hearing-aid and cochlear-implant algorithms.",
+          "signal": [
+            "AI architectures built for computer vision are turning out to double as decent models of biological vision, and that overlap is now funded at real scale ($80M+ across SCENE/MICrONS).",
+            "Not a product story, but relevant to understanding what current AI models are and aren't capturing about intelligence."
+          ],
+          "developing": false
+        },
+        {
+          "id": "other-interests-0889d61447",
+          "headline": "Olivia Rodrigo's new all-female festival raises $20M for women's causes",
+          "summary": "Olivia Rodrigo's inaugural Daisy Chain Fields festival in Irvine, California — inspired by Lilith Fair — featured Rodrigo performing \"Landslide\" with Stevie Nicks, plus duets with Alanis Morissette and Sarah McLachlan, alongside a lineup including Chappell Roan, Bikini Kill, Doechii and Mitski. The festival raised $20M for women's causes — $10M through tickets and $10M matched by Melinda Gates — benefiting groups including the Center for Reproductive Rights and Planned Parenthood.",
+          "signal": [
+            "A notable revival of the Lilith Fair format with real fundraising scale behind it, not just a nostalgia lineup."
+          ],
+          "developing": false
+        }
+      ]
+    },
+    {
+      "slug": "beyond-your-beat",
+      "stories": [
+        {
+          "id": "beyond-your-beat-45da1cdb85",
+          "headline": "Subhash Chandra's creditors to recover just Rs6.5 crore against Rs22,006 crore in claims",
+          "summary": "The National Company Law Tribunal approved a personal-insolvency repayment plan for Essel Group founder Subhash Chandra on August 25: Rs6.25 crore to creditors plus Rs25 lakh toward resolution costs, against admitted claims of Rs22,006.57 crore — a recovery of about 0.03%, or a roughly 99.97% haircut. The case concerned Chandra's liability as a personal guarantor, not the Essel Group corporate entity itself. Some creditors, including HDFC Bank, oppose the plan and are considering an appeal.",
+          "signal": [
+            "One of the most extreme recovery ratios seen in a major Indian personal-insolvency case — a stark data point on how weak personal-guarantee enforcement can be in practice, regardless of the formal claim size."
+          ],
+          "developing": true
+        },
+        {
+          "id": "beyond-your-beat-de86a277db",
+          "headline": "'Spider-Man: Brand New Day' becomes third highest-grossing film ever, at $2.33B",
+          "summary": "'Spider-Man: Brand New Day' passed 'Avatar: The Way of Water' (about $2.32bn) to become the third-highest-grossing film of all time at $2.33bn worldwide, topping the North American box office for a fifth straight weekend with $22.2M and a domestic total of $891M. The all-time top five: 'Avatar' ($2.92bn), 'Avengers: Endgame' ($2.79bn), 'Spider-Man: Brand New Day' ($2.33bn), 'Avatar: The Way of Water' ($2.32bn) and 'Titanic' ($2.25bn). Tom Holland becomes the third highest-grossing actor of all time, behind Zoe Saldana and Scarlett Johansson, and the youngest on that list at 30. The film needs $936M domestically to pass 'Star Wars: The Force Awakens' for the all-time North American record, and $1bn domestic to become the first film ever to cross that mark.",
+          "signal": [
+            "A pure box-office record story, filed as light context."
+          ],
+          "developing": false
+        }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opportunities-6804bc5e6c",
+      "name": "GaiaLink Climate Communication Fellowship — Cohort 2",
+      "when": "Applications close 2 September 2026; programme runs 5 September – 17 October 2026 (hybrid, Delhi-NCR)",
+      "summary": "A six-week hybrid fellowship — weekday online sessions plus weekend Delhi-NCR field visits — for Indians aged 18-35, combining climate science, behavioural psychology and campaign-building to practice turning climate research into public-facing narrative. Fee: Rs6,999. Worth it for anyone who wants structured practice at storytelling and campaign strategy, a skill set that transfers directly to communications-adjacent or founder's-office work."
+    }
+  ]
+}
