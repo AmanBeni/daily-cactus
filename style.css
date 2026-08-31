@@ -30,6 +30,12 @@
   --brown:#6B4A2E;         /* Editor's Read + links */
   --sig:var(--graphite);   /* The Signal: one colour page-wide (was per-section) */
 
+  /* SHADOW CONVENTION — the light source is the top-left corner sun, so EVERY
+     shadow on the page falls to the bottom-right (positive x, positive y). Keep
+     this angle constant everywhere; use these tokens rather than ad-hoc offsets. */
+  --shadow-card:3px 7px 18px rgba(38,34,27,.10), 1px 2px 3px rgba(38,34,27,.06);
+  --shadow-logo:3px 4px 3px rgba(38,34,27,.30);
+
   /* Classic system faces — Georgia for text, American Typewriter for chrome. */
   --serif:Georgia,"Times New Roman",serif;
   --body:Georgia,"Times New Roman",serif;
@@ -52,35 +58,49 @@ a{color:inherit}
    long lines — the card grows, the text column doesn't. */
 .wrap{max-width:min(2200px,96vw);margin:0 auto;padding:32px clamp(16px,2vw,40px) 96px}
 
+/* decorative corner sun: the file is already oriented disc-in-top-left with the
+   rays fanning down-right into the page (EXIF orientation baked in), so it needs
+   NO rotation. Absolute so it scrolls away with the masthead; never blocks clicks. */
+.corner-sun{position:absolute;top:0;left:0;width:clamp(74px,8vw,118px);height:auto;
+  z-index:1;pointer-events:none;user-select:none}
+@media(max-width:699px){.corner-sun{width:clamp(53px,16vw,83px)}}
+
 /* ---------- masthead: large riso wordmark + cactus beside it ---------- */
 .masthead{text-align:center;margin-bottom:8px}
 .masthead-lockup{display:flex;align-items:center;justify-content:center;
   gap:clamp(10px,2vw,26px)}
-.wordmark{display:block;max-width:min(680px,82vw);width:100%;height:auto}
+.wordmark{display:block;max-width:min(748px,90vw);width:100%;height:auto}  /* +10% */
 .masthead-cactus{width:clamp(44px,6.5vw,74px);height:auto;flex:none;
-  filter:drop-shadow(0 2px 2px rgba(0,0,0,.15))}
-.dateline{font-family:var(--stamp);font-size:13px;letter-spacing:2.5px;
+  filter:drop-shadow(var(--shadow-logo))}
+.dateline{font-family:var(--stamp);font-size:12px;letter-spacing:2.5px;
   text-transform:uppercase;color:var(--faded);margin-top:10px;text-align:center}
 .dateline span{white-space:nowrap}
 
 /* ---------- date picker / controls (kept functional, restyled) ---------- */
 .datebar{display:flex;justify-content:center;align-items:center;gap:10px;
-  padding:6px 0 2px;font-family:var(--stamp);font-size:11px;color:var(--faded);
+  padding:6px 0 2px;font-family:var(--stamp);font-size:12px;color:var(--faded);
   max-width:100%;flex-wrap:wrap}
-.datebar select{font-family:var(--stamp);font-size:11px;background:var(--card);
+.datebar select{font-family:var(--stamp);font-size:12px;background:var(--card);
   color:var(--ink);border:1px solid var(--rule);border-radius:3px;padding:3px 8px;
   /* long option labels used to force the select wider than a phone screen. */
   max-width:min(72vw,420px);text-overflow:ellipsis}
 
 /* ---------- section nav: green menu bar, cream text ---------- */
 nav#nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;
-  padding:11px 16px;margin:12px 0 4px;font-family:var(--stamp);font-size:11px;
+  padding:11px 16px;margin:12px 0 4px;font-family:var(--stamp);font-size:12px;
   letter-spacing:1.5px;text-transform:uppercase;position:sticky;top:0;
   background:var(--riso-green);color:#F4EEDD;border-radius:3px;z-index:5;
   transition:transform .28s ease}
-/* Auto-hide: slide the bar up while scrolling down, bring it back on scroll up. */
-nav#nav.nav-hidden{transform:translateY(-135%)}
-@media(prefers-reduced-motion:reduce){nav#nav{transition:none}}  /* still hides, just no slide */
+/* Auto-hide is MOBILE-ONLY: on desktop the bar stays fixed at the top. On mobile
+   it slides up while scrolling down and returns on scroll up (see app.js). */
+@media(max-width:699px){nav#nav.nav-hidden{transform:translateY(-135%)}}
+@media(prefers-reduced-motion:reduce){nav#nav{transition:none}}
+/* A kraft strip that rides just below the sticky nav, so scrolling article
+   content never butts right up against the bar — keeps the same little gap the
+   page shows at the top. Invisible at rest (kraft on kraft); masks content when
+   the bar is stuck. */
+nav#nav::after{content:"";position:absolute;left:0;right:0;top:100%;height:12px;
+  background:var(--kraft);pointer-events:none}
 nav#nav a{color:#F4EEDD;text-decoration:none;cursor:pointer;padding-bottom:1px;
   border-bottom:1px solid transparent}
 nav#nav a:hover,nav#nav a:focus-visible{border-bottom-color:#F4EEDD}
@@ -88,7 +108,7 @@ nav#nav .sep{color:rgba(244,238,221,.5)}   /* separators visible on green */
 
 /* ---------- markets stat bar ---------- */
 .markets{display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center;
-  font-family:var(--stamp);font-size:13px;padding:8px 4px;margin:14px 0 8px;
+  font-family:var(--stamp);font-size:12px;padding:8px 4px;margin:14px 0 8px;
   border-top:1.5px solid var(--rule);border-bottom:1.5px solid var(--rule);color:var(--ink)}
 .markets .q b{font-weight:700}
 .markets .up::after{content:" \25B2";color:#4c7a4c}
@@ -96,7 +116,7 @@ nav#nav .sep{color:rgba(244,238,221,.5)}   /* separators visible on green */
 
 /* ---------- warm cards on kraft: shadow IS the edge ---------- */
 .card{background:var(--card);border-radius:3px;padding:18px 24px;
-  box-shadow:0 1px 2px rgba(78,64,40,.10),0 6px 18px rgba(78,64,40,.05)}
+  box-shadow:var(--shadow-card)}   /* bottom-right, per the shadow convention */
 
 /* v6 layout: CSS multi-column instead of CSS grid.
    CSS grid forces every card in a row to the height of the TALLEST card in
@@ -115,7 +135,7 @@ nav#nav .sep{color:rgba(244,238,221,.5)}   /* separators visible on green */
 .pack{display:flex;flex-wrap:wrap;gap:22px;margin-top:24px;align-items:stretch}
 .pack > .story{flex:1 1 calc(50% - 11px);min-width:0;margin:0;
   display:flex;flex-direction:column}
-@media(min-width:1300px){.pack > .story{flex-basis:calc(33.333% - 15px)}}
+@media(min-width:1500px){.pack > .story{flex-basis:calc(33.333% - 15px)}}
 @media(max-width:699px){.pack{gap:18px}.pack > .story{flex-basis:100%}}
 /* push the Read/Ask bar to the bottom edge so short cards read as full */
 .pack > .story .card-collapse{display:flex;flex-direction:column;flex:1 1 auto}
@@ -169,7 +189,7 @@ nav#nav .sep{color:rgba(244,238,221,.5)}   /* separators visible on green */
    itself is capped instead, which keeps the lines that DO run full width
    readable. The v6 bullet format helps here too — `points` are 15-30 words, so
    a wide line under the photo is a short bullet, not a long paragraph. */
-.story.lead-story{max-width:1180px}
+.story.lead-story{max-width:none}   /* fill the width like the section grids */
 .story.lead-story h5,
 .story.lead-story p.hook,
 .story.lead-story p.summary,
@@ -379,10 +399,19 @@ a.sk:hover{text-decoration-thickness:1.5px}
 .colo{text-align:center;font-family:var(--stamp);font-size:11px;color:var(--faded);
   margin-top:48px;padding-top:16px;border-top:1.5px solid var(--rule)}
 .colo svg{width:14px;height:18px;vertical-align:-4px;margin-left:6px}
-.colo-logo{height:26px;width:auto;vertical-align:-8px;margin-left:8px}
+.colo-logo{height:26px;width:auto;vertical-align:-8px;margin-left:8px;
+  filter:drop-shadow(var(--shadow-logo))}
 
 /* ---------- states ---------- */
 .status{text-align:center;padding:64px 20px;font-family:var(--stamp);color:var(--faded)}
+
+/* mobile "optimized for desktop" toast — shows for 3s on load, then fades */
+.mobile-toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,16px);
+  background:var(--riso-green);color:#F4EEDD;font-family:var(--stamp);font-size:12px;
+  letter-spacing:1px;text-transform:uppercase;padding:10px 18px;border-radius:22px;
+  box-shadow:0 6px 20px rgba(0,0,0,.22);opacity:0;z-index:60;pointer-events:none;
+  max-width:86vw;text-align:center;transition:opacity .4s ease,transform .4s ease}
+.mobile-toast.show{opacity:1;transform:translate(-50%,0)}
 
 /* 3.7: smooth scrolling for nav jumps / anchors. */
 html{scroll-behavior:smooth}
@@ -421,9 +450,9 @@ html{scroll-behavior:smooth}
 @media(max-width:480px){
   .wrap{padding:20px 14px 72px}
   .masthead svg{max-width:320px}
-  .markets{gap:6px 14px;font-size:11px}
+  .markets{gap:6px 14px}
   .card{padding:14px 16px}
-  nav#nav{gap:4px 12px;font-size:11px}
+  nav#nav{gap:4px 12px}
   .story h5{font-size:19px}
   .story.lead-story h5{font-size:22px}
 }
