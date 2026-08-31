@@ -63,8 +63,11 @@ window.daily.toggleCard = function (btn) {
   // keep both the top and bottom toggles in sync
   card.querySelectorAll(".card-toggle").forEach((t) =>
     t.setAttribute("aria-expanded", open ? "true" : "false"));
-  // collapsing via the bottom "Show less" — bring the card's top back into view
+  // collapsing via the bottom "Show less" — bring the card's top back into view,
+  // and suppress the nav auto-hide briefly so this upward scroll doesn't pop the
+  // nav bar back into view.
   if (!open && btn.classList.contains("card-toggle-bottom")) {
+    window.daily._navSuppressUntil = Date.now() + 900;
     card.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 };
@@ -703,7 +706,7 @@ function packAll() {
   // Column count follows the CSS media-query breakpoints (viewport width), so
   // the leftover math matches what the flexbox actually lays out.
   const vw = window.innerWidth;
-  const cols = vw >= 1300 ? 3 : vw >= 700 ? 2 : 1;
+  const cols = vw >= 1500 ? 3 : vw >= 700 ? 2 : 1;
   document.querySelectorAll(".pack").forEach(pack => {
     const cards = Array.from(pack.children).filter(c => c.classList.contains("story"));
     cards.forEach(c => c.classList.remove("wide", "wide-fig", "wide-txt"));
@@ -800,25 +803,60 @@ async function init() {
 
   setupKeyboardNav();
   setupNavAutoHide();
+  showMobileNotice();
 }
 
 // Nav bar auto-hide: slides up when the reader scrolls down, returns on scroll
 // up. Always shown near the very top. rAF-throttled; small delta kills jitter.
+// Nav bar: fixed at the top on desktop (never hides). On mobile it stays in
+// place until you scroll PAST it (a sentinel just above it detects when it
+// becomes stuck), then hides on scroll-down and returns on scroll-up. A short
+// suppression window stops a programmatic scroll (e.g. "Show less") from popping
+// the nav back into view.
+window.daily._navSuppressUntil = 0;
 function setupNavAutoHide() {
   const nav = $("#nav");
   if (!nav) return;
+  // 1px sentinel right before the nav: while it's visible the nav isn't stuck.
+  const sentinel = document.createElement("div");
+  sentinel.setAttribute("aria-hidden", "true");
+  sentinel.style.cssText = "height:1px;margin-bottom:-1px";
+  nav.parentNode.insertBefore(sentinel, nav);
+  let stuck = false;
+  new IntersectionObserver(([e]) => {
+    stuck = !e.isIntersecting;
+    if (!stuck) nav.classList.remove("nav-hidden");
+  }, { threshold: 0 }).observe(sentinel);
+
   let lastY = window.scrollY, ticking = false;
   const update = () => {
+    ticking = false;
+    if (window.innerWidth >= 700) { nav.classList.remove("nav-hidden"); return; } // desktop: fixed
+    if (Date.now() < window.daily._navSuppressUntil) { lastY = window.scrollY; return; }
     const y = window.scrollY;
-    if (y < 80) nav.classList.remove("nav-hidden");
-    else if (y > lastY + 6) nav.classList.add("nav-hidden");     // scrolling down
+    if (!stuck) nav.classList.remove("nav-hidden");
+    else if (y > lastY + 6) nav.classList.add("nav-hidden");     // scrolling down, stuck
     else if (y < lastY - 6) nav.classList.remove("nav-hidden");  // scrolling up
     lastY = y;
-    ticking = false;
   };
   addEventListener("scroll", () => {
     if (!ticking) { requestAnimationFrame(update); ticking = true; }
   }, { passive: true });
+  addEventListener("resize", () => { if (window.innerWidth >= 700) nav.classList.remove("nav-hidden"); });
+}
+
+// On phones, a small toast that fades after 3s: the paper is built for desktop.
+function showMobileNotice() {
+  if (window.innerWidth >= 700) return;
+  const t = document.createElement("div");
+  t.className = "mobile-toast";
+  t.textContent = "Website optimized for desktop";
+  document.body.appendChild(t);
+  requestAnimationFrame(() => t.classList.add("show"));
+  setTimeout(() => {
+    t.classList.remove("show");
+    setTimeout(() => t.remove(), 450);
+  }, 3000);
 }
 
 // keyboard j/k to jump between story cards
